@@ -586,15 +586,16 @@ function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els
  $('dBuy').textContent=open1?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dAlt').hidden=!open1;
  const sw=$('dSw');sw.innerHTML='';if(p.frames)p.frames.forEach(([n,c,src],k)=>{const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c;b.title=n+' frame';b.setAttribute('aria-label',n+' frame');b.setAttribute('aria-pressed',k===0);
   b.onclick=()=>{frameIdx=k;sw.querySelectorAll('.sw').forEach(x=>x.setAttribute('aria-pressed',x===b));imgOf(i).src=src;const fl=$('fly');if(fl)fl.src=src};sw.appendChild(b)});
+ const old=$('fly');if(old){gsap.killTweensOf(old);old.remove();els.forEach((_,k)=>imgOf(k).style.visibility='')}
  const wide=innerWidth>=860,img=imgOf(i),r=img.getBoundingClientRect();
  const tw=wide?innerWidth*.58:innerWidth*.94,th=tw*r.height/r.width;
  const tx=wide?innerWidth*.05:innerWidth*.03,ty=wide?(innerHeight-th)/2:64;if(!wide)$('detail').style.setProperty('--dtop',(64+th+18)+'px');
  const fly=document.createElement('img');fly.className='fly';fly.src=img.src;fly.alt='';fly.id='fly';fly.style.width=r.width+'px';
  document.body.appendChild(fly);fly.__home=r;gsap.set(fly,{x:r.left,y:r.top});img.style.visibility='hidden';
- gsap.to(els.filter((_,k)=>k!==i),{opacity:0,duration:.5,pointerEvents:'none'});
- gsap.to(els[i].querySelector('.cap'),{opacity:0,duration:.3});
+ gsap.to(els.filter((_,k)=>k!==i),{opacity:0,duration:.5,pointerEvents:'none',overwrite:true});
+ gsap.to(els[i].querySelector('.cap'),{opacity:0,duration:.3,overwrite:true});
  gsap.to(fly,{x:tx,y:ty,scale:tw/r.width,duration:1.1,ease:'power3.inOut'});
- const d=$('detail');d.style.visibility='visible';d.scrollTop=0;gsap.to(['#colhead','#reelnav'],{opacity:0,duration:.3,pointerEvents:'none'});gsap.fromTo(d,{opacity:0,y:wide?'-46%':16},{opacity:1,y:wide?'-50%':0,duration:.8,delay:.45,ease:'power3.out'});
+ const d=$('detail');d.style.visibility='visible';d.scrollTop=0;gsap.to(['#colhead','#reelnav'],{opacity:0,duration:.3,pointerEvents:'none',overwrite:true});gsap.fromTo(d,{opacity:0,y:wide?'-46%':16},{opacity:1,y:wide?'-50%':0,duration:.8,delay:.45,ease:'power3.out',overwrite:true});
 }
 function closeDetail(now){if(cur<0)return;const i=cur;cur=-1;const d=$('detail'),t=now?0:1;
  gsap.to(d,{opacity:0,duration:.3*t,onComplete:()=>d.style.visibility='hidden'});
