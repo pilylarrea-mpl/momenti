@@ -394,7 +394,7 @@ const HANDLE='@momenti';
 const COLLECTION='Fuori Quadro';   // the name of Collection I
 const DEPOSIT=100;
 // Google Form that receives pre-orders and sign-ups: paste its pre-filled link here (Get pre-filled link, type x in the answer, Copy link).
-const GFORM_LINK='';
+const GFORM_LINK='https://docs.google.com/forms/d/e/1FAIpQLSeONbYOnSwdN1Uki36nq-w7KDfATfEsdxRLsXfywLD4ObGAkA/viewform?usp=pp_url&entry.1860604233=x';
 function gform(){const m=GFORM_LINK.match(/forms\/d\/e\/([^/]+)\/viewform.*?[?&](entry\.\d+)=/);return m?{action:`https://docs.google.com/forms/d/e/${m[1]}/formResponse`,field:m[2]}:null}
 async function toGoogle(text){const g=gform();if(!g)return false;
  try{await fetch(g.action,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({[g.field]:text}).toString()});return true}catch(_){return false}}
