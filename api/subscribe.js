@@ -1,5 +1,8 @@
-// Adds someone to the House List: emails the studio, and adds them to a Resend audience if one is set.
-// Environment variables: RESEND_API_KEY, ORDER_EMAIL, optional RESEND_AUDIENCE_ID and FROM_EMAIL.
+// Adds someone to the House List: sends them to the Google Form in _gform.js, emails the studio
+// when RESEND_API_KEY and ORDER_EMAIL are set, and adds them to a Resend audience if RESEND_AUDIENCE_ID is set.
+// Optional: FROM_EMAIL. Answers ok only when the Google Form or the email really took it.
+
+const toGoogle = require('./_gform');
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Use POST' });
@@ -7,18 +10,24 @@ module.exports = async (req, res) => {
   const email = String(o.email || '').trim();
   const topics = Array.isArray(o.topics) ? o.topics.map(String).slice(0, 5) : [];
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return res.status(400).json({ error: 'Invalid email' });
+  const text = `HOUSE LIST · ${email}\nWants: ${topics.join(', ') || 'news'}\nReceived: ${new Date().toISOString()}`;
 
   const { RESEND_API_KEY, ORDER_EMAIL, RESEND_AUDIENCE_ID, FROM_EMAIL } = process.env;
-  if (!RESEND_API_KEY || !ORDER_EMAIL) return res.status(503).json({ error: 'The list is not connected yet' });
   const h = { Authorization: `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json' };
+  const byEmail = async () => {
+    if (!RESEND_API_KEY || !ORDER_EMAIL) return false;
+    if (RESEND_AUDIENCE_ID) {
+      await fetch(`https://api.resend.com/audiences/${RESEND_AUDIENCE_ID}/contacts`, { method: 'POST', headers: h, body: JSON.stringify({ email, unsubscribed: false }) }).catch(() => null);
+    }
+    const r = await fetch('https://api.resend.com/emails', {
+      method: 'POST', headers: h,
+      body: JSON.stringify({ from: FROM_EMAIL || 'Momenti <onboarding@resend.dev>', to: [ORDER_EMAIL], subject: `House List: ${email}`, text }),
+    }).catch(() => null);
+    if (r && !r.ok) console.error('Resend refused the email:', r.status, await r.text());
+    return !!(r && r.ok);
+  };
 
-  if (RESEND_AUDIENCE_ID) {
-    await fetch(`https://api.resend.com/audiences/${RESEND_AUDIENCE_ID}/contacts`, { method: 'POST', headers: h, body: JSON.stringify({ email, unsubscribed: false }) });
-  }
-  const r = await fetch('https://api.resend.com/emails', {
-    method: 'POST', headers: h,
-    body: JSON.stringify({ from: FROM_EMAIL || 'Momenti <onboarding@resend.dev>', to: [ORDER_EMAIL], subject: `House List: ${email}`, text: `${email}\nWants: ${topics.join(', ') || 'news'}\n${new Date().toISOString()}` }),
-  });
-  if (!r.ok) return res.status(502).json({ error: 'Could not add', detail: await r.text() });
-  res.status(200).json({ ok: true });
+  const [google, sent] = await Promise.all([toGoogle(text), byEmail()]);
+  if (!google && !sent) return res.status(502).json({ error: 'Could not add' });
+  res.status(200).json({ ok: true, google, email: sent });
 };

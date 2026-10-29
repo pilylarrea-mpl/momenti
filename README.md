@@ -16,9 +16,14 @@ It's a static site (`index.html`, `img/`, `vid/`) plus two small Vercel function
 
 ## Where pre-orders and sign-ups go
 
-The simplest way: a Google Form with one Paragraph question. Get its pre-filled link (type `x` as the answer) and paste it into `GFORM_LINK` in `index.html`. Every pre-order and House List sign-up then arrives as a form response, and you can link the form to a Google Sheet.
+Both forms post to the site's own functions (`api/preorder`, `api/subscribe`), which deliver each submission to:
 
-The Resend setup above is optional once the Google Form is in.
+1. **The Google Form** in `api/_gform.js` (one Paragraph question). To swap forms, get its pre-filled link (type `x` as the answer) and paste it into `GFORM_LINK` there. Link the form to a Google Sheet, and turn on email notifications in its Responses tab.
+2. **Email via Resend**, when `RESEND_API_KEY` and `ORDER_EMAIL` are set (see above).
+
+The site only tells a customer "received" when at least one of these really took it. Otherwise it shows them a message to copy and send to you, so nothing is lost silently.
+
+The Google Form must be open to anyone: in **Publish** settings, responders must be "Anyone with the link", and in **Settings → Responses** there must be no sign-in, no verified email collection and no one-response limit. A form that requires sign-in rejects every submission.
 
 ## Edit the site
 

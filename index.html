@@ -477,11 +477,6 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
 const HANDLE='@momenti';
 const COLLECTION='Fuori Quadro';   // the name of Collection I
 const DEPOSIT=100;
-// Google Form that receives pre-orders and sign-ups: paste its pre-filled link here (Get pre-filled link, type x in the answer, Copy link).
-const GFORM_LINK='https://docs.google.com/forms/d/e/1FAIpQLSeONbYOnSwdN1Uki36nq-w7KDfATfEsdxRLsXfywLD4ObGAkA/viewform?usp=pp_url&entry.1860604233=x';
-function gform(){const m=GFORM_LINK.match(/forms\/d\/e\/([^/]+)\/viewform.*?[?&](entry\.\d+)=/);return m?{action:`https://docs.google.com/forms/d/e/${m[1]}/formResponse`,field:m[2]}:null}
-async function toGoogle(text){const g=gform();if(!g)return false;
- try{await fetch(g.action,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({[g.field]:text}).toString()});return true}catch(_){return false}}
 const FIRST_BATCH={paris:'open',rome:'full',monaco:'full',havana:'full',miami:'full',nyc:'full',tokyo:'full'};   // 'open' takes $100 deposits for the first batch
 const DEPOSIT_LINK={paris:'',rome:'',monaco:'',havana:'',miami:'',nyc:'',tokyo:''};   // paste a $100 Stripe Payment Link per piece to take deposits on the spot
 document.querySelectorAll('.handle').forEach(e=>e.textContent=HANDLE);
@@ -642,9 +637,6 @@ $('form').addEventListener('submit',async e=>{e.preventDefault();
   $('okTitle').textContent=dep?'Your place is held.':'Pre-order received.';
   $('okText').textContent=dep?(link?`Pay the $${DEPOSIT} deposit to confirm your place. Your number and delivery window follow by email.`:`A secure link for the $${DEPOSIT} deposit follows by email within a day. Your place is held for 48 hours.`):`Nothing is due today. Your number, delivery window and payment will be confirmed by email.`;
   const pay=$('okPay');pay.hidden=!(dep&&link);if(dep&&link)pay.href=link;$('drawer').scrollTop=0};
- const addr=[en.address.line1,en.address.line2,en.address.city,en.address.region,en.address.postal,en.address.country].filter(Boolean).join(', ');
- const txt=[(dep?'FIRST BATCH · $'+DEPOSIT+' DEPOSIT':'PRE-ORDER')+' · '+en.name+' ($'+en.price+')',en.piece!==p.id?'Frame: '+en.piece.split(':')[1]:'','Name: '+en.first+' '+en.last,'Email: '+en.email,'Phone: '+en.phone,'Address: '+addr,'Edition number: '+(en.number||'any'),en.note?'Note: '+en.note:'','House List: '+(en.news?'yes':'no')].filter(Boolean).join('\n');
- if(await toGoogle(txt)){done();return}
  try{const r=await fetch('/api/preorder',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(en)});if(r.ok){done();return}}catch(_){}
  try{if(!db||!user)throw 0;const uid=await user.id();if(!uid)throw 0;const ref=db.collection('preorders').doc(uid);let old={};try{const g=await ref.get();old=(g&&g.exists&&g.data&&g.data())||{}}catch(_){}
   await ref.set({...old,email:en.email,name:en.first+' '+en.last,orders:{...(old.orders||{}),[en.piece]:en},updatedAt:en.createdAt});done()}
@@ -702,7 +694,6 @@ function closePop(){$('pop').hidden=true;$('popScrim').classList.remove('on');st
 $('popClose').onclick=closePop;$('popScrim').onclick=closePop;
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('pop').hidden)closePop();if(!$('legal').hidden)closeLegal()}});
 async function subscribe(email,topics){
- if(await toGoogle('HOUSE LIST · '+email+'\nWants: '+topics.join(', ')))return true;
  try{const r=await fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,topics})});if(r.ok)return true}catch(_){}
  try{if(db&&user){const uid=await user.id();if(uid){await db.collection('preorders').doc(uid).set({...(await db.collection('preorders').doc(uid).get().then(g=>g&&g.exists?g.data():{}).catch(()=>({}))),list:{email,topics,at:new Date().toISOString()}});return true}}}catch(_){}
  return false}
