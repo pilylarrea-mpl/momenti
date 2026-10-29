@@ -13,7 +13,7 @@ module.exports = async (req, res) => {
   const missing = ['first', 'last', 'email', 'phone'].filter(k => !o[k]).concat(['line1', 'city', 'country'].filter(k => !a[k]));
   if (missing.length || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(o.email)) return res.status(400).json({ error: 'Missing or invalid fields', missing });
 
-  const kind = o.mode === 'first-batch-deposit' ? `First batch · $${o.deposit} deposit` : 'Pre-order';
+  const kind = o.mode === 'first-batch-deposit' ? `Priority I · $${o.deposit} deposit` : 'Priority II';
   const rows = [
     ['Piece', `${o.name} (${o.piece})`], ['Type', kind], ['Price', `$${o.price}`],
     ['Name', `${o.first} ${o.last}`], ['Email', o.email], ['Phone', o.phone],

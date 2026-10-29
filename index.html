@@ -311,11 +311,11 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
       <p class="lede" id="dLede"></p>
       <div class="sws" id="dSw"></div>
       <div class="batch" id="dBatch"></div>
-      <div class="acts"><a class="buy" id="dBuy" href="#preorder" role="button">Pre-order</a><button class="alt mono" type="button" id="dAlt" hidden>Pre-order without a deposit</button></div>
+      <div class="acts"><a class="buy" id="dBuy" href="#preorder" role="button">Pre-order</a><button class="alt mono" type="button" id="dAlt" hidden>Join Priority II · nothing due today</button></div>
       <div class="info">
         <details><summary class="mono">The clasp</summary><p id="dClasp"></p></details>
         <details><summary class="mono">The edition</summary><p>Made by hand in an edition of 25, numbered inside the frame. Request your number with your pre-order.</p></details>
-        <details><summary class="mono">Pre-order and delivery</summary><p>Pre-orders are made in the order received. Number, delivery and payment are confirmed by email before production.</p></details>
+        <details><summary class="mono">Pre-order and delivery</summary><p>Priority I pieces are made first, then Priority II, each in the order received. Number, delivery and payment are confirmed by email before production.</p></details>
       </div>
       <button class="back mono" type="button" id="dBack">All pieces</button>
     </div>
@@ -381,8 +381,8 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
   <div class="wrap two-col">
     <div><p class="eyebrow mono">Questions</p><h2 id="svcH">Client Services</h2><p class="lead">Write to <a class="email-link" href="#" id="svcMail"></a>. We reply within one working day.</p></div>
     <div class="faq">
-      <details><summary>How do pre-orders work?</summary><p>Send the form. Nothing is charged. Your number, delivery window and payment are confirmed by email before production.</p></details>
-      <details><summary>What is the first batch?</summary><p>The first pieces made in each edition. Where it is open, a $100 deposit holds your place and is deducted from the price. Once full, pre-orders move to the second batch.</p></details>
+      <details><summary>How do pre-orders work?</summary><p>In two steps. Priority I holds your place with a $100 deposit: your piece is among the first made, and you choose your number first. Priority II has nothing to pay today, and is made next. Either way, your number, delivery window and payment are confirmed by email before production.</p></details>
+      <details><summary>What is Priority I?</summary><p>The first pieces made in each edition. A $100 deposit holds your place and is taken off the price. Priority I opens one piece at a time, beginning with Paris. For the others, join Priority II and we write to you first when Priority I opens.</p></details>
       <details><summary>Can I get my deposit back?</summary><p>Yes, in full, until production begins. We write before it does.</p></details>
       <details><summary>When will my piece arrive?</summary><p>Each piece is made to order. Your delivery window is confirmed with your pre-order, and again at dispatch.</p></details>
       <details><summary>Where do you ship?</summary><p>Worldwide, tracked and insured. Duties are shown before payment.</p></details>
@@ -445,10 +445,10 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
   <div class="sum"><img id="sImg" alt=""><div><b id="sName"></b><span class="meta" id="sMeta"></span></div><span class="pr" id="sPrice"></span></div>
   <form id="form" novalidate>
     <fieldset class="modes" id="modes"><legend class="mono">Reserve</legend>
-      <label class="mode" for="mDeposit"><input type="radio" name="mode" id="mDeposit" value="deposit"><span><b>First batch · $100 deposit</b><span class="hint">Made in the first batch. Balance due before dispatch.</span></span></label>
-      <label class="mode" for="mPre"><input type="radio" name="mode" id="mPre" value="preorder"><span><b>Pre-order · nothing due today</b><span class="hint">Made in the next batch. Timing and payment confirmed by email.</span></span></label>
+      <label class="mode" for="mDeposit"><input type="radio" name="mode" id="mDeposit" value="deposit"><span><b>Priority I · $100 deposit</b><span class="hint">Among the first made, first choice of number. Taken off the price, refundable until production.</span></span></label>
+      <label class="mode" for="mPre"><input type="radio" name="mode" id="mPre" value="preorder"><span><b>Priority II · nothing due today</b><span class="hint">Made after Priority I. Timing and payment confirmed by email.</span></span></label>
     </fieldset>
-    <p class="note" id="closedNote" hidden>The first batch is full. Your piece will be made in the second.</p>
+    <p class="note" id="closedNote" hidden></p>
     <p class="sec mono">Contact</p>
     <div class="two"><label for="fFirst">First name<input id="fFirst" autocomplete="given-name" required></label><label for="fLast">Last name<input id="fLast" autocomplete="family-name" required></label></div>
     <label for="fEmail">Email<input id="fEmail" type="email" autocomplete="email" required></label>
@@ -477,7 +477,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
 const HANDLE='@momenti';
 const COLLECTION='Fuori Quadro';   // the name of Collection I
 const DEPOSIT=100;
-const FIRST_BATCH={paris:'open',rome:'full',monaco:'full',havana:'full',miami:'full',nyc:'full',tokyo:'full'};   // 'open' takes $100 deposits for the first batch
+const PRIORITY_ONE={paris:'open',rome:'soon',monaco:'soon',havana:'soon',miami:'soon',nyc:'soon',tokyo:'soon'};   // 'open' takes $100 Priority I deposits; 'soon' = not open yet; 'closed' = Priority I places taken
 const DEPOSIT_LINK={paris:'',rome:'',monaco:'',havana:'',miami:'',nyc:'',tokyo:''};   // paste a $100 Stripe Payment Link per piece to take deposits on the spot
 document.querySelectorAll('.handle').forEach(e=>e.textContent=HANDLE);
 const CONTACT_EMAIL='hello@momenti.com';   // the address clients write to
@@ -581,9 +581,9 @@ addEventListener('resize',()=>{if(state!=='line')layout()});
 let cur=-1,frameIdx=0;
 function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;frameIdx=0;const p=P[i];
  $('dOf').textContent=p.of;$('dName').textContent=p.name;$('dPrice').textContent=money(p.price);$('dClasp').textContent=p.clasp;$('dLede').textContent=p.lede;
- const open1=FIRST_BATCH[p.id]==='open',bt=$('dBatch');bt.classList.toggle('closed',!open1);
- bt.innerHTML=open1?`<b>First batch <span>Open</span></b>A $${DEPOSIT} deposit reserves a piece from the first batch. Balance due before dispatch.`:`<b>First batch <span>Full</span></b>Pre-orders join the second batch. Nothing due today.`;
- $('dBuy').textContent=open1?`Reserve with $${DEPOSIT} deposit`:'Pre-order';$('dAlt').hidden=!open1;
+ const open1=PRIORITY_ONE[p.id]==='open',bt=$('dBatch');bt.classList.toggle('closed',PRIORITY_ONE[p.id]==='closed');
+ bt.innerHTML=open1?`<b>Priority I <span>Open</span></b>A $${DEPOSIT} deposit places your piece among the first made, with first choice of number. Taken off the price, refundable until production.`:PRIORITY_ONE[p.id]==='closed'?`<b>Priority I <span>Closed</span></b>Priority II is open, with nothing due today.`:`<b>Priority I <span>Not yet open</span></b>Join Priority II today, with nothing due. We write to you first when Priority I opens.`;
+ $('dBuy').textContent=open1?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dAlt').hidden=!open1;
  const sw=$('dSw');sw.innerHTML='';if(p.frames)p.frames.forEach(([n,c,src],k)=>{const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c;b.title=n+' frame';b.setAttribute('aria-label',n+' frame');b.setAttribute('aria-pressed',k===0);
   b.onclick=()=>{frameIdx=k;sw.querySelectorAll('.sw').forEach(x=>x.setAttribute('aria-pressed',x===b));imgOf(i).src=src;const fl=$('fly');if(fl)fl.src=src};sw.appendChild(b)});
  const wide=innerWidth>=860,img=imgOf(i),r=img.getBoundingClientRect();
@@ -603,17 +603,17 @@ function closeDetail(now){if(cur<0)return;const i=cur;cur=-1;const d=$('detail')
  gsap.to(['#colhead','#reelnav'],{opacity:1,duration:.5*t,delay:.6*t,pointerEvents:'auto'});gsap.to(els,{opacity:1,duration:.6*t,delay:.4*t,pointerEvents:'auto'});gsap.to(els.map(e=>e.querySelector('.cap')),{opacity:1,duration:.5*t,delay:.6*t})}
 $('dBack').addEventListener('click',()=>closeDetail());
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(drawerOpen)closeDrawer();else closeDetail()}});
-$('dBuy').addEventListener('click',e=>{e.preventDefault();if(cur>=0)openDrawer(cur,FIRST_BATCH[P[cur].id]==='open'?'deposit':'preorder')});
+$('dBuy').addEventListener('click',e=>{e.preventDefault();if(cur>=0)openDrawer(cur,PRIORITY_ONE[P[cur].id]==='open'?'deposit':'preorder')});
 $('dAlt').addEventListener('click',()=>{if(cur>=0)openDrawer(cur,'preorder')});
 
 /* ——— pre-order ——— */
 let drawerOpen=false,dPiece='',dIdx=-1;
 const mode=()=>{const m=document.querySelector('input[name=mode]:checked');return m?m.value:'preorder'};
-function syncMode(){const dep=mode()==='deposit';$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Place pre-order';$('dhTitle').textContent=dep?'Reserve your piece':'Pre-order'}
+function syncMode(){const dep=mode()==='deposit';$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
 document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
 function openDrawer(i,want){const p=P[i];dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
  $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0]+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
- const open1=FIRST_BATCH[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;
+ const open1=PRIORITY_ONE[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;$('closedNote').textContent=PRIORITY_ONE[p.id]==='closed'?'Priority I is closed for this piece. You are joining Priority II.':'Priority I is not yet open for this piece. You are joining Priority II, and we write to you first when it opens.';
  $('mDeposit').checked=open1&&want==='deposit';$('mPre').checked=!open1||want!=='deposit';syncMode();
  $('form').hidden=false;$('okBox').hidden=true;$('dmBox').hidden=true;$('fStatus').textContent='';$('fGo').disabled=false;$('drawer').scrollTop=0;
  $('drawer').classList.add('on');$('scrim').classList.add('on');$('drawer').setAttribute('aria-hidden','false');setTimeout(()=>$('fFirst').focus(),350)}
@@ -634,14 +634,14 @@ $('form').addEventListener('submit',async e=>{e.preventDefault();
   address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},number:v('fNum'),note:v('fNote'),news:$('fNews').checked,createdAt:new Date().toISOString()};
  $('fGo').disabled=true;$('fStatus').textContent='Saving…';
  const done=()=>{$('form').hidden=true;$('okBox').hidden=false;const link=DEPOSIT_LINK[p.id];
-  $('okTitle').textContent=dep?'Your place is held.':'Pre-order received.';
-  $('okText').textContent=dep?(link?`Pay the $${DEPOSIT} deposit to confirm your place. Your number and delivery window follow by email.`:`A secure link for the $${DEPOSIT} deposit follows by email within a day. Your place is held for 48 hours.`):`Nothing is due today. Your number, delivery window and payment will be confirmed by email.`;
+  $('okTitle').textContent=dep?'Your Priority I place is held.':'You are on Priority II.';
+  $('okText').textContent=dep?(link?`Pay the $${DEPOSIT} deposit to confirm your place. Your number and delivery window follow by email.`:`A secure link for the $${DEPOSIT} deposit follows by email within a day. Your place is held for 48 hours.`):`Nothing is due today. We write to you with your number, delivery window and payment before your piece is made.`;
   const pay=$('okPay');pay.hidden=!(dep&&link);if(dep&&link)pay.href=link;$('drawer').scrollTop=0};
  try{const r=await fetch('/api/preorder',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(en)});if(r.ok){done();return}}catch(_){}
  try{if(!db||!user)throw 0;const uid=await user.id();if(!uid)throw 0;const ref=db.collection('preorders').doc(uid);let old={};try{const g=await ref.get();old=(g&&g.exists&&g.data&&g.data())||{}}catch(_){}
   await ref.set({...old,email:en.email,name:en.first+' '+en.last,orders:{...(old.orders||{}),[en.piece]:en},updatedAt:en.createdAt});done()}
  catch(err){$('fStatus').textContent='';$('fGo').disabled=false;
-  $('dmText').textContent=['Momenti '+(dep?'first-batch deposit':'pre-order'),en.piece,en.first+' '+en.last,en.email,en.phone,[en.address.line1,en.address.line2,en.address.city,en.address.region,en.address.postal,en.address.country].filter(Boolean).join(', '),en.number?'No. '+en.number:'',en.note].filter(Boolean).join(' · ');
+  $('dmText').textContent=['Momenti '+(dep?'Priority I deposit':'Priority II'),en.piece,en.first+' '+en.last,en.email,en.phone,[en.address.line1,en.address.line2,en.address.city,en.address.region,en.address.postal,en.address.country].filter(Boolean).join(', '),en.number?'No. '+en.number:'',en.note].filter(Boolean).join(' · ');
   $('form').hidden=true;$('dmBox').hidden=false;$('drawer').scrollTop=0}});
 $('copy').addEventListener('click',()=>{const t=$('dmText'),b=$('copy');const sel=()=>{const r=document.createRange();r.selectNodeContents(t);const s=getSelection();s.removeAllRanges();s.addRange(r)};
  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t.textContent).then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)}).catch(sel);else sel()});
@@ -678,7 +678,7 @@ if('IntersectionObserver' in window&&!RM){const io=new IntersectionObserver(es=>
 /* ——— legal ——— */
 const LEGAL={
  sale:['Terms of sale',`<p>These terms apply to every order placed with Momenti through this website.</p><h4>Pieces</h4><p>Each piece is made by hand to order in a numbered edition of 25. Images on this site are renders of the finished piece; small differences in colour and finish are part of handmade work.</p><h4>Prices</h4><p>Prices are shown in US dollars. Shipping, and any duties or taxes for your country, are shown before you pay.</p><h4>Payment</h4><p>We send a secure payment link once your pre-order is accepted. Your piece goes into production only after payment is complete.</p><h4>Returns</h4><p>Because each piece is made to order and numbered, we cannot accept returns for change of mind. If your piece arrives damaged or not as described, write to us within 14 days of delivery and we will repair, replace or refund it.</p><h4>Contact</h4><p>${CONTACT_EMAIL}</p>`],
- preorder:['Pre-order terms',`<h4>Pre-orders</h4><p>A pre-order reserves a piece in its edition. Nothing is charged when you send the form. We confirm your edition number, delivery window and payment details by email.</p><h4>First-batch deposits</h4><p>Where the first batch is open, a $${DEPOSIT} deposit reserves your place in it. The deposit is taken off the price of your piece, and the balance is due before it ships.</p><h4>Refunds</h4><p>Deposits are fully refundable until your piece goes into production. We email you before production begins. After that, the deposit is non-refundable.</p><h4>Edition numbers</h4><p>Requested numbers are given in the order pre-orders arrive, if they are still free.</p><h4>Timing</h4><p>Delivery windows are estimates and are confirmed by email. If your window moves by more than four weeks, you may cancel for a full refund.</p>`],
+ preorder:['Pre-order terms',`<h4>Pre-orders</h4><p>A pre-order reserves a piece in its edition, in Priority I or Priority II. We confirm your edition number, delivery window and payment details by email.</p><h4>Priority I deposits</h4><p>Where Priority I is open for a piece, a $${DEPOSIT} deposit reserves your place in it. Priority I pieces are made first. The deposit is taken off the price of your piece, and the balance is due before it ships.</p><h4>Priority II</h4><p>Nothing is charged when you join Priority II. Priority II pieces are made after Priority I.</p><h4>Refunds</h4><p>Deposits are fully refundable until your piece goes into production. We email you before production begins. After that, the deposit is non-refundable.</p><h4>Edition numbers</h4><p>Priority I chooses first. Requested numbers are then given in the order pre-orders arrive, if they are still free.</p><h4>Timing</h4><p>Delivery windows are estimates and are confirmed by email. If your window moves by more than four weeks, you may cancel for a full refund.</p>`],
  privacy:['Privacy',`<p>We collect the details you give us: your name, email, phone and shipping address when you pre-order, and your email when you join the House List.</p><h4>How we use them</h4><p>To confirm, make and deliver your piece, to reply to you, and, if you ask, to send news from the house. We never sell your details.</p><h4>Who else sees them</h4><p>Only the services that help us run the house: email delivery, payment processing and shipping carriers.</p><h4>Your choices</h4><p>Unsubscribe from any email with one click. To see, correct or delete your details, write to ${CONTACT_EMAIL}.</p>`]};
 function openLegal(k){const [t,b]=LEGAL[k];$('legalH').textContent=t;$('legalBody').innerHTML=b;$('legal').hidden=false;$('legalScrim').classList.add('on');$('legal').scrollTop=0;$('legalClose').focus()}
 function closeLegal(){$('legal').hidden=true;$('legalScrim').classList.remove('on')}
