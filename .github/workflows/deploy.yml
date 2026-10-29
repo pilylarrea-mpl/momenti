@@ -1,0 +1,26 @@
+# Every push to main goes live on Vercel (project momenti-site).
+# Needs one repository secret: VERCEL_TOKEN (Settings → Secrets and variables → Actions).
+name: Deploy to Vercel
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: vercel-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Link to the momenti-site project
+        run: npx --yes vercel@latest link --yes --project momenti-site --scope pramara2016-5492s-projects --token "$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      - name: Deploy to production
+        run: npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
