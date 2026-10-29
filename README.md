@@ -14,6 +14,12 @@ It's a static site (`index.html`, `img/`, `vid/`) plus two small Vercel function
    - `RESEND_AUDIENCE_ID` (optional): a Resend audience, so House List sign-ups collect there for newsletters.
 3. **Settings → Domains** to add your domain.
 
+## Where pre-orders and sign-ups go
+
+The simplest way: a Google Form with one Paragraph question. Get its pre-filled link (type `x` as the answer) and paste it into `GFORM_LINK` in `index.html`. Every pre-order and House List sign-up then arrives as a form response, and you can link the form to a Google Sheet.
+
+The Resend setup above is optional once the Google Form is in.
+
 ## Edit the site
 
 Near the top of the `<script>` in `index.html`:
