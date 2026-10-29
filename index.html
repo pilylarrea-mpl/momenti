@@ -169,9 +169,9 @@ details p{padding-top:8px;max-width:36ch}
 .back{background:none;border:0;padding:0;cursor:pointer;color:var(--ash);align-self:flex-start}
 
 /* pre-order */
-.scrim{position:fixed;inset:0;z-index:20;background:rgba(10,8,6,.4);opacity:0;pointer-events:none;transition:opacity .35s}
+.scrim{position:fixed;inset:0;z-index:34;background:rgba(10,8,6,.4);opacity:0;pointer-events:none;transition:opacity .35s}
 .scrim.on{opacity:1;pointer-events:auto}
-.drawer{position:fixed;z-index:21;top:0;right:0;bottom:0;width:min(480px,100%);background:var(--studio);color:var(--ink);transform:translateX(102%);transition:transform .5s cubic-bezier(.2,.8,.1,1);overflow-y:auto;padding:calc(22px + env(safe-area-inset-top,0px)) var(--gr) calc(28px + env(safe-area-inset-bottom,0px)) 28px;display:flex;flex-direction:column;gap:18px}
+.drawer{position:fixed;z-index:35;top:0;right:0;bottom:0;width:min(480px,100%);background:var(--studio);color:var(--ink);transform:translateX(102%);transition:transform .5s cubic-bezier(.2,.8,.1,1);overflow-y:auto;padding:calc(22px + env(safe-area-inset-top,0px)) var(--gr) calc(28px + env(safe-area-inset-bottom,0px)) 28px;display:flex;flex-direction:column;gap:18px}
 .drawer.on{transform:none}
 .drawer .hd{display:flex;justify-content:space-between;align-items:center;color:var(--ash)}
 .drawer .x{background:none;border:0;cursor:pointer;color:var(--ink);padding:6px 0}
