@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Momenti</title>
+<meta name="description" content="Momenti. Collection I: frame clutches printed with a moment, with one thing from the photograph made small enough to hold. Editions of 25, by pre-order.">
+<meta property="og:title" content="Momenti">
+<meta property="og:description" content="We welcome you to our first collection.">
+<meta property="og:image" content="/img/og.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F2E8DD">
+<link rel="icon" href="/img/favicon.png">
+<link rel="preload" as="image" href="img/havana-street.jpg">
+<style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<style>
+/* Layout: one photograph, full screen, that turns out to be printed on a clutch. The film plays once; then the collection stands in a line on the studio floor. */
+:root{
+  color-scheme:light;
+  --studio:#F2E8DD;     /* the backdrop in the renders */
+  --ink:#1A1511;
+  --ash:#8E8378;
+  --rule:#D9CCBC;
+  --night:#0B0A09;
+  --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --body:"Hanken Grotesk","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono","SFMono-Regular",Menlo,monospace;
+  --gl:max(16px,env(safe-area-inset-left,0px));
+  --gr:max(16px,env(safe-area-inset-right,0px));
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--studio);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body.lock{overflow:hidden}
+h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
+p{margin:0}
+button{font:inherit;color:inherit}
+.mono{font-family:var(--mono);font-size:10.5px;letter-spacing:.18em;text-transform:uppercase}
+:focus-visible{outline:2px solid #B08A52;outline-offset:3px}
+
+.room{position:relative;width:100%;height:100vh;height:100svh;min-height:520px;overflow:hidden;background:var(--studio)}
+.film{position:absolute;inset:0;overflow:hidden;background:var(--studio)}
+.film video,.film img{position:absolute;left:0;top:0;max-width:none;object-fit:fill}
+#fv{--f:0%;-webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent),linear-gradient(180deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent),linear-gradient(180deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent);mask-composite:intersect}
+.skip{position:absolute;z-index:9;right:var(--gr);bottom:calc(14px + env(safe-area-inset-bottom,0px));background:none;border:0;color:#fff;cursor:pointer;padding:8px 0;mix-blend-mode:difference}
+.tap{position:absolute;z-index:8;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;gap:14px;background:rgba(0,0,0,.12);border:0;color:#fff;cursor:pointer;width:100%}
+.tap i{width:64px;height:64px;border-radius:50%;border:1px solid rgba(255,255,255,.9);display:block;position:relative}
+.tap i::after{content:"";position:absolute;left:26px;top:21px;border-left:16px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent}
+.titles{position:absolute;inset:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;pointer-events:none;padding-left:var(--gl);padding-right:var(--gr)}
+.titles>*{opacity:0}
+#tWord{margin:0;line-height:0}
+#tWord img{display:block;width:min(64vw,760px);height:auto;max-width:100%}
+#tTag{font-family:var(--body);font-size:clamp(10.5px,.95vw,13px);letter-spacing:.32em;text-transform:uppercase;margin-top:clamp(22px,3vw,40px);color:#4A3F35}
+#tWelcome{position:absolute;left:var(--gl);right:var(--gr);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:clamp(18px,2.4vw,30px)}
+#tWelcome>*{opacity:0;margin:0}
+#tWelcome .w{font-family:var(--display);font-size:clamp(24px,3vw,44px);line-height:1.15}
+#tWelcome .cn{font-family:var(--body);font-size:clamp(10.5px,.95vw,13px);letter-spacing:.32em;text-transform:uppercase;color:#4A3F35;margin-top:clamp(10px,2vw,26px)}
+#tWelcome .cname{font-family:var(--display);font-style:italic;font-size:clamp(56px,9vw,132px);line-height:.9;letter-spacing:-.015em}
+
+/* the line-up */
+.line{position:absolute;inset:0;opacity:0;visibility:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:31;background:var(--studio)}
+.nav{position:fixed;z-index:30;top:env(safe-area-inset-top,0px);left:0;right:0;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px var(--gr) 14px var(--gl);transition:background .4s,border-color .4s;border-bottom:1px solid transparent}
+.nav.solid{background:rgba(242,232,221,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom-color:var(--rule)}
+.nav.hide{opacity:0;pointer-events:none}
+.mark{opacity:0;background:none;border:0;padding:0;cursor:pointer;line-height:0}
+.mark img{display:block;height:18px;width:auto;max-width:none}
+.links{display:flex;gap:28px;align-items:center;opacity:0}
+.links a,.links button{background:none;border:0;padding:4px 0;cursor:pointer;color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+.links a:hover,.links button:hover{border-bottom-color:var(--ink)}
+.menu{display:none;background:none;border:0;padding:6px 0;cursor:pointer;color:var(--ink);opacity:0}
+.reelnav{position:absolute;z-index:7;left:0;right:0;bottom:calc(28px + env(safe-area-inset-bottom,0px));display:flex;justify-content:center;align-items:center;gap:22px;color:var(--ash);opacity:0}
+.reelnav button{background:none;border:1px solid var(--rule);width:40px;height:40px;border-radius:50%;cursor:pointer;color:var(--ink);font-size:15px;letter-spacing:0}
+.reelnav button:hover{border-color:var(--ink)}
+.wrap{max-width:1320px;margin:0 auto;padding-left:var(--gl);padding-right:var(--gr)}
+.eyebrow{color:var(--ash);margin-bottom:18px}
+.two-col{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px 80px;align-items:start}
+.house,.services{padding-block:clamp(90px,13vw,170px) 0}
+.house h2,.services h2{font-style:italic;font-size:clamp(46px,6vw,92px);line-height:.92;letter-spacing:-.015em;text-wrap:balance}
+.prose{display:flex;flex-direction:column;gap:20px;font-size:clamp(16px,1.3vw,19px);line-height:1.6;color:#3E352D;max-width:52ch;padding-top:8px}
+.lead{font-size:16px;color:#4A3F35;max-width:44ch;margin-top:22px}
+.band{position:relative;margin:clamp(70px,10vw,130px) 0;height:min(82vh,760px);overflow:hidden}
+.band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none;transform:scale(1.08);will-change:transform}
+.band figcaption{position:absolute;left:var(--gl);right:var(--gr);bottom:clamp(24px,5vw,56px);color:#fff;display:flex;flex-direction:column;gap:10px;text-shadow:0 2px 24px rgba(0,0,0,.45)}
+.band q{font-family:var(--display);font-style:italic;font-size:clamp(32px,5vw,72px);line-height:1;quotes:none}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,44px)}
+.steps li{display:flex;flex-direction:column;gap:12px;min-width:0}
+.steps img{width:100%;aspect-ratio:1000/692;object-fit:cover;max-width:100%;display:block;margin-bottom:10px}
+.steps .num{font-family:var(--display);font-size:22px;color:var(--ash)}
+.steps h3{font-style:italic;font-size:30px;line-height:1}
+.steps p{font-size:15px;color:#4A3F35;max-width:40ch}
+.faq{display:flex;flex-direction:column;border-top:1px solid var(--rule)}
+.faq details{border-bottom:1px solid var(--rule);padding:20px 0;font-size:15px}
+.faq summary{font-family:var(--display);font-size:clamp(19px,1.6vw,23px);color:var(--ink);display:flex;justify-content:space-between;gap:20px}
+.faq summary::after{content:"+";font-family:var(--body);color:var(--ash)}
+.faq details[open] summary::after{content:"–"}
+.faq details p{padding-top:12px;max-width:56ch;font-size:15px}
+.email-link{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--ink)}
+.foot{margin-top:clamp(100px,14vw,180px);border-top:1px solid var(--rule);padding-block:70px calc(30px + env(safe-area-inset-bottom,0px))}
+.foot-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:50px 80px}
+.inline{display:flex;gap:0;margin-top:22px;max-width:460px}
+.inline input{flex:1}
+.inline .buy{align-self:auto}
+.foot-cols{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:30px}
+.foot-cols div{display:flex;flex-direction:column;gap:10px;font-size:14px;min-width:0}
+.foot-cols p{color:var(--ash);margin-bottom:6px}
+.foot-cols a,.foot-cols button{color:var(--ink);text-decoration:none;background:none;border:0;padding:0;text-align:left;cursor:pointer;font-size:14px;overflow-wrap:anywhere}
+.foot-cols a:hover,.foot-cols button:hover{text-decoration:underline}
+.foot-logo{display:block;width:100%;height:auto;max-width:100%;margin-top:90px;opacity:.95}
+.foot-base{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:28px;color:var(--ash)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.sheet-scrim,.pop-scrim{position:fixed;inset:0;z-index:40;background:rgba(10,8,6,.45);opacity:0;pointer-events:none;transition:opacity .35s}
+.sheet-scrim.on,.pop-scrim.on{opacity:1;pointer-events:auto}
+.sheet{position:fixed;z-index:41;top:0;right:0;bottom:0;width:min(620px,100%);background:var(--studio);overflow-y:auto;padding:calc(22px + env(safe-area-inset-top,0px)) var(--gr) calc(40px + env(safe-area-inset-bottom,0px)) 32px;display:flex;flex-direction:column;gap:20px}
+.sheet .hd{display:flex;justify-content:space-between;color:var(--ash)}
+.sheet .x{background:none;border:0;cursor:pointer;color:var(--ink)}
+.sheet h3{font-style:italic;font-size:44px;line-height:.95}
+.legal-body{display:flex;flex-direction:column;gap:14px;font-size:14.5px;color:#3E352D;max-width:60ch}
+.legal-body h4{font-family:var(--body);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin:12px 0 0;color:var(--ink)}
+.pop{position:fixed;z-index:41;left:50%;top:50%;width:min(820px,calc(100% - 32px));max-height:calc(100% - 40px);overflow:auto;background:var(--studio);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);box-shadow:0 40px 90px rgba(30,20,10,.3)}
+.pop-img{width:100%;height:100%;object-fit:cover;max-width:100%;display:block;min-height:420px}
+.pop-body{padding:44px 36px 36px;display:flex;flex-direction:column;gap:14px}
+.pop-logo{width:150px;height:auto;margin-bottom:10px}
+.pop h3{font-style:italic;font-size:34px;line-height:1}
+.pop p{font-size:14.5px;color:#4A3F35}
+.pop form{gap:14px}
+.pop-checks{display:flex;flex-direction:column;gap:8px}
+.pop .x{position:absolute;top:14px;right:16px;z-index:2;background:none;border:0;cursor:pointer;color:var(--ink)}
+.track{position:absolute;left:0;right:0;top:50%;transform:translateY(-52%);display:flex;justify-content:flex-start;align-items:flex-end;gap:3.5vw;padding:40px 35vw 30px;overflow-x:auto;scroll-snap-type:x proximity;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
+.track::-webkit-scrollbar{display:none}
+.piece{flex:0 0 30vw;scroll-snap-align:center;min-width:0;display:flex;flex-direction:column;align-items:center;gap:18px;cursor:pointer;background:none;border:0;padding:0;color:var(--ink);text-align:center}
+.piece .ph{position:relative;width:100%;max-width:100%}
+.piece img{display:block;width:100%;height:auto;max-width:100%;filter:drop-shadow(0 28px 22px rgba(70,45,20,.18))}
+.piece .lift{transition:transform .9s cubic-bezier(.2,.8,.1,1)}
+.piece:hover .lift,.piece:focus-visible .lift{transform:translateY(-10px)}
+.piece .cap{display:flex;flex-direction:column;gap:4px;align-items:center}
+.piece h3{font-style:italic;font-size:clamp(22px,2vw,30px);line-height:1}
+.colhead{position:absolute;z-index:7;left:0;right:0;top:calc(18px + env(safe-area-inset-top,0px));text-align:center;pointer-events:none;opacity:0;display:flex;flex-direction:column;gap:4px;align-items:center}
+.colhead .cn{font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--ash)}
+.colhead .cname{font-family:var(--display);font-style:italic;font-size:22px;line-height:1}
+
+/* a single piece */
+.detail{position:absolute;z-index:7;right:max(var(--gr),5vw);top:50%;width:min(30vw,360px);display:flex;flex-direction:column;gap:16px;opacity:0;visibility:hidden}
+.detail .of{color:var(--ash)}
+.detail h2{font-style:italic;font-size:clamp(52px,5.4vw,86px);line-height:.88;letter-spacing:-.015em}
+.detail .price{font-family:var(--display);font-size:24px}
+.detail .lede{font-size:14px;color:#4A3F35;max-width:36ch}
+.batch{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;display:flex;flex-direction:column;gap:4px;font-size:13.5px;color:#4A3F35}
+.batch b{font-family:var(--body);font-weight:600;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);display:flex;justify-content:space-between;gap:12px}
+.batch b span{color:var(--ash);font-weight:500}
+.batch.closed b span{color:#9A4A2E}
+.acts{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.alt{background:none;border:0;border-bottom:1px solid var(--ink);padding:2px 0;cursor:pointer;color:var(--ink)}
+.info{display:flex;flex-direction:column;gap:10px}
+.sws{display:flex;gap:10px}
+.sw{appearance:none;cursor:pointer;width:24px;height:24px;border-radius:50%;border:1px solid rgba(0,0,0,.18);padding:0}
+.sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--studio),0 0 0 3px var(--ink)}
+.buy{appearance:none;cursor:pointer;background:var(--ink);color:var(--studio);border:0;padding:16px 28px;font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;display:inline-block;align-self:flex-start}
+details{font-size:13.5px;color:#4A3F35}
+summary{cursor:pointer;list-style:none;color:var(--ash)}
+summary::after{content:" +"}
+details[open] summary::after{content:" –"}
+details p{padding-top:8px;max-width:36ch}
+.fly{position:fixed;z-index:6;left:0;top:0;transform-origin:0 0;pointer-events:none;filter:drop-shadow(0 28px 22px rgba(70,45,20,.18));max-width:none}
+.back{background:none;border:0;padding:0;cursor:pointer;color:var(--ash);align-self:flex-start}
+
+/* pre-order */
+.scrim{position:fixed;inset:0;z-index:20;background:rgba(10,8,6,.4);opacity:0;pointer-events:none;transition:opacity .35s}
+.scrim.on{opacity:1;pointer-events:auto}
+.drawer{position:fixed;z-index:21;top:0;right:0;bottom:0;width:min(480px,100%);background:var(--studio);color:var(--ink);transform:translateX(102%);transition:transform .5s cubic-bezier(.2,.8,.1,1);overflow-y:auto;padding:calc(22px + env(safe-area-inset-top,0px)) var(--gr) calc(28px + env(safe-area-inset-bottom,0px)) 28px;display:flex;flex-direction:column;gap:18px}
+.drawer.on{transform:none}
+.drawer .hd{display:flex;justify-content:space-between;align-items:center;color:var(--ash)}
+.drawer .x{background:none;border:0;cursor:pointer;color:var(--ink);padding:6px 0}
+.drawer h3{font-style:italic;font-size:40px;line-height:.95}
+.sum{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:14px;align-items:center;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:14px 0}
+.sum img{width:96px;height:auto;max-width:100%}
+.sum b{font-family:var(--display);font-weight:400;font-style:italic;font-size:22px;display:block}
+.sum .meta{font-size:12.5px;color:var(--ash)}
+.sum .pr{font-family:var(--display);font-size:19px}
+form{display:flex;flex-direction:column;gap:14px}
+label{display:flex;flex-direction:column;gap:6px;font-size:12.5px;font-weight:500}
+.hint{font-weight:400;color:var(--ash)}
+input,select,textarea{font:inherit;font-size:16px;padding:12px 13px;border:1px solid #CDBFAE;border-radius:0;background:#F8F1E9;color:var(--ink);width:100%;min-width:0}
+textarea{resize:vertical}
+input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accent-color:var(--ink);flex:none}
+.sec{color:var(--ash);margin-top:8px;border-top:1px solid var(--rule);padding-top:16px}
+.modes{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.modes legend{color:var(--ash);margin-bottom:10px;padding:0}
+.mode{flex-direction:row;gap:12px;align-items:flex-start;border:1px solid #CDBFAE;padding:14px;cursor:pointer;font-weight:400}
+.mode:has(input:checked){border-color:var(--ink);background:#F8F1E9}
+.mode>span{display:flex;flex-direction:column;gap:4px}
+.mode b{font-weight:600;font-size:13px}
+.note{font-size:13px;color:#4A3F35;border-left:2px solid #9A4A2E;padding-left:12px}
+.check{flex-direction:row;gap:10px;align-items:flex-start;font-weight:400;font-size:13px;color:#4A3F35}
+.due{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--rule);padding-top:14px;font-size:13px}
+.due b{font-family:var(--display);font-weight:400;font-size:22px}
+.buy.wide{align-self:stretch;text-align:center}
+.req{outline:1px solid #9A4A2E;outline-offset:1px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.small{font-size:12.5px;color:var(--ash)}
+.status{font-size:13px;color:var(--ash);min-height:1.3em}
+.ok{display:flex;flex-direction:column;gap:10px}
+.ok h4{font-family:var(--display);font-weight:400;font-style:italic;font-size:32px;margin:0}
+.dm{font-family:var(--mono);font-size:12px;background:#F8F1E9;border:1px dashed #BFAF9B;padding:12px;display:flex;justify-content:space-between;gap:12px;align-items:center;word-break:break-word}
+.dm button{border:1px solid var(--ink);background:none;color:var(--ink);padding:6px 12px;cursor:pointer;font-size:12px;flex:none}
+
+@media (max-width:860px){
+  .links{position:fixed;inset:0;top:calc(58px + env(safe-area-inset-top,0px));background:var(--studio);flex-direction:column;align-items:flex-start;gap:6px;padding:30px var(--gr) 30px var(--gl);font-size:13px;display:none;opacity:1!important}
+  .links.open{display:flex}
+  .links a,.links button{font-family:var(--display);font-style:italic;font-size:38px;letter-spacing:0;text-transform:none;padding:6px 0}
+  .menu{display:block}
+  .two-col,.foot-top{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr;gap:56px}
+  .foot-cols{grid-template-columns:1fr 1fr}
+  .band{height:62vh}
+  .pop{grid-template-columns:1fr;top:auto;bottom:0;width:100%;max-height:92%}
+  .pop-img{min-height:0;height:180px}
+  .pop-body{padding:26px var(--gr) calc(26px + env(safe-area-inset-bottom,0px)) var(--gl)}
+  .reelnav{bottom:calc(18px + env(safe-area-inset-bottom,0px))}
+  .track{transform:translateY(-50%);scroll-snap-type:x mandatory;gap:5vw;padding:30px 12vw;-webkit-mask-image:none;mask-image:none}
+  .track::-webkit-scrollbar{display:none}
+  .piece{flex:0 0 76vw;scroll-snap-align:center}
+  .colhead{top:calc(58px + env(safe-area-inset-top,0px))}
+  .detail{left:var(--gl);right:var(--gr);top:auto;bottom:calc(22px + env(safe-area-inset-bottom,0px));width:auto;gap:12px}
+  .detail h2{font-size:48px}
+  .detail{top:var(--dtop,52vh);bottom:0;overflow-y:auto;padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+}
+@media (prefers-reduced-motion:reduce){.piece .lift{transition:none}}
+</style>
+
+</head>
+<body>
+<header class="nav" id="nav">
+  <button class="mark" type="button" id="mark" aria-label="Momenti. Back to the collection"><img src="img/momenti-logo.png" alt=""></button>
+  <nav class="links mono" id="tools" aria-label="Main">
+    <a href="#top" data-go="top">Collection</a><a href="#house" data-go="house">The House</a><a href="#services" data-go="services">Client Services</a><button type="button" id="replay">Replay</button>
+  </nav>
+  <button class="menu mono" type="button" id="menuBtn" aria-expanded="false" aria-controls="tools">Menu</button>
+</header>
+<div class="page">
+<main class="room" id="room">
+  <div class="film" id="film" role="img" aria-label="Havana, 1958. The turquoise convertible drives out of the photograph and parks on the clasp of the clutch.">
+    <video id="fv" muted playsinline webkit-playsinline preload="auto" poster="img/havana-street.jpg"></video>
+    <img id="still" src="img/havana-street.jpg" alt="">
+    <button class="tap" type="button" id="tap"><i></i><span class="mono">Begin</span></button>
+    <button class="skip mono" type="button" id="skip">Skip</button>
+  </div>
+  <div class="titles" id="titles" aria-live="polite"><h1 id="tWord"><img src="img/momenti-logo.png" alt="Momenti"></h1><p id="tTag">Some moments don’t stay in the picture.</p><div id="tWelcome"><p class="w">We welcome you to our first collection.</p><p class="cn">Collection I</p><p class="cname" id="cname"></p></div></div>
+
+
+  <section class="line" id="line" aria-label="Collection">
+    <div class="colhead" id="colhead"><span class="cn">Collection I</span><span class="cname" id="cname2"></span></div>
+    <div class="track" id="track"></div>
+    <div class="reelnav mono" id="reelnav"><button type="button" id="prevB" aria-label="Previous piece">←</button><span id="count">04 / 07</span><button type="button" id="nextB" aria-label="Next piece">→</button></div>
+    <div class="detail" id="detail" aria-live="polite">
+      <p class="mono of" id="dOf"></p>
+      <h2 id="dName"></h2>
+      <p class="price" id="dPrice"></p>
+      <p class="lede" id="dLede"></p>
+      <div class="sws" id="dSw"></div>
+      <div class="batch" id="dBatch"></div>
+      <div class="acts"><a class="buy" id="dBuy" href="#preorder" role="button">Pre-order</a><button class="alt mono" type="button" id="dAlt" hidden>Pre-order without a deposit</button></div>
+      <div class="info">
+        <details><summary class="mono">The clasp</summary><p id="dClasp"></p></details>
+        <details><summary class="mono">The edition</summary><p>Each piece is made by hand in an edition of 25 and numbered inside the frame. Ask for a number when you pre-order and we'll hold it if it's free.</p></details>
+        <details><summary class="mono">Pre-order and delivery</summary><p>Pre-orders are made in the order they arrive. We confirm your number, your delivery window and how to pay the balance by email before production begins.</p></details>
+      </div>
+      <button class="back mono" type="button" id="dBack">All pieces</button>
+    </div>
+  </section>
+</main>
+
+<section class="house" id="house" aria-labelledby="houseH">
+  <div class="wrap two-col">
+    <div><p class="eyebrow mono">The House</p><h2 id="houseH">We make objects from moments.</h2></div>
+    <div class="prose">
+      <p>Every Momenti piece begins with a photograph: a city on an afternoon you can almost hear. We print it on a frame clutch, then choose one thing in the picture and make it real. The car at the curb. The cab in the rain. It leaves the photograph and becomes the clasp.</p>
+      <p>We work in numbered editions of twenty-five. When an edition is complete, that moment is closed and is never made again.</p>
+    </div>
+  </div>
+  <figure class="band"><img src="img/havana-street.jpg" alt="Havana, 1958: the Paseo del Prado with the turquoise convertible at the curb" loading="lazy"><figcaption><span class="mono">Havana, 1958</span><q>One thing from the picture gets out.</q></figcaption></figure>
+  <div class="wrap">
+    <p class="eyebrow mono">How a piece is made</p>
+    <ol class="steps">
+      <li><img src="img/craft-photo.jpg" alt="The Havana photograph" loading="lazy"><span class="num">I</span><h3>The photograph</h3><p>We choose a moment and print it edge to edge on the body of the clutch, so the street runs around the curve of the frame.</p></li>
+      <li><img src="img/craft-clasp.jpg" alt="The turquoise convertible clasp on the frame" loading="lazy"><span class="num">II</span><h3>The clasp</h3><p>One object from the photograph is sculpted in miniature, cast in metal and painted by hand to match the print, then set on a brass hinge.</p></li>
+      <li><img src="img/craft-piece.jpg" alt="The finished Havana clutch" loading="lazy"><span class="num">III</span><h3>The edition</h3><p>Each piece is numbered inside the frame, one of twenty-five. Ask for your number when you pre-order.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="services" id="services" aria-labelledby="svcH">
+  <div class="wrap two-col">
+    <div><p class="eyebrow mono">Client Services</p><h2 id="svcH">At your service.</h2><p class="lead">Write to us at <a class="email-link" href="#" id="svcMail"></a>. A person from the house replies within one working day.</p></div>
+    <div class="faq">
+      <details><summary>How do pre-orders work?</summary><p>Choose a piece and send the pre-order form. Nothing is charged today. We write to confirm your edition number, your delivery window and how to pay before your piece goes into production.</p></details>
+      <details><summary>What is the first batch?</summary><p>The first pieces of each edition are made first. Where the first batch is open, a $100 deposit reserves your place in it, and the deposit is taken off the price of your piece. When the first batch is full, new pre-orders join the second batch.</p></details>
+      <details><summary>Can I get my deposit back?</summary><p>Yes. Your deposit is fully refundable until your piece goes into production. We tell you by email before that happens.</p></details>
+      <details><summary>When will my piece arrive?</summary><p>Each piece is made to order. We confirm your delivery window by email when your pre-order is accepted, and again when it ships.</p></details>
+      <details><summary>Where do you ship?</summary><p>Worldwide, tracked and insured. Any duties or import taxes for your country are shown before you pay.</p></details>
+      <details><summary>Can I choose my edition number?</summary><p>Ask for a number between 1 and 25 in your pre-order. If it is free, it is yours.</p></details>
+      <details><summary>How should I care for my piece?</summary><p>Keep it in its dust bag, away from direct sun and moisture. Wipe the frame with a soft dry cloth, and lift the clutch by its body, never by the clasp.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer class="foot" id="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-news">
+        <p class="eyebrow mono">The House List</p>
+        <p class="lead">News from the house, and first word when a new moment opens for pre-order.</p>
+        <form class="inline" id="footForm" novalidate><label class="sr" for="footEmail">Email</label><input id="footEmail" type="email" autocomplete="email" placeholder="Email address"><button class="buy" type="submit">Join</button></form>
+        <p class="status" id="footStatus" role="status"></p>
+      </div>
+      <nav class="foot-cols" aria-label="Footer">
+        <div><p class="mono">Collection I</p><a href="#top" data-go="top">The pieces</a><a href="#house" data-go="house">The House</a><a href="#house" data-go="house">How a piece is made</a></div>
+        <div><p class="mono">Client Services</p><a href="#services" data-go="services">Pre-orders</a><a href="#services" data-go="services">Shipping</a><a href="#services" data-go="services">Care</a><a href="#" class="email-link" id="footMail"></a></div>
+        <div><p class="mono">Legal</p><button type="button" data-legal="sale">Terms of sale</button><button type="button" data-legal="preorder">Pre-order terms</button><button type="button" data-legal="privacy">Privacy</button></div>
+        <div><p class="mono">Follow</p><a id="igLink" href="#" target="_blank" rel="noopener">Instagram</a><a id="ttLink" href="#" target="_blank" rel="noopener">TikTok</a></div>
+      </nav>
+    </div>
+    <img class="foot-logo" src="img/momenti-logo.png" alt="Momenti">
+    <div class="foot-base mono"><span>© 2026 Momenti</span><span>Pieces shown are renders of the finished pieces.</span></div>
+  </div>
+</footer>
+</div>
+
+<div class="sheet-scrim" id="legalScrim"></div>
+<aside class="sheet" id="legal" role="dialog" aria-modal="true" aria-labelledby="legalH" hidden>
+  <div class="hd"><span class="mono">Momenti</span><button class="x mono" type="button" id="legalClose">Close</button></div>
+  <h3 id="legalH"></h3><div class="legal-body" id="legalBody"></div>
+</aside>
+
+<div class="pop-scrim" id="popScrim"></div>
+<div class="pop" id="pop" role="dialog" aria-modal="true" aria-labelledby="popH" hidden>
+  <button class="x mono" type="button" id="popClose" aria-label="Close">Close</button>
+  <img class="pop-img" src="img/craft-clasp.jpg" alt="">
+  <div class="pop-body">
+    <img class="pop-logo" src="img/momenti-logo.png" alt="Momenti">
+    <h3 id="popH">Join the House List</h3>
+    <p>Be the first to hear when a new moment opens, and when pre-orders open for the next batch.</p>
+    <form id="popForm" novalidate>
+      <label class="sr" for="popEmail">Email</label><input id="popEmail" type="email" autocomplete="email" placeholder="Email address">
+      <div class="pop-checks"><label class="check" for="popNews"><input type="checkbox" id="popNews" checked><span>News from the house</span></label><label class="check" for="popPre"><input type="checkbox" id="popPre" checked><span>Pre-order openings</span></label></div>
+      <button class="buy wide" type="submit">Join the list</button>
+      <p class="status" id="popStatus" role="status"></p>
+    </form>
+    <div class="ok" id="popOk" hidden><h4>You're on the list.</h4><p>We'll write when there's something worth opening.</p></div>
+  </div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-label="Pre-order" aria-hidden="true">
+  <div class="hd"><span class="mono" id="dhKind">Pre-order</span><button class="x mono" type="button" id="xClose">Close</button></div>
+  <h3 id="dhTitle">Pre-order</h3>
+  <div class="sum"><img id="sImg" alt=""><div><b id="sName"></b><span class="meta" id="sMeta"></span></div><span class="pr" id="sPrice"></span></div>
+  <form id="form" novalidate>
+    <fieldset class="modes" id="modes"><legend class="mono">How would you like to reserve?</legend>
+      <label class="mode" for="mDeposit"><input type="radio" name="mode" id="mDeposit" value="deposit"><span><b>First batch · $100 deposit</b><span class="hint">Your piece is made in the first batch. The balance is due before it ships.</span></span></label>
+      <label class="mode" for="mPre"><input type="radio" name="mode" id="mPre" value="preorder"><span><b>Pre-order · nothing due today</b><span class="hint">Your piece joins the next batch. We confirm timing and payment by email.</span></span></label>
+    </fieldset>
+    <p class="note" id="closedNote" hidden>The first batch of this piece is full. Your pre-order joins the second batch.</p>
+    <p class="sec mono">Contact</p>
+    <div class="two"><label for="fFirst">First name<input id="fFirst" autocomplete="given-name" required></label><label for="fLast">Last name<input id="fLast" autocomplete="family-name" required></label></div>
+    <label for="fEmail">Email<input id="fEmail" type="email" autocomplete="email" required></label>
+    <label for="fPhone">Phone <span class="hint">(for delivery)</span><input id="fPhone" type="tel" autocomplete="tel" required></label>
+    <p class="sec mono">Shipping address</p>
+    <label for="fCountry">Country<select id="fCountry" autocomplete="country-name" required><option value="">Choose a country</option><option>United States</option><option>Canada</option><option>United Kingdom</option><option>France</option><option>Italy</option><option>Spain</option><option>Germany</option><option>Switzerland</option><option>Lebanon</option><option>United Arab Emirates</option><option>Saudi Arabia</option><option>Mexico</option><option>Brazil</option><option>Japan</option><option>Australia</option><option>Other</option></select></label>
+    <label for="fAddr1">Address<input id="fAddr1" autocomplete="address-line1" required></label>
+    <label for="fAddr2">Apartment, suite, floor <span class="hint">(optional)</span><input id="fAddr2" autocomplete="address-line2"></label>
+    <div class="two"><label for="fCity">City<input id="fCity" autocomplete="address-level2" required></label><label for="fRegion">State / region<input id="fRegion" autocomplete="address-level1"></label></div>
+    <label for="fPostal">Postal code<input id="fPostal" autocomplete="postal-code"></label>
+    <p class="sec mono">Your piece</p>
+    <label for="fNum">Number in the edition <span class="hint">(optional, 1–25)</span><input id="fNum" inputmode="numeric" placeholder="07"></label>
+    <label for="fNote">Note <span class="hint">(optional)</span><textarea id="fNote" rows="3"></textarea></label>
+    <div class="due"><span>Due today</span><b id="dueNow">$0</b></div>
+    <label class="check" for="fTerms"><input type="checkbox" id="fTerms" required><span>I understand this is a pre-order for a piece made by hand to order, and that the delivery window will be confirmed by email.</span></label>
+    <label class="check" for="fNews"><input type="checkbox" id="fNews"><span>Tell me when the next moment opens.</span></label>
+    <button class="buy wide" type="submit" id="fGo">Place pre-order</button>
+    <p class="status" id="fStatus" role="status"></p>
+  </form>
+  <div class="ok" id="okBox" hidden><h4 id="okTitle">Your pre-order is in.</h4><p id="okText"></p><a class="buy" id="okPay" href="#" target="_blank" rel="noopener" hidden>Pay the $100 deposit</a></div>
+  <div class="ok" id="dmBox" hidden><h4>One more step.</h4><p>This page couldn't save your pre-order. Copy it and send it to <b class="handle"></b> on Instagram or TikTok.</p><div class="dm"><span id="dmText"></span><button type="button" id="copy">Copy</button></div></div>
+</aside>
+
+<script>
+(function(){
+const HANDLE='@momenti';
+const COLLECTION='Fuori Quadro';   // the name of Collection I
+const DEPOSIT=100;
+const FIRST_BATCH={paris:'open',rome:'full',monaco:'full',havana:'full',miami:'full',nyc:'full',tokyo:'full'};   // 'open' takes $100 deposits for the first batch
+const DEPOSIT_LINK={paris:'',rome:'',monaco:'',havana:'',miami:'',nyc:'',tokyo:''};   // paste a $100 Stripe Payment Link per piece to take deposits on the spot
+document.querySelectorAll('.handle').forEach(e=>e.textContent=HANDLE);
+const CONTACT_EMAIL='hello@momenti.com';   // the address clients write to
+const INSTAGRAM='https://instagram.com/momenti', TIKTOK='https://tiktok.com/@momenti';
+['svcMail','footMail'].forEach(id=>{const a=document.getElementById(id);a.textContent=CONTACT_EMAIL;a.href='mailto:'+CONTACT_EMAIL});
+document.getElementById('igLink').href=INSTAGRAM;document.getElementById('ttLink').href=TIKTOK;
+document.getElementById('cname').textContent=COLLECTION;document.getElementById('cname2').textContent=COLLECTION;
+const $=id=>document.getElementById(id);
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const money=n=>'$'+n;
+
+const P=[
+ {id:'paris',name:'Paris',of:'Saint-Germain, 1960',price:540,img:'img/paris-piece.webp',lede:'Morning outside the Café des Fleurs, printed on a red lacquer frame clutch.',clasp:'The red 2CV parked by the café, cast in metal and painted by hand, mounted on a brass hinge.'},
+ {id:'rome',name:'Rome',of:'Via Condotti, 1962',price:460,img:'img/rome-piece.webp',lede:'Late afternoon on the walk to the Spanish Steps, printed on a cream enamel frame clutch.',clasp:'The cream Cinquecento from the street, cast in metal and painted by hand, mounted on a brass hinge.'},
+ {id:'monaco',name:'Monaco',of:'The hairpin, 1966',price:600,img:'img/monaco-piece.webp',lede:'Race day at the Grand Prix hairpin, printed on a chrome frame clutch.',clasp:'The red number 8 from the hairpin, cast in metal and painted by hand, driver and all, mounted on a brass hinge.'},
+ {id:'havana',name:'Havana',of:'Paseo del Prado, 1958',price:520,img:'img/havana-piece.webp',lede:'A Sunday on the Paseo del Prado, printed on a frame clutch in chrome or Havana blue.',clasp:"The turquoise '57 convertible from the street, cast in metal and painted by hand, mounted on a brass hinge.",frames:[['Chrome','#C9CDD0','img/havana-piece.webp'],['Havana blue','#2BA7BE','img/havana-blue-piece.webp']]},
+ {id:'miami',name:'Miami',of:'Ocean Drive, 1959',price:500,img:'img/miami-piece.webp',lede:'Noon on Ocean Drive outside the Colony, printed on a frame clutch in chrome or flamingo pink.',clasp:'The pink Cadillac convertible from the drive, cast in metal and painted by hand, mounted on a brass hinge.',frames:[['Chrome','#C9CDD0','img/miami-piece.webp'],['Flamingo pink','#E59A8C','img/miami-pink-piece.webp']]},
+ {id:'nyc',name:'New York City',of:'Water Street, 1974',price:560,img:'img/nyc-piece.webp',lede:'Dumbo after the rain, under the Manhattan Bridge, printed on a chrome frame clutch.',clasp:'The yellow checker cab from Water Street, cast in metal and painted by hand, mounted on a brass hinge.'},
+ {id:'tokyo',name:'Tokyo',of:'Shinjuku, 1997',price:580,img:'img/tokyo-piece.webp',lede:'Shinjuku just after the rain, printed on a purple lacquer frame clutch.',clasp:'The Midnight Purple GT-R from the street, cast in metal and lacquered by hand, mounted on a brass hinge.'}
+];
+const HERO=3;   // Havana is the bag in the film
+
+/* The film is 1920 × 1080. It opens on the Havana print and ends on the Prado render with the car on the clasp. */
+const REVEAL=4.1, SETTLE=6.2;   // seconds in: the camera pulls back from the street to the bag
+const film=$('film'),fv=$('fv'),still=$('still'),line=$('line'),track=$('track');
+const small=Math.min(screen.width,screen.height)<700;
+fv.src=small?'vid/film-720.mp4':'vid/film.mp4';
+fv.muted=true;fv.defaultMuted=true;fv.playsInline=true;
+
+/* where the frame sits on screen: full-bleed for the street; on tall screens it eases out so the whole bag fits */
+function rCover(){const W=innerWidth,H=innerHeight,s=Math.max(W/1920,H/1080);return{s,x:(W-1920*s)*.42,y:(H-1080*s)*.5}}
+function rFit(){const W=innerWidth,H=innerHeight;if(W/H>=1.3)return rCover();const s=Math.min(W/1920,H/1080)*1.22;return{s,x:(W-1920*s)/2,y:(H-1080*s)*.44}}
+const mix=(a,b,k)=>({s:a.s+(b.s-a.s)*k,x:a.x+(b.x-a.x)*k,y:a.y+(b.y-a.y)*k});
+function place(el,r){el.style.width=1920*r.s+'px';el.style.height=1080*r.s+'px';el.style.left=r.x+'px';el.style.top=r.y+'px'}
+let fitK=0;
+function layout(){place(fv,mix(rCover(),rFit(),fitK));place(still,rCover());fv.style.setProperty('--f',(innerWidth/innerHeight<1.3?fitK*9:0)+'%')}
+
+/* ——— line-up ——— */
+const els=P.map((p,i)=>{const b=document.createElement('button');b.type='button';b.className='piece';b.setAttribute('aria-label',`${p.name}, ${p.of}`);
+ b.innerHTML=`<div class="ph"><div class="lift"><img src="${p.img}" alt="${p.name}: frame clutch printed with ${p.of}"></div></div><div class="cap"><h3>${p.name}</h3></div>`;
+ b.addEventListener('click',()=>open(i));track.appendChild(b);return b});
+const imgOf=i=>els[i].querySelector('img');
+track.addEventListener('wheel',e=>{if(Math.abs(e.deltaY)<=Math.abs(e.deltaX))return;const max=track.scrollWidth-track.clientWidth;
+ if((e.deltaY>0&&track.scrollLeft<max-2)||(e.deltaY<0&&track.scrollLeft>2)){track.scrollLeft+=e.deltaY;e.preventDefault()}},{passive:false});
+const step=d=>track.scrollBy({left:d*(els[0].offsetWidth+parseFloat(getComputedStyle(track).columnGap||0)),behavior:'smooth'});
+$('prevB').onclick=()=>step(-1);$('nextB').onclick=()=>step(1);
+function countNow(){const c=track.scrollLeft+track.clientWidth/2;let best=0,bd=1e9;els.forEach((e,k)=>{const d=Math.abs(e.offsetLeft+e.offsetWidth/2-c);if(d<bd){bd=d;best=k}});$('count').textContent=String(best+1).padStart(2,'0')+' / '+String(els.length).padStart(2,'0')}
+track.addEventListener('scroll',countNow,{passive:true});
+addEventListener('keydown',e=>{if(state!=='line'||cur>=0||drawerOpen)return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){track.scrollBy({left:(e.key==='ArrowRight'?1:-1)*(els[0].offsetWidth+40),behavior:'smooth'})}});
+
+let state='film',seq=null,hold=null;
+function lineup(){
+ state='line';if(seq)seq.kill();fv.pause();$('skip').style.display='none';$('tap').style.display='none';
+ gsap.set(film,{opacity:0,visibility:'hidden'});gsap.set(['#tWord','#tTag','#tWelcome'],{opacity:0});
+ line.style.visibility='visible';gsap.set(line,{opacity:1});
+ {const t=els[HERO];track.scrollLeft=t.offsetLeft-(track.clientWidth-t.clientWidth)/2}
+ gsap.timeline()
+  .fromTo(els.map(e=>e.querySelector('img')),{opacity:0,y:26},{opacity:1,y:0,duration:RM?0:1.4,ease:'power3.out',stagger:.18},0)
+  .fromTo(els.map(e=>e.querySelector('.cap')),{opacity:0,y:8},{opacity:1,y:0,duration:.8,stagger:.12},.7)
+  .to(['#mark','#tools','#menuBtn','#colhead','#reelnav'],{opacity:1,duration:.8},1)
+  .call(()=>{document.body.classList.remove('lock');$('nav').classList.remove('hide');countNow();schedulePop()},null,1.2);
+}
+function titlesThenLine(){
+ // the bag holds alone, then the name, then the welcome, then the collection
+ state='titles';$('skip').style.display='';
+ seq=gsap.timeline()
+  .to(film,{opacity:0,duration:1.4,ease:'power2.inOut'},3)
+  .fromTo('#tWord',{opacity:0,y:18},{opacity:1,y:0,duration:1.6,ease:'power3.out'},4.6)
+  .fromTo('#tTag',{opacity:0,y:10},{opacity:1,y:0,duration:1.2,ease:'power3.out'},5.5)
+  .to(['#tWord','#tTag'],{opacity:0,duration:.9},8.6)
+  .set('#tWelcome',{opacity:1},9.6)
+  .fromTo('#tWelcome .w',{opacity:0,y:10},{opacity:1,y:0,duration:1.3},9.7)
+  .fromTo('#tWelcome .cn',{opacity:0},{opacity:1,duration:1},11.4)
+  .fromTo('#tWelcome .cname',{opacity:0,y:14},{opacity:1,y:0,duration:1.5,ease:'power3.out'},11.8)
+  .to('#tWelcome',{opacity:0,duration:1},15.2)
+  .call(lineup,null,16.2);
+ if(RM)seq.progress(1);
+}
+function start(){$('tap').style.display='none';const go=fv.play();
+ if(go&&go.catch)go.catch(()=>{$('tap').style.display='flex'});
+ gsap.to(still,{opacity:0,duration:.5,delay:.15})}
+function playFilm(){
+ document.body.classList.add('lock');scrollTo(0,0);$('nav').classList.add('hide');
+ if(hold)hold.kill();if(seq)seq.kill();closeDetail(true);state='film';fitK=0;
+ gsap.set(line,{opacity:0});line.style.visibility='hidden';gsap.set(['#mark','#tools','#menuBtn','#colhead','#reelnav','#tWord','#tTag','#tWelcome','#tWelcome>*'],{opacity:0});
+ gsap.set(film,{opacity:1,visibility:'visible'});gsap.set(still,{opacity:1});$('skip').style.display='';$('tap').style.display='none';
+ layout();try{fv.currentTime=0}catch(_){}
+ hold=gsap.delayedCall(RM?.2:1.6,start);
+}
+$('tap').addEventListener('click',start);
+fv.addEventListener('ended',()=>{if(state==='film')titlesThenLine()});
+fv.addEventListener('error',()=>{if(state==='film')titlesThenLine()});
+(function tick(){if(state==='film'&&fv.duration){const k=Math.min(1,Math.max(0,(fv.currentTime-REVEAL)/(SETTLE-REVEAL)));fitK=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;layout()}requestAnimationFrame(tick)})();
+$('skip').addEventListener('click',()=>{if(hold)hold.kill();lineup()});
+$('replay').addEventListener('click',()=>{$('tools').classList.remove('open');playFilm()});
+addEventListener('resize',()=>{if(state!=='line')layout()});
+
+/* ——— one piece ——— */
+let cur=-1,frameIdx=0;
+function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;frameIdx=0;const p=P[i];
+ $('dOf').textContent=p.of;$('dName').textContent=p.name;$('dPrice').textContent=money(p.price);$('dClasp').textContent=p.clasp;$('dLede').textContent=p.lede;
+ const open1=FIRST_BATCH[p.id]==='open',bt=$('dBatch');bt.classList.toggle('closed',!open1);
+ bt.innerHTML=open1?`<b>First batch <span>Open</span></b>A $${DEPOSIT} deposit reserves your piece in the first batch. The balance is due before it ships.`:`<b>First batch <span>Full</span></b>New pre-orders join the second batch. Nothing is due today.`;
+ $('dBuy').textContent=open1?`Reserve with $${DEPOSIT} deposit`:'Pre-order';$('dAlt').hidden=!open1;
+ const sw=$('dSw');sw.innerHTML='';if(p.frames)p.frames.forEach(([n,c,src],k)=>{const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c;b.title=n+' frame';b.setAttribute('aria-label',n+' frame');b.setAttribute('aria-pressed',k===0);
+  b.onclick=()=>{frameIdx=k;sw.querySelectorAll('.sw').forEach(x=>x.setAttribute('aria-pressed',x===b));imgOf(i).src=src;const fl=$('fly');if(fl)fl.src=src};sw.appendChild(b)});
+ const wide=innerWidth>=860,img=imgOf(i),r=img.getBoundingClientRect();
+ const tw=wide?innerWidth*.58:innerWidth*.94,th=tw*r.height/r.width;
+ const tx=wide?innerWidth*.05:innerWidth*.03,ty=wide?(innerHeight-th)/2:64;if(!wide)$('detail').style.setProperty('--dtop',(64+th+18)+'px');
+ const fly=document.createElement('img');fly.className='fly';fly.src=img.src;fly.alt='';fly.id='fly';fly.style.width=r.width+'px';
+ document.body.appendChild(fly);fly.__home=r;gsap.set(fly,{x:r.left,y:r.top});img.style.visibility='hidden';
+ gsap.to(els.filter((_,k)=>k!==i),{opacity:0,duration:.5,pointerEvents:'none'});
+ gsap.to(els[i].querySelector('.cap'),{opacity:0,duration:.3});
+ gsap.to(fly,{x:tx,y:ty,scale:tw/r.width,duration:1.1,ease:'power3.inOut'});
+ const d=$('detail');d.style.visibility='visible';d.scrollTop=0;gsap.to('#colhead',{opacity:0,duration:.3});gsap.fromTo(d,{opacity:0,y:wide?'-46%':16},{opacity:1,y:wide?'-50%':0,duration:.8,delay:.45,ease:'power3.out'});
+}
+function closeDetail(now){if(cur<0)return;const i=cur;cur=-1;const d=$('detail'),t=now?0:1;
+ gsap.to(d,{opacity:0,duration:.3*t,onComplete:()=>d.style.visibility='hidden'});
+ const fly=$('fly'),img=imgOf(i);
+ if(fly){const r=img.getBoundingClientRect();gsap.to(fly,{x:r.left,y:r.top,scale:r.width/parseFloat(fly.style.width),duration:1*t,ease:'power3.inOut',onComplete:()=>{img.style.visibility='';fly.remove()}})}else img.style.visibility='';
+ gsap.to('#colhead',{opacity:1,duration:.5*t,delay:.6*t});gsap.to(els,{opacity:1,duration:.6*t,delay:.4*t,pointerEvents:'auto'});gsap.to(els.map(e=>e.querySelector('.cap')),{opacity:1,duration:.5*t,delay:.6*t})}
+$('dBack').addEventListener('click',()=>closeDetail());
+addEventListener('keydown',e=>{if(e.key==='Escape'){if(drawerOpen)closeDrawer();else closeDetail()}});
+$('dBuy').addEventListener('click',e=>{e.preventDefault();if(cur>=0)openDrawer(cur,FIRST_BATCH[P[cur].id]==='open'?'deposit':'preorder')});
+$('dAlt').addEventListener('click',()=>{if(cur>=0)openDrawer(cur,'preorder')});
+
+/* ——— pre-order ——— */
+let drawerOpen=false,dPiece='',dIdx=-1;
+const mode=()=>{const m=document.querySelector('input[name=mode]:checked');return m?m.value:'preorder'};
+function syncMode(){const dep=mode()==='deposit';$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Place pre-order';$('dhTitle').textContent=dep?'Reserve your piece':'Pre-order'}
+document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
+function openDrawer(i,want){const p=P[i];dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
+ $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0]+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
+ const open1=FIRST_BATCH[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;
+ $('mDeposit').checked=open1&&want==='deposit';$('mPre').checked=!open1||want!=='deposit';syncMode();
+ $('form').hidden=false;$('okBox').hidden=true;$('dmBox').hidden=true;$('fStatus').textContent='';$('fGo').disabled=false;$('drawer').scrollTop=0;
+ $('drawer').classList.add('on');$('scrim').classList.add('on');$('drawer').setAttribute('aria-hidden','false');setTimeout(()=>$('fFirst').focus(),350)}
+function closeDrawer(){drawerOpen=false;$('drawer').classList.remove('on');$('scrim').classList.remove('on');$('drawer').setAttribute('aria-hidden','true')}
+$('xClose').onclick=closeDrawer;$('scrim').onclick=closeDrawer;
+let db=null,user=null;
+if(window.claude&&window.claude.use){window.claude.use('db').then(d=>{db=d}).catch(()=>{});window.claude.use('user').then(u=>{user=u}).catch(()=>{})}
+const v=id=>$(id).value.trim();
+$('form').addEventListener('submit',async e=>{e.preventDefault();
+ document.querySelectorAll('.req').forEach(x=>x.classList.remove('req'));
+ const need=[['fFirst','your first name'],['fLast','your last name'],['fEmail','your email'],['fPhone','a phone number'],['fCountry','a country'],['fAddr1','your address'],['fCity','your city']];
+ for(const [id,what] of need){if(!v(id)){$(id).classList.add('req');$('fStatus').textContent=`Add ${what} to continue.`;$(id).focus();return}}
+ if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('fEmail'))){$('fEmail').classList.add('req');$('fStatus').textContent='That email doesn’t look complete.';$('fEmail').focus();return}
+ if(v('fNum')&&!(+v('fNum')>=1&&+v('fNum')<=25)){$('fNum').classList.add('req');$('fStatus').textContent='Edition numbers run from 1 to 25.';$('fNum').focus();return}
+ if(!$('fTerms').checked){$('fStatus').textContent='Tick the box to confirm you understand how pre-orders work.';$('fTerms').focus();return}
+ const p=P[dIdx],dep=mode()==='deposit';
+ const en={piece:dPiece,name:p.name,price:p.price,mode:dep?'first-batch-deposit':'pre-order',deposit:dep?DEPOSIT:0,first:v('fFirst'),last:v('fLast'),email:v('fEmail'),phone:v('fPhone'),
+  address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},number:v('fNum'),note:v('fNote'),news:$('fNews').checked,createdAt:new Date().toISOString()};
+ $('fGo').disabled=true;$('fStatus').textContent='Saving…';
+ const done=()=>{$('form').hidden=true;$('okBox').hidden=false;const link=DEPOSIT_LINK[p.id];
+  $('okTitle').textContent=dep?'Your first-batch place is held.':'Your pre-order is in.';
+  $('okText').textContent=dep?(link?`Pay the $${DEPOSIT} deposit to confirm your place. We'll email your number and delivery window.`:`We'll email you a secure link to pay the $${DEPOSIT} deposit within a day. Your place is held for 48 hours.`):`Nothing is due today. We'll email you to confirm your number, your delivery window and how to pay.`;
+  const pay=$('okPay');pay.hidden=!(dep&&link);if(dep&&link)pay.href=link;$('drawer').scrollTop=0};
+ try{const r=await fetch('/api/preorder',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(en)});if(r.ok){done();return}}catch(_){}
+ try{if(!db||!user)throw 0;const uid=await user.id();if(!uid)throw 0;const ref=db.collection('preorders').doc(uid);let old={};try{const g=await ref.get();old=(g&&g.exists&&g.data&&g.data())||{}}catch(_){}
+  await ref.set({...old,email:en.email,name:en.first+' '+en.last,orders:{...(old.orders||{}),[en.piece]:en},updatedAt:en.createdAt});done()}
+ catch(err){$('fStatus').textContent='';$('fGo').disabled=false;
+  $('dmText').textContent=['Momenti '+(dep?'first-batch deposit':'pre-order'),en.piece,en.first+' '+en.last,en.email,en.phone,[en.address.line1,en.address.line2,en.address.city,en.address.region,en.address.postal,en.address.country].filter(Boolean).join(', '),en.number?'No. '+en.number:'',en.note].filter(Boolean).join(' · ');
+  $('form').hidden=true;$('dmBox').hidden=false;$('drawer').scrollTop=0}});
+$('copy').addEventListener('click',()=>{const t=$('dmText'),b=$('copy');const sel=()=>{const r=document.createRange();r.selectNodeContents(t);const s=getSelection();s.removeAllRanges();s.addRange(r)};
+ if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t.textContent).then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)}).catch(sel);else sel()});
+
+/* ——— navigation ——— */
+const nav=$('nav');addEventListener('scroll',()=>nav.classList.toggle('solid',scrollY>40),{passive:true});
+document.querySelectorAll('[data-go]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();$('tools').classList.remove('open');$('menuBtn').setAttribute('aria-expanded','false');$('menuBtn').textContent='Menu';
+ if(state!=='line')lineup();const id=a.dataset.go;if(id==='top'){closeDetail();scrollTo({top:0,behavior:'smooth'})}else $(id).scrollIntoView({behavior:'smooth'})}));
+$('menuBtn').addEventListener('click',()=>{const o=$('tools').classList.toggle('open');$('menuBtn').setAttribute('aria-expanded',o);$('menuBtn').textContent=o?'Close':'Menu'});
+$('mark').addEventListener('click',()=>{closeDetail();scrollTo({top:0,behavior:'smooth'})});
+// the band image drifts as it passes
+const band=document.querySelector('.band img');addEventListener('scroll',()=>{if(RM)return;const r=band.parentNode.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;const k=(r.top+r.height/2-innerHeight/2)/innerHeight;band.style.transform=`scale(1.08) translateY(${k*-40}px)`},{passive:true});
+// sections fade up the first time they're seen; they are visible without this
+if('IntersectionObserver' in window&&!RM){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){gsap.fromTo(e.target,{y:30,opacity:.001},{y:0,opacity:1,duration:1.1,ease:'power3.out'});io.unobserve(e.target)}}),{rootMargin:'0px 0px -12% 0px'});
+ document.querySelectorAll('.house .two-col,.steps li,.services .two-col,.foot-top').forEach(el=>{if(el.getBoundingClientRect().top>innerHeight)io.observe(el)})}
+
+/* ——— legal ——— */
+const LEGAL={
+ sale:['Terms of sale',`<p>These terms apply to every order placed with Momenti through this website.</p><h4>Pieces</h4><p>Each piece is made by hand to order in a numbered edition of 25. Images on this site are renders of the finished piece; small differences in colour and finish are part of handmade work.</p><h4>Prices</h4><p>Prices are shown in US dollars. Shipping, and any duties or taxes for your country, are shown before you pay.</p><h4>Payment</h4><p>We send a secure payment link once your pre-order is accepted. Your piece goes into production only after payment is complete.</p><h4>Returns</h4><p>Because each piece is made to order and numbered, we cannot accept returns for change of mind. If your piece arrives damaged or not as described, write to us within 14 days of delivery and we will repair, replace or refund it.</p><h4>Contact</h4><p>${CONTACT_EMAIL}</p>`],
+ preorder:['Pre-order terms',`<h4>Pre-orders</h4><p>A pre-order reserves a piece in its edition. Nothing is charged when you send the form. We confirm your edition number, delivery window and payment details by email.</p><h4>First-batch deposits</h4><p>Where the first batch is open, a $${DEPOSIT} deposit reserves your place in it. The deposit is taken off the price of your piece, and the balance is due before it ships.</p><h4>Refunds</h4><p>Deposits are fully refundable until your piece goes into production. We email you before production begins. After that, the deposit is non-refundable.</p><h4>Edition numbers</h4><p>Requested numbers are given in the order pre-orders arrive, if they are still free.</p><h4>Timing</h4><p>Delivery windows are estimates and are confirmed by email. If your window moves by more than four weeks, you may cancel for a full refund.</p>`],
+ privacy:['Privacy',`<p>We collect the details you give us: your name, email, phone and shipping address when you pre-order, and your email when you join the House List.</p><h4>How we use them</h4><p>To confirm, make and deliver your piece, to reply to you, and, if you ask, to send news from the house. We never sell your details.</p><h4>Who else sees them</h4><p>Only the services that help us run the house: email delivery, payment processing and shipping carriers.</p><h4>Your choices</h4><p>Unsubscribe from any email with one click. To see, correct or delete your details, write to ${CONTACT_EMAIL}.</p>`]};
+function openLegal(k){const [t,b]=LEGAL[k];$('legalH').textContent=t;$('legalBody').innerHTML=b;$('legal').hidden=false;$('legalScrim').classList.add('on');$('legal').scrollTop=0;$('legalClose').focus()}
+function closeLegal(){$('legal').hidden=true;$('legalScrim').classList.remove('on')}
+document.querySelectorAll('[data-legal]').forEach(b=>b.addEventListener('click',()=>openLegal(b.dataset.legal)));
+$('legalClose').onclick=closeLegal;$('legalScrim').onclick=closeLegal;
+
+/* ——— House List: pop-up and footer ——— */
+const store={get:k=>{try{return localStorage.getItem(k)}catch(_){return null}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(_){}}};
+let popTimer=null;
+function schedulePop(){if(store.get('momenti_list')||popTimer)return;popTimer=setTimeout(()=>{if(drawerOpen||!$('legal').hidden){popTimer=null;return schedulePop()}openPop()},9000)}
+function openPop(){$('pop').hidden=false;$('popScrim').classList.add('on');const sm=innerWidth<860;gsap.fromTo('#pop',{opacity:0,xPercent:-50,yPercent:sm?0:-50,y:sm?60:20},{opacity:1,y:0,duration:.7,ease:'power3.out'});setTimeout(()=>$('popEmail').focus(),300)}
+function closePop(){$('pop').hidden=true;$('popScrim').classList.remove('on');store.set('momenti_list','seen')}
+$('popClose').onclick=closePop;$('popScrim').onclick=closePop;
+addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('pop').hidden)closePop();if(!$('legal').hidden)closeLegal()}});
+async function subscribe(email,topics){
+ try{const r=await fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,topics})});if(r.ok)return true}catch(_){}
+ try{if(db&&user){const uid=await user.id();if(uid){await db.collection('preorders').doc(uid).set({...(await db.collection('preorders').doc(uid).get().then(g=>g&&g.exists?g.data():{}).catch(()=>({}))),list:{email,topics,at:new Date().toISOString()}});return true}}}catch(_){}
+ return false}
+const okEmail=v=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v);
+$('popForm').addEventListener('submit',async e=>{e.preventDefault();const em=$('popEmail').value.trim();
+ if(!okEmail(em)){$('popStatus').textContent='Add your email address.';$('popEmail').focus();return}
+ const topics=[$('popNews').checked&&'news',$('popPre').checked&&'pre-orders'].filter(Boolean);
+ if(!topics.length){$('popStatus').textContent='Choose at least one.';return}
+ $('popStatus').textContent='Joining…';const ok=await subscribe(em,topics);
+ if(ok){$('popForm').hidden=true;$('popOk').hidden=false;store.set('momenti_list','joined');setTimeout(closePop,2600)}
+ else $('popStatus').textContent=`We couldn't add you just now. Write to ${CONTACT_EMAIL} and we'll add you by hand.`});
+$('footForm').addEventListener('submit',async e=>{e.preventDefault();const em=$('footEmail').value.trim();
+ if(!okEmail(em)){$('footStatus').textContent='Add your email address.';$('footEmail').focus();return}
+ $('footStatus').textContent='Joining…';const ok=await subscribe(em,['news','pre-orders']);
+ $('footStatus').textContent=ok?'You’re on the list.':`We couldn't add you just now. Write to ${CONTACT_EMAIL}.`;if(ok){$('footEmail').value='';store.set('momenti_list','joined')}});
+
+window.__m={openPop,openLegal,lineup,titlesThenLine,playFilm,fv,open,state:()=>state};
+layout();playFilm();
+})();
+</script>
+
+</body>
+</html>
