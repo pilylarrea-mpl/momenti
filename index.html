@@ -201,7 +201,8 @@ body.on-house .house{padding-top:clamp(130px,16vw,210px)}
 .alt{background:none;border:0;border-bottom:1px solid var(--ink);padding:2px 0;cursor:pointer;color:var(--ink)}
 .info{display:flex;flex-direction:column;gap:10px}
 .sws{display:flex;gap:10px}
-.sw{appearance:none;cursor:pointer;width:24px;height:24px;border-radius:50%;border:1px solid rgba(0,0,0,.18);padding:0}
+.sw{appearance:none;cursor:pointer;width:24px;height:24px;border-radius:50%;border:1px solid rgba(0,0,0,.18);padding:0;position:relative}
+.sw::after{content:'';position:absolute;inset:-6px;border-radius:50%}
 .sw[aria-pressed="true"]{box-shadow:0 0 0 2px var(--studio),0 0 0 3px var(--ink)}
 .buy{appearance:none;cursor:pointer;background:var(--ink);color:var(--studio);border:0;padding:16px 28px;font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;display:inline-block;align-self:flex-start}
 details{font-size:13.5px;color:#4A3F35}
@@ -614,7 +615,7 @@ const mode=()=>{const m=document.querySelector('input[name=mode]:checked');retur
 function syncMode(){const dep=mode()==='deposit';$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
 document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
 function openDrawer(i,want){const p=P[i];dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
- $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0]+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
+ $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0].replace(/ /g,' ')+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
  const open1=PRIORITY_ONE[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;$('closedNote').textContent=PRIORITY_ONE[p.id]==='closed'?'Priority I is closed for this piece. You are joining Priority II.':'Priority I is not yet open for this piece. You are joining Priority II, and we write to you first when it opens.';
  $('mDeposit').checked=open1&&want==='deposit';$('mPre').checked=!open1||want!=='deposit';syncMode();
  $('form').hidden=false;$('okBox').hidden=true;$('dmBox').hidden=true;$('fStatus').textContent='';$('fGo').disabled=false;$('drawer').scrollTop=0;
