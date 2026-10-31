@@ -614,7 +614,7 @@ const mode=()=>{const m=document.querySelector('input[name=mode]:checked');retur
 function syncMode(){const dep=mode()==='deposit';$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
 document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
 function openDrawer(i,want){const p=P[i];dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
- $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0]+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
+ $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0]+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
  const open1=PRIORITY_ONE[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;$('closedNote').textContent=PRIORITY_ONE[p.id]==='closed'?'Priority I is closed for this piece. You are joining Priority II.':'Priority I is not yet open for this piece. You are joining Priority II, and we write to you first when it opens.';
  $('mDeposit').checked=open1&&want==='deposit';$('mPre').checked=!open1||want!=='deposit';syncMode();
  $('form').hidden=false;$('okBox').hidden=true;$('dmBox').hidden=true;$('fStatus').textContent='';$('fGo').disabled=false;$('drawer').scrollTop=0;
