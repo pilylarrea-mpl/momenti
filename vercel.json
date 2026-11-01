@@ -23,7 +23,7 @@
   "rewrites": [
     {
       "source": "/house",
-      "destination": "/index.html"
+      "destination": "/"
     }
   ]
 }
