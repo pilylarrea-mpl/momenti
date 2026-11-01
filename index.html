@@ -456,6 +456,8 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <p class="sec mono">Contact</p>
     <div class="two"><label for="fFirst">First name<input id="fFirst" autocomplete="given-name" required></label><label for="fLast">Last name<input id="fLast" autocomplete="family-name" required></label></div>
     <label for="fEmail">Email<input id="fEmail" type="email" autocomplete="email" required></label>
+    <p class="note" id="shipLater">Nothing else needed today. We ask for your phone and shipping address before your piece is made.</p>
+    <div id="shipBox">
     <label for="fPhone">Phone <span class="hint">(for delivery)</span><input id="fPhone" type="tel" autocomplete="tel" required></label>
     <p class="sec mono">Shipping address</p>
     <label for="fCountry">Country<select id="fCountry" autocomplete="country-name" required><option value="">Choose a country</option><option>United States</option><option>Canada</option><option>United Kingdom</option><option>France</option><option>Italy</option><option>Spain</option><option>Germany</option><option>Switzerland</option><option>Lebanon</option><option>United Arab Emirates</option><option>Saudi Arabia</option><option>Mexico</option><option>Brazil</option><option>Japan</option><option>Australia</option><option>Other</option></select></label>
@@ -463,6 +465,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <label for="fAddr2">Apartment, suite, floor <span class="hint">(optional)</span><input id="fAddr2" autocomplete="address-line2"></label>
     <div class="two"><label for="fCity">City<input id="fCity" autocomplete="address-level2" required></label><label for="fRegion">State / region<input id="fRegion" autocomplete="address-level1"></label></div>
     <label for="fPostal">Postal code<input id="fPostal" autocomplete="postal-code"></label>
+    </div>
     <p class="sec mono">Your piece</p>
     <label for="fNum">Number in the edition <span class="hint">(optional, 1–25)</span><input id="fNum" inputmode="numeric" placeholder="07"></label>
     <label for="fNote">Note <span class="hint">(optional)</span><textarea id="fNote" rows="3"></textarea></label>
@@ -493,6 +496,7 @@ const $=id=>document.getElementById(id);
 // steps of a visit show in Vercel Web Analytics as pages under /~/ (named events need the Pro plan)
 const logStep=n=>{try{const path='/~/'+n;va('pageview',{route:path,path})}catch(_){}};
 // where the visit came from: a ?s= / utm_source tag, else the Instagram or TikTok in-app browser
+const cameFrom=()=>{let f='';try{f=sessionStorage.getItem('m_from')||''}catch(_){}return {from:f||'direct',ref:document.referrer?new URL(document.referrer).hostname:'',landed:location.pathname+location.search}};
 {const q=new URLSearchParams(location.search),ua=navigator.userAgent,src=(q.get('utm_source')||q.get('s')||(/Instagram/.test(ua)?'instagram':/musical_ly|Bytedance|TikTok/i.test(ua)?'tiktok':/FBAN|FBAV/.test(ua)?'facebook':'')).toLowerCase().replace(/[^a-z0-9-]/g,'');
  try{if(src&&!sessionStorage.getItem('m_from')){sessionStorage.setItem('m_from',src);logStep('from/'+src)}}catch(_){if(src)logStep('from/'+src)}}
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -619,7 +623,7 @@ $('dAlt').addEventListener('click',()=>{if(cur>=0)openDrawer(cur,'preorder')});
 /* ——— pre-order ——— */
 let drawerOpen=false,dPiece='',dIdx=-1;
 const mode=()=>{const m=document.querySelector('input[name=mode]:checked');return m?m.value:'preorder'};
-function syncMode(){const dep=mode()==='deposit';$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
+function syncMode(){const dep=mode()==='deposit';$('shipBox').hidden=!dep;$('shipLater').hidden=dep;$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
 document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
 function openDrawer(i,want){const p=P[i];logStep('preorder-form/'+p.id);dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
  $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0].replace(/ /g,' ')+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
@@ -634,14 +638,14 @@ if(window.claude&&window.claude.use){window.claude.use('db').then(d=>{db=d}).cat
 const v=id=>$(id).value.trim();
 $('form').addEventListener('submit',async e=>{e.preventDefault();
  document.querySelectorAll('.req').forEach(x=>x.classList.remove('req'));
- const need=[['fFirst','your first name'],['fLast','your last name'],['fEmail','your email'],['fPhone','a phone number'],['fCountry','a country'],['fAddr1','your address'],['fCity','your city']];
+ const need=[['fFirst','your first name'],['fLast','your last name'],['fEmail','your email']].concat(mode()==='deposit'?[['fPhone','a phone number'],['fCountry','a country'],['fAddr1','your address'],['fCity','your city']]:[]);
  for(const [id,what] of need){if(!v(id)){$(id).classList.add('req');$('fStatus').textContent=`Add ${what} to continue.`;$(id).focus();return}}
  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('fEmail'))){$('fEmail').classList.add('req');$('fStatus').textContent='That email doesn’t look complete.';$('fEmail').focus();return}
  if(v('fNum')&&!(+v('fNum')>=1&&+v('fNum')<=25)){$('fNum').classList.add('req');$('fStatus').textContent='Edition numbers run from 1 to 25.';$('fNum').focus();return}
  if(!$('fTerms').checked){$('fStatus').textContent='Tick the box to confirm you understand how pre-orders work.';$('fTerms').focus();return}
  const p=P[dIdx],dep=mode()==='deposit';
  const en={piece:dPiece,name:p.name,price:p.price,mode:dep?'first-batch-deposit':'pre-order',deposit:dep?DEPOSIT:0,first:v('fFirst'),last:v('fLast'),email:v('fEmail'),phone:v('fPhone'),
-  address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},number:v('fNum'),note:v('fNote'),news:$('fNews').checked,createdAt:new Date().toISOString()};
+  address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},number:v('fNum'),note:v('fNote'),news:$('fNews').checked,...cameFrom(),createdAt:new Date().toISOString()};
  $('fGo').disabled=true;$('fStatus').textContent='Saving…';
  const done=()=>{logStep((dep?'priority-1/':'priority-2/')+p.id);$('form').hidden=true;$('okBox').hidden=false;const link=DEPOSIT_LINK[p.id];
   $('okTitle').textContent=dep?'Your Priority I place is held.':'You are on Priority II.';
@@ -704,7 +708,7 @@ function closePop(){$('pop').hidden=true;$('popScrim').classList.remove('on');st
 $('popClose').onclick=closePop;$('popScrim').onclick=closePop;
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('pop').hidden)closePop();if(!$('legal').hidden)closeLegal()}});
 async function subscribe(email,topics){
- try{const r=await fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,topics})});if(r.ok){logStep('house-list');return true}}catch(_){}
+ try{const r=await fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,topics,...cameFrom()})});if(r.ok){logStep('house-list');return true}}catch(_){}
  try{if(db&&user){const uid=await user.id();if(uid){await db.collection('preorders').doc(uid).set({...(await db.collection('preorders').doc(uid).get().then(g=>g&&g.exists?g.data():{}).catch(()=>({}))),list:{email,topics,at:new Date().toISOString()}});logStep('house-list');return true}}}catch(_){}
  return false}
 const okEmail=v=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v);

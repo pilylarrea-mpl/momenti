@@ -10,7 +10,8 @@ module.exports = async (req, res) => {
   const email = String(o.email || '').trim();
   const topics = Array.isArray(o.topics) ? o.topics.map(String).slice(0, 5) : [];
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return res.status(400).json({ error: 'Invalid email' });
-  const text = `HOUSE LIST · ${email}\nWants: ${topics.join(', ') || 'news'}\nReceived: ${new Date().toISOString()}`;
+  const from = String(o.from || 'direct').slice(0, 40), ref = String(o.ref || '').slice(0, 80), landed = String(o.landed || '').slice(0, 200);
+  const text = `HOUSE LIST · ${email}\nWants: ${topics.join(', ') || 'news'}\nCame from: ${from}${ref ? ` (referrer ${ref})` : ''}\nLanded on: ${landed}\nReceived: ${new Date().toISOString()}`;
 
   const { RESEND_API_KEY, ORDER_EMAIL, RESEND_AUDIENCE_ID, FROM_EMAIL } = process.env;
   const h = { Authorization: `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json' };
