@@ -282,6 +282,8 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
 @media (prefers-reduced-motion:reduce){.piece .lift{transition:none}}
 </style>
 
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)}</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 <header class="nav" id="nav">
@@ -488,6 +490,9 @@ const INSTAGRAM='https://www.instagram.com/houseofmomenti', TIKTOK='https://www.
 document.getElementById('igLink').href=INSTAGRAM;document.getElementById('ttLink').href=TIKTOK;
 document.getElementById('cname').textContent=COLLECTION;document.getElementById('cname2').textContent=COLLECTION;
 const $=id=>document.getElementById(id);
+// steps of a visit show in Vercel Web Analytics as pages under /~/ (named events need the Pro plan)
+const logStep=n=>{try{const path='/~/'+n;va('pageview',{route:path,path})}catch(_){}};
+{const q=new URLSearchParams(location.search),src=(q.get('utm_source')||q.get('s')||'').toLowerCase().replace(/[^a-z0-9-]/g,'');if(src)logStep('from/'+src)}
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const money=n=>'$'+n;
 
@@ -581,7 +586,7 @@ addEventListener('resize',()=>{if(state!=='line')layout()});
 
 /* ——— one piece ——— */
 let cur=-1,frameIdx=0;
-function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;frameIdx=0;const p=P[i];
+function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;frameIdx=0;const p=P[i];logStep('piece/'+p.id);
  $('dOf').textContent=p.of;$('dName').textContent=p.name;$('dPrice').textContent=money(p.price);$('dClasp').textContent=p.clasp;$('dLede').textContent=p.lede;
  const open1=PRIORITY_ONE[p.id]==='open',bt=$('dBatch');bt.classList.toggle('closed',PRIORITY_ONE[p.id]==='closed');
  bt.innerHTML=open1?`<b>Priority I <span>Open</span></b>A $${DEPOSIT} deposit places your piece among the first made, with first choice of number. Taken off the price, refundable until production.`:PRIORITY_ONE[p.id]==='closed'?`<b>Priority I <span>Closed</span></b>Priority II is open, with nothing due today.`:`<b>Priority I <span>Not yet open</span></b>Join Priority II today, with nothing due. We write to you first when Priority I opens.`;
@@ -614,14 +619,14 @@ let drawerOpen=false,dPiece='',dIdx=-1;
 const mode=()=>{const m=document.querySelector('input[name=mode]:checked');return m?m.value:'preorder'};
 function syncMode(){const dep=mode()==='deposit';$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
 document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
-function openDrawer(i,want){const p=P[i];dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
+function openDrawer(i,want){const p=P[i];logStep('preorder-form/'+p.id);dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
  $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0].replace(/ /g,' ')+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
  const open1=PRIORITY_ONE[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;$('closedNote').textContent=PRIORITY_ONE[p.id]==='closed'?'Priority I is closed for this piece. You are joining Priority II.':'Priority I is not yet open for this piece. You are joining Priority II, and we write to you first when it opens.';
  $('mDeposit').checked=open1&&want==='deposit';$('mPre').checked=!open1||want!=='deposit';syncMode();
  $('form').hidden=false;$('okBox').hidden=true;$('dmBox').hidden=true;$('fStatus').textContent='';$('fGo').disabled=false;$('drawer').scrollTop=0;
  $('drawer').classList.add('on');$('scrim').classList.add('on');$('drawer').setAttribute('aria-hidden','false');setTimeout(()=>$('fFirst').focus(),350)}
 function closeDrawer(){drawerOpen=false;$('drawer').classList.remove('on');$('scrim').classList.remove('on');$('drawer').setAttribute('aria-hidden','true')}
-$('xClose').onclick=closeDrawer;$('scrim').onclick=closeDrawer;
+$('xClose').onclick=closeDrawer;$('okPay').addEventListener('click',()=>logStep('deposit-link/'+P[dIdx].id));$('scrim').onclick=closeDrawer;
 let db=null,user=null;
 if(window.claude&&window.claude.use){window.claude.use('db').then(d=>{db=d}).catch(()=>{});window.claude.use('user').then(u=>{user=u}).catch(()=>{})}
 const v=id=>$(id).value.trim();
@@ -636,7 +641,7 @@ $('form').addEventListener('submit',async e=>{e.preventDefault();
  const en={piece:dPiece,name:p.name,price:p.price,mode:dep?'first-batch-deposit':'pre-order',deposit:dep?DEPOSIT:0,first:v('fFirst'),last:v('fLast'),email:v('fEmail'),phone:v('fPhone'),
   address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},number:v('fNum'),note:v('fNote'),news:$('fNews').checked,createdAt:new Date().toISOString()};
  $('fGo').disabled=true;$('fStatus').textContent='Saving…';
- const done=()=>{$('form').hidden=true;$('okBox').hidden=false;const link=DEPOSIT_LINK[p.id];
+ const done=()=>{logStep((dep?'priority-1/':'priority-2/')+p.id);$('form').hidden=true;$('okBox').hidden=false;const link=DEPOSIT_LINK[p.id];
   $('okTitle').textContent=dep?'Your Priority I place is held.':'You are on Priority II.';
   $('okText').textContent=dep?(link?`Pay the $${DEPOSIT} deposit to confirm your place. Your number and delivery window follow by email.`:`A secure link for the $${DEPOSIT} deposit follows by email within a day. Your place is held for 48 hours.`):`Nothing is due today. We write to you with your number, delivery window and payment before your piece is made.`;
   const pay=$('okPay');pay.hidden=!(dep&&link);if(dep&&link)pay.href=link;$('drawer').scrollTop=0};
@@ -697,8 +702,8 @@ function closePop(){$('pop').hidden=true;$('popScrim').classList.remove('on');st
 $('popClose').onclick=closePop;$('popScrim').onclick=closePop;
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(!$('pop').hidden)closePop();if(!$('legal').hidden)closeLegal()}});
 async function subscribe(email,topics){
- try{const r=await fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,topics})});if(r.ok)return true}catch(_){}
- try{if(db&&user){const uid=await user.id();if(uid){await db.collection('preorders').doc(uid).set({...(await db.collection('preorders').doc(uid).get().then(g=>g&&g.exists?g.data():{}).catch(()=>({}))),list:{email,topics,at:new Date().toISOString()}});return true}}}catch(_){}
+ try{const r=await fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email,topics})});if(r.ok){logStep('house-list');return true}}catch(_){}
+ try{if(db&&user){const uid=await user.id();if(uid){await db.collection('preorders').doc(uid).set({...(await db.collection('preorders').doc(uid).get().then(g=>g&&g.exists?g.data():{}).catch(()=>({}))),list:{email,topics,at:new Date().toISOString()}});logStep('house-list');return true}}}catch(_){}
  return false}
 const okEmail=v=>/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v);
 $('popForm').addEventListener('submit',async e=>{e.preventDefault();const em=$('popEmail').value.trim();
