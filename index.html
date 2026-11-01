@@ -492,7 +492,9 @@ document.getElementById('cname').textContent=COLLECTION;document.getElementById(
 const $=id=>document.getElementById(id);
 // steps of a visit show in Vercel Web Analytics as pages under /~/ (named events need the Pro plan)
 const logStep=n=>{try{const path='/~/'+n;va('pageview',{route:path,path})}catch(_){}};
-{const q=new URLSearchParams(location.search),src=(q.get('utm_source')||q.get('s')||'').toLowerCase().replace(/[^a-z0-9-]/g,'');if(src)logStep('from/'+src)}
+// where the visit came from: a ?s= / utm_source tag, else the Instagram or TikTok in-app browser
+{const q=new URLSearchParams(location.search),ua=navigator.userAgent,src=(q.get('utm_source')||q.get('s')||(/Instagram/.test(ua)?'instagram':/musical_ly|Bytedance|TikTok/i.test(ua)?'tiktok':/FBAN|FBAV/.test(ua)?'facebook':'')).toLowerCase().replace(/[^a-z0-9-]/g,'');
+ try{if(src&&!sessionStorage.getItem('m_from')){sessionStorage.setItem('m_from',src);logStep('from/'+src)}}catch(_){if(src)logStep('from/'+src)}}
 const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const money=n=>'$'+n;
 
