@@ -320,7 +320,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
       <div class="acts"><a class="buy" id="dBuy" href="#preorder" role="button">Pre-order</a><button class="alt mono" type="button" id="dAlt" hidden>Join Priority II · nothing due today</button></div>
       <div class="info">
         <details><summary class="mono">The clasp</summary><p id="dClasp"></p></details>
-        <details><summary class="mono">The edition</summary><p>Made by hand in an edition of 25, numbered inside the frame. Request your number with your pre-order.</p></details>
+        <details><summary class="mono">The edition</summary><p>Made by hand in an edition of 25, numbered inside the frame.</p></details>
         <details><summary class="mono">Pre-order and delivery</summary><p>Priority I pieces are made first, then Priority II, each in the order received. Number, delivery and payment are confirmed by email before production.</p></details>
       </div>
       <button class="back mono" type="button" id="dBack">All pieces</button>
@@ -371,7 +371,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <ol class="steps">
       <li><img src="img/craft-photo.jpg" alt="The Havana photograph" loading="lazy"><span class="num">I</span><h3>The photograph</h3><p>Printed edge to edge, so the street follows the curve of the frame.</p></li>
       <li><img src="img/craft-clasp.jpg" alt="The turquoise convertible clasp on the frame" loading="lazy"><span class="num">II</span><h3>The clasp</h3><p>One object from the scene, sculpted in miniature and set on a brass hinge.</p></li>
-      <li><img src="img/craft-piece.jpg" alt="The finished Havana clutch" loading="lazy"><span class="num">III</span><h3>The edition</h3><p>Numbered one to twenty-five inside the frame. Request yours with your pre-order.</p></li>
+      <li><img src="img/craft-piece.jpg" alt="The finished Havana clutch" loading="lazy"><span class="num">III</span><h3>The edition</h3><p>Numbered one to twenty-five inside the frame.</p></li>
     </ol>
   </div>
 
@@ -387,12 +387,11 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
   <div class="wrap two-col">
     <div><p class="eyebrow mono">Questions</p><h2 id="svcH">Client Services</h2><p class="lead">Write to <a class="email-link" href="#" id="svcMail"></a>. We reply within one working day.</p></div>
     <div class="faq">
-      <details><summary>How do pre-orders work?</summary><p>In two steps. Priority I holds your place with a $100 deposit: your piece is among the first made, and you choose your number first. Priority II has nothing to pay today, and is made next. Either way, your number, delivery window and payment are confirmed by email before production.</p></details>
+      <details><summary>How do pre-orders work?</summary><p>In two steps. Priority I holds your place with a $100 deposit: your piece is among the first made. Priority II has nothing to pay today, and is made next. Either way, your number, delivery window and payment are confirmed by email before production.</p></details>
       <details><summary>What is Priority I?</summary><p>The first pieces made in each edition. A $100 deposit holds your place and is taken off the price. Priority I opens one piece at a time, beginning with Paris. For the others, join Priority II and we write to you first when Priority I opens.</p></details>
       <details><summary>Can I get my deposit back?</summary><p>Yes, in full, until production begins. We write before it does.</p></details>
       <details><summary>When will my piece arrive?</summary><p>Each piece is made to order. Your delivery window is confirmed with your pre-order, and again at dispatch.</p></details>
       <details id="shipping"><summary>Where do you ship?</summary><p>Worldwide, tracked and insured. Duties are shown before payment.</p></details>
-      <details><summary>Can I choose my edition number?</summary><p>Request one between 1 and 25. If it is free, it is yours.</p></details>
       <details id="care"><summary>How should I care for my piece?</summary><p>Store in its dust bag, away from sun and damp. Wipe the frame with a soft, dry cloth. Hold the clutch by its body, not the clasp.</p></details>
     </div>
   </div>
@@ -451,7 +450,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
   <div class="sum"><img id="sImg" alt=""><div><b id="sName"></b><span class="meta" id="sMeta"></span></div><span class="pr" id="sPrice"></span></div>
   <form id="form" novalidate>
     <fieldset class="modes" id="modes"><legend class="mono">Reserve</legend>
-      <label class="mode" for="mDeposit"><input type="radio" name="mode" id="mDeposit" value="deposit"><span><b>Priority I · $100 deposit</b><span class="hint">Among the first made, first choice of number. Taken off the price, refundable until production.</span></span></label>
+      <label class="mode" for="mDeposit"><input type="radio" name="mode" id="mDeposit" value="deposit"><span><b>Priority I · $100 deposit</b><span class="hint">Among the first made. Taken off the price, refundable until production.</span></span></label>
       <label class="mode" for="mPre"><input type="radio" name="mode" id="mPre" value="preorder"><span><b>Priority II · nothing due today</b><span class="hint">Made after Priority I. Timing and payment confirmed by email.</span></span></label>
     </fieldset>
     <p class="note" id="closedNote" hidden></p>
@@ -469,7 +468,6 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <label for="fPostal">Postal code<input id="fPostal" autocomplete="postal-code"></label>
     </div>
     <p class="sec mono">Your piece</p>
-    <label for="fNum">Number in the edition <span class="hint">(optional, 1–25)</span><input id="fNum" inputmode="numeric" placeholder="07"></label>
     <label for="fNote">Note <span class="hint">(optional)</span><textarea id="fNote" rows="3"></textarea></label>
     <div class="due"><span>Due today</span><b id="dueNow">$0</b></div>
     <label class="check" for="fTerms"><input type="checkbox" id="fTerms" required><span>I understand this piece is made to order and that delivery will be confirmed by email.</span></label>
@@ -598,7 +596,7 @@ let cur=-1,frameIdx=0;
 function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;frameIdx=0;const p=P[i];adTrack('product_view',{content_id:p.id,content_name:p.name,content_type:'product'},p.id);logStep('piece/'+p.id);
  $('dOf').textContent=p.of;$('dName').textContent=p.name;$('dPrice').textContent=money(p.price);$('dClasp').textContent=p.clasp;$('dLede').textContent=p.lede;
  const open1=PRIORITY_ONE[p.id]==='open',bt=$('dBatch');bt.classList.toggle('closed',PRIORITY_ONE[p.id]==='closed');
- bt.innerHTML=open1?`<b>Priority I <span>Open</span></b>A $${DEPOSIT} deposit places your piece among the first made, with first choice of number. Taken off the price, refundable until production.`:PRIORITY_ONE[p.id]==='closed'?`<b>Priority I <span>Closed</span></b>Priority II is open, with nothing due today.`:`<b>Priority I <span>Not yet open</span></b>Join Priority II today, with nothing due. We write to you first when Priority I opens.`;
+ bt.innerHTML=open1?`<b>Priority I <span>Open</span></b>A $${DEPOSIT} deposit places your piece among the first made. Taken off the price, refundable until production.`:PRIORITY_ONE[p.id]==='closed'?`<b>Priority I <span>Closed</span></b>Priority II is open, with nothing due today.`:`<b>Priority I <span>Not yet open</span></b>Join Priority II today, with nothing due. We write to you first when Priority I opens.`;
  $('dBuy').textContent=open1?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dAlt').hidden=!open1;
  const sw=$('dSw');sw.innerHTML='';if(p.frames)p.frames.forEach(([n,c,src],k)=>{const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c;b.title=n+' frame';b.setAttribute('aria-label',n+' frame');b.setAttribute('aria-pressed',k===0);
   b.onclick=()=>{frameIdx=k;sw.querySelectorAll('.sw').forEach(x=>x.setAttribute('aria-pressed',x===b));imgOf(i).src=src;const fl=$('fly');if(fl)fl.src=src};sw.appendChild(b)});
@@ -644,11 +642,10 @@ $('form').addEventListener('submit',async e=>{e.preventDefault();
  const need=[['fFirst','your first name'],['fLast','your last name'],['fEmail','your email']].concat(mode()==='deposit'?[['fPhone','a phone number'],['fCountry','a country'],['fAddr1','your address'],['fCity','your city']]:[]);
  for(const [id,what] of need){if(!v(id)){$(id).classList.add('req');$('fStatus').textContent=`Add ${what} to continue.`;$(id).focus();return}}
  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('fEmail'))){$('fEmail').classList.add('req');$('fStatus').textContent='That email doesn’t look complete.';$('fEmail').focus();return}
- if(v('fNum')&&!(+v('fNum')>=1&&+v('fNum')<=25)){$('fNum').classList.add('req');$('fStatus').textContent='Edition numbers run from 1 to 25.';$('fNum').focus();return}
  if(!$('fTerms').checked){$('fStatus').textContent='Tick the box to confirm you understand how pre-orders work.';$('fTerms').focus();return}
  const p=P[dIdx],dep=mode()==='deposit';
  const en={piece:dPiece,name:p.name,price:p.price,mode:dep?'first-batch-deposit':'pre-order',deposit:dep?DEPOSIT:0,first:v('fFirst'),last:v('fLast'),email:v('fEmail'),phone:v('fPhone'),
-  address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},number:v('fNum'),note:v('fNote'),news:$('fNews').checked,...cameFrom(),createdAt:new Date().toISOString()};
+  address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},note:v('fNote'),news:$('fNews').checked,...cameFrom(),createdAt:new Date().toISOString()};
  $('fGo').disabled=true;$('fStatus').textContent='Saving…';
  const done=()=>{adTrack('preorder_submit',{content_id:dPiece,content_name:p.name,content_type:'product',mode:dep?'priority_1':'priority_2'},en.createdAt+':'+dPiece);logStep((dep?'priority-1/':'priority-2/')+p.id);$('form').hidden=true;$('okBox').hidden=false;const link=DEPOSIT_LINK[p.id];
   $('okTitle').textContent=dep?'Your Priority I place is held.':'You are on Priority II.';
@@ -658,7 +655,7 @@ $('form').addEventListener('submit',async e=>{e.preventDefault();
  try{if(!db||!user)throw 0;const uid=await user.id();if(!uid)throw 0;const ref=db.collection('preorders').doc(uid);let old={};try{const g=await ref.get();old=(g&&g.exists&&g.data&&g.data())||{}}catch(_){}
   await ref.set({...old,email:en.email,name:en.first+' '+en.last,orders:{...(old.orders||{}),[en.piece]:en},updatedAt:en.createdAt});done()}
  catch(err){$('fStatus').textContent='';$('fGo').disabled=false;
-  $('dmText').textContent=['Momenti '+(dep?'Priority I deposit':'Priority II'),en.piece,en.first+' '+en.last,en.email,en.phone,[en.address.line1,en.address.line2,en.address.city,en.address.region,en.address.postal,en.address.country].filter(Boolean).join(', '),en.number?'No. '+en.number:'',en.note].filter(Boolean).join(' · ');
+  $('dmText').textContent=['Momenti '+(dep?'Priority I deposit':'Priority II'),en.piece,en.first+' '+en.last,en.email,en.phone,[en.address.line1,en.address.line2,en.address.city,en.address.region,en.address.postal,en.address.country].filter(Boolean).join(', '),en.note].filter(Boolean).join(' · ');
   $('form').hidden=true;$('dmBox').hidden=false;$('drawer').scrollTop=0}});
 $('copy').addEventListener('click',()=>{const t=$('dmText'),b=$('copy');const sel=()=>{const r=document.createRange();r.selectNodeContents(t);const s=getSelection();s.removeAllRanges();s.addRange(r)};
  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t.textContent).then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)}).catch(sel);else sel()});
@@ -695,7 +692,7 @@ if('IntersectionObserver' in window&&!RM){const io=new IntersectionObserver(es=>
 /* ——— legal ——— */
 const LEGAL={
  sale:['Terms of sale',`<p>These terms apply to every order placed with Momenti through this website.</p><h4>Pieces</h4><p>Each piece is made by hand to order in a numbered edition of 25. Images on this site are renders of the finished piece; small differences in colour and finish are part of handmade work.</p><h4>Prices</h4><p>Prices are shown in US dollars. Shipping, and any duties or taxes for your country, are shown before you pay.</p><h4>Payment</h4><p>For Priority I, a $${DEPOSIT} deposit is taken when you reserve your piece and is taken off its price. Nothing is charged when you join Priority II. We send a secure payment link for the balance, which is due before your piece ships. See the Pre-order terms for deposits and refunds.</p><h4>Returns</h4><p>Because each piece is made to order and numbered, we cannot accept returns for change of mind. If your piece arrives damaged or not as described, write to us within 14 days of delivery and we will repair, replace or refund it.</p><h4>Contact</h4><p>${CONTACT_EMAIL}</p>`],
- preorder:['Pre-order terms',`<h4>Pre-orders</h4><p>A pre-order reserves a piece in its edition, in Priority I or Priority II. We confirm your edition number, delivery window and payment details by email.</p><h4>Priority I deposits</h4><p>Where Priority I is open for a piece, a $${DEPOSIT} deposit reserves your place in it. Priority I pieces are made first. The deposit is taken off the price of your piece, and the balance is due before it ships.</p><h4>Priority II</h4><p>Nothing is charged when you join Priority II. Priority II pieces are made after Priority I.</p><h4>Refunds</h4><p>Deposits are fully refundable until your piece goes into production. We email you before production begins. After that, the deposit is non-refundable.</p><h4>Edition numbers</h4><p>Priority I chooses first. Requested numbers are then given in the order pre-orders arrive, if they are still free.</p><h4>Timing</h4><p>Delivery windows are estimates and are confirmed by email. If your window moves by more than four weeks, you may cancel for a full refund.</p>`],
+ preorder:['Pre-order terms',`<h4>Pre-orders</h4><p>A pre-order reserves a piece in its edition, in Priority I or Priority II. We confirm your edition number, delivery window and payment details by email.</p><h4>Priority I deposits</h4><p>Where Priority I is open for a piece, a $${DEPOSIT} deposit reserves your place in it. Priority I pieces are made first. The deposit is taken off the price of your piece, and the balance is due before it ships.</p><h4>Priority II</h4><p>Nothing is charged when you join Priority II. Priority II pieces are made after Priority I.</p><h4>Refunds</h4><p>Deposits are fully refundable until your piece goes into production. We email you before production begins. After that, the deposit is non-refundable.</p><h4>Edition numbers</h4><p>Edition numbers are assigned by the house and confirmed by email.</p><h4>Timing</h4><p>Delivery windows are estimates and are confirmed by email. If your window moves by more than four weeks, you may cancel for a full refund.</p>`],
  privacy:['Privacy',`<p>We collect the details you give us: your name, email, phone and shipping address when you pre-order, and your email when you join the House List.</p><h4>How we use them</h4><p>To confirm, make and deliver your piece, to reply to you, and, if you ask, to send news from the house. We never sell your details.</p><h4>Who else sees them</h4><p>Only the services that help us run the house: email delivery, payment processing and shipping carriers.</p><h4>Advertising measurement</h4><p>If you allow advertising cookies, Meta and TikTok receive information about your visits, product interest and successful form submissions to measure and improve our ads and show relevant ads. Our event payloads exclude your name, email, phone and address. You can change your choice using Advertising preferences in the footer.</p><h4>Your choices</h4><p>Unsubscribe from any email with one click. To see, correct or delete your details, write to ${CONTACT_EMAIL}.</p>`]};
 function openLegal(k){const [t,b]=LEGAL[k];$('legalH').textContent=t;$('legalBody').innerHTML=b;$('legal').hidden=false;$('legalScrim').classList.add('on');$('legal').scrollTop=0;$('legalClose').focus()}
 function closeLegal(){$('legal').hidden=true;$('legalScrim').classList.remove('on')}
