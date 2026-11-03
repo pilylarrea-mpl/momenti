@@ -4,6 +4,8 @@
 // Answers ok only when at least one of the two really took it, so the site never confirms an order we lost.
 
 const toGoogle = require('./_gform');
+const buildPreorderEmail = require('./_preorder-email');
+const { createHash } = require('node:crypto');
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 module.exports = async (req, res) => {
@@ -43,13 +45,14 @@ module.exports = async (req, res) => {
 
   // Confirmation to the client: only from a verified sender, since Resend's test sender can't reach other inboxes.
   if (RESEND_API_KEY && FROM_EMAIL) {
-    const body = deposit
+    const designed = !deposit ? buildPreorderEmail(o) : null;
+    const body = designed ? designed.html : deposit
       ? `<p>Dear ${esc(o.first)},</p><p>Your Priority I place for <b>${esc(o.name)}</b> is held. If you haven't paid the $${esc(o.deposit)} deposit yet, a secure link follows within a day.</p><p>Before your piece is made, we write to you with its delivery window and the balance.</p><p>The House of Momenti</p>`
       : `<p>Dear ${esc(o.first)},</p><p>Your pre-order for <b>${esc(o.name)}</b> is received. Nothing is due today.</p><p>Before your piece is made, we write to you with its delivery window and payment, and ask for your shipping address.</p><p>The House of Momenti</p>`;
     const r = await fetch('https://api.resend.com/emails', {
       method: 'POST',
-      headers: { Authorization: `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ from: FROM_EMAIL, to: [o.email], reply_to: ORDER_EMAIL || undefined, subject: `Your Momenti pre-order: ${o.name}`, html: body }),
+      headers: { Authorization: `Bearer ${RESEND_API_KEY}`, 'Content-Type': 'application/json', 'Idempotency-Key': 'preorder-' + createHash('sha256').update(String(o.email).trim().toLowerCase() + ':' + o.piece + ':' + o.mode).digest('hex') },
+      body: JSON.stringify({ from: FROM_EMAIL, to: [o.email], reply_to: ORDER_EMAIL || undefined, subject: designed ? designed.subject : `Your Momenti pre-order: ${o.name}`, html: body }),
     }).catch(() => null);
     if (r && !r.ok) console.error('Client confirmation refused:', r.status, await r.text());
   }
