@@ -32,3 +32,11 @@ test('server recalculates classification rather than trusting declared channel',
  const a=JSON.parse(sanitize({version:1,last:{channel:'paid_social',social_click:true}}).split('Acquisition evidence: ')[1]);assert.equal(a.last.channel,'unknown');
  assert.equal(sanitize(null),'Acquisition: unknown (legacy submission)');
 });
+test('cross-session storage requires consent and expires after 90 days',()=>{
+ const storage={momenti_ad_consent_v1:'granted'};
+ const run=(search)=>{const c={URL,URLSearchParams,Date,location:{search},document:{referrer:''},navigator:{userAgent:''},sessionStorage:{getItem:()=>null,setItem(){}},localStorage:{getItem:k=>storage[k],setItem:(k,v)=>storage[k]=v,removeItem:k=>delete storage[k]},window:{}};vm.runInNewContext(source,c);return c.window.momentiAttribution();};
+ run('?utm_source=instagram&utm_medium=paid_social&ad_id=789');
+ assert.equal(run('').first.ad_id,'789');
+ storage.momenti_ad_consent_v1='declined';assert.equal(run('').first.ad_id,undefined);assert.equal(storage.momenti_acquisition_v1,undefined);
+ storage.momenti_ad_consent_v1='granted';storage.momenti_acquisition_v1=JSON.stringify({first:{at:'2020-01-01',ad_id:'old'}});assert.equal(run('').first.ad_id,undefined);
+});
