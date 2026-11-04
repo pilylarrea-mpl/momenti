@@ -592,14 +592,15 @@ $('replay').addEventListener('click',()=>{closeMenu();if(onHouse()){go('/','coll
 addEventListener('resize',()=>{if(state!=='line')layout()});
 
 /* ——— one piece ——— */
-let cur=-1,frameIdx=0;
-function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;frameIdx=0;const p=P[i];adTrack('product_view',{content_id:p.id,content_name:p.name,content_type:'product'},p.id);logStep('piece/'+p.id);
+let cur=-1;
+const selectedFrames=P.map(()=>0);
+function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;const p=P[i];if(p.frames)imgOf(i).src=p.frames[selectedFrames[i]][2];adTrack('product_view',{content_id:p.id,content_name:p.name,content_type:'product'},p.id);logStep('piece/'+p.id);
  $('dOf').textContent=p.of;$('dName').textContent=p.name;$('dPrice').textContent=money(p.price);$('dClasp').textContent=p.clasp;$('dLede').textContent=p.lede;
  const open1=PRIORITY_ONE[p.id]==='open',bt=$('dBatch');bt.classList.toggle('closed',PRIORITY_ONE[p.id]==='closed');
  bt.innerHTML=open1?`<b>Priority I <span>Open</span></b>A $${DEPOSIT} deposit places your piece among the first made. Taken off the price, refundable until production.`:PRIORITY_ONE[p.id]==='closed'?`<b>Priority I <span>Closed</span></b>Priority II is open, with nothing due today.`:`<b>Priority I <span>Not yet open</span></b>Join Priority II today, with nothing due. We write to you first when Priority I opens.`;
  $('dBuy').textContent=open1?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dAlt').hidden=!open1;
- const sw=$('dSw');sw.innerHTML='';if(p.frames)p.frames.forEach(([n,c,src],k)=>{const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c;b.title=n+' frame';b.setAttribute('aria-label',n+' frame');b.setAttribute('aria-pressed',k===0);
-  b.onclick=()=>{frameIdx=k;sw.querySelectorAll('.sw').forEach(x=>x.setAttribute('aria-pressed',x===b));imgOf(i).src=src;const fl=$('fly');if(fl)fl.src=src};sw.appendChild(b)});
+ const sw=$('dSw');sw.innerHTML='';if(p.frames)p.frames.forEach(([n,c,src],k)=>{const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c;b.title=n+' frame';b.setAttribute('aria-label',n+' frame');b.setAttribute('aria-pressed',k===selectedFrames[i]);
+  b.onclick=()=>{selectedFrames[i]=k;sw.querySelectorAll('.sw').forEach(x=>x.setAttribute('aria-pressed',x===b));imgOf(i).src=src;const fl=$('fly');if(fl)fl.src=src};sw.appendChild(b)});
  const old=$('fly');if(old){gsap.killTweensOf(old);old.remove();els.forEach((_,k)=>imgOf(k).style.visibility='')}
  const wide=innerWidth>=860,img=imgOf(i),r=img.getBoundingClientRect();
  const tw=wide?innerWidth*.58:innerWidth*.94,th=tw*r.height/r.width;
@@ -626,7 +627,7 @@ let drawerOpen=false,dPiece='',dIdx=-1;
 const mode=()=>{const m=document.querySelector('input[name=mode]:checked');return m?m.value:'preorder'};
 function syncMode(){const dep=mode()==='deposit';$('shipBox').hidden=!dep;$('shipLater').hidden=dep;$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
 document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
-function openDrawer(i,want){const p=P[i];adTrack('preorder_start',{content_id:p.id,content_name:p.name,content_type:'product',mode:want},p.id+':'+want);logStep('preorder-form/'+p.id);dIdx=i;drawerOpen=true;const fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
+function openDrawer(i,want){const p=P[i];adTrack('preorder_start',{content_id:p.id,content_name:p.name,content_type:'product',mode:want},p.id+':'+want);logStep('preorder-form/'+p.id);dIdx=i;drawerOpen=true;const frameIdx=selectedFrames[i],fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
  $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0].replace(/ /g,' ')+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
  const open1=PRIORITY_ONE[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;$('closedNote').textContent=PRIORITY_ONE[p.id]==='closed'?'Priority I is closed for this piece. You are joining Priority II.':'Priority I is not yet open for this piece. You are joining Priority II, and we write to you first when it opens.';
  $('mDeposit').checked=open1&&want==='deposit';$('mPre').checked=!open1||want!=='deposit';syncMode();
