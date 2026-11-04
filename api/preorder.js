@@ -4,6 +4,7 @@
 // Answers ok only when at least one of the two really took it, so the site never confirms an order we lost.
 
 const toGoogle = require('./_gform');
+const acquisition = require('./_attribution');
 const buildPreorderEmail = require('./_preorder-email');
 const { createHash } = require('node:crypto');
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -23,7 +24,7 @@ module.exports = async (req, res) => {
     ['Name', `${o.first} ${o.last}`], ['Email', o.email], ['Phone', o.phone],
     ['Address', [a.line1, a.line2, a.city, a.region, a.postal, a.country].filter(Boolean).join(', ')],
     ['Edition number', o.number || 'Any'], ['Note', o.note || ''], ['News', o.news ? 'Yes' : 'No'],
-    ['Came from', o.from || 'direct'], ['Referrer', o.ref || ''], ['Landed on', o.landed || ''], ['Received', new Date().toISOString()],
+    ['Acquisition', acquisition(o.attribution)], ['Came from', o.from || 'direct'], ['Referrer', o.ref || ''], ['Landed on', o.landed || ''], ['Received', new Date().toISOString()],
   ];
   const text = `${kind.toUpperCase()} · ${o.name}\n` + rows.map(([k, v]) => `${k}: ${v}`).join('\n');
   const html = `<h2>${esc(kind)}: ${esc(o.name)}</h2><table cellpadding="6">${rows.map(([k, v]) => `<tr><td><b>${esc(k)}</b></td><td>${esc(v)}</td></tr>`).join('')}</table>`;

@@ -67,15 +67,17 @@ test('consent can be granted again after withdrawal without reinitializing pixel
 for (const file of ['index.html','studio/source/momenti.html']) {
   test(file+': only successful House List submissions convert', async () => {
     const html=fs.readFileSync(file,'utf8');
-    const start=html.indexOf('async function subscribe(email,topics){');
+    const start=html.indexOf('const subscriptionsInFlight=new Map();');
     const end=html.indexOf('const okEmail=',start);
     let calls=[];
-    const c={fetch:async()=>({ok:false}),toGoogle:async()=>false,db:null,user:null,cameFrom:()=>({}),logStep(){},adTrack:(...args)=>calls.push(args)};
+    const c={window:{},fetch:async()=>({ok:false}),toGoogle:async()=>false,db:null,user:null,cameFrom:()=>({}),logStep(){},adTrack:(...args)=>calls.push(args)};
     vm.createContext(c); vm.runInContext(html.slice(start,end),c);
     assert.equal(await c.subscribe('test@example.com',[]),false); assert.equal(calls.length,0);
     c.fetch=async()=>({ok:true});
     assert.equal(await c.subscribe('test@example.com',[]),true);
     assert.equal(calls.length,1); assert.equal(calls[0][0],'house_list_signup');
+    await Promise.all([c.subscribe('test@example.com',[]),c.subscribe('TEST@example.com',[])]);
+    assert.equal(calls.length,1, 'repeated same-email submissions must share success');
     // Validate the actual success callback in each page independently of DOM rendering.
     const callbackStart=html.indexOf('const done=()=>{');
     const callbackEnd=html.indexOf('\n try{',callbackStart);
