@@ -608,7 +608,15 @@ function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els
  gsap.to(fly,{x:tx,y:ty,scale:tw/r.width,duration:1.1,ease:'power3.inOut'});
  const d=$('detail');d.style.visibility='visible';d.scrollTop=0;gsap.to(['#colhead','#reelnav'],{opacity:0,duration:.3,pointerEvents:'none',overwrite:true});gsap.fromTo(d,{opacity:0,y:wide?'-46%':16},{opacity:1,y:wide?'-50%':0,duration:.8,delay:.45,ease:'power3.out',overwrite:true});
 }
-function closeDetail(now){if(cur<0)return;const i=cur;cur=-1;const d=$('detail'),t=now?0:1;
+function closeDetail(now){
+ if(now){
+  cur=-1;const d=$('detail'),fly=$('fly'),caps=els.map(e=>e.querySelector('.cap'));
+  gsap.killTweensOf([d,...els,...caps,...[fly].filter(Boolean),'#colhead','#reelnav']);
+  gsap.set(d,{opacity:0,visibility:'hidden'});if(fly)fly.remove();
+  els.forEach((_,i)=>imgOf(i).style.visibility='');
+  gsap.set(['#colhead','#reelnav',...els],{opacity:1,pointerEvents:'auto'});gsap.set(caps,{opacity:1});return;
+ }
+ if(cur<0)return;const i=cur;cur=-1;const d=$('detail'),t=1;
  gsap.to(d,{opacity:0,duration:.3*t,onComplete:()=>d.style.visibility='hidden'});
  const fly=$('fly'),img=imgOf(i);
  if(fly){const r=img.getBoundingClientRect();gsap.to(fly,{x:r.left,y:r.top,scale:r.width/parseFloat(fly.style.width),duration:1*t,ease:'power3.inOut',onComplete:()=>{img.style.visibility='';fly.remove()}})}else img.style.visibility='';
@@ -676,7 +684,7 @@ function closeMenu(){$('tools').classList.remove('open');$('menuBtn').setAttribu
 document.querySelectorAll('[data-go]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();closeMenu();const id=a.dataset.go;
  if(id==='house'){if(!onHouse())go('/house','house');showHouse();return}
  if(onHouse()){go('/','collection');leaveHouse()}else if(state!=='line')lineup();
- if(id==='top'){closeDetail();scrollTo({top:0,behavior:'smooth'})}else{const t=$(id);if(t.tagName==='DETAILS')t.open=true;t.scrollIntoView({behavior:'smooth',block:t.tagName==='DETAILS'?'center':'start'})}}));
+ if(id==='top'){closeDetail();scrollTo({top:0,behavior:'smooth'})}else{closeDetail(true);const t=$(id);if(t.tagName==='DETAILS')t.open=true;t.scrollIntoView({behavior:'smooth',block:t.tagName==='DETAILS'?'center':'start'})}}));
 addEventListener(PATHS?'popstate':'hashchange',()=>{if(onHouse())showHouse();else leaveHouse()});
 $('menuBtn').addEventListener('click',()=>{const o=$('tools').classList.toggle('open');$('menuBtn').setAttribute('aria-expanded',o);$('menuBtn').textContent=o?'Close':'Menu'});
 $('mark').addEventListener('click',()=>{if(onHouse()){go('/','collection');leaveHouse();return}closeDetail();scrollTo({top:0,behavior:'smooth'})});
