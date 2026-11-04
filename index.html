@@ -48,7 +48,8 @@ button{font:inherit;color:inherit}
 .film{position:absolute;inset:0;overflow:hidden;background:var(--studio)}
 .film video,.film img{position:absolute;left:0;top:0;max-width:none;object-fit:fill}
 #fv{--f:0%;-webkit-mask-image:linear-gradient(90deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent),linear-gradient(180deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent),linear-gradient(180deg,transparent,#000 var(--f),#000 calc(100% - var(--f)),transparent);mask-composite:intersect}
-.skip{position:absolute;z-index:9;right:var(--gr);bottom:calc(14px + env(safe-area-inset-bottom,0px));background:none;border:0;color:#fff;cursor:pointer;padding:8px 0;mix-blend-mode:difference}
+.skip{position:absolute;z-index:9;right:var(--gr);bottom:calc(20px + env(safe-area-inset-bottom,0px));background:rgba(11,10,9,.78);border:1px solid rgba(255,255,255,.65);border-radius:2px;color:#fff;cursor:pointer;padding:14px 20px;min-height:48px;font-size:11px;letter-spacing:.16em}
+.skip:hover,.skip:focus-visible{background:var(--night);border-color:#fff}
 .tap{position:absolute;z-index:8;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;gap:14px;background:rgba(0,0,0,.12);border:0;color:#fff;cursor:pointer;width:100%}
 .tap i{width:64px;height:64px;border-radius:50%;border:1px solid rgba(255,255,255,.9);display:block;position:relative}
 .tap i::after{content:"";position:absolute;left:26px;top:21px;border-left:16px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent}
@@ -301,7 +302,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <video id="fv" muted playsinline webkit-playsinline preload="auto" poster="img/havana-street.jpg"></video>
     <img id="still" src="img/havana-street.jpg" alt="">
     <button class="tap" type="button" id="tap"><i></i><span class="mono">Begin</span></button>
-    <button class="skip mono" type="button" id="skip">Skip</button>
+    <button class="skip mono" type="button" id="skip">View collection</button>
   </div>
   <div class="titles" id="titles" aria-live="polite"><h1 id="tWord"><img src="img/momenti-logo.png" alt="Momenti"></h1><p id="tTag">Objects of a moment</p><div id="tWelcome"><p class="w">We welcome you to our first collection.</p><p class="cn">Collection I</p><p class="cname" id="cname"></p></div></div>
 
@@ -542,52 +543,47 @@ function countNow(){const c=track.scrollLeft+track.clientWidth/2;let best=0,bd=1
 track.addEventListener('scroll',countNow,{passive:true});
 addEventListener('keydown',e=>{if(state!=='line'||cur>=0||drawerOpen)return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){track.scrollBy({left:(e.key==='ArrowRight'?1:-1)*(els[0].offsetWidth+40),behavior:'smooth'})}});
 
-let state='film',seq=null,hold=null;
-function lineup(){
- state='line';if(seq)seq.kill();fv.pause();$('skip').style.display='none';$('tap').style.display='none';
+let state='film',seq=null,hold=null,collectionLogged=false;
+const introSeen=()=>{try{return sessionStorage.getItem('m_intro_seen')==='1'}catch(_){return false}};
+function lineup(reason='navigation',instant=false){
+ state='line';if(hold)hold.kill();if(seq)seq.kill();fv.pause();$('skip').style.display='none';$('tap').style.display='none';
  gsap.set(film,{opacity:0,visibility:'hidden'});gsap.set(['#tWord','#tTag','#tWelcome'],{opacity:0});
  line.style.visibility='visible';gsap.set(line,{opacity:1});
+ try{sessionStorage.setItem('m_intro_seen','1')}catch(_){}
+ if(reason==='complete'||reason==='skip'||reason==='error')logStep('intro/'+reason);
+ if(!collectionLogged){logStep('collection/view');collectionLogged=true}
+ document.body.classList.remove('lock');$('nav').classList.remove('hide');
+ const direct=instant||RM;
  {const t=els[HERO];track.scrollLeft=t.offsetLeft-(track.clientWidth-t.clientWidth)/2}
  return gsap.timeline()
-  .fromTo(els.map(e=>e.querySelector('img')),{opacity:0,y:26},{opacity:1,y:0,duration:RM?0:1.4,ease:'power3.out',stagger:.18},0)
-  .fromTo(els.map(e=>e.querySelector('.cap')),{opacity:0,y:8},{opacity:1,y:0,duration:.8,stagger:.12},.7)
-  .to(['#mark','#tools','#menuBtn','#colhead','#reelnav'],{opacity:1,duration:.8},1)
-  .call(()=>{document.body.classList.remove('lock');$('nav').classList.remove('hide');countNow();schedulePop()},null,1.2);
+  .fromTo(els.map(e=>e.querySelector('img')),{opacity:0,y:26},{opacity:1,y:0,duration:direct?0:.5,ease:'power3.out',stagger:direct?0:.04},0)
+  .fromTo(els.map(e=>e.querySelector('.cap')),{opacity:0,y:8},{opacity:1,y:0,duration:direct?0:.35,stagger:direct?0:.03},0)
+  .to(['#mark','#tools','#menuBtn','#colhead','#reelnav'],{opacity:1,duration:direct?0:.3},0)
+  .call(()=>{countNow();schedulePop()},null,direct?0:.4);
 }
-function titlesThenLine(){
- // the bag holds alone, then the name, then the welcome, then the collection
- state='titles';$('skip').style.display='';
- seq=gsap.timeline()
-  .to(film,{opacity:0,duration:.9,ease:'power2.inOut'},.9)
-  .fromTo('#tWord',{opacity:0,y:18},{opacity:1,y:0,duration:1.3,ease:'power3.out'},1.6)
-  .fromTo('#tTag',{opacity:0,y:10},{opacity:1,y:0,duration:1,ease:'power3.out'},2.3)
-  .to(['#tWord','#tTag'],{opacity:0,duration:.8},5)
-  .set('#tWelcome',{opacity:1},5.7)
-  .fromTo('#tWelcome .w',{opacity:0,y:10},{opacity:1,y:0,duration:1.1},5.8)
-  .fromTo('#tWelcome .cn',{opacity:0},{opacity:1,duration:.9},7.1)
-  .fromTo('#tWelcome .cname',{opacity:0,y:14},{opacity:1,y:0,duration:1.3,ease:'power3.out'},7.4)
-  .to('#tWelcome',{opacity:0,duration:.9},10.4)
-  .call(lineup,null,11.2);
- if(RM)seq.progress(1);
-}
+// Reveal the collection as soon as the film reaches the clasp; no title interlude.
+function titlesThenLine(){lineup('complete')}
 function start(){$('tap').style.display='none';const go=fv.play();
  if(go&&go.catch)go.catch(()=>{$('tap').style.display='flex'});
  gsap.to(still,{opacity:0,duration:.5,delay:.15})}
 function playFilm(){
+ if(RM)return lineup('reduced-motion',true);
+ logStep('intro/shown');
  document.body.classList.add('lock');scrollTo(0,0);$('nav').classList.add('hide');
  if(hold)hold.kill();if(seq)seq.kill();closeDetail(true);state='film';fitK=0;
  gsap.set(line,{opacity:0});line.style.visibility='hidden';gsap.set(['#mark','#tools','#menuBtn','#colhead','#reelnav','#tWord','#tTag','#tWelcome','#tWelcome>*'],{opacity:0});
  gsap.set(film,{opacity:1,visibility:'visible'});gsap.set(still,{opacity:1});$('skip').style.display='';$('tap').style.display='none';
  layout();try{fv.currentTime=0}catch(_){}
- hold=gsap.delayedCall(RM?.2:1.6,start);
+ fv.playbackRate=1.5;
+ hold=gsap.delayedCall(.1,start);
 }
 $('tap').addEventListener('click',start);
 const PARKED=9.1;   // seconds in: the car is on the clasp
 fv.addEventListener('timeupdate',()=>{if(state==='film'&&fv.currentTime>=PARKED)titlesThenLine()});
 fv.addEventListener('ended',()=>{if(state==='film')titlesThenLine()});
-fv.addEventListener('error',()=>{if(state==='film')titlesThenLine()});
+fv.addEventListener('error',()=>{if(state==='film')lineup('error')});
 (function tick(){if(state==='film'&&fv.duration){const k=Math.min(1,Math.max(0,(fv.currentTime-REVEAL)/(SETTLE-REVEAL)));fitK=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;layout()}requestAnimationFrame(tick)})();
-$('skip').addEventListener('click',()=>{if(hold)hold.kill();lineup()});
+$('skip').addEventListener('click',()=>{if(hold)hold.kill();lineup('skip')});
 $('replay').addEventListener('click',()=>{closeMenu();if(onHouse()){go('/','collection');document.body.classList.remove('on-house');document.title='Momenti';markHere()}playFilm()});
 addEventListener('resize',()=>{if(state!=='line')layout()});
 
@@ -726,7 +722,7 @@ $('footForm').addEventListener('submit',async e=>{e.preventDefault();const em=$(
  $('footStatus').textContent=ok?'You’re on the list.':`We couldn't add you just now. Write to ${CONTACT_EMAIL}.`;if(ok){$('footEmail').value='';store.set('momenti_list','joined')}});
 
 window.__m={openPop,openLegal,lineup,titlesThenLine,playFilm,fv,open,state:()=>state};
-layout();if(onHouse())showHouse();else playFilm();
+layout();if(onHouse())showHouse();else if(RM||introSeen())lineup(RM?'reduced-motion':'return',true);else playFilm();
 })();
 </script>
 
