@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Momenti</title>
-<meta name="description" content="Momenti. Collection I: frame clutches printed with a moment, with one thing from the photograph made small enough to hold. Editions of 25, by pre-order.">
+<meta name="description" content="Momenti. Collection I: frame clutches printed with a moment, with one thing from the photograph made small enough to hold. Made in small runs, by waitlist.">
 <meta property="og:title" content="Momenti">
 <meta property="og:description" content="We welcome you to our first collection.">
 <meta property="og:image" content="/img/og.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#F2E8DD">
+<meta name="theme-color" content="#F4F0E8">
 <link rel="icon" href="/img/favicon.png">
 <link rel="preload" as="image" href="img/havana-street.jpg">
 <style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..600&family=Tenor+Sans&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Inter+Tight:wght@500;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="/js/tracking-config.js"></script>
 <script src="/js/tracking.js"></script>
@@ -24,14 +24,17 @@
 /* Layout: one photograph, full screen, that turns out to be printed on a clutch. The film plays once; then the collection stands in a line on the studio floor. */
 :root{
   color-scheme:light;
-  --studio:#F2E8DD;     /* the backdrop in the renders */
-  --ink:#1A1511;
+  /* Brand book, Nov 2026: ivory and near black; all other colour lives inside the photographs. */
+  --studio:#F4F0E8;     /* ivory, every ground */
+  --render:#F2E8DD;     /* the backdrop baked into the bag renders */
+  --ink:#1C1A18;        /* near black, never pure black */
+  --seal:#A8322B;       /* the wax seal only */
   --ash:#8E8378;
   --rule:#D9CCBC;
   --night:#0B0A09;
   --display:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
-  --body:"Tenor Sans","Gill Sans","Helvetica Neue",Arial,sans-serif;
-  --mono:"Tenor Sans","Gill Sans","Helvetica Neue",Arial,sans-serif;
+  --body:"Newsreader",Georgia,"Times New Roman",serif;          /* everyday text */
+  --mono:"Inter Tight","Helvetica Neue",Helvetica,Arial,sans-serif; /* labels: bold caps, tracked +80 */
   --gl:max(16px,env(safe-area-inset-left,0px));
   --gr:max(16px,env(safe-area-inset-right,0px));
 }
@@ -42,7 +45,7 @@ body.lock{overflow:hidden}
 h1,h2,h3{font-family:var(--display);font-weight:400;margin:0}
 p{margin:0}
 button{font:inherit;color:inherit}
-.mono{font-family:var(--mono);font-weight:500;font-size:10.5px;letter-spacing:.22em;text-transform:uppercase}
+.mono{font-family:var(--mono);font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
 :focus-visible{outline:2px solid #B08A52;outline-offset:3px}
 
 .room{position:relative;width:100%;height:100vh;height:100svh;min-height:520px;overflow:hidden;background:var(--studio)}
@@ -100,7 +103,7 @@ body.on-house .house{padding-top:clamp(130px,16vw,210px)}
 .g3{grid-column:2/6;margin-top:clamp(20px,4vw,60px)}
 .g4{grid-column:6/13;margin-top:clamp(60px,10vw,150px)}
 .label{display:flex;flex-direction:column;gap:2px;font-size:12.5px;color:#4A3F35;border-left:1px solid var(--ink);padding-left:12px;max-width:34ch;text-wrap:balance}
-.label b{font-family:var(--mono);font-weight:500;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);margin-bottom:4px}
+.label b{font-family:var(--mono);font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin-bottom:4px}
 .essay{margin-top:clamp(100px,13vw,180px)}
 .pull{margin:0 0 clamp(30px,4vw,50px);font-family:var(--display);font-style:normal;font-size:clamp(46px,7vw,118px);line-height:.9;letter-spacing:-.025em}
 .essay-cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px 48px;max-width:980px;margin-left:auto;font-size:clamp(16px,1.25vw,18.5px);line-height:1.65;color:#3E352D}
@@ -119,10 +122,10 @@ body.on-house .house{padding-top:clamp(130px,16vw,210px)}
 .cat li{border-bottom:1px solid var(--rule)}
 .cat button{all:unset;box-sizing:border-box;cursor:pointer;width:100%;display:grid;grid-template-columns:70px minmax(0,1.1fr) minmax(0,1.2fr) minmax(0,1.3fr) 110px 40px;gap:16px;align-items:center;padding:20px 0;transition:padding .35s ease,background .35s}
 .cat button:hover,.cat button:focus-visible{padding-left:14px;background:rgba(255,255,255,.35)}
-.cat .n{font-family:var(--mono);font-size:11px;letter-spacing:.16em;color:var(--ash)}
+.cat .n{font-family:var(--mono);font-weight:700;font-size:11px;letter-spacing:.08em;color:var(--ash)}
 .cat .c{font-family:var(--display);font-style:normal;font-size:clamp(24px,2.4vw,36px);line-height:1}
 .cat .w,.cat .o{font-size:14px;color:#4A3F35}
-.cat .e{font-family:var(--mono);font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ash)}
+.cat .e{font-family:var(--mono);font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ash)}
 .cat .t{width:40px;height:auto;max-width:100%;opacity:0;transition:opacity .3s}
 .cat button:hover .t,.cat button:focus-visible .t{opacity:1}
 .house-cta{display:flex;flex-direction:column;align-items:flex-start;gap:22px;border-top:1px solid var(--rule);margin-top:clamp(80px,11vw,140px);padding-top:clamp(50px,7vw,80px)}
@@ -134,7 +137,7 @@ body.on-house .house{padding-top:clamp(130px,16vw,210px)}
 .band img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none;transform:scale(1.08);will-change:transform}
 .band::after{content:"";position:absolute;inset:auto 0 0;height:55%;background:linear-gradient(to top,rgba(11,10,9,.55),rgba(11,10,9,0));pointer-events:none}
 .band figcaption{position:absolute;z-index:1;left:var(--gl);right:var(--gr);bottom:clamp(24px,5vw,56px);color:#fff;display:flex;flex-direction:column;gap:10px;text-shadow:0 2px 24px rgba(0,0,0,.45)}
-.band q{font-family:var(--display);font-style:normal;font-size:clamp(32px,5vw,72px);line-height:1;quotes:none}
+.band q{font-family:var(--display);font-style:italic;font-size:clamp(32px,5vw,72px);line-height:1;quotes:none}
 .steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,44px)}
 .steps li{display:flex;flex-direction:column;gap:12px;min-width:0}
 .steps img{width:100%;aspect-ratio:1000/692;object-fit:cover;max-width:100%;display:block;margin-bottom:10px}
@@ -168,7 +171,7 @@ body.on-house .house{padding-top:clamp(130px,16vw,210px)}
 .sheet .x{background:none;border:0;cursor:pointer;color:var(--ink)}
 .sheet h3{font-style:normal;font-size:44px;line-height:.95}
 .legal-body{display:flex;flex-direction:column;gap:14px;font-size:14.5px;color:#3E352D;max-width:60ch}
-.legal-body h4{font-family:var(--body);font-size:11px;letter-spacing:.2em;text-transform:uppercase;margin:12px 0 0;color:var(--ink)}
+.legal-body h4{font-family:var(--mono);font-weight:700;font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin:12px 0 0;color:var(--ink)}
 .pop{position:fixed;z-index:41;left:50%;top:50%;width:min(820px,calc(100% - 32px));max-height:calc(100% - 40px);overflow:auto;background:var(--studio);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);box-shadow:0 40px 90px rgba(30,20,10,.3)}
 .pop-img{width:100%;height:100%;object-fit:cover;max-width:100%;display:block;min-height:420px}
 .pop-body{padding:44px 36px 36px;display:flex;flex-direction:column;gap:14px}
@@ -198,7 +201,7 @@ body.on-house .house{padding-top:clamp(130px,16vw,210px)}
 .detail .price{font-family:var(--display);font-size:24px}
 .detail .lede{font-size:14px;color:#4A3F35;max-width:36ch}
 .batch{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;display:flex;flex-direction:column;gap:4px;font-size:13.5px;color:#4A3F35}
-.batch b{font-family:var(--body);font-weight:600;font-size:10.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink);display:flex;justify-content:space-between;gap:12px}
+.batch b{font-family:var(--mono);font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);display:flex;justify-content:space-between;gap:12px}
 .batch b span{color:var(--ash);font-weight:500}
 .batch.closed b span{color:#9A4A2E}
 .acts{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
@@ -246,6 +249,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
 .note{font-size:13px;color:#4A3F35;border-left:2px solid #9A4A2E;padding-left:12px}
 .check{flex-direction:row;gap:10px;align-items:flex-start;font-weight:400;font-size:13px;color:#4A3F35}
 .due{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--rule);padding-top:14px;font-size:13px}
+.how{list-style:none;margin:18px 0 6px;padding:16px 18px;border:1px solid var(--rule);counter-reset:h;display:grid;gap:12px}.how li{counter-increment:h;display:grid;grid-template-columns:22px 1fr;column-gap:10px;font-size:14px;line-height:1.45}.how li::before{content:counter(h);font-family:var(--display);font-size:18px;line-height:1;grid-row:span 2}.how b{font-family:var(--mono);font-weight:700;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:2px}
 .due b{font-family:var(--display);font-weight:400;font-size:22px}
 .buy.wide{align-self:stretch;text-align:center}
 .req{outline:1px solid #9A4A2E;outline-offset:1px}
@@ -311,7 +315,7 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
   <section class="line" id="line" aria-label="Collection">
     <div class="colhead" id="colhead"><span class="cn">Collection I</span><span class="cname" id="cname2"></span></div>
     <div class="track" id="track"></div>
-    <div class="reelnav mono" id="reelnav"><button type="button" id="prevB" aria-label="Previous piece">←</button><span id="count">04 / 07</span><button type="button" id="nextB" aria-label="Next piece">→</button></div>
+    <div class="reelnav mono" id="reelnav"><button type="button" id="prevB" aria-label="Previous piece">←</button><span id="count">01 / 05</span><button type="button" id="nextB" aria-label="Next piece">→</button></div>
     <div class="detail" id="detail" aria-live="polite">
       <p class="mono of" id="dOf"></p>
       <h2 id="dName"></h2>
@@ -319,11 +323,11 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
       <p class="lede" id="dLede"></p>
       <div class="sws" id="dSw"></div>
       <div class="batch" id="dBatch"></div>
-      <div class="acts"><a class="buy" id="dBuy" href="#preorder" role="button">Pre-order</a><button class="alt mono" type="button" id="dAlt" hidden>Join Priority II · nothing due today</button></div>
+      <div class="acts"><a class="buy" id="dBuy" href="#reserve" role="button">Join the waitlist</a><button class="alt mono" type="button" id="dAlt" hidden>Join Priority II · nothing due today</button></div>
       <div class="info">
         <details><summary class="mono">The clasp</summary><p id="dClasp"></p></details>
-        <details><summary class="mono">The edition</summary><p>Made by hand in an edition of 25, numbered inside the frame.</p></details>
-        <details><summary class="mono">Pre-order and delivery</summary><p>Priority I pieces are made first, then Priority II, each in the order received. Number, delivery and payment are confirmed by email before production.</p></details>
+        <details><summary class="mono">The run</summary><p>Made by hand in small runs. Each moment is made only for those on its waitlist.</p></details>
+        <details><summary class="mono">The waitlist</summary><p>Nothing is charged today. Your card is saved and charged only when your piece is made. We write at least a week before, with your delivery window.</p></details>
       </div>
       <button class="back mono" type="button" id="dBack">All pieces</button>
     </div>
@@ -333,18 +337,18 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
 <section class="house" id="house" aria-labelledby="houseH">
   <header class="wrap h-hero">
     <p class="eyebrow mono">The House</p>
-    <h1 id="houseH" class="h-title">A moment, made <em>tangible.</em></h1>
+    <h1 id="houseH" class="h-title">Objects from <em>real moments.</em></h1>
     <div class="h-lede">
-      <p>Momenti makes collectible objects from moments in time. A photograph is printed on a frame clutch, and one detail from it is sculpted in miniature for the clasp.</p>
+      <p>Each piece starts from a photograph of a real place and year. The print is made from it. One detail is sculpted as the clasp. On Collection I it is a car, and it opens.</p>
       <p>A street in Havana in 1958, or the afternoon of a wedding. Any moment worth keeping.</p>
     </div>
   </header>
 
   <div class="wrap gallery" aria-label="Pieces from Collection I">
-    <figure class="g g1"><img src="img/monaco-piece.webp" alt="The Monaco clutch" loading="lazy"><figcaption class="label"><b>No. 03</b><span>Monaco, the hairpin, 1966</span><span>Frame clutch, chrome. Edition of 25</span></figcaption></figure>
-    <figure class="g g2"><img src="img/detail-paris.jpg" alt="The red 2CV clasp on the Paris clutch" loading="lazy"><figcaption class="label"><b>No. 01 · Detail</b><span>The red 2CV, Saint-Germain</span></figcaption></figure>
-    <figure class="g g3"><img src="img/detail-nyc.jpg" alt="The checker cab clasp on the New York City clutch" loading="lazy"><figcaption class="label"><b>No. 06 · Detail</b><span>The checker cab, Water Street</span></figcaption></figure>
-    <figure class="g g4"><img src="img/tokyo-piece.webp" alt="The Tokyo clutch" loading="lazy"><figcaption class="label"><b>No. 07</b><span>Shinjuku, 1997</span><span>Frame clutch, purple lacquer. Edition of 25</span></figcaption></figure>
+    <figure class="g g1"><img src="img/monaco-piece.webp" alt="The Monaco clutch" loading="lazy"><figcaption class="label"><b>No. 07</b><span>Monaco, the hairpin</span><span>Frame clutch, chrome. Made in small runs</span></figcaption></figure>
+    <figure class="g g2"><img src="img/detail-tokyo.jpg" alt="The plum coupé clasp on the Tokyo clutch" loading="lazy"><figcaption class="label"><b>No. 06 · Detail</b><span>The plum coupé, Shinjuku</span></figcaption></figure>
+    <figure class="g g3"><img src="img/detail-nyc.jpg" alt="The yellow cab clasp on the New York clutch" loading="lazy"><figcaption class="label"><b>No. 05 · Detail</b><span>The yellow cab, Washington Street</span></figcaption></figure>
+    <figure class="g g4"><img src="img/miami-pink-piece.webp" alt="The Miami clutch" loading="lazy"><figcaption class="label"><b>No. 02</b><span>Ocean Drive, 1959</span><span>Frame clutch, flamingo pink. Made in small runs</span></figcaption></figure>
   </div>
 
   <div class="wrap essay">
@@ -360,39 +364,38 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <p class="eyebrow mono">On rarity</p>
     <blockquote class="pull">Some moments are shared. Some are rare. Some belong to one person.</blockquote>
     <ol class="tiers">
-      <li><span class="mono">I</span><h3>The Editions</h3><p>Numbered inside the frame. When an edition is complete, the moment is retired.</p></li>
-      <li><span class="mono">II</span><h3>The Rare Editions</h3><p>Five pieces or fewer, reserved for the most intricate clasps.</p></li>
+      <li><span class="mono">I</span><h3>The Runs</h3><p>Made in small runs, only for those on the waitlist. When a run is complete, the moment rests.</p></li>
+      <li><span class="mono">II</span><h3>The Rare Pieces</h3><p>Five pieces or fewer, for the most intricate clasps.</p></li>
       <li><span class="mono">III</span><h3>The Private Archive</h3><p>Your own photograph, made once. By invitation.</p></li>
     </ol>
   </div>
 
-  <figure class="band"><img src="img/havana-street.jpg" alt="Havana, 1958: the Paseo del Prado with the turquoise convertible at the curb" loading="lazy"><figcaption><span class="mono">No. 04 · Havana, 1958</span><q>One thing from the picture gets out.</q></figcaption></figure>
+  <figure class="band"><img src="img/havana-street.jpg" alt="Havana, 1958: the Paseo del Prado with the turquoise convertible at the curb" loading="lazy"><figcaption><span class="mono">No. 01 · Havana, 1958</span><q>Still running.</q></figcaption></figure>
 
   <div class="wrap">
     <p class="eyebrow mono">The making</p>
     <ol class="steps">
       <li><img src="img/craft-photo.jpg" alt="The Havana photograph" loading="lazy"><span class="num">I</span><h3>The photograph</h3><p>Printed edge to edge, so the street follows the curve of the frame.</p></li>
       <li><img src="img/craft-clasp.jpg" alt="The turquoise convertible clasp on the frame" loading="lazy"><span class="num">II</span><h3>The clasp</h3><p>One object from the scene, sculpted in miniature and set on a brass hinge.</p></li>
-      <li><img src="img/craft-piece.jpg" alt="The finished Havana clutch" loading="lazy"><span class="num">III</span><h3>The edition</h3><p>Numbered one to twenty-five inside the frame.</p></li>
+      <li><img src="img/craft-piece.jpg" alt="The finished Havana clutch" loading="lazy"><span class="num">III</span><h3>The record</h3><p>Each piece is recorded with the name of the woman who keeps it.</p></li>
     </ol>
   </div>
 
   <div class="wrap archive">
-    <div class="archive-head"><div><p class="eyebrow mono">The Archive</p><h2>Collection I</h2></div><p class="mono archive-note">Seven moments · editions of 25</p></div>
+    <div class="archive-head"><div><p class="eyebrow mono">The Archive</p><h2>Collection I</h2></div><p class="mono archive-note">Five moments · made in small runs</p></div>
     <ol class="cat" id="cat"></ol>
   </div>
 
-  <div class="wrap house-cta"><p class="eyebrow mono">Collection I</p><h2>Now open for pre-order.</h2><a class="buy" href="/" data-go="top">View the collection</a></div>
+  <div class="wrap house-cta"><p class="eyebrow mono">Collection I</p><h2>Currently unavailable.</h2><p class="lead">Each piece is made in small runs for those on the waitlist.</p><a class="buy" href="/" data-go="top">View the collection</a></div>
 </section>
 
 <section class="services" id="services" aria-labelledby="svcH">
   <div class="wrap two-col">
     <div><p class="eyebrow mono">Questions</p><h2 id="svcH">Client Services</h2><p class="lead">Write to <a class="email-link" href="#" id="svcMail"></a>. We reply within one working day.</p></div>
     <div class="faq">
-      <details><summary>How do pre-orders work?</summary><p>In two steps. Priority I holds your place with a $100 deposit: your piece is among the first made. Priority II has nothing to pay today, and is made next. Either way, your number, delivery window and payment are confirmed by email before production.</p></details>
-      <details><summary>What is Priority I?</summary><p>The first pieces made in each edition. A $100 deposit holds your place and is taken off the price. Priority I opens one piece at a time, beginning with Paris. For the others, join Priority II and we write to you first when Priority I opens.</p></details>
-      <details><summary>Can I get my deposit back?</summary><p>Yes, in full, until production begins. We write before it does.</p></details>
-      <details><summary>When will my piece arrive?</summary><p>Each piece is made to order. Your delivery window is confirmed with your pre-order, and again at dispatch.</p></details>
+      <details><summary>How does the waitlist work?</summary><p>Choose a piece and join its waitlist by saving a card with Stripe. Nothing is charged today. When your piece is made, we write at least a week before charging your card, with your delivery window.</p></details>
+      <details><summary>Can I cancel?</summary><p>Yes, any time before your card is charged. Reply to any email from us. If a run is not made, your card is never charged.</p></details>
+      <details><summary>When will my piece arrive?</summary><p>Each piece is made to order. Your delivery window is confirmed by email before your card is charged, and again at dispatch.</p></details>
       <details id="shipping"><summary>Where do you ship?</summary><p>Worldwide, tracked and insured. Duties are shown before payment.</p></details>
       <details id="care"><summary>How should I care for my piece?</summary><p>Store in its dust bag, away from sun and damp. Wipe the frame with a soft, dry cloth. Hold the clutch by its body, not the clasp.</p></details>
     </div>
@@ -410,13 +413,13 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
       </div>
       <nav class="foot-cols" aria-label="Footer">
         <div><p class="mono">Collection I</p><a href="/" data-go="top">The pieces</a><a href="/house" data-go="house">The House</a><a href="/house" data-go="house">How a piece is made</a></div>
-        <div><p class="mono">Client Services</p><a href="#services" data-go="services">Pre-orders</a><a href="#shipping" data-go="shipping">Shipping</a><a href="#care" data-go="care">Care</a><a href="#" class="email-link" id="footMail"></a></div>
-        <div><p class="mono">Legal</p><button type="button" data-legal="sale">Terms of sale</button><button type="button" data-legal="preorder">Pre-order terms</button><button type="button" data-legal="privacy">Privacy</button></div>
+        <div><p class="mono">Client Services</p><a href="#services" data-go="services">The waitlist</a><a href="#shipping" data-go="shipping">Shipping</a><a href="#care" data-go="care">Care</a><a href="#" class="email-link" id="footMail"></a></div>
+        <div><p class="mono">Legal</p><button type="button" data-legal="sale">Terms of sale</button><button type="button" data-legal="preorder">Waitlist terms</button><button type="button" data-legal="privacy">Privacy</button></div>
         <div><p class="mono">Follow</p><a id="igLink" href="#" target="_blank" rel="noopener">Instagram</a><a id="ttLink" href="#" target="_blank" rel="noopener">TikTok</a></div>
       </nav>
     </div>
     <img class="foot-logo" src="img/momenti-logo.png" alt="Momenti">
-    <div class="foot-base mono"><span>© 2026 Momenti</span><span>Images are renderings.</span></div>
+    <div class="foot-base mono"><span>© 2026 Momenti</span></div>
   </div>
 </footer>
 </div>
@@ -434,10 +437,10 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
   <div class="pop-body">
     <img class="pop-logo" src="img/momenti-logo.png" alt="Momenti">
     <h3 id="popH">The House List</h3>
-    <p>First access to new moments and pre-order openings.</p>
+    <p>First access to new moments.</p>
     <form id="popForm" novalidate>
       <label class="sr" for="popEmail">Email</label><input id="popEmail" type="email" autocomplete="email" placeholder="Email address">
-      <div class="pop-checks"><label class="check" for="popNews"><input type="checkbox" id="popNews" checked><span>News from the house</span></label><label class="check" for="popPre"><input type="checkbox" id="popPre" checked><span>Pre-order openings</span></label></div>
+      <div class="pop-checks"><label class="check" for="popNews"><input type="checkbox" id="popNews" checked><span>News from the house</span></label><label class="check" for="popPre"><input type="checkbox" id="popPre" checked><span>Waitlist openings</span></label></div>
       <button class="buy wide" type="submit">Join the list</button>
       <p class="status" id="popStatus" role="status"></p>
     </form>
@@ -446,12 +449,17 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
 </div>
 
 <div class="scrim" id="scrim"></div>
-<aside class="drawer" id="drawer" aria-label="Pre-order" aria-hidden="true">
-  <div class="hd"><span class="mono" id="dhKind">Pre-order</span><button class="x mono" type="button" id="xClose">Close</button></div>
-  <h3 id="dhTitle">Pre-order</h3>
+<aside class="drawer" id="drawer" aria-label="Join the waitlist" aria-hidden="true">
+  <div class="hd"><span class="mono" id="dhKind">Waitlist</span><button class="x mono" type="button" id="xClose">Close</button></div>
+  <h3 id="dhTitle">Join the waitlist</h3>
   <div class="sum"><img id="sImg" alt=""><div><b id="sName"></b><span class="meta" id="sMeta"></span></div><span class="pr" id="sPrice"></span></div>
+  <ol class="how" aria-label="How the waitlist works">
+    <li><b>Today · $0</b>Save a card with Stripe. Nothing is charged.</li>
+    <li><b>When it's made</b>We email you at least 7 days before charging <span id="howPrice">the price of your piece</span>, with your delivery window.</li>
+    <li><b>Until then</b>Change your mind any time. Reply to any email and you're off the list.</li>
+  </ol>
   <form id="form" novalidate>
-    <fieldset class="modes" id="modes"><legend class="mono">Reserve</legend>
+    <fieldset class="modes" id="modes" hidden><legend class="mono">Reserve</legend>
       <label class="mode" for="mDeposit"><input type="radio" name="mode" id="mDeposit" value="deposit"><span><b>Priority I · $100 deposit</b><span class="hint">Among the first made. Taken off the price, refundable until production.</span></span></label>
       <label class="mode" for="mPre"><input type="radio" name="mode" id="mPre" value="preorder"><span><b>Priority II · nothing due today</b><span class="hint">Made after Priority I. Timing and payment confirmed by email.</span></span></label>
     </fieldset>
@@ -459,8 +467,8 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <p class="sec mono">Contact</p>
     <div class="two"><label for="fFirst">First name<input id="fFirst" autocomplete="given-name" required></label><label for="fLast">Last name<input id="fLast" autocomplete="family-name" required></label></div>
     <label for="fEmail">Email<input id="fEmail" type="email" autocomplete="email" required></label>
-    <p class="note" id="shipLater">Nothing else needed today. We ask for your phone and shipping address before your piece is made.</p>
-    <div id="shipBox">
+    <p class="note" id="shipLater">Next, save a card with Stripe. Nothing is charged today. We ask for your shipping address before your piece is made.</p>
+    <div id="shipBox" hidden>
     <label for="fPhone">Phone <span class="hint">(for delivery)</span><input id="fPhone" type="tel" autocomplete="tel" required></label>
     <p class="sec mono">Shipping address</p>
     <label for="fCountry">Country<select id="fCountry" autocomplete="country-name" required><option value="">Choose a country</option><option>United States</option><option>Canada</option><option>United Kingdom</option><option>France</option><option>Italy</option><option>Spain</option><option>Germany</option><option>Switzerland</option><option>Lebanon</option><option>United Arab Emirates</option><option>Saudi Arabia</option><option>Mexico</option><option>Brazil</option><option>Japan</option><option>Australia</option><option>Other</option></select></label>
@@ -472,22 +480,21 @@ input[type=radio],input[type=checkbox]{width:auto;padding:0;margin:3px 0 0;accen
     <p class="sec mono">Your piece</p>
     <label for="fNote">Note <span class="hint">(optional)</span><textarea id="fNote" rows="3"></textarea></label>
     <div class="due"><span>Due today</span><b id="dueNow">$0</b></div>
-    <label class="check" for="fTerms"><input type="checkbox" id="fTerms" required><span>I understand this piece is made to order and that delivery will be confirmed by email.</span></label>
+    <label class="check" for="fTerms"><input type="checkbox" id="fTerms" required><span id="fTermsText">I allow Momenti to charge the price of this piece to my card when it is ready to ship. I will get an email at least 7 days before, and can cancel any time before then.</span></label>
     <label class="check" for="fNews"><input type="checkbox" id="fNews"><span>Send me news from the house.</span></label>
-    <button class="buy wide" type="submit" id="fGo">Place pre-order</button>
+    <button class="buy wide" type="submit" id="fGo">Join the waitlist · $0 today</button>
     <p class="status" id="fStatus" role="status"></p>
   </form>
-  <div class="ok" id="okBox" hidden><h4 id="okTitle">Pre-order received.</h4><p id="okText"></p><a class="buy" id="okPay" href="#" target="_blank" rel="noopener" hidden>Pay the $100 deposit</a></div>
-  <div class="ok" id="dmBox" hidden><h4>One more step.</h4><p>This page couldn't save your pre-order. Copy it and send it to <b class="handle"></b> on Instagram or TikTok.</p><div class="dm"><span id="dmText"></span><button type="button" id="copy">Copy</button></div></div>
+  <div class="ok" id="okBox" hidden><h4 id="okTitle">You're on the waitlist.</h4><p id="okText"></p><a class="buy" id="okPay" href="#" target="_blank" rel="noopener" hidden>Pay the $100 deposit</a></div>
+  <div class="ok" id="dmBox" hidden><h4>One more step.</h4><p>This page couldn't save your place on the waitlist. Copy it and send it to <b class="handle"></b> on Instagram or TikTok.</p><div class="dm"><span id="dmText"></span><button type="button" id="copy">Copy</button></div></div>
 </aside>
 
 <script>
 (function(){
 const HANDLE='@houseofmomenti';
-const COLLECTION='Fuori Quadro';   // the name of Collection I
-const DEPOSIT=100;
-const PRIORITY_ONE={paris:'open',rome:'soon',monaco:'soon',havana:'soon',miami:'soon',nyc:'soon',tokyo:'soon'};   // 'open' takes $100 Priority I deposits; 'soon' = not open yet; 'closed' = Priority I places taken
-const DEPOSIT_LINK={paris:'',rome:'',monaco:'',havana:'',miami:'',nyc:'',tokyo:''};   // paste a $100 Stripe Payment Link per piece to take deposits on the spot
+const COLLECTION='The Grand Tour';   // the name of Collection I (brand book)
+// Every piece is shown as currently unavailable, by waitlist. Joining saves a card with Stripe; nothing is charged.
+// Without STRIPE_SECRET_KEY in Vercel, joining falls back to a free sign-up (name and email only).
 document.querySelectorAll('.handle').forEach(e=>e.textContent=HANDLE);
 const CONTACT_EMAIL='pily@houseofmomenti.com';   // the address clients write to
 const INSTAGRAM='https://www.instagram.com/houseofmomenti', TIKTOK='https://www.tiktok.com/@houseofmomenti';
@@ -506,15 +513,13 @@ const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 const money=n=>'$'+n;
 
 const P=[
- {id:'paris',name:'Paris',of:'Saint-Germain, 1960',price:540,img:'img/paris-piece.webp',lede:'Morning outside the Café des Fleurs. Red lacquer frame.',clasp:'The red 2CV parked by the café, cast in metal and painted by hand, mounted on a brass hinge.'},
- {id:'rome',name:'Rome',of:'Via Condotti, 1962',price:460,img:'img/rome-piece.webp',lede:'Late afternoon on the walk to the Spanish Steps. Cream enamel frame.',clasp:'The cream Cinquecento from the street, cast in metal and painted by hand, mounted on a brass hinge.'},
- {id:'monaco',name:'Monaco',of:'The hairpin, 1966',price:600,img:'img/monaco-piece.webp',lede:'Race day at the Grand Prix hairpin. Chrome frame.',clasp:'The red number 8 from the hairpin, cast in metal and painted by hand, driver and all, mounted on a brass hinge.'},
- {id:'havana',name:'Havana',of:'Paseo del Prado, 1958',price:520,img:'img/havana-piece.webp',lede:'A Sunday on the Paseo del Prado. Chrome or Havana blue frame.',clasp:"The turquoise '57 convertible from the street, cast in metal and painted by hand, mounted on a brass hinge.",frames:[['Chrome','#C9CDD0','img/havana-piece.webp'],['Havana blue','#2BA7BE','img/havana-blue-piece.webp']]},
- {id:'miami',name:'Miami',of:'Ocean Drive, 1959',price:500,img:'img/miami-piece.webp',lede:'Noon on Ocean Drive outside the Colony. Chrome or flamingo pink frame.',clasp:'The pink Cadillac convertible from the drive, cast in metal and painted by hand, mounted on a brass hinge.',frames:[['Chrome','#C9CDD0','img/miami-piece.webp'],['Flamingo pink','#E59A8C','img/miami-pink-piece.webp']]},
- {id:'nyc',name:'New York City',of:'Water Street, 1974',price:560,img:'img/nyc-piece.webp',lede:'Dumbo after the rain, under the Manhattan Bridge. Chrome frame.',clasp:'The yellow checker cab from Water Street, cast in metal and painted by hand, mounted on a brass hinge.'},
- {id:'tokyo',name:'Tokyo',of:'Shinjuku, 1997',price:580,img:'img/tokyo-piece.webp',lede:'Shinjuku just after the rain. Purple lacquer frame.',clasp:'The Midnight Purple GT-R from the street, cast in metal and lacquered by hand, mounted on a brass hinge.'}
+ {id:'havana',no:'01',name:'Havana',of:'Paseo del Prado, 1958',price:520,img:'img/havana-piece.webp',lede:'The Prado, late morning. Chrome or Havana blue frame.',clasp:'The turquoise convertible from the Prado, cast in metal and painted by hand. It opens.',frames:[['Chrome','#C9CDD0','img/havana-piece.webp'],['Havana blue','#2BA7BE','img/havana-blue-piece.webp']]},
+ {id:'miami',no:'02',name:'Miami',of:'Ocean Drive, 1959',price:500,img:'img/miami-piece.webp',lede:'Ocean Drive at noon, outside the Colony. Chrome or flamingo pink frame.',clasp:'The pink convertible from the drive, cast in metal and painted by hand. It opens.',frames:[['Chrome','#C9CDD0','img/miami-piece.webp'],['Flamingo pink','#E59A8C','img/miami-pink-piece.webp']]},
+ {id:'nyc',no:'05',name:'New York',of:'Washington Street, 1977',price:560,img:'img/nyc-piece.webp',lede:'A yellow cab on wet cobbles. Chrome frame.',clasp:'The yellow cab from the cobbles, cast in metal and painted by hand. It opens.'},
+ {id:'tokyo',no:'06',name:'Tokyo',of:'Shinjuku, 1979',price:580,img:'img/tokyo-piece.webp',lede:'Shinjuku at night, a plum coupé at the kerb. Purple lacquer frame.',clasp:'The plum coupé from the kerb, cast in metal and lacquered by hand. It opens.'},
+ {id:'monaco',no:'07',name:'Monaco',of:'The hairpin, race week',price:600,img:'img/monaco-piece.webp',lede:'The hairpin from the balustrade, race week. Chrome frame.',clasp:'The race car from the hairpin, cast in metal and painted by hand, driver and all. It opens.'}
 ];
-const HERO=3;   // Havana is the bag in the film
+const HERO=0;   // Havana is the bag in the film
 
 /* The film is 1920 × 1080. It opens on the Havana print and ends on the Prado render with the car on the clasp. */
 const REVEAL=4.1, SETTLE=6.2;   // seconds in: the camera pulls back from the street to the bag
@@ -593,9 +598,9 @@ let cur=-1;
 const selectedFrames=P.map(()=>0);
 function open(i){if(state!=='line'||cur>=0)return;if(innerWidth<860){const r=els[i].getBoundingClientRect();if(Math.abs(r.left+r.width/2-innerWidth/2)>40){track.scrollTo({left:els[i].offsetLeft-(track.clientWidth-els[i].clientWidth)/2,behavior:'smooth'});return}}cur=i;const p=P[i];if(p.frames)imgOf(i).src=p.frames[selectedFrames[i]][2];adTrack('product_view',{content_id:p.id,content_name:p.name,content_type:'product'},p.id);logStep('piece/'+p.id);
  $('dOf').textContent=p.of;$('dName').textContent=p.name;$('dPrice').textContent=money(p.price);$('dClasp').textContent=p.clasp;$('dLede').textContent=p.lede;
- const open1=PRIORITY_ONE[p.id]==='open',bt=$('dBatch');bt.classList.toggle('closed',PRIORITY_ONE[p.id]==='closed');
- bt.innerHTML=open1?`<b>Priority I <span>Open</span></b>A $${DEPOSIT} deposit places your piece among the first made. Taken off the price, refundable until production.`:PRIORITY_ONE[p.id]==='closed'?`<b>Priority I <span>Closed</span></b>Priority II is open, with nothing due today.`:`<b>Priority I <span>Not yet open</span></b>Join Priority II today, with nothing due. We write to you first when Priority I opens.`;
- $('dBuy').textContent=open1?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dAlt').hidden=!open1;
+ const bt=$('dBatch');bt.classList.add('closed');
+ bt.innerHTML=`<b>Currently unavailable</b>Each piece is made in small runs for those on the waitlist. Nothing is charged today.`;
+ $('dBuy').textContent='Join the waitlist';$('dAlt').hidden=true;
  const sw=$('dSw');sw.innerHTML='';if(p.frames)p.frames.forEach(([n,c,src],k)=>{const b=document.createElement('button');b.type='button';b.className='sw';b.style.background=c;b.title=n+' frame';b.setAttribute('aria-label',n+' frame');b.setAttribute('aria-pressed',k===selectedFrames[i]);
   b.onclick=()=>{selectedFrames[i]=k;sw.querySelectorAll('.sw').forEach(x=>x.setAttribute('aria-pressed',x===b));imgOf(i).src=src;const fl=$('fly');if(fl)fl.src=src};sw.appendChild(b)});
  const old=$('fly');if(old){gsap.killTweensOf(old);old.remove();els.forEach((_,k)=>imgOf(k).style.visibility='')}
@@ -624,53 +629,64 @@ function closeDetail(now){
  gsap.to(['#colhead','#reelnav'],{opacity:1,duration:.5*t,delay:.6*t,pointerEvents:'auto'});gsap.to(els,{opacity:1,duration:.6*t,delay:.4*t,pointerEvents:'auto'});gsap.to(els.map(e=>e.querySelector('.cap')),{opacity:1,duration:.5*t,delay:.6*t})}
 $('dBack').addEventListener('click',()=>closeDetail());
 addEventListener('keydown',e=>{if(e.key==='Escape'){if(drawerOpen)closeDrawer();else closeDetail()}});
-$('dBuy').addEventListener('click',e=>{e.preventDefault();if(cur>=0)openDrawer(cur,PRIORITY_ONE[P[cur].id]==='open'?'deposit':'preorder')});
+$('dBuy').addEventListener('click',e=>{e.preventDefault();if(cur>=0)openDrawer(cur,'waitlist')});
 $('dAlt').addEventListener('click',()=>{if(cur>=0)openDrawer(cur,'preorder')});
 
 /* ——— pre-order ——— */
 let drawerOpen=false,dPiece='',dIdx=-1;
-const mode=()=>{const m=document.querySelector('input[name=mode]:checked');return m?m.value:'preorder'};
-function syncMode(){const dep=mode()==='deposit';$('shipBox').hidden=!dep;$('shipLater').hidden=dep;$('dueNow').textContent=dep?money(DEPOSIT):'$0';$('fGo').textContent=dep?`Reserve with $${DEPOSIT} deposit`:'Join Priority II';$('dhTitle').textContent=dep?'Reserve in Priority I':'Join Priority II'}
-document.querySelectorAll('input[name=mode]').forEach(r=>r.addEventListener('change',syncMode));
+const mode=()=>'waitlist';
+function syncMode(){$('shipBox').hidden=true;$('shipLater').hidden=false;$('dueNow').textContent='$0';$('fGo').textContent='Join the waitlist · $0 today';$('dhTitle').textContent='Join the waitlist'}
 function openDrawer(i,want){const p=P[i];adTrack('preorder_start',{content_id:p.id,content_name:p.name,content_type:'product',mode:want},p.id+':'+want);logStep('preorder-form/'+p.id);dIdx=i;drawerOpen=true;const frameIdx=selectedFrames[i],fr=p.frames?p.frames[frameIdx]:null;dPiece=p.id+(fr&&frameIdx?':'+fr[0].toLowerCase().replace(/ /g,'-'):'');
- $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0].replace(/ /g,' ')+' frame':'')+' · Edition of 25';$('sPrice').textContent=money(p.price);
- const open1=PRIORITY_ONE[p.id]==='open';$('modes').hidden=!open1;$('closedNote').hidden=open1;$('closedNote').textContent=PRIORITY_ONE[p.id]==='closed'?'Priority I is closed for this piece. You are joining Priority II.':'Priority I is not yet open for this piece. You are joining Priority II, and we write to you first when it opens.';
- $('mDeposit').checked=open1&&want==='deposit';$('mPre').checked=!open1||want!=='deposit';syncMode();
+ $('sImg').src=fr?fr[2]:p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+(fr?' · '+fr[0].replace(/ /g,' ')+' frame':'')+' · Made in small runs';$('sPrice').textContent=money(p.price);
+ $('modes').hidden=true;$('closedNote').hidden=true;$('howPrice').textContent=money(p.price);
+ $('fTermsText').textContent=`I allow Momenti to charge ${money(p.price)} to my card when my piece is ready to ship. I will get an email at least 7 days before, and can cancel any time before then. If the run is not made, my card is never charged.`;syncMode();
  $('form').hidden=false;$('okBox').hidden=true;$('dmBox').hidden=true;$('fStatus').textContent='';$('fGo').disabled=false;$('drawer').scrollTop=0;
  $('drawer').classList.add('on');$('scrim').classList.add('on');$('drawer').setAttribute('aria-hidden','false');setTimeout(()=>$('fFirst').focus(),350)}
 function closeDrawer(){drawerOpen=false;$('drawer').classList.remove('on');$('scrim').classList.remove('on');$('drawer').setAttribute('aria-hidden','true')}
-$('xClose').onclick=closeDrawer;$('okPay').addEventListener('click',()=>{const p=P[dIdx];if(p)adTrack('deposit_checkout',{content_id:p.id,content_name:p.name,content_type:'product'})});$('okPay').addEventListener('click',()=>logStep('deposit-link/'+P[dIdx].id));$('scrim').onclick=closeDrawer;
+$('xClose').onclick=closeDrawer;$('scrim').onclick=closeDrawer;
 let db=null,user=null;
 if(window.claude&&window.claude.use){window.claude.use('db').then(d=>{db=d}).catch(()=>{});window.claude.use('user').then(u=>{user=u}).catch(()=>{})}
 const v=id=>$(id).value.trim();
 $('form').addEventListener('submit',async e=>{e.preventDefault();
  document.querySelectorAll('.req').forEach(x=>x.classList.remove('req'));
- const need=[['fFirst','your first name'],['fLast','your last name'],['fEmail','your email']].concat(mode()==='deposit'?[['fPhone','a phone number'],['fCountry','a country'],['fAddr1','your address'],['fCity','your city']]:[]);
- for(const [id,what] of need){if(!v(id)){$(id).classList.add('req');$('fStatus').textContent=`Add ${what} to continue.`;$(id).focus();return}}
+ for(const [id,what] of [['fFirst','your first name'],['fLast','your last name'],['fEmail','your email']]){if(!v(id)){$(id).classList.add('req');$('fStatus').textContent=`Add ${what} to continue.`;$(id).focus();return}}
  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v('fEmail'))){$('fEmail').classList.add('req');$('fStatus').textContent='That email doesn’t look complete.';$('fEmail').focus();return}
- if(!$('fTerms').checked){$('fStatus').textContent='Tick the box to confirm you understand how pre-orders work.';$('fTerms').focus();return}
- const p=P[dIdx],dep=mode()==='deposit';
- const en={piece:dPiece,name:p.name,price:p.price,mode:dep?'first-batch-deposit':'pre-order',deposit:dep?DEPOSIT:0,first:v('fFirst'),last:v('fLast'),email:v('fEmail'),phone:v('fPhone'),
-  address:{line1:v('fAddr1'),line2:v('fAddr2'),city:v('fCity'),region:v('fRegion'),postal:v('fPostal'),country:v('fCountry')},note:v('fNote'),news:$('fNews').checked,...cameFrom(),createdAt:new Date().toISOString()};
- $('fGo').disabled=true;$('fStatus').textContent='Saving…';
- const done=()=>{adTrack('preorder_submit',{content_id:dPiece,content_name:p.name,content_type:'product',mode:dep?'priority_1':'priority_2'},en.createdAt+':'+dPiece);logStep((dep?'priority-1/':'priority-2/')+p.id);$('form').hidden=true;$('okBox').hidden=false;const link=DEPOSIT_LINK[p.id];
-  $('okTitle').textContent=dep?'Your Priority I place is held.':'You are on Priority II.';
-  $('okText').textContent=dep?(link?`Pay the $${DEPOSIT} deposit to confirm your place. Your number and delivery window follow by email.`:`A secure link for the $${DEPOSIT} deposit follows by email within a day. Your place is held for 48 hours.`):`Nothing is due today. We write to you with your number, delivery window and payment before your piece is made.`;
-  const pay=$('okPay');pay.hidden=!(dep&&link);if(dep&&link)pay.href=link;$('drawer').scrollTop=0};
- try{const r=await fetch('/api/preorder',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(en)});if(r.ok){done();return}}catch(_){}
- try{if(!db||!user)throw 0;const uid=await user.id();if(!uid)throw 0;const ref=db.collection('preorders').doc(uid);let old={};try{const g=await ref.get();old=(g&&g.exists&&g.data&&g.data())||{}}catch(_){}
-  await ref.set({...old,email:en.email,name:en.first+' '+en.last,orders:{...(old.orders||{}),[en.piece]:en},updatedAt:en.createdAt});done()}
- catch(err){$('fStatus').textContent='';$('fGo').disabled=false;
-  $('dmText').textContent=['Momenti '+(dep?'Priority I deposit':'Priority II'),en.piece,en.first+' '+en.last,en.email,en.phone,[en.address.line1,en.address.line2,en.address.city,en.address.region,en.address.postal,en.address.country].filter(Boolean).join(', '),en.note].filter(Boolean).join(' · ');
-  $('form').hidden=true;$('dmBox').hidden=false;$('drawer').scrollTop=0}});
+ if(!$('fTerms').checked){$('fStatus').textContent='Tick the box to confirm how the waitlist works.';$('fTerms').focus();return}
+ const p=P[dIdx];
+ const en={piece:dPiece,name:p.name,price:p.price,mode:'waitlist',deposit:0,first:v('fFirst'),last:v('fLast'),email:v('fEmail'),phone:'',
+  address:{},note:v('fNote'),news:$('fNews').checked,...cameFrom(),createdAt:new Date().toISOString()};
+ $('fGo').disabled=true;$('fStatus').textContent='One moment…';
+ // 1. Save a card with Stripe (nothing charged). The waitlist place is recorded when Stripe confirms, on return.
+ try{const r=await fetch('/api/reserve',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(en)});
+  if(r.ok){const j=await r.json();if(j.url){logStep('stripe/'+p.id);location.href=j.url;return}}}catch(_){}
+ // 2. No Stripe yet: a free waitlist place, name and email only.
+ const done=()=>{adTrack('preorder_submit',{content_id:dPiece,content_name:p.name,content_type:'product',mode:'waitlist'},en.createdAt+':'+dPiece);logStep('waitlist/'+p.id);$('form').hidden=true;$('okBox').hidden=false;
+  $('okTitle').textContent="You're on the waitlist.";$('okText').textContent='Nothing has been charged. We write before anything is made.';$('drawer').scrollTop=0};
+ try{const r=await fetch('/api/preorder',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...en,mode:'pre-order'})});if(r.ok){done();return}}catch(_){}
+ $('fStatus').textContent='';$('fGo').disabled=false;
+ $('dmText').textContent=['Momenti waitlist',en.piece,en.first+' '+en.last,en.email,en.note].filter(Boolean).join(' · ');
+ $('form').hidden=true;$('dmBox').hidden=false;$('drawer').scrollTop=0});
+// Back from Stripe: confirm the saved card on the server, then show the waitlist place.
+{const q=new URLSearchParams(location.search),sid=q.get('session_id'),back=q.get('waitlist');
+ if(sid||back){const clean=()=>{q.delete('session_id');q.delete('waitlist');q.delete('piece');history.replaceState({},'',location.pathname+(q.toString()?'?'+q:'')+location.hash)};
+  const show=(title,text)=>{const i=Math.max(0,P.findIndex(x=>x.id===(q.get('piece')||'').split(':')[0]));const p=P[i];dIdx=i;dPiece=q.get('piece')||p.id;
+   $('sImg').src=p.img;$('sName').textContent=p.name;$('sMeta').textContent=p.of+' · Made in small runs';$('sPrice').textContent=money(p.price);
+   $('form').hidden=true;$('okBox').hidden=false;$('dmBox').hidden=true;$('okTitle').textContent=title;$('okText').textContent=text;drawerOpen=true;
+   $('drawer').classList.add('on');$('scrim').classList.add('on');$('drawer').setAttribute('aria-hidden','false')};
+  if(back==='cancelled'){show('Nothing was saved.','Your place on the waitlist needs a saved card. Nothing is charged today.');clean()}
+  else if(sid){fetch('/api/reserve-confirm',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({session_id:sid})}).then(r=>r.ok?r.json():null).then(j=>{
+    if(j&&j.ok){let fired=false;try{fired=sessionStorage.getItem('m_wl_'+sid)==='1';sessionStorage.setItem('m_wl_'+sid,'1')}catch(_){}
+     if(!fired)adTrack('waitlist_confirmed',{content_id:j.piece,content_name:j.name,content_type:'product',value:j.price,event_id:sid},sid);logStep('waitlist-card/'+String(j.piece).split(':')[0]);
+     show("You're on the waitlist.",`Your ${j.name} is on the list. Nothing has been charged. We write at least a week before your card is charged, with your delivery window.`)}
+    else show('One more step.','We could not confirm your saved card. Write to us and we will sort it out.');clean()}).catch(()=>{show('One more step.','We could not confirm your saved card. Write to us and we will sort it out.');clean()})}}}
 $('copy').addEventListener('click',()=>{const t=$('dmText'),b=$('copy');const sel=()=>{const r=document.createRange();r.selectNodeContents(t);const s=getSelection();s.removeAllRanges();s.addRange(r)};
  if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t.textContent).then(()=>{b.textContent='Copied';setTimeout(()=>b.textContent='Copy',1500)}).catch(sel);else sel()});
 
 /* ——— navigation ——— */
 const nav=$('nav');addEventListener('scroll',()=>nav.classList.toggle('solid',scrollY>40),{passive:true});
 /* the archive lists every piece in the collection */
-const CLASP={paris:'The red 2CV',rome:'The cream Cinquecento',monaco:'The red number 8',havana:"The turquoise '57",miami:'The pink Cadillac',nyc:'The checker cab',tokyo:'The Midnight Purple GT-R'};
-P.forEach((p,i)=>{const li=document.createElement('li');li.innerHTML=`<button type="button"><span class="n">No. ${String(i+1).padStart(2,'0')}</span><span class="c">${p.name}</span><span class="w">${p.of}</span><span class="o">${CLASP[p.id]||''}</span><span class="e">Ed. of 25</span><img class="t" src="${p.img}" alt=""></button>`;
+const CLASP={havana:'The turquoise convertible',miami:'The pink convertible',nyc:'The yellow cab',tokyo:'The plum coupé',monaco:'The race car'};
+P.forEach((p,i)=>{const li=document.createElement('li');li.innerHTML=`<button type="button"><span class="n">No. ${p.no}</span><span class="c">${p.name}</span><span class="w">${p.of}</span><span class="o">${CLASP[p.id]||''}</span><span class="e">Waitlist</span><img class="t" src="${p.img}" alt=""></button>`;
  li.querySelector('button').addEventListener('click',()=>{go('/','collection');const tl=leaveHouse();if(tl)tl.progress(1);setTimeout(()=>{const t=els[i];track.scrollLeft=t.offsetLeft-(track.clientWidth-t.clientWidth)/2;open(i)},450)});$('cat').appendChild(li)});
 /* The House is its own page: /house on the website, #house in the preview */
 const PATHS=document.documentElement.dataset.paths==='1';
@@ -697,9 +713,9 @@ if('IntersectionObserver' in window&&!RM){const io=new IntersectionObserver(es=>
 
 /* ——— legal ——— */
 const LEGAL={
- sale:['Terms of sale',`<p>These terms apply to every order placed with Momenti through this website.</p><h4>Pieces</h4><p>Each piece is made by hand to order in a numbered edition of 25. Images on this site are renders of the finished piece; small differences in colour and finish are part of handmade work.</p><h4>Prices</h4><p>Prices are shown in US dollars. Shipping, and any duties or taxes for your country, are shown before you pay.</p><h4>Payment</h4><p>For Priority I, a $${DEPOSIT} deposit is taken when you reserve your piece and is taken off its price. Nothing is charged when you join Priority II. We send a secure payment link for the balance, which is due before your piece ships. See the Pre-order terms for deposits and refunds.</p><h4>Returns</h4><p>Because each piece is made to order and numbered, we cannot accept returns for change of mind. If your piece arrives damaged or not as described, write to us within 14 days of delivery and we will repair, replace or refund it.</p><h4>Contact</h4><p>${CONTACT_EMAIL}</p>`],
- preorder:['Pre-order terms',`<h4>Pre-orders</h4><p>A pre-order reserves a piece in its edition, in Priority I or Priority II. We confirm your edition number, delivery window and payment details by email.</p><h4>Priority I deposits</h4><p>Where Priority I is open for a piece, a $${DEPOSIT} deposit reserves your place in it. Priority I pieces are made first. The deposit is taken off the price of your piece, and the balance is due before it ships.</p><h4>Priority II</h4><p>Nothing is charged when you join Priority II. Priority II pieces are made after Priority I.</p><h4>Refunds</h4><p>Deposits are fully refundable until your piece goes into production. We email you before production begins. After that, the deposit is non-refundable.</p><h4>Edition numbers</h4><p>Edition numbers are assigned by the house and confirmed by email.</p><h4>Timing</h4><p>Delivery windows are estimates and are confirmed by email. If your window moves by more than four weeks, you may cancel for a full refund.</p>`],
- privacy:['Privacy',`<p>We collect the details you give us: your name, email, phone and shipping address when you pre-order, and your email when you join the House List.</p><h4>How we use them</h4><p>To confirm, make and deliver your piece, to reply to you, and, if you ask, to send news from the house. We never sell your details.</p><h4>Who else sees them</h4><p>Only the services that help us run the house: email delivery, payment processing and shipping carriers.</p><h4>Advertising measurement</h4><p>If you allow advertising cookies, Meta and TikTok receive information about your visits, product interest and successful form submissions to measure and improve our ads and show relevant ads. Our event payloads exclude your name, email, phone and address. You can change your choice using Advertising preferences in the footer.</p><h4>Your choices</h4><p>Unsubscribe from any email with one click. To see, correct or delete your details, write to ${CONTACT_EMAIL}.</p>`]};
+ sale:['Terms of sale',`<p>These terms apply to every order placed with Momenti through this website.</p><h4>Pieces</h4><p>Each piece is made by hand to order, in small runs. Pieces are shown in pre-production images; the final piece may vary slightly in colour and finish.</p><h4>Prices</h4><p>Prices are shown in US dollars. Shipping, and any duties or taxes for your country, are shown before your card is charged.</p><h4>Payment</h4><p>Nothing is charged when you join a waitlist. You save a card with our payment processor, Stripe, and allow us to charge the price of your piece to it when your piece is ready to ship. We email you at least 7 days before. See the Waitlist terms.</p><h4>Returns</h4><p>Because each piece is made to order, we cannot accept returns for change of mind. If your piece arrives damaged or not as described, write to us within 14 days of delivery and we will repair, replace or refund it.</p><h4>Contact</h4><p>${CONTACT_EMAIL}</p>`],
+ preorder:['Waitlist terms',`<h4>The waitlist</h4><p>Every piece is currently unavailable and made in small runs for those on its waitlist. You join a waitlist by saving a card with Stripe. Nothing is charged when you join.</p><h4>Your saved card</h4><p>By joining, you allow Momenti to charge the price shown for your piece to your saved card when it is ready to ship. We email you at least 7 days before the charge, with your delivery window.</p><h4>Cancelling</h4><p>You can leave the waitlist any time before your card is charged by replying to any email from us. Nothing is charged.</p><h4>If a run is not made</h4><p>If a run is not made, your card is never charged and we delete it.</p><h4>Timing</h4><p>Delivery windows are estimates and are confirmed by email before your card is charged. If your window moves by more than four weeks after the charge, you may cancel for a full refund.</p>`],
+ privacy:['Privacy',`<p>We collect the details you give us: your name and email when you join a waitlist, your shipping address before your piece is made, and your email when you join the House List. Your card is saved by Stripe; we never see or store your full card number.</p><h4>How we use them</h4><p>To confirm, make and deliver your piece, to reply to you, and, if you ask, to send news from the house. We never sell your details.</p><h4>Who else sees them</h4><p>Only the services that help us run the house: email delivery, payment processing and shipping carriers.</p><h4>Advertising measurement</h4><p>If you allow advertising cookies, Meta and TikTok receive information about your visits, product interest and successful form submissions to measure and improve our ads and show relevant ads. Our event payloads exclude your name, email, phone and address. You can change your choice using Advertising preferences in the footer.</p><h4>Your choices</h4><p>Unsubscribe from any email with one click. To see, correct or delete your details, write to ${CONTACT_EMAIL}.</p>`]};
 function openLegal(k){const [t,b]=LEGAL[k];$('legalH').textContent=t;$('legalBody').innerHTML=b;$('legal').hidden=false;$('legalScrim').classList.add('on');$('legal').scrollTop=0;$('legalClose').focus()}
 function closeLegal(){$('legal').hidden=true;$('legalScrim').classList.remove('on')}
 document.querySelectorAll('[data-legal]').forEach(b=>b.addEventListener('click',()=>openLegal(b.dataset.legal)));

@@ -38,7 +38,8 @@
   }
   const events = {
     product_view: ['ViewContent', 'ViewContent'],
-    preorder_start: ['PreorderStart', 'PreorderStart'],
+    preorder_start: ['InitiateCheckout', 'InitiateCheckout'],   // opened the waitlist form, saw the price
+    waitlist_confirmed: ['Purchase', 'CompletePayment'],        // Stripe confirmed a saved card ($0 charged)
     preorder_submit: ['Lead', 'SubmitForm'],
     house_list_signup: ['CompleteRegistration', 'CompleteRegistration'],
     deposit_checkout: ['InitiateCheckout', 'InitiateCheckout'],
@@ -46,7 +47,7 @@
     film_engaged: ['FilmEngaged', 'FilmEngaged'],
     social_click: ['SocialClick', 'SocialClick']
   };
-  const custom = new Set(['preorder_start', 'film_engaged', 'social_click']);
+  const custom = new Set(['film_engaged', 'social_click']);
   function track(name, details, once) {
     if (!allowed || !enabled || !events[name]) return;
     const d = details || {}, token = once && name + ':' + once;
@@ -57,7 +58,9 @@
     ['content_name', 'content_type', 'mode', 'source', 'destination'].forEach(k => { if (typeof d[k] === 'string') data[k] = d[k]; });
     if (d.content_id) data.content_ids = [String(d.content_id)];
     if (name === 'deposit_checkout') { data.value = 100; data.currency = 'USD'; }
-    try { if (config.metaPixelId) window.fbq(custom.has(name) ? 'trackCustom' : 'track', events[name][0], data); } catch (_) {}
+    if (name === 'waitlist_confirmed' && typeof d.value === 'number' && d.value > 0) { data.value = d.value; data.currency = 'USD'; }
+    const opts = typeof d.event_id === 'string' ? { eventID: d.event_id } : undefined;
+    try { if (config.metaPixelId) window.fbq(custom.has(name) ? 'trackCustom' : 'track', events[name][0], data, opts); } catch (_) {}
     try {
       if (config.tiktokPixelId) {
         const tiktokData = { ...data };

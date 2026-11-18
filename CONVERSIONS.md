@@ -30,8 +30,9 @@ public pixel ID is added later. No secret keys belong in this file.
 | --- | --- | --- | --- |
 | Page load after consent | PageView | page() | Activity |
 | Open a product detail | ViewContent | ViewContent | Interest |
-| Open pre-order form | PreorderStart (custom) | PreorderStart (custom) | Interest |
-| Successfully delivered pre-order | Lead | SubmitForm | **Main conversion** |
+| Open the waitlist form (sees price) | InitiateCheckout | InitiateCheckout | **Optimize for this first** |
+| Stripe confirms a saved card ($0 charged) | Purchase (value = price, eventID = Checkout session ID) | CompletePayment | **Main conversion** |
+| Free waitlist sign-up (only when Stripe is not set up) | Lead | SubmitForm | Fallback |
 | Successful House List signup | CompleteRegistration | CompleteRegistration | Secondary conversion |
 | Click configured deposit payment link | InitiateCheckout | InitiateCheckout | Checkout intent only |
 | Click an email link | Contact | Contact | Contact intent |
@@ -78,3 +79,13 @@ its existing design without reviewing the differences.
 Local checks: `node --test tests/tracking.test.cjs` and
 `python3 studio/scripts/build.py /tmp/momenti-built.html` from the repository root.
 No live pixel receipt or ad attribution can be verified without IDs and deployment.
+
+## Waitlist with a saved card (Nov 2026)
+
+Joining a waitlist calls `api/reserve`, which creates a Stripe customer and a Checkout
+session in setup mode: the card is saved, nothing is charged. Stripe returns the visitor
+to `/?session_id=...`; `api/reserve-confirm` checks with Stripe that the setup succeeded,
+records the place (Google Form + Resend email) once per session, and the page then sends
+Purchase with the piece price and the session ID as event ID. Needs `STRIPE_SECRET_KEY`
+in Vercel; without it the form falls back to a free sign-up (Lead). Prices in
+`api/reserve.js` must match `P` in `index.html`.

@@ -88,3 +88,16 @@ for (const file of ['index.html','studio/source/momenti.html']) {
     assert.match(html,/\/js\/tracking-config.js/);
   });
 }
+
+test('waitlist: form open is InitiateCheckout, confirmed card is Purchase with value and event ID', () => {
+  const {context:c}=boot('granted');
+  c.momentiTrack('preorder_start',{content_id:'havana',content_name:'Havana',mode:'waitlist'},'havana:waitlist');
+  const ic=c.fbq.queue.filter(a=>a[1]==='InitiateCheckout');
+  assert.equal(ic.length,1); assert.equal(ic[0][0],'track'); assert.equal(ic[0][2].value,undefined);
+  c.momentiTrack('waitlist_confirmed',{content_id:'havana',content_name:'Havana',value:520,event_id:'cs_test_1',email:'x@y.z'},'cs_test_1');
+  c.momentiTrack('waitlist_confirmed',{content_id:'havana',value:520,event_id:'cs_test_1'},'cs_test_1');
+  const pu=c.fbq.queue.filter(a=>a[1]==='Purchase');
+  assert.equal(pu.length,1); assert.equal(pu[0][2].value,520); assert.equal(pu[0][2].currency,'USD');
+  assert.equal(pu[0][2].email,undefined); assert.equal(pu[0][3].eventID,'cs_test_1');
+  assert.equal(c.ttq.filter(a=>a[0]==='track'&&a[1]==='CompletePayment').length,1);
+});
