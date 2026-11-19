@@ -20,6 +20,9 @@
         script('https://connect.facebook.net/en_US/fbevents.js');
       }
       window.fbq('consent', 'grant');
+      // No automatic events (e.g. SubscribedButtonClick guesses): only the events this site sends on purpose,
+      // so conversions in Ads Manager are never inflated by Meta's button-click guesses.
+      window.fbq('set', 'autoConfig', false, config.metaPixelId);
       window.fbq('init', config.metaPixelId);
       const pv = newId();
       window.fbq('track', 'PageView', {}, { eventID: pv });
