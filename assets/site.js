@@ -21,8 +21,17 @@
   /* Stripe payment links per piece (Pily is creating them). Empty = preview state. */
   var STRIPE_LINK = 'https://buy.stripe.com/4gM3cw72Q8Mjfama0Pbo400'; /* Pily's reserve link, 18 Nov */
   var STRIPE = { 'havana-1958': STRIPE_LINK, 'miami-1959': STRIPE_LINK, 'new-york-1977': STRIPE_LINK, 'tokyo-1979': STRIPE_LINK, 'monaco': STRIPE_LINK };
+  /* measurement (js/tracking.js, js/attribution.js, Vercel Analytics); ad pixels only fire after consent */
+  function adTrack(n, d, once) { try { if (window.momentiTrack) window.momentiTrack(n, d, once); } catch (_) {} }
+  function logStep(n) { try { var p = '/~/' + n; window.va('pageview', { route: p, path: p }); } catch (_) {} }
+  (function () { var q = new URLSearchParams(location.search), ua = navigator.userAgent, src = (q.get('utm_source') || q.get('s') || (/Instagram/.test(ua) ? 'instagram' : /musical_ly|Bytedance|TikTok/i.test(ua) ? 'tiktok' : /FBAN|FBAV/.test(ua) ? 'facebook' : '')).toLowerCase().replace(/[^a-z0-9-]/g, '');
+    try { if (src && !sessionStorage.getItem('m_from')) { sessionStorage.setItem('m_from', src); logStep('from/' + src); } } catch (_) {} })();
+  function cameFrom() { var f = ''; try { f = sessionStorage.getItem('m_from') || ''; } catch (_) {} var ref = ''; try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (_) {}
+    return { attribution: window.momentiAttribution ? window.momentiAttribution() : null, from: f || 'direct', ref: ref, landed: location.pathname + location.search }; }
+  if (body.dataset.piece) { adTrack('product_view', { content_id: body.dataset.piece, content_type: 'product' }, body.dataset.piece); logStep('piece/' + body.dataset.piece); }
   /* send a sign-up to the House List backend (api/subscribe.js) */
-  function send(email, topics) { return fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ email: email, topics: topics }) }).then(function (r) { return r.ok; }).catch(function () { return false; }); }
+  function send(email, topics) { var o = cameFrom(); o.email = email; o.topics = topics;
+    return fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) }).then(function (r) { if (r.ok) { logStep('house-list'); adTrack('house_list_signup', { source: topics[0] || 'house_list' }); } return r.ok; }).catch(function () { return false; }); }
 
   /* ---------- curtain + page transitions ---------- */
   function ready() { var go = function () { body.classList.add('ready'); }; requestAnimationFrame(go); setTimeout(go, 450); /* never leave the curtain down */ }
@@ -212,6 +221,7 @@
     if (menu) menu.classList.remove('open');
     body.classList.add('res-open'); sm.lock = true;
     if (nav) nav.classList.remove('hidden');
+    var pc = body.dataset.piece; if (pc) { adTrack('preorder_start', { content_id: pc, content_type: 'product', mode: 'reserve' }, pc); logStep('reserve/' + pc); }
   }
   function closeSheet() { body.classList.remove('res-open'); sm.lock = !!(menu && menu.classList.contains('open')); }
   $$('[data-reserve]').forEach(function (b) { b.addEventListener('click', openSheet); });
@@ -221,6 +231,7 @@
     if (hold) hold.addEventListener('click', function (e) {
       e.preventDefault();
       var link = STRIPE[body.dataset.piece];
+      adTrack('preorder_submit', { content_id: body.dataset.piece, content_type: 'product', mode: 'reserve' }); logStep('reserve-link/' + body.dataset.piece);
       if (link) { location.href = link + (link.indexOf('?') < 0 ? '?' : '&') + 'client_reference_id=' + encodeURIComponent(body.dataset.piece); return; }
       sheet.classList.add('done');
     });

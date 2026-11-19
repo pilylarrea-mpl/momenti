@@ -60,10 +60,12 @@ BY = {p['slug']: p for p in PIECES}
 def head(title, desc='MOMENTI is a design house that makes objects from moments.', extra=''):
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>{title}</title><meta name="description" content="{desc}"><meta name="robots" content="noindex">
+<title>{title}</title><meta name="description" content="{desc}">
 <meta name="theme-color" content="#F4F0E8"><link rel="icon" href="assets/logo/the-o-ink.svg">
 <link rel="preload" href="assets/fonts/BodoniModa-Italic-VF.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="stylesheet" href="assets/site.css">{extra}</head>'''
+<link rel="stylesheet" href="assets/site.css">
+<script src="/js/tracking-config.js"></script><script src="/js/tracking.js"></script><script src="/js/attribution.js"></script>
+<script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments)}}</script><script defer src="/_vercel/insights/script.js"></script>{extra}</head>'''
 
 def nav(photo=False, reserve_here=False):
     res = '<a class="lab res" href="#reserve" data-reserve>Reserve</a>' if reserve_here else '<a class="lab res" href="the-grand-tour.html">Reserve</a>'
