@@ -101,5 +101,5 @@ test('new site (assets/site.js): only successful sign-ups convert, once per emai
   c.fetch=async()=>({ok:true});
   assert.equal(await c.send('test@example.com',['the letter']),true);
   assert.equal(calls[0][0],'house_list_signup'); assert.equal(calls[0][2],'test@example.com');
-  for (const f of ['index.html','havana-1958.html','join.html']) assert.match(fs.readFileSync(f,'utf8'),/\/js\/tracking-config.js/);
+  for (const f of ['index.html','havana-1958.html','join.html']) assert.match(fs.readFileSync(f,'utf8'),/\/js\/attribution.js/);
 });

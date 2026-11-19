@@ -42,7 +42,7 @@
     },
     {
       "source": "/miami",
-      "destination": "/miami-1959",
+      "destination": "/the-grand-tour",
       "permanent": false
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "source": "/tokyo",
-      "destination": "/tokyo-1979",
+      "destination": "/tokyo-1995",
       "permanent": false
     },
     {
@@ -83,6 +83,16 @@
     {
       "source": "/tiktok",
       "destination": "/?utm_source=tiktok&utm_medium=organic_social&utm_campaign=profile&utm_content=bio",
+      "permanent": false
+    },
+    {
+      "source": "/tokyo-1979",
+      "destination": "/tokyo-1995",
+      "permanent": false
+    },
+    {
+      "source": "/miami-1959",
+      "destination": "/the-grand-tour",
       "permanent": false
     }
   ]

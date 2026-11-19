@@ -20,8 +20,10 @@
   var FILM = { desktop: '', phone: '' };
   /* Stripe payment links per piece (Pily is creating them). Empty = preview state. */
   var STRIPE_LINK = 'https://buy.stripe.com/4gM3cw72Q8Mjfama0Pbo400'; /* Pily's reserve link, 18 Nov */
-  var STRIPE = { 'havana-1958': STRIPE_LINK, 'miami-1959': STRIPE_LINK, 'new-york-1977': STRIPE_LINK, 'tokyo-1979': STRIPE_LINK, 'monaco': STRIPE_LINK };
+  var STRIPE = { 'havana-1958': STRIPE_LINK, 'miami-1959': STRIPE_LINK, 'new-york-1977': STRIPE_LINK, 'tokyo-1995': STRIPE_LINK, 'monaco': STRIPE_LINK };
   /* measurement (js/tracking.js, js/attribution.js, Vercel Analytics); ad pixels only fire after consent */
+  /* the line-up counter: 01 / 04, from however many bags are on the page */
+  function bagCount(p) { var n = Math.max(1, d.querySelectorAll('.track-wrap.flo .track > *').length); return '0' + Math.min(n, Math.round(p * (n - 1)) + 1) + ' / 0' + n; }
   function adTrack(n, d, once) { try { if (window.momentiTrack) window.momentiTrack(n, d, once); } catch (_) {} }
   function logStep(n) { try { var p = '/~/' + n; window.va('pageview', { route: p, path: p }); } catch (_) {} }
   (function () { var q = new URLSearchParams(location.search), ua = navigator.userAgent, src = (q.get('utm_source') || q.get('s') || (/Instagram/.test(ua) ? 'instagram' : /musical_ly|Bytedance|TikTok/i.test(ua) ? 'tiktok' : /FBAN|FBAV/.test(ua) ? 'facebook' : '')).toLowerCase().replace(/[^a-z0-9-]/g, '');
@@ -173,7 +175,7 @@
       if (!reduce) cards.forEach(function (c, i) { var t = Math.max(-18, Math.min(18, vel * lagK[i % 5] * 1.6)); lags[i] += (t - lags[i]) * 0.12; c.style.transform = 'translate3d(' + lags[i].toFixed(1) + 'px,0,0)'; });
       var m = maxX(), p = m ? x / m : 0;
       if (barI) barI.style.left = (p * 80) + '%';
-      if (cnt) cnt.textContent = '0' + Math.min(5, Math.round(p * 4) + 1) + ' / 05';
+      if (cnt) cnt.textContent = bagCount(p);
       requestAnimationFrame(render);
     }
     requestAnimationFrame(render);
@@ -199,7 +201,7 @@
     tw.addEventListener('scroll', function () {
       var m = tw.scrollWidth - tw.clientWidth, p = m ? tw.scrollLeft / m : 0;
       if (bi) bi.style.left = (p * 80) + '%';
-      if (ct) ct.textContent = '0' + Math.min(5, Math.round(p * 4) + 1) + ' / 05';
+      if (ct) ct.textContent = bagCount(p);
     }, { passive: true });
   }
 

@@ -39,21 +39,23 @@ PIECES = [
       back='The same photograph on the back, with NEW YORK, 1977. engraved into the gold frame.',
       arrive=dict(print=I+'new-york-print.jpg', printW=2400, printH=874, car=[0.115,0.635,0.36,0.98],
                   poly='polygon(0% 40%,30% 30%,40% 4%,62% 4%,72% 28%,100% 40%,100% 82%,70% 100%,6% 100%,0% 80%)', clasp=[0.386,0.178,0.614,0.31])),
- dict(slug='tokyo-1979', no='06', name='Tokyo 1979', title='Tokyo, 1979.', tl=('Tokyo,', '1979.'), feel='A world of your own.', price=580,
-      photo='tokyo-photograph', reverse='tokyo-reverse', hero='tokyo-hero',
-      cap1='Shinjuku, at night.', cap2='Outside the record shop, headphones on.', cap2l='Around the corner',
-      master=None, gallery=['wit-tokyo-1979','tokyo-reverse','tokyo-hero'],
-      moment='Shinjuku, Tokyo, in 1979. A street at night, a coupé at the kerb.',
-      car='The car from the photograph sits on the clasp, in miniature. Lift it, and the bag opens.',
-      chain='A detachable chain, to wear it on the shoulder or carry it in hand.', back='The same photograph on the back, with TOKYO, 1979. engraved into the gold frame.'),
+ dict(slug='tokyo-1995', no='06', name='Tokyo 1995', title='Tokyo, 1995.', tl=('Tokyo,', '1995.'), feel='A world of your own.', price=580,
+      photo='tokyo-1995_print-file', reverse='tokyo-1995_04-back', hero='tokyo-1995_02-three-quarter',
+      cap1='A side street, just after the rain.', cap2='The same street, with TOKYO, 1995. on the frame.', cap2l='On the back',
+      master='tokyo-1995_01-front_MASTER', cut='tokyo-1995', gallery=['tokyo-1995_06-car-closeup','tokyo-1995_02-three-quarter','tokyo-1995_05-open','tokyo-1995_08-chain'],
+      moment='A narrow side street in Tokyo, in 1995, just after the rain. Neon on the wet road, red lanterns outside a yakitori bar, and a purple coupé at the kerb.',
+      car='A 9 cm die-cast miniature of the purple coupé in the photograph sits on the clasp. Lift it, and the bag opens.',
+      chain='A champagne-gold chain threaded with black leather, to wear it on the shoulder; unclip it to carry the bag in hand.',
+      back='The same photograph on the back, with TOKYO, 1995. engraved into the gold frame.'),
  dict(slug='monaco', no='07', name='Monaco 1964', title='Monaco, 1964.', tl=('Monaco,', '1964.'), cut='monaco-1964', feel='The long way round.', price=600,
       photo='monaco-photograph', reverse='monaco-reverse', hero='campaign-monaco-quay',
       cap1='The hairpin, race week.', cap2='The crowd leans to the race; she sits on the rail.', cap2l='On the balustrade',
-      master=None, gallery=['two-worlds-monaco','monaco-reverse','campaign-monaco-quay'],
+      master='monaco-1964_01-front_MASTER', gallery=['monaco-1964_06-car-closeup','monaco-1964_02-three-quarter','monaco-1964_05-open','monaco-1964_08-chain'],
       moment='Monaco, 1964, race week: the hairpin, seen from the stone balustrade above it.',
       car='The red race car from the photograph sits on the clasp, in miniature. Lift it, and the bag opens.',
       chain='A detachable chain, to wear it on the shoulder or carry it in hand.', back='The same photograph on the back, with MONACO, 1964. engraved into the gold frame.'),
 ]
+PIECES = [p for p in PIECES if p['slug'] != 'miami-1959']  # Miami returns when its final images are approved
 BY = {p['slug']: p for p in PIECES}
 
 # ------------------------------------------------------------------ shared parts
@@ -64,7 +66,7 @@ def head(title, desc='MOMENTI is a design house that makes objects from moments.
 <meta name="theme-color" content="#F4F0E8"><link rel="icon" href="assets/logo/the-o-ink.svg">
 <link rel="preload" href="assets/fonts/BodoniModa-Italic-VF.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
-<script src="/js/tracking-config.js"></script><script src="/js/tracking.js"></script><script src="/js/attribution.js"></script>
+<script src="/js/attribution.js"></script>
 <script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments)}}</script><script defer src="/_vercel/insights/script.js"></script>{extra}</head>'''
 
 def nav(photo=False, reserve_here=False):
@@ -146,7 +148,7 @@ home = nav() + f'''
 <section class="tour">
   <div class="head"><h2 class="cap rv-lines">{lines('The Grand Tour.')}</h2><a class="link rv" href="the-grand-tour.html">See the collection</a></div>
   <div class="track-wrap flo"><div class="track">{''.join(flt(p, k=k) for k, p in enumerate(PIECES))}</div></div>
-  <div class="drag-bar"><span class="lab">Drag</span><div class="bar"><i></i></div><span class="lab mut count">01 / 05</span></div>
+  <div class="drag-bar"><span class="lab">Drag</span><div class="bar"><i></i></div><span class="lab mut count">01 / {len(PIECES):02d}</span></div>
 </section>
 <a class="spread" href="new-york-1977.html" data-arrive="new-york-1977" data-nav-photo>
   <img class="bgimg" data-par="-0.12" src="{I}new-york-hero.jpg" alt="New York, 1977: dawn, asleep on the roof of the cab" loading="lazy">
@@ -181,7 +183,7 @@ tour = nav() + f'''
   <h1 class="cap rv-lines">{lines('The Grand', 'Tour.')}</h1>
   <div class="meta rv d3"><span class="lab">Collection I</span><span class="it">Our first collection. Each bag carries one photograph of a city in one year, with the car from that street on the clasp.</span></div></section>
 <section class="lineup-f"><div class="track-wrap flo"><div class="track">{''.join(flt(p, k=k) for k, p in enumerate(PIECES))}</div></div>
-  <div class="drag-bar"><span class="lab">Drag</span><div class="bar"><i></i></div><span class="lab mut count">01 / 05</span></div></section>
+  <div class="drag-bar"><span class="lab">Drag</span><div class="bar"><i></i></div><span class="lab mut count">01 / {len(PIECES):02d}</span></div></section>
 <section class="lu-note"><p class="rv">Every bag is sold out for now. <span class="it">Reserve yours</span> and pay nothing until it’s ready.</p></section>'''
 page('the-grand-tour.html', 'The Grand Tour · MOMENTI', 'tour', tour)
 
@@ -193,7 +195,7 @@ cols = nav() + f'''
 <a class="co-one" href="the-grand-tour.html">
   <div class="co-bags">{''.join(flt(p, tag='div', k=k) for k, p in enumerate(hero_bags))}</div>
   <div class="co-t"><span class="lab">Collection I</span><h2 class="cap rv-lines">{lines('The Grand Tour.')}</h2>
-    <p class="it rv">Our first collection: five cities, each in one year, with the car from its photograph on the clasp.</p>
+    <p class="it rv">Our first collection: a city in one year, for each bag, with the car from its photograph on the clasp.</p>
     <span class="link rv">See the collection</span></div>
 </a>
 <section class="co-two rv"><span class="lab">Collection II</span><span class="it">Coming.</span><a class="link" href="join.html">Hear first</a></section>'''
@@ -261,7 +263,7 @@ def piece_page(p):
   <p class="intro rv">Everything about the piece, in one place. If something isn’t here, write to {EMAIL}. A person reads it.</p>
   <div class="spec">{spec_html}</div></section>
 {why}
-<section class="more"><div class="head"><span class="cap">The Grand Tour.</span><a class="link" href="the-grand-tour.html">All five</a></div>
+<section class="more"><div class="head"><span class="cap">The Grand Tour.</span><a class="link" href="the-grand-tour.html">The collection</a></div>
 <div class="grid">{''.join(card(q) for q in others)}</div></section>
 <div class="veil"></div>
 <aside class="sheet" aria-label="Reserve">
@@ -548,7 +550,7 @@ dech = ''.join(f'<div class="dec"><span class="n">{["i","ii","iii"][k]}.</span><
 COPY = [
  ('Everywhere', [('Menu', 'Collections · Our Story · MOMENTI · Questions · The House · Reserve. Phone: Menu · MOMENTI · Reserve.'), ('Footer', 'THE LETTER: Letters from the house: <i>new moments, first.</i> SIGN UP · You’re on the list. · MOMENTI: Collections · Our Story · The House · The Owners’ Circle · Client care · © 2026 MOMENTI · Images show the finished piece; the first pieces are in the making.')]),
  ('Home', [('Hero', 'Collection I · The Grand Tour · <i>The Prado, late morning.</i> HAVANA, 1958. <i>What you take with you.</i> RESERVE YOURS · Sold out for now. Pay nothing today.'), ('Line-up', 'THE GRAND TOUR. · See the collection'), ('Spread', 'NEW YORK, 1977. <i>Going out anyway.</i> See the moment'), ('Belief', 'Moments are the only luxury <i>you can’t buy.</i> MOMENTI is a design house that turns real moments into bags you carry. Each one begins with a single photograph. · Our story'), ('The House', 'Free to join. THE HOUSE. <i>Bring a moment.</i> Conversations with women who have a moment worth telling, evenings when there are some, and the first look at every new piece. Every so often, a member’s moment becomes a bag. INSIDE THE HOUSE'), ('The Letter', 'The Letter · Letters from the house: <i>new moments, first.</i> SIGN UP · You’re on the list.')]),
- ('Collections', [('Title', 'The bags · COLLECTIONS. <i>Each collection is a set of moments. Each bag carries one of them.</i>'), ('Collection I', 'THE GRAND TOUR. <i>Our first collection: five cities, each in one year, with the car from its photograph on the clasp.</i> See the collection'), ('Collection II', '<i>Coming.</i> Hear first')]),
+ ('Collections', [('Title', 'The bags · COLLECTIONS. <i>Each collection is a set of moments. Each bag carries one of them.</i>'), ('Collection I', 'THE GRAND TOUR. <i>Our first collection: a city in one year, for each bag, with the car from its photograph on the clasp.</i> See the collection'), ('Collection II', '<i>Coming.</i> Hear first')]),
  ('The Grand Tour', [('Title', 'Collections / The Grand Tour · THE GRAND TOUR. Collection I. <i>Our first collection. Each bag carries one photograph of a city in one year, with the car from that street on the clasp.</i>')] + [(p['name'], f"{p['title'].upper()} <i>{p['feel']}</i> ${p['price']}" if p.get('cut') else f"{p['title'].upper()} <i>Coming soon.</i> (a hairline outline of the bag)") for p in PIECES] + [('Closing', 'Every bag is sold out for now. <i>Reserve yours</i> and pay nothing until it’s ready.')]),
  ('A piece', [('Top', 'Collection I · The Grand Tour · HAVANA, 1958. <i>What you take with you.</i> Havana 1958, <i>frame clutch</i> · $520 · Sold out for now. · RESERVE YOURS · Pay nothing today. When yours is ready, you’ll have a week to change your mind.'), ('Details', 'The moment · The car · Dimensions · Materials · The back · Made · In the box · Care · Delivery · Returns'), ('Reserve', 'Reserve <i>yours.</i> Pay nothing today. We’ll tell you the moment yours is ready, and you’ll have a week to change your mind before anything is charged. · RESERVE MINE · Secure checkout. Nothing is charged until your bag is ready.'), ('After', 'Reserved. <i>Havana 1958 has your name on it.</i> We’ve sent you an email with everything you need, and we’ll be in touch the moment yours is ready.')]),
  ('The House (join.html)', [('Hero', 'Free to join. THE HOUSE. <i>Bring a moment.</i> JOIN THE HOUSE'), ('Opening', 'Every bag begins with someone’s moment. The House is where people bring theirs: <i>a city, a year, and what happened there.</i>'), ('Conversations', 'The House · An interview series. CONVERSATIONS. <i>We sit down with women who have a moment worth telling, and share part of it.</i> PLACEHOLDERS: four slots (No. 01 lead, Madrid; 02–04), each showing “Coming soon” until Pily fills name, city and pull-quote in CONVOS in build.py. The portraits are stand-ins from the kit (campaign-new-york-1977, tokyo-hero, havana-reverse, tokyo-reverse) until the real portraits are taken. No real people or quotes are invented.'), ('Tell us your moment', 'Tell us <i>your moment.</i> A city, a year, what happened, and a photograph if you have one. The best are told in Conversations. And every so often, one becomes a bag, made with the person who lived it and named after their moment. Form: city · year · what happened · a photograph · your email · SEND YOUR MOMENT · Received. <i>It’s with the house now.</i>'), ('Evenings', 'Evenings, <i>when there are some.</i> One moment for one night, city by city: a Havana, 1958, say, with the music of that year. Members hear first.'), ('First look', 'First look, <i>before anyone.</i> Each new moment reaches the House before it reaches anyone else.'), ('Join', 'COME IN. <i>Joining takes your email and, if you like, your moment.</i> JOIN THE HOUSE · You’re in. <i>Welcome to the House.</i>'), ('Upstairs', 'Own a piece? There’s a room <i>upstairs.</i> The Owners’ Circle')]),
