@@ -103,3 +103,20 @@ test('new site (assets/site.js): only successful sign-ups convert, once per emai
   assert.equal(calls[0][0],'house_list_signup'); assert.equal(calls[0][2],'test@example.com');
   for (const f of ['index.html','havana-1958.html','join.html']) assert.match(fs.readFileSync(f,'utf8'),/\/js\/attribution.js/);
 });
+
+test('opt-out mode (new site): no pop-up needed, pixel starts at once, a decline stops it', () => {
+  const run = (consent) => {
+    const saved = new Map(consent ? [['momenti_ad_consent_v1', consent]] : []), scripts = [];
+    const c = { MOMENTI_CONSENT_MODE: 'opt-out', MOMENTI_TRACKING: {metaPixelId: '123456789', tiktokPixelId: ''},
+      document: {readyState: 'loading', addEventListener() {}, getElementById() { return null; }, createElement() { return {}; }, head: {appendChild(s) { scripts.push(s.src); }}},
+      localStorage: {getItem: k => saved.get(k) || null, setItem: (k, v) => saved.set(k, v)} };
+    c.window = c; vm.runInNewContext(source, c); return {c, scripts};
+  };
+  const on = run();
+  assert.equal(on.scripts.length, 1);
+  assert.equal(on.c.fbq.queue.filter(a => a[1] === 'PageView').length, 1);
+  on.c.momentiTrack('product_view', {content_id: 'havana-1958'}, 'havana-1958');
+  assert.equal(on.c.fbq.queue.filter(a => a[1] === 'ViewContent').length, 1);
+  const off = run('denied');
+  assert.equal(off.scripts.length, 0);
+});

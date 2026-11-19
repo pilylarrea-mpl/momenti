@@ -1,6 +1,8 @@
 (function () {
   'use strict';
   const config = window.MOMENTI_TRACKING || {};
+  // 'opt-out' (the new site, Pily 18 Nov): no pop-up; tracking runs unless the visitor declines under Advertising preferences.
+  const optOut = window.MOMENTI_CONSENT_MODE === 'opt-out' || config.consent === 'opt-out';
   const enabled = Boolean(config.metaPixelId || config.tiktokPixelId);
   const key = 'momenti_ad_consent_v1';
   let allowed = false, started = false;
@@ -83,7 +85,7 @@
     const panel = document.getElementById('adConsent'); if (panel) panel.hidden = true;
   }
   window.momentiAdConsent = { set: choose, open: () => { const panel = document.getElementById('adConsent'); if (panel) panel.hidden = false; } };
-  allowed = read() === 'granted';
+  allowed = optOut ? read() !== 'denied' : read() === 'granted';
   start();
   function ui() {
     if (!enabled) return;
@@ -93,7 +95,7 @@
     const panel = document.createElement('section'); panel.id = 'adConsent'; panel.setAttribute('aria-label', 'Advertising preferences');
     const vendors = [config.metaPixelId && 'Meta', config.tiktokPixelId && 'TikTok'].filter(Boolean).join(' and ');
     panel.innerHTML = '<p>May we use ' + vendors + ' advertising cookies to measure visits and actions, improve our ads, and show relevant ads?</p><button type="button" data-choice="granted">Allow</button><button type="button" data-choice="denied">Decline</button>';
-    panel.hidden = read() !== null;
+    panel.hidden = optOut || read() !== null;
     panel.querySelectorAll('button').forEach(b => b.addEventListener('click', () => choose(b.dataset.choice)));
     document.body.appendChild(panel);
     const button = document.createElement('button'); button.id = 'adSettings'; button.type = 'button'; button.textContent = 'Advertising preferences'; button.addEventListener('click', window.momentiAdConsent.open);

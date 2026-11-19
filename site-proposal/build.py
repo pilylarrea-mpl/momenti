@@ -66,7 +66,7 @@ def head(title, desc='MOMENTI is a design house that makes objects from moments.
 <meta name="theme-color" content="#F4F0E8"><link rel="icon" href="assets/logo/the-o-ink.svg">
 <link rel="preload" href="assets/fonts/BodoniModa-Italic-VF.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
-<script src="/js/attribution.js"></script>
+<script>window.MOMENTI_CONSENT_MODE='opt-out'</script><script src="/js/tracking-config.js"></script><script src="/js/tracking.js"></script><script src="/js/attribution.js"></script>
 <script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments)}}</script><script defer src="/_vercel/insights/script.js"></script>{extra}</head>'''
 
 def nav(photo=False, reserve_here=False):
@@ -417,15 +417,15 @@ page('owners-circle.html', 'The Owners’ Circle · MOMENTI', 'circlepg', circle
 # Pily's black-and-white family photographs go in assets/img/family-1.jpg, family-2.jpg, family-3.jpg.
 # Until a file exists, its slot shows an ivory frame marked "Family photograph". Captions are in FAMILY below.
 FAMILY = [
- ('family-1', 'My grandmother.', 'Cuba, before they left.'),
- ('family-2', 'My grandfather.', 'He lived through the 1950s in Cuba.'),
- ('family-3', 'What they took with them.', 'Photographs like this one, and the stories behind them.'),
+ ('family-1', 'From our family album.', ''),  # who, where, when: waiting on Pily
+ ('family-2', '', ''),
+ ('family-3', '', ''),
 ]
 def fam(slot, cls=''):
     f, t, c = slot
     if not os.path.exists(os.path.join(H, I, f + '.jpg')): return ''  # hidden until Pily's photo is saved
     return f"""<figure class="fam {cls} rv">
-  <div class="fr"><span class="ph-l lab">Family photograph</span><img src="{I}{f}.jpg" alt="{t}" onerror="this.remove()"></div>
+  <div class="fr"><span class="ph-l lab">Family photograph</span><img src="{I}{f}.jpg" alt="{t or 'A photograph from the family album'}" onerror="this.remove()"></div>
   <figcaption><span class="ser">{t}</span> <span class="it">{c}</span></figcaption></figure>"""
 house = nav() + f"""
 <section class="ab-top"><span class="lab mut rv">Our story</span>
@@ -519,7 +519,7 @@ LEGAL = [
   ('Storing it', 'In its dust bag, lying flat with the car facing up. Never in plastic, and never in a hot car in summer.')]),
  ('privacy', 'Privacy.', [
   ('What we keep', 'Your email if you join the House, the moment you send if you nominate one, and your name, address and email if you reserve. Card details stay with Stripe.'),
-  ('Cookies', 'Where the law asks us to, we ask before using any cookies, and “No thanks” is always as easy as “Accept”.'),
+  ('Cookies and advertising', 'We count visits to improve the site. We also use the Meta pixel, a small piece of code from Meta, to measure our ads and show them to people likely to love MOMENTI. It records things like which pieces you view and whether you reserve, never what you type into a form. You can switch advertising cookies off at any time under “Advertising preferences” at the foot of every page.'),
   ('Leaving the list', 'Every letter has a link to leave, in one click.')]),
 ]
 side = ''.join(f'<a href="#{k}"{" class=on" if i==0 else ""}>{t[:-1]}</a>' for i, (k, t, _) in enumerate(LEGAL))
