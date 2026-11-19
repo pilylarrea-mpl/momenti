@@ -1,1 +1,5 @@
 .vercel
+momenti/**/clips/*.mp4
+momenti/**/renders/
+momenti/**/hq/
+reserve-links/.env.local

@@ -18,12 +18,62 @@
           "value": "public, max-age=604800"
         }
       ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
     }
   ],
-  "rewrites": [
+  "redirects": [
     {
       "source": "/house",
-      "destination": "/index.html"
+      "destination": "/the-house",
+      "permanent": false
+    },
+    {
+      "source": "/havana",
+      "destination": "/havana-1958",
+      "permanent": false
+    },
+    {
+      "source": "/miami",
+      "destination": "/miami-1959",
+      "permanent": false
+    },
+    {
+      "source": "/nyc",
+      "destination": "/new-york-1977",
+      "permanent": false
+    },
+    {
+      "source": "/new-york",
+      "destination": "/new-york-1977",
+      "permanent": false
+    },
+    {
+      "source": "/tokyo",
+      "destination": "/tokyo-1979",
+      "permanent": false
+    },
+    {
+      "source": "/london",
+      "destination": "/the-grand-tour",
+      "permanent": false
+    },
+    {
+      "source": "/rome",
+      "destination": "/the-grand-tour",
+      "permanent": false
+    },
+    {
+      "source": "/the-house-list",
+      "destination": "/join",
+      "permanent": false
     }
   ]
 }
