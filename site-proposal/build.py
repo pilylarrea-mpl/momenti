@@ -418,8 +418,8 @@ page('owners-circle.html', 'The Owners’ Circle · MOMENTI', 'circlepg', circle
 # Until a file exists, its slot shows an ivory frame marked "Family photograph". Captions are in FAMILY below.
 FAMILY = [
  ('family-1', '', ''),  # grandmother, on a boat deck (no caption: Pily wants the photos to speak)
- ('family-2', '', ''),  # great-grandfather, outside an arched door
- ('family-3', '', ''),  # grandmother, fishing
+ ('family-2', 'My great-grandfather.', ''),
+ ('family-3', 'Anita, fishing.', ''),
 ]
 def fam(slot, cls=''):
     f, t, c = slot
@@ -430,16 +430,19 @@ def fam(slot, cls=''):
 house = nav() + f"""
 <section class="ab-top"><span class="lab mut rv">Our story</span>
   <h1 class="ser rv">Moments are the only luxury <span class="it">you can’t buy.</span></h1></section>
-<section class="archive">
-  {fam(FAMILY[0], 'big')}
-</section>
-<section class="letter">
-  <div class="l rv"><span class="lab mut">From Pily</span></div>
-  <div class="r rv">
-    <p class="ser open">A woman on a boat deck, <span class="it">smiling at something just out of frame.</span></p>
-    <p>A fishing rod and a cap pulled low. A white shirt in the sun outside an arched door. Every family has a few photographs like these, the ones that hold a whole feeling in a single second.</p>
-    <p>MOMENTI makes that feeling into something you can carry. The first is Havana, 1958: a street in Havana printed on the bag, and on the clasp a small turquoise car from that street.</p>
-    <p class="sig it">Pily</p>
+<section class="gm">
+  <div class="gm-in">
+  <figure class="gm-fig rv-img">
+    <img class="ph" src="{I}family-1.jpg" alt="Anita, Pily’s grandmother, on a boat in Cuba">
+    <img class="cut" src="{I}family-1-cut.webp" alt="" aria-hidden="true">
+  </figure>
+  <span class="lab mut rv">My grandfather’s rule</span>
+  <h2 class="ser rv">Don’t get attached <span class="it">to things.</span></h2>
+  <p class="rv">This is my grandma, Anita, on a boat in Cuba. She was American. Her dad moved the family to Havana when she was five, and she grew up there and loved it.</p>
+  <p class="rv">In Havana she fell for my grandpa, Gerardo. Her dad said no: he wasn’t good enough. Years later, her dad became his business partner.</p>
+  <p class="rv">Around 1960 they left Cuba with a hundred dollars and started again, first in Mexico. My grandpa always told us not to get attached to things. What matters is what you lived.</p>
+  <p class="rv">So we don’t make things to get attached to. We make moments you can carry. The first is Havana, 1958: a street in Havana printed on the bag, and on the clasp a small turquoise car from that street.</p>
+  <p class="sig it rv">Pily</p>
   </div>
 </section>
 <section class="archive pair">
