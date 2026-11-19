@@ -19,7 +19,7 @@
      and dissolves into the hero. Until then the no-film opening runs. */
   var FILM = { desktop: '', phone: '' };
   /* Stripe payment links per piece (Pily is creating them). Empty = preview state. */
-  var STRIPE_LINK = 'https://buy.stripe.com/4gM3cw72Q8Mjfama0Pbo400'; /* Pily's reserve link, 18 Nov */
+  var STRIPE_LINK = ''; /* not used: Reserve saves the card in the sheet (api/reserve.js) */
   var STRIPE = { 'havana-1958': STRIPE_LINK, 'miami-1959': STRIPE_LINK, 'new-york-1977': STRIPE_LINK, 'tokyo-1995': STRIPE_LINK, 'monaco': STRIPE_LINK };
   /* measurement (js/tracking.js, js/attribution.js, Vercel Analytics); ad pixels only fire after consent */
   /* the line-up counter: 01 / 04, from however many bags are on the page */
@@ -278,21 +278,65 @@
   $$('[data-reserve]').forEach(function (b) { b.addEventListener('click', openSheet); });
   $$('[data-close], .veil').forEach(function (b) { b.addEventListener('click', closeSheet); });
   if (sheet) {
-    var hold = $('[data-hold]', sheet);
+    /* The card form lives right here in the sheet: Stripe's card fields on our page, nothing charged.
+       api/reserve saves the card (SetupIntent); api/stripe-confirm then sends the reservation events. */
+    var hold = $('[data-hold]', sheet), fs = $('.form-state', sheet), stripeJs = null, els = null, cardReady = false;
+    if (hold && fs) {
+      var step = d.createElement('div'); step.className = 'card-step';
+      step.innerHTML = '<label class="lab">Your name<input id="r-name" autocomplete="name"></label>'
+        + '<label class="lab">Email<input id="r-email" type="email" autocomplete="email"></label>'
+        + '<span class="lab">Card</span><div id="r-card"><span class="r-wait it mut">Card number · Expiry · CVC</span></div>'
+        + '<p class="r-err" role="status"></p>';
+      fs.insertBefore(step, hold);
+    }
+    function loadCard() {
+      if (stripeJs || !hold) return;
+      stripeJs = 'loading';
+      var sc = d.createElement('script'); sc.src = 'https://js.stripe.com/v3/';
+      sc.onload = function () {
+        fetch('/api/reserve').then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+          if (!j || !j.pk || !window.Stripe) { stripeJs = null; $('.r-wait', sheet).textContent = 'Reservations open shortly. Leave your email below and we’ll tell you first.'; return; }
+          stripeJs = window.Stripe(j.pk);
+          els = stripeJs.elements({ mode: 'setup', currency: 'usd', paymentMethodTypes: ['card'],
+            fonts: [{ family: 'Newsreader', src: 'url(' + location.origin + '/assets/fonts/Newsreader-VF.ttf)', weight: '400' }],
+            appearance: { theme: 'flat', labels: 'floating', variables: { colorPrimary: '#1C1A18', colorBackground: '#FBF8F2', colorText: '#1C1A18', colorTextSecondary: '#6B655E', colorTextPlaceholder: '#9C958D', colorDanger: '#8a2a1a', fontFamily: 'Newsreader, Georgia, serif', fontSizeBase: '17px', borderRadius: '0px', spacingUnit: '4px' },
+              rules: { '.Input': { border: '1px solid rgba(28,26,24,.16)', boxShadow: 'none' }, '.Input:focus': { border: '1px solid #1C1A18', boxShadow: 'none' }, '.Input--invalid': { border: '1px solid #8a2a1a', boxShadow: 'none' } } } });
+          var pe = els.create('payment', { layout: 'tabs', wallets: { applePay: 'never', googlePay: 'never' }, terms: { card: 'never' }, fields: { billingDetails: { name: 'never', email: 'never' } } });
+          $('#r-card').innerHTML = ''; pe.mount('#r-card'); cardReady = true;
+        }).catch(function () { stripeJs = null; });
+      };
+      sc.onerror = function () { stripeJs = null; };
+      d.head.appendChild(sc);
+    }
+    $$('[data-reserve]').forEach(function (b) { b.addEventListener('click', loadCard); });
+    if (location.hash === '#reserve') loadCard();
     if (hold) hold.addEventListener('click', function (e) {
       e.preventDefault();
-      var link = STRIPE[body.dataset.piece];
-      /* InitiateCheckout (browser + server). Remember the trip so a return without finishing counts as CheckoutCancel. */
-      adTrack('checkout_start', bag({ mode: 'reserve' })); logStep('reserve-link/' + body.dataset.piece);
-      if (link) {
+      var err = $('.r-err', sheet), nm = ($('#r-name').value || '').trim(), em = ($('#r-email').value || '').trim(), label = hold.innerHTML;
+      var fail = function (t) { err.textContent = t; hold.innerHTML = label; hold.classList.remove('busy'); };
+      err.textContent = '';
+      if (hold.classList.contains('busy')) return;
+      if (!cardReady) { loadCard(); return fail('One moment, the card form is loading.'); }
+      if (!nm) { $('#r-name').focus(); return fail('Please add your name.'); }
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)) { $('#r-email').focus(); return fail('Please add a valid email.'); }
+      hold.classList.add('busy'); hold.innerHTML = '<span>One moment</span>';
+      /* InitiateCheckout (browser + server), as before */
+      adTrack('checkout_start', bag({ mode: 'reserve' })); logStep('reserve-card/' + body.dataset.piece);
+      var ads = window.momentiMeta && !window.momentiMeta('x') ? 'no' : '';
+      els.submit().then(function (r) {
+        if (r.error) throw r.error;
+        return fetch('/api/reserve', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ piece: body.dataset.piece, name: nm, email: em, ads: ads }) })
+          .then(function (x) { return x.json().then(function (j) { if (!x.ok || !j.clientSecret) throw { message: j.error }; return j; }); });
+      }).then(function (j) {
         store.set('m_checkout', body.dataset.piece);
-        /* the piece travels to Stripe; "--optout" tells our server not to send ad events for a visitor who declined */
-        var ref = body.dataset.piece + (window.momentiMeta && !window.momentiMeta('x') ? '--optout' : '');
-        var go = link + (link.indexOf('?') < 0 ? '?' : '&') + 'client_reference_id=' + encodeURIComponent(ref);
-        setTimeout(function () { location.href = go; }, 300); /* a moment for the pixel to leave */
-        return;
-      }
-      sheet.classList.add('done');
+        return stripeJs.confirmSetup({ elements: els, clientSecret: j.clientSecret, redirect: 'if_required',
+          confirmParams: { return_url: location.origin + location.pathname, payment_method_data: { billing_details: { name: nm, email: em } } } });
+      }).then(function (r) {
+        if (r.error) throw r.error;
+        store.set('m_checkout', '');
+        sheet.classList.add('done');
+        confirmReservation(r.setupIntent.id);
+      }).catch(function (x) { fail((x && x.message) || 'Something went wrong. Please try again.'); });
     });
     var alt = $('.alt', sheet);
     var tell = $('[data-tell]', sheet);
@@ -309,12 +353,23 @@
      really completed, sends AddPaymentInfo + CompleteRegistration (and Purchase only if money was charged)
      to Meta, and hands back the same event IDs for the pixel. Back without finishing: CheckoutCancel. */
   function backFromStripe() {
-    var q = new URLSearchParams(location.search), sid = q.get('session_id') || '', went = store.get('m_checkout');
-    if (/^cs_[A-Za-z0-9_]+$/.test(sid)) {
+    var q = new URLSearchParams(location.search), sid = q.get('session_id') || q.get('setup_intent') || '', went = store.get('m_checkout');
+    if (/^(cs|seti)_[A-Za-z0-9_]+$/.test(sid)) {
       store.set('m_checkout', '');
       try { history.replaceState(null, '', location.pathname + location.hash); } catch (_) {}
       if (store.get('m_conf_' + sid)) return;
       store.set('m_conf_' + sid, '1');
+      confirmReservation(sid);
+      return;
+    }
+    if (went || q.get('waitlist') === 'cancelled') {
+      store.set('m_checkout', '');
+      adTrack('checkout_cancel', { content_id: went || q.get('piece') || '', content_type: 'product' }, 'cancel');
+      logStep('reserve-cancel/' + (went || ''));
+    }
+  }
+  /* asks our server whether the reservation really completed, then fires the same events as the server */
+  function confirmReservation(sid) {
       var o = { session_id: sid }, m = window.momentiMeta ? window.momentiMeta(sid) : null; if (m) o.meta = m;
       fetch('/api/stripe-confirm', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) })
         .then(function (r) { return r.ok ? r.json() : null; })
@@ -327,13 +382,6 @@
           if (sheet && body.dataset.piece === j.piece) { sheet.classList.add('done'); openSheet(null, true); }
           else location.href = '/' + j.piece + '#reserved';
         }).catch(function () {});
-      return;
-    }
-    if (went || q.get('waitlist') === 'cancelled') {
-      store.set('m_checkout', '');
-      adTrack('checkout_cancel', { content_id: went || q.get('piece') || '', content_type: 'product' }, 'cancel');
-      logStep('reserve-cancel/' + (went || ''));
-    }
   }
   backFromStripe();
   window.addEventListener('pageshow', function (e) { if (e.persisted) backFromStripe(); });
