@@ -770,3 +770,15 @@ body.tour{overflow:visible!important;padding:0!important} /* the page class "tou
   .ltr-h{font-size:28px}
 }
 @media (prefers-reduced-motion:reduce){.ltr{transition:opacity .3s}}
+/* Our Story, the two family photos: faces always in frame; an even side-by-side pair on phones (Pily, 18 Nov) */
+.archive.pair .fam .fr img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.archive.pair .b .fr{aspect-ratio:4/5}
+@media (max-width:760px){
+  .archive.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:40px var(--m) 0;align-items:start}
+  .archive.pair .a,.archive.pair .b{width:auto;margin:0;grid-column:auto}
+  .archive.pair .b{margin-top:48px}
+  .archive .fam figcaption{padding:0}
+  .archive.pair .fam figcaption{margin-top:10px}
+  .archive.pair .fam figcaption .ser{font-size:16px}
+  .fam .fr{box-shadow:inset 0 0 0 1px rgba(28,26,24,.22)}
+}
