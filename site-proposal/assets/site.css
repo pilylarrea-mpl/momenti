@@ -782,3 +782,14 @@ body.tour{overflow:visible!important;padding:0!important} /* the page class "tou
   .archive.pair .fam figcaption .ser{font-size:16px}
   .fam .fr{box-shadow:inset 0 0 0 1px rgba(28,26,24,.22)}
 }
+/* reserve sheet: the card form (api/reserve.js) */
+.sheet .card-step{margin:0 0 22px}
+.sheet .card-step label.lab,.sheet .card-step>.lab{display:block;font-size:10.5px;letter-spacing:.16em;color:var(--muted);margin:0 0 14px}
+.sheet .card-step input{display:block;width:100%;margin-top:6px;padding:12px 14px;border:1px solid var(--hair);background:var(--paper);font:17px var(--text);color:var(--ink);border-radius:0;text-transform:none;letter-spacing:0}
+.sheet .card-step input:focus{outline:none;border-color:var(--ink)}
+.sheet .card-step>.lab{margin-bottom:8px}
+.sheet #r-card{min-height:52px}
+.sheet .r-wait{display:block;padding:14px;border:1px solid var(--hair);background:var(--paper);font-size:15px}
+.sheet .r-err{min-height:20px;margin:10px 0 0;font-size:14px;color:#8a2a1a}
+.sheet .btn.busy{opacity:.6;pointer-events:none}
+.sheet .r-body{margin-bottom:22px}

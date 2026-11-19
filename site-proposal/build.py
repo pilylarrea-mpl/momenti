@@ -25,10 +25,10 @@ PIECES = [
  dict(slug='miami-1959', no='02', name='Miami 1959', title='Miami, 1959.', tl=('Miami,', '1959.'), feel='Starting over.', price=500,
       photo='miami-photograph', reverse='miami-reverse', hero='miami-hero',
       cap1='Ocean Drive, at noon.', cap2='Under the awning, ignoring the street.', cap2l='Across the street',
-      master=None, gallery=['detail-miami-clasp','miami-reverse','miami-wall'],
+      master='miami-1959_01-front_MASTER', cut='miami-1959', gallery=['miami-1959_06-car-closeup','miami-1959_02-three-quarter','miami-1959_05-open','miami-1959_08-chain'],
       moment='Ocean Drive, Miami Beach, in 1959. Noon, from the kerb outside the Colony.',
-      car='The pink convertible from the photograph sits on the clasp, in miniature. Lift it, and the bag opens.',
-      chain='A detachable chain, to wear it on the shoulder or carry it in hand.', back='The same photograph on the back, with MIAMI, 1959. engraved into the gold frame.'),
+      car='A 9 cm die-cast miniature of the pink 1959 Cadillac in the photograph sits on the clasp. Lift it, and the bag opens.',
+      chain='A gold chain threaded with ivory leather, to wear it on the shoulder; unclip it to carry the bag in hand.', back='The same photograph on the back, with MIAMI, 1959. engraved into the gold frame.'),
  dict(slug='new-york-1977', no='05', name='New York 1977', title='New York, 1977.', tl=('New York,', '1977.'), feel='Going out anyway.', price=560,
       photo='new-york-photograph', reverse='new-york-reverse', hero='new-york-hero',
       cap1='Water Street, after the rain.', cap2='A dancer stretching in a loading-dock door.', cap2l='Next door',
@@ -55,7 +55,6 @@ PIECES = [
       car='The red race car from the photograph sits on the clasp, in miniature. Lift it, and the bag opens.',
       chain='A detachable chain, to wear it on the shoulder or carry it in hand.', back='The same photograph on the back, with MONACO, 1964. engraved into the gold frame.'),
 ]
-PIECES = [p for p in PIECES if p['slug'] != 'miami-1959']  # Miami returns when its final images are approved
 BY = {p['slug']: p for p in PIECES}
 
 # ------------------------------------------------------------------ shared parts
@@ -183,8 +182,7 @@ tour = nav() + f'''
   <h1 class="cap rv-lines">{lines('The Grand', 'Tour.')}</h1>
   <div class="meta rv d3"><span class="lab">Collection I</span><span class="it">Our first collection. Each bag carries one photograph of a city in one year, with the car from that street on the clasp.</span></div></section>
 <section class="lineup-f"><div class="track-wrap flo"><div class="track">{''.join(flt(p, k=k) for k, p in enumerate(PIECES))}</div></div>
-  <div class="drag-bar"><span class="lab">Drag</span><div class="bar"><i></i></div><span class="lab mut count">01 / {len(PIECES):02d}</span></div></section>
-<section class="lu-note"><p class="rv">Every bag is sold out for now. <span class="it">Reserve yours</span> and pay nothing until it’s ready.</p></section>'''
+  <div class="drag-bar"><span class="lab">Drag</span><div class="bar"><i></i></div><span class="lab mut count">01 / {len(PIECES):02d}</span></div></section>'''
 page('the-grand-tour.html', 'The Grand Tour · MOMENTI', 'tour', tour)
 
 # ================================================================== COLLECTIONS

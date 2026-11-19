@@ -42,7 +42,7 @@
     },
     {
       "source": "/miami",
-      "destination": "/the-grand-tour",
+      "destination": "/miami-1959",
       "permanent": false
     },
     {
@@ -88,11 +88,6 @@
     {
       "source": "/tokyo-1979",
       "destination": "/tokyo-1995",
-      "permanent": false
-    },
-    {
-      "source": "/miami-1959",
-      "destination": "/the-grand-tour",
       "permanent": false
     }
   ]
