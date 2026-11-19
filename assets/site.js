@@ -31,7 +31,7 @@
   if (body.dataset.piece) { adTrack('product_view', { content_id: body.dataset.piece, content_type: 'product' }, body.dataset.piece); logStep('piece/' + body.dataset.piece); }
   /* send a sign-up to the House List backend (api/subscribe.js) */
   function send(email, topics) { var o = cameFrom(); o.email = email; o.topics = topics;
-    return fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) }).then(function (r) { if (r.ok) { logStep('house-list'); adTrack('house_list_signup', { source: topics[0] || 'house_list' }); } return r.ok; }).catch(function () { return false; }); }
+    return fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) }).then(function (r) { if (r.ok) { logStep('house-list'); adTrack('house_list_signup', { source: topics[0] || 'house_list' }, String(email).trim().toLowerCase()); } return r.ok; }).catch(function () { return false; }); }
 
   /* ---------- curtain + page transitions ---------- */
   function ready() { var go = function () { body.classList.add('ready'); }; requestAnimationFrame(go); setTimeout(go, 450); /* never leave the curtain down */ }

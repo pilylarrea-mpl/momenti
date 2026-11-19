@@ -64,7 +64,7 @@ test('consent can be granted again after withdrawal without reinitializing pixel
   c.momentiTrack('preorder_submit',{},'after-regrant');
   assert.equal(c.fbq.queue.filter(a=>a[1]==='Lead').length,1);
 });
-for (const file of ['index.html','studio/source/momenti.html']) {
+for (const file of ['studio/source/momenti.html']) {
   test(file+': only successful House List submissions convert', async () => {
     const html=fs.readFileSync(file,'utf8');
     const start=html.indexOf('const subscriptionsInFlight=new Map();');
@@ -88,3 +88,18 @@ for (const file of ['index.html','studio/source/momenti.html']) {
     assert.match(html,/\/js\/tracking-config.js/);
   });
 }
+
+test('new site (assets/site.js): only successful sign-ups convert, once per email', async () => {
+  const js=fs.readFileSync('assets/site.js','utf8');
+  const start=js.indexOf('  function cameFrom()'), end=js.indexOf('\n',js.indexOf('return fetch(',js.indexOf('  function send(')));
+  const calls=[];
+  const c={window:{momentiTrack:(...a)=>calls.push(a)},location:{pathname:'/',search:''},document:{referrer:''},sessionStorage:{getItem:()=>null},body:{dataset:{}},fetch:async()=>({ok:false})};
+  c.window.va=()=>{};
+  vm.createContext(c);
+  vm.runInContext('function adTrack(n,d,o){window.momentiTrack(n,d,o)} function logStep(){} '+js.slice(start,end)+'\nthis.send=send;',c);
+  assert.equal(await c.send('test@example.com',['the letter']),false); assert.equal(calls.length,0);
+  c.fetch=async()=>({ok:true});
+  assert.equal(await c.send('test@example.com',['the letter']),true);
+  assert.equal(calls[0][0],'house_list_signup'); assert.equal(calls[0][2],'test@example.com');
+  for (const f of ['index.html','havana-1958.html','join.html']) assert.match(fs.readFileSync(f,'utf8'),/\/js\/tracking-config.js/);
+});
