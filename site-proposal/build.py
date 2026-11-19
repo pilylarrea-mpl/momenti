@@ -161,7 +161,7 @@ home = nav() + f'''
     <figure class="rv-img"><img src="{I}havana-photograph.jpg" alt="Havana, 1958: the Prado, late morning" loading="lazy"><figcaption class="lab">The moment · Havana, 1958</figcaption></figure>
     <figure class="m2b-bag rv"><img src="assets/img/cut/havana-1958_cut.webp" alt="The Havana 1958 bag, its car on the clasp" loading="lazy"><figcaption class="lab">The bag · Havana, 1958</figcaption></figure>
   </div>
-  <div class="m2b-txt rv"><p class="body-l">Every bag begins with one moment, and carries a piece of it with you. Ours began in Havana, with my grandparents.</p><p style="margin-top:28px"><a class="link" href="the-house.html">Our story</a></p></div>
+  <div class="m2b-txt rv"><p class="body-l">Every bag begins with one moment, and carries a piece of it with you. Ours began in Havana, in a family album.</p><p style="margin-top:28px"><a class="link" href="the-house.html">Our story</a></p></div>
 </section>
 <section class="hinv" data-nav-photo>
   <img class="bgimg" data-par="-0.08" src="{I}campaign-monaco-quay.jpg" alt="Monaco: in a white suit and hat, standing on a red race car on the quay" loading="lazy">
@@ -236,7 +236,7 @@ def piece_page(p):
     others = [q for q in PIECES if q is not p]
     if p['slug'] == 'havana-1958':
         why = f'''<section class="why"><div class="img rv-img"><img src="{I}havana-print.jpg" style="object-position:22% 70%" alt="" loading="lazy"></div>
-<div class="t rv"><span class="lab mut">Why Havana is first</span><p class="ser">Pily’s grandparents had to leave Cuba. <span class="it">The first piece is Havana, 1958.</span></p><a class="link" href="the-house.html">Our story</a></div></section>'''
+<div class="t rv"><span class="lab mut">Why Havana is first</span><p class="ser">It started with a family album. <span class="it">The first piece is Havana, 1958.</span></p><a class="link" href="the-house.html">Our story</a></div></section>'''
     else:
         why = f'''<section class="why"><div class="img rv-img"><img src="{I}{p['hero']}.jpg" alt="" loading="lazy"></div>
 <div class="t rv"><span class="lab mut">{p['title']}</span><p class="ser">{p['feel']}</p><a class="link" href="the-grand-tour.html">The Grand Tour</a></div></section>'''
@@ -417,9 +417,9 @@ page('owners-circle.html', 'The Owners’ Circle · MOMENTI', 'circlepg', circle
 # Pily's black-and-white family photographs go in assets/img/family-1.jpg, family-2.jpg, family-3.jpg.
 # Until a file exists, its slot shows an ivory frame marked "Family photograph". Captions are in FAMILY below.
 FAMILY = [
- ('family-1', 'From our family album.', ''),  # who, where, when: waiting on Pily
- ('family-2', '', ''),
- ('family-3', '', ''),
+ ('family-1', '', ''),  # grandmother, on a boat deck (no caption: Pily wants the photos to speak)
+ ('family-2', '', ''),  # great-grandfather, outside an arched door
+ ('family-3', '', ''),  # grandmother, fishing
 ]
 def fam(slot, cls=''):
     f, t, c = slot
@@ -436,10 +436,9 @@ house = nav() + f"""
 <section class="letter">
   <div class="l rv"><span class="lab mut">From Pily</span></div>
   <div class="r rv">
-    <p class="ser open">I named MOMENTI after <span class="it">my grandparents’ story.</span></p>
-    <p>They had to leave Cuba. The moments they lived there became part of history, and part of us, and I wanted a way to carry them with me.</p>
-    <p>So the first bag I made is Havana, 1958: a street in Havana printed on the bag, and on the clasp a small turquoise car from that street.</p>
-    <blockquote><p>“So much hurt and pain behind it, but also memories. I felt proud.”</p></blockquote>
+    <p class="ser open">A woman on a boat deck, <span class="it">smiling at something just out of frame.</span></p>
+    <p>A fishing rod and a cap pulled low. A white shirt in the sun outside an arched door. Every family has a few photographs like these, the ones that hold a whole feeling in a single second.</p>
+    <p>MOMENTI makes that feeling into something you can carry. The first is Havana, 1958: a street in Havana printed on the bag, and on the clasp a small turquoise car from that street.</p>
     <p class="sig it">Pily</p>
   </div>
 </section>
@@ -478,7 +477,7 @@ QS = [
   ('Is it a limited edition?', 'Each design is made in small runs, never everywhere.'),
   ('How should I care for it?', 'Keep it in its dust bag, away from sun and damp. Wipe the frame with a soft, dry cloth. Hold it by its body, not by the car.')]),
  ('About MOMENTI', [
-  ('Who is behind it?', 'Pily, our founder. She named MOMENTI after her grandparents’ story.'),
+  ('Who is behind it?', 'Pily, our founder, and a family album full of moments worth keeping.'),
   ('What is the House?', 'Our community: Conversations with women who have a moment worth telling, a place to share your own, evenings when there are some, and the first look at each new piece. Anyone can join, and it’s free.'),
   ('And the Letter?', 'Letters from the house, with new moments first. Just your email.'),
   ('And the Owners’ Circle?', 'For people who own a piece. Your ticket comes in the box.'),
@@ -543,7 +542,6 @@ frames = [
 sbh = ''.join(f'<figure><div class="fw">{a}</div><figcaption><span class="lab">{c}</span><span class="lab mut">{b}</span></figcaption><p>{d}</p></figure>' for a, b, c, d in frames)
 dec = [
  ('The opening film', 'Approve the storyboard below: the Prado photograph, a push-in on the car, a match cut to the same car on the clasp, a pull-back to the bag, still. If yes, it is made on Runway from the approved Havana images and dropped into the slot (one line in assets/site.js). Until then the site opens with the still fallback you see now.'),
- ('Our story, in your words', 'Send 2–3 black-and-white family photos (your grandmother on the boat, for example) and approve or rewrite the captions, the short letter from you and your quote “So much hurt and pain behind it, but also memories. I felt proud.” AS SHE PLEASES. stays as the page’s last line.'),
  ('The line-up at launch', 'Launch with five moments (Havana, Miami, New York, Tokyo, Monaco, with Monaco’s “The long way round”), going live once the Miami, Tokyo and Monaco bag images are approved. Rome ($460) and London ($540) stay off until you confirm them.'),
 ]
 dech = ''.join(f'<div class="dec"><span class="n">{["i","ii","iii"][k]}.</span><h3 class="ser">{a}</h3><p>{b}</p></div>' for k, (a, b) in enumerate(dec))
@@ -555,7 +553,6 @@ COPY = [
  ('A piece', [('Top', 'Collection I · The Grand Tour · HAVANA, 1958. <i>What you take with you.</i> Havana 1958, <i>frame clutch</i> · $520 · Sold out for now. · RESERVE YOURS · Pay nothing today. When yours is ready, you’ll have a week to change your mind.'), ('Details', 'The moment · The car · Dimensions · Materials · The back · Made · In the box · Care · Delivery · Returns'), ('Reserve', 'Reserve <i>yours.</i> Pay nothing today. We’ll tell you the moment yours is ready, and you’ll have a week to change your mind before anything is charged. · RESERVE MINE · Secure checkout. Nothing is charged until your bag is ready.'), ('After', 'Reserved. <i>Havana 1958 has your name on it.</i> We’ve sent you an email with everything you need, and we’ll be in touch the moment yours is ready.')]),
  ('The House (join.html)', [('Hero', 'Free to join. THE HOUSE. <i>Bring a moment.</i> JOIN THE HOUSE'), ('Opening', 'Every bag begins with someone’s moment. The House is where people bring theirs: <i>a city, a year, and what happened there.</i>'), ('Conversations', 'The House · An interview series. CONVERSATIONS. <i>We sit down with women who have a moment worth telling, and share part of it.</i> PLACEHOLDERS: four slots (No. 01 lead, Madrid; 02–04), each showing “Coming soon” until Pily fills name, city and pull-quote in CONVOS in build.py. The portraits are stand-ins from the kit (campaign-new-york-1977, tokyo-hero, havana-reverse, tokyo-reverse) until the real portraits are taken. No real people or quotes are invented.'), ('Tell us your moment', 'Tell us <i>your moment.</i> A city, a year, what happened, and a photograph if you have one. The best are told in Conversations. And every so often, one becomes a bag, made with the person who lived it and named after their moment. Form: city · year · what happened · a photograph · your email · SEND YOUR MOMENT · Received. <i>It’s with the house now.</i>'), ('Evenings', 'Evenings, <i>when there are some.</i> One moment for one night, city by city: a Havana, 1958, say, with the music of that year. Members hear first.'), ('First look', 'First look, <i>before anyone.</i> Each new moment reaches the House before it reaches anyone else.'), ('Join', 'COME IN. <i>Joining takes your email and, if you like, your moment.</i> JOIN THE HOUSE · You’re in. <i>Welcome to the House.</i>'), ('Upstairs', 'Own a piece? There’s a room <i>upstairs.</i> The Owners’ Circle')]),
  ('The Owners’ Circle (owners-circle.html)', [('Top', 'For owners only. The Owners’ <i>Circle.</i> Every piece arrives with a ticket. The ticket is your place here.'), ('Kept by', 'The ticket: The Owners’ Circle · New York, 1977. · KEPT BY <i>your name</i>'), ('What owners have', 'i. Kept by. Your name on your piece’s card. · ii. First to reserve. Each new piece, yours to reserve before anyone else. · iii. Owners’ evenings. When there are some. · And a few things <i>we’d rather not tell you yet.</i> (Kept short on purpose: no surprises spelled out.)'), ('Register', 'Already own a piece? <i>Register it.</i> Send the code on your ticket, and your name goes on the list of owners. REGISTER'), ('Out', 'Not an owner yet? <i>The House is free to join.</i> The House · See the collection')]),
- ('Our story (About)', [('Opening', 'Moments are the only luxury <i>you can’t buy.</i>'), ('Archive', 'Three black-and-white family photographs, captioned in Pily’s voice: “My grandmother. <i>Cuba, before they left.</i>” · “My grandfather. <i>He lived through the 1950s in Cuba.</i>” · “What they took with them. <i>Photographs like this one, and the stories behind them.</i>”'), ('Letter', 'From Pily: I named MOMENTI after <i>my grandparents’ story.</i> They had to leave Cuba. The moments they lived there became part of history, and part of us, and I wanted a way to carry them with me. So the first bag I made is Havana, 1958… “So much hurt and pain behind it, but also memories. I felt proud.” Pily'), ('How it’s made', 'The photograph. · The car. · The story.'), ('Last line', 'AS SHE PLEASES.')]),
 ]
 OPEN = [
  ('Family photographs', 'Pily sends 2–3 black-and-white photos. Save them as assets/img/family-1.jpg, family-2.jpg, family-3.jpg and they replace the placeholders automatically (shown in black and white).'),
