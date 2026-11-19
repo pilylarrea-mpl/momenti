@@ -4,6 +4,7 @@
 
 const toGoogle = require('./_gform');
 const acquisition = require('./_attribution');
+const meta = require('./_meta');
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Use POST' });
@@ -34,5 +35,14 @@ module.exports = async (req, res) => {
 
   const [google, sent] = await Promise.all([toGoogle(text), byEmail()]);
   if (!google && !sent) return res.status(502).json({ error: 'Could not add' });
+  // Server copy of the browser's Lead (same event_id), only when the page says ad tracking is allowed.
+  const m = o.meta && typeof o.meta === 'object' ? o.meta : null;
+  if (m && /^[A-Za-z0-9_.:-]{8,120}$/.test(String(m.event_id || ''))) {
+    const url = typeof m.url === 'string' && /^https:\/\/(www\.)?houseofmomenti\.com\//.test(m.url) ? m.url.split('?')[0] : undefined;
+    const back = topics.find(t => /^back: /.test(t));
+    await meta.send({ event_name: 'Lead', event_id: m.event_id, event_source_url: url,
+      user: Object.assign(meta.fromRequest(req), { em: email, fbp: m.fbp, fbc: m.fbc }),
+      custom_data: { content_category: back ? 'back_in_stock' : String(topics[0] || 'the letter').replace(/\s+/g, '_').slice(0, 40), content_ids: back ? [back.slice(6).trim().slice(0, 40)] : undefined } });
+  }
   res.status(200).json({ ok: true, google, email: sent });
 };

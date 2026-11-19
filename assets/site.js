@@ -30,10 +30,18 @@
     try { if (src && !sessionStorage.getItem('m_from')) { sessionStorage.setItem('m_from', src); logStep('from/' + src); } } catch (_) {} })();
   function cameFrom() { var f = ''; try { f = sessionStorage.getItem('m_from') || ''; } catch (_) {} var ref = ''; try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (_) {}
     return { attribution: window.momentiAttribution ? window.momentiAttribution() : null, from: f || 'direct', ref: ref, landed: location.pathname + location.search }; }
-  if (body.dataset.piece) { adTrack('product_view', { content_id: body.dataset.piece, content_type: 'product' }, body.dataset.piece); logStep('piece/' + body.dataset.piece); }
+  /* the bag on this page and its price, for ViewContent / InitiateCheckout values */
+  var PIECE = body.dataset.piece || '';
+  var PRICE = (function () { var el = d.querySelector('.info .name .price'); var n = el ? Number(el.textContent.replace(/[^0-9.]/g, '')) : 0; return n > 0 ? n : undefined; })();
+  var PNAME = (function () { var el = d.querySelector('.sheet .pc .ser'); return el ? el.textContent.trim() : PIECE; })();
+  function bag(extra) { var o = { content_id: PIECE, content_name: PNAME, content_type: 'product', value: PRICE, currency: 'USD' }; for (var k in extra) o[k] = extra[k]; return o; }
+  if (PIECE) { adTrack('product_view', bag(), PIECE); logStep('piece/' + PIECE); }
   /* send a sign-up to the House List backend (api/subscribe.js) */
+  /* Lead: the server sends its copy (hashed email) with the same event ID once the sign-up is really stored */
   function send(email, topics, details) { var o = cameFrom(); o.email = email; o.topics = topics; if (details) o.details = details;
-    return fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) }).then(function (r) { if (r.ok) { logStep('house-list'); adTrack('house_list_signup', { source: topics[0] || 'house_list' }, String(email).trim().toLowerCase()); } return r.ok; }).catch(function () { return false; }); }
+    var eid = window.momentiEventId ? window.momentiEventId() : '', m = window.momentiMeta ? window.momentiMeta(eid) : null; if (m) o.meta = m;
+    var back = /^back: /.test(topics[0] || ''), cat = back ? 'back_in_stock' : String(topics[0] || 'the letter').replace(/\s+/g, '_');
+    return fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) }).then(function (r) { if (r.ok) { logStep('house-list'); adTrack('lead', { content_category: cat, content_id: back ? PIECE : undefined, source: topics[0] || 'house_list', event_id: eid }, String(email).trim().toLowerCase()); } return r.ok; }).catch(function () { return false; }); }
 
   /* ---------- curtain + page transitions ---------- */
   function ready() { var go = function () { body.classList.add('ready'); }; requestAnimationFrame(go); setTimeout(go, 450); /* never leave the curtain down */ }
@@ -133,7 +141,7 @@
   d.addEventListener('keydown', function (e) { if (e.key === 'Escape') { if (menu) menu.classList.remove('open'); sm.lock = false; closeSheet(); } });
 
   /* ---------- email forms (front-end preview) ---------- */
-  $$('form.join').forEach(function (f) {
+  $$('form.join:not(.tell-in)').forEach(function (f) {
     f.addEventListener('submit', function (e) {
       e.preventDefault();
       var v = f.querySelector('input').value;
@@ -258,13 +266,13 @@
 
   /* ---------- reserve sheet ---------- */
   var sheet = $('.sheet');
-  function openSheet(e) {
+  function openSheet(e, quiet) {
     if (!sheet) return; /* no sheet on this page: let the link do its normal thing, lock nothing */
-    if (e) e.preventDefault();
+    if (e && e.preventDefault) e.preventDefault();
     if (menu) menu.classList.remove('open');
     body.classList.add('res-open'); sm.lock = true;
     if (nav) nav.classList.remove('hidden');
-    var pc = body.dataset.piece; if (pc) { adTrack('preorder_start', { content_id: pc, content_type: 'product', mode: 'reserve' }, pc); logStep('reserve/' + pc); }
+    var pc = body.dataset.piece; if (pc && quiet !== true) { adTrack('preorder_start', bag({ mode: 'reserve' }), pc); logStep('reserve/' + pc); }
   }
   function closeSheet() { body.classList.remove('res-open'); sm.lock = !!(menu && menu.classList.contains('open')); }
   $$('[data-reserve]').forEach(function (b) { b.addEventListener('click', openSheet); });
@@ -274,8 +282,16 @@
     if (hold) hold.addEventListener('click', function (e) {
       e.preventDefault();
       var link = STRIPE[body.dataset.piece];
-      adTrack('preorder_submit', { content_id: body.dataset.piece, content_type: 'product', mode: 'reserve' }); logStep('reserve-link/' + body.dataset.piece);
-      if (link) { location.href = link + (link.indexOf('?') < 0 ? '?' : '&') + 'client_reference_id=' + encodeURIComponent(body.dataset.piece); return; }
+      /* InitiateCheckout (browser + server). Remember the trip so a return without finishing counts as CheckoutCancel. */
+      adTrack('checkout_start', bag({ mode: 'reserve' })); logStep('reserve-link/' + body.dataset.piece);
+      if (link) {
+        store.set('m_checkout', body.dataset.piece);
+        /* the piece travels to Stripe; "--optout" tells our server not to send ad events for a visitor who declined */
+        var ref = body.dataset.piece + (window.momentiMeta && !window.momentiMeta('x') ? '--optout' : '');
+        var go = link + (link.indexOf('?') < 0 ? '?' : '&') + 'client_reference_id=' + encodeURIComponent(ref);
+        setTimeout(function () { location.href = go; }, 300); /* a moment for the pixel to leave */
+        return;
+      }
       sheet.classList.add('done');
     });
     var alt = $('.alt', sheet);
@@ -284,7 +300,43 @@
     var tf = $('form', alt);
     if (tf) tf.addEventListener('submit', function (e) { e.preventDefault(); var ti = tf.querySelector('input'); if (ti && /.+@.+\..+/.test(ti.value)) send(ti.value, ['back: ' + body.dataset.piece]); alt.classList.remove('asking'); alt.classList.add('ok'); $('.tell-txt', alt).innerHTML = '<span class="it" style="font-size:18px">Done. You’ll hear when it’s back, and not before.</span>'; $('.tell-txt', alt).style.display = 'block'; });
     if (location.hash === '#reserve') setTimeout(openSheet, 500);
+    if (location.hash === '#reserved') setTimeout(function () { sheet.classList.add('done'); openSheet(null, true); }, 500);
   }
+
+  /* ---------- back from Stripe ----------
+     Stripe sends people back with ?session_id=cs_... (set the Payment Link's "after payment" redirect to
+     https://www.houseofmomenti.com/?session_id={CHECKOUT_SESSION_ID}). The server checks with Stripe that it
+     really completed, sends AddPaymentInfo + CompleteRegistration (and Purchase only if money was charged)
+     to Meta, and hands back the same event IDs for the pixel. Back without finishing: CheckoutCancel. */
+  function backFromStripe() {
+    var q = new URLSearchParams(location.search), sid = q.get('session_id') || '', went = store.get('m_checkout');
+    if (/^cs_[A-Za-z0-9_]+$/.test(sid)) {
+      store.set('m_checkout', '');
+      try { history.replaceState(null, '', location.pathname + location.hash); } catch (_) {}
+      if (store.get('m_conf_' + sid)) return;
+      store.set('m_conf_' + sid, '1');
+      var o = { session_id: sid }, m = window.momentiMeta ? window.momentiMeta(sid) : null; if (m) o.meta = m;
+      fetch('/api/stripe-confirm', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) })
+        .then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (j) {
+          if (!j || !j.ok) return;
+          var map = { AddPaymentInfo: 'card_saved', CompleteRegistration: 'reservation_complete', Purchase: 'purchase' };
+          (j.events || []).forEach(function (e) { if (map[e.name]) adTrack(map[e.name], { content_id: j.piece, content_name: j.name, content_type: 'product', content_category: e.data && e.data.content_category, status: e.data && e.data.status, value: e.data ? e.data.value : 0, currency: 'USD', bag_price: j.price, event_id: e.id }, e.id); });
+          logStep('reserved/' + j.piece);
+          if (!j.piece) return;
+          if (sheet && body.dataset.piece === j.piece) { sheet.classList.add('done'); openSheet(null, true); }
+          else location.href = '/' + j.piece + '#reserved';
+        }).catch(function () {});
+      return;
+    }
+    if (went || q.get('waitlist') === 'cancelled') {
+      store.set('m_checkout', '');
+      adTrack('checkout_cancel', { content_id: went || q.get('piece') || '', content_type: 'product' }, 'cancel');
+      logStep('reserve-cancel/' + (went || ''));
+    }
+  }
+  backFromStripe();
+  window.addEventListener('pageshow', function (e) { if (e.persisted) backFromStripe(); });
 
   /* ---------- the signature: the car finds its clasp ----------
      The photograph fills the screen, the camera pushes in on its car, a match cut lands on the

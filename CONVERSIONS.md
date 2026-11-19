@@ -78,3 +78,37 @@ its existing design without reviewing the differences.
 Local checks: `node --test tests/tracking.test.cjs` and
 `python3 studio/scripts/build.py /tmp/momenti-built.html` from the repository root.
 No live pixel receipt or ad attribution can be verified without IDs and deployment.
+
+## New site (Nov 2026): pixel + Conversions API
+
+Every important action goes to Meta twice, from the browser (pixel) and from the server
+(Conversions API), with the same `event_id` so Meta counts it once. Server events carry the
+visitor's IP, browser, `_fbp`/`_fbc` cookies and, when known, a SHA-256-hashed email.
+
+| Site action | Meta event | Browser | Server |
+| --- | --- | --- | --- |
+| Any page load | PageView | yes | `api/track` |
+| A bag page (content_ids = slug, value = price, USD) | ViewContent | yes | `api/track` (price from `api/_catalog.js`) |
+| Open the Reserve sheet | PreorderStart (custom) | yes | `api/track` |
+| "Reserve mine" (leaves for Stripe) | InitiateCheckout (value = price) | yes | `api/track` |
+| Back from Stripe without finishing | CheckoutCancel (custom) | yes | `api/track` |
+| Stripe confirms the card was saved | AddPaymentInfo (value 0, bag_price) | yes (ID = Checkout Session) | `api/stripe-confirm` + `api/stripe-webhook` |
+| Stripe confirms the reservation | CompleteRegistration (value 0, content_category reservation) | yes | same |
+| Stripe really charged money (only then) | Purchase (amount charged) | yes | same |
+| Any email sign-up the server stored (Letter, The House, "Tell me" when back) | Lead (content_category) | yes | `api/subscribe` (hashed email) |
+| Email link | Contact | yes | `api/track` |
+| Instagram / TikTok link | SocialClick (custom) | yes | `api/track` |
+| Other outside links | OutboundClick (custom) | yes | no |
+| Read 50% / 90% of a page | ScrollDepth (custom) | yes | no |
+| 5 s of the opening film (once a film is set) | FilmEngaged (custom) | yes | no |
+
+`api/track` refuses Lead, AddPaymentInfo, CompleteRegistration and Purchase: those come only
+from the server after the sign-up or Stripe really succeeded. A visitor who declines under
+Advertising preferences sends nothing; their Stripe trip carries `--optout` so the webhook skips them.
+
+Vercel environment variables: `META_CAPI_TOKEN` (Events Manager > pixel > Settings > Conversions API >
+Generate access token), `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`; optional `META_TEST_EVENT_CODE`
+while checking in Test Events. Stripe: Payment Link > After payment > redirect to
+`https://www.houseofmomenti.com/?session_id={CHECKOUT_SESSION_ID}`; Developers > Webhooks > add
+`https://www.houseofmomenti.com/api/stripe-webhook` for `checkout.session.completed` and
+`checkout.session.async_payment_succeeded`. Tests: `node --test tests/*.test.cjs`.
