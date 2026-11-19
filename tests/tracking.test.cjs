@@ -40,7 +40,8 @@ test('conversion mapping, duplicate guard and payload allowlist', () => {
   assert.equal(leads[0][2].value,undefined);
   assert.equal(c.ttq.filter(a=>a[0]==='track'&&a[1]==='SubmitForm').length,1);
   c.momentiTrack('house_list_signup');
-  assert.equal(c.fbq.queue.filter(a=>a[1]==='CompleteRegistration').length,1);
+  assert.equal(c.fbq.queue.filter(a=>a[1]==='Lead').length,2, 'sign-ups are Lead now');
+  assert.equal(c.fbq.queue.filter(a=>a[1]==='CompleteRegistration').length,0, 'CompleteRegistration is kept for confirmed reservations');
   c.momentiTrack('deposit_checkout',details);
   assert.equal(c.fbq.queue.find(a=>a[1]==='InitiateCheckout')[2].value,100);
   c.momentiTrack('purchase',details);
@@ -93,14 +94,14 @@ test('new site (assets/site.js): only successful sign-ups convert, once per emai
   const js=fs.readFileSync('assets/site.js','utf8');
   const start=js.indexOf('  function cameFrom()'), end=js.indexOf('\n',js.indexOf('return fetch(',js.indexOf('  function send(')));
   const calls=[];
-  const c={window:{momentiTrack:(...a)=>calls.push(a)},location:{pathname:'/',search:''},document:{referrer:''},sessionStorage:{getItem:()=>null},body:{dataset:{}},fetch:async()=>({ok:false})};
+  const c={window:{momentiTrack:(...a)=>calls.push(a)},location:{pathname:'/',search:''},document:{referrer:''},d:{querySelector:()=>null},sessionStorage:{getItem:()=>null},body:{dataset:{}},fetch:async()=>({ok:false})};
   c.window.va=()=>{};
   vm.createContext(c);
   vm.runInContext('function adTrack(n,d,o){window.momentiTrack(n,d,o)} function logStep(){} '+js.slice(start,end)+'\nthis.send=send;',c);
   assert.equal(await c.send('test@example.com',['the letter']),false); assert.equal(calls.length,0);
   c.fetch=async()=>({ok:true});
   assert.equal(await c.send('test@example.com',['the letter']),true);
-  assert.equal(calls[0][0],'house_list_signup'); assert.equal(calls[0][2],'test@example.com');
+  assert.equal(calls[0][0],'lead'); assert.equal(calls[0][2],'test@example.com'); assert.equal(calls[0][1].content_category,'the_letter');
   for (const f of ['index.html','havana-1958.html','join.html']) assert.match(fs.readFileSync(f,'utf8'),/\/js\/attribution.js/);
 });
 
