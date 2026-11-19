@@ -40,9 +40,9 @@
 <section class="hx c" id="your-moment">
   <figure class="ph rv-img"><img src="assets/img/miami-hero.jpg" alt="Miami, 1959: the car wash, top down, still in the car" loading="lazy" style="object-position:50% 50%"></figure>
   <div class="tx rv"><span class="lab mut">Tell us your moment</span><h2 class="ser">Tell us <span class="it">your moment.</span></h2><p>A city, a year, what happened, and a photograph if you have one. The best are told in Conversations. And every so often, one becomes a bag, made with the person who lived it and named after their moment.</p><form class="nom" novalidate>
-  <label class="f"><span class="lab">City</span><input type="text" placeholder="Havana"></label>
-  <label class="f"><span class="lab">Year</span><input type="text" inputmode="numeric" placeholder="1958"></label>
-  <label class="f wide"><span class="lab">What happened</span><textarea rows="3" placeholder="Where you were, who was there"></textarea></label>
+  <label class="f"><span class="lab">City</span><input type="text" name="City" placeholder="Havana"></label>
+  <label class="f"><span class="lab">Year</span><input type="text" name="Year" inputmode="numeric" placeholder="1958"></label>
+  <label class="f wide"><span class="lab">What happened</span><textarea rows="3" name="What happened" placeholder="Where you were, who was there"></textarea></label>
   <label class="f wide file"><span class="lab">A photograph, if you have one</span><input type="file" accept="image/*"><span class="fake it">Choose a photograph</span></label>
   <label class="f wide"><span class="lab">Your email</span><input type="email" placeholder="So we can write back"></label>
   <button class="btn" type="submit"><span>Send your moment</span></button>
@@ -62,10 +62,14 @@
 <section class="hj" id="join" data-nav-photo>
   <img class="bgimg" data-par="-0.1" src="assets/img/new-york-hero.jpg" alt="New York, 1977: dawn, asleep on the roof of the cab" loading="lazy" style="object-position:50% 40%">
   <div class="shade"></div>
-  <div class="t"><div><h2 class="cap rv-lines"><span class="line"><span>Come in.</span></span></h2><p class="it rv d2">Joining takes your email and, if you like, your moment.</p></div>
+  <div class="t"><div><h2 class="cap rv-lines"><span class="line"><span>Come in.</span></span></h2><p class="it rv d2">Tell us a little about you. The rest we’ll get to know.</p></div>
   <div class="card rv d2"><form class="nom jn" novalidate>
-  <label class="f wide"><span class="lab">Your email</span><input type="email" placeholder="you@example.com"></label>
-  <label class="f wide"><span class="lab">Your moment <span class="opt">(if you like)</span></span><textarea rows="2" placeholder="A city, a year, what happened"></textarea></label>
+  <label class="f"><span class="lab">First name</span><input type="text" name="First name" autocomplete="given-name" placeholder="Anita"></label>
+  <label class="f"><span class="lab">City</span><input type="text" name="City" autocomplete="address-level2" placeholder="Where you live"></label>
+  <label class="f wide"><span class="lab">Your email</span><input type="email" autocomplete="email" placeholder="you@example.com"></label>
+  <label class="f"><span class="lab">Instagram <span class="opt">(if you like)</span></span><input type="text" name="Instagram" placeholder="@yourname"></label>
+  <label class="f"><span class="lab">Birthday <span class="opt">(if you like)</span></span><input type="text" name="Birthday" placeholder="Day and month"></label>
+  <label class="f wide"><span class="lab">Your moment <span class="opt">(if you like)</span></span><textarea rows="2" name="Moment" placeholder="A city, a year, what happened"></textarea></label>
   <button class="btn" type="submit"><span>Join the House</span></button>
   <p class="done ser">You’re in. <span class="it">Welcome to the House.</span></p>
 </form></div></div>

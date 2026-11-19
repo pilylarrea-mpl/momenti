@@ -32,7 +32,7 @@
     return { attribution: window.momentiAttribution ? window.momentiAttribution() : null, from: f || 'direct', ref: ref, landed: location.pathname + location.search }; }
   if (body.dataset.piece) { adTrack('product_view', { content_id: body.dataset.piece, content_type: 'product' }, body.dataset.piece); logStep('piece/' + body.dataset.piece); }
   /* send a sign-up to the House List backend (api/subscribe.js) */
-  function send(email, topics) { var o = cameFrom(); o.email = email; o.topics = topics;
+  function send(email, topics, details) { var o = cameFrom(); o.email = email; o.topics = topics; if (details) o.details = details;
     return fetch('/api/subscribe', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(o) }).then(function (r) { if (r.ok) { logStep('house-list'); adTrack('house_list_signup', { source: topics[0] || 'house_list' }, String(email).trim().toLowerCase()); } return r.ok; }).catch(function () { return false; }); }
 
   /* ---------- curtain + page transitions ---------- */
@@ -139,6 +139,7 @@
       var v = f.querySelector('input').value;
       if (!/.+@.+\..+/.test(v)) { f.querySelector('input').value = ''; f.querySelector('input').placeholder = 'That email doesn’t look right.'; return; }
       var inHouse = /join/.test(location.pathname);
+      try { localStorage.setItem('m_letter', 'in'); } catch (_) {}
       send(v, [inHouse ? 'the house' : 'the letter']).then(function (ok) { if (ok) f.classList.add('ok'); else { f.querySelector('input').value = ''; f.querySelector('input').placeholder = 'Something went wrong. Try again?'; } });
     });
   });
@@ -151,10 +152,50 @@
       e.preventDefault();
       var em = $('input[type=email]', f);
       if (!/.+@.+\..+/.test(em.value)) { em.value = ''; em.placeholder = 'That email doesn’t look right.'; em.focus(); return; }
-      var parts = Array.prototype.slice.call(f.querySelectorAll('input:not([type=email]):not([type=file]), textarea')).map(function (x) { return (x.getAttribute('name') || x.getAttribute('placeholder') || '') + ': ' + x.value; }).filter(function (t) { return !/: $/.test(t); }).join(' | ').slice(0, 900);
-      send(em.value, ['the house', parts ? 'moment · ' + parts : 'joined']).then(function (ok) { if (ok) f.classList.add('ok'); else { em.value = ''; em.placeholder = 'Something went wrong. Try again?'; } });
+      var need = $('input[name="First name"]', f);
+      if (need && !need.value.trim()) { need.placeholder = 'Your first name, please'; need.focus(); return; }
+      var details = {};
+      Array.prototype.slice.call(f.querySelectorAll('input:not([type=email]):not([type=file]), textarea')).forEach(function (x) { var k = x.getAttribute('name') || x.getAttribute('placeholder') || 'Note'; if (x.value.trim()) details[k] = x.value.trim().slice(0, 600); });
+      try { localStorage.setItem('m_letter', 'in'); } catch (_) {}
+      send(em.value, f.classList.contains('jn') ? ['the house'] : ['the house', 'a moment'], details).then(function (ok) { if (ok) f.classList.add('ok'); else { em.value = ''; em.placeholder = 'Something went wrong. Try again?'; } });
     });
   });
+
+  /* ---------- the Letter: a sign-up card, once, when someone has stayed a while ---------- */
+  (function () {
+    var KEY = 'm_letter';
+    var st = function () { try { return localStorage.getItem(KEY) || ''; } catch (_) { return 'in'; } };
+    var v0 = st();
+    if (v0 === 'in' || (/^\d+$/.test(v0) && Date.now() < +v0) || /join|owners-circle|legal/.test(location.pathname)) return;
+    var shown = false, t0 = Date.now();
+    function busy() { return body.classList.contains('res-open') || (menu && menu.classList.contains('open')); }
+    function show() {
+      if (shown || busy() || Date.now() - t0 < 8000) return; shown = true;
+      var c = d.createElement('aside'); c.className = 'ltr'; c.setAttribute('aria-label', 'The Letter');
+      c.innerHTML = '<div class="ltr-img" aria-hidden="true"></div><div class="ltr-b"><button class="ltr-x lab" type="button" aria-label="Close">Close</button>'
+        + '<span class="lab">The Letter</span><p class="ser ltr-h">Be first <span class="it">through the door.</span></p>'
+        + '<p class="ltr-p">New moments before anyone else, the true stories behind them, and the odd invitation. Only when there&rsquo;s something worth saying.</p>'
+        + '<form class="ltr-f" novalidate><input type="email" placeholder="Your email" aria-label="Your email"><button type="submit">Count me in</button></form>'
+        + '<p class="ltr-s">Leave any time, in one click.</p>'
+        + '<p class="ltr-done ser">You&rsquo;re on the list. <span class="it">See you in your inbox.</span></p></div>';
+      body.appendChild(c); requestAnimationFrame(function () { c.classList.add('on'); });
+      var close = function (days) { c.classList.remove('on'); setTimeout(function () { c.remove(); }, 600); if (days) { try { localStorage.setItem(KEY, String(Date.now() + days * 864e5)); } catch (_) {} } };
+      $('.ltr-x', c).addEventListener('click', function () { close(14); });
+      var f = $('.ltr-f', c), i = $('input', f);
+      f.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (!/.+@.+\..+/.test(i.value)) { i.value = ''; i.placeholder = 'That email doesn’t look right.'; i.focus(); return; }
+        send(i.value, ['the letter', 'pop-up']).then(function (ok) {
+          if (!ok) { i.value = ''; i.placeholder = 'Something went wrong. Try again?'; return; }
+          try { localStorage.setItem(KEY, 'in'); } catch (_) {}
+          c.classList.add('ok'); setTimeout(function () { close(0); }, 3200);
+        });
+      });
+    }
+    setTimeout(show, 20000);
+    window.addEventListener('scroll', function () { var m = d.documentElement.scrollHeight - innerHeight; if (m > 0 && scrollY / m > 0.45) show(); }, { passive: true });
+    window.momentiShowLetter = function () { t0 = 0; show(); };
+  })();
 
   /* ---------- accordions ---------- */
   $$('.acc .h').forEach(function (h) {

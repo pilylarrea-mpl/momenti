@@ -317,9 +317,9 @@ def hx(img, alt, pos, lab, h, body, cls='', extra='', anchor=''):
 </section>'''
 
 moment_form = '''<form class="nom" novalidate>
-  <label class="f"><span class="lab">City</span><input type="text" placeholder="Havana"></label>
-  <label class="f"><span class="lab">Year</span><input type="text" inputmode="numeric" placeholder="1958"></label>
-  <label class="f wide"><span class="lab">What happened</span><textarea rows="3" placeholder="Where you were, who was there"></textarea></label>
+  <label class="f"><span class="lab">City</span><input type="text" name="City" placeholder="Havana"></label>
+  <label class="f"><span class="lab">Year</span><input type="text" name="Year" inputmode="numeric" placeholder="1958"></label>
+  <label class="f wide"><span class="lab">What happened</span><textarea rows="3" name="What happened" placeholder="Where you were, who was there"></textarea></label>
   <label class="f wide file"><span class="lab">A photograph, if you have one</span><input type="file" accept="image/*"><span class="fake it">Choose a photograph</span></label>
   <label class="f wide"><span class="lab">Your email</span><input type="email" placeholder="So we can write back"></label>
   <button class="btn" type="submit"><span>Send your moment</span></button>
@@ -327,8 +327,12 @@ moment_form = '''<form class="nom" novalidate>
 </form>'''
 
 join_form = '''<form class="nom jn" novalidate>
-  <label class="f wide"><span class="lab">Your email</span><input type="email" placeholder="you@example.com"></label>
-  <label class="f wide"><span class="lab">Your moment <span class="opt">(if you like)</span></span><textarea rows="2" placeholder="A city, a year, what happened"></textarea></label>
+  <label class="f"><span class="lab">First name</span><input type="text" name="First name" autocomplete="given-name" placeholder="Anita"></label>
+  <label class="f"><span class="lab">City</span><input type="text" name="City" autocomplete="address-level2" placeholder="Where you live"></label>
+  <label class="f wide"><span class="lab">Your email</span><input type="email" autocomplete="email" placeholder="you@example.com"></label>
+  <label class="f"><span class="lab">Instagram <span class="opt">(if you like)</span></span><input type="text" name="Instagram" placeholder="@yourname"></label>
+  <label class="f"><span class="lab">Birthday <span class="opt">(if you like)</span></span><input type="text" name="Birthday" placeholder="Day and month"></label>
+  <label class="f wide"><span class="lab">Your moment <span class="opt">(if you like)</span></span><textarea rows="2" name="Moment" placeholder="A city, a year, what happened"></textarea></label>
   <button class="btn" type="submit"><span>Join the House</span></button>
   <p class="done ser">You’re in. <span class="it">Welcome to the House.</span></p>
 </form>'''
@@ -363,7 +367,7 @@ community = nav(photo=True) + f'''
 <section class="hj" id="join" data-nav-photo>
   <img class="bgimg" data-par="-0.1" src="{I}new-york-hero.jpg" alt="New York, 1977: dawn, asleep on the roof of the cab" loading="lazy" style="object-position:50% 40%">
   <div class="shade"></div>
-  <div class="t"><div><h2 class="cap rv-lines">{lines('Come in.')}</h2><p class="it rv d2">Joining takes your email and, if you like, your moment.</p></div>
+  <div class="t"><div><h2 class="cap rv-lines">{lines('Come in.')}</h2><p class="it rv d2">Tell us a little about you. The rest we’ll get to know.</p></div>
   <div class="card rv d2">{join_form}</div></div>
 </section>
 <a class="up" href="owners-circle.html">
@@ -520,7 +524,7 @@ LEGAL = [
   ('The print', 'Keep perfume, hand cream and sunscreen off it until they’ve dried on your skin. Keep it out of strong sun for long stretches.'),
   ('Storing it', 'In its dust bag, lying flat with the car facing up. Never in plastic, and never in a hot car in summer.')]),
  ('privacy', 'Privacy.', [
-  ('What we keep', 'Your email if you join the House, the moment you send if you nominate one, and your name, address and email if you reserve. Card details stay with Stripe.'),
+  ('What we keep', 'Your email if you join the Letter. If you join the House: your first name, email and city, plus your Instagram, birthday and moment if you choose to share them. The moment you send if you nominate one, and your name, address and email if you reserve. Card details stay with Stripe. We never sell any of it.'),
   ('Cookies and advertising', 'We count visits to improve the site. We also use the Meta pixel, a small piece of code from Meta, to measure our ads and show them to people likely to love MOMENTI. It records things like which pieces you view and whether you reserve, never what you type into a form. You can switch advertising cookies off at any time under “Advertising preferences” at the foot of every page.'),
   ('Leaving the list', 'Every letter has a link to leave, in one click.')]),
 ]
@@ -554,7 +558,7 @@ COPY = [
  ('Collections', [('Title', 'The bags · COLLECTIONS. <i>Each collection is a set of moments. Each bag carries one of them.</i>'), ('Collection I', 'THE GRAND TOUR. <i>Our first collection: a city in one year, for each bag, with the car from its photograph on the clasp.</i> See the collection'), ('Collection II', '<i>Coming.</i> Hear first')]),
  ('The Grand Tour', [('Title', 'Collections / The Grand Tour · THE GRAND TOUR. Collection I. <i>Our first collection. Each bag carries one photograph of a city in one year, with the car from that street on the clasp.</i>')] + [(p['name'], f"{p['title'].upper()} <i>{p['feel']}</i> ${p['price']}" if p.get('cut') else f"{p['title'].upper()} <i>Coming soon.</i> (a hairline outline of the bag)") for p in PIECES] + [('Closing', 'Every bag is sold out for now. <i>Reserve yours</i> and pay nothing until it’s ready.')]),
  ('A piece', [('Top', 'Collection I · The Grand Tour · HAVANA, 1958. <i>What you take with you.</i> Havana 1958, <i>frame clutch</i> · $520 · Sold out for now. · RESERVE YOURS · Pay nothing today. When yours is ready, you’ll have a week to change your mind.'), ('Details', 'The moment · The car · Dimensions · Materials · The back · Made · In the box · Care · Delivery · Returns'), ('Reserve', 'Reserve <i>yours.</i> Pay nothing today. We’ll tell you the moment yours is ready, and you’ll have a week to change your mind before anything is charged. · RESERVE MINE · Secure checkout. Nothing is charged until your bag is ready.'), ('After', 'Reserved. <i>Havana 1958 has your name on it.</i> We’ve sent you an email with everything you need, and we’ll be in touch the moment yours is ready.')]),
- ('The House (join.html)', [('Hero', 'Free to join. THE HOUSE. <i>Bring a moment.</i> JOIN THE HOUSE'), ('Opening', 'Every bag begins with someone’s moment. The House is where people bring theirs: <i>a city, a year, and what happened there.</i>'), ('Conversations', 'The House · An interview series. CONVERSATIONS. <i>We sit down with women who have a moment worth telling, and share part of it.</i> PLACEHOLDERS: four slots (No. 01 lead, Madrid; 02–04), each showing “Coming soon” until Pily fills name, city and pull-quote in CONVOS in build.py. The portraits are stand-ins from the kit (campaign-new-york-1977, tokyo-hero, havana-reverse, tokyo-reverse) until the real portraits are taken. No real people or quotes are invented.'), ('Tell us your moment', 'Tell us <i>your moment.</i> A city, a year, what happened, and a photograph if you have one. The best are told in Conversations. And every so often, one becomes a bag, made with the person who lived it and named after their moment. Form: city · year · what happened · a photograph · your email · SEND YOUR MOMENT · Received. <i>It’s with the house now.</i>'), ('Evenings', 'Evenings, <i>when there are some.</i> One moment for one night, city by city: a Havana, 1958, say, with the music of that year. Members hear first.'), ('First look', 'First look, <i>before anyone.</i> Each new moment reaches the House before it reaches anyone else.'), ('Join', 'COME IN. <i>Joining takes your email and, if you like, your moment.</i> JOIN THE HOUSE · You’re in. <i>Welcome to the House.</i>'), ('Upstairs', 'Own a piece? There’s a room <i>upstairs.</i> The Owners’ Circle')]),
+ ('The House (join.html)', [('Hero', 'Free to join. THE HOUSE. <i>Bring a moment.</i> JOIN THE HOUSE'), ('Opening', 'Every bag begins with someone’s moment. The House is where people bring theirs: <i>a city, a year, and what happened there.</i>'), ('Conversations', 'The House · An interview series. CONVERSATIONS. <i>We sit down with women who have a moment worth telling, and share part of it.</i> PLACEHOLDERS: four slots (No. 01 lead, Madrid; 02–04), each showing “Coming soon” until Pily fills name, city and pull-quote in CONVOS in build.py. The portraits are stand-ins from the kit (campaign-new-york-1977, tokyo-hero, havana-reverse, tokyo-reverse) until the real portraits are taken. No real people or quotes are invented.'), ('Tell us your moment', 'Tell us <i>your moment.</i> A city, a year, what happened, and a photograph if you have one. The best are told in Conversations. And every so often, one becomes a bag, made with the person who lived it and named after their moment. Form: city · year · what happened · a photograph · your email · SEND YOUR MOMENT · Received. <i>It’s with the house now.</i>'), ('Evenings', 'Evenings, <i>when there are some.</i> One moment for one night, city by city: a Havana, 1958, say, with the music of that year. Members hear first.'), ('First look', 'First look, <i>before anyone.</i> Each new moment reaches the House before it reaches anyone else.'), ('Join', 'COME IN. <i>Tell us a little about you. The rest we’ll get to know.</i> JOIN THE HOUSE · You’re in. <i>Welcome to the House.</i>'), ('Upstairs', 'Own a piece? There’s a room <i>upstairs.</i> The Owners’ Circle')]),
  ('The Owners’ Circle (owners-circle.html)', [('Top', 'For owners only. The Owners’ <i>Circle.</i> Every piece arrives with a ticket. The ticket is your place here.'), ('Kept by', 'The ticket: The Owners’ Circle · New York, 1977. · KEPT BY <i>your name</i>'), ('What owners have', 'i. Kept by. Your name on your piece’s card. · ii. First to reserve. Each new piece, yours to reserve before anyone else. · iii. Owners’ evenings. When there are some. · And a few things <i>we’d rather not tell you yet.</i> (Kept short on purpose: no surprises spelled out.)'), ('Register', 'Already own a piece? <i>Register it.</i> Send the code on your ticket, and your name goes on the list of owners. REGISTER'), ('Out', 'Not an owner yet? <i>The House is free to join.</i> The House · See the collection')]),
 ]
 OPEN = [

@@ -750,3 +750,23 @@ body.tour{overflow:visible!important;padding:0!important} /* the page class "tou
   .gm h2{font-size:46px}
   .gm-in>p{font-size:18px}
 }
+/* the Letter: sign-up card (Pily, 18 Nov) */
+.ltr{position:fixed;z-index:120;right:28px;bottom:28px;width:min(440px,calc(100vw - 32px));display:grid;grid-template-columns:132px 1fr;background:var(--paper,#F4F0E8);color:var(--ink);box-shadow:0 24px 70px rgba(28,26,24,.22),0 0 0 1px rgba(28,26,24,.08);transform:translateY(24px);opacity:0;pointer-events:none;transition:transform .7s cubic-bezier(.2,.8,.2,1),opacity .5s}
+.ltr.on{transform:none;opacity:1;pointer-events:auto}
+.ltr-img{background:url(img/campaign-monaco-quay.jpg) 48% 32%/cover;filter:saturate(1.05)}
+.ltr-b{position:relative;padding:24px 24px 20px}
+.ltr-x{position:absolute;top:14px;right:16px;background:none;border:0;cursor:pointer;color:var(--muted);font-size:10px}
+.ltr-h{font-size:30px;line-height:1.02;margin:12px 0 10px}
+.ltr-p{font-family:var(--text);font-size:15px;line-height:1.5;margin-bottom:16px;color:#4b463f}
+.ltr-f{display:flex;border-bottom:1px solid var(--ink)}
+.ltr-f input{flex:1;min-width:0;border:0;background:none;outline:0;padding:9px 0;font-family:var(--serif);font-style:italic;font-size:17px;color:var(--ink)}
+.ltr-f button{border:0;background:none;cursor:pointer;font-family:var(--cover);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);padding:0 0 0 12px}
+.ltr-s{font-family:var(--text);font-size:12px;color:var(--muted);margin-top:10px}
+.ltr-done{display:none;font-size:24px;line-height:1.15;margin-top:8px}
+.ltr.ok .ltr-f,.ltr.ok .ltr-s,.ltr.ok .ltr-p{display:none}.ltr.ok .ltr-done{display:block}
+@media (max-width:760px){
+  .ltr{left:0;right:0;bottom:0;width:100%;grid-template-columns:1fr;grid-template-rows:120px auto;transform:translateY(100%);padding-bottom:env(safe-area-inset-bottom,0px)}
+  .ltr-b{padding:22px 20px 18px}
+  .ltr-h{font-size:28px}
+}
+@media (prefers-reduced-motion:reduce){.ltr{transition:opacity .3s}}
