@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pily's Picks</title>
+<meta name="description" content="Things I actually wear, use and gift.">
+<style>
+@font-face{font-family:'Bodoni Moda';src:url('/assets/fonts/BodoniModa-VF.ttf');font-weight:400 900;font-display:swap}
+@font-face{font-family:'Bodoni Moda';src:url('/assets/fonts/BodoniModa-Italic-VF.ttf');font-weight:400 900;font-style:italic;font-display:swap}
+@font-face{font-family:'Newsreader';src:url('/assets/fonts/Newsreader-VF.ttf');font-weight:200 800;font-display:swap}
+@font-face{font-family:'Inter Tight';src:url('/assets/fonts/InterTight-VF.ttf');font-weight:100 900;font-display:swap}
+:root{--bg:#F4F0E8;--card:#FBF8F2;--ink:#1C1A18;--muted:#6B655E;--hair:rgba(28,26,24,.16);
+  --sans:"Inter Tight",Helvetica,Arial,sans-serif;--serif:"Bodoni Moda",Didot,serif;--text:"Newsreader",Georgia,serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:56px 16px 80px}
+h1{font-family:var(--serif);font-style:italic;font-weight:400;font-size:clamp(40px,8vw,72px);line-height:1}
+.intro{max-width:520px;margin-top:16px;color:var(--muted)}
+.social{display:flex;gap:20px;margin-top:20px}
+.lab{font-family:var(--sans);font-weight:700;font-size:11px;letter-spacing:.16em;text-transform:uppercase}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:40px 0 24px;border-top:1px solid var(--hair);padding-top:24px}
+.tabs button{font:inherit;cursor:pointer;background:none;border:1px solid var(--hair);border-radius:99px;padding:9px 16px;color:var(--ink)}
+.tabs button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}}
+@media(max-width:699px){.t{font-size:16px}.meta{padding:10px 10px 14px}}
+.card{background:var(--card);display:flex;flex-direction:column}
+.ph{aspect-ratio:4/5;background:#E8E2D6;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
+.card:hover .ph img{transform:scale(1.03)}
+.meta{padding:14px 14px 18px;display:flex;flex-direction:column;gap:4px}
+.brand{color:var(--muted)}
+.t{font-family:var(--serif);font-size:19px;line-height:1.2}
+.note{font-style:italic;color:var(--muted);font-size:15px}
+.row{display:flex;justify-content:space-between;align-items:baseline;margin-top:8px}
+.disc{margin-top:56px;font-size:14px;color:var(--muted);max-width:560px}
+.empty{color:var(--muted);padding:40px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 id="name">Pily's Picks</h1>
+  <p class="intro" id="intro"></p>
+  <div class="social lab" id="social"></div>
+  <nav class="tabs" id="tabs" aria-label="Collections"></nav>
+  <main class="grid" id="grid"></main>
+  <p class="disc">Some links on this page are affiliate links: if you buy through them I may earn a commission, and you pay the same price.</p>
+</div>
+<script>
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+fetch('/shop/picks.json', {cache: 'no-store'}).then(r => r.json()).then(shop => {
+  document.getElementById('name').textContent = shop.name;
+  document.title = shop.name;
+  document.getElementById('intro').textContent = shop.intro || '';
+  document.getElementById('social').innerHTML = [['Instagram', shop.instagram], ['TikTok', shop.tiktok]]
+    .filter(x => x[1]).map(([n, u]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${n}</a>`).join('');
+  const tabs = [{id: 'all', title: 'All'}].concat(shop.collections || []);
+  let current = new URLSearchParams(location.search).get('c') || 'all';
+  const draw = () => {
+    document.getElementById('tabs').innerHTML = tabs.map(t =>
+      `<button data-c="${esc(t.id)}" aria-pressed="${t.id === current}">${esc(t.title)}</button>`).join('');
+    const list = shop.picks.filter(p => current === 'all' || p.collection === current);
+    document.getElementById('grid').innerHTML = list.length ? list.map(p => `
+      <a class="card" href="/go/${encodeURIComponent(p.id)}" target="_blank" rel="noopener sponsored">
+        <div class="ph">${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy">` : ''}</div>
+        <div class="meta">
+          <span class="lab brand">${esc(p.brand)}</span>
+          <span class="t">${esc(p.title)}</span>
+          ${p.note ? `<span class="note">${esc(p.note)}</span>` : ''}
+          <span class="row"><span>${esc(p.price)}</span><span class="lab">Shop</span></span>
+        </div>
+      </a>`).join('') : '<p class="empty">Nothing here yet.</p>';
+  };
+  document.getElementById('tabs').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    current = b.dataset.c; history.replaceState(null, '', current === 'all' ? '/shop' : '/shop?c=' + current); draw();
+  });
+  draw();
+});
+</script>
+</body>
+</html>

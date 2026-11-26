@@ -90,5 +90,15 @@
       "destination": "/tokyo-1995",
       "permanent": false
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/go/:id",
+      "destination": "/api/go?id=:id"
+    },
+    {
+      "source": "/go",
+      "destination": "/api/go"
+    }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Pily's Picks",
+  "intro": "Things I actually wear, use and gift. Some links pay me a small commission at no extra cost to you.",
+  "instagram": "https://www.instagram.com/houseofmomenti",
+  "tiktok": "https://www.tiktok.com/@houseofmomenti",
+  "collections": [
+    { "id": "wearing", "title": "Wearing now" },
+    { "id": "beauty", "title": "Beauty shelf" },
+    { "id": "gifts", "title": "Gifts" }
+  ],
+  "picks": [
+    {
+      "id": "example-1",
+      "collection": "wearing",
+      "title": "Replace me: product name",
+      "brand": "Brand",
+      "price": "$0",
+      "url": "https://www.nordstrom.com/",
+      "image": "",
+      "note": "One line on why you love it."
+    }
+  ]
+}

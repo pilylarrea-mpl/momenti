@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Make a Link</title>
+<style>
+:root{--bg:#F4F0E8;--ink:#1C1A18;--muted:#6B655E;--hair:rgba(28,26,24,.2)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font:17px/1.5 Georgia,serif}
+.wrap{max-width:560px;margin:0 auto;padding:48px 16px}
+h1{font-style:italic;font-weight:400;font-size:40px;margin-bottom:8px}
+p{color:var(--muted)}
+label{display:block;margin-top:20px;font:700 11px/1 Helvetica,Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+input{width:100%;margin-top:8px;padding:14px;border:1px solid var(--hair);background:#FBF8F2;font:inherit;color:inherit}
+button{margin-top:24px;width:100%;height:54px;background:var(--ink);color:var(--bg);border:0;font:700 12px Helvetica,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;cursor:pointer}
+#out{margin-top:28px;word-break:break-all}
+#out a{color:var(--ink)}
+.warn{color:#8a3b1f}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Make a link</h1>
+  <p>Paste any product page. You get a link that pays you when someone buys, ready for your bio, stories or captions.</p>
+  <form id="f">
+    <label for="url">Product link</label>
+    <input id="url" type="url" required placeholder="https://www.revolve.com/...">
+    <label for="ref">Where you'll post it (optional)</label>
+    <input id="ref" placeholder="tiktok-nov26">
+    <label for="pw">Password</label>
+    <input id="pw" type="password" required autocomplete="current-password">
+    <button>Make my link</button>
+  </form>
+  <div id="out"></div>
+</div>
+<script>
+try { document.getElementById('pw').value = localStorage.getItem('shop_pw') || ''; } catch (_) {}
+document.getElementById('f').addEventListener('submit', async e => {
+  e.preventDefault();
+  const out = document.getElementById('out'), pw = document.getElementById('pw').value;
+  out.textContent = 'Making it…';
+  const r = await fetch('/api/make-link', {method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({url: document.getElementById('url').value, ref: document.getElementById('ref').value, password: pw})}).catch(() => null);
+  const o = r ? await r.json().catch(() => ({})) : {error: 'No connection'};
+  if (!r || !r.ok) { out.innerHTML = ''; out.className = 'warn'; out.textContent = o.error || 'Something went wrong'; return; }
+  try { localStorage.setItem('shop_pw', pw); } catch (_) {}
+  out.className = '';
+  const note = o.network === 'none' ? '<p class="warn">This link works, but no affiliate network is set up for this shop yet, so it won\'t earn.</p>' : '';
+  out.innerHTML = `<p>Your link:</p><p><a href="${o.link}" target="_blank" rel="noopener">${o.link}</a></p>${note}`;
+  if (navigator.clipboard) navigator.clipboard.writeText(o.link).then(() => out.insertAdjacentHTML('beforeend', '<p>Copied.</p>'), () => {});
+});
+</script>
+</body>
+</html>

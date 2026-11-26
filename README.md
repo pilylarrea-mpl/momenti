@@ -36,3 +36,13 @@ Near the top of the `<script>` in `index.html`:
 - `FIRST_BATCH`: `'open'` takes $100 deposits for that bag, `'full'` shows the first batch as full
 - `DEPOSIT_LINK`: a $100 Stripe Payment Link per bag, shown right after the pre-order form
 - The `P` list holds every bag: name, price, description, images
+
+## Pily's Picks (`/shop`): affiliate links without brand deals
+
+- `/shop` is the storefront. Edit `shop/picks.json` to add picks (id, collection, title, brand, price, url, image, note). Each card links to `/go/<id>`.
+- `/shop/new` turns any product link into a link that pays you. Password-protected.
+- `/go` sends the shopper on through an affiliate network, which is what pays you. Set in Vercel → Environment Variables:
+  - `SOVRN_API_KEY` (Sovrn Commerce) or `SKIMLINKS_ID` (Skimlinks): sign up once; they already have deals with tens of thousands of shops.
+  - `AMAZON_TAG`: Amazon Associates tracking ID (the networks don't pay on Amazon).
+  - `SHOP_PASSWORD` and `LINK_SECRET` (any long random text) for `/shop/new`.
+- Earnings and per-link sales show in the network's dashboard; the id you gave each link appears there as the sub-ID. Clicks also show in Vercel → Logs.
