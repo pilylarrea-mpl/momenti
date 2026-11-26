@@ -4,13 +4,12 @@ from creator import *
 CDN='https://cdn.shopify.com/s/files/1/'
 FOOT='Prices checked on each brand\'s site, Nov 26.'
 W=sys.argv[1:]
-if 'once' in W: post('once-a-year','Kept 6',"Six brands<br>that go on sale <span class=it>once a year.</span>","It's this week. Each one says so on its own site.",[
+if 'once' in W: post('once-a-year','Kept 5',"Five brands<br>that go on sale <span class=it>once a year.</span>","It's this week. Each one says so on its own site.",[
  I('pastmidnight.com','the-flare-blue-gradient',1,'photo','Past Midnight','The Flare, Blue Gradient','Marked to $145, then 25% more with the code.',now=109,off='60% off',code='THESEASON',pos='50% 20%',tag='&ldquo;Our only sale of the year&rdquo;'),
  I('margauxny.com','the-demi-merlot-suede',0,'pack','Margaux','The Demi, Merlot Suede','20% off everything, in every size they make.',was=290,now=232,scale=1.1,tag='&ldquo;Our only sitewide sale of the year&rdquo;'),
  M(CDN+'0412/1296/9117/files/Set1-DaniSummerEssentials_23668031-119d-4c0c-b741-a8dcb9654494.jpg','photo','MERIT','The Intro Set','20% off, or 25% once your order passes $150. A free bag comes with every order.',119,95.20,pos='50% 50%',tag='&ldquo;Our only sale of the year&rdquo;'),
  I('jenniferbehr.com','abbie-barrette-crystal',0,'pack','Jennifer Behr','Abbie Barrette, Crystal','25% comes off at checkout on orders over $150.',was=228,now=171,scale=.85,tag='&ldquo;The biggest sale of the year&rdquo;'),
  M(CDN+'0949/3328/7221/files/KissuLipMaskMaple-pdp-FullSize-MainImage-1200x1200.jpg','pack','Tatcha','Kissu Lip Mask, Maple Red','25% off sitewide with the code.',29,21.75,code='CYBER26',scale=.9,tag='&ldquo;Our best offer of the year&rdquo;'),
- M(CDN+'0560/3062/5949/files/PDP_Modern_Chrome_1.jpg','pack','Jolie','Filtered Showerhead','Their homepage price today.',148,111,scale=.9,tag='&ldquo;Once in a blue moon&rdquo;'),
  ],None,'Once a year,<br><span class=it>this week</span>',FOOT+' The quotes are from each brand\'s homepage.',("Next: under $50.","I'm going through all 376 sales. <span class=it>Follow for the next cut.</span>"))
 if 'under50' in W: post('under-50','Kept 7',"Seven things<br>under $50 that <span class=it>look like $200.</span>","Cheapest first. The first one is $13.",[
  M(CDN+'1131/0390/files/1-MAKE_PDP_Lipstick_CapOff_Flourescense_NewBeautyAwards2024.jpg','pack','MAKE Beauty','Cream Supreme Lipstick','Refillable, and half off.',26,13,scale=.9),
@@ -24,14 +23,14 @@ if 'under50' in W: post('under-50','Kept 7',"Seven things<br>under $50 that <spa
 if 'drops' in W:
     its=[
  I('aliceandolivia.com','jackie-embellished-bomber-jacket-1',0,'photo','alice + olivia','Jackie Embellished Bomber','40% off. Four of five sizes left.',pos='50% 20%'),
- I('heavenmayhem.com','gaze-choker',1,'photo','Heaven Mayhem','Gaze Choker','61% off. Final sale.',pos='50% 60%'),
+ I('aliceandolivia.com','shanti-embr-cmbo-btn-ft-tiered-dress',0,'photo','alice + olivia','Shanti Tiered Dress','60% off, all eight sizes in.',pos='50% 15%'),
  M(CDN+'0565/1234/8333/files/Olivia-Coat_Black.jpg','photo','Jenni Kayne','Olivia Coat, Black','Half off. Final sale.',1025,513,pos='50% 20%'),
  I('aliceandolivia.com','drew-oversized-wool-trench-coat',0,'photo','alice + olivia','Drew Wool Coat, Red','40% off. Four of five sizes left.',pos='50% 15%'),
  I('aliceandolivia.com','alana-twist-strap-lace-godet-maxi-dress-black-almond',0,'photo','alice + olivia','Alana Lace Maxi Dress','40% off, all eight sizes in.',pos='50% 12%'),
  I('alexandramiro.com','sophia-dress-scarf-print',0,'photo','Alexandra Miro','Sophia Dress, Scarf Print','60% off, every size in. Final sale.',pos='50% 25%'),
  I('emmeparsons.com','isabel-black-calf',0,'pack','Emme Parsons','Isabel Slingback, Black','40% off. Eight of 13 sizes left.',scale=1.25)]
     its.sort(key=lambda i:-(i['was']-i['now']))
-    post('dollar-drops','Kept 7',"Seven pieces,<br>ranked by <span class=it>dollars off.</span>","A 60% tag can mean $26 saved. The first one here saves $718.",its,
+    post('dollar-drops','Kept 7',"Seven pieces,<br>ranked by <span class=it>dollars off.</span>","A 60% tag can mean $39 saved. The first one here saves $718.",its,
       lambda k,it:f'{money(it["was"]-it["now"])} off','Ranked by<br><span class=it>dollars off</span>',FOOT,("Next: a full outfit, all on sale.","I'm going through all 376 sales. <span class=it>Follow for the next cut.</span>"))
 if 'outfit' in W: post('red-outfit','Kept 5',"One holiday outfit. <span class=it>Every piece</span> is on sale.","Dress, shoes, earrings, bag, sunglasses. Built from five different sales.",[
  I('alexandramiro.com','harper-dress-red-capri',1,'photo','Alexandra Miro','Harper Dress, Red Capri','60% off, all five sizes in. Final sale.',pos='50% 18%'),

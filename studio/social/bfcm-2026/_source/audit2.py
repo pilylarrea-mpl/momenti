@@ -45,8 +45,8 @@ S.append(f'''{head()}<style>.h{{position:absolute;left:72px;right:72px;top:330px
 <body><div class=top><span class=lab style="color:var(--ink)">I read 376 sales</span><span class=lab>Black Friday, checked</span></div>
 <h1 class="it h">&ldquo;Up to<br>60% off.&rdquo;</h1><div class="ser s">I counted how many pieces actually are.</div>
 <p class=p>I went through the full catalog of five stores, piece by piece. 2,074 in-stock items.</p></body>''')
-P=[('Heaven Mayhem says','Up to 60% off sitewide',25,180,'in-stock pieces are 60% off or more. The usual markdown is 30%.',I('heavenmayhem.com','gaze-choker',0,'pack','','Gaze Choker','')),
-   ('Jet Set Candy says','Up to 50% off',58,923,'pieces are 50% off or more. The usual markdown is 26%.',I('jetsetcandy.com','gold-enamel-poker-chips-charm',0,'pack','','Poker Chips Charm, Gold','')),
+P=[('Heaven Mayhem says','Up to 60% off sitewide',24,180,'in-stock pieces are 60% off or more. The usual markdown is 30%.',I('heavenmayhem.com','alma-clip-on-earrings',1,'pack','','Alma Clip-On Earrings','')),
+   ('Jet Set Candy says','Up to 50% off',46,923,'pieces are 50% off. The usual markdown is 26%.',I('jetsetcandy.com','gold-enamel-poker-chips-charm',0,'pack','','Poker Chips Charm, Gold','')),
    ('alice + olivia says','Sale: 60% off',10,713,'pieces are 60% off. Another 69 are 40% off. The rest take 25% with the code.',I('aliceandolivia.com','willa-silk-blouse-75',0,'photo','','Willa Silk Blouse','')),
    ('Emme Parsons','Private sale, up to 80%',55,133,'pairs are 40% off or more. Nothing is at the 80% her affiliate listing mentions.',I('emmeparsons.com','salome-mary-jane-washed-gold-nappa',0,'pack','','Salomé Mary Jane, Gold','')),
    ('Alexandra Miro, listed as','20 to 50% off',63,125,'pieces are 50% off or more. She undersold it: 17 are at 60%.',I('alexandramiro.com','clementine-gown-red-capri',1,'photo','','Clementine Gown, Red Capri',''))]
