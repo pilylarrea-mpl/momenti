@@ -1,0 +1,169 @@
+{
+ "slug": "best-deals",
+ "hooks": [
+  "A $529 M.M.LaFleur Theodora dress is $111, in every size.",
+  "Hiperson leather knee boots, $324 down to $162, almost every size.",
+  "M.M.LaFleur's $299 Hope wrap dress is $54."
+ ],
+ "brands": [
+  {
+   "brand": "Alexandra Miro",
+   "verdict": "Resortwear at 60% off with full size runs, but final sale and no returns outside the UK and EU.",
+   "say": "Harper dress, $152 from $380. Viscose, comes with a matching scarf, sheer and unlined.",
+   "items": [
+    {
+     "handle": "harper-dress-red-capri",
+     "why": "Full-length viscose georgette with a cowl neck and a removable matching scarf; sheer and unlined.",
+     "for_who": "Booked a warm trip this winter",
+     "skip_if": "You need a lining or a return option"
+    },
+    {
+     "handle": "sophia-dress-scarf-print",
+     "why": "Mini dress in 70% cotton, 30% silk with a removable belt, all five sizes in stock.",
+     "for_who": "Wants one dressy vacation dress",
+     "skip_if": "A plunging neckline or $192 final sale worries you"
+    },
+    {
+     "handle": "clementine-gown-red-capri",
+     "why": "Semi-sheer viscose maxi that ties at the waist and wears open or closed, more robe than gown.",
+     "for_who": "Wants a layer over a swimsuit",
+     "skip_if": "You expected an evening gown; sizes S to L only"
+    }
+   ]
+  },
+  {
+   "brand": "Intentionally Blank",
+   "verdict": "Three boot styles at exactly half off, with nearly every size from 5 to 12 still there.",
+   "say": "Hiperson knee boot, $162 from $324. Tall, kitten heel, leather with a sheen.",
+   "items": [
+    {
+     "handle": "hiperson-leather-knee-high-boot",
+     "why": "Knee-high leather boot with a kitten heel and a sheen finish, in black and merlot.",
+     "for_who": "Wants a tall boot under $200",
+     "skip_if": "You want matte leather, or merlot in size 5"
+    },
+    {
+     "handle": "filmore-suede-knee-boot",
+     "why": "Suede knee boot with a low heel and inside zip, every size in chocolate and black.",
+     "for_who": "Wants a low-heel tall boot",
+     "skip_if": "You'd rather not look after suede"
+    },
+    {
+     "handle": "florence-curved-heel-leather-ankle-boot",
+     "why": "Black leather Chelsea ankle boot with a curved heel, $129, all eight sizes in stock.",
+     "for_who": "Wants the cheapest boot here",
+     "skip_if": "The long snipped toe isn't your shape"
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "verdict": "Sale goes to 60% off, earrings land around $50, and every single item is final sale.",
+   "say": "Alma clip-ons, $52 from $130. No piercing needed, three colors in stock.",
+   "items": [
+    {
+     "handle": "alma-clip-on-earrings",
+     "why": "Clip-on drop earrings the store calls lightweight, in gold, silver or gold and black.",
+     "for_who": "No piercings, or gifting someone without",
+     "skip_if": "Clip-ons bother your ears; final sale"
+    },
+    {
+     "handle": "plaza-earrings",
+     "why": "Statement earrings at $44 from $110, left in one color, black velvet.",
+     "for_who": "Wants a party earring under $50",
+     "skip_if": "You wanted a color choice"
+    },
+    {
+     "handle": "fashion-sunglasses-vittoria",
+     "why": "Oversized acetate aviators with brown tinted lenses, plus a pouch and cloth, $80 from $200.",
+     "for_who": "Likes a big brown frame",
+     "skip_if": "You need to try sunglasses on first"
+    }
+   ]
+  },
+  {
+   "brand": "Emme Parsons",
+   "verdict": "A flat 40% off, but pairs still cost $366 to $399 and sizes are missing.",
+   "say": "Delicat sandal in red satin, $387 from $645. A 55 millimeter heel.",
+   "items": [
+    {
+     "handle": "delicat-burnt-red-satin",
+     "why": "Strappy red satin sandal on a 55 mm heel; sizes 36, 36.5, 37.5 and 40.5 are gone.",
+     "for_who": "Wants a low red evening sandal",
+     "skip_if": "$387 is still a lot; tagged exchange only"
+    },
+    {
+     "handle": "isabel-black-calf",
+     "why": "Black calfskin kitten-heel mule with a buckle strap; 8 of 13 sizes left.",
+     "for_who": "Wants a low black heel",
+     "skip_if": "You're a 36, 36.5, 38.5, 39 or 39.5"
+    },
+    {
+     "handle": "salome-mary-jane-washed-gold-nappa",
+     "why": "Round-toe Mary Jane flat in washed gold nappa, built to flex, sizes 36 to 41.",
+     "for_who": "Wants a flat, skipping heels",
+     "skip_if": "$366 for flats, or you wear 35 or 42"
+    }
+   ]
+  },
+  {
+   "brand": "alice + olivia",
+   "verdict": "Sale section reaches 60% off; the blouse gets that, the blazer and coat are 40% and still expensive.",
+   "say": "Willa silk blouse, $150 from $375. All five sizes, 60% off.",
+   "items": [
+    {
+     "handle": "willa-silk-blouse-75",
+     "why": "A $375 silk blouse for $150, all five sizes in stock; the listing has no description.",
+     "for_who": "Wants silk at under half price",
+     "skip_if": "You want fabric details before buying"
+    },
+    {
+     "handle": "breann-embell-cutaway-blazer-off-white-gold",
+     "why": "Blazer with strong shoulders, a slim body and embellished pinstripes, every size 0 to 14.",
+     "for_who": "Wants one going-out jacket",
+     "skip_if": "$537 is more than you'd spend on a blazer"
+    },
+    {
+     "handle": "drew-oversized-wool-trench-coat",
+     "why": "Oversized wool trench in a color called Hibiscus, $717 from $1,195, XS sold out.",
+     "for_who": "Planned a coat splurge anyway",
+     "skip_if": "$717 is too much, or you wear XS"
+    }
+   ]
+  },
+  {
+   "brand": "M.M.LaFleur",
+   "verdict": "Deepest cuts in this video, 73 to 82% off, full size runs on both dresses, final sale.",
+   "say": "Theodora dress, $111 from $529. Black eyelet midi, every size XS to XXL.",
+   "items": [
+    {
+     "handle": "theodora-black",
+     "why": "Sleeveless black eyelet midi with a collar and A-line shape, 79% off, XS to XXL.",
+     "for_who": "Buying now for summer events",
+     "skip_if": "You want something to wear this month"
+    },
+    {
+     "handle": "ohara-slate-blue",
+     "why": "Velveteen boyfriend blazer, slightly boxy and long, $143 from $529, sizes 6 to 18 only.",
+     "for_who": "Wants a dressy blazer, size 6-18",
+     "skip_if": "You wear 00 to 4, or a 20"
+    },
+    {
+     "handle": "hope-blueprint-sketch",
+     "why": "Machine-washable jersey wrap dress with three-quarter sleeves, $54 from $299, all six sizes.",
+     "for_who": "Wants a dress under $60",
+     "skip_if": "You don't want a print; final sale"
+    }
+   ]
+  }
+ ],
+ "close": "Tell me a store and I'll check if its sale is real.",
+ "caption": "Six sales I went through item by item.\nPrices checked Nov 26. Several are final sale.\nCommissionable links in bio.",
+ "comment_prompt": "Which store should I go through next?",
+ "recheck": [
+  "M.M.LaFleur prices: Theodora $111, Hope $54",
+  "alice + olivia Black Friday extra 30% (Nov 27-28) may change prices",
+  "Emme Parsons sizes left and exchange-only terms",
+  "End dates: most Dec 1, Emme Parsons Dec 2"
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "slug": "ends-dec1",
+ "hooks": [
+  "ANEMOS cowl neck mini dress: $345 down to $65. Ends tonight.",
+  "Hiperson leather knee boots, $324 to $162, in 15 of 16 sizes.",
+  "Daze City Straight jeans are $41 tonight, all 11 sizes."
+ ],
+ "brands": [
+  {
+   "brand": "Intentionally Blank",
+   "verdict": "Three boots at exactly 50% off with nearly full size runs, 5 to 12; return terms weren't listed.",
+   "say": "Hiperson knee boot, $162 from $324, leather with a kitten heel.",
+   "items": [
+    {
+     "handle": "hiperson-leather-knee-high-boot",
+     "why": "Super tall leather boot with a kitten heel and a sheen finish, half off.",
+     "for_who": "People who want a tall boot, low heel",
+     "skip_if": "You want matte leather; this one has sheen."
+    },
+    {
+     "handle": "filmore-suede-knee-boot",
+     "why": "Suede knee boot with a low heel and inside zip, $145, all 16 options in stock.",
+     "for_who": "Chocolate or black suede, sizes 5 to 12",
+     "skip_if": "You don't want to look after suede."
+    },
+    {
+     "handle": "scorpio-heeled-ankle-boot",
+     "why": "Leather ankle boot with what the brand calls a wearable heel, $134 from $268.",
+     "for_who": "Someone who needs one black ankle boot",
+     "skip_if": "You want cognac in an 11; it's gone."
+    }
+   ]
+  },
+  {
+   "brand": "Freja",
+   "verdict": "Sale colours run 50 to 60% off, deeper than the 25% sitewide headline, but they're final sale.",
+   "say": "Alma bag in black gloss, $168 from $358, a domed everyday bag.",
+   "items": [
+    {
+     "handle": "alma-bag-black-gloss",
+     "why": "Softly structured dome shape with rolled handles and metal feet, $190 off.",
+     "for_who": "Someone who wants one everyday handbag",
+     "skip_if": "You need the material spelled out; the listing doesn't."
+    },
+    {
+     "handle": "jane-bag-espresso",
+     "why": "Small barrel bag at 60% off, $108, sized for essentials only.",
+     "for_who": "Phone, keys and cards people",
+     "skip_if": "You carry more than the essentials."
+    },
+    {
+     "handle": "bleecker-tote-oat",
+     "why": "Zipped tote with four large pockets and a key leash, $198 from $398.",
+     "for_who": "Commuters who want a tote that zips",
+     "skip_if": "You're unsure on the colour; final sale."
+    }
+   ]
+  },
+  {
+   "brand": "Daze Denim",
+   "verdict": "All three are $41.30 from $118, which is 65% off, final sale, mostly in light washes.",
+   "say": "City high rise straight, $41 from $118, all 11 sizes in stock.",
+   "items": [
+    {
+     "handle": "city-straight-high-rise-straight-leg-1",
+     "why": "High rise straight leg with dark panels on a light wash, 99% cotton, every size.",
+     "for_who": "Two-tone denim fans, sizes 23 to 33",
+     "skip_if": "You want a plain single wash."
+    },
+    {
+     "handle": "cabana-wide-leg-pull-on-pant-charmed",
+     "why": "Pull-on wide leg with a drawstring waist and raw hem, in a light wash.",
+     "for_who": "People who'd rather skip a button waistband",
+     "skip_if": "You're a size 30; that one is gone."
+    },
+    {
+     "handle": "madison-mid-rise-wide-leg-3",
+     "why": "Mid rise wide leg in light blue rigid cotton, also with a drawstring, 32 inch inseam.",
+     "for_who": "Wide leg wearers who like rigid denim",
+     "skip_if": "You're a 30 or 33; both sold out."
+    }
+   ]
+  },
+  {
+   "brand": "ANEMOS",
+   "verdict": "The deepest markdown I found, 81% off the mini dress, but final sale with gaps in sizing.",
+   "say": "Cowl neck mini dress, $65 from $345, made in Los Angeles.",
+   "items": [
+    {
+     "handle": "cowl-neck-mini-dress-in-compact-jersey",
+     "why": "Lyocell stretch jersey made in Los Angeles; the neckline can go off the shoulder; $65.",
+     "for_who": "Black XS to L, Cypress S to XL",
+     "skip_if": "You're black XL or Cypress XS; final sale."
+    },
+    {
+     "handle": "ruched-off-the-shoulder-maxi-dress-in-compact-jersey",
+     "why": "Off-the-shoulder A-line maxi in the same jersey, machine washable, $165 from $365.",
+     "for_who": "Someone with a formal event coming up",
+     "skip_if": "You want Cypress or rose; few sizes left."
+    },
+    {
+     "handle": "wide-leg-pant-in-stretch-twill",
+     "why": "Pleated wide leg in stretch twill with a side zip, 70% off at $120.",
+     "for_who": "Black M, L or XXL; white has more",
+     "skip_if": "You need a small; sold out in both."
+    }
+   ]
+  },
+  {
+   "brand": "Marine Layer",
+   "verdict": "Half off the trench, about 40% off the coat and the cashmere, and all 5 sizes in stock on each.",
+   "say": "Hayes denim trench, $114 from $228, every size, final sale.",
+   "items": [
+    {
+     "handle": "hayes-denim-trench-coat",
+     "why": "Medium wash denim trench at half off, XS to XL in stock, tagged final sale.",
+     "for_who": "Someone who wants a denim coat",
+     "skip_if": "You might return it; it's final sale."
+    },
+    {
+     "handle": "colette-wool-peacoat-1",
+     "why": "Wool peacoat in a warm plaid, $100 off, all five sizes in stock.",
+     "for_who": "Plaid coat people, XS to XL",
+     "skip_if": "You need fabric percentages; the listing gave none."
+    },
+    {
+     "handle": "cloud-9-cashmere-sweater-5",
+     "why": "Cashmere sweater in lilac for $138 from $238, all five sizes.",
+     "for_who": "Anyone who'd actually wear lilac",
+     "skip_if": "You don't wear lilac."
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "verdict": "Sunglasses and earrings are a true 60% off; the watch is 30%, and everything is final sale.",
+   "say": "Vittoria sunglasses, $80 from $200, oversized brown aviators with a pouch.",
+   "items": [
+    {
+     "handle": "fashion-sunglasses-vittoria",
+     "why": "Oversized brown acetate aviators with tinted brown lenses, pouch and cloth included, $80.",
+     "for_who": "Aviator wearers who like a big frame",
+     "skip_if": "You can't try them on; final sale."
+    },
+    {
+     "handle": "alma-clip-on-earrings",
+     "why": "Clip-ons, so no piercing needed, in gold, silver or gold and black, $52.",
+     "for_who": "Anyone without pierced ears",
+     "skip_if": "Clip-ons bother your ears."
+    },
+    {
+     "handle": "the-icon-watch",
+     "why": "Leather strap, quartz movement, gold or silver plated steel dial, $196 from $280.",
+     "for_who": "A gift for someone who wears watches",
+     "skip_if": "You wanted 60% off; this is 30%."
+    }
+   ]
+  },
+  {
+   "brand": "Sterling Forever",
+   "verdict": "Sitewide is only 20% off; these three are 50 to 60% off, and the stones are cubic zirconia.",
+   "say": "Cecilia open ring, $84 from $208, sterling silver, sizes 5 to 10.",
+   "items": [
+    {
+     "handle": "sterling-silver-cecilia-cz-open-ring",
+     "why": "Two-band open ring, one side polished and one side CZ, 15 mm wide in total.",
+     "for_who": "Chunky ring people, silver or gold plated",
+     "skip_if": "You want a slim band; this is 15 mm."
+    },
+    {
+     "handle": "amelia-paperclip-cz-tennis-necklace",
+     "why": "Paperclip chain with a row of 2.5 mm CZs, adjustable 16 to 18 inches, $159.",
+     "for_who": "Someone who wants the tennis necklace look",
+     "skip_if": "You expect diamonds at $159; final sale."
+    },
+    {
+     "handle": "robyn-ribbed-ring",
+     "why": "8.5 mm ribbed band in sterling silver or gold plate, $94 from $224.",
+     "for_who": "Ring sizes 6 to 9 only",
+     "skip_if": "You want gold in an 8; sold out."
+    }
+   ]
+  }
+ ],
+ "close": "About 100 sales end tonight. I went through them. Follow for what's left.",
+ "caption": "Last call: these seven end tonight, Dec 1.\nMost are final sale. Check your size before you buy.\nCommissionable links in bio.",
+ "comment_prompt": "Boots, bags or denim: which one do you want a closer look at?",
+ "recheck": [
+  "ANEMOS sizes: patchy and moving",
+  "Marine Layer: product pages had no descriptions",
+  "Freja bags still in stock",
+  "Intentionally Blank return terms"
+ ]
+}

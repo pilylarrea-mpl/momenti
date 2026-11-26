@@ -1,0 +1,72 @@
+[
+ {
+  "slug": "once-a-year",
+  "hooks": [
+   "Five brands whose only or biggest sale is this week.",
+   "MERIT's only sale of the year is on now.",
+   "Past Midnight sunglasses: $275 to $109, their only sale."
+  ],
+  "caption": "Past Midnight, Margaux, MERIT, Jennifer Behr, Tatcha.\nEach says on its own site this is its only or biggest sale of the year.\nCommissionable links in bio.",
+  "comment_prompt": "Which brand do you wait all year for?"
+ },
+ {
+  "slug": "under-50",
+  "hooks": [
+   "Seven things under $50. The cheapest is $13.",
+   "MAKE Beauty lipstick, $26 down to $13. Six more follow.",
+   "Heaven Mayhem Luna bangle: $65 down to $26."
+  ],
+  "caption": "Seven things under $50, cheapest first, starting at $13.\nSome are final sale. It's on the slide.\nCommissionable links in bio.",
+  "comment_prompt": "What's your limit for a gift: $25 or $50?"
+ },
+ {
+  "slug": "i-counted",
+  "hooks": [
+   "BaubleBar says 30% off. 578 pieces are half off.",
+   "Jet Set Candy: 74 of 1,920 pieces reach 50% off.",
+   "Five stores' sale claims, checked against 8,906 items."
+  ],
+  "caption": "I counted five stores' catalogs against their sale claims.\nBaubleBar and Daze go deeper than they advertise. Jet Set Candy rarely reaches 50%.\nCommissionable links in bio.",
+  "comment_prompt": "Which store's sale should I count next?"
+ },
+ {
+  "slug": "codes",
+  "hooks": [
+   "17 promo codes I confirmed on the brands' own sites.",
+   "Vince: 25% off almost everything with code BFCM.",
+   "Past Midnight's only sale: 25% off with THESEASON."
+  ],
+  "caption": "17 codes, each one seen on the brand's own site on Nov 26.\nEnd dates differ. A few apply to select styles only.\nCommissionable links in bio.",
+  "comment_prompt": "Got a code that didn't work? Tell me which one."
+ },
+ {
+  "slug": "dollar-drops",
+  "hooks": [
+   "$718 off one alice + olivia jacket. Ranked by dollars saved.",
+   "Seven pieces ranked by dollars off, starting at $718.",
+   "Jenni Kayne Olivia coat: $1,025 down to $513."
+  ],
+  "caption": "Ranked by dollars saved, biggest first.\nThe top one is $718 off and still costs $1,077.\nCommissionable links in bio.",
+  "comment_prompt": "Percent off or dollars off: which do you look at?"
+ },
+ {
+  "slug": "red-outfit",
+  "hooks": [
+   "One red holiday outfit: $1,658 down to $871.",
+   "Five sales, one outfit, $787 off in total.",
+   "Alexandra Miro red dress, $380 down to $152."
+  ],
+  "caption": "Dress, shoes, earrings, bag, sunglasses, from five different sales.\n$1,658 down to $871. The dress is final sale.\nCommissionable links in bio.",
+  "comment_prompt": "Want this outfit in black? Comment black."
+ },
+ {
+  "slug": "gifts-under-25",
+  "hooks": [
+   "11 gifts under $25. The cheapest is $16.",
+   "BaubleBar bangle set of three: $88 down to $16.",
+   "An $85 Hanky Panky satin sleep tee is $24.99."
+  ],
+  "caption": "Eleven gifts under $25, from $16.\nSeveral are final sale, so know the size before you buy.\nCommissionable links in bio.",
+  "comment_prompt": "Who's the hardest person on your list to buy for?"
+ }
+]

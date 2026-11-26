@@ -1,0 +1,25 @@
+{
+ "slug": "one-thing-boots",
+ "hooks": [
+  "This leather knee boot is $162. It was $324.",
+  "Half off a leather knee boot, 15 of 16 sizes.",
+  "Hiperson knee high boot: $324 down to $162 until Dec 1."
+ ],
+ "reasons": [
+  "$162, was $324: exactly half off",
+  "Leather, knee high, kitten heel",
+  "Black in every size, 5 to 12"
+ ],
+ "caveat": "Sheen finish; Merlot is sold out in size 5",
+ "for_who": "Anyone who wants a tall boot with a low heel",
+ "skip_if": "You want matte leather, or wear a half size.",
+ "say": "Hiperson knee high boot. Leather, kitten heel, was $324, now $162. Black is in stock in every size from 5 to 12. Whole sizes only. Sale ends December 1.",
+ "close": "I post one piece a day that's worth the money. Follow.",
+ "caption": "Hiperson knee high boot, $162 from $324.\nBlack in every size. Sale ends Dec 1.\nCommissionable links in bio.",
+ "comment_prompt": "Black or merlot?",
+ "recheck": [
+  "Merlot size 5 still out",
+  "Return terms on sale boots",
+  "End date Dec 1"
+ ]
+}

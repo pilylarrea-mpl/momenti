@@ -1,0 +1,283 @@
+{
+ "slug": "jewelry",
+ "title": "Jewelry",
+ "sub": "Six jewelry brands with real markdowns of up to 75% on pieces worth wearing.",
+ "brands": [
+  {
+   "brand": "BaubleBar",
+   "host": "baublebar.com",
+   "deal": "Sale styles up to 82% off",
+   "code": null,
+   "final_sale": null,
+   "say": "The 18K gold plated Alice necklace was $198, now $68. Pav\u00e9 Gracie hoops were $98, now $35. The Cece cuff is half off at $77.",
+   "why_not": "These are sale-section markdowns; homepage also advertises 30% off sitewide, not confirmed to stack. Alice necklace carries a final-sale tag.",
+   "items": [
+    {
+     "handle": "eliana-necklace-clear-gold",
+     "name": "Alice Pearl Necklace",
+     "img": 1,
+     "hero": true,
+     "was": 198.0,
+     "now": 68.0,
+     "av": "1/1",
+     "note": "66% off, pav\u00e9 tennis-style chain with pearl drops; on-model shot looks expensive",
+     "off": 66
+    },
+    {
+     "handle": "natasha-earrings-clear-gold",
+     "name": "Gracie Pav\u00e9 Hoops",
+     "img": 1,
+     "hero": false,
+     "was": 98.0,
+     "now": 35.0,
+     "av": "1/1",
+     "note": "64% off, chunky pav\u00e9 teardrop hoop, on-trend shape",
+     "off": 64
+    },
+    {
+     "handle": "vanessa-bracelet-gold",
+     "name": "Cece Twist Cuff",
+     "img": 0,
+     "hero": false,
+     "was": 158.0,
+     "now": 77.0,
+     "av": "1/1",
+     "note": "51% off, sculptural gold cuff, clean product shot",
+     "off": 51
+    }
+   ]
+  },
+  {
+   "brand": "Bryan Anthonys",
+   "host": "bryananthonys.com",
+   "deal": "Up to 84% off, from $12",
+   "code": null,
+   "final_sale": null,
+   "say": "Now & Then pearl drop hoops were $78, now $26. The Layers of You bangle stack was $74, now $26. Moment necklace $88 down to $29.",
+   "why_not": "First photo of every item is a text card, so use img 1 (on-model). Homepage headline offer is BOGO free sitewide; catalog markdowns are separate. Pieces are dainty.",
+   "items": [
+    {
+     "handle": "now-then-earrings",
+     "name": "Pearl Drop Hoops",
+     "img": 1,
+     "hero": true,
+     "was": 78.0,
+     "now": 26.0,
+     "av": "2/2",
+     "note": "67% off, gold huggie with pearl drop, both metals in stock",
+     "img2": -1,
+     "pos": "50% 35%",
+     "off": 67
+    },
+    {
+     "handle": "layers-of-you-bracelet-stack",
+     "name": "Gold Bangle Stack",
+     "img": 1,
+     "hero": false,
+     "was": 74.0,
+     "now": 26.0,
+     "av": "2/2",
+     "note": "65% off, stacked gold bangles, different category",
+     "img2": -1,
+     "pos": "50% 35%",
+     "off": 65
+    },
+    {
+     "handle": "moment-necklace",
+     "name": "Moment Necklace",
+     "img": 1,
+     "hero": false,
+     "was": 88.0,
+     "now": 29.0,
+     "av": "2/2",
+     "note": "67% off, dainty curved crystal bar necklace",
+     "img2": -1,
+     "pos": "50% 35%",
+     "off": 67
+    }
+   ]
+  },
+  {
+   "brand": "Sterling Forever",
+   "host": "sterlingforever.com",
+   "deal": "Sale up to 83% off",
+   "code": null,
+   "final_sale": true,
+   "say": "The Am\u00e9lia CZ tennis necklace was $318, now $159. Robyn ribbed sterling silver ring $224 down to $94. Paperclip chain bracelet half off at $121.",
+   "why_not": "Higher price points than the other brands. Necklace and bracelet are tagged final sale. Homepage headline is only 20% off sitewide.",
+   "items": [
+    {
+     "handle": "amelia-paperclip-cz-tennis-necklace",
+     "name": "Am\u00e9lia Tennis Necklace",
+     "img": 1,
+     "hero": true,
+     "was": 318.0,
+     "now": 159.0,
+     "av": "2/2",
+     "note": "50% off, $159 saved; graduated CZ tennis necklace reads as fine jewelry",
+     "img2": -1,
+     "pos": "50% 35%",
+     "off": 50
+    },
+    {
+     "handle": "robyn-ribbed-ring",
+     "name": "Robyn Ribbed Ring",
+     "img": 1,
+     "hero": false,
+     "was": 224.0,
+     "now": 94.0,
+     "av": "7/8",
+     "note": "58% off, chunky ribbed sterling band, 7 of 8 sizes in stock",
+     "img2": -1,
+     "pos": "50% 35%",
+     "off": 58
+    },
+    {
+     "handle": "sterling-silver-large-elongated-paperclip-chain-bracelet",
+     "name": "Paperclip Bracelet",
+     "img": 1,
+     "hero": false,
+     "was": 242.0,
+     "now": 121.0,
+     "av": "4/4",
+     "note": "50% off, gold paperclip chain, nice on-wrist shot",
+     "img2": -1,
+     "pos": "50% 35%",
+     "off": 50
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "host": "heavenmayhem.com",
+   "deal": "Up to 60% off sitewide",
+   "code": null,
+   "final_sale": true,
+   "say": "The Bean Gold earrings were $100, now $40. Gigi pearl earrings $90 down to $36. Isla shell necklace $100, now $40. All final sale.",
+   "why_not": "All items are final sale. Isla necklace has only the cream colour left (1 of 2). Gaze Choker excluded: only 20% off.",
+   "items": [
+    {
+     "handle": "bean-earrings-gold-statement-earrings",
+     "name": "Bean Gold Earrings",
+     "img": 1,
+     "hero": true,
+     "was": 100.0,
+     "now": 40.0,
+     "av": "1/1",
+     "note": "60% off, the brand's signature chunky gold dome earring, strong on-model photo",
+     "off": 60
+    },
+    {
+     "handle": "isla-necklace",
+     "name": "Isla bead necklace",
+     "img": 1,
+     "hero": false,
+     "was": 100.0,
+     "now": 40.0,
+     "av": "1/2",
+     "note": "60% off, cream shell-bead collar, striking on-model shot",
+     "off": 60
+    },
+    {
+     "handle": "gigi-statement-earrings",
+     "name": "Gigi Pearl Earrings",
+     "img": 1,
+     "hero": false,
+     "was": 90.0,
+     "now": 36.0,
+     "av": "1/1",
+     "note": "60% off, vintage-style gold rope and pearl button earring",
+     "off": 60
+    }
+   ]
+  },
+  {
+   "brand": "Miranda Frye",
+   "host": "mirandafrye.com",
+   "deal": "Sale styles up to 73% off",
+   "code": null,
+   "final_sale": null,
+   "say": "The Gia cuff was $150, now $40. Amour heart earrings $116 down to $58. Estelle chain necklace $154, now $94.",
+   "why_not": "Small sale section (56 items). Estelle necklace is 39% off, the smallest discount in the edit. Homepage BFCM offer is 20-25% off, separate from these markdowns.",
+   "items": [
+    {
+     "handle": "gia-cuff-gold",
+     "name": "Gia Gold Cuff",
+     "img": 1,
+     "hero": true,
+     "was": 150.0,
+     "now": 40.0,
+     "av": "2/2",
+     "note": "73% off, textured gold hinge cuff, biggest drop at the brand",
+     "off": 73
+    },
+    {
+     "handle": "amour-earrings-gold",
+     "name": "Amour Heart Earrings",
+     "img": 0,
+     "hero": false,
+     "was": 116.0,
+     "now": 58.0,
+     "av": "1/1",
+     "note": "50% off, sculpted fluted heart statement earring",
+     "off": 50
+    },
+    {
+     "handle": "estelle-necklace-gold",
+     "name": "Estelle Chain Necklace",
+     "img": 1,
+     "hero": false,
+     "was": 154.0,
+     "now": 94.0,
+     "av": "2/2",
+     "note": "39% off, chunky braided gold chain that looks expensive",
+     "off": 39
+    }
+   ]
+  },
+  {
+   "brand": "Loren Hope",
+   "host": "lorenhope.com",
+   "deal": "30% off sitewide, to 75%",
+   "code": null,
+   "final_sale": true,
+   "say": "Elena crystal statement earrings were $198, now $49. Manon crystal slider necklace $198 down to $79. Islaine gemstone necklace half off at $114.",
+   "why_not": "Maximalist, occasion-style jewelry, less everyday than the other brands. These three are tagged final sale and are single-variant.",
+   "items": [
+    {
+     "handle": "elena-statement-earrings-in-crystal",
+     "name": "Elena Crystal Earrings",
+     "img": 1,
+     "hero": true,
+     "was": 198.0,
+     "now": 49.0,
+     "av": "1/1",
+     "note": "75% off, crystal chandelier earrings for party season",
+     "off": 75
+    },
+    {
+     "handle": "manon-slider-necklace-in-jet",
+     "name": "Manon Slider Necklace",
+     "img": 1,
+     "hero": false,
+     "was": 198.0,
+     "now": 79.2,
+     "av": "1/1",
+     "note": "60% off, jet crystal tennis-style slider necklace",
+     "off": 60
+    },
+    {
+     "handle": "islaine-necklace",
+     "name": "Islaine Necklace",
+     "img": 1,
+     "hero": false,
+     "was": 228.0,
+     "now": 114.0,
+     "av": "1/1",
+     "note": "50% off, pearl and multi-stone collar, pretty on-model shot",
+     "off": 50
+    }
+   ]
+  }
+ ]
+}

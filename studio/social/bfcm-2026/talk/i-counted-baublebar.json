@@ -1,0 +1,18 @@
+{
+ "slug": "i-counted-baublebar",
+ "hooks": [
+  "BaubleBar says 30% off. I counted 578 pieces at half off.",
+  "434 BaubleBar pieces are 60% off or more. I counted.",
+  "Alice necklace, $198 to $68. BaubleBar's banner says 30%."
+ ],
+ "say": "BaubleBar's banner says 30% off sitewide. I counted the catalog: 4,771 pieces in stock, 578 at half off or more, 434 at 60% or more. Three of them: Alice necklace, $68 from $198. Gracie hoops, $35. Cece cuff, $77.",
+ "close": "Tell me a store and I'll count it next. Follow.",
+ "caption": "BaubleBar advertises 30% off. 578 pieces are at 50% or more.\nThe Alice necklace is tagged final sale.\nCommissionable links in bio.",
+ "comment_prompt": "Name a store and I'll count its sale next.",
+ "recheck": [
+  "Counts are from the Nov 26 catalog",
+  "Does 30% sitewide stack on sale prices",
+  "Alice necklace final sale tag",
+  "Stones are cubic zirconia"
+ ]
+}

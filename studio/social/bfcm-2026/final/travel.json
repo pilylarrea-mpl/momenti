@@ -1,0 +1,205 @@
+{
+ "slug": "travel",
+ "title": "Travel",
+ "sub": "Weekenders, flats, sunglasses and swim. Five sales worth packing for.",
+ "brands": [
+  {
+   "brand": "Rothy's",
+   "host": "rothys.com",
+   "deal": "Up to 40% off sitewide",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "womens-double-bit-driver-sesame",
+     "name": "Double Bit driver",
+     "img": 0,
+     "hero": true,
+     "was": 195.0,
+     "now": 119.0,
+     "off": 39,
+     "av": "17/17"
+    },
+    {
+     "handle": "the-almond-loafer-black",
+     "name": "Almond loafer",
+     "img": 1,
+     "hero": false,
+     "was": 180.0,
+     "now": 99.0,
+     "off": 45,
+     "av": "12/17"
+    },
+    {
+     "handle": "the-lightweight-tote",
+     "name": "Lightweight tote",
+     "img": 0,
+     "hero": false,
+     "was": 150.0,
+     "now": 109.0,
+     "off": 27,
+     "av": "5/6"
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "host": "heavenmayhem.com",
+   "deal": "30% off travel cases",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "vintage-jewelry-travel-case",
+     "name": "Vintage jewelry case",
+     "img": 0,
+     "hero": true,
+     "was": 110.0,
+     "now": 77.0,
+     "off": 30,
+     "av": "1/1"
+    },
+    {
+     "handle": "jewelry-travel-case",
+     "name": "Jewelry travel case",
+     "img": 0,
+     "hero": false,
+     "was": 90.0,
+     "now": 63.0,
+     "off": 30,
+     "av": "2/2"
+    },
+    {
+     "handle": "fashion-sunglasses-vittoria",
+     "name": "Vittoria glasses",
+     "img": 0,
+     "hero": false,
+     "was": 200.0,
+     "now": 80.0,
+     "off": 60,
+     "av": "1/1"
+    }
+   ]
+  },
+  {
+   "brand": "Past Midnight",
+   "host": "pastmidnight.com",
+   "deal": "Only sale of the year",
+   "code": "THESEASON",
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "the-flare-blue-gradient",
+     "name": "The Flare, blue",
+     "img": 1,
+     "hero": true,
+     "was": 275.0,
+     "now": 109,
+     "off": 47,
+     "av": "1/1",
+     "now_override": 109
+    },
+    {
+     "handle": "the-frame-garnet",
+     "name": "The Frame",
+     "img": 0,
+     "hero": false,
+     "was": 225.0,
+     "now": 101.25,
+     "off": 40,
+     "av": "1/1",
+     "now_override": 101.25
+    },
+    {
+     "handle": "the-flare-amber-gradient",
+     "name": "The Flare, amber",
+     "img": 1,
+     "hero": false,
+     "now_override": 109,
+     "was": 275.0,
+     "now": 109,
+     "off": 47,
+     "av": "1/1"
+    }
+   ]
+  },
+  {
+   "brand": "Jet Set Candy",
+   "host": "jetsetcandy.com",
+   "deal": "Up to 50% off",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "silver-trunk-suitcase-charm-stickers",
+     "name": "Suitcase charm",
+     "img": 0,
+     "hero": true,
+     "was": 98.0,
+     "now": 58.0,
+     "off": 41,
+     "av": "1/1"
+    },
+    {
+     "handle": "new-york-jfk-charm-silver-mini",
+     "name": "JFK tag charm",
+     "img": 0,
+     "hero": false,
+     "was": 38.0,
+     "now": 22.0,
+     "off": 42,
+     "av": "1/1"
+    },
+    {
+     "handle": "paris-france-cdg-charm-silver-mini",
+     "name": "Paris CDG charm",
+     "img": 0,
+     "hero": false,
+     "was": 38.0,
+     "now": 22.0,
+     "off": 42,
+     "av": "1/1"
+    }
+   ]
+  },
+  {
+   "brand": "Alexandra Miro",
+   "host": "alexandramiro.com",
+   "deal": "Swim 60% off",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "vienna-swimsuit-scarf-print",
+     "name": "Vienna swimsuit",
+     "img": 0,
+     "hero": true,
+     "was": 245.0,
+     "now": 98.0,
+     "off": 60,
+     "av": "5/5"
+    },
+    {
+     "handle": "willow-swimsuit-scarf-print",
+     "name": "Willow swimsuit",
+     "img": 0,
+     "hero": false,
+     "was": 260.0,
+     "now": 104.0,
+     "off": 60,
+     "av": "5/5"
+    },
+    {
+     "handle": "sophia-dress-scarf-print",
+     "name": "Sophia mini dress",
+     "img": 0,
+     "hero": false,
+     "was": 480.0,
+     "now": 192.0,
+     "off": 60,
+     "av": "5/5"
+    }
+   ]
+  }
+ ]
+}

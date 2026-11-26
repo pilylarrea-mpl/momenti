@@ -57,3 +57,14 @@ def sheet(h,handles,name,nimg=2,cell=280):
     cols=6; S=Image.new('RGB',(cols*cell,max(1,(len(tiles)+cols-1)//cols)*(cell+34)),'white')
     for k,t in enumerate(tiles): S.paste(t,((k%cols)*cell,(k//cols)*(cell+34)))
     out=f'{SP}/sheets/{name}.jpg'; S.save(out,quality=80); print(out,len(tiles)); return out
+
+def detail(host,handle):
+    """Full product record: title, type, vendor, tags, description text, options, per-variant (name, price, original, in stock)."""
+    import html
+    for f in glob.glob(f'{D}crawl/{host}.*.json'):
+        try: P=json.load(open(f)).get('products',[])
+        except Exception: continue
+        for p in P:
+            if p['handle']==handle:
+                t=html.unescape(re.sub(r'<[^>]+>',' ',p.get('body_html') or '')); t=re.sub(r'\s+',' ',t).strip()
+                return dict(title=p['title'],type=p.get('product_type'),vendor=p.get('vendor'),tags=p.get('tags'),description=t[:2500],options=[(o['name'],o['values'][:16]) for o in p.get('options',[])],variants=[(v['title'],v['price'],v.get('compare_at_price'),v['available']) for v in p['variants'][:60]])

@@ -1,0 +1,124 @@
+{
+ "slug": "home",
+ "title": "Home",
+ "sub": "Linen, sheets and robes. Three sales with real markdowns.",
+ "brands": [
+  {
+   "brand": "Piglet in Bed",
+   "host": "us.pigletinbed.com",
+   "deal": "Up to 60% off, by size",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "pine-green-pembroke-gingham-linen-blend-duvet-cover",
+     "name": "Gingham duvet, twin",
+     "img": 1,
+     "hero": true,
+     "was": 249.0,
+     "now": 149.0,
+     "off": 40,
+     "av": "3/3"
+    },
+    {
+     "handle": "berry-heritage-gingham-100-linen-duvet-cover",
+     "name": "Berry duvet, queen",
+     "img": 1,
+     "hero": false,
+     "was": 339.0,
+     "now": 203.0,
+     "off": 40,
+     "av": "2/2"
+    },
+    {
+     "handle": "sage-green-linen-duvet-cover",
+     "name": "Sage duvet, twin",
+     "img": 1,
+     "hero": false,
+     "was": 229.0,
+     "now": 91.0,
+     "off": 60,
+     "av": "3/3"
+    }
+   ]
+  },
+  {
+   "brand": "Brooklinen",
+   "host": "brooklinen.com",
+   "deal": "40% off last call",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "luxe-core-sheet-set-last-call",
+     "name": "Luxe sateen sheets",
+     "img": 1,
+     "hero": true,
+     "was": 169.0,
+     "now": 101.4,
+     "off": 40,
+     "av": "38/72"
+    },
+    {
+     "handle": "super-plush-robe-last-call",
+     "name": "Super-Plush robe",
+     "img": 0,
+     "hero": false,
+     "was": 139.0,
+     "now": 83.4,
+     "off": 40,
+     "av": "11/18"
+    },
+    {
+     "handle": "weekend-wash-throw-blanket-last-call",
+     "name": "Weekend throw",
+     "img": 0,
+     "hero": false,
+     "was": 149.0,
+     "now": 89.4,
+     "off": 40,
+     "av": "4/4"
+    }
+   ]
+  },
+  {
+   "brand": "Parachute",
+   "host": "parachutehome.com",
+   "deal": "Up to 60% off",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "organic-cloud-cotton-duvet-cover-set-white",
+     "name": "Cloud cotton duvet set",
+     "img": 1,
+     "hero": true,
+     "was": 299.0,
+     "now": 119.6,
+     "off": 60,
+     "av": "2/2"
+    },
+    {
+     "handle": "classic-knit-alpaca-throw-charcoal",
+     "name": "Alpaca throw",
+     "img": 1,
+     "hero": false,
+     "was": 329.0,
+     "now": 197.4,
+     "off": 40,
+     "av": "1/1"
+    },
+    {
+     "handle": "soft-spun-cotton-throw-natural",
+     "name": "Cotton throw",
+     "img": 1,
+     "hero": false,
+     "was": 179.0,
+     "now": 98.45,
+     "off": 45,
+     "av": "1/1"
+    }
+   ]
+  }
+ ]
+}

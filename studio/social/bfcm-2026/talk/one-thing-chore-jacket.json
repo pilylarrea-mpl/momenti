@@ -1,0 +1,25 @@
+{
+ "slug": "one-thing-chore-jacket",
+ "hooks": [
+  "Pistola's Karlee chore jacket: $258 down to $90.",
+  "65% off a denim chore jacket, every size in stock.",
+  "A $258 denim jacket for $90, until Nov 30."
+ ],
+ "reasons": [
+  "$90.30, was $258: 65% off",
+  "100% cotton denim, no stretch",
+  "All five sizes in stock, XS to XL"
+ ],
+ "caveat": "Final sale, so no returns if the fit is off",
+ "for_who": "Anyone who wants a structured denim jacket",
+ "skip_if": "You want stretch, or you're between sizes.",
+ "say": "Pistola Karlee chore jacket. Non-stretch cotton denim, outer pockets, was $258, now $90. All five sizes in stock. Final sale, ends November 30.",
+ "close": "Follow for one piece a day, with the catch included.",
+ "caption": "Karlee chore jacket, $90 from $258.\nFinal sale. Ends Nov 30.\nCommissionable links in bio.",
+ "comment_prompt": "Would you size up in a non-stretch jacket?",
+ "recheck": [
+  "Ends Nov 30",
+  "All five sizes still in",
+  "Final sale tag"
+ ]
+}

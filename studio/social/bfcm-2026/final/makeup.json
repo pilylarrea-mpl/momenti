@@ -1,0 +1,163 @@
+{
+ "slug": "makeup",
+ "title": "Beauty",
+ "sub": "Four beauty sales: makeup at half off, and one that happens once a year.",
+ "brands": [
+  {
+   "brand": "MAKE Beauty",
+   "host": "makebeauty.com",
+   "deal": "Up to 50% off sitewide",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "cream-supreme",
+     "name": "Cream Supreme lipstick",
+     "img": 0,
+     "hero": true,
+     "was": 26.0,
+     "now": 13.0,
+     "off": 50,
+     "av": "12/12"
+    },
+    {
+     "handle": "heat-stroke",
+     "name": "Heat Stroke gel tint",
+     "img": 0,
+     "hero": false,
+     "was": 30.0,
+     "now": 15.0,
+     "off": 50,
+     "av": "8/8"
+    },
+    {
+     "handle": "lash-prototype-volumizing-mascara",
+     "name": "Lash Prototype",
+     "img": 0,
+     "hero": false,
+     "was": 26.0,
+     "now": 13.0,
+     "off": 50,
+     "av": "1/1"
+    }
+   ]
+  },
+  {
+   "brand": "MERIT",
+   "host": "meritbeauty.com",
+   "deal": "Only sale of the year",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "the-signature-lip-trio",
+     "name": "Erdem lip trio",
+     "img": 0,
+     "hero": true,
+     "was": 84.0,
+     "now": 62.0,
+     "off": 26,
+     "av": "1/1"
+    },
+    {
+     "handle": "signature-lip",
+     "name": "Signature lipstick",
+     "img": 0,
+     "hero": false,
+     "was": 28.0,
+     "now": 22.4,
+     "off": 20,
+     "av": "11/16"
+    },
+    {
+     "handle": "signature-lip-liner",
+     "name": "Signature lip liner",
+     "img": 0,
+     "hero": false,
+     "was": 24.0,
+     "now": 16.8,
+     "off": 30,
+     "av": "14/14"
+    }
+   ]
+  },
+  {
+   "brand": "Chantecaille",
+   "host": "chantecaille.com",
+   "deal": "Archive 40% off",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "radiance-elixir",
+     "name": "Radiance Elixir",
+     "img": 0,
+     "hero": true,
+     "was": 225.0,
+     "now": 135.0,
+     "off": 40,
+     "av": "1/1"
+    },
+    {
+     "handle": "cheek-light-blush-eclat-cristalline",
+     "name": "Cheek Light blush",
+     "img": 0,
+     "hero": false,
+     "was": 105.0,
+     "now": 63.0,
+     "off": 40,
+     "av": "1/1"
+    },
+    {
+     "handle": "flamingo-lip-chic-guava",
+     "name": "Flamingo Lip Chic",
+     "img": 0,
+     "hero": false,
+     "was": 55.0,
+     "now": 33.0,
+     "off": 40,
+     "av": "1/1"
+    }
+   ]
+  },
+  {
+   "brand": "Tatcha",
+   "host": "tatcha.com",
+   "deal": "Gift sets up to 32% off",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "the-starter-ritual-firming-and-smoothing-set",
+     "name": "Starter Ritual set",
+     "img": 0,
+     "hero": true,
+     "was": 140.0,
+     "now": 95.0,
+     "off": 32,
+     "av": "1/1"
+    },
+    {
+     "handle": "am-pm-moisture-duo-gift-set",
+     "name": "AM/PM Moisture duo",
+     "img": 0,
+     "hero": false,
+     "was": 168.0,
+     "now": 126.0,
+     "off": 25,
+     "av": "2/2"
+    },
+    {
+     "handle": "dewy-glow-protect-set",
+     "name": "Dewy Glow set",
+     "img": 0,
+     "hero": false,
+     "was": 164.0,
+     "now": 123.0,
+     "off": 25,
+     "av": "2/2"
+    }
+   ]
+  }
+ ]
+}

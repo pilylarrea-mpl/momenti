@@ -1,0 +1,67 @@
+[
+ {
+  "slug": "one-thing-boots",
+  "brand": "Intentionally Blank",
+  "host": "intentionallyblank.us",
+  "handle": "hiperson-leather-knee-high-boot",
+  "name": "Hiperson Knee Boot",
+  "imgs": [
+   0,
+   1,
+   2
+  ],
+  "ends_txt": "Dec 1"
+ },
+ {
+  "slug": "one-thing-eyelet-dress",
+  "brand": "M.M.LaFleur",
+  "host": "mmlafleur.com",
+  "handle": "theodora-black",
+  "name": "Theodora Eyelet Dress",
+  "imgs": [
+   0,
+   2,
+   1
+  ],
+  "ends_txt": "soon: no end date posted"
+ },
+ {
+  "slug": "one-thing-alma-bag",
+  "brand": "Freja",
+  "host": "frejanyc.com",
+  "handle": "alma-bag-black-gloss",
+  "name": "Alma Bag, Black Gloss",
+  "imgs": [
+   0,
+   2,
+   1
+  ],
+  "ends_txt": "Dec 1"
+ },
+ {
+  "slug": "one-thing-mary-jane",
+  "brand": "FR\u0112DA SALVADOR",
+  "host": "fredasalvador.com",
+  "handle": "laurel-leopard-mesh",
+  "name": "Laurel Mesh Mary Jane",
+  "imgs": [
+   0,
+   1,
+   3
+  ],
+  "ends_txt": "Dec 2"
+ },
+ {
+  "slug": "one-thing-chore-jacket",
+  "brand": "Pistola Denim",
+  "host": "pistoladenim.com",
+  "handle": "karlee-chore-jacket",
+  "name": "Karlee Chore Jacket",
+  "imgs": [
+   0,
+   1,
+   2
+  ],
+  "ends_txt": "Nov 30"
+ }
+]

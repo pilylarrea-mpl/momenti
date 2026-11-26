@@ -3,20 +3,20 @@ import sys,os,json
 sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from vid2 import *
 XCSS='''<style>
-.cl{position:absolute;left:72px;right:72px;top:250px}
+.cl{position:absolute;left:72px;right:72px;top:320px}
 .cl .who{font-family:'Inter Tight';font-weight:700;font-size:34px;letter-spacing:.18em;text-transform:uppercase;color:var(--acc)}
 .cl .q{font-family:'Bodoni Moda';font-style:italic;font-size:150px;line-height:.95;margin-top:14px}
 .cl .q.sm{font-size:84px;font-style:normal;line-height:1.02}
-.big{position:absolute;left:72px;top:520px;font-family:'Bodoni Moda';font-size:250px;line-height:.9;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.big{position:absolute;left:72px;top:580px;font-family:'Bodoni Moda';font-size:250px;line-height:.9;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
 .big small{font-size:70px;letter-spacing:-.01em}
-.what{position:absolute;left:72px;right:72px;top:770px;font-family:Newsreader;font-size:46px;line-height:1.2;color:#3d3832}
-.dots{position:absolute;left:72px;top:930px;width:936px;display:flex;flex-wrap:wrap;gap:7px}
+.what{position:absolute;left:72px;right:72px;top:820px;font-family:Newsreader;font-size:46px;line-height:1.2;color:#3d3832}
+.dots{position:absolute;left:72px;top:960px;width:936px;display:flex;flex-wrap:wrap;gap:7px}
 .dots i{width:24.4px;height:24.4px;border-radius:50%;border:2px solid rgba(28,26,24,.3)}
 .dots i.on{background:var(--acc);border-color:var(--acc)}
-.foot{position:absolute;left:72px;top:1500px;font-family:'Inter Tight';font-weight:600;font-size:22px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.shot{position:absolute;left:0;top:0;width:1080px;height:1130px;object-fit:cover}
+.foot{position:absolute;left:72px;top:1530px;font-family:'Inter Tight';font-weight:600;font-size:22px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.shot{position:absolute;left:0;top:0;width:1080px;height:1100px;object-fit:cover}
 .shotp{position:absolute;left:90px;top:230px;width:900px;height:860px;object-fit:contain;mix-blend-mode:multiply}
-.sp{position:absolute;left:72px;right:120px;top:1170px}
+.sp{position:absolute;left:72px;right:130px;top:1130px}
 .sp .br{font-family:'Inter Tight';font-weight:700;font-size:26px;letter-spacing:.2em;text-transform:uppercase;color:var(--acc)}
 .sp h2{font-family:'Bodoni Moda';font-weight:400;font-size:66px;line-height:1.02;margin:10px 0 14px}
 .pr{display:flex;align-items:baseline;gap:24px}
@@ -40,7 +40,7 @@ def counted(spec):
     b=spec; its=[item(b['host'],x) for x in b['items']]; its.sort(key=lambda x:not x['hero'])
     for st in range(4):
         h=f'''{hd(84)}<body>{kick}{tile(its[0],'hero',st>=1)}<div class="pick {'on' if st>=1 else ''}">The one I'd buy</div>
-        <div class=mid><div class=num>from the {cnt:,}</div><div class=b>{esc(spec.get("mid","Three worth it"))}</div><div class=d>{esc(spec["brand"])}</div><div class="c no">{esc(spec.get("terms","No code needed"))}</div></div>{tile(its[1],'s1',st>=2)}{tile(its[2],'s2',st>=3)}</body>'''
+        <div class=mid><div class=num style="display:block;font-family:'Bodoni Moda';font-style:italic;font-size:38px;color:var(--acc)">from the {cnt:,}</div><div class=b>{esc(spec.get("mid","Three worth it"))}</div><div class=d>{esc(spec["brand"])}</div><div class="c no">{esc(spec.get("terms","No code needed"))}</div></div>{tile(its[1],'s1',st>=2)}{tile(its[2],'s2',st>=3)}</body>'''
         frames.append((h,[0.4,0.5,0.32,3.2][st],'whoosh' if st==0 else f'pop{st}'))
     frames.append((f'{hd(100,140)}<body>{kick}<div class=ti><div class=a>Next</div><div class="ser h">{spec["next"]}</div><div class=s>Tell me a store and I\'ll count it.</div></div></body>',2.6,'whoosh'))
     render(frames,spec['slug'],[0,card,len(frames)-2])

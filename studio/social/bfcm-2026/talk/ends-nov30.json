@@ -1,0 +1,119 @@
+{
+ "slug": "ends-nov30",
+ "hooks": [
+  "Pistola's $258 Karlee chore jacket is $90 until midnight.",
+  "Harper Wilde pima pajama shirt: $29, was $58, ends tonight.",
+  "Pistola Cassie jeans, $94 from $188, in all 11 sizes."
+ ],
+ "brands": [
+  {
+   "brand": "Pistola Denim",
+   "verdict": "Best of the four: 50 to 65% off with every size in stock, though all three are final sale.",
+   "say": "Karlee chore jacket, $90 from $258, non-stretch cotton denim, every size.",
+   "items": [
+    {
+     "handle": "karlee-chore-jacket",
+     "why": "100% non-stretch cotton denim with outer pockets, 65% off, XS to XL in stock.",
+     "for_who": "Anyone who layers a denim jacket",
+     "skip_if": "You want stretch; final sale."
+    },
+    {
+     "handle": "cassie-super-high-rise-straight-savvy-vintage",
+     "why": "Rigid super high rise straight leg, 31 inch inseam, button fly, half off in all 11 sizes.",
+     "for_who": "Rigid denim people, sizes 23 to 33",
+     "skip_if": "You dislike distressing or a raw hem."
+    },
+    {
+     "handle": "ilona-bubble-hem-dress-peacoat",
+     "why": "Dark blue dress with a fitted bodice and bubble hem, $62 from $178, XS to XL.",
+     "for_who": "Someone with a party to dress for",
+     "skip_if": "You can't try it on first; final sale."
+    }
+   ]
+  },
+  {
+   "brand": "Odd Muse",
+   "verdict": "UK store priced in pounds; blazer is half off in all 8 sizes; sheet lists the sale through Dec 31.",
+   "say": "Wool Mix Tweed Blazer, 127.50 pounds from 255, all eight sizes in stock.",
+   "items": [
+    {
+     "handle": "wool-mix-tweed-blazer-brown",
+     "why": "Brown wool mix tweed with padded shoulders and a cinched waist, £127.50, XXS to 3XL.",
+     "for_who": "Anyone who wants tailoring with a waist",
+     "skip_if": "You need the wool percentage; it isn't listed."
+    },
+    {
+     "handle": "oversized-coat-grey",
+     "why": "Straight-cut grey coat with oversized pockets, £178.50 from £255, all five sizes.",
+     "for_who": "Someone shopping for a grey everyday coat",
+     "skip_if": "You need to know the fabric; it's not stated."
+    },
+    {
+     "handle": "framed-neckline-maxi-dress-black",
+     "why": "Square neck, long sleeves, £70 from £175; the brand pitches it for bridesmaids.",
+     "for_who": "Bridesmaids and formal dinners, XXS to L",
+     "skip_if": "You wear XL or up; those are gone."
+    }
+   ]
+  },
+  {
+   "brand": "LAKE",
+   "verdict": "Half off pima pajamas in all 7 sizes, final sale, and the sheet lists this one through Dec 1.",
+   "say": "Fair isle pima set, $62 from $124, every size, no returns.",
+   "items": [
+    {
+     "handle": "english-navy-fair-isle-crew-short-long-set",
+     "why": "100% pima cotton, short-sleeve top with long pants, half off in XXS to XXL.",
+     "for_who": "A gift, if you know their size",
+     "skip_if": "You want long sleeves; the top is short-sleeved."
+    },
+    {
+     "handle": "french-blue-relax-jogger-set",
+     "why": "Modal sweatshirt and jogger set with a slightly cropped top, $72 from $144.",
+     "for_who": "Loungewear people, sizes S to XXL",
+     "skip_if": "You're XXS or XS; both are sold out."
+    },
+    {
+     "handle": "fawn-heather-wander-ribbed-jogger-pants-set",
+     "why": "Ribbed knit sweater and pant set, $116 off, but still $172 and only 6% wool.",
+     "for_who": "Someone who wants a matching knit set",
+     "skip_if": "You expect mostly wool at $172; no returns."
+    }
+   ]
+  },
+  {
+   "brand": "Harper Wilde",
+   "verdict": "Cheapest way in: pima pajama pieces at 50% off, sold separately, so a full set is $63.",
+   "say": "Pima pajama shirt, $29 from $58, all seven sizes through 3XL.",
+   "items": [
+    {
+     "handle": "perfect-pima-long-sleeve-pajama-shirt-navy",
+     "why": "Long sleeve button-up in cotton, half off, XS to 3XL all in stock.",
+     "for_who": "Anyone building a set on a budget",
+     "skip_if": "You need the matching pants in XS or M."
+    },
+    {
+     "handle": "perfect-pima-pajama-pants-navy",
+     "why": "Relaxed fit with piping, $34 from $68; XS and M are sold out.",
+     "for_who": "Sizes S, L, XL, 2XL and 3XL",
+     "skip_if": "You're an XS or M; final sale."
+    },
+    {
+     "handle": "cloud-cotton-long-sleeve-t-shirt-pant-set",
+     "why": "Long sleeve tee and pant sold together in black, $66 from $106, XS to 3XL.",
+     "for_who": "People who wear pajamas out of the house",
+     "skip_if": "38% off doesn't feel like enough."
+    }
+   ]
+  }
+ ],
+ "close": "I check sizes and return rules before I post. Follow for tomorrow's list.",
+ "caption": "Four sales, checked for sizes and return rules.\nPistola and Harper Wilde end tonight, Nov 30.\nCommissionable links in bio.",
+ "comment_prompt": "Denim, blazer or pajamas: which one should I look at closer?",
+ "recheck": [
+  "Odd Muse end date: sheet says Dec 31",
+  "LAKE end date: sheet says Dec 1",
+  "Harper Wilde pants: XS and M still out",
+  "Odd Muse shipping and duties to the US"
+ ]
+}

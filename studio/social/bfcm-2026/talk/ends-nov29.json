@@ -1,0 +1,94 @@
+{
+ "slug": "ends-nov29",
+ "hooks": [
+  "MONROW's Sherpa Trucker Jacket: $216 down to $86. Ends tonight.",
+  "$139 Petal & Pup patent flats are $49 until midnight.",
+  "A $162 MONROW cardigan is $49 tonight, in all six sizes."
+ ],
+ "brands": [
+  {
+   "brand": "MONROW",
+   "verdict": "Deepest cuts of the three at 60 to 70% off, but every piece is final sale and tagged winter 2024.",
+   "say": "Sherpa Trucker Jacket, $86 from $216, and all six sizes are still in stock.",
+   "items": [
+    {
+     "handle": "sherpa-trucker-jacket",
+     "why": "60% off with every size from XXS to XL in stock; the sherpa is 100% polyester.",
+     "for_who": "Anyone who wants a light winter layer",
+     "skip_if": "You want real shearling or wool; final sale."
+    },
+    {
+     "handle": "plush-stripe-sweater-1",
+     "why": "V-neck with striped cuffs, slightly cropped, in a cotton and acrylic blend at $67.",
+     "for_who": "People who wear high-waisted jeans",
+     "skip_if": "You're an XXS; that size is gone."
+    },
+    {
+     "handle": "brushed-rib-cardigan",
+     "why": "The only one under $50: $48.60 from $162, in a lightweight brushed waffle knit.",
+     "for_who": "Someone who layers cardigans over tees or dresses",
+     "skip_if": "You need real warmth; the brand calls it lightweight."
+    }
+   ]
+  },
+  {
+   "brand": "Petal & Pup",
+   "verdict": "The flats are the find at 65% off; the two coats sit at the standard 30%.",
+   "say": "Finnegan patent flats, $49 from $139, all five sizes, final sale.",
+   "items": [
+    {
+     "handle": "finnegan-flats-black-patent",
+     "why": "Square-toe patent flats with two adjustable straps and a 1.2 inch heel, 65% off.",
+     "for_who": "Work or dinner, whole sizes 6 to 10",
+     "skip_if": "You wear a half size; final sale."
+    },
+    {
+     "handle": "carmie-fur-collared-jacket-brown",
+     "why": "Brown jacket with an oversized collar, faux fur lining and working pockets, $90 from $129.",
+     "for_who": "Someone after a short faux fur jacket",
+     "skip_if": "You're holding out for more than 30% off."
+    },
+    {
+     "handle": "norine-longline-faux-fur-coat-espresso",
+     "why": "Long open-front faux fur coat in espresso with elasticised cuffs, $104 from $149.",
+     "for_who": "Holiday parties, over a dress or jeans",
+     "skip_if": "You want a coat that closes; it's open front."
+    }
+   ]
+  },
+  {
+   "brand": "Social Threads",
+   "verdict": "Smallest cuts here at 30 to 40% off, all final sale, and the site's CYBER25 code runs to Dec 4.",
+   "say": "Molly Bracken corduroy blazer, $119 from $170, oversized, all four sizes.",
+   "items": [
+    {
+     "handle": "molly-bracken-corduroy-blazer",
+     "why": "Oversized chocolate corduroy blazer, $51 off, all four sizes; the fabric is 95% polyester.",
+     "for_who": "Someone who wears blazers oversized",
+     "skip_if": "You expected cotton corduroy; final sale."
+    },
+    {
+     "handle": "elan-short-sleeve-sequin-mini-dress",
+     "why": "Black sequin mini at $71; the store says it runs big and long.",
+     "for_who": "Holiday party, sizes small to large",
+     "skip_if": "You'd size down from small; XS is gone."
+    },
+    {
+     "handle": "by-together-luciane-fair-isle-sweater",
+     "why": "Relaxed fair isle knit at $69, true to size, hand wash, only 10% wool.",
+     "for_who": "Small, medium or large, in brown and purple",
+     "skip_if": "You want a mostly wool sweater."
+    }
+   ]
+  }
+ ],
+ "close": "I check stock and fine print on every sale. Follow for tomorrow's.",
+ "caption": "Three sales end tonight, Nov 29.\nMost of these are final sale, so check your size first.\nCommissionable links in bio.",
+ "comment_prompt": "Which one are you checking first: the jacket, the flats or the blazer?",
+ "recheck": [
+  "Petal & Pup: does BF30 stack on the $49 flats",
+  "Social Threads: CYBER25 runs to Dec 4, so is tonight really the end",
+  "MONROW: is the extra 30% off markdowns already in these prices",
+  "Stock on all nine items"
+ ]
+}

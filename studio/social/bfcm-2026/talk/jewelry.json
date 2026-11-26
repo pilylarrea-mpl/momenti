@@ -1,0 +1,169 @@
+{
+ "slug": "jewelry",
+ "hooks": [
+  "BaubleBar's Alice necklace is $68, down from $198.",
+  "Loren Hope Elena earrings: $198 down to $49.",
+  "Miranda Frye's Gia cuff is $40, was $150."
+ ],
+ "brands": [
+  {
+   "brand": "BaubleBar",
+   "verdict": "Sale-section cuts of 51 to 66%, well past the 30% sitewide banner on the homepage.",
+   "say": "Alice necklace, $68 from $198. A tennis-style chain with pearls hanging from it.",
+   "items": [
+    {
+     "handle": "eliana-necklace-clear-gold",
+     "why": "Tennis-style necklace of cubic zirconia stones with pearls hanging along it; $68 from $198.",
+     "for_who": "Wants one sparkly necklace for parties",
+     "skip_if": "Final sale tag; gold type isn't spelled out"
+    },
+    {
+     "handle": "natasha-earrings-clear-gold",
+     "why": "Chunky pavé hoops covered in cubic zirconia stones; $35 from $98.",
+     "for_who": "A gift under $40",
+     "skip_if": "You want a plain gold hoop"
+    },
+    {
+     "handle": "vanessa-bracelet-gold",
+     "why": "Gold cuff shaped in corkscrew spirals, made to wear alone or stacked; $77 from $158.",
+     "for_who": "Wants a sculptural cuff",
+     "skip_if": "$77 is the priciest of the three"
+    }
+   ]
+  },
+  {
+   "brand": "Bryan Anthonys",
+   "verdict": "Three pieces at $26 to $29, about 65% off, in gold or silver finish over brass.",
+   "say": "Now & Then hoops, $26 from $78. The freshwater pearl drop comes off.",
+   "items": [
+    {
+     "handle": "now-then-earrings",
+     "why": "Small 14mm hoops with a freshwater pearl drop you can remove; brass base, nickel-free finish.",
+     "for_who": "Wants two looks from one pair",
+     "skip_if": "A brass base bothers you"
+    },
+    {
+     "handle": "layers-of-you-bracelet-stack",
+     "why": "Set of three brass cuffs, each 2mm wide, in a 14k gold or silver finish.",
+     "for_who": "Stocking stuffer at $26",
+     "skip_if": "You want one substantial bangle"
+    },
+    {
+     "handle": "moment-necklace",
+     "why": "Curved cubic zirconia bar pendant on an adjustable 16 to 18 inch chain; $29 from $88.",
+     "for_who": "A dressier necklace for occasions",
+     "skip_if": "The brand itself says it's not everyday"
+    }
+   ]
+  },
+  {
+   "brand": "Sterling Forever",
+   "verdict": "Sterling silver base at 50 to 58% off; pricier than the rest, and two are final sale.",
+   "say": "Amélia tennis necklace, $159 from $318. Sterling silver, plain or gold plated.",
+   "items": [
+    {
+     "handle": "amelia-paperclip-cz-tennis-necklace",
+     "why": "Tennis necklace mixed with paperclip chain, 2.5mm cubic zirconia on sterling silver, adjustable 16 to 18 inches.",
+     "for_who": "Wants sterling silver over brass",
+     "skip_if": "$159 and final sale"
+    },
+    {
+     "handle": "robyn-ribbed-ring",
+     "why": "Ribbed 8.5mm band in sterling silver or 14k gold-plated sterling; $94 from $224.",
+     "for_who": "Ring sizes 6 to 9",
+     "skip_if": "You want gold in a size 8"
+    },
+    {
+     "handle": "sterling-silver-large-elongated-paperclip-chain-bracelet",
+     "why": "Elongated paperclip links with a lobster clasp; the 7-inch is $121, the 8-inch is $139.",
+     "for_who": "Wants a chain bracelet to stack",
+     "skip_if": "Final sale, and the 8-inch costs more"
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "verdict": "Everything here is 60% off at $36 to $40, but every item is final sale.",
+   "say": "Bean Gold earrings, $40 from $100. Built as a lightweight alternative to hoops.",
+   "items": [
+    {
+     "handle": "bean-earrings-gold-statement-earrings",
+     "why": "Designed as a lightweight, everyday alternative to a hoop; $40 from $100.",
+     "for_who": "Bored of wearing hoops",
+     "skip_if": "Final sale; the metal isn't listed"
+    },
+    {
+     "handle": "isla-necklace",
+     "why": "Strand of grooved cream resin beads with a gold-plated S-lock, from a limited summer collection.",
+     "for_who": "Buying ahead for vacation",
+     "skip_if": "You wanted green; only cream is left"
+    },
+    {
+     "handle": "gigi-statement-earrings",
+     "why": "Gold-plated earrings with a faux pearl, made to look vintage; $36 from $90.",
+     "for_who": "Likes vintage-looking earrings",
+     "skip_if": "You want real pearls"
+    }
+   ]
+  },
+  {
+   "brand": "Miranda Frye",
+   "verdict": "The Gia cuff at 73% off is the draw; the other two are 50% and 39%.",
+   "say": "Gia cuff, $40 from $150. 18K gold plated, sold in XS or L.",
+   "items": [
+    {
+     "handle": "gia-cuff-gold",
+     "why": "Textured 18K gold-plated cuff; XS is $40 and L is $46, both in stock.",
+     "for_who": "Wants a textured cuff for stacking",
+     "skip_if": "You'd want a medium; only XS and L"
+    },
+    {
+     "handle": "amour-earrings-gold",
+     "why": "Heart-shaped statement earrings in 18K gold plate; $58 from $116.",
+     "for_who": "Wants a bold heart earring",
+     "skip_if": "The listing gives no size or weight"
+    },
+    {
+     "handle": "estelle-necklace-gold",
+     "why": "18K gold-plated necklace in 17 or 19 inches at $94 or $98, about 39% off.",
+     "for_who": "Wants a bolder gold necklace",
+     "skip_if": "39% off is the weakest deal here"
+    }
+   ]
+  },
+  {
+   "brand": "Loren Hope",
+   "verdict": "Clearance pieces at 50 to 75% off, deeper than the 30% sitewide; all three final sale.",
+   "say": "Elena crystal earrings, $49 from $198. A 2.5-inch drop, and described as lightweight.",
+   "items": [
+    {
+     "handle": "elena-statement-earrings-in-crystal",
+     "why": "2.5-inch crystal drop earrings, silver tone over brass with surgical steel posts, described as lightweight.",
+     "for_who": "Has a holiday party or wedding",
+     "skip_if": "You wear gold; these are silver tone"
+    },
+    {
+     "handle": "manon-slider-necklace-in-jet",
+     "why": "Black resin beads with crystal pavé spacers on a slider adjusting from 15.5 to 27 inches.",
+     "for_who": "Likes adjustable length for layering",
+     "skip_if": "You expected all crystal; the beads are resin"
+    },
+    {
+     "handle": "islaine-necklace",
+     "why": "Semi-precious stones, freshwater pearls and glass on an 18K gold finish; 15 inches plus extender.",
+     "for_who": "Wants a colorful short necklace",
+     "skip_if": "$114 final sale is a commitment"
+    }
+   ]
+  }
+ ],
+ "close": "Name a jewelry brand and I'll check if its sale is real.",
+ "caption": "Six jewelry sales, checked piece by piece.\nFrom $26. Several are final sale.\nCommissionable links in bio.",
+ "comment_prompt": "Gold or silver, and what's your price limit for plated jewelry?",
+ "recheck": [
+  "BaubleBar: does 30% sitewide stack on the $68 Alice",
+  "Bryan Anthonys: does BOGO apply to these markdowns",
+  "Heaven Mayhem Isla still cream only",
+  "Miranda Frye Gia: XS and L still in stock"
+ ]
+}

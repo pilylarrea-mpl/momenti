@@ -1,0 +1,144 @@
+{
+ "slug": "shoes",
+ "hooks": [
+  "Nisolo's Go-To suede lug boot is $99, down from $248.",
+  "Intentionally Blank Hiperson knee boots: $324 down to $162.",
+  "FRĒDA SALVADOR Sally flats are $249, were $498."
+ ],
+ "brands": [
+  {
+   "brand": "FRĒDA SALVADOR",
+   "verdict": "50 to 60% off, deeper than the homepage's 25%, on summer styles that are final sale or exchange only.",
+   "say": "Sally woven flat, $249 from $498. Calf leather, knotted by hand into an open weave.",
+   "items": [
+    {
+     "handle": "sally-chocolate-knotted-calf",
+     "why": "Calf leather knotted by hand into an open weave; the store calls it a summer flat.",
+     "for_who": "Buying now to wear in spring",
+     "skip_if": "You wear an 11, or need winter shoes"
+    },
+    {
+     "handle": "ria-vanilla-nappa",
+     "why": "Nappa leather boat shoe with a flexible driver sole and rope laces, made in Spain.",
+     "for_who": "Wants a soft cream boat shoe",
+     "skip_if": "You wear 6.5, 10.5 or 11; final sale"
+    },
+    {
+     "handle": "minnie-ivory-suede-with-mesh",
+     "why": "Low-profile suede and mesh sneaker with two lace sets, one long enough to wrap the ankle.",
+     "for_who": "Sizes 6 to 10, all in stock",
+     "skip_if": "Mesh was made for summer; exchange only"
+    }
+   ]
+  },
+  {
+   "brand": "Intentionally Blank",
+   "verdict": "In-season leather boots at 50% off; both boots have 15 of 16 size options in stock.",
+   "say": "Hiperson knee boot, $162 from $324. Tall, kitten heel, leather with a sheen.",
+   "items": [
+    {
+     "handle": "hiperson-leather-knee-high-boot",
+     "why": "Knee-high leather boot on a kitten heel with a sheen finish, in black or merlot.",
+     "for_who": "Wants a tall boot, low heel",
+     "skip_if": "You need a half size; whole sizes only"
+    },
+    {
+     "handle": "scorpio-heeled-ankle-boot",
+     "why": "Heeled leather ankle boot at mid height, in black or cognac; $134 from $268.",
+     "for_who": "Wants an everyday ankle boot",
+     "skip_if": "You need half sizes, or cognac in 11"
+    },
+    {
+     "handle": "nextdoor-penny-loafer",
+     "why": "Colorblocked penny loafer in oiled leather with a rounded toe; $105 from $210.",
+     "for_who": "Likes a two-tone loafer",
+     "skip_if": "Black-white is out in 6, 10 and 11"
+    }
+   ]
+  },
+  {
+   "brand": "Emme Parsons",
+   "verdict": "40% off still leaves these at $366 to $399, exchange only, with gaps in common sizes.",
+   "say": "Isabel kitten-heel mule in black calfskin, $399 from $665.",
+   "items": [
+    {
+     "handle": "isabel-black-calf",
+     "why": "Black calfskin mule on a tapered kitten heel with a thin buckled strap; saves $266.",
+     "for_who": "Wants one low black heel",
+     "skip_if": "You wear 36, 36.5 or 38.5 to 39.5"
+    },
+    {
+     "handle": "delicat-bordeaux-kidskin",
+     "why": "Open sandal with thin asymmetrical straps on a 55mm heel, in bordeaux kidskin; 12 of 13 sizes.",
+     "for_who": "Wants a low party heel",
+     "skip_if": "It's a bare sandal, and it's $387"
+    },
+    {
+     "handle": "salome-mary-jane-cerulean-blue-suede",
+     "why": "Round-toe suede Mary Jane flat with a thin buckle and flexible sacchetto construction.",
+     "for_who": "Wants a blue flat",
+     "skip_if": "You wear 37, 41 or 42; it's $366"
+    }
+   ]
+  },
+  {
+   "brand": "Nisolo",
+   "verdict": "All three are $99, 50 to 60% off, in nearly every size; final sale.",
+   "say": "Go-To lace lug boot, $99 from $248. Water-resistant suede, cushioned insole.",
+   "items": [
+    {
+     "handle": "go-to-lace-lug-boot-black",
+     "why": "Lace-up boot in water-resistant suede with a lightweight EVA lug sole and speed hooks.",
+     "for_who": "Needs a boot for wet sidewalks",
+     "skip_if": "You wear a 10 or 11; final sale"
+    },
+    {
+     "handle": "lidia-whipstitch-loafer-pearl",
+     "why": "Loafer with whipstitch detailing in pearl; $99 from $228, 10 of 11 sizes.",
+     "for_who": "Wants a light-colored loafer",
+     "skip_if": "The listing says little about materials"
+    },
+    {
+     "handle": "lola-mary-jane-black-suede",
+     "why": "Square-toe Mary Jane in waterproof suede with leather lining, padded insole and an adjustable buckle.",
+     "for_who": "Wants a flat that handles rain",
+     "skip_if": "You wear a 5; final sale"
+    }
+   ]
+  },
+  {
+   "brand": "Rothy's",
+   "verdict": "Smaller savings, $71 to $81 a pair, but the clog and driver have every size.",
+   "say": "Après Clog in pecan, $99 from $170. Lined in vegan fur, all ten sizes.",
+   "items": [
+    {
+     "handle": "womens-apres-clog-revelvet-pecan",
+     "why": "Suede-like ReVelvet upper with a fluffy vegan fur-lined footbed and ribbed outsole; all 10 sizes.",
+     "for_who": "Wants a lined clog for winter",
+     "skip_if": "You expected real shearling; it's vegan fur"
+    },
+    {
+     "handle": "the-almond-loafer-black",
+     "why": "Soft, flexible black loafer with a cushioned leopard-print insole; $99 from $180.",
+     "for_who": "Sizes 5 to 6, or 9.5 up",
+     "skip_if": "You wear 6.5 to 8, or a 9"
+    },
+    {
+     "handle": "womens-double-bit-driver-black",
+     "why": "Black driver with a gold bit, cushioned tan insole and nubbed gum sole; all 17 sizes.",
+     "for_who": "Any size from 5 to 13",
+     "skip_if": "Tagged no-returns, and only 39% off"
+    }
+   ]
+  }
+ ],
+ "close": "Tell me your size and I'll flag what's still in stock.",
+ "caption": "Boots, loafers and flats, 40 to 60% off.\nThree pairs are $99.\nCommissionable links in bio.",
+ "comment_prompt": "What's your shoe size, and is it always sold out?",
+ "recheck": [
+  "Nisolo: is $99 before or after the extra 40%",
+  "Rothy's Après Clog still $99 after Nov 28",
+  "FRĒDA return terms: final sale vs exchange only",
+  "Emme Parsons Isabel sizes left"
+ ]
+}

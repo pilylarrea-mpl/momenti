@@ -1,0 +1,94 @@
+{
+ "slug": "home",
+ "hooks": [
+  "Parachute's $299 Cloud cotton duvet set is $119.60.",
+  "Piglet in Bed Sage duvet cover: $229 down to $91.",
+  "Brooklinen sateen sheets from $101.40, 40% off, final sale."
+ ],
+ "brands": [
+  {
+   "brand": "Piglet in Bed",
+   "verdict": "Duvet covers at 40 to 60% off, past the 40% the store advertises; two are linen blends.",
+   "say": "Pine green gingham duvet cover, $149 from $249 in twin. Linen and cotton.",
+   "items": [
+    {
+     "handle": "pine-green-pembroke-gingham-linen-blend-duvet-cover",
+     "why": "55% European linen, 45% cotton gingham, prewashed, with corner ties; twin $149, queen $185.",
+     "for_who": "Wants the linen look, softer feel",
+     "skip_if": "You want 100% linen; this is a blend"
+    },
+    {
+     "handle": "berry-heritage-gingham-100-linen-duvet-cover",
+     "why": "100% European flax linen gingham, prewashed, queen $203 and king $227, both in stock.",
+     "for_who": "Wants all-linen in queen or king",
+     "skip_if": "Over $200 for a duvet cover is too much"
+    },
+    {
+     "handle": "sage-green-linen-duvet-cover",
+     "why": "Linen-cotton blend duvet cover; twin is $91 at 60% off, larger sizes about half off.",
+     "for_who": "Twin beds, dorms, kids' rooms",
+     "skip_if": "You need full or queen; that's $144"
+    }
+   ]
+  },
+  {
+   "brand": "Brooklinen",
+   "verdict": "Last-call colors at 40% off, tagged final sale, and roughly half the sheet options are already gone.",
+   "say": "Sateen sheet set, from $101.40, was $169. Last-call colors, final sale.",
+   "items": [
+    {
+     "handle": "luxe-core-sheet-set-last-call",
+     "why": "Sateen sheet set from $101.40 at 40% off; 38 of 72 color and size combinations remain.",
+     "for_who": "Flexible on color, firm on size",
+     "skip_if": "You need one specific color in queen"
+    },
+    {
+     "handle": "super-plush-robe-last-call",
+     "why": "Super-Plush robe from $83.40; Pewter has every size XS to XXL, Striped Silver Sage is gone.",
+     "for_who": "Wants a robe gift under $90",
+     "skip_if": "You wanted the sage stripe; final sale"
+    },
+    {
+     "handle": "weekend-wash-throw-blanket-last-call",
+     "why": "Quilted, garment-dyed throw the store calls lightweight, $89.40, all four colors in stock.",
+     "for_who": "Wants a light throw for layering",
+     "skip_if": "You want a heavy winter blanket"
+    }
+   ]
+  },
+  {
+   "brand": "Parachute",
+   "verdict": "Final-sale markdowns of 40 to 60%, deeper than the 20% sitewide offer, one color each.",
+   "say": "Organic cotton gauze duvet cover set, $119.60 from $299. White only.",
+   "items": [
+    {
+     "handle": "organic-cloud-cotton-duvet-cover-set-white",
+     "why": "Layered organic cotton gauze duvet cover with shams, queen $119.60 and king $131.60.",
+     "for_who": "Wants white bedding at 60% off",
+     "skip_if": "You want a color; final sale, white only"
+    },
+    {
+     "handle": "classic-knit-alpaca-throw-charcoal",
+     "why": "Knit throw in baby alpaca, merino wool and recycled fibers, charcoal only, $197.40.",
+     "for_who": "Wants a warm throw as a gift",
+     "skip_if": "Nearly $200 with no returns"
+    },
+    {
+     "handle": "soft-spun-cotton-throw-natural",
+     "why": "Cotton throw in Natural, $98.45 from $179, final sale; the listing has no description.",
+     "for_who": "Wants a neutral throw under $100",
+     "skip_if": "You need details before buying final sale"
+    }
+   ]
+  }
+ ],
+ "close": "Send me a room you're fixing and I'll find the sale.",
+ "caption": "Three bedding sales with real markdowns.\nBrooklinen and Parachute picks are final sale.\nCommissionable links in bio.",
+ "comment_prompt": "Linen or sateen sheets, and why?",
+ "recheck": [
+  "Piglet Sage twin still $91",
+  "Brooklinen last-call colors and sizes left",
+  "Whether Brooklinen code BFCM26 stacks on last call",
+  "End dates: Parachute Dec 1, Brooklinen Dec 3, Piglet Dec 4"
+ ]
+}

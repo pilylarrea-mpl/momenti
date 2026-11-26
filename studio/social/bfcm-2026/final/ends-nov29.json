@@ -1,0 +1,97 @@
+{
+ "slug": "ends-nov29",
+ "title": "Ends tonight",
+ "sub": "Two sales close at midnight. These are the pieces to check first.",
+ "brands": [
+  {
+   "brand": "MONROW",
+   "host": "monrow.com",
+   "deal": "Sale styles up to 70% off",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-11-29",
+   "say": "Sherpa Trucker Jacket was $216, now $86.40, all six sizes in stock. Plush Stripe Sweater $168 to $67. Brushed Rib Cardigan $162 to $49.",
+   "why_not": "Sale styles are tagged final sale. Homepage headline is 30% off sitewide; these deeper prices are the marked-down section.",
+   "items": [
+    {
+     "handle": "sherpa-trucker-jacket",
+     "name": "Sherpa Trucker Jacket",
+     "img": 0,
+     "hero": true,
+     "was": 216.0,
+     "now": 86.4,
+     "av": "6/6",
+     "note": "60% off, every size in stock, strong on-model photo",
+     "off": 60
+    },
+    {
+     "handle": "plush-stripe-sweater-1",
+     "name": "Plush Stripe Sweater",
+     "img": 0,
+     "hero": false,
+     "was": 168.0,
+     "now": 67.2,
+     "av": "5/6",
+     "note": "Camel knit with matching pant available, 60% off",
+     "off": 60
+    },
+    {
+     "handle": "brushed-rib-cardigan",
+     "name": "Brushed Rib Cardigan",
+     "img": 0,
+     "hero": false,
+     "was": 162.0,
+     "now": 48.6,
+     "av": "6/6",
+     "note": "70% off and under $50, all six sizes",
+     "off": 70
+    }
+   ]
+  },
+  {
+   "brand": "Petal & Pup",
+   "host": "petalandpup.com",
+   "deal": "30% off, deeper on shoes",
+   "code": "BF30",
+   "final_sale": null,
+   "ends": "2026-11-29",
+   "say": "Finnegan patent Mary Jane flats were $139, now $49, all sizes. Carmie faux fur jacket $129 to $90. Norine long faux fur coat $149 to $104.",
+   "why_not": "Catalog prices are already marked down; unclear whether code BF30 stacks on top. The flats are final sale.",
+   "items": [
+    {
+     "handle": "finnegan-flats-black-patent",
+     "name": "Patent Mary Jane Flats",
+     "img": 0,
+     "hero": true,
+     "was": 139.0,
+     "now": 48.97,
+     "av": "5/5",
+     "note": "65% off, 5/5 sizes, clean on-foot shot",
+     "off": 65
+    },
+    {
+     "handle": "carmie-fur-collared-jacket-brown",
+     "name": "Faux Fur Collar Jacket",
+     "img": 0,
+     "hero": false,
+     "was": 129.0,
+     "now": 89.97,
+     "av": "5/5",
+     "note": "New-season outerwear at 30% off, all sizes",
+     "off": 30
+    },
+    {
+     "handle": "norine-longline-faux-fur-coat-espresso",
+     "name": "Long Faux Fur Coat",
+     "img": 0,
+     "hero": false,
+     "was": 149.0,
+     "now": 103.97,
+     "av": "5/5",
+     "note": "Espresso long coat, street-style photo, all sizes",
+     "off": 30
+    }
+   ]
+  }
+ ]
+}

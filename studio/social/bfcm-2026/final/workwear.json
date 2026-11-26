@@ -1,0 +1,184 @@
+{
+ "slug": "workwear",
+ "title": "Workwear",
+ "sub": "Blazers, coats, tailored trousers, dresses and cashmere from four brands, 40-79% off.",
+ "brands": [
+  {
+   "brand": "M.M.LaFleur",
+   "host": "mmlafleur.com",
+   "deal": "Up to 70% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero: Theodora eyelet shirt dress in black, was $529, now $111, 79% off, all 6 sizes in stock. Priscilla double-breasted blazer was $579, now $241, all 12 sizes. Bronny pleated trouser was $329, now $81.",
+   "why_not": "Dress and trouser are tagged final sale; the blazer is return for store credit only. The Theodora is sleeveless eyelet, more of a warm-weather piece.",
+   "items": [
+    {
+     "handle": "theodora-black",
+     "name": "Theodora Eyelet Dress",
+     "img": 0,
+     "hero": true,
+     "was": 529.0,
+     "now": 111.0,
+     "av": "6/6",
+     "note": "Biggest saving in the catalog ($418), full size run, clean full-length on-model shot",
+     "off": 79
+    },
+    {
+     "handle": "priscilla-beige-melange",
+     "name": "Priscilla Blazer",
+     "img": 0,
+     "hero": false,
+     "was": 579.0,
+     "now": 241.0,
+     "av": "12/12",
+     "note": "Classic beige double-breasted suit blazer, 12/12 sizes, saves $338",
+     "off": 58
+    },
+    {
+     "handle": "bronny-black-white",
+     "name": "Bronny Pleated Trouser",
+     "img": 1,
+     "hero": false,
+     "was": 329.0,
+     "now": 81.0,
+     "av": "11/12",
+     "note": "Grey high-waist pleated wide-leg, 75% off, 11/12 sizes; img1 shows the full trouser",
+     "off": 75
+    }
+   ]
+  },
+  {
+   "brand": "Odd Muse",
+   "host": "oddmuse.co.uk",
+   "deal": "Up to 60% off, UK store",
+   "code": null,
+   "final_sale": null,
+   "say": "UK store, prices in pounds. Hero: Wool Mix Tweed Blazer in brown, was 255 pounds, now 127.50, half off, all 8 sizes in stock. Oversized grey coat was 255, now 178.50. Framed neckline maxi dress was 175, now 70.",
+   "why_not": "UK store: was/now are GBP, not USD; US buyers should check shipping and duties. Return terms not shown in the catalog.",
+   "items": [
+    {
+     "handle": "wool-mix-tweed-blazer-brown",
+     "name": "Wool-mix tweed blazer",
+     "img": 0,
+     "hero": true,
+     "was": 255.0,
+     "now": 127.5,
+     "av": "8/8",
+     "note": "Sculpted hourglass tweed blazer, 8/8 sizes, strongest photo of the brand",
+     "off": 50
+    },
+    {
+     "handle": "oversized-coat-grey",
+     "name": "Oversized Grey Coat",
+     "img": 0,
+     "hero": false,
+     "was": 255.0,
+     "now": 178.5,
+     "av": "5/5",
+     "note": "Long double-breasted grey wool-look coat, 5/5 sizes, only 30% off but a real staple",
+     "off": 30
+    },
+    {
+     "handle": "framed-neckline-maxi-dress-black",
+     "name": "Framed Neck Maxi Dress",
+     "img": 1,
+     "hero": false,
+     "was": 175.0,
+     "now": 70.0,
+     "av": "5/8",
+     "note": "Black long-sleeve square-neck column dress for dinner, 60% off, 5/8 sizes",
+     "off": 60
+    }
+   ],
+   "cur": "\u00a3"
+  },
+  {
+   "brand": "Marcella",
+   "host": "marcellanyc.com",
+   "deal": "Up to 60% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero: Crosstown Trench in khaki, was $399, now $239, 4 of 6 sizes in stock. Hannah oversized blazer was $298, now $119, 60% off, 11 of 12 sizes. Morrison pleated pants in camel were $168, now $67.",
+   "why_not": "Items are tagged no-returns / exchange only (trench and pants also final sale). Homepage could not be read, so no sale wording was confirmed there.",
+   "items": [
+    {
+     "handle": "crosstown-trench-khaki",
+     "name": "Crosstown Trench",
+     "img": 1,
+     "hero": true,
+     "was": 399.0,
+     "now": 239.4,
+     "av": "4/6",
+     "note": "Classic belted khaki trench; img1 is a clean close on-model shot. 40% off, saves $160",
+     "off": 40
+    },
+    {
+     "handle": "hannah-blazer",
+     "name": "Hannah Blazer",
+     "img": 0,
+     "hero": false,
+     "was": 298.0,
+     "now": 119.0,
+     "av": "11/12",
+     "note": "Oversized black double-breasted blazer shown as a suit, 60% off, 11/12 sizes",
+     "off": 60
+    },
+    {
+     "handle": "morrison-pants-camel-brown",
+     "name": "Morrison Pleated Pants",
+     "img": 0,
+     "hero": false,
+     "was": 168.0,
+     "now": 67.0,
+     "av": "7/7",
+     "note": "Camel pleated wide-leg trouser, 60% off, 7/7 sizes",
+     "off": 60
+    }
+   ]
+  },
+  {
+   "brand": "alice + olivia",
+   "host": "aliceandolivia.com",
+   "deal": "Sale styles from 40% off",
+   "code": null,
+   "final_sale": null,
+   "say": "Hero: Barbra cashmere turtleneck in camel, was $495, now $297, all 5 sizes in stock. Irvin long blazer in grey was $750, now $450. Elias double pleat trouser in black was $395, now $237, all 8 sizes.",
+   "why_not": "All three are 40% off, not the 60% tier (the 60% items are mostly summer linen and occasion pieces). Homepage headline is 25% off; still expensive after discount.",
+   "items": [
+    {
+     "handle": "barbra-cashmere-turtleneck-camel",
+     "name": "Cashmere Turtleneck",
+     "img": 0,
+     "hero": true,
+     "was": 495.0,
+     "now": 297.0,
+     "av": "5/5",
+     "note": "Camel cashmere with matching trousers, the most polished office look; 5/5 sizes",
+     "off": 40
+    },
+    {
+     "handle": "irvin-slim-maxi-blazer-light-storm-grey",
+     "name": "Irvin Maxi Blazer",
+     "img": 0,
+     "hero": false,
+     "was": 750.0,
+     "now": 450.0,
+     "av": "5/5",
+     "note": "Floor-length grey tailored blazer coat, biggest saving ($300), 5/5 sizes",
+     "off": 40
+    },
+    {
+     "handle": "elias-double-pleat-trouser-black",
+     "name": "Elias Pleat Trouser",
+     "img": 1,
+     "hero": false,
+     "was": 395.0,
+     "now": 237.0,
+     "av": "8/8",
+     "note": "Black wide-leg double-pleat trouser with silk shirt, 8/8 sizes",
+     "off": 40
+    }
+   ]
+  }
+ ]
+}

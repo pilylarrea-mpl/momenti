@@ -1,0 +1,186 @@
+{
+ "slug": "ends-nov30",
+ "title": "Ends tonight",
+ "sub": "Four sales close at midnight: denim, tailoring, pajamas and basics.",
+ "brands": [
+  {
+   "brand": "Pistola Denim",
+   "host": "pistoladenim.com",
+   "deal": "Sale styles up to 65% off",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-11-30",
+   "say": "Karlee denim chore jacket was $258, now $90, all sizes. Cassie high rise straight jean $188 to $94 in all 11 sizes. Ilona bubble hem dress $178 to $62.",
+   "why_not": "All three are final sale. Homepage headline is 30% off; these are the deeper sale-section prices.",
+   "items": [
+    {
+     "handle": "karlee-chore-jacket",
+     "name": "Karlee Chore Jacket",
+     "img": 0,
+     "hero": true,
+     "was": 258.0,
+     "now": 90.3,
+     "av": "5/5",
+     "note": "65% off, 5/5 sizes, light-wash denim jacket",
+     "off": 65
+    },
+    {
+     "handle": "cassie-super-high-rise-straight-savvy-vintage",
+     "name": "Cassie Straight Jean",
+     "img": 0,
+     "hero": false,
+     "was": 188.0,
+     "now": 94.0,
+     "av": "11/11",
+     "note": "Half price in all 11 sizes",
+     "off": 50
+    },
+    {
+     "handle": "ilona-bubble-hem-dress-peacoat",
+     "name": "Ilona Bubble Hem Dress",
+     "img": 0,
+     "hero": false,
+     "was": 178.0,
+     "now": 62.3,
+     "av": "5/5",
+     "note": "Navy bubble-hem mini, 65% off, all sizes",
+     "off": 65
+    }
+   ]
+  },
+  {
+   "brand": "Odd Muse",
+   "host": "oddmuse.co.uk",
+   "deal": "Up to 60% off, UK store",
+   "code": null,
+   "final_sale": null,
+   "say": "UK store, prices in pounds. Hero: Wool Mix Tweed Blazer in brown, was 255 pounds, now 127.50, half off, all 8 sizes in stock. Oversized grey coat was 255, now 178.50. Framed neckline maxi dress was 175, now 70.",
+   "why_not": "UK store: was/now are GBP, not USD; US buyers should check shipping and duties. Return terms not shown in the catalog.",
+   "items": [
+    {
+     "handle": "wool-mix-tweed-blazer-brown",
+     "name": "Wool-mix tweed blazer",
+     "img": 0,
+     "hero": true,
+     "was": 255.0,
+     "now": 127.5,
+     "av": "8/8",
+     "note": "Sculpted hourglass tweed blazer, 8/8 sizes, strongest photo of the brand",
+     "off": 50
+    },
+    {
+     "handle": "oversized-coat-grey",
+     "name": "Oversized Grey Coat",
+     "img": 0,
+     "hero": false,
+     "was": 255.0,
+     "now": 178.5,
+     "av": "5/5",
+     "note": "Long double-breasted grey wool-look coat, 5/5 sizes, only 30% off but a real staple",
+     "off": 30
+    },
+    {
+     "handle": "framed-neckline-maxi-dress-black",
+     "name": "Framed Neck Maxi Dress",
+     "img": 1,
+     "hero": false,
+     "was": 175.0,
+     "now": 70.0,
+     "av": "5/8",
+     "note": "Black long-sleeve square-neck column dress for dinner, 60% off, 5/8 sizes",
+     "off": 60
+    }
+   ],
+   "cur": "\u00a3"
+  },
+  {
+   "brand": "LAKE",
+   "host": "lakepajamas.com",
+   "deal": "Sale styles 40-50% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero is the Pima fair isle pajama set in navy, was $124, now $62, every size in stock. Relax jogger set in French blue is $72 from $144. Wander ribbed knit jogger set is $172 from $288. Final sale, no returns.",
+   "why_not": "Homepage advertises 25% off sitewide; these are deeper sale-section markdowns.",
+   "items": [
+    {
+     "handle": "english-navy-fair-isle-crew-short-long-set",
+     "name": "Fair Isle Pima PJ Set",
+     "img": 1,
+     "hero": true,
+     "was": 124.0,
+     "now": 62.0,
+     "av": "7/7",
+     "note": "Holiday fair isle print, half off, all 7 sizes, strong on-model photo",
+     "off": 50
+    },
+    {
+     "handle": "french-blue-relax-jogger-set",
+     "name": "Relax Jogger Set",
+     "img": 2,
+     "hero": false,
+     "was": 144.0,
+     "now": 72.0,
+     "av": "5/7",
+     "note": "Soft blue lounge set, half off, 5 of 7 sizes",
+     "off": 50
+    },
+    {
+     "handle": "fawn-heather-wander-ribbed-jogger-pants-set",
+     "name": "Wander Ribbed Knit Set",
+     "img": 1,
+     "hero": false,
+     "was": 288.0,
+     "now": 172.0,
+     "av": "5/5",
+     "note": "Sweater-knit lounge set, biggest saving at $116, all sizes",
+     "off": 40
+    }
+   ]
+  },
+  {
+   "brand": "Harper Wilde",
+   "host": "harperwilde.com",
+   "deal": "30% off, PJs at 50% off",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-11-30",
+   "say": "Perfect Pima pajama shirt was $58, now $29, all seven sizes. Matching pajama pants $68 to $34. Cloud Cotton long sleeve tee and pant set $106 to $66.",
+   "why_not": "Low price points, so dollar savings are small. The pima pajama pieces are final sale and sold separately.",
+   "items": [
+    {
+     "handle": "perfect-pima-long-sleeve-pajama-shirt-navy",
+     "name": "Pima Pajama Shirt",
+     "img": 0,
+     "hero": true,
+     "was": 58.0,
+     "now": 29.0,
+     "av": "7/7",
+     "note": "Navy piped PJ top, 50% off, 7/7 sizes",
+     "off": 50
+    },
+    {
+     "handle": "perfect-pima-pajama-pants-navy",
+     "name": "Pima Pajama Pants",
+     "img": 0,
+     "hero": false,
+     "was": 68.0,
+     "now": 34.0,
+     "av": "5/7",
+     "note": "Matching pants, 50% off, 5/7 sizes",
+     "off": 50
+    },
+    {
+     "handle": "cloud-cotton-long-sleeve-t-shirt-pant-set",
+     "name": "Cloud Cotton PJ Set",
+     "img": 1,
+     "hero": false,
+     "was": 106.0,
+     "now": 66.0,
+     "av": "7/7",
+     "note": "38% off set, all sizes; img 1 is the on-model shot",
+     "off": 38
+    }
+   ]
+  }
+ ]
+}

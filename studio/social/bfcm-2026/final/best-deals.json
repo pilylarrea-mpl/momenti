@@ -1,0 +1,241 @@
+{
+ "slug": "best-deals",
+ "title": "Best deals",
+ "sub": "Six sales where the discount is real. I went through each store.",
+ "brands": [
+  {
+   "brand": "Alexandra Miro",
+   "host": "alexandramiro.com",
+   "deal": "Up to 70% off",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "harper-dress-red-capri",
+     "name": "Harper dress",
+     "img": 1,
+     "hero": true,
+     "was": 380.0,
+     "now": 152.0,
+     "off": 60,
+     "av": "5/5"
+    },
+    {
+     "handle": "sophia-dress-scarf-print",
+     "name": "Sophia dress",
+     "img": 0,
+     "hero": false,
+     "was": 480.0,
+     "now": 192.0,
+     "off": 60,
+     "av": "5/5"
+    },
+    {
+     "handle": "clementine-gown-red-capri",
+     "name": "Clementine cover-up",
+     "img": 1,
+     "hero": false,
+     "was": 420.0,
+     "now": 168.0,
+     "off": 60,
+     "av": "3/3"
+    }
+   ]
+  },
+  {
+   "brand": "Intentionally Blank",
+   "host": "intentionallyblank.us",
+   "deal": "Boots half off",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "hiperson-leather-knee-high-boot",
+     "name": "Hiperson knee boot",
+     "img": 0,
+     "hero": true,
+     "was": 324.0,
+     "now": 162.0,
+     "off": 50,
+     "av": "15/16"
+    },
+    {
+     "handle": "filmore-suede-knee-boot",
+     "name": "Filmore suede boot",
+     "img": 0,
+     "hero": false,
+     "was": 290.0,
+     "now": 145.0,
+     "off": 50,
+     "av": "16/16"
+    },
+    {
+     "handle": "florence-curved-heel-leather-ankle-boot",
+     "name": "Florence ankle boot",
+     "img": 0,
+     "hero": false,
+     "was": 258.0,
+     "now": 129.0,
+     "off": 50,
+     "av": "8/8"
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "host": "heavenmayhem.com",
+   "deal": "Up to 60% off sitewide",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "alma-clip-on-earrings",
+     "name": "Alma clip-ons",
+     "img": 1,
+     "hero": true,
+     "was": 130.0,
+     "now": 52.0,
+     "off": 60,
+     "av": "3/3"
+    },
+    {
+     "handle": "plaza-earrings",
+     "name": "Plaza earrings",
+     "img": 0,
+     "hero": false,
+     "was": 110.0,
+     "now": 44.0,
+     "off": 60,
+     "av": "1/1"
+    },
+    {
+     "handle": "fashion-sunglasses-vittoria",
+     "name": "Vittoria glasses",
+     "img": 0,
+     "hero": false,
+     "was": 200.0,
+     "now": 80.0,
+     "off": 60,
+     "av": "1/1"
+    }
+   ]
+  },
+  {
+   "brand": "Emme Parsons",
+   "host": "emmeparsons.com",
+   "deal": "40% off, private sale",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "delicat-burnt-red-satin",
+     "name": "Delicat, red satin",
+     "img": 0,
+     "hero": true,
+     "was": 645.0,
+     "now": 387.0,
+     "off": 40,
+     "av": "9/13"
+    },
+    {
+     "handle": "isabel-black-calf",
+     "name": "Isabel mule",
+     "img": 0,
+     "hero": false,
+     "was": 665.0,
+     "now": 399.0,
+     "off": 40,
+     "av": "8/13"
+    },
+    {
+     "handle": "salome-mary-jane-washed-gold-nappa",
+     "name": "Salom\u00e9, gold",
+     "img": 0,
+     "hero": false,
+     "was": 610.0,
+     "now": 366.0,
+     "off": 40,
+     "av": "6/8"
+    }
+   ]
+  },
+  {
+   "brand": "alice + olivia",
+   "host": "aliceandolivia.com",
+   "deal": "Sale up to 60% off",
+   "code": null,
+   "final_sale": null,
+   "items": [
+    {
+     "handle": "willa-silk-blouse-75",
+     "name": "Willa silk blouse",
+     "img": 0,
+     "hero": true,
+     "was": 375.0,
+     "now": 150.0,
+     "off": 60,
+     "av": "5/5"
+    },
+    {
+     "handle": "breann-embell-cutaway-blazer-off-white-gold",
+     "name": "Breann blazer",
+     "img": 0,
+     "hero": false,
+     "was": 895.0,
+     "now": 537.0,
+     "off": 40,
+     "av": "8/8"
+    },
+    {
+     "handle": "drew-oversized-wool-trench-coat",
+     "name": "Drew wool coat",
+     "img": 0,
+     "hero": false,
+     "was": 1195.0,
+     "now": 717.0,
+     "off": 40,
+     "av": "4/5"
+    }
+   ]
+  },
+  {
+   "brand": "M.M.LaFleur",
+   "host": "mmlafleur.com",
+   "deal": "Up to 70% off",
+   "code": null,
+   "final_sale": true,
+   "items": [
+    {
+     "handle": "theodora-black",
+     "name": "Theodora dress",
+     "img": 0,
+     "hero": true,
+     "was": 529.0,
+     "now": 111.0,
+     "off": 79,
+     "av": "6/6"
+    },
+    {
+     "handle": "ohara-slate-blue",
+     "name": "O'Hara blazer",
+     "img": 0,
+     "hero": false,
+     "was": 529.0,
+     "now": 143.0,
+     "off": 73,
+     "av": "7/12"
+    },
+    {
+     "handle": "hope-blueprint-sketch",
+     "name": "Hope wrap dress",
+     "img": 0,
+     "hero": false,
+     "was": 299.0,
+     "now": 54.0,
+     "off": 82,
+     "av": "6/6"
+    }
+   ]
+  }
+ ]
+}

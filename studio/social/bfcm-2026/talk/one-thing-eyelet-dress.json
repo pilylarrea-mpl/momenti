@@ -1,0 +1,25 @@
+{
+ "slug": "one-thing-eyelet-dress",
+ "hooks": [
+  "A $529 M.M.LaFleur dress is $111 right now.",
+  "Theodora eyelet dress: 79% off, all six sizes.",
+  "$418 off one black eyelet dress, XS to XXL."
+ ],
+ "reasons": [
+  "$111, was $529: that is 79% off",
+  "All six sizes in stock, XS to XXL",
+  "Collared A-line midi in black eyelet"
+ ],
+ "caveat": "Final sale, sleeveless, and a summer dress",
+ "for_who": "Someone planning ahead for warm-weather events",
+ "skip_if": "You need it this winter, or might return it.",
+ "say": "M.M.LaFleur Theodora dress, black eyelet, collared, sleeveless. Was $529, now $111, every size in stock. It's a summer dress and final sale, so buy it for June.",
+ "close": "I check the catch on every deal. Follow for the next one.",
+ "caption": "Theodora eyelet dress, $111 from $529.\nSummer dress, final sale, no end date posted.\nCommissionable links in bio.",
+ "comment_prompt": "Would you buy a summer dress in November for 79% off?",
+ "recheck": [
+  "No end date posted; price may change",
+  "Final sale terms",
+  "All six sizes still in"
+ ]
+}

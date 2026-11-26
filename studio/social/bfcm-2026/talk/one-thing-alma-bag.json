@@ -1,0 +1,25 @@
+{
+ "slug": "one-thing-alma-bag",
+ "hooks": [
+  "Freja's Alma bag in black gloss: $358 down to $168.",
+  "This $358 Alma bag is $168 until Dec 1.",
+  "$190 off the Alma bag. The site headline says 25%."
+ ],
+ "reasons": [
+  "$168, was $358: 53% off",
+  "Twice the 25% sitewide headline",
+  "Rolled handles, metal feet, roomy"
+ ],
+ "caveat": "Final sale, and the listing names no material",
+ "for_who": "Someone who wants one structured everyday bag",
+ "skip_if": "You want to see it in person before committing.",
+ "say": "Freja Alma bag in black gloss. Dome shape, rolled handles, metal feet. Was $358, now $168. The sitewide sale is 25 percent, so this is about double. Final sale.",
+ "close": "Follow for the pieces priced below the headline discount.",
+ "caption": "Alma bag in black gloss, $168 from $358.\nFinal sale. Ends Dec 1.\nCommissionable links in bio.",
+ "comment_prompt": "Black gloss: yes or no?",
+ "recheck": [
+  "Still in stock",
+  "Material isn't stated on the page",
+  "Ends Dec 1"
+ ]
+}

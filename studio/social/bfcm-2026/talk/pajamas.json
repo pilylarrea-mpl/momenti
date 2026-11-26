@@ -1,0 +1,144 @@
+{
+ "slug": "pajamas",
+ "hooks": [
+  "LAKE's Pima fair isle pajama set is $62, was $124.",
+  "Cozyland's Wicked pajama sets dropped from $170 to $51.",
+  "MONROW's $172 thermal sweatshirt is 70% off."
+ ],
+ "brands": [
+  {
+   "brand": "LAKE",
+   "verdict": "Two sets at half off, twice the 25% sitewide offer; the knit set is 40%. No returns.",
+   "say": "Pima fair isle set, $62 from $124, every size. Short sleeves, long pants.",
+   "items": [
+    {
+     "handle": "english-navy-fair-isle-crew-short-long-set",
+     "why": "100% Pima cotton set with a fitted short-sleeve crew top and high-waisted elastic pants.",
+     "for_who": "Sleeps warm, wants a holiday print",
+     "skip_if": "You wanted long sleeves; no returns"
+    },
+    {
+     "handle": "french-blue-relax-jogger-set",
+     "why": "Slightly cropped crewneck sweatshirt and joggers in 95% modal, 5% spandex; $72 from $144.",
+     "for_who": "Wants a lounge set over pajamas",
+     "skip_if": "You wear XXS or XS; both gone"
+    },
+    {
+     "handle": "fawn-heather-wander-ribbed-jogger-pants-set",
+     "why": "Boxy rib-trim sweater and ribbed pull-on pant; mostly nylon and acrylic with 6% wool.",
+     "for_who": "Wants a knit set for daytime",
+     "skip_if": "$172 for a mostly synthetic knit"
+    }
+   ]
+  },
+  {
+   "brand": "MONROW",
+   "verdict": "Up to 70% off, but these are loungewear separates tagged from 2024, and final sale.",
+   "say": "Plush Stripe sweater, $67 from $168. V-neck, slightly cropped, striped cuffs.",
+   "items": [
+    {
+     "handle": "plush-stripe-sweater-1",
+     "why": "V-neck sweater with striped cuffs and a slightly cropped fit, in a cotton and acrylic blend.",
+     "for_who": "Wants a sweater for lounging",
+     "skip_if": "You wear XXS; final sale"
+    },
+    {
+     "handle": "brusehd-thermal-drawcord-waist-sweatshirt-1",
+     "why": "Oversized, slightly cropped mock-neck sweatshirt with a drawstring hem; $51.60 from $172.",
+     "for_who": "Wants the biggest markdown here",
+     "skip_if": "You don't wear cropped tops"
+    },
+    {
+     "handle": "soft-knit-rib-waffle-oversized-sweat-1",
+     "why": "Slouchy waffle-knit sweatpant with ribbed waistband, elastic cuffs and a back pocket; all 6 sizes.",
+     "for_who": "Wants a nicer grey sweatpant",
+     "skip_if": "$99 for sweatpants, final sale"
+    }
+   ]
+  },
+  {
+   "brand": "Stripe & Stare",
+   "verdict": "UK store priced in pounds; around 50% off pyjamas in sizes XS to 4X.",
+   "say": "Chocolate long pyjama set, £47.50 from £95. Tencel modal with cream piping.",
+   "items": [
+    {
+     "handle": "long-pyjama-set-bitter-chocolate-buttercream",
+     "why": "Button-front top with a pocket and straight-leg trousers in Tencel modal, piped in cream.",
+     "for_who": "Wants classic piped pyjamas",
+     "skip_if": "You wear L or 4X; both are out"
+    },
+    {
+     "handle": "cami-short-pyjama-set-sweet-posy",
+     "why": "Cami with adjustable straps and low-rise shorts in Tencel modal; all 8 sizes, XS to 4X.",
+     "for_who": "Warm sleepers, or buying for summer",
+     "skip_if": "It's November and you sleep cold"
+    },
+    {
+     "handle": "soft-brushed-woven-pyjama-top-blue-stripe",
+     "why": "Button-front top only, in Ecovero viscose with piping and a pocket; £35 from £70.",
+     "for_who": "Wants one striped sleep shirt",
+     "skip_if": "S, M and 3X are out; no bottoms"
+    }
+   ]
+  },
+  {
+   "brand": "Softies",
+   "verdict": "About 61% off with every color and size in stock on two of three; final sale.",
+   "say": "Soft Sleep caftan set, $54 from $140. Four florals, sizes XS to 3X.",
+   "items": [
+    {
+     "handle": "caftan-top-cropped-pant-set",
+     "why": "Loose caftan-style top with cropped pants in floral prints; four colors, six sizes, all in stock.",
+     "for_who": "Likes loose sleepwear",
+     "skip_if": "You want full-length pants"
+    },
+    {
+     "handle": "dreamplush-1-4-zip-pullover",
+     "why": "Teddy-soft quarter-zip with a drawstring hem; four colors, every size, $54 from $140.",
+     "for_who": "Runs cold at home",
+     "skip_if": "Final sale, so no sending it back"
+    },
+    {
+     "handle": "dream-shawl-collar-robe-sale",
+     "why": "Calf-length jersey robe with a shawl collar, two inside ties and an attached back tie.",
+     "for_who": "A gift at $50",
+     "skip_if": "You want Sky Blue Stripe; mostly sold out"
+    }
+   ]
+  },
+  {
+   "brand": "Cozyland",
+   "verdict": "The Wicked sets are 70% off at $51 in every size; the plain velour set is $85.",
+   "say": "Ellie lounge set, $85 from $170. Cotton velour, but S and M are gone.",
+   "items": [
+    {
+     "handle": "ellie-pj-set-in-coffee-velour",
+     "why": "100% cotton velour set with picot embroidery at the neck and tonal buttons on the pants.",
+     "for_who": "Wants velour, sizes P or L up",
+     "skip_if": "You wear S or M; final sale"
+    },
+    {
+     "handle": "glinda-striped-pj-set-x-wicked",
+     "why": "Lightweight 100% pima cotton in pink stripe, with Wicked: For Good imagery printed on the fabric.",
+     "for_who": "Wicked fans",
+     "skip_if": "You don't want movie artwork on pajamas"
+    },
+    {
+     "handle": "elphaba-stripe-pj-set-x-wicked",
+     "why": "Same pima cotton set in green stripe, with Wicked embroidery on the chest, sleeve and hip.",
+     "for_who": "Wicked fans who prefer green",
+     "skip_if": "Three embroidered movie motifs is too many"
+    }
+   ]
+  }
+ ],
+ "close": "Tell me who you're shopping for and I'll find their pajamas.",
+ "caption": "Pajama and lounge sets, 40 to 70% off.\nMost are final sale, so size carefully.\nCommissionable links in bio.",
+ "comment_prompt": "Long sleeves or short sleeves to sleep in?",
+ "recheck": [
+  "Stripe & Stare chocolate set is tagged a daily offer; price may revert",
+  "MONROW sale ends Nov 29; extra 30% on markdowns may apply",
+  "Softies sale ends Nov 30",
+  "Cozyland Ellie sizes (S and M were out)"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "one-thing-mary-jane",
+ "hooks": [
+  "Freda Salvador Laurel Mary Jane: $298 down to $149.",
+  "Half off leopard mesh Mary Janes, handcrafted in Spain.",
+  "12 of 13 sizes left on a $149 Mary Jane."
+ ],
+ "reasons": [
+  "$149, was $298: half off",
+  "Handcrafted in Spain",
+  "12 of 13 sizes, half sizes included"
+ ],
+ "caveat": "Final sale, and mesh is a warm-weather shoe",
+ "for_who": "Anyone who lives in flats and likes leopard",
+ "skip_if": "You're a size 5, or want a winter shoe.",
+ "say": "Freda Salvador Laurel Mary Jane in leopard mesh. Handcrafted in Spain, was $298, now $149. Twelve of thirteen sizes left, half sizes too. Final sale, and it's a warm-weather shoe.",
+ "close": "Follow. I tell you the catch before you buy.",
+ "caption": "Laurel Mary Jane, $149 from $298. Ends Dec 2.\nFinal sale. Size 5 is gone.\nCommissionable links in bio.",
+ "comment_prompt": "Leopard mesh: neutral or too much?",
+ "recheck": [
+  "Size 5 still out",
+  "Does code VIPFRIDAY26 apply to sale shoes",
+  "Ends Dec 2"
+ ]
+}

@@ -1,0 +1,183 @@
+{
+ "slug": "denim",
+ "title": "Denim",
+ "sub": "Wide-leg, straight, barrel and flare jeans plus a denim chore jacket, 30-65% off.",
+ "brands": [
+  {
+   "brand": "Daze Denim",
+   "host": "dazedenim.com",
+   "deal": "Denim up to 65% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero: Madison mid rise wide leg in Whimsy, was $118, now $41, 65% off, 9 of 11 sizes in stock. Hero pleated baggy jean in dark wash was $108, now $54, every size in stock. Lowkey low rise flare was $98, now $49.",
+   "why_not": "All three are tagged final sale. Homepage headline is only 25% off; the 50-65% is on marked-down styles.",
+   "items": [
+    {
+     "handle": "madison-mid-rise-wide-leg-3",
+     "name": "Madison Wide Leg",
+     "img": 0,
+     "hero": true,
+     "was": 118.0,
+     "now": 41.3,
+     "av": "9/11",
+     "note": "Light-wash wide leg styled with denim shirt, biggest saving at Daze ($77), 9/11 sizes",
+     "off": 65
+    },
+    {
+     "handle": "hero-high-rise-pleated-baggy-dreamland",
+     "name": "Hero Pleated Baggy",
+     "img": 0,
+     "hero": false,
+     "was": 108.0,
+     "now": 54.0,
+     "av": "11/11",
+     "note": "Dark-wash pleated baggy jean, 11/11 sizes, half off",
+     "off": 50
+    },
+    {
+     "handle": "lowkey-low-rise-flare-first-crush",
+     "name": "Lowkey Low Rise Flare",
+     "img": 0,
+     "hero": false,
+     "was": 98.0,
+     "now": 49.0,
+     "av": "10/11",
+     "note": "Mid-blue low rise flare, 10/11 sizes, half off",
+     "off": 50
+    }
+   ]
+  },
+  {
+   "brand": "Pistola Denim",
+   "host": "pistoladenim.com",
+   "deal": "Up to 65% off markdowns",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero: Karlee denim chore jacket, was $258, now $90, 65% off, all 5 sizes in stock. Cassie super high rise straight jean was $208, now $73. Sacha barrel jean in dark wash was $198, now $119.",
+   "why_not": "All three are tagged final sale. Homepage says 30% off sitewide; the deeper cuts are in the sale section.",
+   "items": [
+    {
+     "handle": "karlee-chore-jacket",
+     "name": "Karlee Chore Jacket",
+     "img": 0,
+     "hero": true,
+     "was": 258.0,
+     "now": 90.3,
+     "av": "5/5",
+     "note": "Light-wash denim chore jacket, saves $168, 5/5 sizes, crisp on-model shot",
+     "off": 65
+    },
+    {
+     "handle": "cassie-super-high-rise-straight-6",
+     "name": "Cassie Straight Jean",
+     "img": 0,
+     "hero": false,
+     "was": 208.0,
+     "now": 72.8,
+     "av": "9/11",
+     "note": "Light-wash seamed high-rise straight, 65% off, 9/11 sizes",
+     "off": 65
+    },
+    {
+     "handle": "sacha-high-rise-relaxed-barrel-nile",
+     "name": "Sacha Barrel Jean",
+     "img": 0,
+     "hero": false,
+     "was": 198.0,
+     "now": 118.8,
+     "av": "10/11",
+     "note": "Dark indigo barrel leg, 40% off, 10/11 sizes",
+     "off": 40
+    }
+   ]
+  },
+  {
+   "brand": "AMO Denim",
+   "host": "amodenim.com",
+   "deal": "Markdowns up to 50% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero: Camryn cuffed straight jean in Magnetic, was $301, now $151, half off, 7 of 10 sizes in stock. Faith Flare in sand was $301, now $151. Mira straight jean in a vintage dark wash was $318, now $191.",
+   "why_not": "All three are tagged final sale. Premium price point even after the cut.",
+   "items": [
+    {
+     "handle": "camryn-magnetic",
+     "name": "Camryn Cuffed Straight",
+     "img": 0,
+     "hero": true,
+     "was": 301.0,
+     "now": 151.0,
+     "av": "7/10",
+     "note": "Mid-blue cuffed straight jean, 50% off, 7/10 sizes",
+     "off": 50
+    },
+    {
+     "handle": "faith-flare-sand",
+     "name": "Faith Flare in Sand",
+     "img": 0,
+     "hero": false,
+     "was": 301.0,
+     "now": 151.0,
+     "av": "7/10",
+     "note": "Sand-coloured wide flare for variety, 50% off, 7/10 sizes",
+     "off": 50
+    },
+    {
+     "handle": "mira-fancy",
+     "name": "Mira Straight Jean",
+     "img": 0,
+     "hero": false,
+     "was": 318.0,
+     "now": 191.0,
+     "av": "8/10",
+     "note": "Vintage dark-wash long straight, 40% off, 8/10 sizes",
+     "off": 40
+    }
+   ]
+  },
+  {
+   "brand": "DL1961",
+   "host": "dl1961.com",
+   "deal": "30% off sitewide",
+   "code": null,
+   "final_sale": false,
+   "say": "Hero: Mara straight ankle jean in North Beach, was $229, now $160, 10 of 12 sizes in stock. Karmine wide leg was $219, now $153. Bridget cropped bootcut was $219, now $153, every size in stock.",
+   "why_not": "Shallowest deal here: exactly 30% off, and only about six women's jeans reach 30% in the catalog. Items are tagged exchange-only.",
+   "items": [
+    {
+     "handle": "mara-straight-mid-rise-instasculpt-ankle-north-beach",
+     "name": "Mara Straight Ankle",
+     "img": 0,
+     "hero": true,
+     "was": 229.0,
+     "now": 160.3,
+     "av": "10/12",
+     "note": "Mid-blue slim straight styled with a black blazer, 10/12 sizes",
+     "off": 30
+    },
+    {
+     "handle": "karmine-refined-wide-leg-high-rise-28-jeans-clearwater",
+     "name": "Karmine Wide Leg",
+     "img": 0,
+     "hero": false,
+     "was": 219.0,
+     "now": 153.3,
+     "av": "8/12",
+     "note": "Dark vintage wide leg with navy cardigan, 8/12 sizes",
+     "off": 30
+    },
+    {
+     "handle": "bridget-boot-high-rise-instasculpt-crop-jeans-spring-creek",
+     "name": "Bridget Crop Bootcut",
+     "img": 0,
+     "hero": false,
+     "was": 219.0,
+     "now": 153.3,
+     "av": "12/12",
+     "note": "Light-blue cropped bootcut, 12/12 sizes",
+     "off": 30
+    }
+   ]
+  }
+ ]
+}

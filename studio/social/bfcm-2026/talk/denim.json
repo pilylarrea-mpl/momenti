@@ -1,0 +1,119 @@
+{
+ "slug": "denim",
+ "hooks": [
+  "Daze Madison wide-leg jeans are $41, down from $118.",
+  "Pistola's Karlee denim chore jacket: $258 down to $90.",
+  "Pistola Cassie jeans are 65% off: $208 to $73."
+ ],
+ "brands": [
+  {
+   "brand": "Daze Denim",
+   "verdict": "Jeans for $41 to $54 with nearly full size runs; two are rigid cotton, all final sale.",
+   "say": "Madison wide leg, $41 from $118. Rigid cotton with a drawstring waist.",
+   "items": [
+    {
+     "handle": "madison-mid-rise-wide-leg-3",
+     "why": "Mid-rise wide leg in light blue rigid cotton with a drawstring waist and 32-inch inseam.",
+     "for_who": "Wants light-wash, non-stretch wide legs",
+     "skip_if": "You wear a 30 or 33; final sale"
+    },
+    {
+     "handle": "hero-high-rise-pleated-baggy-dreamland",
+     "why": "High-rise pleated wide leg in medium-dark indigo, rigid cotton, 30.5-inch inseam; all 11 sizes.",
+     "for_who": "Wants a darker pleated jean under $60",
+     "skip_if": "You need stretch; final sale"
+    },
+    {
+     "handle": "lowkey-low-rise-flare-first-crush",
+     "why": "Low-rise flare with an 8.5-inch rise, raw-cut hems and stretch denim in a light wash.",
+     "for_who": "Already committed to low-rise",
+     "skip_if": "You wear a 23, or dislike low-rise"
+    }
+   ]
+  },
+  {
+   "brand": "Pistola Denim",
+   "verdict": "The 65% cuts are on light spring washes; sitewide is only 30%, and these are final sale.",
+   "say": "Karlee chore jacket, $90 from $258, all five sizes. Non-stretch cotton denim.",
+   "items": [
+    {
+     "handle": "karlee-chore-jacket",
+     "why": "Structured chore jacket with outer pockets in 100% non-stretch cotton denim; saves $168.",
+     "for_who": "Wants a denim jacket with pockets",
+     "skip_if": "A light wash isn't your winter color"
+    },
+    {
+     "handle": "cassie-super-high-rise-straight-6",
+     "why": "Super high rise straight leg with a seam down the front, rigid denim, full length, light wash.",
+     "for_who": "Likes a high waist and no stretch",
+     "skip_if": "You wear a 23 or 33; final sale"
+    },
+    {
+     "handle": "sacha-high-rise-relaxed-barrel-nile",
+     "why": "High-rise barrel leg in a dark fall wash, rigid denim, 10 of 11 sizes; 40% off.",
+     "for_who": "Trying barrel jeans in a dark wash",
+     "skip_if": "$119 final sale on an unfamiliar shape"
+    }
+   ]
+  },
+  {
+   "brand": "AMO Denim",
+   "verdict": "Half off still means $151 a pair, final sale, and several middle sizes are already gone.",
+   "say": "Camryn straight jean, $151 from $301. Raw hem you can cuff, button fly.",
+   "items": [
+    {
+     "handle": "camryn-magnetic",
+     "why": "Mid-rise slim straight with a raw frayed hem and a button fly; half off.",
+     "for_who": "Wants a slim straight jean",
+     "skip_if": "You wear a 23, 27 or 28"
+    },
+    {
+     "handle": "faith-flare-sand",
+     "why": "Mid-rise flare in sand, relaxed through hip and thigh, designed to be worn slouchy.",
+     "for_who": "Wants a flare that isn't blue",
+     "skip_if": "You wear a 26, 27 or 28"
+    },
+    {
+     "handle": "mira-fancy",
+     "why": "High-rise with a slim cigarette leg and zip fly; 40% off, the smallest cut of the three.",
+     "for_who": "Prefers a narrow straight leg",
+     "skip_if": "You wear 26 or 27; $191 final sale"
+    }
+   ]
+  },
+  {
+   "brand": "DL1961",
+   "verdict": "Just 30% off, but exchanges are allowed and each listing states the stretch level and inseam.",
+   "say": "Mara straight ankle jean, $160 from $229. High stretch, 27-inch inseam.",
+   "items": [
+    {
+     "handle": "mara-straight-mid-rise-instasculpt-ankle-north-beach",
+     "why": "Mid-rise straight ankle jean in bright blue, high stretch, 27-inch inseam; store says true to size.",
+     "for_who": "Wants stretch and an ankle length",
+     "skip_if": "You wear a 33 or 34"
+    },
+    {
+     "handle": "karmine-refined-wide-leg-high-rise-28-jeans-clearwater",
+     "why": "High-rise wide leg with a 28-inch inseam, low stretch, in a cotton and Tencel lyocell blend.",
+     "for_who": "Wants a wide leg that isn't long",
+     "skip_if": "You wear 29 to 32; all sold out"
+    },
+    {
+     "handle": "bridget-boot-high-rise-instasculpt-crop-jeans-spring-creek",
+     "why": "High-rise cropped bootcut, high stretch, 27-inch inseam; all 12 sizes from 23 to 34.",
+     "for_who": "Any size 23 to 34 wanting stretch",
+     "skip_if": "$153 at 30% off isn't enough of a deal"
+    }
+   ]
+  }
+ ],
+ "close": "Comment your size and rise and I'll check what's left.",
+ "caption": "Jeans from $41, up to 65% off.\nMost are final sale. Check the inseam first.\nCommissionable links in bio.",
+ "comment_prompt": "Rigid or stretch denim: which do you actually wear?",
+ "recheck": [
+  "Daze Madison still $41.30; sizes 30 and 33 were out",
+  "Pistola sale end date (sheet says Nov 30)",
+  "AMO size gaps on Camryn and Faith",
+  "DL1961: sheet lists code THANKFUL30; confirm $160 shows without it"
+ ]
+}

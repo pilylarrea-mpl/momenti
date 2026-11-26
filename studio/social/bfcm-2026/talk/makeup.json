@@ -1,0 +1,119 @@
+{
+ "slug": "makeup",
+ "hooks": [
+  "MAKE Beauty Cream Supreme lipstick is $13, half off, all 12 shades.",
+  "MERIT's only sale of the year: the Erdem lip trio is $62.",
+  "Chantecaille Radiance Elixir, $225 down to $135."
+ ],
+ "brands": [
+  {
+   "brand": "MAKE Beauty",
+   "verdict": "Up to 50% off sitewide; these three are the half-off ones, $13 to $15 each.",
+   "say": "Cream Supreme lipstick, $13 from $26. Refillable, glossy finish, 12 shades.",
+   "items": [
+    {
+     "handle": "cream-supreme",
+     "why": "Refillable cream lipstick with a glossy finish and vitamin E, all 12 shades in stock.",
+     "for_who": "Wants to try a few shades cheaply",
+     "skip_if": "You prefer a matte lip"
+    },
+    {
+     "handle": "heat-stroke",
+     "why": "Gel blush tint with a dewy, watercolor effect, $15, all eight shades in stock.",
+     "for_who": "Likes sheer, dewy blush",
+     "skip_if": "You want powder or full-coverage color"
+    },
+    {
+     "handle": "lash-prototype-volumizing-mascara",
+     "why": "Mascara for volume, length and definition with a vegan beeswax alternative, $13 from $26.",
+     "for_who": "Needs a mascara restock",
+     "skip_if": null
+    }
+   ]
+  },
+  {
+   "brand": "MERIT",
+   "verdict": "Their only sale all year: 20% off any order, 25% off orders over $150.",
+   "say": "Erdem lip trio, $62 for three lipsticks that cost $28 each alone.",
+   "items": [
+    {
+     "handle": "the-signature-lip-trio",
+     "why": "Limited edition ERDEM set of three Signature lipsticks in three finishes, one shade exclusive.",
+     "for_who": "Wants three lipsticks at about $21 each",
+     "skip_if": "You only want one shade"
+    },
+    {
+     "handle": "signature-lip",
+     "why": "Lightweight lipstick; marked $22.40 in five in-stock shades, the rest still list at $28.",
+     "for_who": "Dislikes heavy lipstick",
+     "skip_if": "Your shade is Tiger, Classic, Maison, Equestrian or Slip"
+    },
+    {
+     "handle": "signature-lip-liner",
+     "why": "Sheer, buildable lip pencil; only Tabac and Capricorn are marked $16.80, other shades show $24.",
+     "for_who": "Wants soft definition, no hard lines",
+     "skip_if": "You need a different shade at 30% off"
+    }
+   ]
+  },
+  {
+   "brand": "Chantecaille",
+   "verdict": "Archive items are 40% off and tagged final sale; the rest of the site is 25%.",
+   "say": "Radiance Elixir serum, $135 from $225. Skincare, and still the priciest thing here.",
+   "items": [
+    {
+     "handle": "radiance-elixir",
+     "why": "Illuminating peptide serum, a skincare step, made in Switzerland, $135 from $225.",
+     "for_who": "Already uses it and needs a refill",
+     "skip_if": "$135 for a serum, final sale"
+    },
+    {
+     "handle": "cheek-light-blush-eclat-cristalline",
+     "why": "Illuminating powder blush with shimmer from the Éclat Cristalline collection, $63 from $105.",
+     "for_who": "Likes shimmer on the cheeks",
+     "skip_if": "You want matte blush; final sale"
+    },
+    {
+     "handle": "flamingo-lip-chic-guava",
+     "why": "Lip color in shade Guava at $33 from $55; the product page gave me no details.",
+     "for_who": "Knows this formula already",
+     "skip_if": "You can't swatch it first; final sale"
+    }
+   ]
+  },
+  {
+   "brand": "Tatcha",
+   "verdict": "Sets are 25 to 32% off through November 30, with gifts on orders over $100.",
+   "say": "Starter Ritual set, $95 from $140. Travel sizes, tagged for dry, mature skin.",
+   "items": [
+    {
+     "handle": "the-starter-ritual-firming-and-smoothing-set",
+     "why": "Set of travel-size minis tagged for dry and mature skin, with Japanese silk extract.",
+     "for_who": "Trying Tatcha before buying full sizes",
+     "skip_if": "You want full sizes, or makeup"
+    },
+    {
+     "handle": "am-pm-moisture-duo-gift-set",
+     "why": "Moisture duo gift set, $126 from $168; gift wrap adds $5.",
+     "for_who": "Buying a skincare gift",
+     "skip_if": "You wanted makeup; this is skincare"
+    },
+    {
+     "handle": "dewy-glow-protect-set",
+     "why": "Glow and Protect gift set at $123 from $164, 25% off, in stock.",
+     "for_who": "Wants a boxed set to give",
+     "skip_if": "You need the contents list; I had none"
+    }
+   ]
+  }
+ ],
+ "close": "Tell me a beauty brand and I'll check its sale next.",
+ "caption": "Four beauty sales, checked product by product.\nMERIT runs one sale a year. Tatcha ends Nov 30.\nCommissionable links in bio.",
+ "comment_prompt": "What's the one product you rebuy every year?",
+ "recheck": [
+  "MERIT: which shades are marked down vs discounted at checkout",
+  "Chantecaille archive: is code CYBER needed for 40%",
+  "Tatcha ends Nov 30; CYBER26 is for gifts",
+  "MAKE half-off items still in stock"
+ ]
+}

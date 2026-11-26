@@ -1,0 +1,144 @@
+{
+ "slug": "travel",
+ "hooks": [
+  "Rothy's Almond loafer is $99, down from $180.",
+  "Alexandra Miro swim is 60% off: the Vienna swimsuit is $98.",
+  "Past Midnight Flare aviators, $275 to $145, their only sale this year."
+ ],
+ "brands": [
+  {
+   "brand": "Rothy's",
+   "verdict": "Up to 45% off, but the $99 black loafer is sold out in sizes 6.5 through 8.",
+   "say": "Almond loafer in black, $99 from $180. Soft flexible upper, cushioned heel to toe.",
+   "items": [
+    {
+     "handle": "the-almond-loafer-black",
+     "why": "Black loafer with a soft, flexible upper and a cushioned insole; 12 of 17 sizes left.",
+     "for_who": "Wears 5 to 6, 8.5, or 9.5 up",
+     "skip_if": "You're a 6.5, 7, 7.5, 8 or 9"
+    },
+    {
+     "handle": "the-lightweight-tote",
+     "why": "From $109 in two colors; other colors run $139, and the listing gives no details.",
+     "for_who": "Wants a Rothy's bag for less",
+     "skip_if": "You need dimensions; I couldn't confirm any"
+    },
+    {
+     "handle": "womens-double-bit-driver-sesame",
+     "why": "Driving shoe with gold bit hardware, dual-density insole and a grippy gum sole, all 17 sizes.",
+     "for_who": "Wants a flat with real grip",
+     "skip_if": "Tagged no returns, so know your size"
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "verdict": "Travel cases are 30% off and in stock, but everything at this store is final sale.",
+   "say": "Vintage jewelry case, $77 from $110. Faux leather, suede lined, shell clasp.",
+   "items": [
+    {
+     "handle": "vintage-jewelry-travel-case",
+     "why": "Faux leather case with suede lining, compartments and drawers, and a gold shell clasp.",
+     "for_who": "Packs earrings and necklaces together",
+     "skip_if": "You want real leather, or more than black"
+    },
+    {
+     "handle": "jewelry-travel-case",
+     "why": "Zip case with eight compartments and a velvet and suede lining, $63 to $66.50.",
+     "for_who": "Tired of untangling necklaces after flights",
+     "skip_if": "Final sale, and price varies by color"
+    },
+    {
+     "handle": "fashion-sunglasses-vittoria",
+     "why": "Oversized brown acetate aviators with tinted brown lenses, pouch and cloth included, 60% off.",
+     "for_who": "Wants vacation sunglasses under $100",
+     "skip_if": "Lenses are only subtly tinted; final sale"
+    }
+   ]
+  },
+  {
+   "brand": "Past Midnight",
+   "verdict": "Their only sale of the year, and code THESEASON takes another 25% off these prices.",
+   "say": "The Flare aviator, $145 from $275, and $109 with code THESEASON.",
+   "items": [
+    {
+     "handle": "the-flare-blue-gradient",
+     "why": "Gold metal aviator in the Blue Gradient colorway, tagged limited edition, $109 after the code.",
+     "for_who": "Wants a gold aviator",
+     "skip_if": "You need UV specs; this listing doesn't state them"
+    },
+    {
+     "handle": "the-frame-garnet",
+     "why": "Square acetate frame with red lenses and stated UV400 protection, $135 from $225.",
+     "for_who": "Wants stated UV protection for sun",
+     "skip_if": "Red lenses aren't your thing"
+    },
+    {
+     "handle": "the-scene-black",
+     "why": "Cat-eye acetate frame with clear blue-light lenses, so these are screen glasses.",
+     "for_who": "Works on a laptop while traveling",
+     "skip_if": "You wanted sunglasses; these lenses are clear"
+    }
+   ]
+  },
+  {
+   "brand": "Jet Set Candy",
+   "verdict": "Travel charms up to 50% off, from $22; check the millimeters because they are small.",
+   "say": "Suitcase charm, $58 from $98. Sterling silver, gold stickers, and it opens.",
+   "items": [
+    {
+     "handle": "silver-trunk-suitcase-charm-stickers",
+     "why": "Sterling silver suitcase with gold vermeil travel stickers and a working hinge, about 17 mm wide.",
+     "for_who": "Gift for someone who travels constantly",
+     "skip_if": "You want a finished necklace; this is a charm"
+    },
+    {
+     "handle": "new-york-jfk-charm-silver-mini",
+     "why": "Mini sterling silver luggage tag stamped JFK, 13 mm long, $22 from $38.",
+     "for_who": "New Yorkers, or a stocking gift",
+     "skip_if": "JFK isn't your airport"
+    },
+    {
+     "handle": "gold-enamel-poker-chips-charm",
+     "why": "Gold vermeil poker chip caddy with enamel chips, 50% off at $74.",
+     "for_who": "Card players and casino trips",
+     "skip_if": "$74 is steep for 22 mm"
+    }
+   ]
+  },
+  {
+   "brand": "Alexandra Miro",
+   "verdict": "Swim at 60% off in all five sizes, but final sale with no returns outside UK and EU.",
+   "say": "Vienna one-piece, $98 from $245. Halterneck, open back, fully lined.",
+   "items": [
+    {
+     "handle": "vienna-swimsuit-scarf-print",
+     "why": "Halterneck one-piece with an open back and placement print, fully lined, XS to XL.",
+     "for_who": "Wants a printed one-piece under $100",
+     "skip_if": "You can't risk swim sizing on final sale"
+    },
+    {
+     "handle": "willow-swimsuit-scarf-print",
+     "why": "Plunging halterneck one-piece with tie straps, padded cups and an open back, $104.",
+     "for_who": "Wants padded cups and adjustable ties",
+     "skip_if": "A deep plunge isn't practical for you"
+    },
+    {
+     "handle": "sophia-dress-scarf-print",
+     "why": "Cotton and silk mini dress in the same scarf print, sold as a dress at $192.",
+     "for_who": "Wants a dinner outfit matching the swimsuit",
+     "skip_if": "You wanted a simple beach cover-up"
+    }
+   ]
+  }
+ ],
+ "close": "Tell me where you're going and I'll find the sale for it.",
+ "caption": "Five sales to check before your next trip.\nPast Midnight code: THESEASON. Some items are final sale.\nCommissionable links in bio.",
+ "comment_prompt": "Where are you traveling next, and what do you still need?",
+ "recheck": [
+  "Rothy's Almond loafer black: sizes in stock",
+  "THESEASON still takes 25% off Past Midnight sale prices",
+  "Heaven Mayhem cases in stock at 30% off",
+  "End dates: most Dec 1, Past Midnight Dec 5"
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "slug": "workwear",
+ "hooks": [
+  "This $529 M.M.LaFleur Theodora dress is $111 right now.",
+  "Marcella's Hannah blazer dropped from $298 to $119.",
+  "M.M.LaFleur Bronny trousers: $329 down to $81."
+ ],
+ "brands": [
+  {
+   "brand": "M.M.LaFleur",
+   "verdict": "Three tailored pieces at 58 to 79% off with nearly full size runs, but the dress and trouser are final sale.",
+   "say": "Theodora eyelet dress, $111 from $529, all six sizes. It's a summer dress, though.",
+   "items": [
+    {
+     "handle": "theodora-black",
+     "why": "A-line collared eyelet midi that the brand describes as for dressy summer occasions; 79% off.",
+     "for_who": "Planning ahead for warm-weather events",
+     "skip_if": "You need something to wear this winter"
+    },
+    {
+     "handle": "priscilla-beige-melange",
+     "why": "Double-breasted blazer nipped at the waist, tagged wrinkle-resistant and high-stretch; all 12 sizes, 00 to 20.",
+     "for_who": "Anyone building a beige suit",
+     "skip_if": "Returns are store credit only, and it's $241"
+    },
+    {
+     "handle": "bronny-black-white",
+     "why": "Wide-leg double-pleat trouser with a side-buckle waist in textured Portuguese fabric; $81 from $329.",
+     "for_who": "Wide-leg trouser wearers, sizes 00 to 20",
+     "skip_if": "You're a size 4, or want returns"
+    }
+   ]
+  },
+  {
+   "brand": "Odd Muse",
+   "verdict": "UK store priced in pounds; the tweed blazer is half off at £127.50 with all 8 sizes in.",
+   "say": "Brown tweed blazer, £127.50 from £255, every size XXS to 3XL. Pounds, not dollars.",
+   "items": [
+    {
+     "handle": "wool-mix-tweed-blazer-brown",
+     "why": "Brown wool-mix tweed with padded shoulders, one button and a cinched waist; a matching skirt exists.",
+     "for_who": "Wants a fitted blazer, XXS to 3XL",
+     "skip_if": "You prefer boxy, or dislike padded shoulders"
+    },
+    {
+     "handle": "oversized-coat-grey",
+     "why": "Straight-cut grey coat with oversized pockets and small brand embroidery; all 5 sizes, only 30% off.",
+     "for_who": "Needs a grey coat this winter",
+     "skip_if": "The listing never says what the fabric is"
+    },
+    {
+     "handle": "framed-neckline-maxi-dress-black",
+     "why": "Square-neck, long-sleeve black maxi at £70 from £175; the store pitches it for bridesmaids.",
+     "for_who": "Bridesmaids, or a formal black-dress event",
+     "skip_if": "You wear XL to 3XL; those are gone"
+    }
+   ]
+  },
+  {
+   "brand": "Marcella",
+   "verdict": "Hannah blazer and Morrison pants are 60% off; everything is exchange only, so know your size first.",
+   "say": "Crosstown trench, $239 from $399. Cotton blend, viscose lining, but M and XL are gone.",
+   "items": [
+    {
+     "handle": "crosstown-trench-khaki",
+     "why": "Double-breasted belted trench, 55% cotton and 45% polyester, viscose lining, about 45 inches long.",
+     "for_who": "Wants a long khaki trench",
+     "skip_if": "You wear M or XL; tagged final sale"
+    },
+    {
+     "handle": "hannah-blazer",
+     "why": "Boxy double-breasted blazer, fully lined, with padded shoulders; $119 from $298 in three colors.",
+     "for_who": "Sizes XS to L wanting oversized",
+     "skip_if": "Black in L is out; it's mostly polyester"
+    },
+    {
+     "handle": "morrison-pants-camel-brown",
+     "why": "High-waist wide-leg pleated pant, 30-inch inseam, machine washable; all 7 sizes, XS to XXXL.",
+     "for_who": "Wants a camel trouser for $67",
+     "skip_if": "You avoid polyester blends; exchange only"
+    }
+   ]
+  },
+  {
+   "brand": "alice + olivia",
+   "verdict": "Only 40% off and still $237 to $450, but every size is in stock on all three.",
+   "say": "Barbra cashmere turtleneck in camel, $297 from $495, all five sizes.",
+   "items": [
+    {
+     "handle": "barbra-cashmere-turtleneck-camel",
+     "why": "Relaxed cashmere turtleneck with stepped side slits for layering; saves $198.",
+     "for_who": "Buying one cashmere sweater this year",
+     "skip_if": "$297 for a sweater is past your limit"
+    },
+    {
+     "handle": "irvin-slim-maxi-blazer-light-storm-grey",
+     "why": "Full-length blazer-coat in lightweight suiting the brand calls transition weight; $450 from $750.",
+     "for_who": "Wants a long layer over dresses",
+     "skip_if": "You need real winter warmth"
+    },
+    {
+     "handle": "elias-double-pleat-trouser-black",
+     "why": "Double-pleat wide leg from the Denim Air capsule: low-rise, in a very lightweight fluid fabric.",
+     "for_who": "Likes a low-rise wide leg",
+     "skip_if": "You pictured a high-waisted suiting trouser"
+    }
+   ]
+  }
+ ],
+ "close": "Tell me what you need for work and I'll find it on sale.",
+ "caption": "Workwear at 40 to 79% off right now.\nMost of it is final sale, so check sizing.\nCommissionable links in bio.",
+ "comment_prompt": "Blazer, trouser or coat: which one are you actually missing?",
+ "recheck": [
+  "Theodora still $111 with all 6 sizes",
+  "Odd Muse still priced in GBP; US shipping and duties",
+  "Marcella trench sizes (M and XL were out)",
+  "alice + olivia: sheet lists extra 30% Nov 27-28, prices may move"
+ ]
+}
