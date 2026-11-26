@@ -1,0 +1,437 @@
+[
+ {
+  "brand": "BaubleBar",
+  "host": "baublebar.com",
+  "items_50pct_plus": 578,
+  "sheet_end": "2026-12-02",
+  "sheet_rows": [
+   {
+    "sale": "Black Friday & Cyber Monday Event",
+    "start": "2026-11-23",
+    "end": "2026-12-02"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No sale end date on homepage. Only deadline text is a shipping cutoff: \"FRIDAY IS THE LAST DAY to order initial totes and pouches for Xmas\"."
+ },
+ {
+  "brand": "Marcella",
+  "host": "marcellanyc.com",
+  "items_50pct_plus": 448,
+  "sheet_end": "2026-12-03",
+  "sheet_rows": [
+   {
+    "sale": "Early Black Friday Sale",
+    "start": "2026-11-10",
+    "end": "2026-12-03"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "Homepage not readable: saved file and one refetch are both a Cloudflare \"Just a moment...\" challenge page (HTTP 403)."
+ },
+ {
+  "brand": "alice + olivia",
+  "host": "aliceandolivia.com",
+  "items_50pct_plus": 386,
+  "sheet_end": "2026-11-27",
+  "sheet_rows": [
+   {
+    "sale": "Cyber Monday Sale - Additional 10% Off",
+    "start": "2026-11-30",
+    "end": "2026-12-02"
+   },
+   {
+    "sale": "Black Friday - Extra 30% Off",
+    "start": "2026-11-27",
+    "end": "2026-11-28"
+   },
+   {
+    "sale": "Biggest Sale of the Year: Black Friday",
+    "start": "2026-11-23",
+    "end": "2026-11-27"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date in homepage text (page is mostly JS-rendered; only \"Black Friday Sale\" visible). An embedded gift-with-purchase config ($750 spend) has endsAt = 2026-12-02 04:59 UTC, which is not a sale end statement."
+ },
+ {
+  "brand": "M.M.LaFleur",
+  "host": "mmlafleur.com",
+  "items_50pct_plus": 335,
+  "sheet_end": "(blank)",
+  "sheet_rows": [
+   {
+    "sale": "The Black Friday Event Preview - Sitewide Sale",
+    "start": "2026-11-10",
+    "end": ""
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No sale end date on homepage; sheet end is blank too."
+ },
+ {
+  "brand": "DISSH",
+  "host": "dissh.com",
+  "items_50pct_plus": 334,
+  "sheet_end": "2026-12-02",
+  "sheet_rows": [
+   {
+    "sale": "DISSH Black Friday Promotion",
+    "start": "2026-11-15",
+    "end": "2026-12-02"
+   }
+  ],
+  "site_end_quote": "Embedded promo config (not visible copy): promo line \"20% Off Applied\" ... \"end_date\":\"2026-12-05T07:00:00Z\"",
+  "match": false,
+  "note": "Not customer-facing text, but the site config ends the \"20% Off Applied\" label on 12/05 07:00 UTC, later than the sheet (12/02). Treat as a soft disagreement."
+ },
+ {
+  "brand": "Vitality",
+  "host": "shopvitality.com",
+  "items_50pct_plus": 333,
+  "sheet_end": "2026-12-02",
+  "sheet_rows": [
+   {
+    "sale": "Vitality Black Friday Sale",
+    "start": "2026-11-10",
+    "end": "2026-12-02"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "Homepage not readable: saved file and one refetch are both a Cloudflare challenge page (HTTP 403)."
+ },
+ {
+  "brand": "Sterling Forever",
+  "host": "sterlingforever.com",
+  "items_50pct_plus": 330,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "Holiday Gifting | 20% Off Sitewide",
+    "start": "2026-10-30",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "P.E Nation",
+  "host": "pe-nation.com",
+  "items_50pct_plus": 309,
+  "sheet_end": "2026-11-30",
+  "sheet_rows": [
+   {
+    "sale": "P.E NATION BLACK FRIDAY SALE",
+    "start": "2026-11-11",
+    "end": "2026-11-30"
+   }
+  ],
+  "site_end_quote": "4 DAYS ONLY | EXTRA 20% OFF SITEWIDE",
+  "match": null,
+  "note": "Deadline wording without a date; cannot be compared with the sheet (11/30). Page also has an \"ACTIVEWEAR OFFER ENDS IN\" countdown bar with no readable date."
+ },
+ {
+  "brand": "Organic Basics",
+  "host": "organicbasics.com",
+  "items_50pct_plus": 284,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "November Sale: up to 60% off Sitewide",
+    "start": "2026-11-01",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": "Extra 20% off when you buy 5+ – Ends Cyber Monday",
+  "match": false,
+  "note": "Cyber Monday is 11/30; sheet says 12/01 (one day later - sheet date may be exclusive). The quote is about the extra-20% multi-buy offer; headline is \"Black Friday Up to 60% Off sitewide\"."
+ },
+ {
+  "brand": "Hanky Panky",
+  "host": "hankypanky.com",
+  "items_50pct_plus": 203,
+  "sheet_end": "2026-12-02",
+  "sheet_rows": [
+   {
+    "sale": "The Hanky Panky Black Friday & Cyber Monday Sale",
+    "start": "2026-11-24",
+    "end": "2026-12-02"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "Intentionally Blank",
+  "host": "intentionallyblank.us",
+  "items_50pct_plus": 164,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "Black Friday Sale",
+    "start": "2026-11-24",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "Knix",
+  "host": "knix.com",
+  "items_50pct_plus": 157,
+  "sheet_end": "2026-11-27 ; 2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "Knix BFCM",
+    "start": "2026-11-18",
+    "end": "2026-12-01"
+   },
+   {
+    "sale": "Knix 30% Off Apparel & Sleep",
+    "start": "2026-11-24",
+    "end": "2026-11-27"
+   },
+   {
+    "sale": "Knix 25% Off Dream Series",
+    "start": "2026-11-27",
+    "end": "2026-11-30"
+   }
+  ],
+  "site_end_quote": "Ends Tomorrow: 25% Off Mini Dream Boxers! / Ending Tonight | Extra 15% Off Orders $175+",
+  "match": false,
+  "note": "No end date for the main sale (sheet 12/01). Sub-offers disagree with the sheet: site says the 25% Mini Dream Boxer offer ends tomorrow (11/27) while the sheet has \"25% Off Dream Series\" running 11/27-11/30; the \"Extra 15% Off Orders $175+\" ending tonight is not on the sheet."
+ },
+ {
+  "brand": "Bryan Anthonys",
+  "host": "bryananthonys.com",
+  "items_50pct_plus": 151,
+  "sheet_end": "2026-12-04",
+  "sheet_rows": [
+   {
+    "sale": "Black Friday - Cyber Monday: BOGO FREE + Gift with Purchase",
+    "start": "2026-11-20",
+    "end": "2026-12-04"
+   },
+   {
+    "sale": "Holiday Sale: 30% Off Sitewide + Door Crashers",
+    "start": "2026-12-04",
+    "end": "2026-12-20"
+   },
+   {
+    "sale": "End of Year Sale: 25% Off Sitewide",
+    "start": "2026-12-26",
+    "end": "2027-01-01"
+   }
+  ],
+  "site_end_quote": "Black Friday ends in 00 Hrs : 00 Min : 00 Sec",
+  "match": null,
+  "note": "Countdown with no date in visible text. Hero sections are scheduled in page attributes to end 11/27, 11/28 and 11/30 00:00 ET (rolling phases); sheet says the BOGO event runs to 12/04. Not an explicit contradiction."
+ },
+ {
+  "brand": "Odd Muse",
+  "host": "oddmuse.co.uk",
+  "items_50pct_plus": 144,
+  "sheet_end": "2026-12-31",
+  "sheet_rows": [
+   {
+    "sale": "Muse Friday: Up to 60% Off",
+    "start": "2026-11-25",
+    "end": "2026-12-31"
+   }
+  ],
+  "site_end_quote": "UP TO 60% OFF SITEWIDE Muse Friday Sale ... Sale ENDS IN 00 Days 00 Hrs 00 Min (countdown data-end=\"2026-11-30T23:59\")",
+  "match": false,
+  "note": "Site countdown ends 2026-11-30 23:59; sheet says 2026-12-31. Clear disagreement."
+ },
+ {
+  "brand": "Mac Duggal",
+  "host": "macduggal.com",
+  "items_50pct_plus": 121,
+  "sheet_end": "2026-12-03",
+  "sheet_rows": [
+   {
+    "sale": "BFCM25",
+    "start": "2026-11-17",
+    "end": "2026-12-03"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage (\"25% Off | Price as marked\")."
+ },
+ {
+  "brand": "Vicci Eyewear",
+  "host": "viccieyewear.com",
+  "items_50pct_plus": 117,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "Black Friday Sale",
+    "start": "2026-10-28",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date on homepage (\"black friday exclusive up to 70% OFF OUR BIGGEST SALE EVER ... *Valid on frames only\")."
+ },
+ {
+  "brand": "Marine Layer",
+  "host": "marinelayer.com",
+  "items_50pct_plus": 115,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "The Retail Therapy Sale 2026",
+    "start": "2026-12-23",
+    "end": "2027-01-04"
+   },
+   {
+    "sale": "BFCM 2026",
+    "start": "2026-11-24",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "FRĒDA SALVADOR",
+  "host": "fredasalvador.com",
+  "items_50pct_plus": 102,
+  "sheet_end": "2026-12-02",
+  "sheet_rows": [
+   {
+    "sale": "FRĒDA BLACK FRIDAY 25% OFF",
+    "start": "2026-11-19",
+    "end": "2026-12-02"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "MONROW",
+  "host": "monrow.com",
+  "items_50pct_plus": 93,
+  "sheet_end": "2026-11-29",
+  "sheet_rows": [
+   {
+    "sale": "The MONROW Black Friday Event",
+    "start": "2026-11-20",
+    "end": "2026-11-29"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "Loren Hope",
+  "host": "lorenhope.com",
+  "items_50pct_plus": 85,
+  "sheet_end": "2026-12-07",
+  "sheet_rows": [
+   {
+    "sale": "Loren Hope 30% Off Sitewide BFCM Sale",
+    "start": "2026-11-09",
+    "end": "2026-12-07"
+   }
+  ],
+  "site_end_quote": "BLACK FRIDAY · 30% off sitewide + free gift Ends in D H M S (countdown label: \"Black Friday countdown ends Friday night at midnight Eastern Time\")",
+  "match": false,
+  "note": "Site countdown ends Friday 11/27 midnight ET; sheet says the 30% sitewide sale runs to 12/07. The countdown may only cover the Black Friday phase / free gift, but as written it disagrees."
+ },
+ {
+  "brand": "Noble",
+  "host": "shopnoble.com",
+  "items_50pct_plus": 82,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "Noble Annual Holiday Sale!",
+    "start": "2026-11-15",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "Daze Denim",
+  "host": "dazedenim.com",
+  "items_50pct_plus": 78,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "DAZE Black Friday | Cyber Monday Sale",
+    "start": "2026-11-22",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date or deadline on homepage."
+ },
+ {
+  "brand": "LAKE",
+  "host": "lakepajamas.com",
+  "items_50pct_plus": 75,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "LAKE Pajamas BFCM Sale",
+    "start": "2026-11-23",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": "Don’t sleep on 25% off. Ends Monday.",
+  "match": false,
+  "note": "Monday is 11/30; sheet says 12/01 (one day later - sheet date may be exclusive)."
+ },
+ {
+  "brand": "Jet Set Candy",
+  "host": "jetsetcandy.com",
+  "items_50pct_plus": 74,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "Black Friday Sale",
+    "start": "2026-11-13",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date on homepage (only an app template string \"Sale ends in\" with no date)."
+ },
+ {
+  "brand": "Stripe & Stare",
+  "host": "stripeandstare.com",
+  "items_50pct_plus": 74,
+  "sheet_end": "2026-12-01",
+  "sheet_rows": [
+   {
+    "sale": "S&S Black Friday Daily Deals & Sale!",
+    "start": "2026-11-15",
+    "end": "2026-12-01"
+   }
+  ],
+  "site_end_quote": null,
+  "match": null,
+  "note": "No end date for the overall sale. Only daily-deal countdown configs (\"Christmas deal ends in:\" 2026-11-26 09:30 UTC, next 2026-11-27 09:30 UTC)."
+ }
+]

@@ -1,0 +1,133 @@
+{
+ "slug": "ends-nov29",
+ "title": "Ends tonight",
+ "sub": "Three sales that close Sunday night, with the pieces worth grabbing first.",
+ "brands": [
+  {
+   "brand": "MONROW",
+   "host": "monrow.com",
+   "deal": "Sale styles up to 70% off",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-11-29",
+   "say": "Sherpa Trucker Jacket was $216, now $86.40, all six sizes in stock. Plush Stripe Sweater $168 to $67. Brushed Rib Cardigan $162 to $49.",
+   "why_not": "Sale styles are tagged final sale. Homepage headline is 30% off sitewide; these deeper prices are the marked-down section.",
+   "items": [
+    {
+     "handle": "sherpa-trucker-jacket",
+     "name": "Sherpa Trucker Jacket",
+     "img": 0,
+     "hero": true,
+     "was": 216,
+     "now": 86.4,
+     "av": "6/6",
+     "note": "60% off, every size in stock, strong on-model photo"
+    },
+    {
+     "handle": "plush-stripe-sweater-1",
+     "name": "Plush Stripe Sweater",
+     "img": 0,
+     "hero": false,
+     "was": 168,
+     "now": 67.2,
+     "av": "5/6",
+     "note": "Camel knit with matching pant available, 60% off"
+    },
+    {
+     "handle": "brushed-rib-cardigan",
+     "name": "Brushed Rib Cardigan",
+     "img": 0,
+     "hero": false,
+     "was": 162,
+     "now": 48.6,
+     "av": "6/6",
+     "note": "70% off and under $50, all six sizes"
+    }
+   ]
+  },
+  {
+   "brand": "Petal & Pup",
+   "host": "petalandpup.com",
+   "deal": "30% off, deeper on shoes",
+   "code": "BF30",
+   "final_sale": null,
+   "ends": "2026-11-29",
+   "say": "Finnegan patent Mary Jane flats were $139, now $49, all sizes. Carmie faux fur jacket $129 to $90. Norine long faux fur coat $149 to $104.",
+   "why_not": "Catalog prices are already marked down; unclear whether code BF30 stacks on top. The flats are final sale.",
+   "items": [
+    {
+     "handle": "finnegan-flats-black-patent",
+     "name": "Patent Mary Jane Flats",
+     "img": 0,
+     "hero": true,
+     "was": 139,
+     "now": 48.97,
+     "av": "5/5",
+     "note": "65% off, 5/5 sizes, clean on-foot shot"
+    },
+    {
+     "handle": "carmie-fur-collared-jacket-brown",
+     "name": "Faux Fur Collar Jacket",
+     "img": 0,
+     "hero": false,
+     "was": 129,
+     "now": 89.97,
+     "av": "5/5",
+     "note": "New-season outerwear at 30% off, all sizes"
+    },
+    {
+     "handle": "norine-longline-faux-fur-coat-espresso",
+     "name": "Long Faux Fur Coat",
+     "img": 0,
+     "hero": false,
+     "was": 149,
+     "now": 103.97,
+     "av": "5/5",
+     "note": "Espresso long coat, street-style photo, all sizes"
+    }
+   ]
+  },
+  {
+   "brand": "Social Threads",
+   "host": "shopsocialthreads.com",
+   "deal": "30% to 40% off as marked",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-11-29",
+   "say": "Molly Bracken corduroy blazer was $170, now $119. Elan sequin mini dress $119 to $71. Fair isle sweater $99 to $69.",
+   "why_not": "Smallest discounts of the three. Sheet lists code BLACKFRIDAY30 ending Nov 29 but the homepage only shows CYBER25, so no code is given. Items tagged final sale.",
+   "items": [
+    {
+     "handle": "molly-bracken-corduroy-blazer",
+     "name": "Corduroy Blazer",
+     "img": 0,
+     "hero": true,
+     "was": 170,
+     "now": 119,
+     "av": "4/4",
+     "note": "Chocolate cord blazer, all 4 sizes, biggest dollar saving"
+    },
+    {
+     "handle": "elan-short-sleeve-sequin-mini-dress",
+     "name": "Sequin Mini Dress",
+     "img": 1,
+     "hero": false,
+     "was": 119,
+     "now": 71.4,
+     "av": "3/4",
+     "note": "Holiday party dress at 40% off; img 1 is the plain studio shot"
+    },
+    {
+     "handle": "by-together-luciane-fair-isle-sweater",
+     "name": "Fair Isle Sweater",
+     "img": 0,
+     "hero": false,
+     "was": 99,
+     "now": 69.3,
+     "av": "3/3",
+     "note": "Seasonal knit, all sizes in stock"
+    }
+   ]
+  }
+ ]
+}

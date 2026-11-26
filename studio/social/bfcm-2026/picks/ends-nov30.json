@@ -1,0 +1,175 @@
+{
+ "slug": "ends-nov30",
+ "title": "Ends tonight",
+ "sub": "Four sales that close Monday night: activewear, denim, pajamas and skincare.",
+ "brands": [
+  {
+   "brand": "P.E Nation",
+   "host": "pe-nation.com",
+   "deal": "Up to 70% off",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-11-30",
+   "say": "Vector faux leather jacket was $279, now $139.50, all eight sizes. Sable knit bomber $199 to $60. Surge quilted jacket $199 to $90.",
+   "why_not": "Homepage also advertises an extra 20% off sitewide, not reflected in these prices. Deepest markdowns are final sale.",
+   "items": [
+    {
+     "handle": "vector-jacket-in-dark-plum",
+     "name": "Vector Jacket",
+     "img": 0,
+     "hero": true,
+     "was": 279,
+     "now": 139.5,
+     "av": "8/8",
+     "note": "Leather-look jacket, 50% off, 8/8 sizes, reads as fashion not gym"
+    },
+    {
+     "handle": "sable-knit-bomber-in-mahogany",
+     "name": "Sable Knit Bomber",
+     "img": 0,
+     "hero": false,
+     "was": 199,
+     "now": 59.7,
+     "av": "5/8",
+     "note": "70% off fuzzy burgundy knit; 5/8 sizes, final sale"
+    },
+    {
+     "handle": "surge-quilt-jacket-in-coffee",
+     "name": "Surge Quilted Jacket",
+     "img": 0,
+     "hero": false,
+     "was": 199,
+     "now": 90,
+     "av": "8/8",
+     "note": "55% off, all sizes, not tagged final sale"
+    }
+   ]
+  },
+  {
+   "brand": "Pistola Denim",
+   "host": "pistoladenim.com",
+   "deal": "Sale styles up to 65% off",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-11-30",
+   "say": "Karlee denim chore jacket was $258, now $90, all sizes. Cassie high rise straight jean $188 to $94 in all 11 sizes. Ilona bubble hem dress $178 to $62.",
+   "why_not": "All three are final sale. Homepage headline is 30% off; these are the deeper sale-section prices.",
+   "items": [
+    {
+     "handle": "karlee-chore-jacket",
+     "name": "Karlee Chore Jacket",
+     "img": 0,
+     "hero": true,
+     "was": 258,
+     "now": 90.3,
+     "av": "5/5",
+     "note": "65% off, 5/5 sizes, light-wash denim jacket"
+    },
+    {
+     "handle": "cassie-super-high-rise-straight-savvy-vintage",
+     "name": "Cassie Straight Jean",
+     "img": 0,
+     "hero": false,
+     "was": 188,
+     "now": 94,
+     "av": "11/11",
+     "note": "Half price in all 11 sizes"
+    },
+    {
+     "handle": "ilona-bubble-hem-dress-peacoat",
+     "name": "Ilona Bubble Hem Dress",
+     "img": 0,
+     "hero": false,
+     "was": 178,
+     "now": 62.3,
+     "av": "5/5",
+     "note": "Navy bubble-hem mini, 65% off, all sizes"
+    }
+   ]
+  },
+  {
+   "brand": "Harper Wilde",
+   "host": "harperwilde.com",
+   "deal": "30% off, PJs at 50% off",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-11-30",
+   "say": "Perfect Pima pajama shirt was $58, now $29, all seven sizes. Matching pajama pants $68 to $34. Cloud Cotton long sleeve tee and pant set $106 to $66.",
+   "why_not": "Low price points, so dollar savings are small. The pima pajama pieces are final sale and sold separately.",
+   "items": [
+    {
+     "handle": "perfect-pima-long-sleeve-pajama-shirt-navy",
+     "name": "Pima Pajama Shirt",
+     "img": 0,
+     "hero": true,
+     "was": 58,
+     "now": 29,
+     "av": "7/7",
+     "note": "Navy piped PJ top, 50% off, 7/7 sizes"
+    },
+    {
+     "handle": "perfect-pima-pajama-pants-navy",
+     "name": "Pima Pajama Pants",
+     "img": 0,
+     "hero": false,
+     "was": 68,
+     "now": 34,
+     "av": "5/7",
+     "note": "Matching pants, 50% off, 5/7 sizes"
+    },
+    {
+     "handle": "cloud-cotton-long-sleeve-t-shirt-pant-set",
+     "name": "Cloud Cotton PJ Set",
+     "img": 1,
+     "hero": false,
+     "was": 106,
+     "now": 66,
+     "av": "7/7",
+     "note": "38% off set, all sizes; img 1 is the on-model shot"
+    }
+   ]
+  },
+  {
+   "brand": "Colleen Rothschild",
+   "host": "colleenrothschild.com",
+   "deal": "30% off sitewide",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-11-30",
+   "say": "Radiant Cleansing Balm was $65, now $45.50. Extreme Recovery Cream $75 to $52.50. Face Oil No. 9 $85 to $59.50. No code needed.",
+   "why_not": "Flat 30% only, nothing deeper. Brand skews a little older than the audience. The balm's first photo has an award badge, so img 1 is used.",
+   "items": [
+    {
+     "handle": "radiant-cleansing-balm",
+     "name": "Radiant Cleansing Balm",
+     "img": 1,
+     "hero": true,
+     "was": 65,
+     "now": 45.5,
+     "av": "1/1",
+     "note": "Best-known product; img 0 has an Allure badge overlay so use img 1"
+    },
+    {
+     "handle": "extreme-recovery-cream",
+     "name": "Extreme Recovery Cream",
+     "img": 0,
+     "hero": false,
+     "was": 75,
+     "now": 52.5,
+     "av": "1/1",
+     "note": "Clean open-jar product shot"
+    },
+    {
+     "handle": "face-oil-number-9",
+     "name": "Face Oil No. 9",
+     "img": 0,
+     "hero": false,
+     "was": 85,
+     "now": 59.5,
+     "av": "1/1",
+     "note": "Clean bottle shot"
+    }
+   ]
+  }
+ ]
+}

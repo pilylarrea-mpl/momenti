@@ -1,0 +1,787 @@
+[
+ {
+  "brand": "Almina Concept",
+  "host": "almina-concept.com",
+  "offer_quote": "Black Friday Sale 25% Off Sitewide Exclusions Apply / Take 25% Sitewide applied in cart. exclusions apply.",
+  "code": "No code - \"applied in cart\"",
+  "minimum": null,
+  "exclusions": "\"Exclusions apply\" (not itemised on homepage)",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "25% sitewide with unspecified exclusions; no only/biggest claim.",
+  "sheet": [
+   {
+    "sale": "Black Friday Promotion: 25% Sitewide",
+    "disc": "25% off",
+    "code": "",
+    "start": "2026-11-02",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Ariel Gordon Jewelry",
+  "host": "arielgordonjewelry.com",
+  "offer_quote": "Our Biggest Sale Of The Year Is Here | 20% Off Sitewide With Code CHEER2026",
+  "code": "CHEER2026 (required)",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": "Our Biggest Sale Of The Year Is Here",
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "Site itself calls it its biggest sale of the year; code matches the sheet.",
+  "sheet": [
+   {
+    "sale": "Holiday Sale 20% off",
+    "disc": "20% off",
+    "code": "CHEER2026",
+    "start": "2026-11-05",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "BAGATIBA",
+  "host": "bagatiba.com",
+  "offer_quote": "BLACK FRIDAY 30% OFF AT CHECKOUT",
+  "code": "No code - \"at checkout\"",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "30% off at checkout, but the banner does not say sitewide/everything and makes no only/biggest claim, so it does not strictly meet the 'strong' bar. Borderline: would be strong if sitewide is confirmed in cart.",
+  "sheet": [
+   {
+    "sale": "BFCM",
+    "disc": "30% off",
+    "code": "",
+    "start": "2026-11-20",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "BONHEUR JEWELRY",
+  "host": "bonheurjewelry.com",
+  "offer_quote": "Get 10% off when you sign up for our newsletter | 30% OFF WITH CODE BLCKFDAY30 | Free shipping $150+",
+  "code": "BLCKFDAY30 (required) - NOT the sheet code Bonheur15, which does not appear on the site",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "30% with code but banner does not say sitewide and makes no only/biggest claim. Borderline. Sheet lists a different, smaller code (Bonheur15, 15%).",
+  "sheet": [
+   {
+    "sale": "Bonheur15",
+    "disc": "15% off",
+    "code": "Bonheur15",
+    "start": "2026-04-19",
+    "end": ""
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "By Alona",
+  "host": "byalona.com",
+  "offer_quote": "30% OFF THIS WEEKEND ONLY Enter code BLACKFRIDAY at checkout",
+  "code": "BLACKFRIDAY (required)",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": "\"THIS WEEKEND ONLY\" (no date given)",
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "30% with code, but site does not say sitewide and makes no only/biggest claim. Borderline; code matches the sheet.",
+  "sheet": [
+   {
+    "sale": "BFCM Sale",
+    "disc": "30% off",
+    "code": "BLACKFRIDAY",
+    "start": "2026-11-26",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "BÉIS",
+  "host": "beistravel.com",
+  "offer_quote": "Black Friday 101: All the sale details. Learn More (menu: \"SHOP THE SALE Shop All Deals Travel Sets 25% Off 30% Off 40% Off 50% Off\")",
+  "code": "Not stated on homepage",
+  "minimum": null,
+  "exclusions": "Not stated on homepage",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "Homepage only points to a Black Friday details page and discount-tier menu links; no headline percentage, code, terms or end date on the homepage itself (page script has siteWideDiscount = \"N/A\"). Sheet says 25% off - not confirmed from homepage.",
+  "sheet": [
+   {
+    "sale": "BÉIS Black Friday & Cyber Monday",
+    "disc": "25% off",
+    "code": "",
+    "start": "2026-11-22",
+    "end": ""
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Calecim",
+  "host": "calecimprofessional.com",
+  "offer_quote": "Black Friday: free gifts with every order. Choose yours in the cart. / Your Black Friday deal. Your choice. Select full-size skin and hair products with minimal spend. Your once-a-year highlight.",
+  "code": "No code - gifts chosen in cart",
+  "minimum": "\"with minimal spend\" (amount not stated on homepage; sheet says $150 / $220)",
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": "Your once-a-year highlight.",
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "Gift-with-purchase, not a price discount. Site says \"once-a-year highlight\" but not 'only sale' or 'biggest sale', so kept at ordinary (borderline).",
+  "sheet": [
+   {
+    "sale": "CALECIM® Black Friday Gifts on Gifts",
+    "disc": "Spend $150, get 1 free; Spend $220, get 1 free; Buy 1, get 1 free; Buy 1, get 2 free",
+    "code": "",
+    "start": "2026-11-05",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "CLEARSTEM",
+  "host": "clearstem.com",
+  "offer_quote": "Thankful. Grateful. Glowing. 30% OFF Sitewide We're serving up serious savings. Plus, score a FREE EYE CANDY + EVERYTHING BAG at $50+.",
+  "code": "None mentioned (product cards already show 30% Off prices, e.g. \"30% Off Add to Bag $58 $40.60\")",
+  "minimum": "None for the 30%; $50+ for the free gift",
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "30% off sitewide stated on site. Note the homepage does show reduced prices on product cards.",
+  "sheet": [
+   {
+    "sale": "CYBER CLEAR: CYBER MONDAY SALE 🌟",
+    "disc": "35% off",
+    "code": "",
+    "start": "2026-11-30",
+    "end": "2026-12-03"
+   },
+   {
+    "sale": "CLEAR THE CART: BLACK FRIDAY SALE 🥳",
+    "disc": "28% off; 30% off",
+    "code": "",
+    "start": "2026-11-26",
+    "end": "2026-11-30"
+   },
+   {
+    "sale": "FIRST DIBS 👀",
+    "disc": "26% off",
+    "code": "",
+    "start": "2026-11-23",
+    "end": "2026-11-26"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Cocolab",
+  "host": "cocolab.com",
+  "offer_quote": "OUR BIGGEST SALE OF THE YEAR Up to 35% off sitewide, including limited edition holiday sets made for gifting.",
+  "code": "No code - \"The 25% sitewide discount automatically applies at checkout with no code required; however, if another discount code is entered, the Black Friday savings will be overridden\"",
+  "minimum": null,
+  "exclusions": "35% only when stacked with the 10% subscription discount, first order only; \"Other promotional codes and loyalty codes cannot be stacked\"; while supplies last",
+  "end_date_on_site": "\"Offers valid November 12, 2026 at 12:00 AM PT through December 2, 2026 at 11:59 PM PT.\"",
+  "once_or_biggest_quote": "OUR BIGGEST SALE OF THE YEAR",
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "Site calls it its biggest sale of the year. Real sitewide discount is 25%; 'up to 35%' needs a subscription.",
+  "sheet": [
+   {
+    "sale": "Black Friday",
+    "disc": "25–35% off",
+    "code": "",
+    "start": "2026-11-12",
+    "end": ""
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Colorescience",
+  "host": "colorescience.com",
+  "offer_quote": "The Black Friday Event 25% off sitewide and FREE SHIPPING on all orders plus, receive FREE GIFTS with orders starting at $135+",
+  "code": "None mentioned",
+  "minimum": "None for the 25%; gifts at $135+ and $250+",
+  "exclusions": "\"See terms\" (not itemised); gifts while supplies last",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "25% sitewide; no only/biggest claim.",
+  "sheet": [
+   {
+    "sale": "The Black Friday Event",
+    "disc": "25% off",
+    "code": "",
+    "start": "2026-11-04",
+    "end": "2026-12-03"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "EltaMD",
+  "host": "eltamd.com",
+  "offer_quote": "Our biggest sale of the year 20% off sitewide Plus free shipping & free mini UV Daily Tinted with every order.",
+  "code": "None mentioned",
+  "minimum": null,
+  "exclusions": "Not stated on homepage (footer links to \"Promotional Details\")",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": "Our biggest sale of the year",
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "Site itself calls it its biggest sale of the year. Note the sheet lists only '10% Off Bundles'; site says 20% sitewide (menu shows 25% off bundles & kits).",
+  "sheet": [
+   {
+    "sale": "10% Off Bundles",
+    "disc": "10% off",
+    "code": "",
+    "start": "2026-11-01",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Elwood Clothing",
+  "host": "elwoodclothing.com",
+  "offer_quote": "30% OFF SITEWIDE | APPLIED AT CHECKOUT",
+  "code": "No code - \"applied at checkout\"",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "30% off sitewide stated on site.",
+  "sheet": [
+   {
+    "sale": "BFCM - 30% OFF SITEWIDE",
+    "disc": "30% off",
+    "code": "",
+    "start": "2026-11-21",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Farmacy Beauty",
+  "host": "farmacybeauty.com",
+  "offer_quote": "BLACK FRIDAY | 30% OFF SITEWIDE & FREE 2-PC GIFT ON +$100 ORDERS / 25% OFF SITEWIDE BLACK FRIDAY SALE 30% OFF SITEWIDE OVER $100",
+  "code": "None mentioned",
+  "minimum": "$100 for the 30% tier and gift (\"Get 30% sitewide with orders $100\"); 25% below that",
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "30% sitewide only with a $100 minimum; 25% otherwise. The announcement bar's '30% OFF SITEWIDE' omits the minimum that other blocks state. Borderline.",
+  "sheet": [
+   {
+    "sale": "Farmacy T12 Sale at Amazon (11/19 - 11/30)",
+    "disc": "25–40% off",
+    "code": "",
+    "start": "2026-11-13",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Jennifer Behr",
+  "host": "jenniferbehr.com",
+  "offer_quote": "Black Friday Sale — 25% off orders $150+. Sitewide, no exclusions. Discount automatically applies at checkout.",
+  "code": "No code - \"Discount automatically applies at checkout\"",
+  "minimum": "$150",
+  "exclusions": "\"Sitewide, no exclusions.\"",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": "The Biggest Sale Of The Year 25% OFF ORDERS $150+",
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "Site calls it the biggest sale of the year. Must mention the $150 minimum.",
+  "sheet": [
+   {
+    "sale": "The Black Friday Sale - 25% Off",
+    "disc": "25% off",
+    "code": "",
+    "start": "2026-11-20",
+    "end": "2026-12-02"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Josie Maran",
+  "host": "josiemaran.com",
+  "offer_quote": "BLACK FRIDAY EVENT: 20% OFF + FREE SHIPPING TODAY'S GIFT: TRAVEL ARGAN OIL WITH ORDERS $100+",
+  "code": "None mentioned",
+  "minimum": "None for the 20%; $100+ for the gift",
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "Site says 20% off; the sheet says 25% - mismatch, use the site figure.",
+  "sheet": [
+   {
+    "sale": "Black Friday Sale",
+    "disc": "25% off",
+    "code": "",
+    "start": "2026-11-24",
+    "end": "2026-11-30"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Kyrgies",
+  "host": "kyrgies.com",
+  "offer_quote": "25% off sitewide with one-time code: BISHKEK25",
+  "code": "BISHKEK25 (required, \"one-time code\") - sheet says BISHKEK20 / 20%, which is not on the site",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "25% sitewide with code; no only/biggest claim. Sheet code and percentage are out of date.",
+  "sheet": [
+   {
+    "sale": "Settle In Sale",
+    "disc": "20% off",
+    "code": "BISHKEK20",
+    "start": "2026-11-12",
+    "end": "2026-11-26"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "LINNEA",
+  "host": "linneaandco.com",
+  "offer_quote": "THE BLACK FRIDAY EVENT 15% off and a Cashmere gift on orders over $175. USE CODE: FESTIVE15",
+  "code": "FESTIVE15 (required) - sheet lists no code",
+  "minimum": "$175 stated for the cashmere gift (sentence is ambiguous whether it also applies to the 15%)",
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "15% with code; no only/biggest claim.",
+  "sheet": [
+   {
+    "sale": "Black Friday Cyber Monday Promotion",
+    "disc": "15% off",
+    "code": "",
+    "start": "2026-11-25",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Londontown",
+  "host": "londontownusa.com",
+  "offer_quote": "BLACK FRIDAY IS HERE 🖤 30% OFF SITEWIDE! USE CODE: BF30",
+  "code": "BF30 (required) - sheet lists no code",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "30% off sitewide stated on site; needs code BF30.",
+  "sheet": [
+   {
+    "sale": "Black Friday Cyber Monday",
+    "disc": "30% off",
+    "code": "",
+    "start": "2026-11-24",
+    "end": "2026-12-02"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "LulaKate",
+  "host": "lulakate.com",
+  "offer_quote": "our only sale of the year! 20% off gift cards with code SAYYES",
+  "code": "SAYYES (required)",
+  "minimum": null,
+  "exclusions": "Offer wording is \"20% off gift cards\" - i.e. the discount is on gift cards, not on dresses directly",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": "our only sale of the year!",
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "Site says it is their only sale of the year. Caveat: it is 20% off GIFT CARDS; do not describe it as 20% off the store.",
+  "sheet": [
+   {
+    "sale": "SAYYES",
+    "disc": "20% off",
+    "code": "SAYYES",
+    "start": "2026-11-03",
+    "end": "2026-12-02"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "MALIN+GOETZ",
+  "host": "malinandgoetz.com",
+  "offer_quote": "BLACK FRIDAY SALE. 20% off sitewide. 25% off orders of $125 or more. *no code needed. shop now.",
+  "code": "No code - \"no code needed\"",
+  "minimum": "$125 for the 25% tier; none for 20%",
+  "exclusions": null,
+  "end_date_on_site": "\"*ends 11/30\" (sheet says 2026-12-01)",
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "20-25%; no only/biggest claim. Site end date 11/30 is one day earlier than the sheet.",
+  "sheet": [
+   {
+    "sale": "Black Friday Sale",
+    "disc": "20% off; 25% off; Spend $150, get 1 free",
+    "code": "",
+    "start": "2026-11-26",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Margaux",
+  "host": "margauxny.com",
+  "offer_quote": "Enjoy 20% off EVERYTHING Our only sitewide sale of the year is on. / Take 20% off online & in stores",
+  "code": "None mentioned",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": "Our only sitewide sale of the year is on.",
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "Site says it is their only sitewide sale of the year.",
+  "sheet": [
+   {
+    "sale": "Margaux BFCM",
+    "disc": "20% off",
+    "code": "",
+    "start": "2026-11-18",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Orena Fragrances",
+  "host": "orenafragrances.com",
+  "offer_quote": "30% OFF SITEWIDE + FREE DOMESTIC SHIPPING ON ORDERS $120+ | USE CODE: BLACKFRIDAY",
+  "code": "BLACKFRIDAY (required)",
+  "minimum": "None for the 30%; $120+ for free domestic shipping",
+  "exclusions": null,
+  "end_date_on_site": "Embedded social caption on homepage: \"The sale ends Sunday at 11:59 PM EST\" (Sunday = 11/29; sheet says BLACKFRIDAY runs to 11/30)",
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "30% off sitewide stated on site, code matches sheet. End date comes only from an embedded social post.",
+  "sheet": [
+   {
+    "sale": "CYBER",
+    "disc": "35% off",
+    "code": "CYBER",
+    "start": "2026-11-30",
+    "end": "2026-12-01"
+   },
+   {
+    "sale": "BLACKFRIDAY",
+    "disc": "30% off",
+    "code": "BLACKFRIDAY",
+    "start": "2026-11-25",
+    "end": "2026-11-30"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Petite Keep",
+  "host": "petitekeep.com",
+  "offer_quote": "Black Friday Sale | 15% off Everything LIMITED TIME | FREE EMBROIDERY",
+  "code": "None mentioned",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": "\"LIMITED TIME\" (no date)",
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "15% off everything; no only/biggest claim.",
+  "sheet": [
+   {
+    "sale": "15% off Black Friday Cyber Monday Sale",
+    "disc": "15% off",
+    "code": "",
+    "start": "2026-11-18",
+    "end": "2026-12-02"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Porte + Hall",
+  "host": "porteandhall.com",
+  "offer_quote": "Final Few. Final Chance. SHOP NOW (product cards show e.g. old price $253, now $202.40)",
+  "code": "None shown; sheet code \"everything\" does not appear anywhere on the pages checked",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "No Black Friday headline, percentage or code is stated on the homepage; the only sign of a sale is that product cards show prices 20% below a struck-through price, plus a 'Final Few. Final Chance.' banner. Weak evidence - verify in cart before filming.",
+  "sheet": [
+   {
+    "sale": "Black Friday/Cyber Monday",
+    "disc": "20% off",
+    "code": "everything",
+    "start": "2026-11-26",
+    "end": "2026-12-01"
+   },
+   {
+    "sale": "Black Friday Preview",
+    "disc": "15% off",
+    "code": "everything",
+    "start": "2026-11-23",
+    "end": "2026-11-26"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Rails",
+  "host": "rails.com",
+  "offer_quote": "30% OFF SALE STYLES* WITH CODE BFCM26. SEE DETAILS",
+  "code": "BFCM26 (required) - sheet lists no code",
+  "minimum": null,
+  "exclusions": "Sale styles only (\"SALE STYLES*\"; asterisk links to FAQ, details not on homepage)",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "30% applies to sale styles only, not sitewide, and needs a code; sheet says '30% off' with no code.",
+  "sheet": [
+   {
+    "sale": "Black Friday/Cyber Monday 2026 Sale",
+    "disc": "30% off",
+    "code": "",
+    "start": "2026-11-16",
+    "end": "2026-11-30"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Remedy Skin",
+  "host": "remedyskin.com",
+  "offer_quote": "BLACK FRIDAY: 25% OFF SITEWIDE 30% OFF BUNDLES + FREE BAG ON $100+",
+  "code": "No code - \"NO CODE NEEDED\"",
+  "minimum": "None for discounts; $100+ for the free On-Call Bag",
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "25% sitewide, 30% bundles only; no only/biggest claim.",
+  "sheet": [
+   {
+    "sale": "Amazon Black Friday Cyber Monday Sale",
+    "disc": "25% off",
+    "code": "",
+    "start": "2026-11-19",
+    "end": "2026-12-01"
+   },
+   {
+    "sale": "Target Black Friday & Cyber Monday Sale",
+    "disc": "25% off",
+    "code": "",
+    "start": "2026-11-22",
+    "end": "2026-11-29"
+   },
+   {
+    "sale": "Remedy Black Friday & Cyber Monday Sale",
+    "disc": "25–30% off",
+    "code": "",
+    "start": "2026-11-23",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Rise & Fall",
+  "host": "riseandfall.co",
+  "offer_quote": "Black Friday — 20% off everything. Free Shipping on all orders. This week only.",
+  "code": "None mentioned",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": "\"This week only.\" (no date; sheet says 2026-12-03)",
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "20% off everything; no only/biggest claim. Saved homepage shows £ pricing in places (UK storefront).",
+  "sheet": [
+   {
+    "sale": "Black Friday Sale",
+    "disc": "20% off",
+    "code": "",
+    "start": "2026-11-01",
+    "end": "2026-12-03"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Supergoop!",
+  "host": "supergoop.com",
+  "offer_quote": "Supergoop! - 20% OFF SITEWIDE - Black Friday Cyber Monday Sale / Plus, get a free full-size Glow Stick with purchases of $70+, and Glow Oil with purchases of $90+.",
+  "code": "No code - \"Discount applied at checkout.\"",
+  "minimum": "None for the 20%; gifts at $70+ and $90+",
+  "exclusions": "\"Terms and exclusions apply.\" (not itemised)",
+  "end_date_on_site": "\"Limited Time Only\" on the gifts (no date)",
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "20% sitewide; separate 'Super Steals ... Up to 40% off' is selected products only. No only/biggest claim.",
+  "sheet": [
+   {
+    "sale": "40% OFF SUPERSTEALS",
+    "disc": "40% off",
+    "code": "",
+    "start": "2026-11-02",
+    "end": "2027-01-04"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "The Fête",
+  "host": "thefete.com",
+  "offer_quote": "25% OFF — USE CODE THANKFUL25",
+  "code": "THANKFUL25 (required)",
+  "minimum": null,
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "25% with code (matches sheet); no only/biggest claim.",
+  "sheet": [
+   {
+    "sale": "THANKFUL25",
+    "disc": "25% off",
+    "code": "THANKFUL25",
+    "start": "2026-11-19",
+    "end": "2026-12-02"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "TYPEBEA",
+  "host": "typebea.com",
+  "offer_quote": "SHOP THE MANE EVENT NOW / \"The Mane Event. The sale is live. Shop now\"",
+  "code": "Not stated on homepage",
+  "minimum": null,
+  "exclusions": "Not stated on homepage",
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "Homepage announces the sale ('The Mane Event', 'BLACK FRIDAY SALE' in nav) but states no percentage, code, minimum or end date. Sheet's 20/25/30% tiers not confirmed from homepage.",
+  "sheet": [
+   {
+    "sale": "The Mane Event",
+    "disc": "20% off; 25% off; 30% off",
+    "code": "",
+    "start": "2026-11-19",
+    "end": "2026-12-02"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Winky Lux",
+  "host": "winkylux.com",
+  "offer_quote": "30% OFF SITEWIDE PLUS FREE GIFT ON ORDERS $50+",
+  "code": "None mentioned",
+  "minimum": "None for the 30%; $50+ for the free gift",
+  "exclusions": null,
+  "end_date_on_site": null,
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "strong",
+  "reason": "30% off sitewide stated on site.",
+  "sheet": [
+   {
+    "sale": "Black Friday at Ulta",
+    "disc": "30% off",
+    "code": "",
+    "start": "2026-11-22",
+    "end": "2026-11-29"
+   },
+   {
+    "sale": "Black Friday!",
+    "disc": "30% off",
+    "code": "",
+    "start": "2026-11-25",
+    "end": "2026-11-30"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ },
+ {
+  "brand": "Young Goose",
+  "host": "younggoose.com",
+  "offer_quote": "Black Friday Gifts With Purchase. / Receive complimentary full-size skincare with qualifying purchases of $300 or more. Gifts are automatically added to cart.",
+  "code": "No code - \"Gifts are automatically added to cart\"",
+  "minimum": "$300 (\"Receive over $350 in gifts when you spend $750 or more\")",
+  "exclusions": "\"Advent Calendar purchases do not count toward qualifying spend.\"; gifts while supplies last",
+  "end_date_on_site": "Banner \"Black Friday: Last Chance\" with countdown; countdown attribute end date 2026-11-27 (sheet says 2026-12-01)",
+  "once_or_biggest_quote": null,
+  "sale_visible": true,
+  "verdict": "ordinary",
+  "reason": "Gift-with-purchase at $300+, not a discount; no only/biggest claim. Countdown suggests an earlier end than the sheet.",
+  "sheet": [
+   {
+    "sale": "Young Goose | BFCM",
+    "disc": "Spend $300, get 1 free; Spend $500, get 2 free; Spend $750, get 3 free",
+    "code": "",
+    "start": "2026-11-16",
+    "end": "2026-12-01"
+   }
+  ],
+  "source": "saved homepage crawl (fetched earlier 2026-11-26)"
+ }
+]

@@ -1,0 +1,137 @@
+{
+ "slug": "gifts25",
+ "items": [
+  {
+   "brand": "BaubleBar",
+   "host": "baublebar.com",
+   "handle": "raven-resin-bangle-set-earth-tones",
+   "name": "Resin Bangle Set",
+   "img": 1,
+   "was": 88,
+   "now": 16,
+   "off": 82,
+   "for": "your stylish best friend",
+   "note": "Set of three tortoise and gold bangles"
+  },
+  {
+   "brand": "BaubleBar",
+   "host": "baublebar.com",
+   "handle": "daeva-earrings-clear-gold",
+   "name": "Gold Link Earrings",
+   "img": 1,
+   "was": 98,
+   "now": 19,
+   "off": 81,
+   "for": "your sister",
+   "note": "18K gold plated link drops with pavé detail"
+  },
+  {
+   "brand": "Cozyland",
+   "host": "wearecozyland.com",
+   "handle": "the-zzz-mask-in-eclipse",
+   "name": "Zzz Sleep Mask",
+   "img": 0,
+   "was": 48,
+   "now": 19,
+   "off": 60,
+   "for": "the friend who never sleeps",
+   "note": "Padded navy sleep mask with embroidered zzz; photo is on-model"
+  },
+  {
+   "brand": "Sterling Forever",
+   "host": "sterlingforever.com",
+   "handle": "sterling-silver-baguette-cz-micro-hoops",
+   "name": "Baguette Charm Huggies",
+   "img": 1,
+   "was": 74,
+   "now": 20,
+   "off": 73,
+   "for": "your coworker",
+   "note": "Sterling silver huggies with baguette CZ drop, gold or silver"
+  },
+  {
+   "brand": "MAKE",
+   "host": "makebeauty.com",
+   "handle": "subverse-plumping-peptide-serum",
+   "name": "Subverse Peptide Serum",
+   "img": 0,
+   "was": 40,
+   "now": 20,
+   "off": 50,
+   "for": "the skincare lover",
+   "note": "Plumping peptide serum in a cobalt bottle; exactly 50% off"
+  },
+  {
+   "brand": "Parachute Home",
+   "host": "parachutehome.com",
+   "handle": "terry-stripe-slippers-dusk-and-adobe",
+   "name": "Terry Stripe Slippers",
+   "img": 0,
+   "was": 59,
+   "now": 23.6,
+   "off": 60,
+   "for": "your roommate",
+   "note": "Striped terry slippers; final sale, 3 of 5 sizes left"
+  },
+  {
+   "brand": "Bryan Anthonys",
+   "host": "bryananthonys.com",
+   "handle": "inner-beauty-stations-necklace",
+   "name": "Station Necklace",
+   "img": 1,
+   "was": 68,
+   "now": 24,
+   "off": 65,
+   "for": "your mom",
+   "note": "Dainty gold station necklace; img 0 is a text card so use img 1"
+  },
+  {
+   "brand": "Curie",
+   "host": "curiebod.com",
+   "handle": "clean-deodorant-stick-flight",
+   "name": "Clean Deodorant Mini Set",
+   "img": 0,
+   "was": 56,
+   "now": 24,
+   "off": 57,
+   "for": "a stocking stuffer",
+   "note": "Four mini clean deodorants in colourful sticks"
+  },
+  {
+   "brand": "Parachute Home",
+   "host": "parachutehome.com",
+   "handle": "classic-turkish-cotton-slippers-white-new",
+   "name": "Turkish Cotton Slippers",
+   "img": 0,
+   "was": 49,
+   "now": 24,
+   "off": 51,
+   "for": "the homebody",
+   "note": "White spa-style slippers; final sale, all sizes in stock"
+  },
+  {
+   "brand": "Marcella",
+   "host": "marcellanyc.com",
+   "handle": "vincent-leather-cardholder",
+   "name": "Leather Card Holder",
+   "img": 0,
+   "was": 49,
+   "now": 24.5,
+   "off": 50,
+   "for": "your work bestie",
+   "note": "Black textured leather card holder with gold logo"
+  },
+  {
+   "brand": "Hanky Panky",
+   "host": "hankypanky.com",
+   "handle": "satin-sleep-tee-bath-time-blue",
+   "name": "Satin Sleep Tee",
+   "img": 0,
+   "was": 85,
+   "now": 24.99,
+   "off": 71,
+   "for": "your sister",
+   "note": "Blue satin pajama tee, all four sizes in stock"
+  }
+ ]
+}

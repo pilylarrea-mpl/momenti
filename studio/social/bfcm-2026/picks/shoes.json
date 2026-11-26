@@ -1,0 +1,212 @@
+{
+ "slug": "shoes",
+ "title": "Shoes",
+ "sub": "Five shoe brands with real markdowns of 40 to 60 percent right now.",
+ "brands": [
+  {
+   "brand": "FRĒDA SALVADOR",
+   "host": "fredasalvador.com",
+   "deal": "Sale styles 50-70% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero is the Sally woven leather flat in chocolate, was $498, now $249, 12 of 13 sizes left. The Ria boat shoe is $159 from $398. Minnie ballet sneaker is half off at $175 in every size. Final sale, no returns.",
+   "why_not": "Homepage only advertises 25% off; these deeper cuts are sale-section styles in spring colors. Sheet lists code VIPFRIDAY26 but it is not on the homepage, so not used.",
+   "items": [
+    {
+     "handle": "sally-chocolate-knotted-calf",
+     "name": "Sally Woven Flat",
+     "img": 1,
+     "hero": true,
+     "was": 498,
+     "now": 249,
+     "av": "12/13",
+     "note": "Woven leather flat in chocolate, $249 saved, nearly full size run, strong on-foot photo"
+    },
+    {
+     "handle": "ria-vanilla-nappa",
+     "name": "Ria Boat Shoe",
+     "img": 1,
+     "hero": false,
+     "was": 398,
+     "now": 159,
+     "av": "8/11",
+     "note": "On-trend soft boat shoe in cream nappa, 60% off"
+    },
+    {
+     "handle": "minnie-ivory-suede-with-mesh",
+     "name": "Minnie Ballet Sneaker",
+     "img": 1,
+     "hero": false,
+     "was": 350,
+     "now": 175,
+     "av": "9/9",
+     "note": "Ballet sneaker trend, half off, all 9 sizes in stock"
+    }
+   ]
+  },
+  {
+   "brand": "Intentionally Blank",
+   "host": "intentionallyblank.us",
+   "deal": "Up to 75% off sitewide",
+   "code": null,
+   "final_sale": null,
+   "say": "Hero is the Hiperson leather knee high boot, was $324, now $162, 15 of 16 sizes. Scorpio heeled ankle boot is $134 from $268. Next Door penny loafer is $105 from $210.",
+   "why_not": null,
+   "items": [
+    {
+     "handle": "hiperson-leather-knee-high-boot",
+     "name": "Hiperson Knee Boot",
+     "img": 0,
+     "hero": true,
+     "was": 324,
+     "now": 162,
+     "av": "15/16",
+     "note": "Black leather kitten-heel knee boot, $162 saved, in season"
+    },
+    {
+     "handle": "scorpio-heeled-ankle-boot",
+     "name": "Scorpio Ankle Boot",
+     "img": 1,
+     "hero": false,
+     "was": 268,
+     "now": 134,
+     "av": "15/16",
+     "note": "Everyday black block-heel ankle boot, half off, 15/16 sizes"
+    },
+    {
+     "handle": "nextdoor-penny-loafer",
+     "name": "Next Door Loafer",
+     "img": 0,
+     "hero": false,
+     "was": 210,
+     "now": 105,
+     "av": "12/16",
+     "note": "Two-tone penny loafer, half off, adds a flat to the mix"
+    }
+   ]
+  },
+  {
+   "brand": "Emme Parsons",
+   "host": "emmeparsons.com",
+   "deal": "Private sale: 40% off",
+   "code": null,
+   "final_sale": null,
+   "say": "Hero is the Isabel pointed kitten heel in black calfskin, was $665, now $399. Delicat strappy heel in bordeaux is $387 from $645, 12 of 13 sizes. Salomé suede mary jane is $366 from $610.",
+   "why_not": "Luxury price point: still $330-$400 after the discount. Sheet claims up to 80% off, but that only applies to one-size archive samples, which are excluded here.",
+   "items": [
+    {
+     "handle": "isabel-black-calf",
+     "name": "Isabel Kitten Heel",
+     "img": 2,
+     "hero": true,
+     "was": 665,
+     "now": 399,
+     "av": "8/13",
+     "note": "Black pointed kitten-heel mule, $266 saved, best editorial photo"
+    },
+    {
+     "handle": "delicat-bordeaux-kidskin",
+     "name": "Delicat Strappy Heel",
+     "img": 0,
+     "hero": false,
+     "was": 645,
+     "now": 387,
+     "av": "12/13",
+     "note": "Bordeaux strappy low heel for holiday parties, 12/13 sizes"
+    },
+    {
+     "handle": "salome-mary-jane-cerulean-blue-suede",
+     "name": "Salomé Mary Jane",
+     "img": 1,
+     "hero": false,
+     "was": 610,
+     "now": 366,
+     "av": "5/8",
+     "note": "Blue suede mary jane flat, 5 of 8 sizes left"
+    }
+   ]
+  },
+  {
+   "brand": "Nisolo",
+   "host": "nisolo.com",
+   "deal": "Up to 60% off sitewide",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero is the Go-To lace lug boot in black suede, was $248, now $99, 9 of 11 sizes. Lidia whipstitch loafer is $99 from $228. Lola suede mary jane is $99 from $198. Final sale, no returns.",
+   "why_not": "Homepage says an extra 40% off; catalog prices used here appear to already include it.",
+   "items": [
+    {
+     "handle": "go-to-lace-lug-boot-black",
+     "name": "Go-To Lace Lug Boot",
+     "img": 0,
+     "hero": true,
+     "was": 248,
+     "now": 99,
+     "av": "9/11",
+     "note": "Black suede lug boot at 60% off, biggest saving and in season"
+    },
+    {
+     "handle": "lidia-whipstitch-loafer-pearl",
+     "name": "Lidia Loafer",
+     "img": 0,
+     "hero": false,
+     "was": 228,
+     "now": 99,
+     "av": "10/11",
+     "note": "Cream whipstitch loafer, 57% off (img1 shows the lilac color, so img0)"
+    },
+    {
+     "handle": "lola-mary-jane-black-suede",
+     "name": "Lola Mary Jane",
+     "img": 1,
+     "hero": false,
+     "was": 198,
+     "now": 99,
+     "av": "10/11",
+     "note": "Black suede mary jane, half off, cute socks-on photo"
+    }
+   ]
+  },
+  {
+   "brand": "Rothy's",
+   "host": "rothys.com",
+   "deal": "Up to 40% off everything",
+   "code": null,
+   "final_sale": null,
+   "say": "Hero is the shearling-lined Après Clog in pecan, was $170, now $99, all 10 sizes. Almond Loafer in black is $99 from $180. Double Bit Driver is $119 from $195 in every size.",
+   "why_not": "Smaller dollar savings than the other brands ($71-$81 per pair).",
+   "items": [
+    {
+     "handle": "womens-apres-clog-revelvet-pecan",
+     "name": "Après Clog",
+     "img": 1,
+     "hero": true,
+     "was": 170,
+     "now": 99,
+     "av": "10/10",
+     "note": "Cozy lined clog, on-trend and seasonal, full size run"
+    },
+    {
+     "handle": "the-almond-loafer-black",
+     "name": "Almond Loafer",
+     "img": 1,
+     "hero": false,
+     "was": 180,
+     "now": 99,
+     "av": "12/17",
+     "note": "Biggest Rothy's markdown at 45% off, washable black loafer"
+    },
+    {
+     "handle": "womens-double-bit-driver-black",
+     "name": "Double Bit Driver",
+     "img": 1,
+     "hero": false,
+     "was": 195,
+     "now": 119,
+     "av": "17/17",
+     "note": "Black driving loafer with gold bit, all 17 sizes"
+    }
+   ]
+  }
+ ]
+}

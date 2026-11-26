@@ -1,0 +1,212 @@
+{
+ "slug": "pajamas",
+ "title": "Pajamas",
+ "sub": "Pajama and lounge sets marked down 40 to 70 percent, sizes still in stock.",
+ "brands": [
+  {
+   "brand": "LAKE",
+   "host": "lakepajamas.com",
+   "deal": "Sale styles 40-50% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero is the Pima fair isle pajama set in navy, was $124, now $62, every size in stock. Relax jogger set in French blue is $72 from $144. Wander ribbed knit jogger set is $172 from $288. Final sale, no returns.",
+   "why_not": "Homepage advertises 25% off sitewide; these are deeper sale-section markdowns.",
+   "items": [
+    {
+     "handle": "english-navy-fair-isle-crew-short-long-set",
+     "name": "Fair Isle Pima PJ Set",
+     "img": 1,
+     "hero": true,
+     "was": 124,
+     "now": 62,
+     "av": "7/7",
+     "note": "Holiday fair isle print, half off, all 7 sizes, strong on-model photo"
+    },
+    {
+     "handle": "french-blue-relax-jogger-set",
+     "name": "Relax Jogger Set",
+     "img": 2,
+     "hero": false,
+     "was": 144,
+     "now": 72,
+     "av": "5/7",
+     "note": "Soft blue lounge set, half off, 5 of 7 sizes"
+    },
+    {
+     "handle": "fawn-heather-wander-ribbed-jogger-pants-set",
+     "name": "Wander Ribbed Knit Set",
+     "img": 1,
+     "hero": false,
+     "was": 288,
+     "now": 172,
+     "av": "5/5",
+     "note": "Sweater-knit lounge set, biggest saving at $116, all sizes"
+    }
+   ]
+  },
+  {
+   "brand": "MONROW",
+   "host": "monrow.com",
+   "deal": "Up to 70% off sale styles",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero is the Plush Stripe sweater, was $168, now $67, 5 of 6 sizes. Brushed thermal sweatshirt is $52 from $172. Rib waffle oversized sweatpant is $99 from $198 in every size. Final sale, no returns.",
+   "why_not": "Loungewear rather than pajamas. Homepage mentions an additional 30% off marked-down styles, which may or may not already be in these prices.",
+   "items": [
+    {
+     "handle": "plush-stripe-sweater-1",
+     "name": "Plush Stripe Sweater",
+     "img": 1,
+     "hero": true,
+     "was": 168,
+     "now": 67,
+     "av": "5/6",
+     "note": "Camel knit sweater shown with its matching pant, 60% off"
+    },
+    {
+     "handle": "brusehd-thermal-drawcord-waist-sweatshirt-1",
+     "name": "Thermal Sweatshirt",
+     "img": 0,
+     "hero": false,
+     "was": 172,
+     "now": 52,
+     "av": "5/6",
+     "note": "Charcoal cropped thermal sweatshirt, $120 saved, 70% off"
+    },
+    {
+     "handle": "soft-knit-rib-waffle-oversized-sweat-1",
+     "name": "Waffle Knit Sweatpant",
+     "img": 0,
+     "hero": false,
+     "was": 198,
+     "now": 99,
+     "av": "6/6",
+     "note": "Grey waffle knit sweatpant, half off, all 6 sizes"
+    }
+   ]
+  },
+  {
+   "brand": "Stripe & Stare",
+   "host": "stripeandstare.com",
+   "deal": "Up to 50% off pyjamas",
+   "code": null,
+   "final_sale": null,
+   "say": "Hero is the long pyjama set in chocolate with cream piping, was $95, now $48, 6 of 8 sizes. Cami and short set is $45 from $85 in every size. Brushed woven pyjama top is $35 from $70.",
+   "why_not": "The brushed woven top is sold on its own; the matching pant is separate. Prices as listed in the catalog.",
+   "items": [
+    {
+     "handle": "long-pyjama-set-bitter-chocolate-buttercream",
+     "name": "Chocolate Long PJ Set",
+     "img": 0,
+     "hero": true,
+     "was": 95,
+     "now": 48,
+     "av": "6/8",
+     "note": "Classic piped long set in chocolate, half off, most wearable piece"
+    },
+    {
+     "handle": "cami-short-pyjama-set-sweet-posy",
+     "name": "Cami & Short PJ Set",
+     "img": 0,
+     "hero": false,
+     "was": 85,
+     "now": 45,
+     "av": "8/8",
+     "note": "Floral cami set, 47% off, all 8 sizes"
+    },
+    {
+     "handle": "soft-brushed-woven-pyjama-top-blue-stripe",
+     "name": "Blue Stripe PJ Top",
+     "img": 0,
+     "hero": false,
+     "was": 70,
+     "now": 35,
+     "av": "5/8",
+     "note": "Blue stripe button-up top, half off, 5 of 8 sizes"
+    }
+   ]
+  },
+  {
+   "brand": "Softies",
+   "host": "softiespjs.com",
+   "deal": "Sale styles 60% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero is the Soft Sleep caftan top and cropped pant set, was $140, now $54, every size in stock. DreamPlush quarter zip pullover is $54 from $140. Shawl collar robe is $50 from $130. Final sale, no returns.",
+   "why_not": "Styling skews a little older than the other brands. Rest of the site is only 20% off.",
+   "items": [
+    {
+     "handle": "caftan-top-cropped-pant-set",
+     "name": "Soft Sleep PJ Set",
+     "img": 0,
+     "hero": true,
+     "was": 140,
+     "now": 54,
+     "av": "24/24",
+     "note": "Blue floral button-up pajama set, 61% off, all 24 size options"
+    },
+    {
+     "handle": "dreamplush-1-4-zip-pullover",
+     "name": "DreamPlush Quarter Zip",
+     "img": 2,
+     "hero": false,
+     "was": 140,
+     "now": 54,
+     "av": "24/24",
+     "note": "Fluffy cream quarter zip, 61% off, full size run"
+    },
+    {
+     "handle": "dream-shawl-collar-robe-sale",
+     "name": "Shawl Collar Robe",
+     "img": 1,
+     "hero": false,
+     "was": 130,
+     "now": 50,
+     "av": "16/20",
+     "note": "Lightweight striped robe, 62% off, 16 of 20 options"
+    }
+   ]
+  },
+  {
+   "brand": "Cozyland",
+   "host": "wearecozyland.com",
+   "deal": "PJ sets up to 70% off",
+   "code": null,
+   "final_sale": true,
+   "say": "Hero is the Ellie lounge set in coffee velvet, was $170, now $85, 4 of 6 sizes. The pink striped Glinda pajama set from the Wicked collab is $51 from $170. The green Elphaba stripe set is also $51. Final sale, no returns.",
+   "why_not": "Two of the three are Wicked movie collab pieces with small embroidered logos, so they suit fans more than everyone. Photos carry a tiny copyright line at the bottom edge.",
+   "items": [
+    {
+     "handle": "ellie-pj-set-in-coffee-velour",
+     "name": "Coffee Velvet Set",
+     "img": 0,
+     "hero": true,
+     "was": 170,
+     "now": 85,
+     "av": "4/6",
+     "note": "Chocolate velvet lounge set, half off, no licensed branding"
+    },
+    {
+     "handle": "glinda-striped-pj-set-x-wicked",
+     "name": "Pink Stripe PJ Set",
+     "img": 0,
+     "hero": false,
+     "was": 170,
+     "now": 51,
+     "av": "6/6",
+     "note": "Pink stripe long set, 70% off, $119 saved, all 6 sizes"
+    },
+    {
+     "handle": "elphaba-stripe-pj-set-x-wicked",
+     "name": "Green Stripe PJ Set",
+     "img": 0,
+     "hero": false,
+     "was": 170,
+     "now": 51,
+     "av": "6/6",
+     "note": "Green stripe long set, 70% off, all 6 sizes"
+    }
+   ]
+  }
+ ]
+}

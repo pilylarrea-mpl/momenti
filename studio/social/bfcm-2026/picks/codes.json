@@ -1,0 +1,1030 @@
+[
+ {
+  "brand": "Kyrgies",
+  "host": "kyrgies.com",
+  "code": "BISHKEK20",
+  "sheet_discount": "20% off",
+  "sale": "Settle In Sale",
+  "start": "2026-11-12",
+  "end": "2026-11-26",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "BISHKEK25",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "e wool slippers & shoes Skip to content 25% off sitewide with one-time code: BISHKEK25 Discover the Settle in Collection Search Shop Fin"
+   }
+  ],
+  "note": "Site banner advertises BISHKEK25 (25% off sitewide, one-time code) instead; sheet row also ends today (11/26)."
+ },
+ {
+  "brand": "Hudson Grace",
+  "host": "hudsongracesf.com",
+  "code": "SAVE20",
+  "sheet_discount": "20% off",
+  "sale": "Set the Table. Save 20%. One Day Only.",
+  "start": "2026-11-10",
+  "end": "",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "EXTRA20",
+    "where": "/collections/sale (HTTP 200)",
+    "quote": "ice $118.40 Sale price $118.40 Regular price $148.00 Unit price / per USE CODE EXTRA20 FOR 20% OFF <img srcset='//hudsongracesf.com/cdn/"
+   }
+  ],
+  "note": "Homepage says \"SHOP 20% OFF EVERYTHING*\" with no code; /collections/sale product cards show a different code EXTRA20."
+ },
+ {
+  "brand": "Hearth Display",
+  "host": "hearthdisplay.com",
+  "code": "BFCM",
+  "sheet_discount": "20% off",
+  "sale": "BFCM",
+  "start": "2026-11-05",
+  "end": "2026-11-30",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Homepage says \"Our Black Friday sale is live: 20% off through Cyber Monday (11/30)\" with no code shown."
+ },
+ {
+  "brand": "EP Jewels",
+  "host": "epjewels.com",
+  "code": "Nov30",
+  "sheet_discount": "30% off",
+  "sale": "EP Jewels 30-40% Holiday Sale!!",
+  "start": "2026-11-01",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "30% off - use code NOV30",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Host redirects to epjewels.co."
+ },
+ {
+  "brand": "EP Jewels",
+  "host": "epjewels.com",
+  "code": "BF2026",
+  "sheet_discount": "45% off",
+  "sale": "EP JEWELS BFCM 45% OFF SALE!!!",
+  "start": "2026-11-27",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Sheet start is 11/27, not live yet; site currently shows NOV30 only."
+ },
+ {
+  "brand": "Ariel Gordon Jewelry",
+  "host": "arielgordonjewelry.com",
+  "code": "CHEER2026",
+  "sheet_discount": "20% off",
+  "sale": "Holiday Sale 20% off",
+  "start": "2026-11-05",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "Our Biggest Sale Of The Year Is Here | 20% Off Sitewide With Code CHEER2026",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "TWOPAGES Curtains",
+  "host": "twopagescurtains.com",
+  "code": "SELECT",
+  "sheet_discount": "28% off",
+  "sale": "Black Friday Picks 28% Off",
+  "start": "2026-11-01",
+  "end": "2026-12-04",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "28% OFF Picks | Code: SELECT Shop Now",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "EARLY23",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "p to content 28% OFF Picks | Code: SELECT Shop Now 23% OFF Sitewide | Code: EARLY23 Shop Now Fast Delivery in 5–12 Days Instagram Fac"
+   },
+   {
+    "code": "WELCOME80",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "amboo Shade 23% OFF Clearance Up to 50% Off First Order $300+, $80 Off Code: WELCOME80 Free Shipping Orders above $300 Discount Program"
+   },
+   {
+    "code": "TP25",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "yOCIvPgo8L3N2Zz4K'/> As Seen In Cart Share Close cart 25% OFF Sitewide Code: TP25 Subtotal $0.00 Check out Your cart is currently e"
+   },
+   {
+    "code": "RELAX",
+    "where": "/collections/sale (HTTP 200)",
+    "quote": "ion Multiple Liner Options Midweight 76 reviews from $69.99 27% OFF · Code: RELAX Custom Relaxed Roman Shade Various Fabric Options"
+   }
+  ],
+  "note": "Site: 28% off \"Picks\" only (not sitewide). Site also shows EARLY23 (23% sitewide) and TP25 (25% sitewide, in cart drawer)."
+ },
+ {
+  "brand": "TWOPAGES Curtains",
+  "host": "twopagescurtains.com",
+  "code": "SARA24",
+  "sheet_discount": "24% off",
+  "sale": "SARA24",
+  "start": "2026-09-01",
+  "end": "",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "EARLY23",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "p to content 28% OFF Picks | Code: SELECT Shop Now 23% OFF Sitewide | Code: EARLY23 Shop Now Fast Delivery in 5–12 Days Instagram Fac"
+   },
+   {
+    "code": "WELCOME80",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "amboo Shade 23% OFF Clearance Up to 50% Off First Order $300+, $80 Off Code: WELCOME80 Free Shipping Orders above $300 Discount Program"
+   },
+   {
+    "code": "TP25",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "yOCIvPgo8L3N2Zz4K'/> As Seen In Cart Share Close cart 25% OFF Sitewide Code: TP25 Subtotal $0.00 Check out Your cart is currently e"
+   },
+   {
+    "code": "RELAX",
+    "where": "/collections/sale (HTTP 200)",
+    "quote": "ion Multiple Liner Options Midweight 76 reviews from $69.99 27% OFF · Code: RELAX Custom Relaxed Roman Shade Various Fabric Options"
+   }
+  ],
+  "note": "Not on site (likely creator-specific). Site shows SELECT, EARLY23, TP25, WELCOME80, RELAX."
+ },
+ {
+  "brand": "LulaKate",
+  "host": "lulakate.com",
+  "code": "SAYYES",
+  "sheet_discount": "20% off",
+  "sale": "SAYYES",
+  "start": "2026-11-03",
+  "end": "2026-12-02",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "our only sale of the year! 20% off gift cards with code SAYYES",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "CAUTION: site wording is \"20% off gift cards with code SAYYES\" - the code is tied to gift cards, not a general 20% off."
+ },
+ {
+  "brand": "Christophe Robin",
+  "host": "christopherobin.com",
+  "code": "SMCR30",
+  "sheet_discount": "30% off",
+  "sale": "30% Off Sitewide + 21% Commission!",
+  "start": "2026-10-30",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/ (HTTP 200)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "NEW5",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "nt Sign up to the Newsletter Enjoy an extra 5% off your first order | code: NEW5 BLACK FRIDAY HAS ARRIVED - UP TO 40% OFF! • Login"
+   }
+  ],
+  "note": "Not on site (likely affiliate code). Site says \"BLACK FRIDAY HAS ARRIVED - UP TO 40% OFF\" and only shows newsletter code NEW5."
+ },
+ {
+  "brand": "MARA",
+  "host": "themarabeauty.com",
+  "code": "ALLONSALE",
+  "sheet_discount": "20% off",
+  "sale": "Sephora Holiday Savings Event",
+  "start": "2026-10-30",
+  "end": "2027-11-09",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "HOLIDAY2026",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "-text-align: left; \" > Discover algae skincare for intelligent aging. code: HOLIDAY2026 <div class=\" group-block group-block--height-fill",
+    "note": "hero button text, no discount stated"
+   }
+  ],
+  "note": "Not on site. Homepage hero button reads \"code: HOLIDAY2026\" with no discount amount next to it."
+ },
+ {
+  "brand": "MARA",
+  "host": "themarabeauty.com",
+  "code": "BONUS2026",
+  "sheet_discount": "25% off",
+  "sale": "Bonus Sale",
+  "start": "2026-12-01",
+  "end": "2026-12-02",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "HOLIDAY2026",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "-text-align: left; \" > Discover algae skincare for intelligent aging. code: HOLIDAY2026 <div class=\" group-block group-block--height-fill",
+    "note": "hero button text, no discount stated"
+   }
+  ],
+  "note": "Sheet start is 12/01, not live yet."
+ },
+ {
+  "brand": "BONHEUR JEWELRY",
+  "host": "bonheurjewelry.com",
+  "code": "Bonheur15",
+  "sheet_discount": "15% off",
+  "sale": "Bonheur15",
+  "start": "2026-04-19",
+  "end": "",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200(redirected-to-homepage))"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "BLCKFDAY30",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "rt is empty Get 10% off when you sign up for our newsletter | 30% OFF WITH CODE BLCKFDAY30 | Free shipping $150+ HOME SHOP Shop by Collectio"
+   }
+  ],
+  "note": "Not on site. Site banner advertises \"30% OFF WITH CODE BLCKFDAY30\"."
+ },
+ {
+  "brand": "FRĒDA SALVADOR",
+  "host": "fredasalvador.com",
+  "code": "VIPFRIDAY26",
+  "sheet_discount": "25% off",
+  "sale": "FRĒDA BLACK FRIDAY 25% OFF",
+  "start": "2026-11-19",
+  "end": "2026-12-02",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Not on site. Homepage says \"BLACK FRIDAY: 25% OFF ... Take 25% off during our best sale of the year\" with no code shown."
+ },
+ {
+  "brand": "Paula's Choice",
+  "host": "paulaschoice.com",
+  "code": "CYBER26",
+  "sheet_discount": "30% off",
+  "sale": "Cyber Week Sale",
+  "start": "2026-11-16",
+  "end": "2026-12-05",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/ (HTTP 200)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Not found; saved/refetched homepage HTML contains no sale phrases at all (JS-rendered), so this is unverifiable rather than contradicted."
+ },
+ {
+  "brand": "Chantecaille",
+  "host": "chantecaille.com",
+  "code": "CYBER",
+  "sheet_discount": "25% off",
+  "sale": "Chantecaille Black Friday/Cyber Monday Sale",
+  "start": "2026-11-20",
+  "end": "2026-12-02",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "Black Friday: 25% Off Sitewide + Free Gifts & Shipping CODE CYBER Shop Now",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "Vince",
+  "host": "vince.com",
+  "code": "BFCM",
+  "sheet_discount": "25–30% off",
+  "sale": "Vince: The Black Friday Sale",
+  "start": "2026-11-16",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "25% Off Almost Everything* With Code BFCM Shop Women | Shop Men",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Site: 25% off almost everything*, 30% off sweaters, both with code BFCM."
+ },
+ {
+  "brand": "Algenist",
+  "host": "algenist.com",
+  "code": "blackfriday35",
+  "sheet_discount": "35% off",
+  "sale": "Black Friday - 35% Off Sitewide",
+  "start": "2026-11-17",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "Black Friday Sale Use Code BlackFriday35 Black Friday Sale Use Code BlackFrid",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Code seen, but the homepage text next to it does not state 35%; one block ties USE CODE: BLACKFRIDAY35 to a complimentary gift with $175+ purchase."
+ },
+ {
+  "brand": "Society Social",
+  "host": "shopsocietysocial.com",
+  "code": "EVERYTHING20",
+  "sheet_discount": "20% off",
+  "sale": "BLACK FRIDAY, CYBER MONDAY SALE",
+  "start": "2026-11-17",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "20% OFF SITEWIDE WITH CODE EVERYTHING20",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "Each & Every",
+  "host": "eachandevery.com",
+  "code": "HOLIDAY26",
+  "sheet_discount": "30% off",
+  "sale": "BFCM 2026",
+  "start": "2026-11-19",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "30% Off Sitewide . Use code HOLIDAY26",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "Nette",
+  "host": "nettenyc.com",
+  "code": "THENETTEEVENT",
+  "sheet_discount": "25% off",
+  "sale": "THENETTEEVENT",
+  "start": "2026-11-13",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "NETTE30",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "mmend switching to Edge, Chrome, Safari, or Firefox. 30% OFF SITEWIDE WITH CODE NETTE30. Search Search <input type=\"search\" id=\"SearchInp"
+   }
+  ],
+  "note": "Site banner advertises a different code and a bigger discount: \"30% OFF SITEWIDE WITH CODE NETTE30.\""
+ },
+ {
+  "brand": "Mademoiselle Jules",
+  "host": "mademoisellejules.com",
+  "code": "BLACKFRIDAY26",
+  "sheet_discount": "30% off",
+  "sale": "BLACKFRIDAY26",
+  "start": "2026-11-10",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "EOS40",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "},\"mobile\":{\"bottom\":\"5\",\"left\":\"15\",\"right\":\"15\",\"top\":\"5\"}},\"fontWeight\":\"400\",\"text\":{\"default\":\"USE CODE: EOS40\"},\"textWrap\":true,\"backgroundType\":\"solid\",\"",
+    "note": "only in app config JSON, not confirmed visible"
+   }
+  ],
+  "note": "Not on site; homepage shows only 15% off first order. \"USE CODE: EOS40\" exists only inside an app config JSON (badge created 2026-05), not confirmed visible."
+ },
+ {
+  "brand": "The Fête",
+  "host": "thefete.com",
+  "code": "THANKFUL25",
+  "sheet_discount": "25% off",
+  "sale": "THANKFUL25",
+  "start": "2026-11-19",
+  "end": "2026-12-02",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "25% OFF — USE CODE THANKFUL25",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "By Alona",
+  "host": "byalona.com",
+  "code": "BLACKFRIDAY",
+  "sheet_discount": "30% off",
+  "sale": "BFCM Sale",
+  "start": "2026-11-26",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "30% OFF THIS WEEKEND ONLY Enter code BLACKFRIDAY at checkout",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "Social Threads",
+  "host": "shopsocialthreads.com",
+  "code": "BLACKFRIDAY30",
+  "sheet_discount": "30% off",
+  "sale": "BLACKFRIDAY30",
+  "start": "2026-11-27",
+  "end": "2026-11-29",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Sheet start is 11/27, not live yet; site currently shows CYBER25."
+ },
+ {
+  "brand": "Social Threads",
+  "host": "shopsocialthreads.com",
+  "code": "CYBER25",
+  "sheet_discount": "25% off",
+  "sale": "CYBER25",
+  "start": "2026-11-25",
+  "end": "2026-12-05",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "CYBER SALE IS LIVE! Take 25% OFF SITEWIDE w/ code CYBER25. *Valid until 12/4/26 at 11:59pm PST. T&C",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "Marea",
+  "host": "shopmarea.com",
+  "code": "JOY20",
+  "sheet_discount": "20% off",
+  "sale": "JOY20",
+  "start": "2026-11-27",
+  "end": "2026-12-02",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "JOY30",
+    "where": "/collections/sale (HTTP 200)",
+    "quote": "alculated at checkout Check Out • $0.00 USD Extra 30% OFF Sale styles with code JOY30 All sales are final on sale items. <img src=\"//sh"
+   }
+  ],
+  "note": "Sheet start is 11/27. Site currently says 25% OFF SITEWIDE, prices as marked (no code); /collections/sale title shows a different code JOY30 (extra 30% off sale styles)."
+ },
+ {
+  "brand": "DL1961",
+  "host": "dl1961.com",
+  "code": "THANKFUL30",
+  "sheet_discount": "30% off",
+  "sale": "DL1961 Black Friday & Cyber Monday Sale",
+  "start": "2026-11-23",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "THANKFULVIP30",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "n Men Kids Welcome 30% off sitewide* Black Friday Sale Women Men Kids Use code: THANKFULVIP30 --> *Exclusions apply Client Services Contact Us",
+    "note": "inside an HTML comment, hidden from shoppers"
+   }
+  ],
+  "note": "Not visible. Homepage says \"30% off sitewide* Black Friday Sale ... *Exclusions apply\" with no code; a code line \"Use code: THANKFULVIP30\" exists only inside an HTML comment (hidden)."
+ },
+ {
+  "brand": "APIECE APART",
+  "host": "apieceapart.com",
+  "code": "THANKS30",
+  "sheet_discount": "30% off",
+  "sale": "Black Friday / Cyber Monday Event",
+  "start": "2026-11-22",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "Black Friday 30% Off with code THANKS30",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "Lizzie Fortunato",
+  "host": "lizziefortunato.com",
+  "code": "LFHOLIDAY",
+  "sheet_discount": "10–20% off",
+  "sale": "The Lizzie Fortunato Holiday Sale (& Exclusive ShopMy Early Sale Access)",
+  "start": "2026-11-23",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "THE HOLIDAY SALE: SHOP UP TO 20% OFF WITH CODE LFHOLIDAY NOW OPEN: THE CHARM STUDIO – OUR INTERACTIVE NECKLACE",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Site says \"up to 20% off\"."
+ },
+ {
+  "brand": "ANEMOS",
+  "host": "anemoslosangeles.com",
+  "code": "BFCM26",
+  "sheet_discount": "20% off",
+  "sale": "BFCM26",
+  "start": "2026-11-22",
+  "end": "2026-12-01",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "EARLY ACCESS BFCM SALE - 20% OFF SELECT STYLES - USE CODE: BFCM26",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Site says 20% off SELECT STYLES (not sitewide)."
+ },
+ {
+  "brand": "Dermalogica",
+  "host": "dermalogica.com",
+  "code": "BONUSGIFT",
+  "sheet_discount": "Spend $50, get 1 free",
+  "sale": "BF & CM | Dermalogica",
+  "start": "2026-11-22",
+  "end": "2026-12-03",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 200(redirected-to-homepage))",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Not on site; homepage promotes Black Friday free gifts by spend threshold, no code shown."
+ },
+ {
+  "brand": "Past Midnight",
+  "host": "pastmidnight.com",
+  "code": "THESEASON",
+  "sheet_discount": "25% off",
+  "sale": "One Annual Sale: Past Midnight Holiday",
+  "start": "2026-11-24",
+  "end": "2026-12-05",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "Our holiday gift: 25% off with code THESEASON",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ },
+ {
+  "brand": "LensDirect",
+  "host": "lensdirect.com",
+  "code": "BVIP26",
+  "sheet_discount": "20–40% off; 20–40% off; 20–40% off",
+  "sale": "Black Friday Cyber Monday 2026",
+  "start": "2026-11-23",
+  "end": "2026-12-03",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/ (HTTP 200)",
+   "/black-friday (HTTP 200(redirected-to-homepage))"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "CONTACTS20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "lass=\"promo-modal__discount-name\"> 20% off Contacts CONTACTS20 <"
+   },
+   {
+    "code": "REPLACE20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "omo-modal__discount-name\"> 20% off Lens Replacement REPLACE20 <p"
+   },
+   {
+    "code": "EYE20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "l__discount-name\"> 20% off Glasses & Sunglasses EYE20 <path"
+   },
+   {
+    "code": "SAVE15",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "o-modal__discount-name\"> 15% off Existing Customers SAVE15 <path"
+   }
+  ],
+  "note": "Not on site. Homepage promo modal lists CONTACTS20, REPLACE20, EYE20, SAVE15."
+ },
+ {
+  "brand": "LensDirect",
+  "host": "lensdirect.com",
+  "code": "BLACK26",
+  "sheet_discount": "20–40% off; 20–40% off; 20–40% off",
+  "sale": "Black Friday Cyber Monday 2026",
+  "start": "2026-11-23",
+  "end": "2026-12-03",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/ (HTTP 200)",
+   "/black-friday (HTTP 200(redirected-to-homepage))"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "CONTACTS20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "lass=\"promo-modal__discount-name\"> 20% off Contacts CONTACTS20 <"
+   },
+   {
+    "code": "REPLACE20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "omo-modal__discount-name\"> 20% off Lens Replacement REPLACE20 <p"
+   },
+   {
+    "code": "EYE20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "l__discount-name\"> 20% off Glasses & Sunglasses EYE20 <path"
+   },
+   {
+    "code": "SAVE15",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "o-modal__discount-name\"> 15% off Existing Customers SAVE15 <path"
+   }
+  ],
+  "note": "Not on site. Homepage promo modal lists CONTACTS20, REPLACE20, EYE20, SAVE15."
+ },
+ {
+  "brand": "LensDirect",
+  "host": "lensdirect.com",
+  "code": "CYBER26",
+  "sheet_discount": "20–40% off; 20–40% off; 20–40% off",
+  "sale": "Black Friday Cyber Monday 2026",
+  "start": "2026-11-23",
+  "end": "2026-12-03",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/ (HTTP 200)",
+   "/black-friday (HTTP 200(redirected-to-homepage))"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "CONTACTS20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "lass=\"promo-modal__discount-name\"> 20% off Contacts CONTACTS20 <"
+   },
+   {
+    "code": "REPLACE20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "omo-modal__discount-name\"> 20% off Lens Replacement REPLACE20 <p"
+   },
+   {
+    "code": "EYE20",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "l__discount-name\"> 20% off Glasses & Sunglasses EYE20 <path"
+   },
+   {
+    "code": "SAVE15",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "o-modal__discount-name\"> 15% off Existing Customers SAVE15 <path"
+   }
+  ],
+  "note": "Not on site. Homepage promo modal lists CONTACTS20, REPLACE20, EYE20, SAVE15."
+ },
+ {
+  "brand": "Daughter Lessons NYC",
+  "host": "daughterlessonsnyc.com",
+  "code": "SPORT",
+  "sheet_discount": "20% off",
+  "sale": "CYBER MONDAY - Code SPORT 11/30 ONLY",
+  "start": "2026-11-30",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Word \"sport\" appears only as collection name \"Heritage Sport\", never as a code. Sheet start is 11/30, not live yet."
+ },
+ {
+  "brand": "L'OCCITANE",
+  "host": "loccitane.com",
+  "code": "FRIDAY",
+  "sheet_discount": "20% off; 20% off",
+  "sale": "L'OCCITANE Black Friday Sale",
+  "start": "2026-11-29",
+  "end": "2026-12-02",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (no saved file)",
+   "/en-us/ (HTTP redirect-loop(no content))",
+   "/en-us/ (HTTP bot-challenge-page(no content))"
+  ],
+  "other_codes_on_site": [],
+  "note": "COULD NOT CHECK: no saved homepage, and curl got a redirect loop then a bot-challenge page. Sheet start is 11/29."
+ },
+ {
+  "brand": "L'OCCITANE",
+  "host": "loccitane.com",
+  "code": "CYBER",
+  "sheet_discount": "20% off; 20% off",
+  "sale": "L'OCCITANE Black Friday Sale",
+  "start": "2026-11-29",
+  "end": "2026-12-02",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (no saved file)",
+   "/en-us/ (HTTP redirect-loop(no content))",
+   "/en-us/ (HTTP bot-challenge-page(no content))"
+  ],
+  "other_codes_on_site": [],
+  "note": "COULD NOT CHECK: no saved homepage, and curl got a redirect loop then a bot-challenge page. Sheet start is 11/29."
+ },
+ {
+  "brand": "Byrdie Golf Social Wear",
+  "host": "byrdiegolfsocial.com",
+  "code": "CYBERMONDAY",
+  "sheet_discount": "20% off",
+  "sale": "20% OFF HOLIDAY '26",
+  "start": "2026-11-30",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Sheet start is 11/30, not live yet. Site currently says \"BYRDIE BLACK FRIDAY: 40% OFF APPLIED AT CHECKOUT - exclusions apply\" (no code)."
+ },
+ {
+  "brand": "Call It By Your Name",
+  "host": "callitbyyourname.fr",
+  "code": "CIBYNFRIDAY",
+  "sheet_discount": "20% off",
+  "sale": "CALL IT FRIDAY !",
+  "start": "2026-11-27",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 404)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Not on site; sheet start is 11/27, not live yet. Homepage shows no sale phrases."
+ },
+ {
+  "brand": "Porte + Hall",
+  "host": "porteandhall.com",
+  "code": "everything",
+  "sheet_discount": "20% off",
+  "sale": "Black Friday/Cyber Monday",
+  "start": "2026-11-26",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [],
+  "note": "The word \"everything\" does not appear on homepage, /pages/black-friday (404) or /collections/sale at all; homepage product cards show struck-through prices 20% lower, no code shown."
+ },
+ {
+  "brand": "Porte + Hall",
+  "host": "porteandhall.com",
+  "code": "everything",
+  "sheet_discount": "15% off",
+  "sale": "Black Friday Preview",
+  "start": "2026-11-23",
+  "end": "2026-11-26",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [],
+  "note": "The word \"everything\" does not appear on homepage, /pages/black-friday (404) or /collections/sale at all; homepage product cards show struck-through prices 20% lower, no code shown."
+ },
+ {
+  "brand": "Boll & Branch",
+  "host": "bollandbranch.com",
+  "code": "SHOPMY25",
+  "sheet_discount": "25% off",
+  "sale": "The Black Friday & Cyber Monday Event",
+  "start": "2026-11-21",
+  "end": "2026-12-03",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)",
+   "/pages/black-friday (HTTP 404)",
+   "/collections/sale (HTTP 200)"
+  ],
+  "other_codes_on_site": [
+   {
+    "code": "CYBER25",
+    "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+    "quote": "Accessibility statement Black Friday Is Here | 25% off orders $200+. Use code CYBER25. Black Friday Exclusive | Choose Your FREE Plush"
+   }
+  ],
+  "note": "Not on site (ShopMy creator code). Site banner advertises \"25% off orders $200+. Use code CYBER25.\""
+ },
+ {
+  "brand": "Petal & Pup",
+  "host": "petalandpup.com",
+  "code": "BF30",
+  "sheet_discount": "30% off",
+  "sale": "Black Friday Sale",
+  "start": "2026-11-25",
+  "end": "2026-11-29",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "Regular price $59.00 $28.68 with code BF30",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Seen on product cards as \"$X with code BF30\"."
+ },
+ {
+  "brand": "Orena Fragrances",
+  "host": "orenafragrances.com",
+  "code": "CYBER",
+  "sheet_discount": "35% off",
+  "sale": "CYBER",
+  "start": "2026-11-30",
+  "end": "2026-12-01",
+  "seen_on_site": false,
+  "where": null,
+  "quote": null,
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": "Sheet start is 11/30, not live yet; site currently shows BLACKFRIDAY."
+ },
+ {
+  "brand": "Orena Fragrances",
+  "host": "orenafragrances.com",
+  "code": "BLACKFRIDAY",
+  "sheet_discount": "30% off",
+  "sale": "BLACKFRIDAY",
+  "start": "2026-11-25",
+  "end": "2026-11-30",
+  "seen_on_site": true,
+  "where": "homepage (saved crawl, fetched earlier 2026-11-26)",
+  "quote": "30% OFF SITEWIDE + FREE DOMESTIC SHIPPING ON ORDERS $120+ | USE CODE: BLACKFRIDAY",
+  "pages_checked": [
+   "homepage (saved crawl, fetched earlier 2026-11-26)"
+  ],
+  "other_codes_on_site": [],
+  "note": ""
+ }
+]

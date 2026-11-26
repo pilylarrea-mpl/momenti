@@ -1,0 +1,385 @@
+{
+ "slug": "ends-dec1",
+ "title": "Last call",
+ "sub": "Nine of the deepest real markdowns we found, all gone after Tuesday night.",
+ "brands": [
+  {
+   "brand": "Intentionally Blank",
+   "host": "intentionallyblank.us",
+   "deal": "Up to 75% off sitewide",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-12-01",
+   "say": "Hiperson leather knee high boot was $324, now $162, in 15 of 16 sizes. Filmore suede knee boot $290 to $145. Scorpio ankle boot $268 to $134.",
+   "why_not": null,
+   "items": [
+    {
+     "handle": "hiperson-leather-knee-high-boot",
+     "name": "Hiperson Knee Boot",
+     "img": 0,
+     "hero": true,
+     "was": 324,
+     "now": 162,
+     "av": "15/16",
+     "note": "Half off a leather kitten-heel boot, 15/16 sizes"
+    },
+    {
+     "handle": "filmore-suede-knee-boot",
+     "name": "Filmore Suede Boot",
+     "img": 1,
+     "hero": false,
+     "was": 290,
+     "now": 145,
+     "av": "16/16",
+     "note": "Chocolate suede knee boot, 16/16 sizes; img 1 is on-leg"
+    },
+    {
+     "handle": "scorpio-heeled-ankle-boot",
+     "name": "Scorpio Ankle Boot",
+     "img": 0,
+     "hero": false,
+     "was": 268,
+     "now": 134,
+     "av": "15/16",
+     "note": "Everyday black ankle boot, 15/16 sizes"
+    }
+   ]
+  },
+  {
+   "brand": "Freja",
+   "host": "frejanyc.com",
+   "deal": "25% off, sale bags to 60%",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-12-01",
+   "say": "Alma bag in black gloss was $358, now $168. Jane bag in espresso $268 to $108. Bleecker tote in oat $398 to $198.",
+   "why_not": "Marked-down colours are final sale. Each bag is a single size, so stock is simply in or out.",
+   "items": [
+    {
+     "handle": "alma-bag-black-gloss",
+     "name": "Alma Bag Black Gloss",
+     "img": 0,
+     "hero": true,
+     "was": 358,
+     "now": 168,
+     "av": "1/1",
+     "note": "53% off a structured shoulder bag; clean product shot"
+    },
+    {
+     "handle": "jane-bag-espresso",
+     "name": "Jane Bag Espresso",
+     "img": 0,
+     "hero": false,
+     "was": 268,
+     "now": 108,
+     "av": "1/1",
+     "note": "60% off mini barrel bag"
+    },
+    {
+     "handle": "bleecker-tote-oat",
+     "name": "Bleecker Tote Oat",
+     "img": 1,
+     "hero": false,
+     "was": 398,
+     "now": 198,
+     "av": "1/1",
+     "note": "Half off a work tote; img 1 is carried on-model"
+    }
+   ]
+  },
+  {
+   "brand": "Vicci Eyewear",
+   "host": "viccieyewear.com",
+   "deal": "Up to 70% off frames",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-12-01",
+   "say": "Dulce sunglasses were $220, now $66. Willow round optical frames $220 to $66. Stefano tortoise sunglasses $220 to $66.",
+   "why_not": "Nearly every frame shows the same $220 to $66, so the $220 reference price deserves a little skepticism. Dulce tortoise is sold out.",
+   "items": [
+    {
+     "handle": "dulce",
+     "name": "Dulce Sunglasses",
+     "img": 1,
+     "hero": true,
+     "was": 220,
+     "now": 66,
+     "av": "3/4",
+     "note": "70% off; img 1 is a strong on-model portrait; 3 of 4 colours"
+    },
+    {
+     "handle": "willow",
+     "name": "Willow Optical Frames",
+     "img": 1,
+     "hero": false,
+     "was": 220,
+     "now": 66,
+     "av": "1/1",
+     "note": "Round wire frames, on-model photo; unisex style"
+    },
+    {
+     "handle": "stefano",
+     "name": "Stefano Sunglasses",
+     "img": 0,
+     "hero": false,
+     "was": 220,
+     "now": 66,
+     "av": "3/3",
+     "note": "Tortoise square frame, all 3 colours in stock"
+    }
+   ]
+  },
+  {
+   "brand": "Daze Denim",
+   "host": "dazedenim.com",
+   "deal": "Sale denim 65% off",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-12-01",
+   "say": "City high rise straight jean in two-tone Double Dip was $118, now $41, every size. Cabana drawstring wide leg $118 to $41. Madison wide leg $118 to $41.",
+   "why_not": "All final sale. Washes are light and summery. Homepage headline is 25% off; these are the deeper sale styles.",
+   "items": [
+    {
+     "handle": "city-straight-high-rise-straight-leg-1",
+     "name": "City Straight Two-Tone",
+     "img": 0,
+     "hero": true,
+     "was": 118,
+     "now": 41.3,
+     "av": "11/11",
+     "note": "65% off, all 11 sizes in stock"
+    },
+    {
+     "handle": "cabana-wide-leg-pull-on-pant-charmed",
+     "name": "Cabana Wide Leg",
+     "img": 0,
+     "hero": false,
+     "was": 118,
+     "now": 41.3,
+     "av": "10/11",
+     "note": "Drawstring wide leg, 10/11 sizes"
+    },
+    {
+     "handle": "madison-mid-rise-wide-leg-3",
+     "name": "Madison Wide Leg",
+     "img": 0,
+     "hero": false,
+     "was": 118,
+     "now": 41.3,
+     "av": "9/11",
+     "note": "Pinstripe wide leg, 9/11 sizes"
+    }
+   ]
+  },
+  {
+   "brand": "ANEMOS",
+   "host": "anemoslosangeles.com",
+   "deal": "Sale styles up to 81% off",
+   "code": "BFCM26",
+   "final_sale": true,
+   "ends": "2026-12-01",
+   "say": "Cowl neck mini dress was $345, now $65. Ruched off the shoulder maxi dress $365 to $165. Wide leg pant in stretch twill $395 to $120.",
+   "why_not": "All final sale and sizes are patchy. Code BFCM26 is for 20% off select full-price styles and may not apply to these.",
+   "items": [
+    {
+     "handle": "cowl-neck-mini-dress-in-compact-jersey",
+     "name": "Cowl Neck Mini Dress",
+     "img": 2,
+     "hero": true,
+     "was": 345,
+     "now": 65,
+     "av": "8/10",
+     "note": "81% off, 8/10 variants; img 2 is on-model in Cypress green (img 1 is a different dress)"
+    },
+    {
+     "handle": "ruched-off-the-shoulder-maxi-dress-in-compact-jersey",
+     "name": "Off-Shoulder Maxi",
+     "img": 1,
+     "hero": false,
+     "was": 365,
+     "now": 165,
+     "av": "9/15",
+     "note": "55% off, 9/15 sizes, best photo of the three"
+    },
+    {
+     "handle": "wide-leg-pant-in-stretch-twill",
+     "name": "Wide Leg Twill Pant",
+     "img": 1,
+     "hero": false,
+     "was": 395,
+     "now": 120,
+     "av": "7/12",
+     "note": "70% off black trouser, 7/12 sizes"
+    }
+   ]
+  },
+  {
+   "brand": "LAKE",
+   "host": "lakepajamas.com",
+   "deal": "25% off, sale PJs to 50%",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-12-01",
+   "say": "Pima pajama set in navy Fair Isle was $124, now $62, all seven sizes. Relax Robe in dusty blue $144 to $86. Red heart long sleeve and short set $104 to $52.",
+   "why_not": "Marked-down prints are final sale, no returns. First images are product-only; img 1 is on-model.",
+   "items": [
+    {
+     "handle": "english-navy-fair-isle-crew-short-long-set",
+     "name": "Fair Isle Pajama Set",
+     "img": 1,
+     "hero": true,
+     "was": 124,
+     "now": 62,
+     "av": "7/7",
+     "note": "Half off a holiday print, 7/7 sizes; img 1 on-model"
+    },
+    {
+     "handle": "dusty-blue-relax-robe",
+     "name": "Relax Robe Dusty Blue",
+     "img": 1,
+     "hero": false,
+     "was": 144,
+     "now": 86,
+     "av": "5/7",
+     "note": "40% off robe, 5/7 sizes"
+    },
+    {
+     "handle": "classic-red-heart-crew-long-short-set",
+     "name": "Red Heart Pajama Set",
+     "img": 1,
+     "hero": false,
+     "was": 104,
+     "now": 52,
+     "av": "4/7",
+     "note": "Half off, 4/7 sizes, giftable print"
+    }
+   ]
+  },
+  {
+   "brand": "Marine Layer",
+   "host": "marinelayer.com",
+   "deal": "25% off, last call to 50%",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-12-01",
+   "say": "Hayes denim trench coat was $228, now $114, all sizes. Valentina wool peacoat $248 to $148. Cashmere crew sweater $238 to $138.",
+   "why_not": "Sheet also lists a second Marine Layer sale running to Jan 4, so some markdowns may survive past Tuesday. The trench is final sale.",
+   "items": [
+    {
+     "handle": "hayes-denim-trench-coat",
+     "name": "Hayes Denim Trench",
+     "img": 0,
+     "hero": true,
+     "was": 228,
+     "now": 114,
+     "av": "5/5",
+     "note": "Half off, 5/5 sizes"
+    },
+    {
+     "handle": "colette-wool-peacoat-1",
+     "name": "Valentina Wool Peacoat",
+     "img": 0,
+     "hero": false,
+     "was": 248,
+     "now": 148,
+     "av": "5/5",
+     "note": "40% off plaid wool coat, all sizes"
+    },
+    {
+     "handle": "cloud-9-cashmere-sweater-5",
+     "name": "Cashmere Crew Sweater",
+     "img": 0,
+     "hero": false,
+     "was": 238,
+     "now": 138,
+     "av": "5/5",
+     "note": "42% off cashmere in lilac, all sizes"
+    }
+   ]
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "host": "heavenmayhem.com",
+   "deal": "Up to 60% off sitewide",
+   "code": null,
+   "final_sale": true,
+   "ends": "2026-12-01",
+   "say": "Vittoria sunglasses were $200, now $80. Alma clip-on earrings $130 to $52. The Icon watch $280 to $196.",
+   "why_not": "Homepage states all items are final sale. The watch is only 30% off.",
+   "items": [
+    {
+     "handle": "fashion-sunglasses-vittoria",
+     "name": "Vittoria Sunglasses",
+     "img": 1,
+     "hero": true,
+     "was": 200,
+     "now": 80,
+     "av": "1/1",
+     "note": "60% off; img 1 is an editorial on-model shot"
+    },
+    {
+     "handle": "alma-clip-on-earrings",
+     "name": "Alma Clip-On Earrings",
+     "img": 1,
+     "hero": false,
+     "was": 130,
+     "now": 52,
+     "av": "3/3",
+     "note": "60% off, gold and silver both in stock; img 1 is gold"
+    },
+    {
+     "handle": "the-icon-watch",
+     "name": "The Icon Watch",
+     "img": 0,
+     "hero": false,
+     "was": 280,
+     "now": 196,
+     "av": "2/2",
+     "note": "Gold tank-style watch, 30% off, both finishes in stock"
+    }
+   ]
+  },
+  {
+   "brand": "Sterling Forever",
+   "host": "sterlingforever.com",
+   "deal": "20% off, sale to 60% off",
+   "code": null,
+   "final_sale": null,
+   "ends": "2026-12-01",
+   "say": "Sterling silver Cecilia dome ring was $208, now $84, every ring size. Amelia tennis necklace $318 to $159. Robyn ribbed band ring $224 to $94.",
+   "why_not": "Stones are cubic zirconia, not diamonds. Site is heavy on advent calendars and mystery bundles, which we skipped.",
+   "items": [
+    {
+     "handle": "sterling-silver-cecilia-cz-open-ring",
+     "name": "Cecilia Pave Dome Ring",
+     "img": 0,
+     "hero": true,
+     "was": 208,
+     "now": 84,
+     "av": "12/12",
+     "note": "60% off, 12/12 sizes, clean product shot"
+    },
+    {
+     "handle": "amelia-paperclip-cz-tennis-necklace",
+     "name": "Amelia Tennis Necklace",
+     "img": 1,
+     "hero": false,
+     "was": 318,
+     "now": 159,
+     "av": "2/2",
+     "note": "Half off; img 1 is worn on-model; final sale"
+    },
+    {
+     "handle": "robyn-ribbed-ring",
+     "name": "Robyn Ribbed Band Ring",
+     "img": 0,
+     "hero": false,
+     "was": 224,
+     "now": 94,
+     "av": "7/8",
+     "note": "58% off chunky silver band, 7/8 sizes"
+    }
+   ]
+  }
+ ]
+}
