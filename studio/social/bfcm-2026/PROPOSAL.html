@@ -1,0 +1,251 @@
+<title>Black Friday Content Proposal</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* layout: one reading column, wide tables scroll inside their own box */
+:root{--bg:#fbf9f6;--panel:#ffffff;--fg:#211d1a;--mut:#6f6760;--line:#e4ddd4;--acc:#a23b52;--ok:#2f6b4f;--todo:#9a6a14}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#181514;--panel:#221e1c;--fg:#f1ebe4;--mut:#a79d93;--line:#3a332f;--acc:#e58aa0;--ok:#7fc8a3;--todo:#e0b565;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#181514;--panel:#221e1c;--fg:#f1ebe4;--mut:#a79d93;--line:#3a332f;--acc:#e58aa0;--ok:#7fc8a3;--todo:#e0b565;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;font-size:16px;line-height:1.6}
+.w{max-width:900px;margin:0 auto;padding-block:36px 90px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;text-wrap:balance;line-height:1.12;margin:0}
+h1{font-size:clamp(34px,6vw,52px)} h2{font-size:30px;margin-top:64px;padding-top:22px;border-top:1px solid var(--line)} h3{font-size:20px;margin-top:28px}
+p,li{max-width:68ch} p{margin:10px 0} ul,ol{padding-left:22px} li{margin:7px 0}
+.lead{font-size:18px;color:var(--mut)} .mu{color:var(--mut);font-size:14px}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+.stats div{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+.stats b{display:block;font-family:Fraunces,serif;font-size:30px;line-height:1.1;font-variant-numeric:tabular-nums} .stats span{color:var(--mut);font-size:13px}
+.tw{overflow-x:auto;margin:14px 0} table{border-collapse:collapse;width:100%;min-width:620px;font-size:14.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top} th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);font-weight:600}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap}
+.note{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:16px 0}
+.warn{border-color:var(--todo)}
+.pill{font-size:12px;font-weight:600;padding:2px 8px;border-radius:99px;border:1px solid currentColor;white-space:nowrap} .done{color:var(--ok)} .todo{color:var(--todo)}
+code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
+.toc{columns:2;column-gap:28px;font-size:15px} .toc a{color:var(--acc)} @media(max-width:560px){.toc{columns:1}}
+.fmt{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin-top:14px}
+.fmt div{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0} .fmt h3{margin-top:0}
+</style>
+<div class="w">
+<div class="eyebrow">Proposal · written Nov 26, 2026</div>
+<h1>Black Friday content proposal</h1>
+<p class="lead">I read every store on your sheet that still has a sale running. This is what I found and what I think we should post. Nothing new gets built until you've read it.</p>
+
+<div class="stats">
+<div><b>230</b><span>brands with a sale still running</span></div>
+<div><b>199</b><span>full catalogs read, item by item</span></div>
+<div><b>78,912</b><span>in-stock items checked</span></div>
+<div><b>33,124</b><span>carry a marked-down price</span></div>
+<div><b>7,388</b><span>are 50% off or more</span></div>
+</div>
+
+<div class="toc"><ol>
+<li><a href="#audit">What the audit found</a></li><li><a href="#fix">Mistakes to fix first</a></li><li><a href="#angle">Your angle, and why people follow</a></li>
+<li><a href="#product">Product or brand?</a></li><li><a href="#why">Telling people why (or why not)</a></li><li><a href="#formats">The seven formats</a></li>
+<li><a href="#slate">The full slate, day by day</a></li><li><a href="#hooks">Hooks</a></li><li><a href="#voice">Voiceover</a></li>
+<li><a href="#look">Look, footage, effects, sound</a></li><li><a href="#dates">Dates</a></li><li><a href="#codes">Codes</a></li>
+<li><a href="#together">How we make them together</a></li><li><a href="#risks">Risks</a></li><li><a href="#decide">What I need from you</a></li>
+</ol></div>
+
+<h2 id="audit">1. What the audit found</h2>
+<p><b>How I did it.</b> For each store I downloaded the whole product catalog and compared every in-stock item's price to its own original price, size by size. 199 stores expose their catalog this way. The other 31 (Nike, SKIMS, Vince, Maje, Spanx, Macy's, Crocs and others) I could read only from the homepage, so they get banner-level facts and no item claims.</p>
+
+<h3>Finding 1: the best sales undersell themselves</h3>
+<p>Your sheet lists BaubleBar at 30% off. In the catalog, 578 pieces are half off or more. DISSH is listed at 20%; 334 pieces are half off or more. Daze Denim is listed at 25%; half the store is 50% off. This is the strongest content in the whole audit, because nobody reading the brand's headline would know.</p>
+<div class="tw"><table><tr><th>Brand</th><th>Category</th><th>Sheet says</th><th>At 50%+ off</th><th>Share of store</th><th>Deepest</th><th>Ends</th></tr><tr><td>Vicci Eyewear</td><td>Eyewear</td><td>30% off</td><td class=n>117 of 148</td><td class=n>79%</td><td class=n>70%</td><td>12/01</td></tr><tr><td>Noble</td><td>Fashion</td><td>15–50% off</td><td class=n>82 of 156</td><td class=n>53%</td><td class=n>70%</td><td>12/01</td></tr><tr><td>Alexandra Miro</td><td>Fashion</td><td>20–50% off</td><td class=n>63 of 125</td><td class=n>50%</td><td class=n>70%</td><td>12/01</td></tr><tr><td>Daze Denim</td><td>Fashion</td><td>25% off</td><td class=n>78 of 155</td><td class=n>50%</td><td class=n>65%</td><td>12/01</td></tr><tr><td>P.E Nation</td><td>Fashion</td><td>70% off</td><td class=n>309 of 688</td><td class=n>45%</td><td class=n>80%</td><td>11/30</td></tr><tr><td>Intentionally Blank</td><td>Footwear</td><td>25–75% off</td><td class=n>164 of 415</td><td class=n>40%</td><td class=n>83%</td><td>12/01</td></tr><tr><td>ANEMOS</td><td>Fashion</td><td>20% off</td><td class=n>72 of 191</td><td class=n>38%</td><td class=n>87%</td><td>12/01</td></tr><tr><td>Vitality</td><td>Fashion</td><td>30–60% off</td><td class=n>333 of 905</td><td class=n>37%</td><td class=n>61%</td><td>12/02</td></tr><tr><td>AUREUM</td><td>Jewelry</td><td>25% off</td><td class=n>37 of 102</td><td class=n>36%</td><td class=n>75%</td><td>open</td></tr><tr><td>M.M.LaFleur</td><td>Fashion</td><td>50% off</td><td class=n>335 of 951</td><td class=n>35%</td><td class=n>84%</td><td>open</td></tr><tr><td>Bryan Anthonys</td><td>Jewelry</td><td>25% off</td><td class=n>151 of 437</td><td class=n>35%</td><td class=n>84%</td><td>01/01</td></tr><tr><td>Odd Muse</td><td>Fashion</td><td>1–60% off</td><td class=n>144 of 423</td><td class=n>34%</td><td class=n>60%</td><td>12/31</td></tr><tr><td>FRĒDA SALVADOR</td><td>Footwear</td><td>25% off</td><td class=n>102 of 310</td><td class=n>33%</td><td class=n>75%</td><td>12/02</td></tr><tr><td>Byrdie Golf Social Wear</td><td>Fashion</td><td>40% off</td><td class=n>17 of 54</td><td class=n>31%</td><td class=n>60%</td><td>12/01</td></tr><tr><td>Sterling Forever</td><td>Jewelry</td><td>20% off</td><td class=n>330 of 1,196</td><td class=n>28%</td><td class=n>83%</td><td>12/01</td></tr><tr><td>Marcella</td><td>Fashion</td><td>10–50% off</td><td class=n>448 of 1,649</td><td class=n>27%</td><td class=n>60%</td><td>12/03</td></tr><tr><td>Pistola Denim</td><td>Fashion</td><td>30% off</td><td class=n>55 of 223</td><td class=n>25%</td><td class=n>65%</td><td>11/30</td></tr><tr><td>Hanky Panky</td><td>Fashion</td><td>30% off</td><td class=n>203 of 852</td><td class=n>24%</td><td class=n>79%</td><td>12/02</td></tr><tr><td>Sisterly Tribe</td><td>Fashion</td><td>15–50% off</td><td class=n>43 of 185</td><td class=n>23%</td><td class=n>50%</td><td>11/30</td></tr><tr><td>DISSH</td><td>Fashion</td><td>20% off</td><td class=n>334 of 1,442</td><td class=n>23%</td><td class=n>90%</td><td>12/02</td></tr><tr><td>Knix</td><td>Fashion</td><td>25% off</td><td class=n>157 of 693</td><td class=n>23%</td><td class=n>78%</td><td>12/01</td></tr><tr><td>bübish</td><td>Fashion</td><td>30% off</td><td class=n>32 of 144</td><td class=n>22%</td><td class=n>94%</td><td>12/01</td></tr></table></div>
+<p class="mu">Ranked by the share of in-stock items at 50% off or more. Fashion, jewelry, shoes, bags, eyewear, beauty and home only.</p>
+
+<h3>Finding 2: 32 sales show no marked-down prices at all</h3>
+<p>These stores list every item at full price. The discount, if it exists, comes off at checkout or with a code: Almina Concept, Ariel Gordon Jewelry, BAGATIBA, BONHEUR JEWELRY, By Alona, BÉIS, Calecim, CLEARSTEM, Cocolab, Colorescience, EltaMD, Elwood Clothing, Farmacy Beauty, Jennifer Behr, Josie Maran, Kyrgies, LINNEA, Londontown, LulaKate, MALIN+GOETZ, Margaux, Orena Fragrances, Petite Keep, Porte + Hall, Rails, Remedy Skin, Rise &amp; Fall, Supergoop!, The Fête, TYPEBEA, Winky Lux, Young Goose.</p>
+<p>That is fine when the brand rarely discounts. Margaux and MERIT both say on their own sites that this is their only sale of the year. It is weak when the brand runs 20% off every few weeks. I can't tell those apart from the catalog alone, so for each one we feature I'd add the item to a cart and confirm the price before it goes on screen.</p>
+
+<h3>Finding 3: a few say "once a year" on their own site</h3>
+<p>LulaKate, MERIT Beauty, Margaux, Past Midnight, lazy jamie. Past Midnight and MERIT say "our only sale of the year"; Margaux says "our only sitewide sale of the year". Another 36 say "biggest sale of the year" or similar, which is a softer claim and I'd treat it as one.</p>
+
+<h3>Finding 4: the headline number is often inflated by a handful of items</h3>
+<ul>
+<li>Emme Parsons is on your sheet at 80% off. Nothing in stock is past 44%. It is still a good sale: 44 styles at 40%.</li>
+<li>Jet Set Candy says up to 50%. 74 of 1,920 pieces are at 50%; the usual markdown is 25%.</li>
+<li>Sterling Forever's biggest "discounts" are mystery advent calendars ($5,499 down to $1,499). I would not feature those.</li>
+<li>Society Social's biggest numbers are one-off factory-floor furniture pieces.</li>
+</ul>
+
+<h3>Finding 5: the deep cuts are mostly final sale</h3>
+<p>Alexandra Miro, Heaven Mayhem, Jenni Kayne, Parachute and most "last call" sections can't be returned. That goes on screen every time.</p>
+
+<h2 id="fix">2. Mistakes to fix first</h2>
+<div class="note warn">
+<p><b>The "I counted" carousel has two more wrong numbers, and should not be posted as it is.</b> I had read only the first 1,000 products of the two biggest stores in it.</p>
+<ul>
+<li>alice + olivia: I wrote 10 of 713 pieces at 60% off. The full catalog shows 386 of 1,877. That reverses the point of the slide; their sale is one of the generous ones.</li>
+<li>Jet Set Candy: I wrote 46 of 923 at 50%. It is 74 of 1,920.</li>
+</ul>
+<p>The dollars-off carousel, the outfit carousel and the four videos are not affected. The under-$50 carousel needs one item rechecked first-hand (the Chantecaille lip colour).</p>
+</div>
+
+<h2 id="angle">3. Your angle, and why people follow</h2>
+<p><b>The angle: you read all of it.</b> "I read 376 Black Friday sales" is true, it is specific, and no other creator can say it with numbers behind it. The two videos you sent list brands and percentages. Anyone can do that from a press email. You can say "this store claims 30%, and I counted 578 pieces at half off".</p>
+<p><b>What makes someone follow instead of just saving:</b></p>
+<ol>
+<li><b>A promise with a next step.</b> Every post names the next one. "Tomorrow: the jewelry sale that undersells itself."</li>
+<li><b>A reason that outlasts the weekend.</b> You are the person who reads sales. After Cyber Monday that becomes holiday shipping cutoffs, then the Dec 26 sales. Your sheet already has three of those (Softies, Bryan Anthonys, Marine Layer).</li>
+<li><b>They can ask for things.</b> "Tell me a store and I'll count it." "Comment <i>black</i> and I'll build the outfit." Then you do it, as a reply video. That is the fastest follower loop on TikTok.</li>
+<li><b>A verdict.</b> You say buy or skip. People follow the creator who will tell them not to buy something.</li>
+<li><b>One recognisable opener and look,</b> so the fourth video is recognised in half a second.</li>
+</ol>
+
+<h2 id="product">4. Product or brand?</h2>
+<p><b>Lead with the product. Use the brand as the label.</b></p>
+<ul>
+<li>People send a friend a boot for $162. They don't send "Intentionally Blank is up to 75% off".</li>
+<li>A brand headline is what every other deal video already says, and the audit shows it is often not what the store actually delivers.</li>
+<li>A product with a before and after price passes your own test: you can see it and you can prove it wrong.</li>
+</ul>
+<p>In practice: the edition videos keep their brand-by-brand structure, but each brand card gets one hero item shown larger than the rest, and your voice names that item. The hook of every video names a product and a price, never a brand and a percentage.</p>
+<p>The exception is the once-a-year brands. There the brand is the story.</p>
+
+<h2 id="why">5. Telling people why (or why not)</h2>
+<p>Every item gets one line of why. Four reasons cover nearly everything, and each can be checked:</p>
+<ol>
+<li><b>It is rarely this price.</b> Only where the brand says so itself.</li>
+<li><b>The maths.</b> "$162 for a leather knee boot" needs nothing else.</li>
+<li><b>It is still in your size.</b> I have stock by size for every item. "15 of 16 sizes left" is a reason to act.</li>
+<li><b>It solves something.</b> Clip-on earrings for unpierced ears. Flats that go in the washing machine.</li>
+</ol>
+<p><b>And the why-nots, which are where your hot takes live:</b></p>
+<ul>
+<li>"It's final sale. If you're between sizes, skip it."</li>
+<li>"This one says 50%. 19 of 185 pieces are. Skip the headline, here's the one worth it."</li>
+<li>"25% off at checkout from a brand that does this every month is their normal price."</li>
+<li>"A mystery box is how a store clears what didn't sell."</li>
+<li>"Three sizes left out of twenty. I'm showing it, but it's nearly gone."</li>
+</ul>
+<p>A rule I'd hold to: a hot take is about a practice, and it always ends on something worth buying from the same store. That keeps brands on side and keeps you credible.</p>
+
+<h2 id="formats">6. The seven formats</h2>
+<div class="fmt">
+<div><h3>Edition</h3><p>"Black Friday: travel edition." Numbered brands, photos pop in with before and after prices, your voice over. 25 to 40 seconds. Four exist. The workhorse.</p></div>
+<div><h3>I counted</h3><p>One store's claim against what the catalog shows. A dot for every item, filling in as the number counts up. Ends on the pieces that are worth it. 20 seconds. Your signature.</p></div>
+<div><h3>One thing</h3><p>A single product. Price strikes through and rolls down to the sale price. Three reasons, one caveat. 12 to 15 seconds. The most shareable.</p></div>
+<div><h3>Buy it or skip it</h3><p>Two sales side by side, a verdict stamp on each. The hot-take format. 20 seconds.</p></div>
+<div><h3>Ends tonight</h3><p>A countdown clock and the three to five sales closing at midnight. Posted late afternoon on Nov 29, Nov 30 and Dec 1.</p></div>
+<div><h3>Carousel</h3><p>The saveable reference: every code in one place, gifts under $25, the outfit with a total. Five exist.</p></div>
+<div><h3>What I bought</h3><p>Your hands, your purchases, on a table. No face. The one piece of real footage, and the one that proves you mean it.</p></div>
+</div>
+
+<h2 id="slate">7. The full slate, day by day</h2>
+<p>25 posts over eight days: 8 already made, 17 new. That is three or four a day, which matches your three-a-day rule.</p>
+<div class="tw"><table><tr><th>Day</th><th>Format</th><th>Post and its hook fact</th><th>Brands</th><th>Status</th></tr><tr><td style='white-space:nowrap'>Thu Nov 26</td><td>Video</td><td><b>Best deals edition</b><br><span class=mu>Seven sales where the discount is real</span></td><td class=mu>Alexandra Miro, Intentionally Blank, Heaven Mayhem, Jenni Kayne, Emme Parsons, alice + olivia, Past Midnight</td><td><span class='pill done'>Made</span></td></tr><tr><td style='white-space:nowrap'>Thu Nov 26</td><td>Carousel</td><td><b>Five brands that go on sale once a year</b><br><span class=mu>Each slide quotes the brand's own homepage</span></td><td class=mu>Past Midnight, Margaux, MERIT, Jennifer Behr, Tatcha</td><td><span class='pill done'>Made</span></td></tr><tr><td style='white-space:nowrap'>Fri Nov 27</td><td>Video</td><td><b>I counted: the jewelry sale that undersells itself</b><br><span class=mu>BaubleBar advertises 30% off. 578 pieces are half off or more</span></td><td class=mu>BaubleBar vs Jet Set Candy vs Ring Concierge</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Fri Nov 27</td><td>Video</td><td><b>Travel edition</b><br><span class=mu>Weekenders, flats, sunglasses, swim</span></td><td class=mu>BÉIS, Rothy's, Heaven Mayhem, Past Midnight, Jet Set Candy, Alexandra Miro</td><td><span class='pill done'>Made</span></td></tr><tr><td style='white-space:nowrap'>Fri Nov 27</td><td>Spotlight</td><td><b>One thing: the $324 boot for $162</b><br><span class=mu>Leather knee boot, 15 of 16 sizes in stock</span></td><td class=mu>Intentionally Blank</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Fri Nov 27</td><td>Carousel</td><td><b>Under $50 that looks like $200</b><br><span class=mu>Cheapest first, from $13</span></td><td class=mu>MAKE, Tatcha, Jet Set Candy, Heaven Mayhem, BÉIS</td><td><span class='pill done'>Made, needs a recheck</span></td></tr><tr><td style='white-space:nowrap'>Sat Nov 28</td><td>Video</td><td><b>Workwear edition</b><br><span class=mu>A $529 dress for $111</span></td><td class=mu>M.M.LaFleur, Odd Muse, Marcella, alice + olivia</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Sat Nov 28</td><td>Video</td><td><b>Buy it or skip it: "25% off at checkout"</b><br><span class=mu>32 stores show no marked-down prices. Which are still worth it</span></td><td class=mu>Margaux and MERIT (buy), three I'd skip</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Sat Nov 28</td><td>Video</td><td><b>Home edition</b><br><span class=mu>Linen, robes, pajamas</span></td><td class=mu>Piglet in Bed, Brooklinen, Parachute, LAKE</td><td><span class='pill done'>Made</span></td></tr><tr><td style='white-space:nowrap'>Sat Nov 28</td><td>Carousel</td><td><b>Every code in one place</b><br><span class=mu>44 live codes from the sheet, checked against the sites</span></td><td class=mu>All</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Sun Nov 29</td><td>Video</td><td><b>Ends tonight</b><br><span class=mu>MONROW and Petal & Pup close at midnight</span></td><td class=mu>MONROW (93 pieces at half off), Petal & Pup</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Sun Nov 29</td><td>Video</td><td><b>Denim edition</b><br><span class=mu>Half the store is half off</span></td><td class=mu>Daze Denim, Pistola, AMO, DL1961 (code THANKFUL30)</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Sun Nov 29</td><td>Video</td><td><b>Makeup edition</b><br><span class=mu>One is half off everything</span></td><td class=mu>MAKE, MERIT, Chantecaille, Tatcha</td><td><span class='pill done'>Made</span></td></tr><tr><td style='white-space:nowrap'>Sun Nov 29</td><td>Carousel</td><td><b>One holiday outfit, every piece on sale</b><br><span class=mu>$1,658 down to $871</span></td><td class=mu>Alexandra Miro, Emme Parsons, Heaven Mayhem, Freja, Past Midnight</td><td><span class='pill done'>Made</span></td></tr><tr><td style='white-space:nowrap'>Mon Nov 30</td><td>Video</td><td><b>Ends tonight: the big one</b><br><span class=mu>Ten sales close at midnight</span></td><td class=mu>Tatcha, P.E Nation, Rails, Pistola, Harper Wilde, LAKE</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Mon Nov 30</td><td>Video</td><td><b>Jewelry edition</b><br><span class=mu>Gold-plated from $12, fine jewelry at 30%</span></td><td class=mu>BaubleBar, Bryan Anthonys, Sterling Forever, Heaven Mayhem, Loren Hope</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Mon Nov 30</td><td>Spotlight</td><td><b>One thing: the sunglasses that are 70% off</b><br><span class=mu>$220 down to $66, 117 of 148 frames at half off or more</span></td><td class=mu>Vicci Eyewear</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Mon Nov 30</td><td>Carousel</td><td><b>Seven pieces, ranked by dollars off</b><br><span class=mu>$718 off at the top</span></td><td class=mu>alice + olivia, Jenni Kayne, Alexandra Miro, Emme Parsons</td><td><span class='pill done'>Made</span></td></tr><tr><td style='white-space:nowrap'>Tue Dec 1</td><td>Video</td><td><b>Last call: 100 sales end tonight</b><br><span class=mu>The ten I'd check out with before midnight</span></td><td class=mu>Best of the whole audit</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Tue Dec 1</td><td>Video</td><td><b>Shoes edition</b><br><span class=mu>$425 sandals for $128</span></td><td class=mu>FRĒDA SALVADOR, Emme Parsons, Intentionally Blank, Rothy's, Margaux</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Tue Dec 1</td><td>Video</td><td><b>Pajamas and loungewear edition</b><br><span class=mu>Sets from $48</span></td><td class=mu>Softies, Cozyland, LAKE, Stripe & Stare, MONROW</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Tue Dec 1</td><td>Carousel</td><td><b>Gifts under $25, all real markdowns</b><br><span class=mu>Sorted by who it's for</span></td><td class=mu>Bryan Anthonys, THATCH, BaubleBar, Miranda Frye, MAKE</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Wed Dec 2</td><td>Video</td><td><b>Still on: the sales that didn't end</b><br><span class=mu>Past Midnight to Dec 5, Loren Hope to Dec 7, Odd Muse to Dec 31</span></td><td class=mu>Late-ending sales</td><td><span class='pill todo'>New</span></td></tr><tr><td style='white-space:nowrap'>Wed Dec 2</td><td>Video</td><td><b>What I actually bought</b><br><span class=mu>Your own picks, filmed on a table</span></td><td class=mu>Yours</td><td><span class='pill todo'>New, needs you</span></td></tr><tr><td style='white-space:nowrap'>Thu Dec 3 on</td><td>Series</td><td><b>I read the sales so you don't have to</b><br><span class=mu>Holiday shipping cutoffs, then the Dec 26 sales</span></td><td class=mu>Softies Dec 9 to 21, Bryan Anthonys Dec 4 to 20 and Dec 26 on, Marine Layer Dec 23 on</td><td><span class='pill todo'>New</span></td></tr></table></div>
+<p class="mu">Every fact in the hook column comes from the catalogs I read on Nov 26. Each gets rechecked on the morning it posts.</p>
+
+<h3>The new edition videos, with what I'd lead on</h3>
+<ul>
+<li><b>Workwear.</b> M.M.LaFleur: Theodora eyelet dress, $529 to $111, all six sizes in. O'Hara velveteen blazer, $529 to $143. Odd Muse: wool tailored blazer, £190 to £76 (UK store, prices in pounds).</li>
+<li><b>Denim.</b> Daze: wide-leg and barrel jeans, $118 to $41, most sizes in. Pistola: Cassie straight jean, $208 to $73.</li>
+<li><b>Jewelry.</b> BaubleBar: 18K gold-plated zodiac necklace, $148 to $39. Bryan Anthonys: necklaces $88 to $29. Loren Hope: Elena statement earrings, $198 to $49. Miranda Frye: Gia cuff, $150 to $40.</li>
+<li><b>Shoes.</b> FRĒDA SALVADOR: Aurora sandal, $425 to $128. Intentionally Blank: knee boots at half off. Nisolo: lace lug boot, $248 to $99.</li>
+<li><b>Pajamas and loungewear.</b> Softies: robe and pajama sets, $130 to $50, nearly every size. Cozyland: Wicked print pajama set, $170 to $48. MONROW: sherpa trucker jacket, $216 to $86.</li>
+<li><b>Bags</b> (if you want one): Freja Jane bag, $268 to $108. Marcella Maru purse, $358 to $143.</li>
+</ul>
+<p class="mu">I have not yet looked at the photos for these. Each one gets the same check as the rebuilt videos before it goes in: I see the photo, it is in stock, and it is a piece someone would want at full price.</p>
+
+<h2 id="hooks">8. Hooks</h2>
+<p>Three rules. The hook names a thing and a number. It lands in two seconds with the sound off, so it is on screen as text. It can be proven wrong.</p>
+<p>Options for the main ones. You pick, or say your own:</p>
+<ul>
+<li><b>I counted (BaubleBar).</b> "This sale says 30% off. I counted 578 things at half price." / "The best jewelry sale this week is the one bragging the least." / "30% off is a lie. In your favour."</li>
+<li><b>Buy it or skip it.</b> "25% off at checkout is not always a sale." / "32 Black Friday sales have no sale prices. I checked." / "Two of these are worth it. Thirty aren't."</li>
+<li><b>One thing (boots).</b> "$324 leather boots for $162, and your size is still there." / "The best boot I found in 376 sales."</li>
+<li><b>Workwear.</b> "A $529 dress for $111." / "Your work wardrobe is 79% off and nobody told you."</li>
+<li><b>Ends tonight.</b> "Six sales die at midnight. One is worth staying up for." / "If you only check out once today."</li>
+<li><b>Last call (Dec 1).</b> "100 sales end tonight. I'd buy from ten."</li>
+<li><b>Series opener, every video.</b> "I read 376 Black Friday sales so you don't have to."</li>
+</ul>
+
+<h2 id="voice">9. Voiceover</h2>
+<p><b>Use your own voice.</b> Your playbook says raw and honest, and a real voice saying "I counted" is the whole credibility of the account. An AI voice would undercut it. I can generate one through ElevenLabs if you want a backup for days you can't record, but it costs credits and I'd only do it with your OK.</p>
+<p><b>How it works per video:</b></p>
+<ol>
+<li>I send you the silent cut and a beat sheet: one line of facts per brand, not a script.</li>
+<li>You record in TikTok's voiceover tool while it plays, or as a voice memo you send me. About twelve words per brand.</li>
+<li>If you send me the audio, I cut the video to your pacing instead of making you match mine, and burn in word-by-word captions.</li>
+</ol>
+<p><b>Shape of each brand's line:</b> the thing, the price, the why, and now and then the why-not. Say the item, not the brand; the brand is already on screen.</p>
+<p><b>Batching:</b> record a day's three videos in one sitting. Fifteen minutes.</p>
+
+<h2 id="look">10. Look, footage, effects, sound</h2>
+<h3>What I can do now, at no cost</h3>
+<ul>
+<li>Photos popping in, in time with a beat.</li>
+<li>Price strike-through with the number rolling down to the sale price.</li>
+<li>A counter and dot grid that fills (the "I counted" visual).</li>
+<li>Split screen with a buy or skip stamp.</li>
+<li>Countdown clock for "ends tonight".</li>
+<li>Zoom punches and quick cuts on the beat.</li>
+<li>Word-by-word captions burned in, once I have your audio.</li>
+<li>Basic sound effects (pops, whooshes) that I generate myself. They are plain.</li>
+</ul>
+<h3>Brand video</h3>
+<p>24 of the brands have video files on their own homepage. The count of clips found is in brackets: Orena Fragrances (168), Strathberry (81), Londontown (69), Hommey (53), Caraway Home (52), Complexion (41), Supergoop! (20), Coco &amp; Eve (16), M.M.LaFleur (15), Velvet Hammer (15), EBY (12), Young Goose (10), Sterling Forever (9), OSEA (8), TYPEBEA (8), CLn Skin Care (8), Good Weather Skin (5), EltaMD (5), Then I Met You (5), SURI (5), augustnoa (5), CURIE (5), ZIIP (4), EP Jewels (4).</p>
+<p>I have looked at three so far (Heaven Mayhem, Alexandra Miro, Margaux) and they are usable: models wearing the product, shoes being made. Before any brand's footage goes in a post, message them through ShopMy and ask. Most say yes to affiliates, and it starts a relationship. I'd draft that message for you.</p>
+<p>Rule from your playbook that I'll keep: real brand footage and still-photo cards are fine together; nothing AI-generated gets mixed in.</p>
+<h3>Things that cost money, only with your OK</h3>
+<ul>
+<li><b>Better sound effects</b> from ElevenLabs: cash-register hits, risers, proper whooshes. A small credit spend per effect, reused across every video.</li>
+<li><b>An AI voice</b> as a backup, as above.</li>
+<li><b>Runway</b> could animate a product photo. I don't recommend it: it breaks your no-generated-footage rule and viewers can tell.</li>
+</ul>
+<h3>Sound</h3>
+<p>Three layers: your voice, my effects on the cuts, and a trending sound low underneath that you pick in the app on the day. I can't choose the trending sound from here.</p>
+
+<h2 id="dates">11. Dates</h2>
+<p>When each sale ends, according to your sheet. Today is Thursday Nov 26. Half of everything ends Tuesday Dec 1.</p>
+<div class="tw"><table><tr><th>Ends</th><th>Sales</th><th>Brands</th></tr><tr><td style='white-space:nowrap'>11/26</td><td class=n>4</td><td>ELEMIS, Good Weather Skin, Kyrgies, Pendleton</td></tr><tr><td style='white-space:nowrap'>11/29</td><td class=n>2</td><td>MONROW, Petal &amp; Pup</td></tr><tr><td style='white-space:nowrap'>11/30</td><td class=n>17</td><td>440ME, Antipodean Label, Colleen Rothschild, Crocs, Fabletics, Harper Wilde, Hearth Display, Josie Maran, Nike, P.E Nation, Pistola Denim, Pointe Studio, Rails, Sisterly Tribe and more</td></tr><tr><td style='white-space:nowrap'>12/01</td><td class=n>95</td><td>437, AIZOME, AKT London, ANEMOS, APIECE APART, Alexandra Miro, Algenist, Almina Concept, Ariel Gordon Jewelry, At Present, BAGATIBA, BAGGU, Barefaced, Bario Neal and more</td></tr><tr><td style='white-space:nowrap'>12/02</td><td class=n>32</td><td>Arey, BK Beauty, BaubleBar, CURIE, Chantecaille, Cozyland, DISSH, Emme Parsons, FRĒDA SALVADOR, Hanky Panky, Hello Molly, Hommey, Jennifer Behr, L&#x27;OCCITANE and more</td></tr><tr><td style='white-space:nowrap'>12/03</td><td class=n>12</td><td>Boll &amp; Branch, Brooklinen, CLEARSTEM, Colorescience, Dermalogica, Heiress Beverly Hills, LensDirect, Mac Duggal, Marcella, NIRA, Nēmah, Rise &amp; Fall</td></tr><tr><td style='white-space:nowrap'>12/04</td><td class=n>2</td><td>Piglet in Bed, TWOPAGES Curtains</td></tr><tr><td style='white-space:nowrap'>12/05</td><td class=n>4</td><td>Omika, Past Midnight, Paula&#x27;s Choice, Social Threads</td></tr><tr><td style='white-space:nowrap'>12/07</td><td class=n>3</td><td>Loren Hope, Made In Cookware, ZIIP</td></tr><tr><td style='white-space:nowrap'>12/09</td><td class=n>1</td><td>Lumens</td></tr></table></div>
+<p><b>What viewers need to hear:</b></p>
+<ul>
+<li>Sunday Nov 29: MONROW and Petal & Pup end.</li>
+<li>Monday Nov 30: Tatcha, P.E Nation, Rails, Pistola, Harper Wilde. LAKE's site says "ends Monday".</li>
+<li>Tuesday Dec 1: the big close.</li>
+<li>Still running after: Past Midnight to Dec 5, Loren Hope and ZIIP to Dec 7, Odd Muse to Dec 31.</li>
+<li>alice + olivia: your sheet shows an extra 30% on Nov 27 and 28 only.</li>
+</ul>
+<p class="mu">End dates are from the sheet, not the sites. Most stores don't print one. I'd confirm each date we say out loud on the brand's site that morning.</p>
+
+<h2 id="codes">12. Codes</h2>
+<p>44 codes on your sheet are attached to sales still running. Three already didn't match the sites when I checked (Hudson Grace's 20% needs no code, Boll & Branch shows CYBER25, EP Jewels' BF2026 wasn't live). So a code goes on screen only after I've seen it on the brand's site or tried it in a cart.</p>
+<div class="tw"><table><tr><th>Brand</th><th>Code</th><th>For</th><th>Starts</th><th>Ends</th></tr><tr><td>ANEMOS</td><td><code>BFCM26</code></td><td>20% off</td><td>11/22</td><td>12/01</td></tr><tr><td>APIECE APART</td><td><code>THANKS30</code></td><td>30% off</td><td>11/22</td><td>12/01</td></tr><tr><td>Algenist</td><td><code>blackfriday35</code></td><td>35% off</td><td>11/17</td><td>12/01</td></tr><tr><td>Ariel Gordon Jewelry</td><td><code>CHEER2026</code></td><td>20% off</td><td>11/05</td><td>12/01</td></tr><tr><td>BONHEUR JEWELRY</td><td><code>Bonheur15</code></td><td>15% off</td><td>04/19</td><td>open</td></tr><tr><td>Boll &amp; Branch</td><td><code>SHOPMY25</code></td><td>25% off</td><td>11/21</td><td>12/03</td></tr><tr><td>By Alona</td><td><code>BLACKFRIDAY</code></td><td>30% off</td><td>11/26</td><td>12/01</td></tr><tr><td>Byrdie Golf Social Wear</td><td><code>CYBERMONDAY</code></td><td>20% off</td><td>11/30</td><td>12/01</td></tr><tr><td>Call It By Your Name</td><td><code>CIBYNFRIDAY</code></td><td>20% off</td><td>11/27</td><td>12/01</td></tr><tr><td>Chantecaille</td><td><code>CYBER</code></td><td>25% off</td><td>11/20</td><td>12/02</td></tr><tr><td>Christophe Robin</td><td><code>SMCR30</code></td><td>30% off</td><td>10/30</td><td>12/01</td></tr><tr><td>DL1961</td><td><code>THANKFUL30</code></td><td>30% off</td><td>11/23</td><td>12/01</td></tr><tr><td>Daughter Lessons NYC</td><td><code>SPORT</code></td><td>20% off</td><td>11/30</td><td>12/01</td></tr><tr><td>Dermalogica</td><td><code>BONUSGIFT</code></td><td>Spend $50, get 1 free</td><td>11/22</td><td>12/03</td></tr><tr><td>EP Jewels</td><td><code>BF2026</code></td><td>45% off</td><td>11/27</td><td>12/01</td></tr><tr><td>EP Jewels</td><td><code>Nov30</code></td><td>30% off</td><td>11/01</td><td>12/01</td></tr><tr><td>Each &amp; Every</td><td><code>HOLIDAY26</code></td><td>30% off</td><td>11/19</td><td>12/01</td></tr><tr><td>FRĒDA SALVADOR</td><td><code>VIPFRIDAY26</code></td><td>25% off</td><td>11/19</td><td>12/02</td></tr><tr><td>Hearth Display</td><td><code>BFCM</code></td><td>20% off</td><td>11/05</td><td>11/30</td></tr><tr><td>Hudson Grace</td><td><code>SAVE20</code></td><td>20% off</td><td>11/10</td><td>open</td></tr><tr><td>Kyrgies</td><td><code>BISHKEK20</code></td><td>20% off</td><td>11/12</td><td>11/26</td></tr><tr><td>L&#x27;OCCITANE</td><td><code>FRIDAY; CYBER</code></td><td>20% off</td><td>11/29</td><td>12/02</td></tr><tr><td>LensDirect</td><td><code>BVIP26; BLACK26; CYBER26</code></td><td>20–40% off</td><td>11/23</td><td>12/03</td></tr><tr><td>Lizzie Fortunato</td><td><code>LFHOLIDAY</code></td><td>10–20% off</td><td>11/23</td><td>12/01</td></tr><tr><td>LulaKate</td><td><code>SAYYES</code></td><td>20% off</td><td>11/03</td><td>12/02</td></tr><tr><td>MARA</td><td><code>ALLONSALE</code></td><td>20% off</td><td>10/30</td><td>11/09</td></tr><tr><td>MARA</td><td><code>BONUS2026</code></td><td>25% off</td><td>12/01</td><td>12/02</td></tr><tr><td>Mademoiselle Jules</td><td><code>BLACKFRIDAY26</code></td><td>30% off</td><td>11/10</td><td>12/01</td></tr><tr><td>Marea</td><td><code>JOY20</code></td><td>20% off</td><td>11/27</td><td>12/02</td></tr><tr><td>Nette</td><td><code>THENETTEEVENT</code></td><td>25% off</td><td>11/13</td><td>12/01</td></tr><tr><td>Orena Fragrances</td><td><code>BLACKFRIDAY</code></td><td>30% off</td><td>11/25</td><td>11/30</td></tr><tr><td>Orena Fragrances</td><td><code>CYBER</code></td><td>35% off</td><td>11/30</td><td>12/01</td></tr><tr><td>Past Midnight</td><td><code>THESEASON</code></td><td>25% off</td><td>11/24</td><td>12/05</td></tr><tr><td>Paula&#x27;s Choice</td><td><code>CYBER26</code></td><td>30% off</td><td>11/16</td><td>12/05</td></tr><tr><td>Petal &amp; Pup</td><td><code>BF30</code></td><td>30% off</td><td>11/25</td><td>11/29</td></tr><tr><td>Porte + Hall</td><td><code>everything</code></td><td>15% off</td><td>11/23</td><td>11/26</td></tr><tr><td>Porte + Hall</td><td><code>everything</code></td><td>20% off</td><td>11/26</td><td>12/01</td></tr><tr><td>Social Threads</td><td><code>BLACKFRIDAY30</code></td><td>30% off</td><td>11/27</td><td>11/29</td></tr><tr><td>Social Threads</td><td><code>CYBER25</code></td><td>25% off</td><td>11/25</td><td>12/05</td></tr><tr><td>Society Social</td><td><code>EVERYTHING20</code></td><td>20% off</td><td>11/17</td><td>12/01</td></tr><tr><td>TWOPAGES Curtains</td><td><code>SARA24</code></td><td>24% off</td><td>09/01</td><td>open</td></tr><tr><td>TWOPAGES Curtains</td><td><code>SELECT</code></td><td>28% off</td><td>11/01</td><td>12/04</td></tr><tr><td>The Fête</td><td><code>THANKFUL25</code></td><td>25% off</td><td>11/19</td><td>12/02</td></tr><tr><td>Vince</td><td><code>BFCM</code></td><td>25–30% off</td><td>11/16</td><td>12/01</td></tr></table></div>
+
+<h2 id="together">13. How we make them together</h2>
+<ol>
+<li><b>You pick</b> from the slate: yes, no, or change, per post.</li>
+<li><b>I build the silent cut</b> and send it with the beat sheet and three hook options. Each item passes the bar: full catalog read, photo seen, in stock, price confirmed.</li>
+<li><b>You record</b> the voice and send it back, or record in the app.</li>
+<li><b>I finish it:</b> cut to your pacing, captions, effects.</li>
+<li><b>You post,</b> with the trending sound and the caption (I draft it, with the disclosure line).</li>
+<li><b>Next morning</b> you send a screenshot of the numbers. I log hook, format and topic against views, saves and shares, and we move the next day's slate toward what worked.</li>
+</ol>
+<p>Realistic pace on my side: about three finished videos a day once the templates for "I counted", "one thing" and "ends tonight" exist. Those three templates are the first build.</p>
+
+<h2 id="risks">14. Risks</h2>
+<ul>
+<li><b>Prices move.</b> Everything here was read on Nov 26. Each post gets a recheck the morning it goes up.</li>
+<li><b>Disclosure.</b> Every caption says the links earn commission.</li>
+<li><b>Calling a sale weak.</b> Keep it to numbers I can show, about a practice, and end on a pick from that store.</li>
+<li><b>Brand footage</b> needs the brand's yes.</li>
+<li><b>31 big names I couldn't read item by item</b> (Nike, SKIMS, Vince, Maje, Spanx, Macy's, Crocs, Strathberry, BAGGU and others). They stay out of anything that quotes item prices unless we check them by hand.</li>
+<li><b>Odd Muse, DISSH, Soleil Soleil and Beyond Nine</b> are UK or Australian stores. Prices are in their currency; I'd confirm US pricing and shipping before featuring them.</li>
+<li><b>Earlier in this session</b> research agents spent about 137 paid Apify fetches without your OK. Nothing in this audit used a paid tool.</li>
+</ul>
+
+<h2 id="decide">15. What I need from you</h2>
+<ol>
+<li><b>The slate.</b> Which posts are a yes, which are a no, and what's missing.</li>
+<li><b>Voice.</b> Your own voice, recorded as memos you send me? That gives the best result.</li>
+<li><b>Categories.</b> I left out kids, wellness, fitness, food and cannabis. Tea Collection (kids) is the single deepest sale on the sheet. In or out?</li>
+<li><b>Hot takes.</b> How blunt? "Skip it" by name, or only "here's the one worth it"?</li>
+<li><b>Money.</b> OK to spend ElevenLabs credits on a set of sound effects, yes or no. I'll quote the number first.</li>
+<li><b>Brand footage.</b> Should I draft the ShopMy message asking for permission?</li>
+<li><b>The handle</b> these go out under, so the end cards can say it.</li>
+</ol>
+</div>
