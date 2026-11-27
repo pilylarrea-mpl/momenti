@@ -4,9 +4,9 @@ sys.path.insert(0,'.')
 import fast
 from fast import SP,B,esc
 VO='/tmp/claude-0/-home-user/f8db058d-6b86-53e9-be25-77324683de3f/scratchpad/vo/vo.m4a'
-OUT=SP+'/out8'; shutil.rmtree(OUT,ignore_errors=True); os.makedirs(OUT+'/ov'); os.makedirs(OUT+'/seg'); os.makedirs(OUT+'/au')
+OUT=SP+'/out9'; shutil.rmtree(OUT,ignore_errors=True); os.makedirs(OUT+'/ov'); os.makedirs(OUT+'/seg'); os.makedirs(OUT+'/au')
 L=json.load(open(SP+'/out6/boots-picks.json'))          # the eight boots, prices and photo plates already checked
-G=0.20; P=0.05
+G=0.20; P=0.05; TEMPO=1.05
 # (label, audio start, audio end, gap after)
 CH=[('h1',2.88,7.86,0.18),('h2',8.18,11.98,0.22),('h3',12.46,14.44,0.25),
     ('b0',15.22,17.16,G),('b1',17.68,20.88,G),('b2',29.34,31.20,0.0),('b3',31.20,36.64,0.28),
@@ -15,10 +15,10 @@ CH=[('h1',2.88,7.86,0.18),('h2',8.18,11.98,0.22),('h3',12.46,14.44,0.25),
 parts=[]
 for k,(n,a,b,g) in enumerate(CH):
     f=f'{OUT}/au/{k:02d}.wav'
-    subprocess.run(['ffmpeg','-v','error','-y','-ss',str(a),'-to',str(b),'-i',VO,'-af',f'afade=t=in:d=0.02,afade=t=out:st={b-a-0.03}:d=0.03,apad=pad_dur={g}','-ar','48000','-ac','1',f],check=True); parts.append(f)
+    subprocess.run(['ffmpeg','-v','error','-y','-ss',str(a),'-to',str(b),'-i',VO,'-af',f'afade=t=in:d=0.02,afade=t=out:st={b-a-0.03}:d=0.03,atempo={TEMPO},apad=pad_dur={g}','-ar','48000','-ac','1',f],check=True); parts.append(f)
 open(OUT+'/au/list.txt','w').write(''.join(f"file '{p}'\n" for p in parts))
-subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',OUT+'/au/list.txt','-af','loudnorm=I=-15:TP=-1.5:LRA=11','-ar','48000',OUT+'/voice.wav'],check=True)
-D={n:(b-a)+g for n,a,b,g in CH}
+subprocess.run(['ffmpeg','-v','error','-y','-f','concat','-safe','0','-i',OUT+'/au/list.txt','-af','highpass=f=85,afftdn=nf=-28,equalizer=f=260:t=q:w=1.2:g=-2.5,equalizer=f=3600:t=q:w=1.4:g=3,equalizer=f=9000:t=h:w=2000:g=1.5,acompressor=threshold=-20dB:ratio=3:attack=8:release=140:makeup=2,loudnorm=I=-14:TP=-1.5:LRA=9','-ar','48000',OUT+'/voice.wav'],check=True)
+D={n:(b-a)/TEMPO+g for n,a,b,g in CH}
 # ---- plates: the photo fills the top 1330px; labels sit on an ivory panel below, so the boot is never covered
 from PIL import Image
 import pick
@@ -45,7 +45,7 @@ CSS=fast.CSS.replace('HKpx','118px')+'''<style>
 .was{background:none;padding:0;font-size:44px}
 .off{font-size:26px;padding:8px 14px 7px;border-radius:999px}
 .why{display:none}
-.hook{top:470px}
+.hook{top:330px} .hook div{font-size:104px}
 </style>'''
 money=lambda x:f'${x:,.0f}' if abs(x-round(x))<.005 else f'${x:,.2f}'
 def hook(lines,sub=None): return f'{CSS}<body><div class=panel></div><div class=series>Black Friday · Boots</div><div class=hook>'+''.join(f'<div class="{c}">{esc(t)}</div><br>' for t,c in lines)+(f'<p>{esc(sub)}</p>' if sub else '')+'</div></body>'
@@ -60,16 +60,20 @@ for k,h in O.items(): open(f'{OUT}/ov/{k}.html','w').write(h)
 subprocess.run(['node',B+'/shootpng.js',OUT+'/ov'],check=True)
 segs=[]
 def seg(img,ov,dur,zin=True):
-    f=f'{OUT}/seg/{len(segs):03d}.mp4'; fr=max(2,round(dur*30)); z=f"'1+0.045*on/{fr}'" if zin else f"'1.045-0.045*on/{fr}'"
+    f=f'{OUT}/seg/{len(segs):03d}.mp4'; fr=max(2,round(dur*30)); z="'1.045'" if zin=='hold' else (f"'1+0.045*on/{fr}'" if zin else f"'1.045-0.045*on/{fr}'")
     subprocess.run(['ffmpeg','-v','error','-y','-loop','1','-t',str(dur+0.3),'-i',img,'-i',ov,'-f','lavfi','-i','color=c=0xF4F0E8:s=1080x1920:r=30','-filter_complex',f"[0]zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={PW}x{PH}:fps=30[b];[2][b]overlay=0:0[c];[c][1]overlay=0:0,format=yuv420p",'-frames:v',str(fr),'-r','30','-c:v','libx264','-crf','18',f],check=True); segs.append(f); return fr/30
 def fill(imgs,ov_first,ov_rest,dur,target=0.72,start=0):
     n=max(1,round(dur/target)); each=dur/n; used=0
     for j in range(n):
         d=each if j<n-1 else dur-used; used+=seg(imgs[(start+j)%len(imgs)],ov_first if j==0 else ov_rest,d,j%2==0)
-allpl=[it['pl2'][0] for it in L]
-pos=0
-for h in ['h1','h2','h3']:
-    n=max(1,round(D[h]/1.3)); fill(allpl,f'{OUT}/ov/{h}.png',f'{OUT}/ov/{h}.png',D[h],1.3,pos); pos+=n
+import pick as _p
+GW,GH=int(PW*1.045),int(PH*1.045); grid=Image.new('RGB',(GW,GH),(244,240,232)); top=int(GH*0.57); cw=GW//4; chh=(GH-top)//2
+for i,it in enumerate(L):
+    r={x['h']:x for x in _p.rows(it['host'])}[it['handle']]; im=Image.open(fast.fetch(r['img'][0],900)).convert('RGB')
+    sc=min((cw-14)/im.width,(chh-14)/im.height); im=im.resize((round(im.width*sc),round(im.height*sc)),Image.LANCZOS)
+    grid.paste(im,((i%4)*cw+(cw-im.width)//2, top+(i//4)*chh+(chh-im.height)//2))
+gp=OUT+'/pl/grid.jpg'; grid.save(gp,quality=93)
+seg(gp,f'{OUT}/ov/h1.png',D['h1'],'hold'); seg(gp,f'{OUT}/ov/h2.png',D['h2'],'hold'); seg(gp,f'{OUT}/ov/h3.png',D['h3'],'hold')
 dur_item=[D['b0'],D['b1'],D['b2'],D['b3'],D['b4a']+D['b4b'],D['b5'],D['b6'],D['b7']]
 for i,it in enumerate(L): fill(it['pl2'],f'{OUT}/ov/i{i}a.png',f'{OUT}/ov/i{i}b.png',dur_item[i],1.6)
 seg(L[1]['pl2'][0],f'{OUT}/ov/end.png',D['end'],True)
