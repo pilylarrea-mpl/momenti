@@ -1,0 +1,264 @@
+{
+ "slug": "once-a-year",
+ "hook": [
+  "brands that almost never go on sale",
+  "are on sale right now"
+ ],
+ "hook_say": "these brands basically never go on sale. this week they are, and a few of them say it's the only time all year.",
+ "sub": "every quote is from the brand's own site",
+ "brands": [
+  {
+   "brand": "MERIT Beauty",
+   "host": "meritbeauty.com",
+   "claim": "20% off, 25% off orders over $150",
+   "stat": "\"our only sale of the year\"",
+   "say": "merit. they call this their only sale of the year. twenty percent off, twenty-five if you spend over one fifty. if you've been waiting on the flush balm, this is the week.",
+   "bg": {
+    "handle": "day-glow",
+    "img": 3
+   },
+   "tiles": [
+    {
+     "handle": "flush-balm",
+     "img": 0
+    },
+    {
+     "handle": "the-minimalist",
+     "img": 0
+    },
+    {
+     "handle": "signature-lip",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 43,
+    "ge40": 0,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "Freja",
+   "host": "frejanyc.com",
+   "claim": "25% off everything",
+   "stat": "\"our annual event\" · 25% off everything",
+   "say": "freja, the bags. twenty-five percent off everything, and they call it their annual event. the black chrystie is the one i'd get.",
+   "bg": {
+    "handle": "caroline-bag-black",
+    "img": 2
+   },
+   "tiles": [
+    {
+     "handle": "chrystie-bag-black",
+     "img": 0
+    },
+    {
+     "handle": "paloma-tote-black",
+     "img": 0
+    },
+    {
+     "handle": "linnea-tote-espresso",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 108,
+    "ge40": 15,
+    "ge50": 8
+   }
+  },
+  {
+   "brand": "Tatcha",
+   "host": "tatcha.com",
+   "claim": "25% off sitewide + gifts",
+   "stat": "\"our best offer of the year\" · ends sunday",
+   "say": "tatcha. twenty-five off the whole site, in their words their best offer of the year. it ends sunday, so that's a day before most of these.",
+   "bg": {
+    "handle": "the-rice-polish-classic-foaming-exfoliant-powder",
+    "img": 3
+   },
+   "tiles": [
+    {
+     "handle": "the-dewy-skin-cream",
+     "img": 0
+    },
+    {
+     "handle": "the-water-cream-lightweight-moisturizer",
+     "img": 0
+    },
+    {
+     "handle": "the-kissu-lip-mask",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-11-30",
+   "numbers": {
+    "instock": 60,
+    "ge40": 0,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "Jennifer Behr",
+   "host": "jenniferbehr.com",
+   "claim": "25% off orders $150+",
+   "stat": "\"the biggest sale of the year\" · $150 min",
+   "say": "jennifer behr, the headbands and bows. twenty-five off, they say it's their biggest sale of the year. catch: your cart has to hit one fifty, and some of the bows are one forty-eight.",
+   "bg": {
+    "handle": "tori-headband-in-satin-black",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "velvet-bow-barrette-black",
+     "img": 0
+    },
+    {
+     "handle": "cruz-headband-saddle",
+     "img": 0
+    },
+    {
+     "handle": "acetate-lydia-headband-tortoise",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 629,
+    "ge40": 0,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "lazy jamie",
+   "host": "lazyjamie.com",
+   "claim": "20% off everything",
+   "stat": "\"our only sale of the year\" · thru monday",
+   "say": "lazy jamie. tiny store, eleven things, twenty percent off through monday, their only sale of the year. the phone chair is a real chair for your phone and i think it's funny.",
+   "bg": {
+    "handle": "the-5-to-9-tv-tray-table",
+    "img": 3
+   },
+   "tiles": [
+    {
+     "handle": "do-not-disturb-phone-chair",
+     "img": 0
+    },
+    {
+     "handle": "picky-bits-cheese-knife-set",
+     "img": 3
+    },
+    {
+     "handle": "italian-ice-cream-coupe",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 11,
+    "ge40": 0,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "Past Midnight",
+   "host": "pastmidnight.com",
+   "claim": "25% off with code THESEASON",
+   "stat": "\"our only sale of the year\" · code THESEASON",
+   "say": "past midnight sunglasses. their only sale of the year, twenty-five off with the code theseason. you have to type the code, the prices on the site still look full.",
+   "bg": {
+    "handle": "the-icon-sunglasses-black",
+    "img": 2
+   },
+   "tiles": [
+    {
+     "handle": "the-icon-sunglasses-tortoise",
+     "img": 0
+    },
+    {
+     "handle": "the-classic-black-sunglasses",
+     "img": 0
+    },
+    {
+     "handle": "the-retro-sunglasses-brown",
+     "img": 0
+    }
+   ],
+   "code": "THESEASON",
+   "ends": "2026-12-05",
+   "numbers": {
+    "instock": 30,
+    "ge40": 7,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "Margaux",
+   "host": "margauxny.com",
+   "claim": "20% off everything",
+   "stat": "\"our only sitewide sale of the year\"",
+   "say": "and margaux. twenty percent off everything, their only sitewide sale of the year. twenty isn't a big number, but the demi flat is on my feet at full price the other fifty-one weeks.",
+   "bg": {
+    "handle": "the-demi-black",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "the-demi-ganache-suede",
+     "img": 0
+    },
+    {
+     "handle": "the-phoebe-boot-ganache-suede",
+     "img": 2
+    },
+    {
+     "handle": "the-james-loafer-black-nappa",
+     "img": 2
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 292,
+    "ge40": 0,
+    "ge50": 0
+   }
+  }
+ ],
+ "close_say": "none of these are huge numbers. the point is you won't see them again until next november. which brand do you wait all year for?",
+ "end_text": [
+  "their words, not mine",
+  "most end monday dec 1"
+ ],
+ "caption": "Seven brands that almost never discount are on sale this week, and four of them call it their only sale of the year. The discounts are 20 to 25%, mostly through Monday. Which brand do you wait all year for? Commissionable links in bio.",
+ "pinned_comment": "codes + end dates: MERIT 20% (25% over $150) thru 12/1 · Freja 25% thru 12/1 · Tatcha 25% thru 11/30 · Jennifer Behr 25% on $150+ thru 12/2 · lazy jamie 20% thru 12/1 · Past Midnight 25% code THESEASON thru 12/5 · Margaux 20% thru 12/1",
+ "recheck": [
+  "Open each homepage on Sat Nov 28 and confirm the banner still says the quoted phrase; my re-read today was blocked by a bot check, so quotes are from the Nov 26-27 crawl.",
+  "Only MERIT, Margaux, Past Midnight and lazy jamie say 'only sale of the year'. Freja says 'annual event', Tatcha 'best offer of the year', Jennifer Behr 'biggest sale of the year'. The hook says 'almost never'; do not say 'only' for those three.",
+  "Margaux line 'on my feet at full price' is written as Pily owning the Demi. Change it if she does not.",
+  "Freja 'the one i'd get' and lazy jamie 'i think it's funny' are opinions to keep only if she agrees.",
+  "Jennifer Behr: confirm the $150 minimum (homepage said '25% OFF ORDERS $150+'). Velvet Bow Barrette and Lydia Headband were $148 in the catalog, under the minimum alone.",
+  "Tatcha ends Nov 30 per the sheet; if posting slips to Sunday, say 'ends tonight'.",
+  "MERIT, Tatcha, Freja, Margaux, Jennifer Behr, lazy jamie discount at checkout: tiles show bestsellers, no per-item sale prices are quoted.",
+  "lazy jamie has no model photo; the background is the TV tray table product shot. Its sheet end date is Dec 1 ('through monday').",
+  "Past Midnight end date Dec 5 and code THESEASON are from the sheet and homepage."
+ ],
+ "dropped": [
+  "FRĒDA SALVADOR: says 'best sale of the year', not only; photos are landscape, weak for a vertical background",
+  "LulaKate: homepage says 'our only sale of the year' but the code line reads '20% off gift cards with code SAYYES', unclear what is discounted",
+  "Daughter Lessons NYC: sheet says 'only sale of the year' but homepage does not, and only 2 of 52 items show a markdown",
+  "LAKE, Jenni Kayne, Rothy's, BÉIS, Rails, Emme Parsons: no 'only', 'annual' or 'of the year' wording in their sheet rows or homepage phrases",
+  "Supergoop: no once-a-year wording found",
+  "alice + olivia: 'Biggest Sale of the Year' row ended Nov 27",
+  "ELEMIS, arrae: sheet end dates Nov 26 and Nov 27",
+  "Perelel, Barefaced, Algenist, Then I Met You, BK Beauty, MAKE: say 'biggest sale of the year' but supplements or less known; kept the list to 7"
+ ],
+ "end_q": "which one have you been waiting on?"
+}

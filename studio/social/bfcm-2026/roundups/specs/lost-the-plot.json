@@ -1,0 +1,383 @@
+{
+ "slug": "lost-the-plot",
+ "hook": [
+  "'up to' is doing a lot of work",
+  "this black friday"
+ ],
+ "hook_say": "'Up to' is doing a lot of work this Black Friday. I counted how many products are really at the number on the banner.",
+ "sub": "i counted every in-stock product at each store",
+ "brands": [
+  {
+   "brand": "Rothy's",
+   "host": "rothys.com",
+   "claim": "up to 40% off everything",
+   "stat": "70 of 643 products are at 40% or more",
+   "say": "rothy's says up to 40% off everything. I counted: 70 of 643 products are at 40% or more, and the typical pair is about 25 off. If you want the real 40, it's the almond loafer, the square ballerina and the après clog. Go straight to those.",
+   "bg": {
+    "handle": "the-almond-loafer-black",
+    "img": 1,
+    "off": 45,
+    "was": 180.0,
+    "now": 99.0
+   },
+   "tiles": [
+    {
+     "handle": "womens-max-square-ballerina-revelvet-navy",
+     "img": 0,
+     "off": 43,
+     "was": 155.0,
+     "now": 89.0
+    },
+    {
+     "handle": "womens-apres-clog-revelvet-dove",
+     "img": 0,
+     "off": 42,
+     "was": 170.0,
+     "now": 99.0
+    },
+    {
+     "handle": "the-almond-loafer-portobello",
+     "img": 2,
+     "off": 45,
+     "was": 180.0,
+     "now": 99.0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 643,
+    "ge40": 70,
+    "ge50": 0,
+    "threshold": 40,
+    "at_threshold": 70,
+    "marked": 599,
+    "ge20_lt40": 390
+   }
+  },
+  {
+   "brand": "Jet Set Candy",
+   "host": "jetsetcandy.com",
+   "claim": "up to 50% off",
+   "stat": "74 of 1,920 products are at 50% or more",
+   "say": "jet set candy, up to 50% off. 74 of 1,920 products are at 50% or more. Most of the store is 25, and a chunk is 40. The half-off ones are a handful of charms, like the passport and the sriracha bottle, so check the tag before you fall for one.",
+   "bg": {
+    "handle": "large-gold-spinning-globe-charm",
+    "img": 2,
+    "off": 50,
+    "was": 148.0,
+    "now": 74.0
+   },
+   "tiles": [
+    {
+     "handle": "gold-passport-stamp-book-charm",
+     "img": 0,
+     "off": 50,
+     "was": 198.0,
+     "now": 99.0
+    },
+    {
+     "handle": "gold-sriracha-hot-sauce-charm",
+     "img": 0,
+     "off": 50,
+     "was": 148.0,
+     "now": 74.0
+    },
+    {
+     "handle": "gold-trunk-suitcase-charm",
+     "img": 0,
+     "off": 50,
+     "was": 148.0,
+     "now": 74.0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 1920,
+    "ge40": 587,
+    "ge50": 74,
+    "threshold": 50,
+    "at_threshold": 74,
+    "marked": 1905,
+    "ge20_lt40": 1298
+   }
+  },
+  {
+   "brand": "BK Beauty",
+   "host": "bkbeauty.com",
+   "claim": "up to 40% off",
+   "stat": "2 of 78 products are at 40% or more",
+   "say": "bk beauty calls it their biggest sale of the year, up to 40% off. 2 of 78 products are at 40% or more. Two. A bundle and one concealer brush. The rest is mostly 20, which is fine, just don't go in expecting 40.",
+   "bg": {
+    "handle": "bk-beauty-favorites-bundle",
+    "img": 2,
+    "off": 40,
+    "was": 147.0,
+    "now": 88.0
+   },
+   "tiles": [
+    {
+     "handle": "bk-beauty-favorites-bundle",
+     "img": 1,
+     "off": 40,
+     "was": 147.0,
+     "now": 88.0
+    },
+    {
+     "handle": "angie-hot-flashy-a506-concealer-brush",
+     "img": 1,
+     "off": 40,
+     "was": 24.0,
+     "now": 14.4
+    },
+    {
+     "handle": "luxury-makeup-brush-set",
+     "img": 0,
+     "off": 35,
+     "was": 408.0,
+     "now": 265.0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 78,
+    "ge40": 2,
+    "ge50": 0,
+    "threshold": 40,
+    "at_threshold": 2,
+    "marked": 78,
+    "ge20_lt40": 75
+   }
+  },
+  {
+   "brand": "Heaven Mayhem",
+   "host": "heavenmayhem.com",
+   "claim": "up to 60% off sitewide",
+   "stat": "24 of 184 products are at 60% or more",
+   "say": "heaven mayhem, up to 60% off sitewide. 24 of 184 products are at 60% or more, and most of the site is 30. The 60 is real on some earrings and the chunky bangles, so if you like those, good. Everything is final sale.",
+   "bg": {
+    "handle": "alma-clip-on-earrings",
+    "img": 2,
+    "off": 60,
+    "was": 130.0,
+    "now": 52.0
+   },
+   "tiles": [
+    {
+     "handle": "edith-earrings",
+     "img": 0,
+     "off": 60,
+     "was": 120.0,
+     "now": 48.0
+    },
+    {
+     "handle": "autumn-earrings",
+     "img": 0,
+     "off": 60,
+     "was": 100.0,
+     "now": 40.0
+    },
+    {
+     "handle": "luna-statement-bangle",
+     "img": 0,
+     "off": 60,
+     "was": 65.0,
+     "now": 26.0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 184,
+    "ge40": 47,
+    "ge50": 32,
+    "threshold": 60,
+    "at_threshold": 24,
+    "marked": 181,
+    "ge20_lt40": 131
+   }
+  },
+  {
+   "brand": "Organic Basics",
+   "host": "organicbasics.com",
+   "claim": "up to 60% off sitewide",
+   "stat": "273 of 1,950 products are at 60% or more",
+   "say": "organic basics, up to 60% off sitewide. 273 of 1,950 products are at 60% or more. That's about one in seven. Not one pair of underwear is at 60. It's some tees and bras, shorts, track sets and swim.",
+   "bg": {
+    "handle": "track-jacket-womens-azure-blue",
+    "img": 0,
+    "off": 60,
+    "was": 95.0,
+    "now": 38.0
+   },
+   "tiles": [
+    {
+     "handle": "womens-active-flare-leggings-pink",
+     "img": 0,
+     "off": 60,
+     "was": 100.0,
+     "now": 40.0
+    },
+    {
+     "handle": "soft-knit-chunky-crewneck-sweater-matcha-green",
+     "img": 0,
+     "off": 60,
+     "was": 119.0,
+     "now": 47.6
+    },
+    {
+     "handle": "core-sleep-poplin-shirt-light-blue",
+     "img": 2,
+     "off": 60,
+     "was": 95.0,
+     "now": 38.0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 1950,
+    "ge40": 683,
+    "ge50": 284,
+    "threshold": 60,
+    "at_threshold": 273,
+    "marked": 1931,
+    "ge20_lt40": 1248
+   }
+  },
+  {
+   "brand": "Alexandra Miro",
+   "host": "alexandramiro.com",
+   "claim": "20–50% off",
+   "stat": "63 of 126 products are at 50% or more",
+   "say": "now two that do the opposite. alexandra miro says 20 to 50% off, and 63 of 126 products are at 50% or more. Half the store. It's resort dresses and swim, all final sale, so know your size.",
+   "bg": {
+    "handle": "sophia-dress-scarf-print",
+    "img": 3,
+    "off": 60,
+    "was": 480.0,
+    "now": 192.0
+   },
+   "tiles": [
+    {
+     "handle": "poppy-dress-red-capri",
+     "img": 0,
+     "off": 50,
+     "was": 460.0,
+     "now": 230.0
+    },
+    {
+     "handle": "dorian-dress-gold-knit",
+     "img": 2,
+     "off": 60,
+     "was": 430.0,
+     "now": 172.0
+    },
+    {
+     "handle": "willow-swimsuit-scarf-print",
+     "img": 3,
+     "off": 60,
+     "was": 260.0,
+     "now": 104.0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 126,
+    "ge40": 67,
+    "ge50": 63,
+    "threshold": 50,
+    "at_threshold": 63,
+    "marked": 82,
+    "ge20_lt40": 15
+   }
+  },
+  {
+   "brand": "Daze Denim",
+   "host": "dazedenim.com",
+   "claim": "25% off",
+   "stat": "78 of 156 products are at 50% or more",
+   "say": "and daze denim. The banner only says 25% off, and 78 of 156 products are at 50% or more. Jeans that were $118 are $41. That's the one I'd open first.",
+   "bg": {
+    "handle": "madison-mid-rise-wide-leg-3",
+    "img": 0,
+    "off": 65,
+    "was": 118.0,
+    "now": 41.3
+   },
+   "tiles": [
+    {
+     "handle": "lowkey-low-rise-flare",
+     "img": 1,
+     "off": 65,
+     "was": 118.0,
+     "now": 41.3
+    },
+    {
+     "handle": "city-straight-high-rise-straight-leg-1",
+     "img": 1,
+     "off": 65,
+     "was": 118.0,
+     "now": 41.3
+    },
+    {
+     "handle": "stash-skirt-high-rise-mini",
+     "img": 1,
+     "off": 65,
+     "was": 88.0,
+     "now": 30.8
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 156,
+    "ge40": 81,
+    "ge50": 78,
+    "threshold": 50,
+    "at_threshold": 78,
+    "marked": 86,
+    "ge20_lt40": 5
+   }
+  }
+ ],
+ "close_say": "So before you scroll a whole sale, find the handful that's really at the big number, or skip it. Which banner got you this week?",
+ "end_text": [
+  "read the 'up to'",
+  "then count"
+ ],
+ "caption": "Six sales where the banner number covers a sliver of the store, and two that give more than they promise. Counts are from each store's full catalog on Nov 26-27. Which 'up to' got you this year? Commissionable links in bio.",
+ "pinned_comment": "How I counted: every in-stock product on each site, its current price vs its own crossed-out price, read Nov 26-27. Extra discounts that only show up at checkout are not in these counts.",
+ "recheck": [
+  "Open each homepage on Sat and confirm the banner still says the same claim (Rothy's 'up to 40% off everything', Jet Set Candy 'up to 50% off', BK Beauty 'up to 40% off', Heaven Mayhem 'up to 60% off sitewide', Organic Basics 'up to 60% off sitewide', Intentionally Blank 'up to 75% off sitewide'). I could not re-read them today: every homepage except Mac Duggal returned a bot check.",
+  "Alexandra Miro: '20–50% off' comes from the sheet row only; the stored homepage text shows no number. Confirm on the site or say 'sale' without a number.",
+  "Daze Denim: claim is '25% off' (homepage 'BLACK FRIDAY EVENT 25% OFF'). 70 of its 156 products show no markdown in the catalog, so the 25% is probably taken at checkout; the 78 at 50%+ are catalog markdowns.",
+  "Rothy's catalog lists some styles twice (an all-colors page plus one page per color) and includes kids and men's; the 70 of 643 counts every listing. Many of the 70 are kids' loafers and clogs.",
+  "Jet Set Candy menu also showed 'up to 40% off' and 'up to 25% off solid gold'; the top banner read 'BLK FRI Up to 50% OFF'. 587 of 1,920 are at 40%+.",
+  "BK Beauty third tile (16-piece brush set) is 35% off, not 40: only 2 products are at 40%.",
+  "Intentionally Blank skates are low on sizes (Rink 5 of 40 variants in stock, Trippy 3 of 7).",
+  "Organic Basics: sweaters are shot on a male model; I used the flat shot. Check it ships from a US $ store at checkout.",
+  "All sales end Dec 1 (BK Beauty Dec 2) per the sheet."
+ ],
+ "dropped": [
+  "BaubleBar: claim is '30% off sitewide', applied outside the catalog; modest claim, not an 'up to' story",
+  "Mac Duggal: live homepage says '25% off sitewide, price as marked' but 2,705 of 3,457 catalog products show no markdown, so the count for its 'sale dresses up to 60% off' (44 of 3,457) is not safe",
+  "Petal & Pup: 30% with code BF30 at checkout; ends Nov 29",
+  "Hudson Grace: says 20% off everything and 93% of the store is marked; they deliver",
+  "Parachute Home: 'up to 70% off' is scoped to archive and 'up to 40% off select styles'; bundle discounts are not in the catalog",
+  "Society Social: 20% sitewide with code EVERYTHING20; checkout discount",
+  "Jenni Kayne: 'up to 60% off' but only 24 of 1,168 products show any markdown in the catalog; sale prices likely applied elsewhere, cannot count",
+  "Marine Layer: claim is 25% off and 53% of the store is marked; modest claim",
+  "Social Threads: code at checkout (CYBER25 / BLACKFRIDAY30)",
+  "Favorite Daughter: claim is 25% off; modest, not an 'up to'",
+  "DL1961, Nisolo, Hommey, Harper Wilde, Brooklinen, Sterling Forever: sitewide discount taken at checkout, catalog can't show the true top number",
+  "Canopy: catalog full of subscriptions and test products; count not clean",
+  "Knix: 'up to 50% off everything' and 157 of 694 are at 50%+; about 1 in 4, not a sliver",
+  "M.M.LaFleur, Hanky Panky: top number covers 11-17% and the rest of the sale is deep; not fair to call out",
+  "Vicci Eyewear, Noble: also generous (98 of 148 at 70%+; 82 of 157 at 50%+) but less known than the two closers"
+ ],
+ "end_q": "which store should i count next?"
+}

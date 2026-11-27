@@ -1,0 +1,357 @@
+{
+ "slug": "denim-sales",
+ "hook": [
+  "denim sales this black friday",
+  "ranked by what's really marked down"
+ ],
+ "hook_say": "every jeans brand says black friday sale. i counted how many jeans are really 40% off or more, and at two of them the answer is zero.",
+ "sub": "i counted the in-stock jeans at 8 stores",
+ "brands": [
+  {
+   "brand": "Daze Denim",
+   "host": "dazedenim.com",
+   "claim": "black friday event, 25% off",
+   "stat": "38 of 87 jeans are 40% off or more",
+   "say": "daze says 25% off, but 38 of their 87 jeans are marked 40% off or more, and most of those are 65. the city straight leg is $41 from $118 with every waist size from 23 to 33. heads up, the marked-down ones are final sale.",
+   "bg": {
+    "handle": "cabana-wide-leg-pull-on-pant-charmed",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "city-straight-high-rise-straight-leg-1",
+     "img": 1
+    },
+    {
+     "handle": "madison-mid-rise-wide-leg-3",
+     "img": 1
+    },
+    {
+     "handle": "wanderer-mid-rise-palazzo-glimmer",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 87,
+    "ge40": 38,
+    "ge50": 37
+   },
+   "numbers_scope": "in-stock women's jeans only",
+   "store_numbers": {
+    "instock": 156,
+    "ge40": 81,
+    "ge50": 78,
+    "pct40": 52,
+    "pct50": 50
+   }
+  },
+  {
+   "brand": "alice + olivia",
+   "host": "aliceandolivia.com",
+   "claim": "black friday sale, 40% off and 60% off",
+   "stat": "45 of 130 jeans are 40% off or more",
+   "say": "alice and olivia has 45 of 130 jeans at 40 or 60% off. the stanley wide leg is $158 from $395 and every size from 24 to 32 is in. a lot of the others are embellished and still over $300, so look before you fall for one.",
+   "bg": {
+    "handle": "stanley-lr-cinch-buckle-ft-wide-leg-jean-brooklyn-blue",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "leslie-lr-cropped-bootcut-jean-brooklyn-blue",
+     "img": 0
+    },
+    {
+     "handle": "clayton-lr-roll-cuff-relaxed-cropped-jean-natural",
+     "img": 0
+    },
+    {
+     "handle": "amazing-jean-sierra-vintage-multi",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-11-28",
+   "numbers": {
+    "instock": 130,
+    "ge40": 45,
+    "ge50": 16
+   },
+   "numbers_scope": "in-stock women's jeans only",
+   "store_numbers": {
+    "instock": 1884,
+    "ge40": 687,
+    "ge50": 386,
+    "pct40": 36,
+    "pct50": 20
+   }
+  },
+  {
+   "brand": "Marcella",
+   "host": "marcellanyc.com",
+   "claim": "early black friday sale, 10 to 50% off",
+   "stat": "9 of 17 jeans are 40% off or more",
+   "say": "marcella only has 17 jeans in stock, and 9 of them are 40% off or more. the whitlock straight leg in off white is half off, $96, with the full size run. the mccarren wide leg at 60 off is already missing 24 to 26, 29 and 30.",
+   "bg": {
+    "handle": "linda-jeans",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "whitlock-jeans-off-white",
+     "img": 1
+    },
+    {
+     "handle": "christina-two-toned-jeans",
+     "img": 0
+    },
+    {
+     "handle": "rowan-jeans-long",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-03",
+   "numbers": {
+    "instock": 17,
+    "ge40": 9,
+    "ge50": 7
+   },
+   "numbers_scope": "in-stock women's jeans only",
+   "store_numbers": {
+    "instock": 1650,
+    "ge40": 615,
+    "ge50": 448,
+    "pct40": 37,
+    "pct50": 27
+   }
+  },
+  {
+   "brand": "AMO Denim",
+   "host": "amodenim.com",
+   "claim": "30% off sitewide",
+   "stat": "8 of 75 jeans are 40% off or more",
+   "say": "amo is 30% off sitewide, and only 8 of 75 jeans go to 40 or more. on those, sizes 26 to 28 are mostly gone. at 30 off, the christie crop barrel still has every size from 23 to 32.",
+   "bg": {
+    "handle": "georgia-crop-melt",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "christie-crop-stonefruit",
+     "img": 1
+    },
+    {
+     "handle": "maria-long-weekend",
+     "img": 1
+    },
+    {
+     "handle": "camryn-magnetic",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "",
+   "numbers": {
+    "instock": 75,
+    "ge40": 8,
+    "ge50": 4
+   },
+   "numbers_scope": "in-stock women's jeans only",
+   "store_numbers": {
+    "instock": 281,
+    "ge40": 48,
+    "ge50": 23,
+    "pct40": 17,
+    "pct50": 8
+   }
+  },
+  {
+   "brand": "DL1961",
+   "host": "dl1961.com",
+   "claim": "30% off sitewide, applied at checkout",
+   "stat": "0 of 153 women's jeans marked 40% off",
+   "say": "dl1961 is 30% off sitewide and it comes off at checkout. nothing in the women's jeans is marked 40. i'd use it on the taylor barrel or the hepburn wide leg, but size 29 is gone in both.",
+   "bg": {
+    "handle": "miro-barrel-high-rise-28-jeans-saltstone",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "taylor-relaxed-barrel-high-rise-31-river",
+     "img": 3
+    },
+    {
+     "handle": "hepburn-wide-leg-vintage-jet-black-13410",
+     "img": 1
+    },
+    {
+     "handle": "mara-straight-mid-rise-instasculpt-ankle-supergreens",
+     "img": 0
+    }
+   ],
+   "code": "THANKFUL30",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 153,
+    "ge40": 0,
+    "ge50": 0
+   },
+   "numbers_scope": "in-stock women's jeans only",
+   "store_numbers": {
+    "instock": 546,
+    "ge40": 0,
+    "ge50": 0,
+    "pct40": 0,
+    "pct50": 0
+   }
+  },
+  {
+   "brand": "Favorite Daughter",
+   "host": "shopfavoritedaughter.com",
+   "claim": "25% off full price & sale styles",
+   "stat": "0 of 73 jeans at 40% off, it's a flat 25",
+   "say": "favorite daughter is a flat 25% off, full price and sale. zero jeans at 40. the masha wide leg crop has every size from 23 to 34, so you don't have to rush.",
+   "bg": {
+    "handle": "the-valentina-super-high-rise-straight-golden",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "the-masha-super-high-rise-wide-leg-crop-cortez",
+     "img": 0
+    },
+    {
+     "handle": "the-mischa-super-high-rise-wideleg-ankle-navy",
+     "img": 0
+    },
+    {
+     "handle": "the-maurice-mid-rise-flare-reston",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 73,
+    "ge40": 0,
+    "ge50": 0
+   },
+   "numbers_scope": "in-stock women's jeans only",
+   "store_numbers": {
+    "instock": 1262,
+    "ge40": 2,
+    "ge50": 0,
+    "pct40": 0,
+    "pct50": 0
+   }
+  },
+  {
+   "brand": "Rails",
+   "host": "rails.com",
+   "claim": "30% off sale styles with code BFCM26",
+   "stat": "sale styles only, and you need the code",
+   "say": "rails is 30% off sale styles only, and you need the code. so check your wash is in the sale section before you get excited. the angeleno wide leg in pebble blue was tagged sale with every size from 23 to 32.",
+   "bg": {
+    "handle": "getty-wide-leg-east-coast",
+    "img": 2
+   },
+   "tiles": [
+    {
+     "handle": "angeleno-wide-leg-pebble-blue",
+     "img": 2
+    },
+    {
+     "handle": "getty-crop-utility-wide-leg-vintage-ecru-contrast-stitch",
+     "img": 1
+    },
+    {
+     "handle": "topanga-straight-baja-blue",
+     "img": 3
+    }
+   ],
+   "code": "BFCM26",
+   "ends": "2026-11-30",
+   "numbers": {
+    "instock": 116,
+    "ge40": 0,
+    "ge50": 0
+   },
+   "numbers_scope": "in-stock women's jeans; catalog shows no marked prices because the discount is by code, so ge40/ge50 are not a real count",
+   "store_numbers": {
+    "instock": 1801,
+    "ge40": 0,
+    "ge50": 0,
+    "pct40": 0,
+    "pct50": 0
+   }
+  },
+  {
+   "brand": "Pistola Denim",
+   "host": "pistoladenim.com",
+   "claim": "30% off sitewide",
+   "stat": "25 of 106 jeans are 40% off or more",
+   "say": "pistola is 30% off sitewide, and 25 of 106 jeans are 40% off or more. the cassie straight is half off, $94, with every size, and the lana wide leg is 40 off with every size too. the marked-down ones are final sale.",
+   "bg": {
+    "handle": "lexi-mid-rise-bowed-straight-17",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "cassie-super-high-rise-straight-savvy-vintage",
+     "img": 0
+    },
+    {
+     "handle": "lana-high-rise-ultra-wide-leg-3",
+     "img": 0
+    },
+    {
+     "handle": "sacha-high-rise-relaxed-barrel-nile",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-11-30",
+   "numbers": {
+    "instock": 106,
+    "ge40": 25,
+    "ge50": 20
+   },
+   "numbers_scope": "in-stock women's jeans only",
+   "store_numbers": {
+    "instock": 225,
+    "ge40": 65,
+    "ge50": 55,
+    "pct40": 29,
+    "pct50": 24
+   }
+  }
+ ],
+ "close_say": "so daze and pistola are where the real markdowns are, and the rest is 25 to 30 off. which fit are you buying this year, wide leg or barrel?",
+ "end_text": [
+  "real markdowns: daze, pistola",
+  "wide leg or barrel?"
+ ],
+ "caption": "I counted how many in-stock jeans are really 40% off or more at 8 denim sales this Black Friday. Daze and Pistola have the most, DL1961 and Favorite Daughter have none past their sitewide discount. Wide leg or barrel this year? Commissionable links in bio.",
+ "pinned_comment": "counts are in-stock jeans only, read from each store's catalog on nov 26-27. sizes move fast, so check yours before you plan around a price.",
+ "recheck": [
+  "Brand order follows the brief (strongest first, second strongest last), not a strict top-to-bottom ranking. By share of jeans at 40%+: Marcella 9/17, Daze 38/87, alice + olivia 45/130, Pistola 25/106, AMO 8/75, DL1961 0/153, Favorite Daughter 0/73. If she wants a literal ranking, reorder or soften the word 'ranked'.",
+  "alice + olivia: the sheet has 'Black Friday - Extra 30% Off' ending Nov 28 and a Cyber Monday sale Nov 30 to Dec 2. Confirm the 40%/60% sale jeans are still up on Nov 28. Their catalog also lists some jeans twice (58 of 130 listings have 1-2 photos), so read the count as listings.",
+  "Rails: catalog shows no marked prices. The only claim is the homepage line '30% off sale styles* with code BFCM26'. Tiles and the Angeleno pick were chosen by the store's own sale tags (salewomen-denim, RETAILBFCM), which I could not confirm on the live sale page. Open the sale section and confirm Angeleno Pebble Blue, Getty Crop Utility Vintage Ecru, Topanga Baja Blue and Getty East Coast are in it, or drop Rails.",
+  "DL1961: sheet lists code THANKFUL30 but the homepage says the 30% is applied automatically at checkout. Check which is true, and whether it stacks on the jeans already marked 25-30%.",
+  "AMO Denim: no end date in the sheet. Homepage says '30% off sitewide', sheet says 'New Markdowns 30-80% off'. Confirm it is still running Nov 28.",
+  "Marcella: claim is from the sheet ('Early Black Friday Sale', 10-50% off, to Dec 3); the homepage could not be read. The catalog shows some jeans at 60% off, more than the claim.",
+  "Daze: claim '25% off' is from the homepage ('Black Friday Event 25% off'); the 65% markdowns are tagged final sale. Confirm the City Straight in Double Dip is still $41.30 with all sizes.",
+  "Pistola: sheet end date is Nov 30. Marked-down jeans are tagged final sale.",
+  "Live homepages could not be re-read today (proxy blocked), so every claim is from the Nov 26-27 read.",
+  "Sizes were read Nov 26-27 and will have moved by Saturday. Recheck any size she says out loud."
+ ],
+ "dropped": [
+  "MONROW: no jeans in the catalog (sweats and tees)",
+  "Else: lingerie and swim, no denim",
+  "Elwood Clothing: 8 denim pants, none marked, reads as menswear/streetwear",
+  "Marine Layer: 14 women's jeans, only 1 at 40% off or more; too small a denim section for a 9th slot (Dakota barrel is 32% off with all sizes if a spare is needed)"
+ ],
+ "end_q": "wide leg or barrel?"
+}
