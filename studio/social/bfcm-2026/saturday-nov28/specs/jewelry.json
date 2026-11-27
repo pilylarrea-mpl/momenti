@@ -1,0 +1,591 @@
+{
+ "slug": "jewelry",
+ "label": "Earrings",
+ "noun": "earrings",
+ "threshold": 50,
+ "include": "earring|hoops?\\b|studs?\\b|huggie|ear cuff|ear jacket|threader|crawler",
+ "exclude": "case|box|holder|set of|charm|disney|star wars|halloween|easter|patrick|irish|spider|skeleton|skull|ghost|vampire|coffin|\\bbat\\b|gourd|monster|bloodlines|dead|devilish|costume|fatal|creeper|dagger|hottie|earring set - |mickey|birth flower",
+ "stores_total": 10,
+ "items_total": 216,
+ "per_store": {
+  "Sterling Forever": 94,
+  "Bryan Anthonys": 44,
+  "BaubleBar": 29,
+  "Loren Hope": 28,
+  "Heaven Mayhem": 11,
+  "THATCH": 3,
+  "Marcella": 2,
+  "Mademoiselle Jules": 2,
+  "Miranda Frye": 2,
+  "Ring Concierge": 1
+ },
+ "finding": "28 of the stores sell earrings, about 3,100 pairs; only 10 stores have any at 50% off, and 4 of them (Sterling Forever, Bryan Anthonys, BaubleBar, Loren Hope) hold 195 of the 216.",
+ "hook_lines": [
+  [
+   "3,100 earrings.",
+   false
+  ],
+  [
+   "Only 216",
+   true
+  ],
+  [
+   "are really half off.",
+   false
+  ]
+ ],
+ "keep_stores": [
+  "Heaven Mayhem",
+  "Loren Hope",
+  "THATCH",
+  "Miranda Frye",
+  "Sterling Forever"
+ ],
+ "candidates": [
+  {
+   "host": "heavenmayhem.com",
+   "handle": "bean-earrings-gold-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Bean Gold",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "plaza-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Plaza Black Velvet",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "gigi-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Gigi Pearl Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "haze-gold-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Haze Gold",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "bean-silver",
+   "brand": "Heaven Mayhem",
+   "name": "Bean Silver",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "alma-clip-on-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Alma Clip-Ons",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "archer-drop-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Archer Drops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "edith-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Edith Drops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "autumn-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Autumn Ribbed Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "archer-rectangle-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Archer Rectangles",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "tabi-gold-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Tabi Gold",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "adelle-earrings",
+   "brand": "Loren Hope",
+   "name": "Adelle Gold Hearts",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "evelina-earrings",
+   "brand": "Loren Hope",
+   "name": "Evelina Pearl Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "colette-earrings",
+   "brand": "Loren Hope",
+   "name": "Colette Knot Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "camille-amethyst-heart-studs",
+   "brand": "Loren Hope",
+   "name": "Camille Amethyst Hearts",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "puffy-star-earrings-in-silver",
+   "brand": "Loren Hope",
+   "name": "Puffy Star Silver",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "avena-drop-earrings",
+   "brand": "Loren Hope",
+   "name": "Avena Pearl Drops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "palermo-earrings",
+   "brand": "Loren Hope",
+   "name": "Palermo Scroll Drops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "shopthatch.com",
+   "handle": "athena-hoop-earrings",
+   "brand": "THATCH",
+   "name": "Athena Silver Hoops",
+   "imgs": [
+    0,
+    2
+   ]
+  },
+  {
+   "host": "shopthatch.com",
+   "handle": "alessia-hoop-earrings",
+   "brand": "THATCH",
+   "name": "Alessia Hoops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "shopthatch.com",
+   "handle": "thomas-ear-cuff-gold-demo",
+   "brand": "THATCH",
+   "name": "Thomas Earrings",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "mirandafrye.com",
+   "handle": "amour-earrings-gold",
+   "brand": "Miranda Frye",
+   "name": "Amour Hearts Gold",
+   "imgs": [
+    0,
+    3
+   ]
+  },
+  {
+   "host": "mirandafrye.com",
+   "handle": "amour-earrings-silver",
+   "brand": "Miranda Frye",
+   "name": "Amour Hearts Silver",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "sylvie-ripple-statement-studs",
+   "brand": "Sterling Forever",
+   "name": "Sylvie Ripple Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "corinne-twisted-polished-earrings",
+   "brand": "Sterling Forever",
+   "name": "Corinne Twisted Drops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "callie-cz-teardrop-polished-earring",
+   "brand": "Sterling Forever",
+   "name": "Callie CZ Teardrops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "vale-textured-stud-earrings",
+   "brand": "Sterling Forever",
+   "name": "Vale Textured Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "large-single-pearl-drop-studs",
+   "brand": "Sterling Forever",
+   "name": "Baroque Pearl Drops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "karla-molten-texture-huggies",
+   "brand": "Sterling Forever",
+   "name": "Karla Molten Huggies",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "french-horn-stud-earrings",
+   "brand": "Sterling Forever",
+   "name": "French Horn Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "baguette-hoop-earrings",
+   "brand": "Sterling Forever",
+   "name": "Baguette Hoops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "micki-pearl-drop-stud-earrings",
+   "brand": "Sterling Forever",
+   "name": "Micki Silver Hoops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "baublebar.com",
+   "handle": "18k-gold-cece-earrings-gold",
+   "brand": "BaubleBar",
+   "name": "18K Gold Cece Hoops",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "baublebar.com",
+   "handle": "natasha-earrings-clear-gold",
+   "brand": "BaubleBar",
+   "name": "18K Gold Gracie Pave",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "baublebar.com",
+   "handle": "marni-statement-shell-earrings-pearl",
+   "brand": "BaubleBar",
+   "name": "Marni Seashell Gold",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "baublebar.com",
+   "handle": "catching-sunshine-earrings",
+   "brand": "BaubleBar",
+   "name": "Catching Sunshine Studs",
+   "imgs": [
+    0,
+    1
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "host": "heavenmayhem.com",
+   "handle": "bean-earrings-gold-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Bean Gold",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 40.0,
+   "was": 100.0,
+   "off": 60,
+   "chip": "Final sale",
+   "say": "Heaven Mayhem's Bean earrings, forty dollars instead of a hundred. This is the pair I'd buy first.",
+   "why": "The brand calls these its alternative to an everyday hoop, and says they're light. 60% off.",
+   "for_who": "You wear gold every day and you're bored of hoops.",
+   "skip_if": "You need to return things. The whole Heaven Mayhem sale is final.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "sylvie-ripple-statement-studs",
+   "brand": "Sterling Forever",
+   "name": "Sylvie Ripple Studs",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 20.0,
+   "was": 50.0,
+   "off": 60,
+   "chip": "Gold and silver in stock",
+   "say": "Twenty dollars. Sterling Forever has 94 earrings half off and most are small sparkly ones you already own. This wavy one is the one I'd pick.",
+   "why": "14k gold plated brass, 1.2 inches long, post back. Was $50.",
+   "for_who": "You want the chunky gold look without paying for it.",
+   "skip_if": "You want solid metal. This is plated brass.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "shopthatch.com",
+   "handle": "athena-hoop-earrings",
+   "brand": "THATCH",
+   "name": "Athena Silver Hoops",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 50.0,
+   "was": 150.0,
+   "off": 67,
+   "chip": "In stock",
+   "say": "Sterling silver hoops for fifty dollars, down from one fifty. Real sterling, and the deepest cut on my list.",
+   "why": "Sterling silver, 1.5 inches long, 1 inch wide, 3 mm thick. 67% off.",
+   "for_who": "You wear silver and want one hoop that isn't round.",
+   "skip_if": "You want gold. This one only comes in silver.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "adelle-earrings",
+   "brand": "Loren Hope",
+   "name": "Adelle Gold Hearts",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 74.0,
+   "was": 148.0,
+   "off": 50,
+   "chip": "In stock",
+   "say": "These are big. Almost an inch and a half. Very eighties, and Loren Hope says so herself.",
+   "why": "18K gold plating over brass, surgical steel posts, 1.4 by 1.1 inches. Half off at $74.",
+   "for_who": "You wear your hair back and want the earring to be the outfit.",
+   "skip_if": "You like small earrings. These are not small.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "mirandafrye.com",
+   "handle": "amour-earrings-gold",
+   "brand": "Miranda Frye",
+   "name": "Amour Hearts Gold",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 58.0,
+   "was": 116.0,
+   "off": 50,
+   "chip": "In stock",
+   "say": "Another heart, but this one is cut out in the middle so it reads lighter on. Miranda Frye only has two earrings half off, and it's this one in gold and in silver.",
+   "why": "Half off, $58 from $116. The silver is the same price.",
+   "for_who": "You want a statement stud you can wear with a t-shirt.",
+   "skip_if": "You need the material spelled out. The listing doesn't say what metal it is.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "gigi-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Gigi Pearl Studs",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 36.0,
+   "was": 90.0,
+   "off": 60,
+   "chip": "Final sale",
+   "say": "Thirty-six dollars. They look like something from your grandmother's jewelry box, which is exactly what the brand was going for.",
+   "why": "Gold plated with a faux pearl. Heaven Mayhem calls it a best seller. 60% off.",
+   "for_who": "You want one pearl earring and don't want it to be dainty.",
+   "skip_if": "Faux pearl bothers you.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "evelina-earrings",
+   "brand": "Loren Hope",
+   "name": "Evelina Pearl Studs",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 99.0,
+   "was": 198.0,
+   "off": 50,
+   "chip": "In stock",
+   "say": "My splurge. Ninety-nine dollars, and to be clear it's an imitation pearl with cubic zirconia. You're paying for the design. I still think it's the prettiest thing in this whole list.",
+   "why": "Dark hematite finish over brass, imitation pearl, CZ halo, 1.5 inches across. Was $198.",
+   "for_who": "You have a holiday party and a black dress.",
+   "skip_if": "You won't pay $99 for costume jewelry. Fair.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "plaza-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Plaza Black Velvet",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 44.0,
+   "was": 110.0,
+   "off": 60,
+   "chip": "Final sale",
+   "say": "And my favorite. Black and gold squares, forty-four dollars, down from one ten. They look like they came from a vintage shop.",
+   "why": "60% off. One color, Black Velvet, and it's in stock.",
+   "for_who": "You wear a lot of black and want one pair that does the work.",
+   "skip_if": "You want something light and small. These are a statement.",
+   "live": "rechecked 2026-11-27 ok"
+  }
+ ],
+ "script": {
+  "open": "I read almost 400 Black Friday sales. 28 of those stores sell earrings, about 3,100 pairs, and only 216 are actually half off, with 4 stores holding almost all of them. These are my eight favorites.",
+  "close": "Most of the half-off earrings are clearance, so check the return policy before you buy. Which pair would you actually wear?",
+  "tease": "Necklaces next, where one store has more half-off pieces than the next two put together."
+ },
+ "hooks_alt": [
+  "BaubleBar has 80 earrings at half off. 51 of them are Halloween spiders and Disney.",
+  "Only 10 stores have earrings at half off this Black Friday, and most of it is clearance."
+ ],
+ "caption": "I went through about 3,100 earrings across 28 stores and only 216 are half off, mostly in four stores. These are the eight I'd buy, from $20 to $99. Which one is yours? Commissionable links in bio.",
+ "pinned_comment": "Heads up: all three Heaven Mayhem pairs are final sale, and a lot of the half-off earrings out there are closeouts. Prices checked Nov 27.",
+ "recheck": [
+  "Prices and stock for all 8 were rechecked live on Nov 27 and matched; check again the morning you post.",
+  "Heaven Mayhem homepage says all items are final sale. Loren Hope (Adelle, Evelina) and THATCH Athena carry a 'final sale' tag in the catalog data; confirm on the product pages before saying it out loud.",
+  "Every pick has a single size/color in stock except Sylvie (gold and silver). They can sell out fast.",
+  "The necklace tease is from a first-pass count at 50% (BaubleBar 103, Bryan Anthonys 67, Sterling Forever 45) that was not cleaned. Drop the tease or verify it.",
+  "'28 stores / about 3,100 earrings' counts stores with at least 5 in-stock earrings (3,091 pairs by title match, not hand-cleaned)."
+ ],
+ "dropped": [
+  "Scope: earrings only. Necklaces not curated.",
+  "BaubleBar: 80 earrings at 50%+, 51 removed as Disney, Star Wars, Halloween and holiday novelty; 29 kept in the count. None in the 8 picks, 4 in candidates.",
+  "Bryan Anthonys: 44 real closeouts (tags 'closeout style', 'lowest price') but the first photo of every item is a card covered in text. Counted, not picked.",
+  "Sterling Forever: 94 counted; about half are $20 warehouse-sale and final-sale pieces. Original prices match its full-price earrings, so not treated as a fake anchor. One pick only.",
+  "No store dropped as a fake anchor: in Sterling Forever, Bryan Anthonys, Loren Hope, BaubleBar and Heaven Mayhem the half-off earrings' original prices are in line with the stores' non-sale earrings. Loren Hope (94% of catalog marked) and Heaven Mayhem (98%) are sitewide Black Friday markdowns, mostly 30%.",
+  "EP Jewels, Jet Set Candy, Dana Rebecca Designs: earrings at 40 to 49% only, out at the 50% bar.",
+  "Earring charms, cases and sets of charms: removed by regex.",
+  "Loren Hope colored statement pieces (Violetta, Athens, Elena, Coralie): good photos but too seasonal or loud; left out of candidates."
+ ],
+ "opening": "ladder",
+ "take_sub": "I read almost 400 sales. $20 to $99.",
+ "tease_short": "necklaces"
+}

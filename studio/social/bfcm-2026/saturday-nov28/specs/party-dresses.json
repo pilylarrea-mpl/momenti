@@ -1,0 +1,553 @@
+{
+ "slug": "party-dresses",
+ "label": "Party dresses",
+ "noun": "party dresses",
+ "threshold": 50,
+ "include": "\\bdress\\b|gown",
+ "exclude": "night ?gown|nightgown|sleep|chemise|cover.?up|swim|bootie|sweater(?! dress)|cardigan|tunic|resort shirt|maternity|sweatshirt|active|sport|crosscourt|tank gown",
+ "stores_total": 8,
+ "items_total": 117,
+ "per_store": {
+  "Marcella": 45,
+  "Mac Duggal": 42,
+  "M.M.LaFleur": 11,
+  "alice + olivia": 7,
+  "ANEMOS": 5,
+  "bübish": 4,
+  "The Silk Road": 2,
+  "Alexandra Miro": 1
+ },
+ "finding": "266 dresses are 50% off across 18 stores, but only 117 of them are party dresses, in 8 stores, and 87 of those sit in just two: Marcella and Mac Duggal.",
+ "hook_lines": [
+  [
+   "A velvet gown",
+   false
+  ],
+  [
+   "for $64.",
+   true
+  ]
+ ],
+ "keep_stores": [
+  "Marcella",
+  "Mac Duggal",
+  "alice + olivia",
+  "M.M.LaFleur",
+  "bübish"
+ ],
+ "candidates": [
+  {
+   "host": "marcellanyc.com",
+   "handle": "liore-dress-red",
+   "brand": "Marcella",
+   "name": "Liore cutout dress, red",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "manhattan-velvet-slit-gown",
+   "brand": "Marcella",
+   "name": "Velvet one-sleeve gown",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "manhattan-metallic-one-shoulder-gown",
+   "brand": "Marcella",
+   "name": "Metallic one-sleeve gown",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "manhattan-slit-gown-red",
+   "brand": "Marcella",
+   "name": "One-sleeve slit gown, red",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "kathleen-dress",
+   "brand": "Marcella",
+   "name": "Kathleen velvet midi",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "cooper-metallic-dress",
+   "brand": "Marcella",
+   "name": "Cooper metallic dress",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "metro-strapless-dress-red",
+   "brand": "Marcella",
+   "name": "Metro strapless, red",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "cammi-dress",
+   "brand": "Marcella",
+   "name": "Cammi drop-waist dress",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "lilah-dress",
+   "brand": "Marcella",
+   "name": "Lilah strapless dress",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "49674",
+   "brand": "Mac Duggal",
+   "name": "Teal halter midi",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "11572",
+   "brand": "Mac Duggal",
+   "name": "Black bow mini",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "56144",
+   "brand": "Mac Duggal",
+   "name": "Black velvet slit gown",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "13003",
+   "brand": "Mac Duggal",
+   "name": "Black corset gown",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "21061",
+   "brand": "Mac Duggal",
+   "name": "Black bubble-hem midi",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "26588_emerald-green",
+   "brand": "Mac Duggal",
+   "name": "Emerald puff-sleeve gown",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "20931",
+   "brand": "Mac Duggal",
+   "name": "Green mini with flower",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "feather-cap-sleeve-pearl-embellished-tea-length-fit-dress",
+   "brand": "Mac Duggal",
+   "name": "Feather-sleeve midi",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "93831_nude",
+   "brand": "Mac Duggal",
+   "name": "Silver beaded column",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "5579",
+   "brand": "Mac Duggal",
+   "name": "Silver flounce-sleeve midi",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "delora-sequin-strapless-midi-dress-clear-skies",
+   "brand": "alice + olivia",
+   "name": "Fifi ombre sequin midi",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "renee-soft-v-nk-fitted-mini-dress-4",
+   "brand": "alice + olivia",
+   "name": "Renee black mini",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "nina-embell-scallop-mini-dress-pale-gold",
+   "brand": "alice + olivia",
+   "name": "Nina gold beaded mini",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "ambrie-embr-tie-strap-swthrt-godet-mini-dress-black",
+   "brand": "alice + olivia",
+   "name": "Ambrie black mini",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "mmlafleur.com",
+   "handle": "sippy-dark-fuchsia",
+   "brand": "M.M.LaFleur",
+   "name": "Silk charmeuse midi, fuchsia",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "mmlafleur.com",
+   "handle": "sippy-black",
+   "brand": "M.M.LaFleur",
+   "name": "Silk charmeuse midi, black",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "mmlafleur.com",
+   "handle": "lancia-deep-plum",
+   "brand": "M.M.LaFleur",
+   "name": "Lancia plum shift",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "mmlafleur.com",
+   "handle": "leoni-ember-red",
+   "brand": "M.M.LaFleur",
+   "name": "Leoni red tie-waist dress",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "mmlafleur.com",
+   "handle": "noa-black",
+   "brand": "M.M.LaFleur",
+   "name": "Noa vegan leather dress",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "talia-mini-dress-leopard",
+   "brand": "bübish",
+   "name": "Leopard halter mini",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "saskia-dress-caramel",
+   "brand": "bübish",
+   "name": "Saskia strapless mini",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "paige-cowl-neck-dress-silver",
+   "brand": "bübish",
+   "name": "Silver cowl-neck mini",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "tsrparis.com",
+   "handle": "kaya-polka-halter-dress",
+   "brand": "The Silk Road",
+   "name": "Polka halter maxi",
+   "imgs": [
+    0,
+    1
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "host": "marcellanyc.com",
+   "handle": "liore-dress-red",
+   "brand": "Marcella",
+   "name": "Liore cutout dress, red",
+   "imgs": [
+    1,
+    0
+   ],
+   "now": 71.0,
+   "was": 178.0,
+   "off": 60,
+   "chip": "XS to XL in stock",
+   "say": "Seventy-one dollars for a red dress with one shoulder and a cutout. It's ponte, so it's thick and it holds you in.",
+   "why": "Red, mid-stretch ponte, ankle length, back slit. $71 from $178.",
+   "for_who": "Office party or dinner where you want one clean red dress.",
+   "skip_if": "You want to wear a normal bra. The cutout won't allow it.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "11572",
+   "brand": "Mac Duggal",
+   "name": "Black bow mini",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 159.0,
+   "was": 348.0,
+   "off": 54,
+   "chip": "Final sale. 0 is gone",
+   "say": "Mac Duggal is prom-heavy, but this one is good. Ruched taffeta mini with a bow that drops to the floor.",
+   "why": "Fully lined taffeta, strapless, 35 inches long. $159 from $348.",
+   "for_who": "New Year's Eve. This is the going-out one.",
+   "skip_if": "You hate strapless, or you might return it. It's final sale.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "talia-mini-dress-leopard",
+   "brand": "bübish",
+   "name": "Leopard halter mini",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 129.0,
+   "was": 259.0,
+   "off": 50,
+   "chip": "XL is sold out",
+   "say": "If everyone else is in sequins, wear leopard. Halter neck, open back, half price.",
+   "why": "Lined, tie-up halter, hem is longer at the back. $129 from $259.",
+   "for_who": "Birthday dinners and parties that aren't formal.",
+   "skip_if": "You run cold. The back is open. It's also 100% polyester.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "mmlafleur.com",
+   "handle": "sippy-dark-fuchsia",
+   "brand": "M.M.LaFleur",
+   "name": "Silk charmeuse midi",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 135.0,
+   "was": 429.0,
+   "off": 69,
+   "chip": "XS is sold out",
+   "say": "This is the grown-up pick. Washable silk, was four twenty-nine, now one thirty-five.",
+   "why": "Washable silk charmeuse, V-neck, tie at the back, removable shoulder pads. 69% off.",
+   "for_who": "Work party, then again in spring with a blazer.",
+   "skip_if": "You want something tight or short. This one hangs loose.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "manhattan-metallic-one-shoulder-gown",
+   "brand": "Marcella",
+   "name": "Metallic one-sleeve gown",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 64.0,
+   "was": 159.0,
+   "off": 60,
+   "chip": "Stardust XS is sold out",
+   "say": "A floor-length metallic gown for sixty-four dollars. One sleeve, open back. People will ask where it's from.",
+   "why": "Stretch lurex, halter neck into one long sleeve. $64 from $159. Also comes in black.",
+   "for_who": "Winter wedding guest who wants a long dress under $100.",
+   "skip_if": "The wedding is conservative. The pale one reads almost white.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "49674",
+   "brand": "Mac Duggal",
+   "name": "Teal halter midi",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 198.0,
+   "was": 398.0,
+   "off": 50,
+   "chip": "Final sale. 4 and 12+ gone",
+   "say": "The color is the reason. Teal, high neck with a rosette, open back, and it's a midi so you can dance.",
+   "why": "Charmeuse, pleated bodice, about 50 inches long. $198 from $398.",
+   "for_who": "Winter wedding. It photographs well and it isn't black.",
+   "skip_if": "You're a 4, or a 12 and up. Those are gone. It's 100% polyester.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "delora-sequin-strapless-midi-dress-clear-skies",
+   "brand": "alice + olivia",
+   "name": "Fifi ombre sequin midi",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 278.0,
+   "was": 695.0,
+   "off": 60,
+   "chip": "Only size 6 is sold out",
+   "say": "My splurge. Blue-to-gold sequins, was six ninety-five, now two seventy-eight. Nobody else at the party will have it.",
+   "why": "Sequins on a mesh base, strapless, side slit. 60% off.",
+   "for_who": "New Year's Eve, if you want to be the one in the photos.",
+   "skip_if": "You want to blend in. And check returns first, it's tagged final sale.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "manhattan-velvet-slit-gown",
+   "brand": "Marcella",
+   "name": "Velvet one-sleeve gown",
+   "imgs": [
+    1,
+    2
+   ],
+   "now": 64.0,
+   "was": 159.0,
+   "off": 60,
+   "chip": "Black: XS to XXL in stock",
+   "say": "My favorite. Black velvet, one sleeve, a long slit, sixty-four dollars. This looks like it cost four hundred.",
+   "why": "Velvet jersey, column cut, one-shoulder neckline, long side slit. $64 from $159.",
+   "for_who": "Black tie on a budget. Also the easiest one to rewear.",
+   "skip_if": "You want the crimson. It's missing XS, S and XL.",
+   "live": "not rechecked"
+  }
+ ],
+ "script": {
+  "open": "I read almost 400 Black Friday sales. Only 8 stores have party dresses at 50% off, and 87 of the 117 dresses are in two of them. These are my eight favorites.",
+  "close": "That's the whole list. Which one are you wearing on New Year's Eve?",
+  "tease": "Party shoes and bags to go with them."
+ },
+ "hooks_alt": [
+  "266 dresses are half off this Black Friday. Fewer than half of them are something you could wear to a party.",
+  "Your holiday party dress is $64 right now, and it's velvet."
+ ],
+ "caption": "I went through almost 400 Black Friday sales to find party dresses that are really 50% off. Only 8 stores had any, and two of them hold most of the list. Which one would you wear? Commissionable links in bio.",
+ "pinned_comment": "Prices are from Nov 27 and sizes are going fast. The Mac Duggal and alice + olivia picks are final sale, so check your size before you buy.",
+ "recheck": [
+  "Marcella: live price check was refused. Open the 3 Marcella picks by hand and confirm $71 / $64 / $64 and the sizes.",
+  "alice + olivia: the sheet lists 'Black Friday - Extra 30% Off' for Nov 27-28, but the homepage only said 25% off. Check at checkout whether anything stacks on the Fifi dress ($278). If it does, the price in the video is too high.",
+  "alice + olivia Fifi dress is tagged FINAL SALE in the catalog. Confirm on the product page before saying it.",
+  "Mac Duggal: both picks are final sale, non-returnable (stated in the description).",
+  "Marcella has run sales all year (product tags show past 40-60% events), and nearly its whole catalog is marked down now. 'Was' prices are its list prices, not a rare deal.",
+  "The party/not-party split was my call from titles and photos. Day dresses, shirt dresses, nightgowns and resort prints are out.",
+  "M.M.LaFleur and bübish picks were rechecked live today and matched."
+ ],
+ "dropped": [
+  "DISSH, Odd Muse, Soleil Soleil, Antipodean Label, P.E Nation, Beyond Nine: not priced in US dollars",
+  "LAKE: nightgowns and cotton day dresses",
+  "Marine Layer, Marea, Pistola Denim, Organic Basics, Vitality, 437, Knix: casual or day dresses, nothing for a party",
+  "Alexandra Miro: resort prints and cover-ups; only the gold knit Dorian dress counted (final sale)",
+  "ANEMOS: 5 counted at 50% off, but photos are flat product shots, so none in candidates",
+  "alice + olivia: 30 dresses at 50%+, only 7 are party dresses; the rest are summer prints and eyelet",
+  "M.M.LaFleur: 49 dresses at 50%+, 11 counted; the rest are work and day dresses",
+  "Marcella: 15 cotton day, shift and rib-knit dresses not counted",
+  "Mac Duggal: 6 daytime floral minis not counted (all under 50% anyway)",
+  "Social Threads, Heiress Beverly Hills, Petal & Pup, Favorite Daughter: party dresses only at 40-49% off",
+  "Marcella Manhattan Slit Gown in red: S and L sold out, so it stayed a candidate only",
+  "Mac Duggal black velvet gown 56144: half the sizes gone, kept as candidate",
+  "440ME strapless dress, Cozyland (kids): bad photo / not women's"
+ ],
+ "opening": "take",
+ "hero": 7,
+ "take_sub": "117 party dresses are half off this week. 87 of them sit in two stores.",
+ "tease_short": "party shoes"
+}

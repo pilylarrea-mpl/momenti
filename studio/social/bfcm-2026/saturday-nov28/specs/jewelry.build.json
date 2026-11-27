@@ -1,0 +1,216 @@
+{
+ "marks": [
+  [
+   "hook",
+   0
+  ],
+  [
+   "pick1",
+   3.2
+  ],
+  [
+   "pick2",
+   5.87
+  ],
+  [
+   "pick3",
+   8.53
+  ],
+  [
+   "pick4",
+   11.2
+  ],
+  [
+   "pick5",
+   13.87
+  ],
+  [
+   "pick6",
+   16.53
+  ],
+  [
+   "pick7",
+   19.2
+  ],
+  [
+   "pick8",
+   21.87
+  ],
+  [
+   "end",
+   24.53
+  ]
+ ],
+ "duration": 27.13,
+ "notes": [],
+ "picks": [
+  {
+   "host": "heavenmayhem.com",
+   "handle": "bean-earrings-gold-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Bean Gold",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 40.0,
+   "was": 100.0,
+   "off": 60,
+   "chip": "Final sale",
+   "say": "Heaven Mayhem's Bean earrings, forty dollars instead of a hundred. This is the pair I'd buy first.",
+   "why": "The brand calls these its alternative to an everyday hoop, and says they're light. 60% off.",
+   "for_who": "You wear gold every day and you're bored of hoops.",
+   "skip_if": "You need to return things. The whole Heaven Mayhem sale is final.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "sterlingforever.com",
+   "handle": "sylvie-ripple-statement-studs",
+   "brand": "Sterling Forever",
+   "name": "Sylvie Ripple Studs",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 20.0,
+   "was": 50.0,
+   "off": 60,
+   "chip": "Gold and silver in stock",
+   "say": "Twenty dollars. Sterling Forever has 94 earrings half off and most are small sparkly ones you already own. This wavy one is the one I'd pick.",
+   "why": "14k gold plated brass, 1.2 inches long, post back. Was $50.",
+   "for_who": "You want the chunky gold look without paying for it.",
+   "skip_if": "You want solid metal. This is plated brass.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 2,
+   "n": 2
+  },
+  {
+   "host": "shopthatch.com",
+   "handle": "athena-hoop-earrings",
+   "brand": "THATCH",
+   "name": "Athena Silver Hoops",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 50.0,
+   "was": 150.0,
+   "off": 67,
+   "chip": "In stock",
+   "say": "Sterling silver hoops for fifty dollars, down from one fifty. Real sterling, and the deepest cut on my list.",
+   "why": "Sterling silver, 1.5 inches long, 1 inch wide, 3 mm thick. 67% off.",
+   "for_who": "You wear silver and want one hoop that isn't round.",
+   "skip_if": "You want gold. This one only comes in silver.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "adelle-earrings",
+   "brand": "Loren Hope",
+   "name": "Adelle Gold Hearts",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 74.0,
+   "was": 148.0,
+   "off": 50,
+   "chip": "In stock",
+   "say": "These are big. Almost an inch and a half. Very eighties, and Loren Hope says so herself.",
+   "why": "18K gold plating over brass, surgical steel posts, 1.4 by 1.1 inches. Half off at $74.",
+   "for_who": "You wear your hair back and want the earring to be the outfit.",
+   "skip_if": "You like small earrings. These are not small.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "mirandafrye.com",
+   "handle": "amour-earrings-gold",
+   "brand": "Miranda Frye",
+   "name": "Amour Hearts Gold",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 58.0,
+   "was": 116.0,
+   "off": 50,
+   "chip": "In stock",
+   "say": "Another heart, but this one is cut out in the middle so it reads lighter on. Miranda Frye only has two earrings half off, and it's this one in gold and in silver.",
+   "why": "Half off, $58 from $116. The silver is the same price.",
+   "for_who": "You want a statement stud you can wear with a t-shirt.",
+   "skip_if": "You need the material spelled out. The listing doesn't say what metal it is.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "gigi-statement-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Gigi Pearl Studs",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 36.0,
+   "was": 90.0,
+   "off": 60,
+   "chip": "Final sale",
+   "say": "Thirty-six dollars. They look like something from your grandmother's jewelry box, which is exactly what the brand was going for.",
+   "why": "Gold plated with a faux pearl. Heaven Mayhem calls it a best seller. 60% off.",
+   "for_who": "You want one pearl earring and don't want it to be dainty.",
+   "skip_if": "Faux pearl bothers you.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "lorenhope.com",
+   "handle": "evelina-earrings",
+   "brand": "Loren Hope",
+   "name": "Evelina Pearl Studs",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 99.0,
+   "was": 198.0,
+   "off": 50,
+   "chip": "In stock",
+   "say": "My splurge. Ninety-nine dollars, and to be clear it's an imitation pearl with cubic zirconia. You're paying for the design. I still think it's the prettiest thing in this whole list.",
+   "why": "Dark hematite finish over brass, imitation pearl, CZ halo, 1.5 inches across. Was $198.",
+   "for_who": "You have a holiday party and a black dress.",
+   "skip_if": "You won't pay $99 for costume jewelry. Fair.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "heavenmayhem.com",
+   "handle": "plaza-earrings",
+   "brand": "Heaven Mayhem",
+   "name": "Plaza Black Velvet",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 44.0,
+   "was": 110.0,
+   "off": 60,
+   "chip": "Final sale",
+   "say": "And my favorite. Black and gold squares, forty-four dollars, down from one ten. They look like they came from a vintage shop.",
+   "why": "60% off. One color, Black Velvet, and it's in stock.",
+   "for_who": "You wear a lot of black and want one pair that does the work.",
+   "skip_if": "You want something light and small. These are a statement.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  }
+ ]
+}

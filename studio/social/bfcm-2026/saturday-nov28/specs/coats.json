@@ -1,0 +1,579 @@
+{
+ "slug": "coats",
+ "label": "Coats",
+ "noun": "coats and jackets",
+ "threshold": 40,
+ "include": "\\bcoat\\b|trench|puffer|parka|anorak|\\bjacket\\b|bomber",
+ "exclude": "rain|dog|pet|cover|blazer(?! coat)|earring|vest|fanny|track|active|zip|cardigan|knit|fitted jacket|samuelle|daydream|cloud ii|grid jacket|nomad",
+ "stores_total": 8,
+ "items_total": 48,
+ "per_store": {
+  "Marcella": 11,
+  "Vitality": 3,
+  "AMO Denim": 3,
+  "bübish": 4,
+  "MONROW": 3,
+  "alice + olivia": 16,
+  "Marine Layer": 7,
+  "Pistola Denim": 1
+ },
+ "finding": "Only 8 stores have real coats or jackets at 40% off or more, 48 pieces in total, and once you take out the denim and cropped jackets only 18 are actual coats, in 5 stores.",
+ "hook_lines": [
+  [
+   "Only 5 stores",
+   true
+  ],
+  [
+   "have a real coat",
+   false
+  ],
+  [
+   "40% off.",
+   false
+  ]
+ ],
+ "keep_stores": [
+  "bübish",
+  "Marcella",
+  "Marine Layer",
+  "AMO Denim",
+  "alice + olivia"
+ ],
+ "candidates": [
+  {
+   "host": "marcellanyc.com",
+   "handle": "maren-coat-burgundy-red",
+   "brand": "Marcella",
+   "name": "Maren Wool Coat, Burgundy",
+   "imgs": [
+    0,
+    3
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "maren-coat-black",
+   "brand": "Marcella",
+   "name": "Maren Wool Coat, Black",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "maren-coat-charcoal-grey",
+   "brand": "Marcella",
+   "name": "Maren Wool Coat, Charcoal",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "kyoto-wool-jacket-medium-grey",
+   "brand": "Marcella",
+   "name": "Kyoto Wool Jacket, Grey",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "jess-hooded-puffer-black",
+   "brand": "Marcella",
+   "name": "Jess Hooded Puffer",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "bronte-puffer-coat-fog-grey",
+   "brand": "Marcella",
+   "name": "Bronte Puffer Coat",
+   "imgs": [
+    0,
+    2
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "crosstown-trench-black",
+   "brand": "Marcella",
+   "name": "Crosstown Trench, Black",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "crosstown-trench-khaki",
+   "brand": "Marcella",
+   "name": "Crosstown Trench, Khaki",
+   "imgs": [
+    1,
+    3
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "henry-coat",
+   "brand": "Marcella",
+   "name": "Henry Wool Coat",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "rockland-oversized-denim-jacket",
+   "brand": "Marcella",
+   "name": "Rockland Denim Jacket",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "shopvitality.com",
+   "handle": "vitality-convertible-puffer-oat",
+   "brand": "Vitality",
+   "name": "Convertible Puffer, Oat",
+   "imgs": [
+    0,
+    2
+   ]
+  },
+  {
+   "host": "shopvitality.com",
+   "handle": "vitality-convertible-puffer-matcha",
+   "brand": "Vitality",
+   "name": "Convertible Puffer, Matcha",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "shopvitality.com",
+   "handle": "vitality-convertible-puffer-pearl",
+   "brand": "Vitality",
+   "name": "Convertible Puffer, Pearl",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "amodenim.com",
+   "handle": "betty-cord-shearling-jacket-cumin",
+   "brand": "AMO Denim",
+   "name": "Betty Cord Shearling Jacket",
+   "imgs": [
+    0,
+    3
+   ]
+  },
+  {
+   "host": "amodenim.com",
+   "handle": "isabelle-jacket-cocoa",
+   "brand": "AMO Denim",
+   "name": "Isabelle Jacket, Cocoa",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "amodenim.com",
+   "handle": "zoe-jacket-tawny",
+   "brand": "AMO Denim",
+   "name": "Zoe Jacket, Tawny",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "dillon-trench-coat-chocolate",
+   "brand": "bübish",
+   "name": "Dillon Trench, Chocolate",
+   "imgs": [
+    0,
+    3
+   ]
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "martina-jacket-leopard",
+   "brand": "bübish",
+   "name": "Martina Leopard Jacket",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "charlee-blazer-coat-taupe-grey",
+   "brand": "bübish",
+   "name": "Charlee Long Coat, Taupe",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "mason-boucle-bomber-jacket-chocolate",
+   "brand": "bübish",
+   "name": "Mason Boucle Bomber",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "monrow.com",
+   "handle": "sherpa-trucker-jacket",
+   "brand": "MONROW",
+   "name": "Sherpa Trucker Jacket",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "monrow.com",
+   "handle": "sherpa-hooded-jacket",
+   "brand": "MONROW",
+   "name": "Sherpa Hooded Coat",
+   "imgs": [
+    1,
+    0
+   ]
+  },
+  {
+   "host": "monrow.com",
+   "handle": "mini-corduroy-bomber-jacket",
+   "brand": "MONROW",
+   "name": "Mini Corduroy Bomber",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marinelayer.com",
+   "handle": "hayes-denim-trench-coat",
+   "brand": "Marine Layer",
+   "name": "Hayes Denim Trench",
+   "imgs": [
+    0,
+    2
+   ]
+  },
+  {
+   "host": "marinelayer.com",
+   "handle": "marina-quilted-liner-jacket",
+   "brand": "Marine Layer",
+   "name": "Marina Quilted Liner",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marinelayer.com",
+   "handle": "sloane-boucle-crop-jacket",
+   "brand": "Marine Layer",
+   "name": "Sloane Boucle Crop Jacket",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marinelayer.com",
+   "handle": "colette-wool-drape-coat-1",
+   "brand": "Marine Layer",
+   "name": "Nina Wool Cape Coat",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marinelayer.com",
+   "handle": "molly-oversized-shirt-jacket-1",
+   "brand": "Marine Layer",
+   "name": "Molly Shirt Jacket",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "pistoladenim.com",
+   "handle": "karlee-chore-jacket",
+   "brand": "Pistola Denim",
+   "name": "Karlee Chore Jacket",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "drew-oversized-wool-trench-coat-hibiscus",
+   "brand": "alice + olivia",
+   "name": "Drew Maxi Coat, Hibiscus",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "lana-suede-puffed-slv-jacket-tan",
+   "brand": "alice + olivia",
+   "name": "Lana Suede Jacket, Tan",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "jesse-oversized-denim-trucker-jacket-natural",
+   "brand": "alice + olivia",
+   "name": "Jesse Denim Trucker, Natural",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "chloe-denim-jacket-off-white",
+   "brand": "alice + olivia",
+   "name": "Chloe Denim Jacket, White",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "kidman-floral-laser-cut-leather-jacket-off-white",
+   "brand": "alice + olivia",
+   "name": "Kidman Leather Jacket",
+   "imgs": [
+    0,
+    1
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "host": "bubishluxe.us",
+   "handle": "dillon-trench-coat-chocolate",
+   "brand": "bübish",
+   "name": "Dillon Trench Coat",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 99.0,
+   "was": 389.0,
+   "off": 75,
+   "chip": "Final sale. S and XL gone",
+   "say": "This trench was 389 dollars and it is 99. Seventy five percent off. It is final sale and two sizes are already gone, so know your size.",
+   "why": "Biggest markdown on a real coat in everything I read. Belted, double-breasted, chocolate brown.",
+   "for_who": "Someone who wants a long trench under $100 and is sure of her size.",
+   "skip_if": "You need returns, or you want a cotton trench. This one is 96% polyester.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "shopvitality.com",
+   "handle": "vitality-convertible-puffer-oat",
+   "brand": "Vitality",
+   "name": "Convertible Puffer, Oat",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 68.0,
+   "was": 170.0,
+   "off": 60,
+   "chip": "Every size in stock",
+   "say": "The cheapest coat on my list. 68 dollars, and every size from 2XS to 4XL is still there. The photos show it worn as a vest too.",
+   "why": "Cheapest real outerwear at 40% off or more, and the only pick with a full size run from 2XS to 4XL.",
+   "for_who": "Gym-to-errands dressing, and sizes most of these stores do not carry.",
+   "skip_if": "You want a long warm coat. It is cropped, and the store says little about the fill.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "marinelayer.com",
+   "handle": "hayes-denim-trench-coat",
+   "brand": "Marine Layer",
+   "name": "Hayes Denim Trench",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 114.0,
+   "was": 228.0,
+   "off": 50,
+   "chip": "Every size in stock",
+   "say": "A denim trench at half off. 114 dollars. I think this is the one coat here you can wear in spring too.",
+   "why": "Half off, all five sizes in stock, and a shape you do not see in every store.",
+   "for_who": "Mild winters. Works over a dress or with white jeans.",
+   "skip_if": "You need actual warmth. It is denim.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "amodenim.com",
+   "handle": "betty-cord-shearling-jacket-cumin",
+   "brand": "AMO Denim",
+   "name": "Betty Shearling Jacket",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 250.0,
+   "was": 416.0,
+   "off": 40,
+   "chip": "Every size in stock",
+   "say": "Corduroy with shearling lining and little wooden toggles. 250, down from 416. Not cheap, but look at the back of it.",
+   "why": "The body is fully shearling-lined and the sleeves are quilted, per the store. The back seaming is the best detail.",
+   "for_who": "Jeans and a white tee, every day until March.",
+   "skip_if": "You want room for a thick sweater. The store calls the fit shrunken, with slim sleeves.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "martina-jacket-leopard",
+   "brand": "bübish",
+   "name": "Martina Leopard Jacket",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 149.0,
+   "was": 299.0,
+   "off": 50,
+   "chip": "Every size in stock",
+   "say": "Hot take. One leopard jacket does more for your closet than a third black coat. This one is half wool and it is 149.",
+   "why": "50% wool, fully lined, half off, every size left.",
+   "for_who": "Anyone bored of her black coat.",
+   "skip_if": "You are petite and hate volume. The collar is big and the shoulders drop.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "bronte-puffer-coat-fog-grey",
+   "brand": "Marcella",
+   "name": "Bronte Puffer Coat",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 198.0,
+   "was": 395.0,
+   "off": 50,
+   "chip": "XL and XXL sold out",
+   "say": "A puffer that does not look like a sleeping bag. That collar. Half off, 198. The store says to size down.",
+   "why": "The collar makes it. Half off, and the store says it is made in Europe.",
+   "for_who": "Someone who wants a puffer she can wear to dinner.",
+   "skip_if": "You need XL or XXL, those are gone. Or you want a hood.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "drew-oversized-wool-trench-coat-hibiscus",
+   "brand": "alice + olivia",
+   "name": "Drew Maxi Coat, Hibiscus",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 717.0,
+   "was": 1195.0,
+   "off": 40,
+   "chip": "XS is sold out",
+   "say": "My splurge. A red maxi coat in a merino wool blend. It was 1,195 and it is 717. Still a lot. But this is the coat people will ask you about.",
+   "why": "The only long red wool-blend coat in the whole list. 40% off saves $478.",
+   "for_who": "A holiday party coat you wear over everything.",
+   "skip_if": "$717 hurts, or you want a coat that blends in.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "maren-coat-burgundy-red",
+   "brand": "Marcella",
+   "name": "Maren Wool Coat, Burgundy",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 239.0,
+   "was": 399.0,
+   "off": 40,
+   "chip": "XS to L in stock",
+   "say": "My favorite. 100 percent Italian virgin wool, fully lined, 239 dollars. Read the fabric tags on coats at this price. Most of them are polyester.",
+   "why": "100% Italian virgin wool with a viscose lining at $239. Diagonal zip and a high wrap collar.",
+   "for_who": "Cold cities. Someone who checks fabric labels.",
+   "skip_if": "You want a classic straight hem. This one is asymmetric and dry clean only.",
+   "live": "not rechecked"
+  }
+ ],
+ "script": {
+  "open": "I read almost 400 Black Friday sales. Only 8 stores have coats or jackets at 40 percent off, and only 5 of them have an actual coat. Here are my eight favorites.",
+  "close": "That is every coat worth buying out of almost 400 sales. Which one would you actually wear?",
+  "tease": "Blazers. I kept them out of this one on purpose, and there are a lot of them."
+ },
+ "hooks_alt": [
+  "Everyone says coats are on sale this week. I checked almost 400 sales and found 18 real coats at 40 percent off.",
+  "This trench was 389 dollars. It is 99 right now, and almost nobody is talking about it."
+ ],
+ "caption": "I read almost 400 Black Friday sales and only 8 stores had coats or jackets at 40% off or more. These are the eight I would buy, from $68 to $717. Which one is yours? Commissionable links in bio.",
+ "pinned_comment": "How I counted: women's coats, trenches, puffers and real jackets, at 40% off or more of their own original price, with at least half the sizes in stock. 48 pieces in 8 stores. Blazers and gym zip-ups not included. Prices read Nov 26-27.",
+ "recheck": [
+  "None of the 8 was rechecked live today (the price check was blocked in this session, and Marcella refuses it anyway). Open all 8 pages and confirm price and sizes before posting.",
+  "bübish Dillon Trench: final sale, only XS, M, L were in stock. It can sell out fast; have Charlee Long Coat ($99, was $399, final sale, XS to L) ready as the swap.",
+  "bübish is an Australian brand. Prices on bubishluxe.us are in USD per the catalog, but check where it ships from and how long delivery takes.",
+  "Vitality puffer: the store gives no fill or fabric details. Do not say 'down'. The vest photo suggests zip-off sleeves; confirm on the page before saying it.",
+  "AMO Betty: store says 'shearling'. It does not say real or faux. Do not claim either. Tagged final sale.",
+  "Marine Layer Hayes: tagged final sale / last call in the catalog. Say it only if the page says it.",
+  "alice + olivia: homepage says 25% off Black Friday sale; the 40% is the catalog markdown. Check if anything extra applies at checkout.",
+  "Marcella Maren: the 40% is the catalog price ($239 vs $399). Confirm no code is needed."
+ ],
+ "dropped": [
+  "Blazers (28 at 40%+ in US-dollar stores): left out on purpose, they are their own video",
+  "M.M.LaFleur (18): every 'jacket' is a suit jacket or blazer, not outerwear",
+  "Organic Basics (21): all track jackets and zip-ups, several of them men's",
+  "Vitality (13 of 16): gym zip-ups; kept only the 3 puffers",
+  "P.E Nation (40), DISSH, With Consideration: priced in A$",
+  "Odd Muse (22), Beyond Nine (4): priced in £",
+  "Sisterly Tribe: activewear zip jacket, and prices (999, 699) do not look like USD",
+  "Sterling Forever: 'jacket earrings'. Knix, Softies: activewear and loungewear jackets",
+  "Marcella Rockland Denim Jacket: one product listed under 3 handles, counted once",
+  "Marcella Nomad and Samuelle: a hoodie and a sweatshirt jacket",
+  "MONROW Sherpa Soft Knit Jacket (2), vest, cardigan: fleece zip-ups, not coats",
+  "alice + olivia sheer organza trenches (2): counted because they are sold as trenches, but not picked. You can see through them",
+  "Marcella Crosstown Trench khaki: good, but M and XL are sold out and the list already had two trenches",
+  "Marine Layer Rowan Anorak: neon pink windbreaker, not picked"
+ ],
+ "opening": "cold",
+ "hero": 0,
+ "items_total_note": 48,
+ "tease_short": "blazers"
+}

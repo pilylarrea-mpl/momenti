@@ -1,0 +1,232 @@
+{
+ "marks": [
+  [
+   "hero",
+   0
+  ],
+  [
+   "claim",
+   2.2
+  ],
+  [
+   "all",
+   5.0
+  ],
+  [
+   "favorites",
+   6.6
+  ],
+  [
+   "pick1",
+   7.9
+  ],
+  [
+   "pick2",
+   10.57
+  ],
+  [
+   "pick3",
+   13.23
+  ],
+  [
+   "pick4",
+   15.9
+  ],
+  [
+   "pick5",
+   18.57
+  ],
+  [
+   "pick6",
+   21.23
+  ],
+  [
+   "pick7",
+   23.9
+  ],
+  [
+   "pick8",
+   26.57
+  ],
+  [
+   "end",
+   29.23
+  ]
+ ],
+ "duration": 31.83,
+ "notes": [
+  "Vitality Convertible Puffer, Oat: live check refused, price from catalog",
+  "Marcella Bronte Puffer Coat: live check refused, price from catalog",
+  "Marcella Maren Wool Coat, Burgundy: live check refused, price from catalog"
+ ],
+ "picks": [
+  {
+   "host": "bubishluxe.us",
+   "handle": "dillon-trench-coat-chocolate",
+   "brand": "b\u00fcbish",
+   "name": "Dillon Trench Coat",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 99.0,
+   "was": 389.0,
+   "off": 75,
+   "chip": "Final sale. S and XL gone",
+   "say": "This trench was 389 dollars and it is 99. Seventy five percent off. It is final sale and two sizes are already gone, so know your size.",
+   "why": "Biggest markdown on a real coat in everything I read. Belted, double-breasted, chocolate brown.",
+   "for_who": "Someone who wants a long trench under $100 and is sure of her size.",
+   "skip_if": "You need returns, or you want a cotton trench. This one is 96% polyester.",
+   "live": "not rechecked",
+   "av": 2,
+   "n": 5
+  },
+  {
+   "host": "shopvitality.com",
+   "handle": "vitality-convertible-puffer-oat",
+   "brand": "Vitality",
+   "name": "Convertible Puffer, Oat",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 68.0,
+   "was": 170.0,
+   "off": 60,
+   "chip": "Every size in stock",
+   "say": "The cheapest coat on my list. 68 dollars, and every size from 2XS to 4XL is still there. The photos show it worn as a vest too.",
+   "why": "Cheapest real outerwear at 40% off or more, and the only pick with a full size run from 2XS to 4XL.",
+   "for_who": "Gym-to-errands dressing, and sizes most of these stores do not carry.",
+   "skip_if": "You want a long warm coat. It is cropped, and the store says little about the fill.",
+   "live": "not rechecked",
+   "av": 9,
+   "n": 9
+  },
+  {
+   "host": "marinelayer.com",
+   "handle": "hayes-denim-trench-coat",
+   "brand": "Marine Layer",
+   "name": "Hayes Denim Trench",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 114.0,
+   "was": 228.0,
+   "off": 50,
+   "chip": "Every size in stock",
+   "say": "A denim trench at half off. 114 dollars. I think this is the one coat here you can wear in spring too.",
+   "why": "Half off, all five sizes in stock, and a shape you do not see in every store.",
+   "for_who": "Mild winters. Works over a dress or with white jeans.",
+   "skip_if": "You need actual warmth. It is denim.",
+   "live": "not rechecked",
+   "av": 5,
+   "n": 5
+  },
+  {
+   "host": "amodenim.com",
+   "handle": "betty-cord-shearling-jacket-cumin",
+   "brand": "AMO Denim",
+   "name": "Betty Shearling Jacket",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 250.0,
+   "was": 416.0,
+   "off": 40,
+   "chip": "Every size in stock",
+   "say": "Corduroy with shearling lining and little wooden toggles. 250, down from 416. Not cheap, but look at the back of it.",
+   "why": "The body is fully shearling-lined and the sleeves are quilted, per the store. The back seaming is the best detail.",
+   "for_who": "Jeans and a white tee, every day until March.",
+   "skip_if": "You want room for a thick sweater. The store calls the fit shrunken, with slim sleeves.",
+   "live": "not rechecked",
+   "av": 4,
+   "n": 4
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "martina-jacket-leopard",
+   "brand": "b\u00fcbish",
+   "name": "Martina Leopard Jacket",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 149.0,
+   "was": 299.0,
+   "off": 50,
+   "chip": "Every size in stock",
+   "say": "Hot take. One leopard jacket does more for your closet than a third black coat. This one is half wool and it is 149.",
+   "why": "50% wool, fully lined, half off, every size left.",
+   "for_who": "Anyone bored of her black coat.",
+   "skip_if": "You are petite and hate volume. The collar is big and the shoulders drop.",
+   "live": "not rechecked",
+   "av": 5,
+   "n": 5
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "bronte-puffer-coat-fog-grey",
+   "brand": "Marcella",
+   "name": "Bronte Puffer Coat",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 198.0,
+   "was": 395.0,
+   "off": 50,
+   "chip": "XL and XXL sold out",
+   "say": "A puffer that does not look like a sleeping bag. That collar. Half off, 198. The store says to size down.",
+   "why": "The collar makes it. Half off, and the store says it is made in Europe.",
+   "for_who": "Someone who wants a puffer she can wear to dinner.",
+   "skip_if": "You need XL or XXL, those are gone. Or you want a hood.",
+   "live": "not rechecked",
+   "av": 4,
+   "n": 6
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "drew-oversized-wool-trench-coat-hibiscus",
+   "brand": "alice + olivia",
+   "name": "Drew Maxi Coat, Hibiscus",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 717.0,
+   "was": 1195.0,
+   "off": 40,
+   "chip": "XS is sold out",
+   "say": "My splurge. A red maxi coat in a merino wool blend. It was 1,195 and it is 717. Still a lot. But this is the coat people will ask you about.",
+   "why": "The only long red wool-blend coat in the whole list. 40% off saves $478.",
+   "for_who": "A holiday party coat you wear over everything.",
+   "skip_if": "$717 hurts, or you want a coat that blends in.",
+   "live": "not rechecked",
+   "av": 4,
+   "n": 5
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "maren-coat-burgundy-red",
+   "brand": "Marcella",
+   "name": "Maren Wool Coat, Burgundy",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 239.0,
+   "was": 399.0,
+   "off": 40,
+   "chip": "XS to L in stock",
+   "say": "My favorite. 100 percent Italian virgin wool, fully lined, 239 dollars. Read the fabric tags on coats at this price. Most of them are polyester.",
+   "why": "100% Italian virgin wool with a viscose lining at $239. Diagonal zip and a high wrap collar.",
+   "for_who": "Cold cities. Someone who checks fabric labels.",
+   "skip_if": "You want a classic straight hem. This one is asymmetric and dry clean only.",
+   "live": "not rechecked",
+   "av": 4,
+   "n": 4
+  }
+ ]
+}

@@ -1,0 +1,562 @@
+{
+ "slug": "bags",
+ "label": "Bags",
+ "noun": "bags",
+ "threshold": 40,
+ "include": "\\bbag\\b|tote|clutch|crossbody|purse|satchel",
+ "exclude": "dust bag|garment|laundry|sleeping|gift bag|bag charm|lunch|towelling|terry|pouch|travel bag",
+ "stores_total": 8,
+ "items_total": 62,
+ "per_store": {
+  "AUREUM": 16,
+  "Freja": 15,
+  "FRĒDA SALVADOR": 11,
+  "Marcella": 9,
+  "Mac Duggal": 4,
+  "Omika": 4,
+  "Petal & Pup": 2,
+  "Nisolo": 1
+ },
+ "leather_items": 32,
+ "leather_stores": 5,
+ "leather_per_store": {
+  "Marcella": 8,
+  "Nisolo": 1,
+  "AUREUM": 14,
+  "FRĒDA SALVADOR": 5,
+  "Mac Duggal": 4
+ },
+ "leather_at_or_under_200": 14,
+ "finding": "62 bags are 40% off across 8 stores, but only 5 of those stores have one whose listing says real leather: 32 bags, and 14 of them cost $200 or less.",
+ "hook_lines": [
+  [
+   "Only 5 stores",
+   true
+  ],
+  [
+   "have a leather bag",
+   false
+  ],
+  [
+   "40% off.",
+   false
+  ]
+ ],
+ "keep_stores": [
+  "Marcella",
+  "Freja",
+  "FRĒDA SALVADOR",
+  "AUREUM",
+  "Mac Duggal"
+ ],
+ "candidates": [
+  {
+   "host": "marcellanyc.com",
+   "handle": "allison-leather-top-handle-purse",
+   "brand": "Marcella",
+   "name": "Allison Top Handle Purse",
+   "imgs": [
+    1,
+    0
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "jenna-purse",
+   "brand": "Marcella",
+   "name": "Jenna Purse",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "laci-oversized-tote",
+   "brand": "Marcella",
+   "name": "Laci Oversized Tote",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "rory-crossbody-bag",
+   "brand": "Marcella",
+   "name": "Rory Crossbody Purse",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "murphy-tote",
+   "brand": "Marcella",
+   "name": "Murphy Tote",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "maru-purse",
+   "brand": "Marcella",
+   "name": "Maru Purse",
+   "imgs": [
+    1,
+    0
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "orbis-tote",
+   "brand": "Marcella",
+   "name": "Orbis Tote",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "kai-convertible-handbag",
+   "brand": "Marcella",
+   "name": "Kai Convertible Purse",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "mercer-bag-espresso",
+   "brand": "Freja",
+   "name": "Mercer Bag, Espresso",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "mercer-bag-oat",
+   "brand": "Freja",
+   "name": "Mercer Bag, Oat",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "mercer-bag-black",
+   "brand": "Freja",
+   "name": "Mercer Bag, Black",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "alma-bag-black-gloss",
+   "brand": "Freja",
+   "name": "Alma Bag, Black Gloss",
+   "imgs": [
+    0,
+    2
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "alma-tall-black-gloss",
+   "brand": "Freja",
+   "name": "Alma Bag Tall, Black Gloss",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "jane-bag-espresso",
+   "brand": "Freja",
+   "name": "Jane Bag, Espresso",
+   "imgs": [
+    0,
+    2
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "jane-bag-cedar",
+   "brand": "Freja",
+   "name": "Jane Bag, Cedar",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "ida-bag-cedar",
+   "brand": "Freja",
+   "name": "Ida Bag, Cedar",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "bleecker-tote-oat",
+   "brand": "Freja",
+   "name": "Bleecker Tote, Oat",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "mae-bag-oat",
+   "brand": "Freja",
+   "name": "Mae Bag, Oat",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "miro-bag-black-gloss",
+   "brand": "Freja",
+   "name": "Miro Bag, Black Gloss",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "harlow-cobalt-suede",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Harlow Mini Bowling Bag",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "avery-saddle-suede-with-studs",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Avery Large Suede Tote",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "elodie-black-open-raffia",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Elodie Crescent Bag, Black",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "elis-mango-multi-woven-calf",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Elis Woven Leather Handbag",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "erika-bone-calf",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Erika Fringe Bag",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "birdie-navy-and-cream-tote",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Birdie Canvas Tote, Navy",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "cassandra-clutch-blackleather",
+   "brand": "AUREUM",
+   "name": "Cassandra Clutch, Black",
+   "imgs": [
+    0,
+    3
+   ]
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "cassandra-clutch-navyleather",
+   "brand": "AUREUM",
+   "name": "Cassandra Clutch, Navy",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "cassandra-clutch-chocolatenubuck",
+   "brand": "AUREUM",
+   "name": "Cassandra Clutch, Chocolate",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "baguette-bag-espressocroc",
+   "brand": "AUREUM",
+   "name": "Bella Bag, Espresso Croc",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "chloe-work-tote",
+   "brand": "AUREUM",
+   "name": "Chloe Tote",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "cassandra-clutch-emeraldcroc",
+   "brand": "AUREUM",
+   "name": "Cassandra Clutch, Emerald",
+   "imgs": [
+    0,
+    1
+   ]
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "grain-leather-hobo-bag-with-gold-hardware",
+   "brand": "Mac Duggal",
+   "name": "Leather Hobo Bag, Toffee",
+   "imgs": [
+    0,
+    1
+   ]
+  }
+ ],
+ "picks": [
+  {
+   "host": "marcellanyc.com",
+   "handle": "jenna-purse",
+   "brand": "Marcella",
+   "name": "Jenna Purse",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 92.0,
+   "was": 229.0,
+   "off": 60,
+   "chip": "One color, in stock",
+   "say": "Ninety-two dollars for a crinkled Italian leather shoulder bag. It was two twenty-nine. This is the cheapest real leather bag I found.",
+   "why": "Cheapest stated-leather bag in the whole list. 100% Italian leather per the listing.",
+   "for_who": "Someone who wants a small black going-out bag under $100.",
+   "skip_if": "You carry more than a phone and wallet. It is 10 inches long and 5 tall.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "mercer-bag-espresso",
+   "brand": "Freja",
+   "name": "Mercer Bag, Espresso",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 148.0,
+   "was": 298.0,
+   "off": 50,
+   "chip": "In stock, final sale",
+   "say": "Half off, one forty-eight. The long low shape is the one everybody is carrying right now. One warning, the listing doesn't say what it's made of.",
+   "why": "50% off and the brown reads more expensive than the oat or black.",
+   "for_who": "Someone who wants the east-west bag without paying $400.",
+   "skip_if": "You only buy real leather. Material is not stated on this listing, and it is final sale.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "harlow-cobalt-suede",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Harlow Mini Bowling Bag",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 199.0,
+   "was": 398.0,
+   "off": 50,
+   "chip": "Final sale",
+   "say": "A cobalt blue suede bowling bag, made in Italy, one ninety-nine. It was three ninety-eight. This is the only fun color on the whole list.",
+   "why": "The one bag here that is not black, brown or beige. Handcrafted in Italy per the listing.",
+   "for_who": "Someone who already owns a black bag.",
+   "skip_if": "You want an everyday bag. It is mini, it is suede, and it is final sale.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "laci-oversized-tote",
+   "brand": "Marcella",
+   "name": "Laci Oversized Tote",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 167.5,
+   "was": 335.0,
+   "off": 50,
+   "chip": "Black is the 50% off one",
+   "say": "A black Italian leather work tote for one sixty-seven. Get the black. The silver one is only forty percent off and costs more.",
+   "why": "Nappa leather tote with a removable crossbody strap, at half price in black.",
+   "for_who": "Someone who needs one bag that fits a laptop day.",
+   "skip_if": "You wanted the silver. That color is $201.",
+   "live": "not rechecked"
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "alma-bag-black-gloss",
+   "brand": "Freja",
+   "name": "Alma Bag, Black Gloss",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 168.0,
+   "was": 358.0,
+   "off": 53,
+   "chip": "In stock, final sale",
+   "say": "This one is fifty-three percent off, one sixty-eight from three fifty-eight. It looks like a bag that costs four times that. Same warning, the material isn't listed.",
+   "why": "Biggest markdown of the Freja black bags, and the dome shape photographs well.",
+   "for_who": "Someone who wants a polished shoulder bag for work.",
+   "skip_if": "You hate glossy finishes, or you need to return things. Final sale.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "avery-saddle-suede-with-studs",
+   "brand": "FRĒDA SALVADOR",
+   "name": "Avery Large Suede Tote",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 249.0,
+   "was": 498.0,
+   "off": 50,
+   "chip": "Exchange only",
+   "say": "A big Italian suede tote for two forty-nine, down from four ninety-eight. It's unlined, so it slouches. I like that. Some people won't.",
+   "why": "100% Italian suede per the listing, half off. The big slouchy tote of the list.",
+   "for_who": "Someone who wants a brown suede tote for fall and winter.",
+   "skip_if": "You need structure or pockets. It is unlined and exchange only.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "cassandra-clutch-blackleather",
+   "brand": "AUREUM",
+   "name": "Cassandra Clutch, Black",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 580.0,
+   "was": 1450.0,
+   "off": 60,
+   "chip": "Black and navy are 60% off",
+   "say": "This is the splurge. Five eighty, it was fourteen fifty. Made in Florence, calf leather, lambskin lining. The other colors are only half off.",
+   "why": "Deepest cut in the store: 60% in black and navy leather, 50% in the embossed versions.",
+   "for_who": "Someone buying one evening bag to keep for years.",
+   "skip_if": "$580 for a clutch sounds crazy to you. Fair.",
+   "live": "rechecked 2026-11-27 ok"
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "allison-leather-top-handle-purse",
+   "brand": "Marcella",
+   "name": "Allison Top Handle Purse",
+   "imgs": [
+    1,
+    0
+   ],
+   "now": 100.0,
+   "was": 249.0,
+   "off": 60,
+   "chip": "One color, in stock",
+   "say": "My favorite. A hundred dollars for a leather hobo that was two forty-nine. If you buy one bag this weekend, this is the one I'd buy.",
+   "why": "60% off, real leather per the listing, and a size you can use daily (15 inches wide).",
+   "for_who": "Almost anyone who wears black.",
+   "skip_if": "You don't like the crinkled, distressed finish.",
+   "live": "not rechecked"
+  }
+ ],
+ "script": {
+  "open": "I read almost 400 Black Friday sales. Only 5 stores have a real leather bag at 40% off or more. These are my eight favorite bags from everything I found.",
+  "close": "Eight bags out of almost 400 sales. Which one would you actually carry?",
+  "tease": "Coats next, or jewelry. Tell me which."
+ },
+ "hooks_alt": [
+  "Almost 400 Black Friday sales, and only 8 stores put a handbag at 40% off.",
+  "The cheapest real leather bag I found this Black Friday is $92."
+ ],
+ "caption": "I went through almost 400 Black Friday sales and only 8 stores had handbags at 40% off or more. Only 5 of them had real leather. Which one are you getting? Commissionable links in bio.",
+ "pinned_comment": "Prices checked Nov 27. Several of these are final sale or exchange only, so read the product page before you buy. The two Freja listings don't state the material.",
+ "recheck": [
+  "Marcella prices (Jenna $92, Laci $167.50 in black, Allison $100) could not be rechecked live; open the three pages before posting.",
+  "Freja: catalog shows these at sale price, but the site banner says 25% off everything. Confirm the price shown in cart is $148 (Mercer) and $168 (Alma), not lower or higher.",
+  "Freja Mercer and Alma listings do not state the material. Freja's Linnea Tote listing says 'vegan ultrafiber leather'. Do not call the Freja bags leather on camera.",
+  "The 'real leather' count (32 bags, 5 stores: AUREUM 14, Marcella 8, FRĒDA SALVADOR 5, Mac Duggal 4, Nisolo 1) is based on what each listing says (leather, suede or calf).",
+  "AUREUM marks every product in the store at 35% off or more; the Cassandra at 60% is a real extra cut, but the $1,450 'was' price is the brand's own number.",
+  "All picks are single-stock, one-size listings; any can sell out before posting.",
+  "Video must not mention Pily's own handbag brand."
+ ],
+ "dropped": [
+  "The Silk Road (8 Osoi bags at 50%): catalog prices match the euro prices on its homepage, so it is priced in EUR and ships from France; pick.currency wrongly says $",
+  "Soleil Soleil, P.E Nation, DISSH: priced in A$",
+  "Brooklinen terry tote and Soleil Soleil towelling totes: beach bags, not handbags",
+  "KenzKustomz Mama XL canvas bag: diaper/travel bag",
+  "FRĒDA SALVADOR Serena Slip Pouch: a pouch, not a bag",
+  "Marcella Kai and Rory: each listed twice under two handles, counted once",
+  "Mac Duggal: hobo and small shoulder bag each listed twice, counted once (6 listings -> 4)",
+  "Omika reversible totes and Petal & Pup bags: counted, but not candidates (flat-lay photos / $20 faux leather)",
+  "Nisolo Cecilia shoulder bag ($99, 50%): counted, not a candidate, only two near-identical photos",
+  "Mac Duggal as a pick: product-only photos on grey, no model shots"
+ ],
+ "opening": "funnel",
+ "tease_short": "you tell me"
+}

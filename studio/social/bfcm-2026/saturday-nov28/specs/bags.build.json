@@ -1,0 +1,232 @@
+{
+ "marks": [
+  [
+   "wall",
+   0
+  ],
+  [
+   "stores",
+   4.07
+  ],
+  [
+   "all",
+   6.5
+  ],
+  [
+   "favorites",
+   8.5
+  ],
+  [
+   "pick1",
+   10.0
+  ],
+  [
+   "pick2",
+   12.67
+  ],
+  [
+   "pick3",
+   15.33
+  ],
+  [
+   "pick4",
+   18.0
+  ],
+  [
+   "pick5",
+   20.67
+  ],
+  [
+   "pick6",
+   23.33
+  ],
+  [
+   "pick7",
+   26.0
+  ],
+  [
+   "pick8",
+   28.67
+  ],
+  [
+   "end",
+   31.33
+  ]
+ ],
+ "duration": 33.93,
+ "notes": [
+  "Marcella Jenna Purse: live check refused, price from catalog",
+  "Marcella Laci Oversized Tote: live check refused, price from catalog",
+  "Marcella Allison Top Handle Purse: live check refused, price from catalog"
+ ],
+ "picks": [
+  {
+   "host": "marcellanyc.com",
+   "handle": "jenna-purse",
+   "brand": "Marcella",
+   "name": "Jenna Purse",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 92.0,
+   "was": 229.0,
+   "off": 60,
+   "chip": "One color, in stock",
+   "say": "Ninety-two dollars for a crinkled Italian leather shoulder bag. It was two twenty-nine. This is the cheapest real leather bag I found.",
+   "why": "Cheapest stated-leather bag in the whole list. 100% Italian leather per the listing.",
+   "for_who": "Someone who wants a small black going-out bag under $100.",
+   "skip_if": "You carry more than a phone and wallet. It is 10 inches long and 5 tall.",
+   "live": "not rechecked",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "mercer-bag-espresso",
+   "brand": "Freja",
+   "name": "Mercer Bag, Espresso",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 148.0,
+   "was": 298.0,
+   "off": 50,
+   "chip": "In stock, final sale",
+   "say": "Half off, one forty-eight. The long low shape is the one everybody is carrying right now. One warning, the listing doesn't say what it's made of.",
+   "why": "50% off and the brown reads more expensive than the oat or black.",
+   "for_who": "Someone who wants the east-west bag without paying $400.",
+   "skip_if": "You only buy real leather. Material is not stated on this listing, and it is final sale.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "harlow-cobalt-suede",
+   "brand": "FR\u0112DA SALVADOR",
+   "name": "Harlow Mini Bowling Bag",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 199.0,
+   "was": 398.0,
+   "off": 50,
+   "chip": "Final sale",
+   "say": "A cobalt blue suede bowling bag, made in Italy, one ninety-nine. It was three ninety-eight. This is the only fun color on the whole list.",
+   "why": "The one bag here that is not black, brown or beige. Handcrafted in Italy per the listing.",
+   "for_who": "Someone who already owns a black bag.",
+   "skip_if": "You want an everyday bag. It is mini, it is suede, and it is final sale.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "laci-oversized-tote",
+   "brand": "Marcella",
+   "name": "Laci Oversized Tote",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 167.5,
+   "was": 335.0,
+   "off": 50,
+   "chip": "Black is the 50% off one",
+   "say": "A black Italian leather work tote for one sixty-seven. Get the black. The silver one is only forty percent off and costs more.",
+   "why": "Nappa leather tote with a removable crossbody strap, at half price in black.",
+   "for_who": "Someone who needs one bag that fits a laptop day.",
+   "skip_if": "You wanted the silver. That color is $201.",
+   "live": "not rechecked",
+   "av": 2,
+   "n": 2
+  },
+  {
+   "host": "frejanyc.com",
+   "handle": "alma-bag-black-gloss",
+   "brand": "Freja",
+   "name": "Alma Bag, Black Gloss",
+   "imgs": [
+    0,
+    2
+   ],
+   "now": 168.0,
+   "was": 358.0,
+   "off": 53,
+   "chip": "In stock, final sale",
+   "say": "This one is fifty-three percent off, one sixty-eight from three fifty-eight. It looks like a bag that costs four times that. Same warning, the material isn't listed.",
+   "why": "Biggest markdown of the Freja black bags, and the dome shape photographs well.",
+   "for_who": "Someone who wants a polished shoulder bag for work.",
+   "skip_if": "You hate glossy finishes, or you need to return things. Final sale.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "fredasalvador.com",
+   "handle": "avery-saddle-suede-with-studs",
+   "brand": "FR\u0112DA SALVADOR",
+   "name": "Avery Large Suede Tote",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 249.0,
+   "was": 498.0,
+   "off": 50,
+   "chip": "Exchange only",
+   "say": "A big Italian suede tote for two forty-nine, down from four ninety-eight. It's unlined, so it slouches. I like that. Some people won't.",
+   "why": "100% Italian suede per the listing, half off. The big slouchy tote of the list.",
+   "for_who": "Someone who wants a brown suede tote for fall and winter.",
+   "skip_if": "You need structure or pockets. It is unlined and exchange only.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "aureumcollective.com",
+   "handle": "cassandra-clutch-blackleather",
+   "brand": "AUREUM",
+   "name": "Cassandra Clutch, Black",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 580.0,
+   "was": 1450.0,
+   "off": 60,
+   "chip": "Black and navy are 60% off",
+   "say": "This is the splurge. Five eighty, it was fourteen fifty. Made in Florence, calf leather, lambskin lining. The other colors are only half off.",
+   "why": "Deepest cut in the store: 60% in black and navy leather, 50% in the embossed versions.",
+   "for_who": "Someone buying one evening bag to keep for years.",
+   "skip_if": "$580 for a clutch sounds crazy to you. Fair.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 1,
+   "n": 1
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "allison-leather-top-handle-purse",
+   "brand": "Marcella",
+   "name": "Allison Top Handle Purse",
+   "imgs": [
+    1,
+    0
+   ],
+   "now": 100.0,
+   "was": 249.0,
+   "off": 60,
+   "chip": "One color, in stock",
+   "say": "My favorite. A hundred dollars for a leather hobo that was two forty-nine. If you buy one bag this weekend, this is the one I'd buy.",
+   "why": "60% off, real leather per the listing, and a size you can use daily (15 inches wide).",
+   "for_who": "Almost anyone who wears black.",
+   "skip_if": "You don't like the crinkled, distressed finish.",
+   "live": "not rechecked",
+   "av": 1,
+   "n": 1
+  }
+ ]
+}

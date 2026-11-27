@@ -1,0 +1,228 @@
+{
+ "marks": [
+  [
+   "take",
+   0
+  ],
+  [
+   "all",
+   3.4
+  ],
+  [
+   "favorites",
+   5.2
+  ],
+  [
+   "pick1",
+   6.5
+  ],
+  [
+   "pick2",
+   9.17
+  ],
+  [
+   "pick3",
+   11.83
+  ],
+  [
+   "pick4",
+   14.5
+  ],
+  [
+   "pick5",
+   17.17
+  ],
+  [
+   "pick6",
+   19.83
+  ],
+  [
+   "pick7",
+   22.5
+  ],
+  [
+   "pick8",
+   25.17
+  ],
+  [
+   "end",
+   27.83
+  ]
+ ],
+ "duration": 30.43,
+ "notes": [
+  "Marcella Liore cutout dress, red: live check refused, price from catalog",
+  "Marcella Metallic one-sleeve gown: live check refused, price from catalog",
+  "Marcella Velvet one-sleeve gown: live check refused, price from catalog"
+ ],
+ "picks": [
+  {
+   "host": "marcellanyc.com",
+   "handle": "liore-dress-red",
+   "brand": "Marcella",
+   "name": "Liore cutout dress, red",
+   "imgs": [
+    1,
+    0
+   ],
+   "now": 71.0,
+   "was": 178.0,
+   "off": 60,
+   "chip": "XS to XL in stock",
+   "say": "Seventy-one dollars for a red dress with one shoulder and a cutout. It's ponte, so it's thick and it holds you in.",
+   "why": "Red, mid-stretch ponte, ankle length, back slit. $71 from $178.",
+   "for_who": "Office party or dinner where you want one clean red dress.",
+   "skip_if": "You want to wear a normal bra. The cutout won't allow it.",
+   "live": "not rechecked",
+   "av": 5,
+   "n": 6
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "11572",
+   "brand": "Mac Duggal",
+   "name": "Black bow mini",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 159.0,
+   "was": 348.0,
+   "off": 54,
+   "chip": "Final sale. 0 is gone",
+   "say": "Mac Duggal is prom-heavy, but this one is good. Ruched taffeta mini with a bow that drops to the floor.",
+   "why": "Fully lined taffeta, strapless, 35 inches long. $159 from $348.",
+   "for_who": "New Year's Eve. This is the going-out one.",
+   "skip_if": "You hate strapless, or you might return it. It's final sale.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 6,
+   "n": 7
+  },
+  {
+   "host": "bubishluxe.us",
+   "handle": "talia-mini-dress-leopard",
+   "brand": "b\u00fcbish",
+   "name": "Leopard halter mini",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 129.0,
+   "was": 259.0,
+   "off": 50,
+   "chip": "XL is sold out",
+   "say": "If everyone else is in sequins, wear leopard. Halter neck, open back, half price.",
+   "why": "Lined, tie-up halter, hem is longer at the back. $129 from $259.",
+   "for_who": "Birthday dinners and parties that aren't formal.",
+   "skip_if": "You run cold. The back is open. It's also 100% polyester.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 4,
+   "n": 5
+  },
+  {
+   "host": "mmlafleur.com",
+   "handle": "sippy-dark-fuchsia",
+   "brand": "M.M.LaFleur",
+   "name": "Silk charmeuse midi",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 135.0,
+   "was": 429.0,
+   "off": 69,
+   "chip": "XS is sold out",
+   "say": "This is the grown-up pick. Washable silk, was four twenty-nine, now one thirty-five.",
+   "why": "Washable silk charmeuse, V-neck, tie at the back, removable shoulder pads. 69% off.",
+   "for_who": "Work party, then again in spring with a blazer.",
+   "skip_if": "You want something tight or short. This one hangs loose.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 5,
+   "n": 6
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "manhattan-metallic-one-shoulder-gown",
+   "brand": "Marcella",
+   "name": "Metallic one-sleeve gown",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 64.0,
+   "was": 159.0,
+   "off": 60,
+   "chip": "Stardust XS is sold out",
+   "say": "A floor-length metallic gown for sixty-four dollars. One sleeve, open back. People will ask where it's from.",
+   "why": "Stretch lurex, halter neck into one long sleeve. $64 from $159. Also comes in black.",
+   "for_who": "Winter wedding guest who wants a long dress under $100.",
+   "skip_if": "The wedding is conservative. The pale one reads almost white.",
+   "live": "not rechecked",
+   "av": 9,
+   "n": 14
+  },
+  {
+   "host": "macduggal.com",
+   "handle": "49674",
+   "brand": "Mac Duggal",
+   "name": "Teal halter midi",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 198.0,
+   "was": 398.0,
+   "off": 50,
+   "chip": "Final sale. 4 and 12+ gone",
+   "say": "The color is the reason. Teal, high neck with a rosette, open back, and it's a midi so you can dance.",
+   "why": "Charmeuse, pleated bodice, about 50 inches long. $198 from $398.",
+   "for_who": "Winter wedding. It photographs well and it isn't black.",
+   "skip_if": "You're a 4, or a 12 and up. Those are gone. It's 100% polyester.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 5,
+   "n": 9
+  },
+  {
+   "host": "aliceandolivia.com",
+   "handle": "delora-sequin-strapless-midi-dress-clear-skies",
+   "brand": "alice + olivia",
+   "name": "Fifi ombre sequin midi",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 278.0,
+   "was": 695.0,
+   "off": 60,
+   "chip": "Only size 6 is sold out",
+   "say": "My splurge. Blue-to-gold sequins, was six ninety-five, now two seventy-eight. Nobody else at the party will have it.",
+   "why": "Sequins on a mesh base, strapless, side slit. 60% off.",
+   "for_who": "New Year's Eve, if you want to be the one in the photos.",
+   "skip_if": "You want to blend in. And check returns first, it's tagged final sale.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 7,
+   "n": 8
+  },
+  {
+   "host": "marcellanyc.com",
+   "handle": "manhattan-velvet-slit-gown",
+   "brand": "Marcella",
+   "name": "Velvet one-sleeve gown",
+   "imgs": [
+    1,
+    2
+   ],
+   "now": 64.0,
+   "was": 159.0,
+   "off": 60,
+   "chip": "Black: XS to XXL in stock",
+   "say": "My favorite. Black velvet, one sleeve, a long slit, sixty-four dollars. This looks like it cost four hundred.",
+   "why": "Velvet jersey, column cut, one-shoulder neckline, long side slit. $64 from $159.",
+   "for_who": "Black tie on a budget. Also the easiest one to rewear.",
+   "skip_if": "You want the crimson. It's missing XS, S and XL.",
+   "live": "not rechecked",
+   "av": 10,
+   "n": 14
+  }
+ ]
+}

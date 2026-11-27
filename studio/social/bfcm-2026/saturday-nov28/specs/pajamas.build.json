@@ -1,0 +1,222 @@
+{
+ "marks": [
+  [
+   "take",
+   0
+  ],
+  [
+   "all",
+   3.4
+  ],
+  [
+   "favorites",
+   5.2
+  ],
+  [
+   "pick1",
+   6.5
+  ],
+  [
+   "pick2",
+   9.2
+  ],
+  [
+   "pick3",
+   11.87
+  ],
+  [
+   "pick4",
+   14.53
+  ],
+  [
+   "pick5",
+   17.2
+  ],
+  [
+   "pick6",
+   19.9
+  ],
+  [
+   "pick7",
+   22.57
+  ],
+  [
+   "pick8",
+   25.23
+  ],
+  [
+   "end",
+   27.9
+  ]
+ ],
+ "duration": 30.5,
+ "notes": [],
+ "picks": [
+  {
+   "host": "knix.com",
+   "handle": "classic-cotton-pj-set-last-call",
+   "brand": "Knix",
+   "name": "Classic Cotton PJ Set",
+   "imgs": [
+    0
+   ],
+   "now": 55.0,
+   "was": 110.0,
+   "off": 50,
+   "chip": "Every size, XS to 4XL",
+   "say": "A shirt and shorts set for fifty five dollars, half off. Only the pale pink stripe is at this price, the other colors are not.",
+   "why": "Half off, and all eight sizes are still there.",
+   "for_who": "The friend who wears her pajama shirt as a real shirt.",
+   "skip_if": "You wanted the darker stripe. That one is not in the last call listing.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 8,
+   "n": 8
+  },
+  {
+   "host": "harperwilde.com",
+   "handle": "perfect-pima-long-sleeve-pajama-shirt-navy",
+   "brand": "Harper Wilde",
+   "name": "Pima Long Sleeve PJ Shirt",
+   "imgs": [
+    0,
+    3
+   ],
+   "now": 29.0,
+   "was": 58.0,
+   "off": 50,
+   "chip": "Every size in stock",
+   "say": "Twenty nine dollars. But this is only the shirt. The pants are another thirty four, so the real price of the set is sixty three.",
+   "why": "Half off, navy with white piping, sizes XS to 3XL. Harper Wilde says it is cotton.",
+   "for_who": "Someone who wants the classic piped pajama without paying a hundred.",
+   "skip_if": "You need the matching pants in XS or M. Those two are sold out. It is final sale.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 7,
+   "n": 7
+  },
+  {
+   "host": "hankypanky.com",
+   "handle": "satin-sleep-tee-bath-time-blue",
+   "brand": "Hanky Panky",
+   "name": "Satin Sleep Tee",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 24.99,
+   "was": 85.0,
+   "off": 71,
+   "chip": "Every size in stock",
+   "say": "This is the cheapest thing in the video. Twenty five dollars, it was eighty five. The matching blue pants are not in the sale, so buy it as a top.",
+   "why": "71% off. The store says it is stretch satin and machine washable.",
+   "for_who": "A small gift for a sister. Sizes S to XL.",
+   "skip_if": "You want a full matching set in blue.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 4,
+   "n": 4
+  },
+  {
+   "host": "wearecozyland.com",
+   "handle": "glinda-striped-pj-set-x-wicked",
+   "brand": "Cozyland",
+   "name": "Glinda Striped PJ Set",
+   "imgs": [
+    0,
+    1
+   ],
+   "now": 51.0,
+   "was": 170.0,
+   "off": 70,
+   "chip": "Final sale, all sizes",
+   "say": "Hot take. This is Wicked merch. It was a hundred seventy and now it is fifty one, because the movie moment passed. From far away it is just a pink stripe pajama.",
+   "why": "70% off, the biggest cut I am showing. The store says 100% pima cotton.",
+   "for_who": "The Wicked friend. You know which one.",
+   "skip_if": "Logos on pajamas bother you. There is a crest on the chest, one on the leg and a print on the back.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 6,
+   "n": 6
+  },
+  {
+   "host": "knix.com",
+   "handle": "modal-sleep-dress-last-call",
+   "brand": "Knix",
+   "name": "Modal Sleep Dress",
+   "imgs": [
+    0
+   ],
+   "now": 40.0,
+   "was": 80.0,
+   "off": 50,
+   "chip": "Every size, XS to 4XL",
+   "say": "A sleep shirt for forty dollars. This is the one I would give my mom. Only the pale pink is half off.",
+   "why": "Half off and every size from XS to 4XL is in stock.",
+   "for_who": "Moms, and anyone who sleeps hot and hates pants.",
+   "skip_if": "You want the navy. It is in a separate listing at 30% off.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 8,
+   "n": 8
+  },
+  {
+   "host": "brooklinen.com",
+   "handle": "bigtime-robe-last-call",
+   "brand": "Brooklinen",
+   "name": "Bigtime Quilted Robe",
+   "imgs": [
+    3,
+    0
+   ],
+   "now": 89.4,
+   "was": 149.0,
+   "off": 40,
+   "chip": "All 4 colors, every size",
+   "say": "The splurge. Eighty nine dollars for a quilted robe that looks like a duvet you can wear. Four colors and every size is there.",
+   "why": "40% off. Brooklinen lists a cotton shell with polyester fill.",
+   "for_who": "Cold apartments. It is cut unisex, so it works for a partner too.",
+   "skip_if": "You run warm. It is final sale.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 16,
+   "n": 16
+  },
+  {
+   "host": "lakepajamas.com",
+   "handle": "gelato-riviera-stripe-piped-nightgown",
+   "brand": "LAKE",
+   "name": "Poplin Piped Nightgown",
+   "imgs": [
+    1,
+    3
+   ],
+   "now": 70.0,
+   "was": 118.0,
+   "off": 41,
+   "chip": "Every size, final sale",
+   "say": "LAKE says twenty five percent off on its homepage. This one is marked forty one percent off in the sale section. Seventy dollars.",
+   "why": "A sleep shirt with a collar and pockets, 100% cotton per LAKE, sizes XXS to XXL.",
+   "for_who": "The gift for your mom that she would not buy herself.",
+   "skip_if": "You might return it. LAKE tags it final sale, no returns.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 7,
+   "n": 7
+  },
+  {
+   "host": "lakepajamas.com",
+   "handle": "french-blue-solid-pointelle-pajama-pants-set",
+   "brand": "LAKE",
+   "name": "Pointelle Pajama Set",
+   "imgs": [
+    1,
+    2
+   ],
+   "now": 68.0,
+   "was": 114.0,
+   "off": 40,
+   "chip": "Every size, final sale",
+   "say": "My favorite. A tank and wide leg pants for sixty eight, down from one fourteen. LAKE says it is a lightweight knit for hot sleepers.",
+   "why": "40% off and LAKE lists it as 100% Pima cotton. All seven sizes in stock.",
+   "for_who": "Anyone in a warm place. I am in Puerto Rico, so this is the one for me.",
+   "skip_if": "You want sleeves. Final sale, so check the size chart first.",
+   "live": "rechecked 2026-11-27 ok",
+   "av": 7,
+   "n": 7
+  }
+ ]
+}
