@@ -30,12 +30,13 @@ CSS='''<style>
 .off{background:#e5352b;color:#fff;font-weight:900;font-size:46px;padding:8px 16px;border-radius:12px}
 .why{display:inline-block;margin-top:16px;background:#111;color:#fff;font-weight:700;font-size:40px;line-height:1.15;padding:10px 18px;border-radius:12px;max-width:860px}
 .hook{position:absolute;left:60px;right:60px;top:560px;text-align:left}
-.hook div{display:inline-block;background:#111;color:#fff;font-weight:900;font-size:128px;line-height:1.02;padding:6px 24px 12px;border-radius:20px;margin-bottom:14px;letter-spacing:-.02em}
+.hook div{display:inline-block;background:#111;color:#fff;font-weight:900;font-size:HKpx;line-height:1.02;padding:6px 24px 12px;border-radius:20px;margin-bottom:14px;letter-spacing:-.02em}
 .hook div.y{background:#ffd84a;color:#111}
-.hook p{display:inline-block;background:#fff;color:#111;font-weight:800;font-size:50px;padding:10px 20px;border-radius:14px;margin-top:10px}
+.hook p{display:inline-block;background:#fff;color:#111;font-weight:800;font-size:44px;line-height:1.2;max-width:900px;padding:10px 20px;border-radius:14px;margin-top:10px}
 .series{position:absolute;left:60px;top:270px;background:#fff;color:#111;font-weight:800;font-size:34px;letter-spacing:.06em;text-transform:uppercase;padding:10px 18px;border-radius:12px}
 </style>'''
-def build(slug,series,hook_lines,hook_sub,items,end_lines,end_sub,cut=0.6,per=3):
+def build(slug,series,hook_lines,hook_sub,items,end_lines,end_sub,cut=0.6,per=3,hk=128):
+    global CSS; CSS=CSS.replace('HKpx',f'{hk}px')
     out=f'{SP}/out6/{slug}'; shutil.rmtree(out,ignore_errors=True); os.makedirs(out+'/ov'); os.makedirs(out+'/pl'); os.makedirs(out+'/seg')
     L=[]
     for it in items:
@@ -71,7 +72,7 @@ def build(slug,series,hook_lines,hook_sub,items,end_lines,end_sub,cut=0.6,per=3)
     json.dump(L,open(f'{SP}/out6/{slug}.json','w'),indent=1,default=str); print('ok',slug,round(d,1),'s')
 if __name__=='__main__':
     IB='intentionallyblank.us'; b=lambda h,n,w,im,host=IB,brand='Intentionally Blank':dict(host=host,handle=h,brand=brand,name=n,why=w,imgs=im)
-    build('boots-fast','Black Friday · Boots',[('10 BOOTS','y'),('UNDER $165','')],'All about half off. Cheapest first.',[
+    build('boots-fast','Black Friday · Boots',[('ONLY 3 STORES','y'),('HAVE BOOTS','') ,('40% OFF','')],'I checked 199 Black Friday sales. These are the 10 best pairs.',[
       b('marlowe-black','Marlowe platform','Vegan, every size in',[0,1,3]),
       b('go-to-lace-lug-boot-black','Go-To lug boot','Water-resistant suede. Final sale',[0,1,3],'nisolo.com','Nisolo'),
       b('taffy-patent-leather-heeled-boot','Taffy patent boot','Olive patent leather',[0,1,2]),
@@ -82,4 +83,4 @@ if __name__=='__main__':
       b('lindstrom-patent-mid-boot','Lindstrom buckle boot','Three buckles, patent',[0,1,3]),
       b('filmore-suede-knee-boot','Filmore knee boot','Suede, every size in',[0,1,3]),
       b('hiperson-leather-knee-high-boot','Hiperson knee boot','Leather, black in every size',[0,1,3])],
-      [('TOMORROW','y'),('JEWELRY','')],'From $26. Follow so you see it.')
+      [('TOMORROW','y'),('JEWELRY','')],'From $26. Follow so you see it.',hk=112)
