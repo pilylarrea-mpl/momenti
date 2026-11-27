@@ -4,7 +4,7 @@ sys.path.insert(0,'.')
 import fast
 from fast import SP,B,esc
 VO='/tmp/claude-0/-home-user/f8db058d-6b86-53e9-be25-77324683de3f/scratchpad/vo/vo.m4a'
-OUT=SP+'/out10'; shutil.rmtree(OUT,ignore_errors=True); os.makedirs(OUT+'/ov'); os.makedirs(OUT+'/seg'); os.makedirs(OUT+'/au')
+OUT=SP+'/out12'; shutil.rmtree(OUT,ignore_errors=True); os.makedirs(OUT+'/ov'); os.makedirs(OUT+'/seg'); os.makedirs(OUT+'/au')
 L=json.load(open(SP+'/out6/boots-picks.json'))          # the eight boots, prices and photo plates already checked
 G=0.20; P=0.05; TEMPO=1.0
 # (label, audio start, audio end, gap after)
@@ -29,8 +29,11 @@ def plate2(url,out):
     a=np.asarray(im.resize((120,120))).astype(float); e=np.concatenate([a[:3].reshape(-1,3),a[-3:].reshape(-1,3),a[:,:3].reshape(-1,3),a[:,-3:].reshape(-1,3)])
     if e.std()<10 and e.mean()>190:      # flat light background: extend it
         bg=tuple(int(v) for v in np.median(np.asarray(im)[:8].reshape(-1,3),0)); cv=Image.new('RGB',(W,H),bg)
-        r=min(W/im.width,(H*0.62)/im.height); im2=im.resize((round(im.width*r),round(im.height*r)),Image.LANCZOS)
-        cv.paste(im2,((W-im2.width)//2,int(H*0.10))); cv.save(out,quality=93); return 'pack'
+        arr=np.asarray(im).astype(int); m=np.abs(arr-np.array(bg)).sum(2)>36; ys=np.nonzero(m.any(1))[0]; xs=np.nonzero(m.any(0))[0]
+        if len(ys) and len(xs):
+            pad=int(0.03*max(im.size)); im=im.crop((max(0,xs[0]-pad),max(0,ys[0]-pad),min(im.width,xs[-1]+pad),min(im.height,ys[-1]+pad)))
+        r=min((W*0.90)/im.width,(H*0.50)/im.height); im2=im.resize((round(im.width*r),round(im.height*r)),Image.LANCZOS)
+        cv.paste(im2,((W-im2.width)//2,int(H*0.395-im2.height/2))); cv.save(out,quality=93); return 'pack'
     r=max(W/im.width,H/im.height); im=im.resize((round(im.width*r)+1,round(im.height*r)+1),Image.LANCZOS); x=(im.width-W)//2; y=int((im.height-H)*0.35)
     im.crop((x,y,x+W,y+H)).save(out,quality=93); return 'photo'
 os.makedirs(OUT+'/pl')
@@ -65,8 +68,8 @@ for k,h in O.items(): open(f'{OUT}/ov/{k}.html','w').write(h)
 subprocess.run(['node',B+'/shootpng.js',OUT+'/ov'],check=True)
 segs=[]
 def seg(img,ov,dur,zin=True):
-    f=f'{OUT}/seg/{len(segs):03d}.mp4'; fr=max(2,round(dur*30)); z="'1.045'" if zin=='hold' else (f"'1+0.045*on/{fr}'" if zin else f"'1.045-0.045*on/{fr}'")
-    subprocess.run(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',str(dur+0.5),'-i',img,'-i',ov,'-filter_complex',f"[0]zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={PW}x{PH}:fps=30[b];[b][1]overlay=0:0,format=yuv420p",'-frames:v',str(fr),'-r','30','-c:v','libx264','-crf','18',f],check=True); segs.append(f); return fr/30
+    f=f'{OUT}/seg/{len(segs):03d}.mp4'; fr=max(2,round(dur*30)); z="'1.03'" if zin=='hold' else (f"'1+0.03*on/{fr}'" if zin else f"'1.03-0.03*on/{fr}'")
+    subprocess.run(['ffmpeg','-v','error','-y','-loop','1','-framerate','30','-t',str(dur+0.5),'-i',img,'-i',ov,'-filter_complex',f"[0]scale=iw*4:ih*4:flags=bicubic,zoompan=z={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={PW}x{PH}:fps=30[b];[b][1]overlay=0:0,format=yuv420p",'-frames:v',str(fr),'-r','30','-c:v','libx264','-crf','18',f],check=True); segs.append(f); return fr/30
 def fill(imgs,ov_first,ov_rest,dur,target=0.72,start=0):
     n=max(1,round(dur/target)); each=dur/n; used=0
     for j in range(n):
