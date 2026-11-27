@@ -18,22 +18,27 @@ def plate(url,out):
     im.crop((x,y,x+W,y+H)).save(out,quality=93)
 CSS='''<style>
 @font-face{font-family:'IT';src:url('/home/user/momenti/assets/fonts/InterTight-VF.ttf');font-weight:100 900}
+@font-face{font-family:'BM';src:url('/home/user/momenti/assets/fonts/BodoniModa-VF.ttf');font-weight:400 900;font-style:normal}
+@font-face{font-family:'BM';src:url('/home/user/momenti/assets/fonts/BodoniModa-Italic-VF.ttf');font-weight:400 900;font-style:italic}
+@font-face{font-family:'NR';src:url('/home/user/momenti/assets/fonts/Newsreader-Italic-VF.ttf');font-weight:200 800;font-style:italic}
 *{margin:0;padding:0;box-sizing:border-box} html,body{width:1080px;height:1920px;background:transparent;font-family:'IT';overflow:hidden}
-.rank{position:absolute;left:60px;top:270px;background:#111;color:#fff;font-weight:800;font-size:44px;padding:10px 22px;border-radius:14px;letter-spacing:.02em}
-.rank b{color:#ffd84a;font-weight:800}
-.lab{position:absolute;left:60px;right:140px;bottom:370px}
-.br{display:inline-block;background:#fff;color:#111;font-weight:800;font-size:34px;letter-spacing:.08em;text-transform:uppercase;padding:8px 16px;border-radius:10px}
-.nm{display:inline-block;margin-top:10px;background:#111;color:#fff;font-weight:800;font-size:58px;line-height:1.05;padding:8px 18px 10px;border-radius:14px}
-.pr{display:flex;align-items:center;gap:18px;margin-top:16px}
-.now{background:#ffd84a;color:#111;font-weight:900;font-size:150px;line-height:1;padding:6px 26px 10px;border-radius:22px;letter-spacing:-.03em}
-.was{display:inline-block;background:#fff;color:#111;font-weight:800;font-size:50px;padding:2px 12px;border-radius:10px;text-decoration:line-through;text-decoration-thickness:5px;margin-bottom:8px}
-.off{background:#e5352b;color:#fff;font-weight:900;font-size:46px;padding:8px 16px;border-radius:12px}
-.why{display:inline-block;margin-top:16px;background:#111;color:#fff;font-weight:700;font-size:40px;line-height:1.15;padding:10px 18px;border-radius:12px;max-width:860px}
-.hook{position:absolute;left:60px;right:60px;top:560px;text-align:left}
-.hook div{display:inline-block;background:#111;color:#fff;font-weight:900;font-size:HKpx;line-height:1.02;padding:6px 24px 12px;border-radius:20px;margin-bottom:14px;letter-spacing:-.02em}
-.hook div.y{background:#ffd84a;color:#111}
-.hook p{display:inline-block;background:#fff;color:#111;font-weight:800;font-size:44px;line-height:1.2;max-width:900px;padding:10px 20px;border-radius:14px;margin-top:10px}
-.series{position:absolute;left:60px;top:270px;background:#fff;color:#111;font-weight:800;font-size:34px;letter-spacing:.06em;text-transform:uppercase;padding:10px 18px;border-radius:12px}
+:root{--iv:#F4F0E8;--ink:#1C1A18;--acc:#B4532A}
+.rank{position:absolute;left:60px;top:270px;background:var(--ink);color:var(--iv);font-family:'BM';font-style:italic;font-size:50px;padding:6px 24px 10px;border-radius:999px}
+.rank b{font-weight:400;font-style:normal}
+.lab{position:absolute;left:60px;right:150px;bottom:372px}
+.br{display:inline-block;background:var(--ink);color:var(--iv);font-weight:700;font-size:27px;letter-spacing:.2em;text-transform:uppercase;padding:10px 18px 9px;border-radius:6px}
+.nm{display:inline-block;margin-top:10px;background:var(--iv);color:var(--ink);font-family:'BM';font-variation-settings:'opsz' 28;font-size:66px;line-height:1.02;padding:8px 22px 14px;border-radius:8px;letter-spacing:-.01em}
+.pr{display:flex;align-items:stretch;gap:12px;margin-top:10px}
+.now{background:var(--iv);color:var(--ink);font-family:'BM';font-variation-settings:'opsz' 28;font-size:168px;line-height:.95;padding:6px 26px 18px;border-radius:8px;letter-spacing:-.02em}
+.pr>div{display:flex;flex-direction:column;gap:10px;justify-content:flex-end}
+.was{background:var(--iv);color:#6B655E;font-family:'BM';font-size:52px;padding:2px 16px 8px;border-radius:8px;text-decoration:line-through;text-decoration-thickness:3px}
+.off{background:var(--acc);color:#fff;font-weight:700;font-size:34px;letter-spacing:.12em;padding:10px 16px 9px;border-radius:8px;text-align:center}
+.why{display:inline-block;margin-top:10px;background:var(--iv);color:#3d3832;font-family:'NR';font-style:italic;font-size:44px;line-height:1.15;padding:8px 20px 12px;border-radius:8px;max-width:860px}
+.hook{position:absolute;left:60px;right:60px;top:520px;text-align:left}
+.hook div{display:inline-block;background:var(--iv);color:var(--ink);font-family:'BM';font-variation-settings:'opsz' 28;font-size:HKpx;line-height:1;padding:6px 26px 20px;border-radius:8px;margin-bottom:10px;letter-spacing:-.02em}
+.hook div.y{font-style:italic}
+.hook p{display:inline-block;background:var(--ink);color:var(--iv);font-family:'NR';font-style:italic;font-size:46px;line-height:1.2;max-width:900px;padding:12px 22px 14px;border-radius:8px;margin-top:10px}
+.series{position:absolute;left:60px;top:270px;background:var(--ink);color:var(--iv);font-weight:700;font-size:27px;letter-spacing:.2em;text-transform:uppercase;padding:12px 20px 11px;border-radius:6px}
 </style>'''
 def build(slug,series,hook_lines,hook_sub,items,end_lines,end_sub,cut=0.6,per=3,hk=128):
     global CSS; CSS=CSS.replace('HKpx',f'{hk}px')
@@ -51,7 +56,7 @@ def build(slug,series,hook_lines,hook_sub,items,end_lines,end_sub,cut=0.6,per=3,
     O={'hook':f'{CSS}<body><div class=series>{esc(series)}</div><div class=hook>{hookh}<p>{esc(hook_sub)}</p></div></body>',
        'end':f'{CSS}<body><div class=series>{esc(series)}</div><div class=hook>'+''.join(f'<div class="{c}">{esc(t)}</div><br>' for t,c in end_lines)+f'<p>{esc(end_sub)}</p></div></body>'}
     for i,it in enumerate(L):
-        base=f'<div class=rank><b>{i+1}</b> / {len(L)}</div><div class=lab><span class=br>{esc(it["brand"])}</span><br><span class=nm>{esc(it["name"])}</span><div class=pr><span class=now>{money(it["now"])}</span><div><div class=was>{money(it["was"])}</div><div class=off>-{it["off"]}%</div></div></div>'
+        base=f'<div class=rank><b>{i+1}</b> of {len(L)}</div><div class=lab><span class=br>{esc(it["brand"])}</span><br><span class=nm>{esc(it["name"])}</span><div class=pr><span class=now style="{'font-size:120px;padding-top:14px' if abs(it["now"]-round(it["now"]))>.005 else ''}">{money(it["now"])}</span><div><div class=was>{money(it["was"])}</div><div class=off>{it["off"]}% off</div></div></div>'
         O[f'i{i:02d}a']=f'{CSS}<body>{base}</div></body>'
         O[f'i{i:02d}b']=f'{CSS}<body>{base}<span class=why>{esc(it["why"])}</span></div></body>'
     for k,h in O.items(): open(f'{out}/ov/{k}.html','w').write(h)
@@ -71,16 +76,15 @@ def build(slug,series,hook_lines,hook_sub,items,end_lines,end_sub,cut=0.6,per=3,
     subprocess.run(['ffmpeg','-v','error','-y','-i',final,'-vf',f"fps={12/d},scale=270:-1,tile=12x1",'-frames:v','1',f'{SP}/out6/{slug}-strip.jpg'],check=True)
     json.dump(L,open(f'{SP}/out6/{slug}.json','w'),indent=1,default=str); print('ok',slug,round(d,1),'s')
 if __name__=='__main__':
-    IB='intentionallyblank.us'; b=lambda h,n,w,im,host=IB,brand='Intentionally Blank':dict(host=host,handle=h,brand=brand,name=n,why=w,imgs=im)
-    build('boots-fast','Black Friday · Boots',[('ONLY 3 STORES','y'),('HAVE BOOTS','') ,('40% OFF','')],'I checked 199 Black Friday sales. These are the 10 best pairs.',[
-      b('marlowe-black','Marlowe platform','Vegan, every size in',[0,1,3]),
-      b('go-to-lace-lug-boot-black','Go-To lug boot','Water-resistant suede. Final sale',[0,1,3],'nisolo.com','Nisolo'),
-      b('taffy-patent-leather-heeled-boot','Taffy patent boot','Olive patent leather',[0,1,2]),
-      b('camille-boots-lilac-purple','Camille kitten boot','Lilac suede, every size in',[0,1,2],'marcellanyc.com','Marcella'),
-      b('florence-curved-heel-leather-ankle-boot','Florence Chelsea','Leather, every size in',[0,2,3]),
-      b('rancher-suede-mid-boot','Rancher western','Suede, every size in',[0,1,3]),
-      b('scorpio-heeled-ankle-boot','Scorpio ankle boot','Block heel, 15 of 16 sizes',[0,1,3]),
-      b('lindstrom-patent-mid-boot','Lindstrom buckle boot','Three buckles, patent',[0,1,3]),
-      b('filmore-suede-knee-boot','Filmore knee boot','Suede, every size in',[0,1,3]),
-      b('hiperson-leather-knee-high-boot','Hiperson knee boot','Leather, black in every size',[0,1,3])],
-      [('TOMORROW','y'),('JEWELRY','')],'From $26. Follow so you see it.',hk=112)
+    IB='intentionallyblank.us'; MA='marcellanyc.com'
+    b=lambda host,brand,h,n,w,im=[0,1,2]:dict(host=host,handle=h,brand=brand,name=n,why=w,imgs=im)
+    build('boots-picks','Black Friday · Boots',[('Only 3 stores','y'),('have boots',''),('40% off.','')],'I went through almost 400 Black Friday sales. These are my 8 picks.',[
+      b(IB,'Intentionally Blank','taffy-patent-leather-heeled-boot','Taffy patent boot','Patent leather, made in Spain. Final sale.'),
+      b(IB,'Intentionally Blank','rancher-suede-mid-boot','Rancher western','Suede, and every size is still in.',[0,1,3]),
+      b(MA,'Marcella','marceline-boots-black','Marceline block heel','Italian leather. Sizes 7 and 8 are gone.'),
+      b(MA,'Marcella','gemma-boots-red','Gemma kitten heel','Red leather. Only three sizes left.'),
+      b(IB,'Intentionally Blank','filmore-suede-knee-boot','Filmore knee boot','Suede, low heel. Every size in.',[0,1,3]),
+      b(IB,'Intentionally Blank','halo','Halo tall western','Leather. Black is going fast.'),
+      b(MA,'Marcella','kimbra-leather-boots','Kimbra Chelsea','Off-white in every size. Black is nearly gone.'),
+      b(IB,'Intentionally Blank','tgif-knee-high-boot','TGIF knee boot','Croc-embossed leather, 13 of 16 sizes.')],
+      [('Tomorrow:','y'),('jewelry.','')],'From $26. Follow so you see it.',hk=132)
