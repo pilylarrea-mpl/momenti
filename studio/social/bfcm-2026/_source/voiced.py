@@ -4,7 +4,7 @@ sys.path.insert(0,'.')
 import fast
 from fast import SP,B,esc
 VO='/tmp/claude-0/-home-user/f8db058d-6b86-53e9-be25-77324683de3f/scratchpad/vo/vo.m4a'
-OUT=SP+'/out13'; shutil.rmtree(OUT,ignore_errors=True); os.makedirs(OUT+'/ov'); os.makedirs(OUT+'/seg'); os.makedirs(OUT+'/au')
+OUT=SP+'/out14'; shutil.rmtree(OUT,ignore_errors=True); os.makedirs(OUT+'/ov'); os.makedirs(OUT+'/seg'); os.makedirs(OUT+'/au')
 L=json.load(open(SP+'/out6/boots-picks.json'))          # the eight boots, prices and photo plates already checked
 G=0.20; P=0.05; TEMPO=1.0
 # (label, audio start, audio end, gap after)
@@ -52,7 +52,7 @@ CSS=fast.CSS.replace('HKpx','112px')+'''<style>
 .now{font-size:124px;padding:4px 22px 16px}
 .was{font-size:42px;padding:2px 12px 6px}
 .off{font-size:27px;padding:8px 12px 7px}
-.why{display:none}
+.why{display:inline-block;margin-top:8px;background:var(--ink);color:var(--iv);font-family:'IT';font-style:normal;font-weight:700;font-size:25px;letter-spacing:.1em;text-transform:uppercase;padding:9px 14px 8px;border-radius:6px}
 .hook{top:420px}
 </style>'''
 money=lambda x:f'${x:,.0f}' if abs(x-round(x))<.005 else f'${x:,.2f}'
@@ -61,8 +61,9 @@ O={'h1':hook([('I read almost','') ,('400 sales.','y')],'So you don’t have to.
    'h2':hook([('Only 3 stores','y'),('have boots',''),('40% off.','')]),
    'h3':hook([('My 8','') ,('favorites.','y')]),
    'end':hook([('Tomorrow:','y'),('jewelry.','')],'Which category should I check next?')}
+CHIP=['Final sale','Every size in stock','Sizes 7 and 8 are gone','Only 3 sizes left','Every size in stock','Black is selling out','Black is nearly gone','13 of 16 sizes in']
 for i,it in enumerate(L):
-    O[f'i{i}a']=f'{CSS}<body><div class=panel></div><div class=rank><b>{i+1}</b> of {len(L)}</div><div class=lab><span class=br>{esc(it["brand"])}</span><br><span class=nm>{esc(it["name"])}</span><div class=pr><span class=now>{money(it["now"])}</span><div><div class=was>{money(it["was"])}</div><div class=off>{it["off"]}% off</div></div></div></div></body>'
+    O[f'i{i}a']=f'{CSS}<body><div class=rank><b>{i+1}</b> of {len(L)}</div><div class=lab><span class=br>{esc(it["brand"])}</span><br><span class=nm>{esc(it["name"])}</span><div class=pr><span class=now style="{"font-size:104px;padding-top:12px" if abs(it["now"]-round(it["now"]))>.005 else ""}">{money(it["now"])}</span><div><div class=was>{money(it["was"])}</div><div class=off>{it["off"]}% off</div></div></div><span class=why>{CHIP[i]}</span></div></body>'
     O[f'i{i}b']=O[f'i{i}a']
 for k,h in O.items(): open(f'{OUT}/ov/{k}.html','w').write(h)
 subprocess.run(['node',B+'/shootpng.js',OUT+'/ov'],check=True)
@@ -83,30 +84,46 @@ def still(img,dur):
 import random
 names=sorted({b['brand'] for b in pick.B.values()},key=str.lower); KEEP=['Intentionally Blank','Marcella','Nisolo']
 random.seed(7); order=[n for n in names if n not in KEEP]; random.shuffle(order)
-ECSS=fast.CSS+'''<style>html,body{background:#F4F0E8}
-.cnt{position:absolute;left:60px;top:250px;font-family:'BM';font-size:250px;line-height:.9;color:#1C1A18;letter-spacing:-.03em}
-.cl{position:absolute;left:66px;top:480px;font-family:'IT';font-weight:700;font-size:30px;letter-spacing:.16em;text-transform:uppercase;color:#B4532A}
-.wall{position:absolute;left:60px;right:130px;top:560px;height:1010px;columns:5;column-gap:14px;column-fill:auto;font-family:'IT';font-weight:600;font-size:16.5px;line-height:1.3;color:#1C1A18;text-transform:uppercase;letter-spacing:.02em}
+ECSS=fast.CSS+'''<style>html,body{background:#1C1A18}
+.hd{position:absolute;left:60px;right:60px;top:252px;font-family:'IT';font-weight:700;font-size:31px;letter-spacing:.14em;text-transform:uppercase;color:#F4F0E8}
+.cnt{position:absolute;left:54px;top:300px;font-family:'BM';font-size:270px;line-height:.9;color:#F4F0E8;letter-spacing:-.03em}
+.cl{position:absolute;left:66px;top:556px;font-family:'IT';font-weight:700;font-size:30px;letter-spacing:.16em;text-transform:uppercase;color:#e08a5c}
+.wall{position:absolute;left:60px;right:130px;top:630px;height:940px;columns:5;column-gap:14px;column-fill:auto;font-family:'IT';font-weight:600;font-size:15.6px;line-height:1.3;color:#F4F0E8;text-transform:uppercase;letter-spacing:.02em}
 .wall span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.wall span.x{opacity:.16;text-decoration:line-through}
+.wall span.x{opacity:.17;text-decoration:line-through}
 .wall span.k{background:#B4532A;color:#fff;padding:0 6px;margin:0 -6px;border-radius:4px}
-.fin{position:absolute;left:60px;right:60px;top:600px}
-.fin div{font-family:'BM';font-size:104px;line-height:1.04;color:#1C1A18;letter-spacing:-.02em}
-.fin p{font-family:'NR';font-style:italic;font-size:50px;color:#3d3832;margin-top:26px;line-height:1.2}
+.fin{position:absolute;left:60px;right:60px;top:560px}
+.fin div{font-family:'BM';font-size:124px;line-height:1.12;color:#F4F0E8;letter-spacing:-.02em}
+.fin div.off{opacity:.0}
+.big{position:absolute;left:60px;right:60px;top:300px;font-family:'BM';font-size:104px;line-height:1;color:#F4F0E8;letter-spacing:-.02em}
+.big i{color:#e08a5c}
+.mo{position:absolute;left:60px;right:130px;top:560px;display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.mo div{aspect-ratio:1/1.12;background:#F4F0E8;border-radius:6px;overflow:hidden;position:relative}
+.mo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mo div.dim{opacity:.22}
+.mo div.pk{outline:6px solid #e08a5c;outline-offset:-3px}
 </style>'''
 def wall(nx,final=False):
     gone=set(order[:nx]); remain=round(376-(376-3)*nx/len(order))
     sp=''.join(f'<span class="{"x" if n in gone else ("k" if (final and n in KEEP) else "")}">{esc(n)}</span>' for n in names)
-    return f'{ECSS}<body><div class=cnt>{remain}</div><div class=cl>{"stores with boots 40% off" if final else "Black Friday sales"}</div><div class=wall>{sp}</div></body>'
+    return f'{ECSS}<body><div class=hd>I checked every sale for boots</div><div class=cnt>{remain}</div><div class=cl>{"stores have boots 40% off" if final else "Black Friday sales"}</div><div class=wall>{sp}</div></body>'
 os.makedirs(OUT+'/el')
 steps=[0,0.05,0.12,0.22,0.34,0.47,0.6,0.72,0.82,0.9,0.96,1.0]
 for k,f in enumerate(steps): open(f'{OUT}/el/{k:02d}.html','w').write(wall(round(f*len(order)),final=(f==1.0)))
-open(f'{OUT}/el/98.html','w').write(f'{ECSS}<body><div class=cl style="top:300px">Only three had them</div><div class=fin style="top:380px">'+''.join(f'<div>{esc(n)}</div>' for n in KEEP)+'<p>34 boots at 40% off or more.<br>I picked my 8 favorites.</p></div></body>')
+BP='/tmp/claude-0/-home-user-momenti/f8db058d-6b86-53e9-be25-77324683de3f/scratchpad/bootpick'
+cand=json.load(open(BP+'/items.json')); picks={it['handle'] for it in L}
+def names_card(n): return f'{ECSS}<body><div class=hd>Only three stores had them</div><div class=fin>'+''.join(f'<div class="{"" if j<n else "off"}">{esc(x)}</div>' for j,x in enumerate(KEEP))+'</div></body>'
+def mosaic(mode):
+    t={'all':'<div class=big>34 boots<br>at <i>40% off</i> or more.</div>','pick':'<div class=big>These are my<br><i>8 favorites.</i></div>'}[mode]
+    cells=''.join(f'<div class="{("pk" if c["handle"] in picks else "dim") if mode=="pick" else ""}"><img src="{BP}/{c["imgs"][0]}"></div>' for c in cand)
+    return f'{ECSS}<body><div class=hd>Black Friday · Boots</div>{t}<div class=mo>{cells}</div></body>'
+for k in (1,2,3): open(f'{OUT}/el/9{k}.html','w').write(names_card(k))
+open(f'{OUT}/el/95.html','w').write(mosaic('all')); open(f'{OUT}/el/96.html','w').write(mosaic('pick'))
 subprocess.run(['node',B+'/shoot.js',OUT+'/el'],check=True)
-t_el=D['h2']; hold_last=1.25; each=(t_el-hold_last)/(len(steps)-1)
+t_el=D['h2']; hold_last=1.2; each=(t_el-hold_last)/(len(steps)-1)
 for k in range(len(steps)): still(f'{OUT}/el/{k:02d}.jpg',each if k<len(steps)-1 else hold_last)
-still(f'{OUT}/el/98.jpg',D['h1'])
-seg(hp[1],f'{OUT}/ov/h3.png',D['h3'],True)
+still(f'{OUT}/el/91.jpg',0.35); still(f'{OUT}/el/92.jpg',0.35); still(f'{OUT}/el/93.jpg',0.9); still(f'{OUT}/el/95.jpg',D['h1']-1.6)
+still(f'{OUT}/el/96.jpg',D['h3'])
 dur_item=[D['b0'],D['b1'],D['b2'],D['b3'],D['b4b'],D['b5'],D['b6'],D['b7']]
 for i,it in enumerate(L): fill(it['pl2'],f'{OUT}/ov/i{i}a.png',f'{OUT}/ov/i{i}b.png',dur_item[i],1.5)
 seg(hp[1],f'{OUT}/ov/end.png',D['end'],True)
