@@ -1,0 +1,11 @@
+{"slug":"jewelry-film","tag":"Black Friday","per":4.0,
+ "hook":{"caps":"Jewelry sales.","per":9,"fact":"I counted every piece at each store","dry":"Six worth opening.","dur":2.6,
+         "clips":[{"f":"pv/heavenmayhem_3.mp4","ss":5},{"f":"pv2/thatch_1.mp4","ss":6}]},
+ "brands":[
+  {"brand":"Heaven Mayhem","facts":["Says up to 60% off sitewide","98% of the store is marked down","Final sale · ends Dec 1"],"dry":"Final sale. Choose well.","clips":[{"f":"pv/heavenmayhem_1.mp4","ss":2},{"f":"pv/heavenmayhem_3.mp4","ss":1}]},
+  {"brand":"Loren Hope","facts":["Says 30% off sitewide","20% of the store is half off or more","Ends Dec 7"],"dry":"A fifth is half off.","clips":[{"f":"pv2/lorenhope_0.mp4","ss":1},{"f":"pv2/lorenhope_1.mp4","ss":4}]},
+  {"brand":"Sterling Forever","facts":["Says 20% off sitewide","28% of the store is half off or more","Ends Dec 1"],"dry":"Says 20. Some give 50.","clips":[{"f":"pv2/sterlingforever_1.mp4","ss":2},{"f":"pv2/sterlingforever_0.mp4","ss":3}]},
+  {"brand":"Ariel Gordon","facts":["20% off with code CHEER2026","Ends Dec 1"],"dry":"Bring the code.","clips":[{"f":"pv2/arielgordonjewelry_1.mp4","ss":6},{"f":"pv2/arielgordonjewelry_0.mp4","ss":1}]},
+  {"brand":"Thatch","facts":["25% off","Ends Dec 1"],"dry":"A flat 25.","clips":[{"f":"pv2/thatch_1.mp4","ss":2},{"f":"pv2/thatch_0.mp4","ss":1}]},
+  {"brand":"Miranda Frye","facts":["Says up to 25% off sitewide","Ends Dec 1"],"dry":"For the stack.","clips":[{"f":"pv2/mirandafrye_1.mp4","ss":1},{"f":"pv2/mirandafrye_4.mp4","ss":1}]}],
+ "end":{"caps":"Which store next?","dry":"I’ll count it.","dur":2.6,"clips":[{"f":"raw/heavenmayhem_1.mp4","ss":1}]}}

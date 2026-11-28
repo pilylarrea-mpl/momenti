@@ -1,0 +1,296 @@
+{
+ "slug": "actually-good-v2",
+ "hook": [
+  "black friday sales",
+  "that are actually good"
+ ],
+ "hook_say": "every black friday banner says 'up to'. at these eight stores, 40 to 56% of everything really is 40% off or more. i counted.",
+ "sub": "i counted every in-stock product, store by store",
+ "brands": [
+  {
+   "brand": "Daze Denim",
+   "host": "dazedenim.com",
+   "claim": "black friday event 25% off",
+   "stat": "half the store is 50% off or more",
+   "say": "daze denim. the site says 25% off. half the store is 50 off or more, and most of that is 65. jeans that were 118 are 41 dollars. a lot of it is prints and shorts, so pick carefully.",
+   "bg": {
+    "handle": "hero-high-rise-pleated-baggy-dreamland",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "city-straight-high-rise-straight-leg-1",
+     "img": 1
+    },
+    {
+     "handle": "lowkey-low-rise-flare",
+     "img": 1
+    },
+    {
+     "handle": "wanderer-mid-rise-palazzo-glimmer",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 156,
+    "ge40": 81,
+    "ge50": 78
+   }
+  },
+  {
+   "brand": "Intentionally Blank",
+   "host": "intentionallyblank.us",
+   "claim": "up to 75% off sitewide",
+   "stat": "45% of the store is 40% off or more",
+   "say": "intentionally blank says up to 75% off sitewide, and the whole store really is marked down. 45% of it is 40 off or more, and the black knee-high boots are half off, 162 down from 324.",
+   "bg": {
+    "handle": "seville-knee-high-boot",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "hiperson-leather-knee-high-boot",
+     "img": 0
+    },
+    {
+     "handle": "taffy-patent-leather-heeled-boot",
+     "img": 0
+    },
+    {
+     "handle": "rancher-suede-mid-boot",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 416,
+    "ge40": 186,
+    "ge50": 164
+   }
+  },
+  {
+   "brand": "Hanky Panky",
+   "host": "hankypanky.com",
+   "claim": "30% off sitewide + up to 65% off sale",
+   "stat": "44% of the store is 40% off or more",
+   "say": "hanky panky is 30% off sitewide, but 44% of the store is 40 off or more. the thong 3-packs are half off, 27 instead of 54. the deepest cuts are swimsuits, in november, so think vacation.",
+   "bg": {
+    "handle": "unwind-chemise-so-in-love-pink",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "plum-pudding-3-pack-movecalm-high-rise-thongs",
+     "img": 0
+    },
+    {
+     "handle": "satin-sleep-pant-light-ivory",
+     "img": 0
+    },
+    {
+     "handle": "midnight-snack-5-pack-movecalm-high-rise-thongs",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 853,
+    "ge40": 372,
+    "ge50": 203
+   }
+  },
+  {
+   "brand": "LAKE",
+   "host": "lakepajamas.com",
+   "claim": "25% off sitewide",
+   "stat": "44% of the store is 40% off or more",
+   "say": "lake pajamas says 25% off sitewide. i counted 44% of the store at 40 off or more. the fair isle set is 62 instead of 124. nothing goes past 50 though, so don't wait for more.",
+   "bg": {
+    "handle": "english-navy-fair-isle-crew-short-long-set",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "french-blue-solid-pointelle-pajama-pants-set",
+     "img": 0
+    },
+    {
+     "handle": "dusty-blue-relax-robe",
+     "img": 0
+    },
+    {
+     "handle": "gelato-riviera-stripe-piped-short-long-set",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 538,
+    "ge40": 239,
+    "ge50": 75
+   }
+  },
+  {
+   "brand": "Alexandra Miro",
+   "host": "alexandramiro.com",
+   "claim": "20–50% off",
+   "stat": "half the store is 50% off or more",
+   "say": "alexandra miro says 20 to 50% off, and half the store really is 50 or more. the scarf print mini is 192, it was 480. but almost all of it is final sale, so know your size first.",
+   "bg": {
+    "handle": "poppy-dress-red-capri",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "sophia-dress-scarf-print",
+     "img": 2
+    },
+    {
+     "handle": "dorian-dress-gold-knit",
+     "img": 0
+    },
+    {
+     "handle": "willow-swimsuit-scarf-print",
+     "img": 3
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 126,
+    "ge40": 67,
+    "ge50": 63
+   }
+  },
+  {
+   "brand": "ANEMOS",
+   "host": "anemoslosangeles.com",
+   "claim": "20% off select styles with code",
+   "stat": "56% of the store is 40% off or more",
+   "say": "anemos only advertises 20% off with a code. but more than half the store is already marked 40 off or more. the halter midi starts at 150, it was 495. heads up, sale pieces are final sale.",
+   "bg": {
+    "handle": "ruched-off-the-shoulder-maxi-dress-in-compact-jersey",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "bond-midi-dress-in-stretch-twill",
+     "img": 0
+    },
+    {
+     "handle": "wide-leg-pant-in-stretch-twill",
+     "img": 0
+    },
+    {
+     "handle": "rey-bias-cut-skirt-in-fluid-stretch-sateen",
+     "img": 0
+    }
+   ],
+   "code": "BFCM26",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 192,
+    "ge40": 107,
+    "ge50": 72
+   }
+  },
+  {
+   "brand": "M.M.LaFleur",
+   "host": "mmlafleur.com",
+   "claim": "up to 70% off",
+   "stat": "40% of the store is 40% off or more",
+   "say": "m.m.lafleur, up to 70% off. 40% of the store is 40 off or more and a third is past half. this is the one for work clothes: the black taka wrap dress is 94, down from 429.",
+   "bg": {
+    "handle": "yiyan-laurel-green-stripe",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "priscilla-beige-melange",
+     "img": 0
+    },
+    {
+     "handle": "porter-blazer-interweave-black-white",
+     "img": 0
+    },
+    {
+     "handle": "taka-black",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "",
+   "numbers": {
+    "instock": 953,
+    "ge40": 384,
+    "ge50": 335
+   }
+  },
+  {
+   "brand": "Emme Parsons",
+   "host": "emmeparsons.com",
+   "claim": "private sale",
+   "stat": "41% of the store is 40% off or more",
+   "say": "emme parsons calls it a private sale, no number on the homepage. 41% of the store is 40 off. these are still 387 dollar heels, down from 645, so only if you've wanted a pair for a while.",
+   "bg": {
+    "handle": "isabel-black-calf",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "delicat-bordeaux-kidskin",
+     "img": 0
+    },
+    {
+     "handle": "salome-mary-jane-washed-gold-nappa",
+     "img": 0
+    },
+    {
+     "handle": "high-throat-ballerina-black-woven",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 134,
+    "ge40": 55,
+    "ge50": 7
+   }
+  }
+ ],
+ "close_say": "that's eight where the markdowns are real. which store should i count next?",
+ "end_text": [
+  "the banner vs. what's really marked down",
+  "which store should i count next?"
+ ],
+ "caption": "Eight Black Friday sales where a big share of the store really is 40% off or more, counted product by product on Nov 26-27. Some of these advertise way less than they're giving. Which store do you want me to count next? Commissionable links in bio.",
+ "pinned_comment": "how i counted: every in-stock product on each site, share marked 40% off or more vs its own original price, read Nov 26-27. alexandra miro and anemos sale pieces are final sale. i left out stores where nearly everything is always 'on sale', those original prices don't mean much.",
+ "recheck": [
+  "Counts are from catalogs read Nov 26-27; reload each sale page Sat morning and confirm the tile items are still marked down and in stock.",
+  "ANEMOS: confirm whether code BFCM26 (20% off select styles) stacks on already marked-down pieces; script does not claim it does. Confirm final-sale wording.",
+  "M.M.LaFleur: sheet has no end date; homepage says both 'up to 70% off' and 'Save 70% sitewide'. Confirm the sale is live Nov 28.",
+  "Emme Parsons: sheet row says '80% off' but homepage only says 'Private Sale'; I used 'private sale'. Deepest cuts are single archive samples (final sale).",
+  "Daze Denim: 66 of the 81 pieces at 40%+ are 65% off, mostly prints, shorts and skirts; check that the 25% banner is still what the homepage says.",
+  "Hanky Panky: 30% sitewide has exclusions (*) per homepage.",
+  "LAKE: stat is 44% (239 of 538) with pick.share, not the 45 from the first pass. Alexandra Miro is 53% at 40%+ (not 54) and 50% at 50%+.",
+  "ANEMOS bond dress: $150 is the lowest in-stock variant; confirm which color/size before saying it on camera.",
+  "Intentionally Blank bg (seville boot) is 40% off; tiles are 50-60% off."
+ ],
+ "dropped": [
+  "Vitality: 48% at 40%+ but 96% of the store is marked down at flat 40/60% tiers, looks like a standing discount; activewear, weakest fit",
+  "Marea: 44% at 40%+ but mostly summer dresses and kids, sale ends Nov 30, less known",
+  "alice + olivia: 36% at 40%+ (catalog has duplicate listings); offer changes Nov 28 and again Nov 30, risky to quote",
+  "FRĒDA SALVADOR: 35% at 40%+, under the bar; good loafers and boots, could go in another video",
+  "Heaven Mayhem: 26% at 40%+, all final sale",
+  "Marcella: 98% of store marked down, looks permanently discounted (suspicious original prices)",
+  "Noble/Vicci Eyewear: looks permanently discounted, left out"
+ ],
+ "end_q": "which store should i count next?",
+ "hook_dur": 2.0
+}

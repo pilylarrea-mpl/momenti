@@ -1,0 +1,3892 @@
+{
+ "kyrgies.com": {
+  "brand": "Kyrgies",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3293655c6184410fb8e82faec964648f/3293655c6184410fb8e82faec964648f.HD-1080p-7.2Mbps-100748600.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 82.0,
+    "handle": "tian-shan-mountain-blanket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/877a0e64abf64e59a857651daf9a7977/877a0e64abf64e59a857651daf9a7977.SD-480p-0.9Mbps.mp4",
+    "w": 910,
+    "h": 480,
+    "dur": 9.275,
+    "handle": "low-back-molded-sole"
+   }
+  ]
+ },
+ "hudsongracesf.com": {
+  "brand": "Hudson Grace",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "shop437.com": {
+  "brand": "437",
+  "industry": "Fashion & Apparel",
+  "ok": 8,
+  "fail": 2,
+  "vids": []
+ },
+ "frejanyc.com": {
+  "brand": "Freja",
+  "industry": "Handbags & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a3665bbf7d68403bb49299ff064d1188/a3665bbf7d68403bb49299ff064d1188.HD-1080p-3.3Mbps-87716530.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 7.07,
+    "handle": "lafayette-tote-oat"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d8fbe9872e7b4c52a567705de9c9f9f0/d8fbe9872e7b4c52a567705de9c9f9f0.HD-1080p-4.8Mbps-47725174.mp4",
+    "w": 862,
+    "h": 1080,
+    "dur": 14.5,
+    "handle": "lafayette-tote-oat"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0a9089c8dd544668bb4b2667d2cca26f/0a9089c8dd544668bb4b2667d2cca26f.HD-1080p-3.3Mbps-87716029.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 7.7,
+    "handle": "lafayette-tote-black"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d8fbe9872e7b4c52a567705de9c9f9f0/d8fbe9872e7b4c52a567705de9c9f9f0.HD-1080p-4.8Mbps-47725174.mp4",
+    "w": 862,
+    "h": 1080,
+    "dur": 14.5,
+    "handle": "lafayette-tote-black"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/de1d9920185140b6a9227314fca36809/de1d9920185140b6a9227314fca36809.HD-1080p-3.3Mbps-87697442.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 8.83,
+    "handle": "bleecker-tote-oat"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/464935e6f91f44b48af9a25319bf08c6/464935e6f91f44b48af9a25319bf08c6.HD-1080p-4.8Mbps-47721802.mp4",
+    "w": 862,
+    "h": 1080,
+    "dur": 15.25,
+    "handle": "bleecker-tote-oat"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1665c184abbc4c3890b7d2856ebd0f8a/1665c184abbc4c3890b7d2856ebd0f8a.HD-1080p-4.8Mbps-87696219.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 9.23,
+    "handle": "alma-tall-black-gloss"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/03aa7b7ca5104566b1a8a1609c9182e6/03aa7b7ca5104566b1a8a1609c9182e6.HD-1080p-4.8Mbps-87695109.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 10.57,
+    "handle": "ida-bag-sand"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/95bceca76c354e0aba45a36e7f31172b/95bceca76c354e0aba45a36e7f31172b.HD-1080p-7.2Mbps-86780658.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 28.39,
+    "handle": "ida-bag-sand"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/95bceca76c354e0aba45a36e7f31172b/95bceca76c354e0aba45a36e7f31172b.HD-1080p-7.2Mbps-86780658.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 28.39,
+    "handle": "ida-bag-cedar"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bd9be3d4235d470bbaa3caad85df7550/bd9be3d4235d470bbaa3caad85df7550.HD-1080p-3.3Mbps-87695895.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 10.17,
+    "handle": "alma-bag-black-gloss"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/21ab5b30b2c84ec4955ac4e39ff0efeb/21ab5b30b2c84ec4955ac4e39ff0efeb.HD-1080p-3.3Mbps-87760129.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 6.67,
+    "handle": "mae-bag-oat"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/43646e4b1eb74982a47f4871f2857da1/43646e4b1eb74982a47f4871f2857da1.HD-1080p-7.2Mbps-86781381.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 28.61,
+    "handle": "mae-bag-oat"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cd0f145352e1488da944f122d7145642/cd0f145352e1488da944f122d7145642.HD-1080p-3.3Mbps-87718253.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 10.73,
+    "handle": "linnea-tote-sand"
+   }
+  ]
+ },
+ "aizome-textiles.com": {
+  "brand": "AIZOME",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/dc7bba6936e2443b82d01e01053d4037/dc7bba6936e2443b82d01e01053d4037.HD-720p-4.5Mbps-87239503.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.4,
+    "handle": "organic-duvet-cover-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/862b130b93654308a2bfb2fa9979a038/862b130b93654308a2bfb2fa9979a038.HD-720p-4.5Mbps-87240148.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.53,
+    "handle": "organic-duvet-cover-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a064e75ff8e24d35839104fcd3313e6c/a064e75ff8e24d35839104fcd3313e6c.HD-720p-4.5Mbps-87240147.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 12.93,
+    "handle": "organic-duvet-cover-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d9cdd886db854c0c8be6884c55e01c80/d9cdd886db854c0c8be6884c55e01c80.HD-720p-4.5Mbps-87240146.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 20.2,
+    "handle": "organic-duvet-cover-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/250358556ccb41e2b6e1fbc8133f71d5/250358556ccb41e2b6e1fbc8133f71d5.HD-720p-4.5Mbps-87240144.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-duvet-cover-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7eea855f8fe64a34bbe9a294fc2c2a40/7eea855f8fe64a34bbe9a294fc2c2a40.HD-720p-4.5Mbps-87240145.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-duvet-cover-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/dc7bba6936e2443b82d01e01053d4037/dc7bba6936e2443b82d01e01053d4037.HD-720p-4.5Mbps-87239503.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.4,
+    "handle": "organic-sheet-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/862b130b93654308a2bfb2fa9979a038/862b130b93654308a2bfb2fa9979a038.HD-720p-4.5Mbps-87240148.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.53,
+    "handle": "organic-sheet-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a064e75ff8e24d35839104fcd3313e6c/a064e75ff8e24d35839104fcd3313e6c.HD-720p-4.5Mbps-87240147.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 12.93,
+    "handle": "organic-sheet-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d9cdd886db854c0c8be6884c55e01c80/d9cdd886db854c0c8be6884c55e01c80.HD-720p-4.5Mbps-87240146.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 20.2,
+    "handle": "organic-sheet-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/250358556ccb41e2b6e1fbc8133f71d5/250358556ccb41e2b6e1fbc8133f71d5.HD-720p-4.5Mbps-87240144.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-sheet-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7eea855f8fe64a34bbe9a294fc2c2a40/7eea855f8fe64a34bbe9a294fc2c2a40.HD-720p-4.5Mbps-87240145.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-sheet-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/dc7bba6936e2443b82d01e01053d4037/dc7bba6936e2443b82d01e01053d4037.HD-720p-4.5Mbps-87239503.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.4,
+    "handle": "organic-duvet-cover"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/862b130b93654308a2bfb2fa9979a038/862b130b93654308a2bfb2fa9979a038.HD-720p-4.5Mbps-87240148.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.53,
+    "handle": "organic-duvet-cover"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a064e75ff8e24d35839104fcd3313e6c/a064e75ff8e24d35839104fcd3313e6c.HD-720p-4.5Mbps-87240147.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 12.93,
+    "handle": "organic-duvet-cover"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d9cdd886db854c0c8be6884c55e01c80/d9cdd886db854c0c8be6884c55e01c80.HD-720p-4.5Mbps-87240146.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 20.2,
+    "handle": "organic-duvet-cover"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/250358556ccb41e2b6e1fbc8133f71d5/250358556ccb41e2b6e1fbc8133f71d5.HD-720p-4.5Mbps-87240144.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-duvet-cover"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7eea855f8fe64a34bbe9a294fc2c2a40/7eea855f8fe64a34bbe9a294fc2c2a40.HD-720p-4.5Mbps-87240145.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-duvet-cover"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/dc7bba6936e2443b82d01e01053d4037/dc7bba6936e2443b82d01e01053d4037.HD-720p-4.5Mbps-87239503.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.4,
+    "handle": "organic-fitted-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/862b130b93654308a2bfb2fa9979a038/862b130b93654308a2bfb2fa9979a038.HD-720p-4.5Mbps-87240148.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.53,
+    "handle": "organic-fitted-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a064e75ff8e24d35839104fcd3313e6c/a064e75ff8e24d35839104fcd3313e6c.HD-720p-4.5Mbps-87240147.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 12.93,
+    "handle": "organic-fitted-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d9cdd886db854c0c8be6884c55e01c80/d9cdd886db854c0c8be6884c55e01c80.HD-720p-4.5Mbps-87240146.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 20.2,
+    "handle": "organic-fitted-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/250358556ccb41e2b6e1fbc8133f71d5/250358556ccb41e2b6e1fbc8133f71d5.HD-720p-4.5Mbps-87240144.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-fitted-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7eea855f8fe64a34bbe9a294fc2c2a40/7eea855f8fe64a34bbe9a294fc2c2a40.HD-720p-4.5Mbps-87240145.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-fitted-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/dc7bba6936e2443b82d01e01053d4037/dc7bba6936e2443b82d01e01053d4037.HD-720p-4.5Mbps-87239503.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.4,
+    "handle": "organic-top-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/862b130b93654308a2bfb2fa9979a038/862b130b93654308a2bfb2fa9979a038.HD-720p-4.5Mbps-87240148.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 19.53,
+    "handle": "organic-top-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a064e75ff8e24d35839104fcd3313e6c/a064e75ff8e24d35839104fcd3313e6c.HD-720p-4.5Mbps-87240147.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 12.93,
+    "handle": "organic-top-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d9cdd886db854c0c8be6884c55e01c80/d9cdd886db854c0c8be6884c55e01c80.HD-720p-4.5Mbps-87240146.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 20.2,
+    "handle": "organic-top-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/250358556ccb41e2b6e1fbc8133f71d5/250358556ccb41e2b6e1fbc8133f71d5.HD-720p-4.5Mbps-87240144.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-top-sheet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7eea855f8fe64a34bbe9a294fc2c2a40/7eea855f8fe64a34bbe9a294fc2c2a40.HD-720p-4.5Mbps-87240145.mp4",
+    "w": 1280,
+    "h": 720,
+    "dur": 25.33,
+    "handle": "organic-top-sheet"
+   }
+  ]
+ },
+ "marcellanyc.com": {
+  "brand": "Marcella",
+  "industry": "Fashion & Apparel",
+  "ok": 0,
+  "fail": 10,
+  "vids": []
+ },
+ "almina-concept.com": {
+  "brand": "Almina Concept",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "mmlafleur.com": {
+  "brand": "M.M.LaFleur",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6e3731813de24d2dad1ad8d296e9889a/6e3731813de24d2dad1ad8d296e9889a.HD-1080p-7.2Mbps-77990666.mp4",
+    "w": 720,
+    "h": 1080,
+    "dur": 16.72,
+    "handle": "yiyan-palm-toile"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0d752cc2bff34a308d8d6ff4322238c9/0d752cc2bff34a308d8d6ff4322238c9.HD-1080p-7.2Mbps-79809295.mp4",
+    "w": 720,
+    "h": 1080,
+    "dur": 15.1,
+    "handle": "yiyan-palm-toile"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9bcc0a9f59de4feb83216b2557eae3f9/9bcc0a9f59de4feb83216b2557eae3f9.HD-1080p-7.2Mbps-77999251.mp4",
+    "w": 720,
+    "h": 1080,
+    "dur": 12.2,
+    "handle": "yiyan-palm-toile"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0bc75e41a2c74e669f4962b459e7136f/0bc75e41a2c74e669f4962b459e7136f.HD-1080p-7.2Mbps-77989329.mp4",
+    "w": 720,
+    "h": 1080,
+    "dur": 15.1,
+    "handle": "yiyan-palm-toile"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5ddc13596d144d0c872156e507998e2b/5ddc13596d144d0c872156e507998e2b.HD-1080p-7.2Mbps-77019282.mp4",
+    "w": 720,
+    "h": 1080,
+    "dur": 17.1,
+    "handle": "rossi-dark-navy"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6f8c890d72fc49498f12ad0bfcddbd45/6f8c890d72fc49498f12ad0bfcddbd45.HD-1080p-7.2Mbps-79561997.mp4",
+    "w": 810,
+    "h": 1080,
+    "dur": 3.28,
+    "handle": "rossi-dark-navy"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a471dde47c8b43f8a7361c57e23d1848/a471dde47c8b43f8a7361c57e23d1848.HD-1080p-7.2Mbps-81321656.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 17.73,
+    "handle": "rossi-navy"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/64d92639a73f4ba0810067fef0acf380/64d92639a73f4ba0810067fef0acf380.HD-1080p-7.2Mbps-76989911.mp4",
+    "w": 810,
+    "h": 1080,
+    "dur": 5.18,
+    "handle": "porter-blazer-interweave-black-white"
+   }
+  ]
+ },
+ "materialkitchen.com": {
+  "brand": "Material",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "roamluggage.com": {
+  "brand": "ROAM Luggage",
+  "industry": "Travel & Luggage",
+  "ok": 9,
+  "fail": 1,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6ce69348151d424ca94a28c075d75885/6ce69348151d424ca94a28c075d75885.HD-1080p-2.5Mbps-77808146.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 23.73,
+    "handle": "bundle-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6878cb04af0d434a9eaa32b79aa6ceee/6878cb04af0d434a9eaa32b79aa6ceee.HD-1080p-2.5Mbps-78151522.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.05,
+    "handle": "bundle-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b584718ffdbc4290bbf28d866b4e7145/b584718ffdbc4290bbf28d866b4e7145.HD-1080p-2.5Mbps-77807987.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 39.0,
+    "handle": "bundle-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/78640d7dadf44d3abba43020eabb5591/78640d7dadf44d3abba43020eabb5591.HD-1080p-2.5Mbps-77807986.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 13.6,
+    "handle": "bundle-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/046ace6c26ed4b3bac25695d8eba884a/046ace6c26ed4b3bac25695d8eba884a.HD-1080p-2.5Mbps-78232952.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 21.36,
+    "handle": "bundle-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/15d3778cda40470fafdc342322bc670c/15d3778cda40470fafdc342322bc670c.HD-1080p-2.5Mbps-78151592.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.05,
+    "handle": "bundle-7"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/afde0f88940147fd896736cfd3b747fc/afde0f88940147fd896736cfd3b747fc.HD-1080p-2.5Mbps-77807961.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 16.39,
+    "handle": "bundle-7"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/127821caefca4b43bb414d0e5a6cc99e/127821caefca4b43bb414d0e5a6cc99e.HD-1080p-2.5Mbps-77807967.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 13.6,
+    "handle": "bundle-7"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5293ceb93a2142b5a44dac13fdd4d1c3/5293ceb93a2142b5a44dac13fdd4d1c3.HD-1080p-2.5Mbps-78232915.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 21.36,
+    "handle": "bundle-7"
+   }
+  ]
+ },
+ "shopvitality.com": {
+  "brand": "Vitality",
+  "industry": "Fashion & Apparel",
+  "ok": 0,
+  "fail": 10,
+  "vids": []
+ },
+ "lorenhope.com": {
+  "brand": "Loren Hope",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3549ba6c98b843b585508d949966ca32/3549ba6c98b843b585508d949966ca32.HD-1080p-7.2Mbps-81795936.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 8.42,
+    "handle": "sheridan-statement-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/8a94d56290a64a1eb30baa19d0ff7d84/8a94d56290a64a1eb30baa19d0ff7d84.HD-1080p-7.2Mbps-9527437.mp4",
+    "w": 924,
+    "h": 1080,
+    "dur": 19.2,
+    "handle": "catherine-tiara"
+   }
+  ]
+ },
+ "nudestix.com": {
+  "brand": "NUDESTIX",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "nooance-paris.com": {
+  "brand": "NOO\u0100NCE",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "ziipbeauty.com": {
+  "brand": "ZIIP",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "epjewels.com": {
+  "brand": "EP Jewels",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "thehouseofnoa.com": {
+  "brand": "House of Noa",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/08a4e6928c4447328e55c92b3a934dab/08a4e6928c4447328e55c92b3a934dab.HD-1080p-7.2Mbps-30425165.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 12.01,
+    "handle": "tumbling-mat-folklore-fog"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c9f2d228de624c14bd2d174545beb59e/c9f2d228de624c14bd2d174545beb59e.HD-1080p-7.2Mbps-42532412.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 10.67,
+    "handle": "nama-standing-mat-ula-gray"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9a343d5f24794659844561105a9b4d23/9a343d5f24794659844561105a9b4d23.HD-1080p-7.2Mbps-30884220.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 10.67,
+    "handle": "nama-standing-mat-ula-windmill"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e7e4ad0523c7423fbf2d0a07a1908529/e7e4ad0523c7423fbf2d0a07a1908529.HD-1080p-7.2Mbps-42532616.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 10.67,
+    "handle": "nama-standing-mat-ula-avalon"
+   }
+  ]
+ },
+ "barefaced.com": {
+  "brand": "Barefaced",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c0d40db4ddb9415898f7ed5ab47fa64b/c0d40db4ddb9415898f7ed5ab47fa64b.HD-1080p-3.3Mbps-99498676.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 37.0,
+    "handle": "minimalist-kit"
+   }
+  ]
+ },
+ "goruck.com": {
+  "brand": "GORUCK",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "amodenim.com": {
+  "brand": "AMO Denim",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/dcf3623fcff7409b90aac9e1c8f5deeb/dcf3623fcff7409b90aac9e1c8f5deeb.HD-1080p-7.2Mbps-67317971.mp4",
+    "w": 710,
+    "h": 1080,
+    "dur": 11.93,
+    "handle": "mandy-jacket-pause"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/feea613bc4b5478da4f76b31bb1a79f2/feea613bc4b5478da4f76b31bb1a79f2.HD-1080p-7.2Mbps-78020756.mp4",
+    "w": 710,
+    "h": 1080,
+    "dur": 10.05,
+    "handle": "cate-weekender"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/07fa9681f7414d948f2f2b4f353e37ff/07fa9681f7414d948f2f2b4f353e37ff.HD-1080p-7.2Mbps-83890686.mp4",
+    "w": 710,
+    "h": 1080,
+    "dur": 16.47,
+    "handle": "donna-trouser-submerge"
+   }
+  ]
+ },
+ "arielgordonjewelry.com": {
+  "brand": "Ariel Gordon Jewelry",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/065abdc880c94af6a2ed6a5df9ace49b/065abdc880c94af6a2ed6a5df9ace49b.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.475,
+    "handle": "diamond-hex-tennis-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e67c44acf1b24796b1e6c348a6d68b1f/e67c44acf1b24796b1e6c348a6d68b1f.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 12.512,
+    "handle": "diamond-hex-tennis-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/304e3051e9784552b5f70e72cb65e98c/304e3051e9784552b5f70e72cb65e98c.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 10.677,
+    "handle": "diamond-hex-tennis-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6641f166f1994089a3fde20e86369527/6641f166f1994089a3fde20e86369527.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 16.483,
+    "handle": "diamond-hex-tennis-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/014f975165de45e4b5ae74fe846db027/014f975165de45e4b5ae74fe846db027.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.274,
+    "handle": "diamond-hex-tennis-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d7fc3dcefa2d4114b1ea5db33ddbf0a4/d7fc3dcefa2d4114b1ea5db33ddbf0a4.SD-480p-1.2Mbps-13593784.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 18.05,
+    "handle": "diamond-hex-tennis-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e7800dc1e7e84dd099d94142674ee549/e7800dc1e7e84dd099d94142674ee549.HD-1080p-7.2Mbps-46034223.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 27.2,
+    "handle": "diamond-hex-tennis-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9264949889e2444d82c19c10eb891a21/9264949889e2444d82c19c10eb891a21.SD-480p-0.9Mbps.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 11.945,
+    "handle": "diamond-champ-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d29493cf87174a39bfb0ab942999445d/d29493cf87174a39bfb0ab942999445d.SD-480p-0.9Mbps.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 9.576,
+    "handle": "diamond-champ-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/8883802a42134fae9698fb80cb038fd5/8883802a42134fae9698fb80cb038fd5.SD-480p-0.9Mbps.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 7.307,
+    "handle": "diamond-champ-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cec4c4d26d97407889729879898f276b/cec4c4d26d97407889729879898f276b.SD-480p-0.9Mbps.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 13.48,
+    "handle": "diamond-champ-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/8359f07c07e549909da103be7c8dc013/8359f07c07e549909da103be7c8dc013.HD-1080p-7.2Mbps-48075430.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 13.08,
+    "handle": "diamond-champ-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1b4eaf97872640418dcb9f20444cf4df/1b4eaf97872640418dcb9f20444cf4df.HD-1080p-2.5Mbps-45587768.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 12.88,
+    "handle": "dynasty-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/66f69feeba7b499499493cdde67607aa/66f69feeba7b499499493cdde67607aa.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.943,
+    "handle": "dynasty-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9ab5ea9727c24b8e87fe5e6b2dbc8c09/9ab5ea9727c24b8e87fe5e6b2dbc8c09.SD-480p-1.2Mbps-13504236.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 18.22,
+    "handle": "dynasty-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6eb93497a7ad412d833e6d6bede6b867/6eb93497a7ad412d833e6d6bede6b867.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.478,
+    "handle": "dynasty-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/23564260093a414a892b32769137ea0e/23564260093a414a892b32769137ea0e.HD-1080p-2.5Mbps-45670360.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 23.37,
+    "handle": "tubogas-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ba9882bc367d4ae98c6fffd8c0cc0b20/ba9882bc367d4ae98c6fffd8c0cc0b20.HD-1080p-7.2Mbps-46095307.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 28.57,
+    "handle": "tubogas-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/21bdf89161534e35baabb2aed4219cb2/21bdf89161534e35baabb2aed4219cb2.HD-1080p-7.2Mbps-46095726.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 31.0,
+    "handle": "tubogas-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/384c3f5b174447d2bf9d3a7bc7236b72/384c3f5b174447d2bf9d3a7bc7236b72.HD-1080p-7.2Mbps-93855084.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.87,
+    "handle": "diamond-cadence-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a54bd4b765f54900bf3de33ddadca5f5/a54bd4b765f54900bf3de33ddadca5f5.HD-1080p-7.2Mbps-93855085.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 4.61,
+    "handle": "diamond-cadence-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/162bcd4332a3403ab2ec0a53cd42a879/162bcd4332a3403ab2ec0a53cd42a879.SD-480p-0.9Mbps.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 19.019,
+    "handle": "classic-link-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ea3837a92dc74b82bbe34d14100f5e53/ea3837a92dc74b82bbe34d14100f5e53.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 17.617,
+    "handle": "classic-link-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/01a6165879b44230ab0c678c19a0f144/01a6165879b44230ab0c678c19a0f144.SD-480p-1.2Mbps-13504426.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 16.04,
+    "handle": "classic-link-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/8e0ae3df74464d93b6d8c3d0c5fd8263/8e0ae3df74464d93b6d8c3d0c5fd8263.SD-480p-0.9Mbps.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 17.35,
+    "handle": "classic-link-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/da9b75bc2fa24278af948b2c19010de0/da9b75bc2fa24278af948b2c19010de0.SD-480p-1.2Mbps.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 9.009,
+    "handle": "classic-link-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/51b917fd181343ecb3e97416fa68d950/51b917fd181343ecb3e97416fa68d950.HD-1080p-2.5Mbps-22030922.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 14.92,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6cfa94db565b4bf3b12414671e5e0779/6cfa94db565b4bf3b12414671e5e0779.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 7.841,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/34d85eeed59e4a878d00a6074abb3a62/34d85eeed59e4a878d00a6074abb3a62.HD-1080p-2.5Mbps-22030928.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 12.0,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bd56cd1852084a7e8b56feccd5de2f8b/bd56cd1852084a7e8b56feccd5de2f8b.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 18.752,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/27f115f4ea18485eaac35a07c80b6b2f/27f115f4ea18485eaac35a07c80b6b2f.SD-480p-1.2Mbps-45739268.mp4",
+    "w": 480,
+    "h": 480,
+    "dur": 17.66,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6477ef20f0594a3e826856c9ce86adc7/6477ef20f0594a3e826856c9ce86adc7.HD-1080p-2.5Mbps.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.911,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a22f2af4b92146678251959e27acca4e/a22f2af4b92146678251959e27acca4e.HD-1080p-7.2Mbps-46836998.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 23.37,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1e881d473e6644f790e8b47d1edd7039/1e881d473e6644f790e8b47d1edd7039.HD-1080p-7.2Mbps-99512991.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 14.27,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5f0d413f09ec49d5945b9c8cc1b2fc44/5f0d413f09ec49d5945b9c8cc1b2fc44.HD-1080p-3.3Mbps-46835285.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 13.4,
+    "handle": "diamond-hex-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e075334494f54f758663191e7302ba44/e075334494f54f758663191e7302ba44.HD-1080p-2.5Mbps-79318711.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 6.05,
+    "handle": "gold-bar-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/89922287d0c74f63a352c925c65f1d05/89922287d0c74f63a352c925c65f1d05.HD-1080p-7.2Mbps-46032905.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 15.5,
+    "handle": "diamond-arrow-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e0b3e37fa99f46d9913f9969808dc309/e0b3e37fa99f46d9913f9969808dc309.HD-1080p-7.2Mbps-46032888.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 20.35,
+    "handle": "diamond-arrow-tennis-bracelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/30f8374d205c49da80ae06a46eb0b683/30f8374d205c49da80ae06a46eb0b683.HD-1080p-7.2Mbps-46032884.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 31.0,
+    "handle": "diamond-arrow-tennis-bracelet"
+   }
+  ]
+ },
+ "nisolo.com": {
+  "brand": "Nisolo",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "sonyadakar.com": {
+  "brand": "SONYA DAKAR SKINCARE",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "gethommey.com": {
+  "brand": "Hommey",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1d7ec03bf0c04e93886061b4b7fa1c85/1d7ec03bf0c04e93886061b4b7fa1c85.HD-1080p-7.2Mbps-88365731.mp4",
+    "w": 866,
+    "h": 1080,
+    "dur": 11.39,
+    "handle": "robe-sunflower"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/8db3ba8730594a91bd4f992684880889/8db3ba8730594a91bd4f992684880889.HD-1080p-7.2Mbps-88365729.mp4",
+    "w": 866,
+    "h": 1080,
+    "dur": 11.95,
+    "handle": "robe-smoke"
+   }
+  ]
+ },
+ "colorescience.com": {
+  "brand": "Colorescience",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "aureumcollective.com": {
+  "brand": "AUREUM",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "join-eby.com": {
+  "brand": "EBY",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/2fc689e82a4642798cf24d6a06ecb07a/2fc689e82a4642798cf24d6a06ecb07a.HD-1080p-2.5Mbps-36956951.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 13.0,
+    "handle": "lila-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9f587827b93a4c1e9c94a90b734ee5d9/9f587827b93a4c1e9c94a90b734ee5d9.HD-1080p-2.5Mbps-87889007.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 13.97,
+    "handle": "dazed-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ca1497250e9747c89687ce4dc59b7325/ca1497250e9747c89687ce4dc59b7325.HD-1080p-2.5Mbps-87889008.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 14.0,
+    "handle": "deco-drive-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/66920d63e26e49db859cc46d3780441b/66920d63e26e49db859cc46d3780441b.HD-1080p-2.5Mbps-77315809.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 20.05,
+    "handle": "sunset-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/2fc689e82a4642798cf24d6a06ecb07a/2fc689e82a4642798cf24d6a06ecb07a.HD-1080p-2.5Mbps-36956951.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 13.0,
+    "handle": "sunset-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/2fc689e82a4642798cf24d6a06ecb07a/2fc689e82a4642798cf24d6a06ecb07a.HD-1080p-2.5Mbps-36956951.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 13.0,
+    "handle": "floret-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a737ccd17573476e9fda29ea5e15c6ae/a737ccd17573476e9fda29ea5e15c6ae.HD-1080p-2.5Mbps-36956850.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 13.0,
+    "handle": "fallen-rock-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b230a89d567d4acda82cfb8d33a64cce/b230a89d567d4acda82cfb8d33a64cce.HD-1080p-2.5Mbps-36956600.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 13.0,
+    "handle": "sunkissed-relief-bra"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6a53d23e566f47acb89f2ef6272c6b4d/6a53d23e566f47acb89f2ef6272c6b4d.HD-1080p-2.5Mbps-37002360.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 21.0,
+    "handle": "orchid-3d-precision-bra-cup-band"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5d47efd382d34233933c00f0e95cbdc4/5d47efd382d34233933c00f0e95cbdc4.HD-1080p-2.5Mbps-37002363.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 21.0,
+    "handle": "raindrop-pain-free-t-shirt-bra"
+   }
+  ]
+ },
+ "alexandramiro.com": {
+  "brand": "Alexandra Miro",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/2b72773cc2084ac09ffb8312dce188a5/2b72773cc2084ac09ffb8312dce188a5.HD-1080p-7.2Mbps-86104602.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 4.44,
+    "handle": "clover-dress-red-capri"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d68541cb3e3a4a66bfe9640ed0b61b03/d68541cb3e3a4a66bfe9640ed0b61b03.HD-1080p-7.2Mbps-84038858.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 15.5,
+    "handle": "ava-dress-iridescent-wave"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3e12a6869aeb48c88b63799b5ba538af/3e12a6869aeb48c88b63799b5ba538af.HD-1080p-7.2Mbps-77473376.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 15.84,
+    "handle": "ava-dress-fluid-marble"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0017b8ca90fa47168f4c3625ab805049/0017b8ca90fa47168f4c3625ab805049.HD-1080p-7.2Mbps-64482695.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 27.03,
+    "handle": "odetta-dress-pink-botanical"
+   }
+  ]
+ },
+ "twopagescurtains.com": {
+  "brand": "TWOPAGES Curtains",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "eltamd.com": {
+  "brand": "EltaMD",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6639ad623f224efcb86b93eb63038170/6639ad623f224efcb86b93eb63038170.HD-1080p-7.2Mbps-88950229.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 19.35,
+    "handle": "uv-skin-recovery-duo-kit"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b97492ed7ef04eb0a0bf354e6ed2d1ac/b97492ed7ef04eb0a0bf354e6ed2d1ac.HD-1080p-4.8Mbps-95585229.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 48.0,
+    "handle": "uv-skin-recovery-duo-kit"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/34884cbeffed4a10b83809b7979ad8b7/34884cbeffed4a10b83809b7979ad8b7.HD-1080p-7.2Mbps-83881878.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 15.04,
+    "handle": "uv-clear-tinted-untinted-twin-pack"
+   }
+  ]
+ },
+ "shopmentionables.com": {
+  "brand": "Mentionables",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/576604ad3762429eba122ea4efa370bb/576604ad3762429eba122ea4efa370bb.HD-1080p-7.2Mbps-101615997.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 21.53,
+    "handle": "satin-tartan-pajama-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bc54224f083545109789b50644914316/bc54224f083545109789b50644914316.HD-1080p-7.2Mbps-96869643.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 23.8,
+    "handle": "satin-tartan-pajama-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cca0150339d44af48ab2f092b2b86f42/cca0150339d44af48ab2f092b2b86f42.HD-1080p-7.2Mbps-96954189.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 59.0,
+    "handle": "satin-tartan-pajama-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5c487ac08ed24afc94c8ee29833c38ca/5c487ac08ed24afc94c8ee29833c38ca.HD-1080p-7.2Mbps-101616011.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 11.2,
+    "handle": "satin-tartan-pajama-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/107f272af3a74d0d8b84406981b9261c/107f272af3a74d0d8b84406981b9261c.HD-1080p-7.2Mbps-96955648.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 57.0,
+    "handle": "holiday-harness-bundle"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/332ef62d1f2e4b8691b2c14ae1915195/332ef62d1f2e4b8691b2c14ae1915195.HD-1080p-3.3Mbps-97233196.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 23.0,
+    "handle": "holiday-harness-bundle"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5f7f1640b5014d5e956c6f42910076d4/5f7f1640b5014d5e956c6f42910076d4.HD-1080p-7.2Mbps-100747782.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 19.46,
+    "handle": "lacy-velvet-long-sleeve-teddy-cranberry"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/43623d7f2a614646b12993511a1ed55d/43623d7f2a614646b12993511a1ed55d.HD-1080p-7.2Mbps-97231742.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 27.37,
+    "handle": "lacy-velvet-long-sleeve-teddy-cranberry"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/82033c900cfb46e989b15e8cc1e3fe94/82033c900cfb46e989b15e8cc1e3fe94.HD-1080p-7.2Mbps-96866659.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 83.0,
+    "handle": "lacy-velvet-long-sleeve-teddy-cranberry"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/13f58fcfe0054e72931ab19db4d220ba/13f58fcfe0054e72931ab19db4d220ba.HD-1080p-7.2Mbps-94384094.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 54.0,
+    "handle": "the-gentlemans-roleplay-boxer-bundle"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5e90c960cc5542839fb5b1f828127b18/5e90c960cc5542839fb5b1f828127b18.HD-1080p-7.2Mbps-86597825.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 8.82,
+    "handle": "satin-kimono-robe-magenta"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1862c935ad8f4c1a861044b9563308ee/1862c935ad8f4c1a861044b9563308ee.HD-1080p-7.2Mbps-96957007.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 28.42,
+    "handle": "mens-seersucker-boxer-holiday-2-pack"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/faf4b1b4f6344e2fa19c02f319342377/faf4b1b4f6344e2fa19c02f319342377.HD-1080p-7.2Mbps-100620933.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 20.18,
+    "handle": "lacy-satin-crotchless-bow-teddy-cranberry"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/94d0f065c86148f2bbe551b67c50ee2c/94d0f065c86148f2bbe551b67c50ee2c.HD-1080p-7.2Mbps-97233242.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 23.74,
+    "handle": "lacy-satin-crotchless-bow-teddy-cranberry"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/26b907cd30eb495b8fab718b33a7b1a0/26b907cd30eb495b8fab718b33a7b1a0.HD-1080p-7.2Mbps-96956106.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 59.0,
+    "handle": "lacy-satin-crotchless-bow-teddy-cranberry"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/625d6640f8324517bfd0db771c60b12d/625d6640f8324517bfd0db771c60b12d.HD-1080p-7.2Mbps-97233355.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 28.33,
+    "handle": "lacy-satin-crotchless-bow-teddy-alps-green"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/26b907cd30eb495b8fab718b33a7b1a0/26b907cd30eb495b8fab718b33a7b1a0.HD-1080p-7.2Mbps-96956106.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 59.0,
+    "handle": "lacy-satin-crotchless-bow-teddy-alps-green"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/69523f2e66984f66a8dd3b343f556b70/69523f2e66984f66a8dd3b343f556b70.HD-1080p-7.2Mbps-97232339.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 24.83,
+    "handle": "satin-bow-lace-slip-cranberry"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b3cbaadcb80640dba80fe037719306a0/b3cbaadcb80640dba80fe037719306a0.HD-1080p-7.2Mbps-96955291.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 36.0,
+    "handle": "satin-bow-lace-slip-cranberry"
+   }
+  ]
+ },
+ "bkbeauty.com": {
+  "brand": "BK Beauty",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/144e260719d54891a3a2a8ad9957f89a/144e260719d54891a3a2a8ad9957f89a.HD-1080p-2.5Mbps-62471416.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 108.0,
+    "handle": "nikki-la-rose-pro-makeup-brush-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b5fc408542854af499e3af27f6f97096/b5fc408542854af499e3af27f6f97096.HD-1080p-7.2Mbps-45265522.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 24.36,
+    "handle": "flawless-face-brush-trio"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ffd265faf67b4165a886dc2f764983bf/ffd265faf67b4165a886dc2f764983bf.HD-1080p-7.2Mbps-46573771.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 27.86,
+    "handle": "105-large-buffer-and-106-round-foundation"
+   }
+  ]
+ },
+ "lulakate.com": {
+  "brand": "LulaKate",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "organicbasics.com": {
+  "brand": "Organic Basics",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/43e5041766c349238307ae5d4f695b91/43e5041766c349238307ae5d4f695b91.HD-1080p-7.2Mbps-95294540.mp4",
+    "w": 1144,
+    "h": 1080,
+    "dur": 13.24,
+    "handle": "mens-true-extra-heavy-boxy-tee-9-pack-misty-grey-melange"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/66b3dcaccf3d4888af30cc3a385e2f1c/66b3dcaccf3d4888af30cc3a385e2f1c.HD-1080p-7.2Mbps-95317417.mp4",
+    "w": 1016,
+    "h": 1080,
+    "dur": 10.24,
+    "handle": "mens-true-heavy-boxy-fit-long-sleeve-tee-9-pack-sandstone"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/f2493e93c6544398955e05e03c021e50/f2493e93c6544398955e05e03c021e50.HD-1080p-7.2Mbps-95317374.mp4",
+    "w": 1016,
+    "h": 1080,
+    "dur": 13.84,
+    "handle": "mens-true-heavy-boxy-fit-long-sleeve-tee-9-pack-tangerine"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/464f3201080843dc800e443cd76b1f6d/464f3201080843dc800e443cd76b1f6d.HD-1080p-7.2Mbps-101853840.mp4",
+    "w": 1144,
+    "h": 1080,
+    "dur": 10.68,
+    "handle": "mens-true-heavy-boxy-fit-long-sleeve-tee-9-pack-white"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/f0bc343a4fc44da28a43e1abb3dc33e0/f0bc343a4fc44da28a43e1abb3dc33e0.HD-1080p-7.2Mbps-95294289.mp4",
+    "w": 1016,
+    "h": 1080,
+    "dur": 16.68,
+    "handle": "mens-true-heavy-boxy-fit-tee-9-pack-vibrant-blue"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/80ab49a5b2f94250a576bd1608d4a82f/80ab49a5b2f94250a576bd1608d4a82f.HD-1080p-7.2Mbps-95294270.mp4",
+    "w": 1016,
+    "h": 1080,
+    "dur": 15.08,
+    "handle": "mens-true-heavy-boxy-fit-tee-9-pack-evergreen"
+   }
+  ]
+ },
+ "themarabeauty.com": {
+  "brand": "MARA",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b75c245b6cc2427e952bf3c28203bc83/b75c245b6cc2427e952bf3c28203bc83.HD-1080p-4.8Mbps-68571797.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 91.0,
+    "handle": "the-intro-deluxe-kit"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/355d2e3e710a4f78875314fc9296048e/355d2e3e710a4f78875314fc9296048e.HD-1080p-7.2Mbps-98696813.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 42.0,
+    "handle": "the-algae-ritual"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cc96a7433cc0449c8a2bab4d9f738dbb/cc96a7433cc0449c8a2bab4d9f738dbb.HD-1080p-4.8Mbps-96272378.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 20.91,
+    "handle": "the-whole-body-glow-gift-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/02b224edfe2044ecb16728c6d0f399c6/02b224edfe2044ecb16728c6d0f399c6.HD-1080p-7.2Mbps-98573878.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 20.16,
+    "handle": "the-reset-ritual"
+   }
+  ]
+ },
+ "sterlingforever.com": {
+  "brand": "Sterling Forever",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/81ea8b7758284da39ab454fdd10a6991/81ea8b7758284da39ab454fdd10a6991.HD-1080p-2.5Mbps-55206762.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 19.41,
+    "handle": "sterling-silver-cz-multi-row-statement-ring"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/779117f321e14a88a831749133d3a2f5/779117f321e14a88a831749133d3a2f5.HD-1080p-2.5Mbps-54851302.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 15.42,
+    "handle": "janice-twisted-hoop-earrings"
+   }
+  ]
+ },
+ "tsrparis.com": {
+  "brand": "The Silk Road",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "riseandfall.co": {
+  "brand": "Rise & Fall",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "calecimprofessional.com": {
+  "brand": "Calecim",
+  "industry": "Beauty & Personal Care",
+  "ok": 7,
+  "fail": 3,
+  "vids": []
+ },
+ "viccieyewear.com": {
+  "brand": "Vicci Eyewear",
+  "industry": "Eyewear",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/af6d5081a14f4e74b279e73a2f17121a/af6d5081a14f4e74b279e73a2f17121a.HD-1080p-7.2Mbps-66369206.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.0,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/964ff776975649349d6d2250881f66bf/964ff776975649349d6d2250881f66bf.HD-720p-3.0Mbps-50887767.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 3.38,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/887a155512d84f6ca39a40d2aa593093/887a155512d84f6ca39a40d2aa593093.HD-720p-4.5Mbps-50927936.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 5.34,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/4b21e06222cf49cd80a1d48ec796eb3e/4b21e06222cf49cd80a1d48ec796eb3e.HD-720p-4.5Mbps-50927941.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 2.38,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e0907a1c186c4b2b80e771817188a1f3/e0907a1c186c4b2b80e771817188a1f3.HD-720p-4.5Mbps-51323590.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 10.01,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d06a61ebed434ee394c86fd6b756f32d/d06a61ebed434ee394c86fd6b756f32d.HD-720p-4.5Mbps-51323589.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 3.84,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/714cfd018de8465993c5fb785e30d3fe/714cfd018de8465993c5fb785e30d3fe.HD-1080p-7.2Mbps-66369205.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.0,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ee05bbe53ae2488197ca64c67d7e4791/ee05bbe53ae2488197ca64c67d7e4791.HD-720p-4.5Mbps-50927938.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 4.09,
+    "handle": "sofia-rx-rocket"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/48a7ed8ca7f54b778e117908868ea5ae/48a7ed8ca7f54b778e117908868ea5ae.HD-1080p-7.2Mbps-66755000.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.0,
+    "handle": "luna-rx-lf-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5a046bdbc4da4340b8254963a2ed3e4f/5a046bdbc4da4340b8254963a2ed3e4f.HD-1080p-7.2Mbps-66755001.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 3.0,
+    "handle": "luna-rx-lf-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b5f978bdac7e479da31b104be3df436c/b5f978bdac7e479da31b104be3df436c.HD-720p-1.6Mbps-65696289.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 8.85,
+    "handle": "luna-rx-lf-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fd754efc83d943cd9b006abded46a5d4/fd754efc83d943cd9b006abded46a5d4.HD-1080p-7.2Mbps-69593932.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 19.0,
+    "handle": "luna-rx-lf-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/af6d5081a14f4e74b279e73a2f17121a/af6d5081a14f4e74b279e73a2f17121a.HD-1080p-7.2Mbps-66369206.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.0,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/964ff776975649349d6d2250881f66bf/964ff776975649349d6d2250881f66bf.HD-720p-3.0Mbps-50887767.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 3.38,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/887a155512d84f6ca39a40d2aa593093/887a155512d84f6ca39a40d2aa593093.HD-720p-4.5Mbps-50927936.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 5.34,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/4b21e06222cf49cd80a1d48ec796eb3e/4b21e06222cf49cd80a1d48ec796eb3e.HD-720p-4.5Mbps-50927941.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 2.38,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e0907a1c186c4b2b80e771817188a1f3/e0907a1c186c4b2b80e771817188a1f3.HD-720p-4.5Mbps-51323590.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 10.01,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d06a61ebed434ee394c86fd6b756f32d/d06a61ebed434ee394c86fd6b756f32d.HD-720p-4.5Mbps-51323589.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 3.84,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/714cfd018de8465993c5fb785e30d3fe/714cfd018de8465993c5fb785e30d3fe.HD-1080p-7.2Mbps-66369205.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.0,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ee05bbe53ae2488197ca64c67d7e4791/ee05bbe53ae2488197ca64c67d7e4791.HD-720p-4.5Mbps-50927938.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 4.09,
+    "handle": "sofia-rx-acq-lf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/af6d5081a14f4e74b279e73a2f17121a/af6d5081a14f4e74b279e73a2f17121a.HD-1080p-7.2Mbps-66369206.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.0,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/964ff776975649349d6d2250881f66bf/964ff776975649349d6d2250881f66bf.HD-720p-3.0Mbps-50887767.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 3.38,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/887a155512d84f6ca39a40d2aa593093/887a155512d84f6ca39a40d2aa593093.HD-720p-4.5Mbps-50927936.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 5.34,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/4b21e06222cf49cd80a1d48ec796eb3e/4b21e06222cf49cd80a1d48ec796eb3e.HD-720p-4.5Mbps-50927941.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 2.38,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e0907a1c186c4b2b80e771817188a1f3/e0907a1c186c4b2b80e771817188a1f3.HD-720p-4.5Mbps-51323590.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 10.01,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d06a61ebed434ee394c86fd6b756f32d/d06a61ebed434ee394c86fd6b756f32d.HD-720p-4.5Mbps-51323589.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 3.84,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/714cfd018de8465993c5fb785e30d3fe/714cfd018de8465993c5fb785e30d3fe.HD-1080p-7.2Mbps-66369205.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.0,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ee05bbe53ae2488197ca64c67d7e4791/ee05bbe53ae2488197ca64c67d7e4791.HD-720p-4.5Mbps-50927938.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 4.09,
+    "handle": "sofia-rx-acq"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b5f978bdac7e479da31b104be3df436c/b5f978bdac7e479da31b104be3df436c.HD-720p-1.6Mbps-65696289.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 8.85,
+    "handle": "luna-rx"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5a046bdbc4da4340b8254963a2ed3e4f/5a046bdbc4da4340b8254963a2ed3e4f.HD-1080p-7.2Mbps-66755001.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 3.0,
+    "handle": "luna-rx"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/48a7ed8ca7f54b778e117908868ea5ae/48a7ed8ca7f54b778e117908868ea5ae.HD-1080p-7.2Mbps-66755000.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.0,
+    "handle": "luna-rx"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fd754efc83d943cd9b006abded46a5d4/fd754efc83d943cd9b006abded46a5d4.HD-1080p-7.2Mbps-69593932.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 19.0,
+    "handle": "luna-rx"
+   }
+  ]
+ },
+ "maysama.com": {
+  "brand": "Maysama",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "bonheurjewelry.com": {
+  "brand": "BONHEUR JEWELRY",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "heiressbeverlyhills.com": {
+  "brand": "Heiress Beverly Hills",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "remedyskin.com": {
+  "brand": "Remedy Skin",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fef5240fdb74458e963f920172831ff1/fef5240fdb74458e963f920172831ff1.HD-1080p-2.5Mbps-34982213.mp4",
+    "w": 1660,
+    "h": 1080,
+    "dur": 1.12,
+    "handle": "healthy-aging"
+   }
+  ]
+ },
+ "margauxny.com": {
+  "brand": "Margaux",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/519c81afc69b4d3f9f7c0a360aeb690b/519c81afc69b4d3f9f7c0a360aeb690b.HD-720p-4.5Mbps-67447449.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 8.76,
+    "handle": "the-phoebe-black-and-ivory-nappa"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/83b73b94b72f4cf4a5f38b3e9674f986/83b73b94b72f4cf4a5f38b3e9674f986.HD-720p-4.5Mbps-84655946.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 8.26,
+    "handle": "the-palermo-sandal-saddle-nappa"
+   }
+  ]
+ },
+ "fredasalvador.com": {
+  "brand": "FR\u0112DA SALVADOR",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "nemah.com": {
+  "brand": "N\u0113mah",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b5c6727b2c824e839f464edf286a81b0/b5c6727b2c824e839f464edf286a81b0.HD-1080p-4.8Mbps-68787058.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 11.9,
+    "handle": "pregnancy-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/31c6f499e8274a33a16b26256d98094f/31c6f499e8274a33a16b26256d98094f.HD-1080p-4.8Mbps-68794985.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 14.2,
+    "handle": "pregnancy-set"
+   }
+  ]
+ },
+ "softiespjs.com": {
+  "brand": "Softies",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fbd959c3c0464ef2acb7bc1d23ea47ec/fbd959c3c0464ef2acb7bc1d23ea47ec.HD-1080p-7.2Mbps-33979613.mp4",
+    "w": 1920,
+    "h": 1080,
+    "dur": 10.05,
+    "handle": "dreamtech-oversize-hoodie-lounge-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6922985c074f4db8a80834d1282797eb/6922985c074f4db8a80834d1282797eb.HD-1080p-3.3Mbps-43334141.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.01,
+    "handle": "dreamtech-oversize-hoodie-lounge-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/31794b85059340da9585142a8ed37162/31794b85059340da9585142a8ed37162.HD-1080p-4.8Mbps-79943795.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-cropped-sleeve-crew-neck-with-wide-leg-pant"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/82ed5c10bf5d4e4fbb3a6708301ebda0/82ed5c10bf5d4e4fbb3a6708301ebda0.HD-1080p-4.8Mbps-79943796.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-cropped-sleeve-crew-neck-with-wide-leg-pant"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9c1f9997cb3240479b762ef618e17318/9c1f9997cb3240479b762ef618e17318.HD-1080p-4.8Mbps-79943797.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-cropped-sleeve-crew-neck-with-wide-leg-pant"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fb4fd7eef62b431eac56bcec7a72aac4/fb4fd7eef62b431eac56bcec7a72aac4.HD-1080p-4.8Mbps-79943798.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-cropped-sleeve-crew-neck-with-wide-leg-pant"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bb1ccb9b6ed14421b309039a76999d68/bb1ccb9b6ed14421b309039a76999d68.HD-1080p-7.2Mbps-93416231.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "dreamplush-1-4-zip-pullover"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/daca8fe479254813844bf11970c3e0a7/daca8fe479254813844bf11970c3e0a7.HD-1080p-4.8Mbps-79952341.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "caftan-top-cropped-pant-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cba3f62ce9a04877a1c26f705f877d2c/cba3f62ce9a04877a1c26f705f877d2c.HD-1080p-4.8Mbps-79836966.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-hooded-lounger"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/184d7633ea8b42b6b6f38db6f8b7ef71/184d7633ea8b42b6b6f38db6f8b7ef71.HD-1080p-7.2Mbps-79836963.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-hooded-lounger"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/908cb5918a55485f90fa7b49a3e62b6c/908cb5918a55485f90fa7b49a3e62b6c.HD-1080p-4.8Mbps-79836964.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-hooded-lounger"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1a5f025d6aff494cbae088a6e9c08d58/1a5f025d6aff494cbae088a6e9c08d58.HD-1080p-7.2Mbps-79836965.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.04,
+    "handle": "terry-hooded-lounger"
+   }
+  ]
+ },
+ "ringconcierge.com": {
+  "brand": "Ring Concierge",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5f262a83e38a49068051e85058e4aff7/5f262a83e38a49068051e85058e4aff7.HD-1080p-7.2Mbps-99674196.mp4",
+    "w": 858,
+    "h": 1080,
+    "dur": 9.19,
+    "handle": "emerald-diamond-eternity-band-legacy"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0569e5e502e84662b6f192f9cfa66abe/0569e5e502e84662b6f192f9cfa66abe.HD-1080p-4.8Mbps-92818815.mp4",
+    "w": 858,
+    "h": 1080,
+    "dur": 6.29,
+    "handle": "radiant-diamond-eternity-band-legacy"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5f262a83e38a49068051e85058e4aff7/5f262a83e38a49068051e85058e4aff7.HD-1080p-7.2Mbps-99674196.mp4",
+    "w": 858,
+    "h": 1080,
+    "dur": 9.19,
+    "handle": "emerald-diamond-eternity-band-icon"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/15dfec073d824b9cbf3f23f31a8e97df/15dfec073d824b9cbf3f23f31a8e97df.HD-1080p-7.2Mbps-99674192.mp4",
+    "w": 858,
+    "h": 1080,
+    "dur": 9.54,
+    "handle": "round-diamond-eternity-band-0-4ct"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ce369fe38aef468ba4f4977e6ab98c41/ce369fe38aef468ba4f4977e6ab98c41.HD-1080p-7.2Mbps-38723371.mp4",
+    "w": 858,
+    "h": 1080,
+    "dur": 6.76,
+    "handle": "diamond-lariat-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/15dfec073d824b9cbf3f23f31a8e97df/15dfec073d824b9cbf3f23f31a8e97df.HD-1080p-7.2Mbps-99674192.mp4",
+    "w": 858,
+    "h": 1080,
+    "dur": 9.54,
+    "handle": "round-diamond-eternity-band-0-3ct"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/25b558c9b3f942d689b729df46c66d7e/25b558c9b3f942d689b729df46c66d7e.HD-1080p-7.2Mbps-100614703.mp4",
+    "w": 858,
+    "h": 1080,
+    "dur": 5.74,
+    "handle": "bezel-diamond-tennis-necklace"
+   }
+  ]
+ },
+ "us.aktlondon.com": {
+  "brand": "AKT London",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/338e4c64669e4d4c8aea83110aa44e28/338e4c64669e4d4c8aea83110aa44e28.HD-1080p-7.2Mbps-92672781.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.08,
+    "handle": "the-performance-set-santal-nomad"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d7ab3ab2694048efaa6266107fc4ad7d/d7ab3ab2694048efaa6266107fc4ad7d.HD-1080p-7.2Mbps-92672782.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.08,
+    "handle": "the-performance-set-santal-nomad"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3fcc56282f6346eb8b3d913957f8c13a/3fcc56282f6346eb8b3d913957f8c13a.HD-1080p-7.2Mbps-92655996.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.08,
+    "handle": "the-haze-santal-nomad"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/746c6f670ca54aadae51c2a6f4455e1e/746c6f670ca54aadae51c2a6f4455e1e.HD-1080p-2.5Mbps-92655103.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.02,
+    "handle": "the-haze-santal-nomad"
+   }
+  ]
+ },
+ "bubishluxe.us": {
+  "brand": "b\u00fcbish",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "tatcha.com": {
+  "brand": "Tatcha",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "arey.com": {
+  "brand": "Arey",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/316734c2294c4569bc937d2b0878dc62/316734c2294c4569bc937d2b0878dc62.HD-1080p-2.5Mbps-47595830.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 14.96,
+    "handle": "wildling-x-arey"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cf251dabb2ab491382b53ac8cddc2716/cf251dabb2ab491382b53ac8cddc2716.HD-1080p-2.5Mbps-91465765.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.42,
+    "handle": "the-restorative-kit"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3b29ff88fb104d22b8c1b41df025be4b/3b29ff88fb104d22b8c1b41df025be4b.HD-1080p-2.5Mbps-91465766.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 16.43,
+    "handle": "the-restorative-kit"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b91e7a5eb0aa4277965bf76b4d4d85a0/b91e7a5eb0aa4277965bf76b4d4d85a0.HD-1080p-2.5Mbps-47527953.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.17,
+    "handle": "the-essentials-kit"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0c2eaf637ef94e82bb83164c370ef220/0c2eaf637ef94e82bb83164c370ef220.HD-1080p-2.5Mbps-47527517.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 16.43,
+    "handle": "the-essentials-kit"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/367d4122ff2840fc8afe8c4964983c7a/367d4122ff2840fc8afe8c4964983c7a.HD-1080p-2.5Mbps-47527518.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.5,
+    "handle": "the-root-re-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b91e7a5eb0aa4277965bf76b4d4d85a0/b91e7a5eb0aa4277965bf76b4d4d85a0.HD-1080p-2.5Mbps-47527953.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.17,
+    "handle": "the-root-re-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b91e7a5eb0aa4277965bf76b4d4d85a0/b91e7a5eb0aa4277965bf76b4d4d85a0.HD-1080p-2.5Mbps-47527953.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.17,
+    "handle": "the-inside-out-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/42084103bffb46f39139feed89a48fdc/42084103bffb46f39139feed89a48fdc.HD-1080p-2.5Mbps-47258290.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.71,
+    "handle": "the-inside-out-set"
+   }
+  ]
+ },
+ "knix.com": {
+  "brand": "Knix",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e1ff3eb4462d430897599e5dfad0a861/e1ff3eb4462d430897599e5dfad0a861.HD-1080p-2.5Mbps-102762045.mp4",
+    "w": 832,
+    "h": 1080,
+    "dur": 5.52,
+    "handle": "the-big-deal-gift-box"
+   }
+  ]
+ },
+ "jennikayne.com": {
+  "brand": "Jenni Kayne",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7f333bb94d9c49fbae57e97ccc79d3c9/7f333bb94d9c49fbae57e97ccc79d3c9.HD-720p-4.5Mbps-47275596.mp4",
+    "w": 600,
+    "h": 720,
+    "dur": 20.03,
+    "handle": "the-routine"
+   }
+  ]
+ },
+ "thenimetyou.com": {
+  "brand": "Then I Met You",
+  "industry": "Beauty & Personal Care",
+  "ok": 8,
+  "fail": 2,
+  "vids": []
+ },
+ "440me.com": {
+  "brand": "440ME",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "skinfix.com": {
+  "brand": "skinfix",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "bryananthonys.com": {
+  "brand": "Bryan Anthonys",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "chantecaille.com": {
+  "brand": "Chantecaille",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "ooni.com": {
+  "brand": "Ooni",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "younggoose.com": {
+  "brand": "Young Goose",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/795411dac99b4c9d85a399b884741b10/795411dac99b4c9d85a399b884741b10.HD-1080p-7.2Mbps-31528591.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 63.0,
+    "handle": "advanced-biohack-hydration-system"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bb5f37f3689c44b98a80ab2fcda46ff8/bb5f37f3689c44b98a80ab2fcda46ff8.HD-1080p-7.2Mbps-31528590.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 60.0,
+    "handle": "advanced-biohack-hydration-system"
+   }
+  ]
+ },
+ "rails.com": {
+  "brand": "Rails",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "colleenrothschild.com": {
+  "brand": "Colleen Rothschild",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "trysuri.com": {
+  "brand": "SURI",
+  "industry": "Beauty & Personal Care",
+  "ok": 9,
+  "fail": 1,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e16d55bb8475414d8f6eda3b28e58457/e16d55bb8475414d8f6eda3b28e58457.SD-480p-1.2Mbps-90824011.mp4",
+    "w": 406,
+    "h": 480,
+    "dur": 3.54,
+    "handle": "restore-refillable-gel-toothpaste"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a9c45872ab4b4354a62957ed6ba79246/a9c45872ab4b4354a62957ed6ba79246.HD-1080p-7.2Mbps-101494522.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 9.4,
+    "handle": "restore-refillable-gel-toothpaste-bottle"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9fe7be6d605d446db7eb14b1c09d460c/9fe7be6d605d446db7eb14b1c09d460c.HD-1080p-7.2Mbps-55505761.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 3.33,
+    "handle": "suri-uv-2-0-light-clean-charge-case-only"
+   }
+  ]
+ },
+ "petitekeep.com": {
+  "brand": "Petite Keep",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "cakesbody.com": {
+  "brand": "CAKES Body",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/876c1764041040e2a5c3b48081b77fc2/876c1764041040e2a5c3b48081b77fc2.HD-1080p-2.5Mbps-88952127.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 16.72,
+    "handle": "cakes-invisible-undies-3-pack"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c8575d5f1bac4524af65e75021c9e725/c8575d5f1bac4524af65e75021c9e725.HD-1080p-7.2Mbps-87344457.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 11.2,
+    "handle": "fashion-tape-bundle"
+   }
+  ]
+ },
+ "heavenmayhem.com": {
+  "brand": "Heaven Mayhem",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3c7bde9a110b4026a4e975a98d0ee933/3c7bde9a110b4026a4e975a98d0ee933.HD-1080p-7.2Mbps-86712668.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.67,
+    "handle": "carino-watch"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bd64cff40ca2428b9a782babcf6e6528/bd64cff40ca2428b9a782babcf6e6528.HD-1080p-7.2Mbps-86712675.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 10.73,
+    "handle": "carino-watch"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/4a1620d00d2c446097ccf7a2e1e4732b/4a1620d00d2c446097ccf7a2e1e4732b.HD-1080p-7.2Mbps-98567943.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.23,
+    "handle": "grae-ring"
+   }
+  ]
+ },
+ "jenniferbehr.com": {
+  "brand": "Jennifer Behr",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "brooklinen.com": {
+  "brand": "Brooklinen",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "oseamalibu.com": {
+  "brand": "OSEA",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/79e66875ff744e51a950eaa5dc041751/79e66875ff744e51a950eaa5dc041751.HD-720p-4.5Mbps-95364084.mp4",
+    "w": 564,
+    "h": 720,
+    "dur": 27.39,
+    "handle": "sea-glow-body-routine"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/91a22018efd042f39be2c36cccaf35ae/91a22018efd042f39be2c36cccaf35ae.HD-720p-4.5Mbps-95364739.mp4",
+    "w": 564,
+    "h": 720,
+    "dur": 31.0,
+    "handle": "undaria-body-bestsellers"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/119f96db593c45c2b82ce846785eb9a3/119f96db593c45c2b82ce846785eb9a3.HD-720p-4.5Mbps-61333765.mp4",
+    "w": 564,
+    "h": 720,
+    "dur": 27.65,
+    "handle": "face-body-bestsellers"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0ab12d016dbe415aa4935b82e5c07737/0ab12d016dbe415aa4935b82e5c07737.HD-720p-4.5Mbps-90829417.mp4",
+    "w": 564,
+    "h": 720,
+    "dur": 27.35,
+    "handle": "gloss-glow-duo"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/85a280aa869a4bf284b9fefd76070306/85a280aa869a4bf284b9fefd76070306.HD-720p-4.5Mbps-45231285.mp4",
+    "w": 564,
+    "h": 720,
+    "dur": 24.26,
+    "handle": "cleanse-hydrate-duo"
+   }
+  ]
+ },
+ "bagatiba.com": {
+  "brand": "BAGATIBA",
+  "industry": "Handbags & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "algenist.com": {
+  "brand": "Algenist",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "shopnoble.com": {
+  "brand": "Noble",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "monrow.com": {
+  "brand": "MONROW",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "pointestudio.com": {
+  "brand": "Pointe Studio",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "theovernightblowout.com": {
+  "brand": "Overnight Blowout",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "augustnoa.com": {
+  "brand": "augustnoa",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "shopsocietysocial.com": {
+  "brand": "Society Social",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "harperwilde.com": {
+  "brand": "Harper Wilde",
+  "industry": "Fashion & Apparel",
+  "ok": 9,
+  "fail": 1,
+  "vids": []
+ },
+ "eachandevery.com": {
+  "brand": "Each & Every",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "curiebod.com": {
+  "brand": "CURIE",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "farmacybeauty.com": {
+  "brand": "Farmacy Beauty",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "sisterlytribe.com": {
+  "brand": "Sisterly Tribe",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1770150425454e678032ced598def8d6/1770150425454e678032ced598def8d6.HD-1080p-7.2Mbps-63954839.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 10.1,
+    "handle": "sisterly-tribe-oversized-half-zip-sweatshirt-grey-marl"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/f2368d972f9a468dba057041fddde836/f2368d972f9a468dba057041fddde836.HD-1080p-7.2Mbps-63955039.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 5.97,
+    "handle": "sisterly-tribe-sweatshirt-espresso"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/55a9f8695cfd43cdbff2d9c780401010/55a9f8695cfd43cdbff2d9c780401010.HD-1080p-7.2Mbps-33142094.mp4",
+    "w": 746,
+    "h": 1080,
+    "dur": 5.11,
+    "handle": "sisterly-tribe-sweatshirt-grey-marl"
+   }
+  ]
+ },
+ "nettenyc.com": {
+  "brand": "Nette",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "niraskin.com": {
+  "brand": "NIRA",
+  "industry": "Beauty & Personal Care",
+  "ok": 9,
+  "fail": 1,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/21d5ef269b3a4f30bf162b5308da00a1/21d5ef269b3a4f30bf162b5308da00a1.HD-1080p-3.3Mbps-86601447.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.93,
+    "handle": "ultimate-anti-aging-collection"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/21d5ef269b3a4f30bf162b5308da00a1/21d5ef269b3a4f30bf162b5308da00a1.HD-1080p-3.3Mbps-86601447.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.93,
+    "handle": "nira-plus-laser-bundle"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/21d5ef269b3a4f30bf162b5308da00a1/21d5ef269b3a4f30bf162b5308da00a1.HD-1080p-3.3Mbps-86601447.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.93,
+    "handle": "nira-pro-laser-w-topicals"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/21d5ef269b3a4f30bf162b5308da00a1/21d5ef269b3a4f30bf162b5308da00a1.HD-1080p-3.3Mbps-86601447.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.93,
+    "handle": "nira-pro-laser"
+   }
+  ]
+ },
+ "jetsetcandy.com": {
+  "brand": "Jet Set Candy",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "wildroseandsparrow.com": {
+  "brand": "Wild Rose & Sparrow",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bf64f14ccb374128acc56ab3e53edfd7/bf64f14ccb374128acc56ab3e53edfd7.HD-1080p-7.2Mbps-41394659.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 6.91,
+    "handle": "the-cupids-bow-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/00f48420ff5d49bd96b019fbb60a14c2/00f48420ff5d49bd96b019fbb60a14c2.HD-1080p-7.2Mbps-41395168.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 3.91,
+    "handle": "the-cupids-bow-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/8956903729ea407fa48b143a70eb24da/8956903729ea407fa48b143a70eb24da.HD-1080p-7.2Mbps-51111045.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 11.77,
+    "handle": "the-felice-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d031b4d8ebbc4a42ab201ed0fba8706a/d031b4d8ebbc4a42ab201ed0fba8706a.HD-1080p-7.2Mbps-51111044.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 14.71,
+    "handle": "the-felice-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fee6e482527f49018fb0768ba2308fef/fee6e482527f49018fb0768ba2308fef.HD-1080p-7.2Mbps-51111796.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 6.7,
+    "handle": "the-felice-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/182e852cadc842d595f5578ab938d9d3/182e852cadc842d595f5578ab938d9d3.HD-1080p-7.2Mbps-51111808.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 4.81,
+    "handle": "the-felice-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bcf4a371ea7d44fc9617adce81cfc909/bcf4a371ea7d44fc9617adce81cfc909.HD-1080p-7.2Mbps-51110893.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 17.57,
+    "handle": "the-allegra-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cd2ca17a0b654adc9f56c7eb729937b1/cd2ca17a0b654adc9f56c7eb729937b1.HD-1080p-7.2Mbps-51111806.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 11.98,
+    "handle": "the-allegra-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d1d710b79048491b9343174a6c74ccf5/d1d710b79048491b9343174a6c74ccf5.HD-1080p-7.2Mbps-51111793.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 10.64,
+    "handle": "the-allegra-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/9cda5607a37d48ebbc7f1190630e474a/9cda5607a37d48ebbc7f1190630e474a.HD-1080p-7.2Mbps-30570124.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 2.44,
+    "handle": "the-rosaline-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a550ec7e21c9405eaedbd44f26a25974/a550ec7e21c9405eaedbd44f26a25974.HD-1080p-7.2Mbps-30570196.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 6.07,
+    "handle": "the-rosaline-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/134aaf7e85734148a8f9a1a36496812a/134aaf7e85734148a8f9a1a36496812a.HD-1080p-7.2Mbps-30570195.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 12.4,
+    "handle": "the-rosaline-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1cf2577a71ea46e6aff1dfd24a3ec4a9/1cf2577a71ea46e6aff1dfd24a3ec4a9.HD-1080p-7.2Mbps-30570121.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 11.23,
+    "handle": "the-rosaline-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7039ce3aed8047b4b95b99750ea88769/7039ce3aed8047b4b95b99750ea88769.HD-1080p-7.2Mbps-30570122.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 7.2,
+    "handle": "the-rosaline-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/16d3b19743cc4e9782c20b02ab42bcc3/16d3b19743cc4e9782c20b02ab42bcc3.HD-1080p-7.2Mbps-30570123.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 6.1,
+    "handle": "the-rosaline-dress"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d98c6a9d012f45ce9ad3255a38dfd289/d98c6a9d012f45ce9ad3255a38dfd289.HD-1080p-7.2Mbps-47128947.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 8.43,
+    "handle": "the-siena-dress-mini-in-citron-yellow"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/afc6249da6bb4d1d95d547be6187f063/afc6249da6bb4d1d95d547be6187f063.HD-1080p-7.2Mbps-47128948.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 16.76,
+    "handle": "the-siena-dress-mini-in-citron-yellow"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e8f7678753cf42909ba75f8d06ddde3e/e8f7678753cf42909ba75f8d06ddde3e.HD-1080p-4.8Mbps-13301423.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 24.2,
+    "handle": "the-pearl-skirt-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/2835bf21ef7d447a961ce9d886d63f5f/2835bf21ef7d447a961ce9d886d63f5f.HD-1080p-4.8Mbps-13301424.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 8.37,
+    "handle": "the-pearl-skirt-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b9048550425748119652b5dd0f1c896f/b9048550425748119652b5dd0f1c896f.HD-1080p-4.8Mbps-13301425.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 26.8,
+    "handle": "the-pearl-skirt-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5eeab5c62577470ea943de1bd29b426a/5eeab5c62577470ea943de1bd29b426a.HD-1080p-4.8Mbps-13301426.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 10.27,
+    "handle": "the-pearl-skirt-3"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b078ca9b731546b593a0bd84dc7e5b18/b078ca9b731546b593a0bd84dc7e5b18.HD-1080p-7.2Mbps-30571078.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 8.23,
+    "handle": "the-cerise-skirt"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a78e7288ed4f41b78c1b816db811e755/a78e7288ed4f41b78c1b816db811e755.HD-1080p-7.2Mbps-30571149.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 7.67,
+    "handle": "the-cerise-skirt"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b9c33d62e44f46ee8509e31b8584a433/b9c33d62e44f46ee8509e31b8584a433.HD-1080p-7.2Mbps-30571265.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 4.67,
+    "handle": "the-cerise-skirt"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a6d933f2e5ad44408738211a2c30bdb3/a6d933f2e5ad44408738211a2c30bdb3.HD-1080p-7.2Mbps-30571079.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 4.62,
+    "handle": "the-cerise-skirt"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0a21ea870a1444c6bb2f1099fda6cbbd/0a21ea870a1444c6bb2f1099fda6cbbd.HD-1080p-7.2Mbps-30571262.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 13.35,
+    "handle": "the-cerise-skirt"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b84fff5bb7c945a6bbd1d3b05cce1a56/b84fff5bb7c945a6bbd1d3b05cce1a56.HD-1080p-7.2Mbps-30571080.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 11.9,
+    "handle": "the-cerise-skirt"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b931af56b02f4ca2852c2713525e4a8e/b931af56b02f4ca2852c2713525e4a8e.HD-1080p-7.2Mbps-36327364.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 8.82,
+    "handle": "the-titania-gown"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7015e8e431b64aef9f9280209caf8486/7015e8e431b64aef9f9280209caf8486.HD-1080p-7.2Mbps-36327338.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 10.38,
+    "handle": "the-titania-gown"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3358b91fb5174ba8ab4f4ec04da995ee/3358b91fb5174ba8ab4f4ec04da995ee.HD-1080p-7.2Mbps-36327291.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 6.75,
+    "handle": "the-titania-gown"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/824e211c38db442f8ad8f5e271d76c09/824e211c38db442f8ad8f5e271d76c09.HD-1080p-7.2Mbps-36327336.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 3.03,
+    "handle": "the-titania-gown"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5f6bee41d61e499db3e49af727dbf694/5f6bee41d61e499db3e49af727dbf694.HD-1080p-7.2Mbps-36327337.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 3.09,
+    "handle": "the-titania-gown"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/8abb6de4fcb44d358d324be7d8f348d4/8abb6de4fcb44d358d324be7d8f348d4.HD-1080p-7.2Mbps-36327605.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 7.64,
+    "handle": "the-titania-gown"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cbfe87596bb74a56a5d860fbc54833d5/cbfe87596bb74a56a5d860fbc54833d5.HD-1080p-7.2Mbps-36327641.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 2.58,
+    "handle": "the-titania-gown"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3f3e62b3d2d14a8f8f85dc48a732bf33/3f3e62b3d2d14a8f8f85dc48a732bf33.HD-1080p-7.2Mbps-97886899.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 6.15,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e5ff71e21afc4a6199068247bf4d80d0/e5ff71e21afc4a6199068247bf4d80d0.HD-1080p-7.2Mbps-97886894.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 4.3,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d77bc573a6604981b2373562a5495604/d77bc573a6604981b2373562a5495604.HD-1080p-7.2Mbps-97886897.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 8.75,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0ea0b0273eb3406dadce01dbc39d3545/0ea0b0273eb3406dadce01dbc39d3545.HD-1080p-7.2Mbps-97886895.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 2.12,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/01bd27b1d2c7441486e6ba3a260cb8d9/01bd27b1d2c7441486e6ba3a260cb8d9.HD-1080p-7.2Mbps-97886898.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 9.23,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6f33e926135448b29556352004acfcf1/6f33e926135448b29556352004acfcf1.HD-1080p-7.2Mbps-97886896.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 3.86,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/dcad41c54bf649a19626d09bae76062d/dcad41c54bf649a19626d09bae76062d.HD-1080p-7.2Mbps-97886893.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 6.8,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1f1a4d7c535043c6b802d20dc66b961c/1f1a4d7c535043c6b802d20dc66b961c.HD-1080p-7.2Mbps-97891353.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 4.87,
+    "handle": "the-sylph-gown-in-moonlight"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7012ff809f184fc4981c9f2afd46e230/7012ff809f184fc4981c9f2afd46e230.HD-1080p-7.2Mbps-97891247.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 9.11,
+    "handle": "the-sylph-gown-in-moonlight"
+   }
+  ]
+ },
+ "macduggal.com": {
+  "brand": "Mac Duggal",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/66c17025e39d4bc29582927d84d0287c/66c17025e39d4bc29582927d84d0287c.HD-720p-3.0Mbps-53001803.mp4",
+    "w": 576,
+    "h": 720,
+    "dur": 8.039,
+    "handle": "94213"
+   }
+  ]
+ },
+ "parachutehome.com": {
+  "brand": "Parachute Home",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "typebea.com": {
+  "brand": "TYPEBEA",
+  "industry": "Beauty & Personal Care",
+  "ok": 8,
+  "fail": 2,
+  "vids": []
+ },
+ "mademoisellejules.com": {
+  "brand": "Mademoiselle Jules",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "cocoandeve.com": {
+  "brand": "Coco & Eve",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "cocolab.com": {
+  "brand": "Cocolab",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "rothys.com": {
+  "brand": "Rothy's",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/f61c49af0a2143d18433b192021347ea/f61c49af0a2143d18433b192021347ea.HD-1080p-2.5Mbps-92973104.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 20.65,
+    "handle": "classic-tote-bag-black-coffee"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3d3bf8179eb34679b92c1e3cd9af1ac1/3d3bf8179eb34679b92c1e3cd9af1ac1.HD-1080p-2.5Mbps-92973112.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 20.65,
+    "handle": "classic-tote-bag-buttercream"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c7b5b0a1630140a1999d66eac2eb0206/c7b5b0a1630140a1999d66eac2eb0206.HD-1080p-7.2Mbps-98976955.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 18.79,
+    "handle": "womens-penny-loafer-bronzite"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ba1c94ba60984fc0be99c6fa0aee986a/ba1c94ba60984fc0be99c6fa0aee986a.HD-1080p-7.2Mbps-92982174.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 18.79,
+    "handle": "womens-penny-loafer-revelvet-russet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/97b95a2b321a4023b5165def9f424469/97b95a2b321a4023b5165def9f424469.HD-1080p-7.2Mbps-92982176.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 18.79,
+    "handle": "womens-penny-loafer-revelvet-black"
+   }
+  ]
+ },
+ "thefete.com": {
+  "brand": "The F\u00eate",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "supergoop.com": {
+  "brand": "Supergoop!",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/53005f1eaee24625b00ec2bc1d213f97/53005f1eaee24625b00ec2bc1d213f97.HD-1080p-7.2Mbps-23880734.mp4",
+    "w": 794,
+    "h": 1080,
+    "dur": 8.45,
+    "handle": "play-bach-bundle"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cc47d9b8f0cb4a44a871eae4551c08e0/cc47d9b8f0cb4a44a871eae4551c08e0.HD-1080p-7.2Mbps-45023076.mp4",
+    "w": 794,
+    "h": 1080,
+    "dur": 6.93,
+    "handle": "mint-to-be-bachelorette-bundle-spf-lip-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/64fe0dc025004359ae78fd74631622db/64fe0dc025004359ae78fd74631622db.HD-1080p-7.2Mbps-33421319.mp4",
+    "w": 794,
+    "h": 1080,
+    "dur": 8.45,
+    "handle": "bestsellers-sunscreen-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5dfca99eda384befbd2b6982e68c379b/5dfca99eda384befbd2b6982e68c379b.HD-1080p-7.2Mbps-33420924.mp4",
+    "w": 794,
+    "h": 1080,
+    "dur": 7.27,
+    "handle": "bestsellers-sunscreen-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e2bca6c58c5441899071121b51da2038/e2bca6c58c5441899071121b51da2038.HD-1080p-7.2Mbps-91346772.mp4",
+    "w": 794,
+    "h": 1080,
+    "dur": 29.44,
+    "handle": "year-round-play-spf-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7454bbed36824d90914fce97b6ced6b2/7454bbed36824d90914fce97b6ced6b2.HD-720p-4.5Mbps-43142703.mp4",
+    "w": 528,
+    "h": 720,
+    "dur": 5.3,
+    "handle": "unseen-50-trio"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d886ac05fa4649348357caf58c240622/d886ac05fa4649348357caf58c240622.HD-1080p-7.2Mbps-47200532.mp4",
+    "w": 794,
+    "h": 1080,
+    "dur": 11.61,
+    "handle": "play-pump-refill-set"
+   }
+  ]
+ },
+ "baublebar.com": {
+  "brand": "BaubleBar",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/4fe13b4e5e7b47a79ac0b002394b9e6f/4fe13b4e5e7b47a79ac0b002394b9e6f.HD-720p-3.0Mbps-89095911.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 2.4,
+    "handle": "disney-mickey-mouse-rainbow-catchall"
+   }
+  ]
+ },
+ "aliceandolivia.com": {
+  "brand": "alice + olivia",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "meritbeauty.com": {
+  "brand": "MERIT Beauty",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3a318f9c64794bb4af4d4b7cf888a43c/3a318f9c64794bb4af4d4b7cf888a43c.HD-1080p-7.2Mbps-17323811.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 18.63,
+    "handle": "solo-shadow"
+   }
+  ]
+ },
+ "partlowofficial.com": {
+  "brand": "Partlow",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "byalona.com": {
+  "brand": "By Alona",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "danarebeccadesigns.com": {
+  "brand": "Dana Rebecca Designs",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "malinandgoetz.com": {
+  "brand": "MALIN+GOETZ",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "shopsocialthreads.com": {
+  "brand": "Social Threads",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "shopmarea.com": {
+  "brand": "Marea",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6ea387cf541d4ac9a018ff30a415be13/6ea387cf541d4ac9a018ff30a415be13.HD-1080p-7.2Mbps-81322924.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 9.22,
+    "handle": "fiona-dress-white-demi-eyelet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/67740b6464484a769836bfed2ca194d0/67740b6464484a769836bfed2ca194d0.HD-1080p-7.2Mbps-91251585.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 10.93,
+    "handle": "eve-dress-blue-mini-petunia"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b9f12153d28a4e5ba87cc30776e630fe/b9f12153d28a4e5ba87cc30776e630fe.HD-1080p-7.2Mbps-91251583.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 7.57,
+    "handle": "eve-dress-blue-mini-petunia"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7dfd242c99d4438cacbaad79930f908a/7dfd242c99d4438cacbaad79930f908a.HD-1080p-7.2Mbps-91251575.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 9.6,
+    "handle": "sara-dress-dune-mini-petunia"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c3c85b4d3ca3424dbe4134fa2ab76460/c3c85b4d3ca3424dbe4134fa2ab76460.HD-1080p-7.2Mbps-91257982.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 9.7,
+    "handle": "sara-dress-dune-mini-petunia"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7ccdfe25cee946a2945470ad5fb8508a/7ccdfe25cee946a2945470ad5fb8508a.HD-1080p-4.8Mbps-82804470.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 39.0,
+    "handle": "celine-dress-floral-bouquet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/31d930c4ff514ccdbe1c56e8b131214e/31d930c4ff514ccdbe1c56e8b131214e.HD-1080p-4.8Mbps-82804498.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 13.07,
+    "handle": "celine-dress-floral-bouquet"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/776dd1a18c9844b9aa8e2bbded4a939c/776dd1a18c9844b9aa8e2bbded4a939c.HD-1080p-7.2Mbps-34472813.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 52.0,
+    "handle": "jane-dress-black-meadow"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/f74eee2e5cd2409d802cc48359571d9a/f74eee2e5cd2409d802cc48359571d9a.HD-1080p-7.2Mbps-34231605.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 11.88,
+    "handle": "jane-dress-black-meadow"
+   }
+  ]
+ },
+ "dl1961.com": {
+  "brand": "DL1961",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fdfb9faa459e4efda2538f4bcdeec5d3/fdfb9faa459e4efda2538f4bcdeec5d3.HD-1080p-2.5Mbps-56826554.mp4",
+    "w": 810,
+    "h": 1080,
+    "dur": 10.31,
+    "handle": "karmine-refined-wide-leg-high-rise-28-jeans-clearwater"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/07946cd468bd4db78a099fef7471f2d6/07946cd468bd4db78a099fef7471f2d6.HD-1080p-2.5Mbps-32274595.mp4",
+    "w": 810,
+    "h": 1080,
+    "dur": 10.05,
+    "handle": "halle-straight-high-rise-instasculpt-29-jeans-palm-springs"
+   }
+  ]
+ },
+ "intentionallyblank.us": {
+  "brand": "Intentionally Blank",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "beistravel.com": {
+  "brand": "B\u00c9IS",
+  "industry": "Travel & Luggage",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c96e10b6b3664d639faca26f989b90e9/c96e10b6b3664d639faca26f989b90e9.HD-1080p-7.2Mbps-88260125.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 16.85,
+    "handle": "the-3-piece-luggage-set-in-olive"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/71c34a1e03a04e86a5356ab4d57c5a8b/71c34a1e03a04e86a5356ab4d57c5a8b.HD-1080p-7.2Mbps-88260294.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 17.73,
+    "handle": "the-3-piece-luggage-set-in-maple"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/4dc968da851d4145ad8ea2adf6fc9940/4dc968da851d4145ad8ea2adf6fc9940.HD-1080p-7.2Mbps-88981000.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 58.0,
+    "handle": "the-3-piece-luggage-set-in-beige"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/ef20b9e39f664683b11f15fcc802775f/ef20b9e39f664683b11f15fcc802775f.HD-1080p-7.2Mbps-88260377.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 16.93,
+    "handle": "the-3-piece-luggage-set-in-black"
+   }
+  ]
+ },
+ "getcanopy.co": {
+  "brand": "Canopy",
+  "industry": "Home & Living",
+  "ok": 9,
+  "fail": 1,
+  "vids": []
+ },
+ "elselingerie.com": {
+  "brand": "Else",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3a81857ae3bd423aad5e12f07a1d5fde/3a81857ae3bd423aad5e12f07a1d5fde.HD-1080p-2.5Mbps-39981869.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 6.4,
+    "handle": "tori-triangle-tie-detailed-one-piece-suit-black"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b9c5084eff134be6940b0e67a2d1262e/b9c5084eff134be6940b0e67a2d1262e.HD-1080p-7.2Mbps-63478211.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 10.27,
+    "handle": "dahlia-underwired-strapless-bodysuit-cherry-laquer"
+   }
+  ]
+ },
+ "hankypanky.com": {
+  "brand": "Hanky Panky",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/cb9cf806be654b38b874d38236927eb1/cb9cf806be654b38b874d38236927eb1.HD-1080p-7.2Mbps-51213438.mp4",
+    "w": 808,
+    "h": 1080,
+    "dur": 9.53,
+    "handle": "lexi-wood-x-hanky-panky-erica-dress-black"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/686a6e9edc0449da84ed62a0a9922364/686a6e9edc0449da84ed62a0a9922364.HD-1080p-7.2Mbps-47719426.mp4",
+    "w": 808,
+    "h": 1080,
+    "dur": 11.63,
+    "handle": "i-do-bodysuit-light-ivory"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/35493e2db9814a5780d3fc75a476730d/35493e2db9814a5780d3fc75a476730d.HD-1080p-7.2Mbps-41836681.mp4",
+    "w": 808,
+    "h": 1080,
+    "dur": 10.5,
+    "handle": "sheer-seduction-corset-black"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/af0d5f21e4d147ccbef4e7fc044059e8/af0d5f21e4d147ccbef4e7fc044059e8.HD-1080p-7.2Mbps-41870526.mp4",
+    "w": 808,
+    "h": 1080,
+    "dur": 11.1,
+    "handle": "sheer-seduction-corset-touch-the-sky-blue"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/da99d876b20f42e5a74a625f8e8294fa/da99d876b20f42e5a74a625f8e8294fa.HD-1080p-2.5Mbps-36183654.mp4",
+    "w": 808,
+    "h": 1080,
+    "dur": 10.67,
+    "handle": "widly-blooming-strappy-bodysuit-dark-sky-blue"
+   }
+  ]
+ },
+ "emmeparsons.com": {
+  "brand": "Emme Parsons",
+  "industry": "Footwear",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/47d64dc5367e4231b48193f5aec50bb3/47d64dc5367e4231b48193f5aec50bb3.HD-1080p-7.2Mbps-79020696.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 6.21,
+    "handle": "isabel-black-calf"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/580cdf8566404a49b2d391bb297bb514/580cdf8566404a49b2d391bb297bb514.HD-1080p-7.2Mbps-79020195.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 4.25,
+    "handle": "delicat-black-embossed-snake"
+   }
+  ]
+ },
+ "lizziefortunato.com": {
+  "brand": "Lizzie Fortunato",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "getintothelimelight.com": {
+  "brand": "Get Into The Limelight",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "makebeauty.com": {
+  "brand": "MAKE",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "clearstem.com": {
+  "brand": "CLEARSTEM",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "shopthatch.com": {
+  "brand": "THATCH",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/0113db770cc441449b1553a656c49662/0113db770cc441449b1553a656c49662.HD-1080p-7.2Mbps-14869056.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 7.31,
+    "handle": "constellation-charm-necklace"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/52441a291ce6452fb0ecd144d9d07dcc/52441a291ce6452fb0ecd144d9d07dcc.HD-1080p-7.2Mbps-14303679.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 14.61,
+    "handle": "flora-hoop-earrings"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/303ca2be51be48ecb0d11886a8eb384f/303ca2be51be48ecb0d11886a8eb384f.HD-1080p-7.2Mbps-14303737.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 11.04,
+    "handle": "alessia-hoop-earrings"
+   }
+  ]
+ },
+ "omika.com": {
+  "brand": "Omika",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/952a17c0f2364eee985b4e69cb8c92f6/952a17c0f2364eee985b4e69cb8c92f6.HD-1080p-7.2Mbps-43595985.mp4",
+    "w": 608,
+    "h": 1080,
+    "dur": 59.0,
+    "handle": "palma-maxi-2"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/2b9ef547a4d14dafa1d8f17857a9dd77/2b9ef547a4d14dafa1d8f17857a9dd77.HD-1080p-7.2Mbps-90959319.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 65.0,
+    "handle": "emma-maxi-5"
+   }
+  ]
+ },
+ "clnwash.com": {
+  "brand": "CLn Skin Care",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/e64fefc625164a118214714168bf96a4/e64fefc625164a118214714168bf96a4.HD-1080p-2.5Mbps-42971612.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 27.84,
+    "handle": "cln-bodywash-8-oz-5-pack"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c022cb3614ba4940b16889bc92261a22/c022cb3614ba4940b16889bc92261a22.HD-1080p-2.5Mbps-42971613.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 12.23,
+    "handle": "cln-bodywash-8-oz-5-pack"
+   }
+  ]
+ },
+ "mirandafrye.com": {
+  "brand": "Miranda Frye",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a48f1a1029db479fb8d66c375e80801f/a48f1a1029db479fb8d66c375e80801f.HD-1080p-7.2Mbps-54783603.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 10.13,
+    "handle": "lana-cuff-silver"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a48f1a1029db479fb8d66c375e80801f/a48f1a1029db479fb8d66c375e80801f.HD-1080p-7.2Mbps-54783603.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 10.13,
+    "handle": "lana-cuff-gold"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/568a2a355f844f549cfd9031e29b1f87/568a2a355f844f549cfd9031e29b1f87.HD-1080p-7.2Mbps-91250544.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 6.63,
+    "handle": "fashion-jackson-bracelet-silver"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d494f1c65b4741ae9aef5192c85b3d56/d494f1c65b4741ae9aef5192c85b3d56.HD-1080p-7.2Mbps-91267152.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 4.79,
+    "handle": "fashion-jackson-bracelet-silver"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/befc740cd18a424094f4254767915f45/befc740cd18a424094f4254767915f45.HD-1080p-2.5Mbps-90750132.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 8.1,
+    "handle": "fashion-jackson-gold"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/98446e7397dc40ae88cd7533e9761ae2/98446e7397dc40ae88cd7533e9761ae2.HD-1080p-2.5Mbps-90868545.mp4",
+    "w": 1080,
+    "h": 1920,
+    "dur": 8.32,
+    "handle": "fashion-jackson-gold"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/af74242b5f364bf38158551657ef7584/af74242b5f364bf38158551657ef7584.HD-1080p-7.2Mbps-91251034.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 9.54,
+    "handle": "maeve-cuff-silver"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/568a2a355f844f549cfd9031e29b1f87/568a2a355f844f549cfd9031e29b1f87.HD-1080p-7.2Mbps-91250544.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 6.63,
+    "handle": "maeve-cuff-silver"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a335e82cae3e440b888793d1c827aebb/a335e82cae3e440b888793d1c827aebb.HD-1080p-7.2Mbps-54783604.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 9.7,
+    "handle": "maeve-cuff-silver"
+   }
+  ]
+ },
+ "lakepajamas.com": {
+  "brand": "LAKE",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "kenzkustomz.com": {
+  "brand": "KenzKustomz",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "anemoslosangeles.com": {
+  "brand": "ANEMOS",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "dermalogica.com": {
+  "brand": "Dermalogica",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "pastmidnight.com": {
+  "brand": "Past Midnight",
+  "industry": "Eyewear",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "marinelayer.com": {
+  "brand": "Marine Layer",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "winkylux.com": {
+  "brand": "Winky Lux",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/eb31ca7e1fad4ca6b6f202eb6cbf052b/eb31ca7e1fad4ca6b6f202eb6cbf052b.HD-1080p-7.2Mbps-102669731.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 35.0,
+    "handle": "the-nice-list"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a60ed162a9af4e248afd1d3d72b929fc/a60ed162a9af4e248afd1d3d72b929fc.HD-1080p-7.2Mbps-102669129.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 27.77,
+    "handle": "sleigh-all-day"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/65df5354181c40d8b76d4adc5817785e/65df5354181c40d8b76d4adc5817785e.HD-1080p-7.2Mbps-102669130.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 27.8,
+    "handle": "sleigh-all-day"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/72c4ec8bd80a4440b8de6243edb77445/72c4ec8bd80a4440b8de6243edb77445.HD-1080p-7.2Mbps-102669956.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 55.0,
+    "handle": "mistletoe-mixer"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c87c978e0f214ba3a286f995a5092c30/c87c978e0f214ba3a286f995a5092c30.HD-1080p-4.8Mbps-96271603.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 12.67,
+    "handle": "mistletoe-mixer"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/27de68ff8252435e972dfc357d9dbba3/27de68ff8252435e972dfc357d9dbba3.HD-1080p-7.2Mbps-96179300.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 12.23,
+    "handle": "mistletoe-mixer"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a02274d0f57141ae8e091d734815cff4/a02274d0f57141ae8e091d734815cff4.HD-1080p-4.8Mbps-95048907.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 17.13,
+    "handle": "the-full-pour-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fab531af13924ecea86ccf74d91384d4/fab531af13924ecea86ccf74d91384d4.HD-1080p-7.2Mbps-96632798.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 41.0,
+    "handle": "fresh-batch-trio"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c4096c8123714d64ae13a487173bd334/c4096c8123714d64ae13a487173bd334.HD-1080p-7.2Mbps-100675966.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 39.0,
+    "handle": "fresh-batch-trio"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fab531af13924ecea86ccf74d91384d4/fab531af13924ecea86ccf74d91384d4.HD-1080p-7.2Mbps-96632798.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 41.0,
+    "handle": "pumpkin-patch-trio"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c42a4957067a4c548d929c46b5685cf0/c42a4957067a4c548d929c46b5685cf0.HD-1080p-7.2Mbps-96632799.mp4",
+    "w": 864,
+    "h": 1080,
+    "dur": 19.73,
+    "handle": "pumpkin-patch-trio"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/703ec9449a3a4cdcb39e0ff6724c2c5e/703ec9449a3a4cdcb39e0ff6724c2c5e.HD-1080p-7.2Mbps-96976479.mp4",
+    "w": 810,
+    "h": 1080,
+    "dur": 20.77,
+    "handle": "rose-reverie-lip-collection"
+   }
+  ]
+ },
+ "daughterlessonsnyc.com": {
+  "brand": "Daughter Lessons NYC",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/99bc2d1d6966420cb524b274218b6560/99bc2d1d6966420cb524b274218b6560.HD-1080p-7.2Mbps-24936885.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 22.53,
+    "handle": "namesake-hoodie"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6ba18016c2c54f128abb1ec488e32b17/6ba18016c2c54f128abb1ec488e32b17.HD-1080p-2.5Mbps-10464959.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 4.37,
+    "handle": "dl-city-tee"
+   }
+  ]
+ },
+ "atpresent.com": {
+  "brand": "At Present",
+  "industry": "Jewelry & Accessories",
+  "ok": 9,
+  "fail": 1,
+  "vids": []
+ },
+ "josiemaran.com": {
+  "brand": "Josie Maran",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/bf892cb78fbb49d1a22f4af8e2356109/bf892cb78fbb49d1a22f4af8e2356109.HD-1080p-7.2Mbps-96155562.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 5.08,
+    "handle": "glow-all-the-way-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/de15d8fa0055450c864ab0d2246408b9/de15d8fa0055450c864ab0d2246408b9.HD-1080p-7.2Mbps-66854112.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 9.07,
+    "handle": "pink-algae-pro-retinol-body-butter-refill"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/fd9ab1e955244593866a782f88e9b194/fd9ab1e955244593866a782f88e9b194.HD-1080p-7.2Mbps-89732301.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 3.2,
+    "handle": "whipped-argan-oil-body-butter-refill-in-bed"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/1aed8fa53a2e4d99901ac84342bc7c7c/1aed8fa53a2e4d99901ac84342bc7c7c.HD-1080p-7.2Mbps-89732300.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 6.53,
+    "handle": "whipped-argan-oil-body-butter-refill-in-bed"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/85da11ebe6e4438daf1bdf2140348bc9/85da11ebe6e4438daf1bdf2140348bc9.HD-1080p-7.2Mbps-25282006.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 4.82,
+    "handle": "whipped-argan-oil-body-butter-refill-bohemian-fig"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6d4f4f259367467695cb5a51f211c994/6d4f4f259367467695cb5a51f211c994.HD-1080p-7.2Mbps-25281802.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 4.74,
+    "handle": "whipped-argan-oil-body-butter-refill-topless-tangerine"
+   }
+  ]
+ },
+ "byrdiegolfsocial.com": {
+  "brand": "Byrdie Golf Social Wear",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "callitbyyourname.fr": {
+  "brand": "Call It By Your Name",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "dearannabelle.com": {
+  "brand": "Dear Annabelle",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "complexionnashville.com": {
+  "brand": "Complexion",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/083f05009a944922957da063ce6c737f/083f05009a944922957da063ce6c737f.HD-1080p-7.2Mbps-43210972.mp4",
+    "w": 2048,
+    "h": 1080,
+    "dur": 53.0,
+    "handle": "fullsendbundle"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/f3b5feaa486d4de6bfd6918b96d5014a/f3b5feaa486d4de6bfd6918b96d5014a.HD-1080p-7.2Mbps-57852088.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 19.09,
+    "handle": "cleanse-duo"
+   }
+  ]
+ },
+ "linneaandco.com": {
+  "brand": "LINNEA",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "elwoodclothing.com": {
+  "brand": "Elwood Clothing",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "porteandhall.com": {
+  "brand": "Porte + Hall",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/810dd470ad8044d686262f184027660b/810dd470ad8044d686262f184027660b.HD-1080p-7.2Mbps-46497648.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 6.76,
+    "handle": "the-porter-greystone-double"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6c519d62bf56435b94ce939c395fd592/6c519d62bf56435b94ce939c395fd592.HD-1080p-7.2Mbps-46457734.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 7.42,
+    "handle": "the-porter-truffle-double"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/810dd470ad8044d686262f184027660b/810dd470ad8044d686262f184027660b.HD-1080p-7.2Mbps-46497648.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 6.76,
+    "handle": "the-porter-greystone-standard"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/6c519d62bf56435b94ce939c395fd592/6c519d62bf56435b94ce939c395fd592.HD-1080p-7.2Mbps-46457734.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 7.42,
+    "handle": "the-porter-truffle-standard"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/527e22e0c7e64117ba6ed5092c10b66c/527e22e0c7e64117ba6ed5092c10b66c.HD-1080p-7.2Mbps-46457727.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 7.79,
+    "handle": "the-porter-iron-double"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/187d0b3e8e0443ec9cc11114891ca6df/187d0b3e8e0443ec9cc11114891ca6df.HD-720p-4.5Mbps-49222794.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 2.09,
+    "handle": "the-innerweave-tigers-eye-stone-area-mat-5x7"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/5232f2d77e57494d928cc4749e05eefd/5232f2d77e57494d928cc4749e05eefd.HD-1080p-7.2Mbps-78006762.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 2.97,
+    "handle": "the-innerweave-tigers-eye-natural-area-mat-5x7"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/b6f8e3dbb6ab4907979f3717536f8f3d/b6f8e3dbb6ab4907979f3717536f8f3d.HD-1080p-7.2Mbps-49222834.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 6.61,
+    "handle": "the-innerweave-tigers-eye-natural-area-mat-5x7"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/622e8a2688944e2db238d83bdd307e4f/622e8a2688944e2db238d83bdd307e4f.HD-720p-4.5Mbps-49222950.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 2.73,
+    "handle": "the-innerweave-chevron-stone-area-mat-5x7"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/355b0f8a680045f3907a509ca9360351/355b0f8a680045f3907a509ca9360351.HD-720p-4.5Mbps-49222990.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 2.67,
+    "handle": "the-innerweave-chevron-natural-area-mat-5x7"
+   }
+  ]
+ },
+ "namesforgood.com": {
+  "brand": "Names For Good",
+  "industry": "Jewelry & Accessories",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "bollandbranch.com": {
+  "brand": "Boll & Branch",
+  "industry": "Home & Living",
+  "ok": 0,
+  "fail": 10,
+  "vids": []
+ },
+ "londontownusa.com": {
+  "brand": "Londontown",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/f2fe4338bbba46c3813598f6a4497602/f2fe4338bbba46c3813598f6a4497602.HD-1080p-7.2Mbps-51054723.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 6.47,
+    "handle": "just-add-color-1"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/13ce30d02f324cda9983412ca3148d86/13ce30d02f324cda9983412ca3148d86.HD-1080p-7.2Mbps-51064620.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 2.97,
+    "handle": "just-add-color-1"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/7e6f83eba3e24deea36879e2ea3716fc/7e6f83eba3e24deea36879e2ea3716fc.HD-1080p-7.2Mbps-51054725.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 15.93,
+    "handle": "just-add-color-1"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/930e242d7bcb4e73a8845d1c1c0aaf80/930e242d7bcb4e73a8845d1c1c0aaf80.HD-1080p-7.2Mbps-85057915.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 23.33,
+    "handle": "peptide-treat-nourish-perfect-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/3a77f54754964cadbd59f35e18ea5b61/3a77f54754964cadbd59f35e18ea5b61.HD-1080p-7.2Mbps-81469282.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 8.37,
+    "handle": "peptide-treat-nourish-perfect-set"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a173bf5332c9429c9330dcf76e580cf6/a173bf5332c9429c9330dcf76e580cf6.HD-1080p-7.2Mbps-85537841.mp4",
+    "w": 1080,
+    "h": 1080,
+    "dur": 6.7,
+    "handle": "peptide-treat-nourish-perfect-set"
+   }
+  ]
+ },
+ "retrouve.com": {
+  "brand": "Retrouv\u00e9",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "petalandpup.com": {
+  "brand": "Petal & Pup",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "coyuchi.com": {
+  "brand": "Coyuchi",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "shopfavoritedaughter.com": {
+  "brand": "Favorite Daughter",
+  "industry": "Fashion & Apparel",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/c27ca99683c742aaa6b6a04b7f69d217/c27ca99683c742aaa6b6a04b7f69d217.HD-1080p-7.2Mbps-19782677.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 37.0,
+    "handle": "the-jamie-sweater-grey"
+   },
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/d851244adeb040a7993a33ecedd651d7/d851244adeb040a7993a33ecedd651d7.HD-1080p-3.3Mbps-65289352.mp4",
+    "w": 606,
+    "h": 1080,
+    "dur": 46.0,
+    "handle": "the-long-sleeve-whitney-top-vino"
+   }
+  ]
+ },
+ "dazedenim.com": {
+  "brand": "Daze Denim",
+  "industry": "Fashion & Apparel",
+  "ok": 9,
+  "fail": 1,
+  "vids": []
+ },
+ "pistoladenim.com": {
+  "brand": "Pistola Denim",
+  "industry": "Fashion & Apparel",
+  "ok": 9,
+  "fail": 1,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/27676e2b5c00467386c1e3a458330560/27676e2b5c00467386c1e3a458330560.HD-1080p-3.3Mbps-96845077.mp4",
+    "w": 718,
+    "h": 1080,
+    "dur": 12.8,
+    "handle": "lexi-mid-rise-bowed-straight-vivid-white"
+   }
+  ]
+ },
+ "orenafragrances.com": {
+  "brand": "Orena Fragrances",
+  "industry": "Beauty & Personal Care",
+  "ok": 10,
+  "fail": 0,
+  "vids": []
+ },
+ "wearecozyland.com": {
+  "brand": "Cozyland",
+  "industry": "Home & Living",
+  "ok": 10,
+  "fail": 0,
+  "vids": [
+   {
+    "url": "https://cdn.shopify.com/videos/c/vp/a87057ab402c4160ae44ed3fb1423f4f/a87057ab402c4160ae44ed3fb1423f4f.HD-720p-4.5Mbps-70907259.mp4",
+    "w": 720,
+    "h": 720,
+    "dur": 5.0,
+    "handle": "the-cloud-necklace-in-green-amethyst"
+   }
+  ]
+ }
+}

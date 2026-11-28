@@ -1,0 +1,3725 @@
+{
+"nike.com": {
+"host": "nike.com",
+"brand": "Nike",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104533053",
+"sales": [
+{
+"sale": "Nike Calm 2.0\u201412.3% commission",
+"start": "2026-11-02",
+"end": "2026-11-30",
+"code": "",
+"disc": ""
+}
+]
+},
+"serenaandlily.com": {
+"host": "serenaandlily.com",
+"brand": "Serena & Lily",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104554522",
+"sales": [
+{
+"sale": "Sale of the Year",
+"start": "2026-11-02",
+"end": "",
+"code": "",
+"disc": "25\u201350% off"
+}
+]
+},
+"rhoback.com": {
+"host": "rhoback.com",
+"brand": "Rhoback",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104555765",
+"sales": [
+{
+"sale": "Rhoback 20% off Sitewide Sale",
+"start": "2026-11-12",
+"end": "",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"shop.joinmidi.com": {
+"host": "shop.joinmidi.com",
+"brand": "Midi Health",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104559796",
+"sales": [
+{
+"sale": "10% off 3+ items - Subscribe for 30% off!",
+"start": "2026-10-27",
+"end": "",
+"code": "",
+"disc": "10% off"
+}
+]
+},
+"goodweatherskin.com": {
+"host": "goodweatherskin.com",
+"brand": "Good Weather Skin",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104562279",
+"sales": [
+{
+"sale": "Our Holiday Event is live! Take 2: 22% Off Two of the Same",
+"start": "2026-11-11",
+"end": "2026-11-26",
+"code": "",
+"disc": "22% off"
+}
+]
+},
+"kyrgies.com": {
+"host": "kyrgies.com",
+"brand": "Kyrgies",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104563678",
+"sales": [
+{
+"sale": "Settle In Sale",
+"start": "2026-11-12",
+"end": "2026-11-26",
+"code": "BISHKEK20",
+"disc": "20% off"
+}
+]
+},
+"hudsongracesf.com": {
+"host": "hudsongracesf.com",
+"brand": "Hudson Grace",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104564221",
+"sales": [
+{
+"sale": "Set the Table. Save 20%. One Day Only.",
+"start": "2026-11-10",
+"end": "",
+"code": "SAVE20",
+"disc": "20% off"
+}
+]
+},
+"shop437.com": {
+"host": "shop437.com",
+"brand": "437",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104564947",
+"sales": [
+{
+"sale": "TYSM Sale",
+"start": "2026-11-12",
+"end": "2026-12-01",
+"code": "",
+"disc": "50% off"
+}
+]
+},
+"pigletinbed.com": {
+"host": "pigletinbed.com",
+"brand": "Piglet in Bed",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104565180",
+"sales": [
+{
+"sale": "Black Friday Barn Sale",
+"start": "2026-11-11",
+"end": "2026-12-04",
+"code": "",
+"disc": "25\u201340% off"
+}
+]
+},
+"frejanyc.com": {
+"host": "frejanyc.com",
+"brand": "Freja",
+"industry": "Handbags & Accessories",
+"shopmy": "https://go.shopmy.us/p-104565744",
+"sales": [
+{
+"sale": "BFCM Sale",
+"start": "2026-11-11",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"soleilsoleil.com.au": {
+"host": "soleilsoleil.com.au",
+"brand": "Soleil Soleil",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104565900",
+"sales": [
+{
+"sale": "Our Summer Sale",
+"start": "2026-11-11",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201370% off"
+}
+]
+},
+"aizome-textiles.com": {
+"host": "aizome-textiles.com",
+"brand": "AIZOME",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104567456",
+"sales": [
+{
+"sale": "AIZOME Organic Loungewear",
+"start": "2026-11-11",
+"end": "2026-12-01",
+"code": "",
+"disc": "15% off"
+}
+]
+},
+"marcellanyc.com": {
+"host": "marcellanyc.com",
+"brand": "Marcella",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104568139",
+"sales": [
+{
+"sale": "Early Black Friday Sale",
+"start": "2026-11-10",
+"end": "2026-12-03",
+"code": "",
+"disc": "10\u201350% off"
+}
+]
+},
+"almina-concept.com": {
+"host": "almina-concept.com",
+"brand": "Almina Concept",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104569399",
+"sales": [
+{
+"sale": "Black Friday Promotion: 25% Sitewide",
+"start": "2026-11-02",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"lumielle.co": {
+"host": "lumielle.co",
+"brand": "LUMIELLE\u0301",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104569922",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-09",
+"end": "2026-12-01",
+"code": "",
+"disc": "Buy 1, get 1 free"
+}
+]
+},
+"mmlafleur.com": {
+"host": "mmlafleur.com",
+"brand": "M.M.LaFleur",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104570282",
+"sales": [
+{
+"sale": "The Black Friday Event Preview - Sitewide Sale",
+"start": "2026-11-10",
+"end": "",
+"code": "",
+"disc": "50% off; 40% off; 35% off; 30% off; 25% off; 20% off; 15% off; 10% off"
+}
+]
+},
+"elemis.com": {
+"host": "elemis.com",
+"brand": "ELEMIS",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104571563",
+"sales": [
+{
+"sale": "Early Black Friday Cyber Monday Sale - 30% Off All Sized Products & 25% Off Kits",
+"start": "2026-11-12",
+"end": "2026-11-26",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"madeincookware.com": {
+"host": "madeincookware.com",
+"brand": "Made In Cookware",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104572280",
+"sales": [
+{
+"sale": "Black Friday / Cyber Monday 2026",
+"start": "2026-11-11",
+"end": "2026-12-07",
+"code": "",
+"disc": "10\u201340% off"
+}
+]
+},
+"materialkitchen.com": {
+"host": "materialkitchen.com",
+"brand": "Material",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104572868",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-10",
+"end": "",
+"code": "",
+"disc": "10\u201335% off"
+}
+]
+},
+"roamluggage.com": {
+"host": "roamluggage.com",
+"brand": "ROAM Luggage",
+"industry": "Travel & Luggage",
+"shopmy": "https://go.shopmy.us/p-104573801",
+"sales": [
+{
+"sale": "Early Black Friday Event",
+"start": "2026-11-11",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201330% off"
+}
+]
+},
+"shopvitality.com": {
+"host": "shopvitality.com",
+"brand": "Vitality",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104574159",
+"sales": [
+{
+"sale": "Vitality Black Friday Sale",
+"start": "2026-11-10",
+"end": "2026-12-02",
+"code": "",
+"disc": "30\u201360% off"
+}
+]
+},
+"lorenhope.com": {
+"host": "lorenhope.com",
+"brand": "Loren Hope",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104574323",
+"sales": [
+{
+"sale": "Loren Hope 30% Off Sitewide BFCM Sale",
+"start": "2026-11-09",
+"end": "2026-12-07",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"macys.com": {
+"host": "macys.com",
+"brand": "Macy's",
+"industry": "Retail",
+"shopmy": "https://go.shopmy.us/p-104575937",
+"sales": [
+{
+"sale": "Macy's Black Friday & Cyber Monday",
+"start": "2026-11-09",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201370% off"
+}
+]
+},
+"nudestix.com": {
+"host": "nudestix.com",
+"brand": "NUDESTIX",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104577027",
+"sales": [
+{
+"sale": "Gift With Purchase: Blume SuperBelly 7-Pack \u2013 Strawberry Hibiscus",
+"start": "2026-11-09",
+"end": "2026-12-01",
+"code": "",
+"disc": "Spend $75, get 1 free"
+}
+]
+},
+"nooance-paris.com": {
+"host": "nooance-paris.com",
+"brand": "NOO\u0100NCE",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104577732",
+"sales": [
+{
+"sale": "Black Friday - 15% off all LED Beauty devices",
+"start": "2026-11-09",
+"end": "2026-12-01",
+"code": "",
+"disc": "15% off"
+}
+]
+},
+"ziipbeauty.com": {
+"host": "ziipbeauty.com",
+"brand": "ZIIP",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104578463",
+"sales": [
+{
+"sale": "20% OFF WITH YOUR DISCOUNT CODE - ZIIP's BIGGEST DISCOUNT OF THE YEAR! \ud83d\udda4\ud83d\udcb0",
+"start": "2026-11-09",
+"end": "2026-12-07",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"hearthdisplay.com": {
+"host": "hearthdisplay.com",
+"brand": "Hearth Display",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104580155",
+"sales": [
+{
+"sale": "BFCM",
+"start": "2026-11-05",
+"end": "2026-11-30",
+"code": "BFCM",
+"disc": "20% off"
+}
+]
+},
+"lumens.com": {
+"host": "lumens.com",
+"brand": "Lumens",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104581681",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-05",
+"end": "2026-12-09",
+"code": "",
+"disc": "10\u201350% off"
+}
+]
+},
+"epjewels.com": {
+"host": "epjewels.com",
+"brand": "EP Jewels",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104571206",
+"sales": [
+{
+"sale": "EP Jewels 30-40% Holiday Sale!!",
+"start": "2026-11-01",
+"end": "2026-12-01",
+"code": "Nov30",
+"disc": "30% off"
+},
+{
+"sale": "EP JEWELS BFCM 45% OFF SALE!!!",
+"start": "2026-11-27",
+"end": "2026-12-01",
+"code": "BF2026",
+"disc": "45% off"
+}
+]
+},
+"thehouseofnoa.com": {
+"host": "thehouseofnoa.com",
+"brand": "House of Noa",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104583025",
+"sales": [
+{
+"sale": "Black Friday 20% Off",
+"start": "2026-11-05",
+"end": "",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"barefaced.com": {
+"host": "barefaced.com",
+"brand": "Barefaced",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104583274",
+"sales": [
+{
+"sale": "Barefaced's Biggest Sale of the Year",
+"start": "2026-11-10",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"goruck.com": {
+"host": "goruck.com",
+"brand": "GORUCK",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104583442",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-06",
+"end": "",
+"code": "",
+"disc": "30\u201350% off"
+}
+]
+},
+"thisisneeded.com": {
+"host": "thisisneeded.com",
+"brand": "Needed",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104583652",
+"sales": [
+{
+"sale": "Needed's Black Friday Cyber Monday Sale",
+"start": "2026-11-06",
+"end": "2026-12-06",
+"code": "",
+"disc": "25% off; 40% off"
+}
+]
+},
+"amodenim.com": {
+"host": "amodenim.com",
+"brand": "AMO Denim",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104584844",
+"sales": [
+{
+"sale": "New Markdowns",
+"start": "2026-11-05",
+"end": "",
+"code": "",
+"disc": "30\u201380% off"
+}
+]
+},
+"arielgordonjewelry.com": {
+"host": "arielgordonjewelry.com",
+"brand": "Ariel Gordon Jewelry",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104586194",
+"sales": [
+{
+"sale": "Holiday Sale 20% off",
+"start": "2026-11-05",
+"end": "2026-12-01",
+"code": "CHEER2026",
+"disc": "20% off"
+}
+]
+},
+"nisolo.com": {
+"host": "nisolo.com",
+"brand": "Nisolo",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104586745",
+"sales": [
+{
+"sale": "SAVE40",
+"start": "2026-11-03",
+"end": "",
+"code": "",
+"disc": "40% off"
+},
+{
+"sale": "SAVE30",
+"start": "2026-11-03",
+"end": "",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"sonyadakar.com": {
+"host": "sonyadakar.com",
+"brand": "SONYA DAKAR SKINCARE",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104587283",
+"sales": [
+{
+"sale": "Holiday Store is Live!",
+"start": "2026-11-05",
+"end": "2026-12-25",
+"code": "",
+"disc": "20\u201353% off; 53% off"
+}
+]
+},
+"gethommey.com": {
+"host": "gethommey.com",
+"brand": "Hommey",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104587488",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday",
+"start": "2026-11-08",
+"end": "2026-12-02",
+"code": "",
+"disc": "25\u201335% off"
+}
+]
+},
+"joinform.com": {
+"host": "joinform.com",
+"brand": "FORM",
+"industry": "Sports & Fitness",
+"shopmy": "https://go.shopmy.us/p-104587692",
+"sales": [
+{
+"sale": "The entire site, up to 30% off",
+"start": "2026-11-05",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+},
+{
+"sale": "Get a FORM annual membership for $99 USD",
+"start": "2026-11-03",
+"end": "2026-12-01",
+"code": "",
+"disc": "70% off"
+}
+]
+},
+"lovesac.com": {
+"host": "lovesac.com",
+"brand": "Lovesac",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104588072",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday",
+"start": "2026-11-04",
+"end": "2026-12-02",
+"code": "",
+"disc": "10\u201340% off"
+}
+]
+},
+"colorescience.com": {
+"host": "colorescience.com",
+"brand": "Colorescience",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104589060",
+"sales": [
+{
+"sale": "The Black Friday Event",
+"start": "2026-11-04",
+"end": "2026-12-03",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"aureumcollective.com": {
+"host": "aureumcollective.com",
+"brand": "AUREUM",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104589815",
+"sales": [
+{
+"sale": "Black Friday 25% Off Sitewide",
+"start": "2026-11-04",
+"end": "",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"pe-nation.com": {
+"host": "pe-nation.com",
+"brand": "P.E Nation",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104590264",
+"sales": [
+{
+"sale": "P.E NATION BLACK FRIDAY SALE",
+"start": "2026-11-11",
+"end": "2026-11-30",
+"code": "",
+"disc": "70% off"
+}
+]
+},
+"join-eby.com": {
+"host": "join-eby.com",
+"brand": "EBY",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104590754",
+"sales": [
+{
+"sale": "Up to 30% Sitewide",
+"start": "2026-11-03",
+"end": "",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"alexandramiro.com": {
+"host": "alexandramiro.com",
+"brand": "Alexandra Miro",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104591777",
+"sales": [
+{
+"sale": "Alexandra Miro Black Friday",
+"start": "2026-11-08",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201350% off"
+}
+]
+},
+"twopagescurtains.com": {
+"host": "twopagescurtains.com",
+"brand": "TWOPAGES Curtains",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104593405",
+"sales": [
+{
+"sale": "Black Friday Picks 28% Off",
+"start": "2026-11-01",
+"end": "2026-12-04",
+"code": "SELECT",
+"disc": "28% off"
+},
+{
+"sale": "SARA24",
+"start": "2026-09-01",
+"end": "",
+"code": "SARA24",
+"disc": "24% off"
+}
+]
+},
+"clevrblends.com": {
+"host": "clevrblends.com",
+"brand": "Clevr Blends",
+"industry": "Food & Beverage",
+"shopmy": "https://go.shopmy.us/p-104594092",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-02",
+"end": "2026-12-07",
+"code": "",
+"disc": "20\u201340% off"
+}
+]
+},
+"eltamd.com": {
+"host": "eltamd.com",
+"brand": "EltaMD",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104594237",
+"sales": [
+{
+"sale": "10% Off Bundles",
+"start": "2026-11-01",
+"end": "2026-12-01",
+"code": "",
+"disc": "10% off"
+}
+]
+},
+"perelelhealth.com": {
+"host": "perelelhealth.com",
+"brand": "Perelel",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104576519",
+"sales": [
+{
+"sale": "25% Off Sitewide: Our BIGGEST sale of the year!",
+"start": "2026-11-09",
+"end": "2026-11-30",
+"code": "BF2026",
+"disc": "25% off"
+},
+{
+"sale": "LAST CHANCE! CYBER MONDAY SALE: 25% Off Sitewide",
+"start": "2026-11-30",
+"end": "2026-12-02",
+"code": "BF2026",
+"disc": "25% off"
+}
+]
+},
+"shopmentionables.com": {
+"host": "shopmentionables.com",
+"brand": "Mentionables",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104594688",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-02",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201330% off"
+}
+]
+},
+"bkbeauty.com": {
+"host": "bkbeauty.com",
+"brand": "BK Beauty",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104594868",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday",
+"start": "2026-11-12",
+"end": "2026-12-02",
+"code": "",
+"disc": "20\u201340% off"
+}
+]
+},
+"lulakate.com": {
+"host": "lulakate.com",
+"brand": "LulaKate",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104595529",
+"sales": [
+{
+"sale": "SAYYES",
+"start": "2026-11-03",
+"end": "2026-12-02",
+"code": "SAYYES",
+"disc": "20% off"
+}
+]
+},
+"tenlittle.com": {
+"host": "tenlittle.com",
+"brand": "Ten Little",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-104595695",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-02",
+"end": "2026-12-02",
+"code": "BLACKFRIDAY20",
+"disc": "20% off"
+}
+]
+},
+"organicbasics.com": {
+"host": "organicbasics.com",
+"brand": "Organic Basics",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104596973",
+"sales": [
+{
+"sale": "November Sale: up to 60% off Sitewide",
+"start": "2026-11-01",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201360% off"
+}
+]
+},
+"christopherobin.com": {
+"host": "christopherobin.com",
+"brand": "Christophe Robin",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104597379",
+"sales": [
+{
+"sale": "30% Off Sitewide + 21% Commission!",
+"start": "2026-10-30",
+"end": "2026-12-01",
+"code": "SMCR30",
+"disc": "30% off"
+}
+]
+},
+"fabletics.com": {
+"host": "fabletics.com",
+"brand": "Fabletics",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104597724",
+"sales": [
+{
+"sale": "Black Friday Starts Now!",
+"start": "2026-10-30",
+"end": "2026-11-30",
+"code": "",
+"disc": "70\u201380% off"
+}
+]
+},
+"gochirp.com": {
+"host": "gochirp.com",
+"brand": "Chirp",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104597890",
+"sales": [
+{
+"sale": "BFCM Sale",
+"start": "2026-11-12",
+"end": "2026-12-07",
+"code": "",
+"disc": "$100 off; $40 off; $30 off; $50 off; $30 off; 25% off; $50 off"
+}
+]
+},
+"carawayhome.com": {
+"host": "carawayhome.com",
+"brand": "Caraway Home",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104598240",
+"sales": [
+{
+"sale": "Caraway\u2019s Biggest Sale Ever!",
+"start": "2026-10-30",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"themarabeauty.com": {
+"host": "themarabeauty.com",
+"brand": "MARA",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104598388",
+"sales": [
+{
+"sale": "Sephora Holiday Savings Event",
+"start": "2026-10-30",
+"end": "2027-11-09",
+"code": "ALLONSALE",
+"disc": "20% off"
+},
+{
+"sale": "Bonus Sale",
+"start": "2026-12-01",
+"end": "2026-12-02",
+"code": "BONUS2026",
+"disc": "25% off"
+}
+]
+},
+"sterlingforever.com": {
+"host": "sterlingforever.com",
+"brand": "Sterling Forever",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104598569",
+"sales": [
+{
+"sale": "Holiday Gifting | 20% Off Sitewide",
+"start": "2026-10-30",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"tsrparis.com": {
+"host": "tsrparis.com",
+"brand": "The Silk Road",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104598960",
+"sales": [
+{
+"sale": "Esme Jacket Pre-Order \u2014 15% Off",
+"start": "2026-10-28",
+"end": "",
+"code": "",
+"disc": "15% off"
+}
+]
+},
+"riseandfall.co": {
+"host": "riseandfall.co",
+"brand": "Rise & Fall",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104599316",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-01",
+"end": "2026-12-03",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"calecimprofessional.com": {
+"host": "calecimprofessional.com",
+"brand": "Calecim",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104599488",
+"sales": [
+{
+"sale": "CALECIM\u00ae Black Friday Gifts on Gifts",
+"start": "2026-11-05",
+"end": "2026-12-01",
+"code": "",
+"disc": "Spend $150, get 1 free; Spend $220, get 1 free; Buy 1, get 1 free; Buy 1, get 2 free"
+}
+]
+},
+"antipodeanlabel.com": {
+"host": "antipodeanlabel.com",
+"brand": "Antipodean Label",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104599639",
+"sales": [
+{
+"sale": "ANTIPODEAN BLACK FRIDAY SALE",
+"start": "2026-10-29",
+"end": "2026-11-30",
+"code": "",
+"disc": "50% off"
+}
+]
+},
+"happyaging.com": {
+"host": "happyaging.com",
+"brand": "Happy Aging",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104600612",
+"sales": [
+{
+"sale": "Perfect Pair \u00b7 Glow Shot $11 off with NAD+ Advanced",
+"start": "2026-08-10",
+"end": "",
+"code": "",
+"disc": "Buy 1, get 1 $11 off each"
+}
+]
+},
+"viccieyewear.com": {
+"host": "viccieyewear.com",
+"brand": "Vicci Eyewear",
+"industry": "Eyewear",
+"shopmy": "https://go.shopmy.us/p-104600937",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-10-28",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"maysama.com": {
+"host": "maysama.com",
+"brand": "Maysama",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104602154",
+"sales": [
+{
+"sale": "Maysama's Black Friday Sale 2026",
+"start": "2026-11-01",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off; 50% off"
+}
+]
+},
+"bonheurjewelry.com": {
+"host": "bonheurjewelry.com",
+"brand": "BONHEUR JEWELRY",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104603119",
+"sales": [
+{
+"sale": "Bonheur15",
+"start": "2026-04-19",
+"end": "",
+"code": "Bonheur15",
+"disc": "15% off"
+}
+]
+},
+"heiressbeverlyhills.com": {
+"host": "heiressbeverlyhills.com",
+"brand": "Heiress Beverly Hills",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104533652",
+"sales": [
+{
+"sale": "BLACK FRIDAY - 35% OFF EVERYTHING",
+"start": "2026-11-13",
+"end": "2026-12-03",
+"code": "",
+"disc": "35% off"
+}
+]
+},
+"remedyskin.com": {
+"host": "remedyskin.com",
+"brand": "Remedy Skin",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104533777",
+"sales": [
+{
+"sale": "Amazon Black Friday Cyber Monday Sale",
+"start": "2026-11-19",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+},
+{
+"sale": "Target Black Friday & Cyber Monday Sale",
+"start": "2026-11-22",
+"end": "2026-11-29",
+"code": "",
+"disc": "25% off"
+},
+{
+"sale": "Remedy Black Friday & Cyber Monday Sale",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201330% off"
+}
+]
+},
+"arrae.com": {
+"host": "arrae.com",
+"brand": "arrae",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104553809",
+"sales": [
+{
+"sale": "Black Friday Sale: Up to 40% Off",
+"start": "2026-11-20",
+"end": "2026-11-27",
+"code": "",
+"disc": "40% off"
+}
+]
+},
+"margauxny.com": {
+"host": "margauxny.com",
+"brand": "Margaux",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104554226",
+"sales": [
+{
+"sale": "Margaux BFCM",
+"start": "2026-11-18",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"fredasalvador.com": {
+"host": "fredasalvador.com",
+"brand": "FR\u0112DA SALVADOR",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104554354",
+"sales": [
+{
+"sale": "FR\u0112DA BLACK FRIDAY 25% OFF",
+"start": "2026-11-19",
+"end": "2026-12-02",
+"code": "VIPFRIDAY26",
+"disc": "25% off"
+}
+]
+},
+"jolieskinco.com": {
+"host": "jolieskinco.com",
+"brand": "Jolie",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104555368",
+"sales": [
+{
+"sale": "Jolie BFCM Sale",
+"start": "2026-11-16",
+"end": "2026-12-31",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"nemah.com": {
+"host": "nemah.com",
+"brand": "N\u0113mah",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104558469",
+"sales": [
+{
+"sale": "The Nemah Holiday Sale",
+"start": "2026-11-16",
+"end": "2026-12-03",
+"code": "",
+"disc": "30% off; 20\u201340% off"
+}
+]
+},
+"minglemocktails.com": {
+"host": "minglemocktails.com",
+"brand": "Mingle Mocktails",
+"industry": "Food & Beverage",
+"shopmy": "",
+"sales": [
+{
+"sale": "Mingle BFCM on Amazon: Up to 40% Off",
+"start": "2026-11-19",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201340% off"
+},
+{
+"sale": "Mingle BFCM: Up to 40% Off",
+"start": "2026-11-26",
+"end": "2026-12-01",
+"code": "",
+"disc": "30\u201340% off"
+}
+]
+},
+"softiespjs.com": {
+"host": "softiespjs.com",
+"brand": "Softies",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104562510",
+"sales": [
+{
+"sale": "Softies Black Friday Sale",
+"start": "2026-11-18",
+"end": "2026-11-30",
+"code": "",
+"disc": "20% off; 60% off"
+},
+{
+"sale": "Holiday Shipping Sale",
+"start": "2026-12-09",
+"end": "2026-12-21",
+"code": "",
+"disc": "Spend $50, get 1 free"
+},
+{
+"sale": "Softies Cyber Monday Sale",
+"start": "2026-11-30",
+"end": "2026-12-07",
+"code": "",
+"disc": "20% off; Spend $150, get 1 free"
+}
+]
+},
+"ovii.com": {
+"host": "ovii.com",
+"brand": "Ovii",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104563501",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday Sale",
+"start": "2026-11-14",
+"end": "2026-12-03",
+"code": "",
+"disc": "20% off; 30% off; 50% off"
+},
+{
+"sale": "Black Friday Cyber Monday Extended Sale",
+"start": "2026-12-03",
+"end": "2026-12-08",
+"code": "",
+"disc": "20% off; 30% off; 50% off"
+}
+]
+},
+"ringconcierge.com": {
+"host": "ringconcierge.com",
+"brand": "Ring Concierge",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104564069",
+"sales": [
+{
+"sale": "Ring Concierge Black Friday Sale",
+"start": "2026-11-16",
+"end": "2026-12-02",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"us.aktlondon.com": {
+"host": "us.aktlondon.com",
+"brand": "AKT London",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104565364",
+"sales": [
+{
+"sale": "50% off Bodycare and Discovery Set",
+"start": "2026-11-20",
+"end": "2026-12-01",
+"code": "",
+"disc": "50% off"
+},
+{
+"sale": "BFCM - Further 20% off when you spend $90",
+"start": "2026-11-27",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"us.strathberry.com": {
+"host": "us.strathberry.com",
+"brand": "Strathberry",
+"industry": "Handbags & Accessories",
+"shopmy": "https://go.shopmy.us/p-104565558",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-20",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"houseplant.com": {
+"host": "houseplant.com",
+"brand": "Houseplant",
+"industry": "Cannabis",
+"shopmy": "https://go.shopmy.us/p-104568812",
+"sales": [
+{
+"sale": "Early Access Black Friday sale",
+"start": "2026-11-16",
+"end": "2026-11-27",
+"code": "",
+"disc": "10\u201330% off"
+},
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-27",
+"end": "2026-12-02",
+"code": "",
+"disc": "15\u201335% off"
+}
+]
+},
+"parevabeauty.com": {
+"host": "parevabeauty.com",
+"brand": "Par\u00ebva Beauty",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104569581",
+"sales": [
+{
+"sale": "PAR\u00cbVA BEAUTY Holiday Promotions",
+"start": "2026-11-20",
+"end": "2026-12-02",
+"code": "",
+"disc": "25% off; 35% off"
+}
+]
+},
+"crocs.com": {
+"host": "crocs.com",
+"brand": "Crocs",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104571396",
+"sales": [
+{
+"sale": "Take Up to 60% Off + Doorbusters\u200b at Crocs.com!",
+"start": "2026-11-15",
+"end": "2026-11-30",
+"code": "",
+"disc": "60% off"
+}
+]
+},
+"bubishluxe.us": {
+"host": "bubishluxe.us",
+"brand": "b\u00fcbish",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104571915",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"tatcha.com": {
+"host": "tatcha.com",
+"brand": "Tatcha",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104572689",
+"sales": [
+{
+"sale": "Tatcha Black Friday + Cyber Monday",
+"start": "2026-11-20",
+"end": "2026-11-30",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"arey.com": {
+"host": "arey.com",
+"brand": "Arey",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104573255",
+"sales": [
+{
+"sale": "BFCM Sale",
+"start": "2026-11-18",
+"end": "2026-12-02",
+"code": "",
+"disc": "25\u201350% off"
+}
+]
+},
+"skims.com": {
+"host": "skims.com",
+"brand": "SKIMS",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104573614",
+"sales": [
+{
+"sale": "SKIMS Black Friday Cyber Monday Event",
+"start": "2026-11-20",
+"end": "2026-12-02",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"knix.com": {
+"host": "knix.com",
+"brand": "Knix",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104575545",
+"sales": [
+{
+"sale": "Knix BFCM",
+"start": "2026-11-18",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201350% off"
+},
+{
+"sale": "Knix 30% Off Apparel & Sleep",
+"start": "2026-11-24",
+"end": "2026-11-27",
+"code": "",
+"disc": "30% off"
+},
+{
+"sale": "Knix 25% Off Dream Series",
+"start": "2026-11-27",
+"end": "2026-11-30",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"jennikayne.com": {
+"host": "jennikayne.com",
+"brand": "Jenni Kayne",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104576345",
+"sales": [
+{
+"sale": "The Black Friday Event, Up to 60% Off",
+"start": "2026-11-19",
+"end": "2026-12-01",
+"code": "",
+"disc": "60% off; 50% off; 30% off; 25% off"
+}
+]
+},
+"thenimetyou.com": {
+"host": "thenimetyou.com",
+"brand": "Then I Met You",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104576879",
+"sales": [
+{
+"sale": "Then I Met You Black Friday/Cyber Monday 2026 Sale",
+"start": "2026-11-13",
+"end": "2026-12-02",
+"code": "",
+"disc": "20% off; 25% off; 30% off"
+}
+]
+},
+"earlybirdcbd.com": {
+"host": "earlybirdcbd.com",
+"brand": "EarlyBird CBD",
+"industry": "Cannabis",
+"shopmy": "https://go.shopmy.us/p-104577216",
+"sales": [
+{
+"sale": "Stock Up Sale",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "BFCM100; BFCM200; BFCM300",
+"disc": "$25 off; $60 off; $100 off"
+}
+]
+},
+"beyondnine.co.uk": {
+"host": "beyondnine.co.uk",
+"brand": "Beyond Nine",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104578674",
+"sales": [
+{
+"sale": "Black Friday Sale - Up to 40% Off",
+"start": "2026-11-13",
+"end": "2026-12-01",
+"code": "",
+"disc": "40% off"
+}
+]
+},
+"spanx.com": {
+"host": "spanx.com",
+"brand": "Spanx",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104578920",
+"sales": [
+{
+"sale": "Black Friday / Cyber Monday Sale",
+"start": "2026-11-19",
+"end": "2026-12-02",
+"code": "",
+"disc": "30\u201350% off; 30\u201350% off"
+}
+]
+},
+"stripeandstare.com": {
+"host": "stripeandstare.com",
+"brand": "Stripe & Stare",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104580566",
+"sales": [
+{
+"sale": "S&S Black Friday Daily Deals & Sale!",
+"start": "2026-11-15",
+"end": "2026-12-01",
+"code": "",
+"disc": "30\u201350% off"
+}
+]
+},
+"pendleton-usa.com": {
+"host": "pendleton-usa.com",
+"brand": "Pendleton",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104581847",
+"sales": [
+{
+"sale": "Pre Black Friday",
+"start": "2026-11-13",
+"end": "2026-11-26",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"paulaschoice.com": {
+"host": "paulaschoice.com",
+"brand": "Paula's Choice",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104582458",
+"sales": [
+{
+"sale": "Cyber Week Sale",
+"start": "2026-11-16",
+"end": "2026-12-05",
+"code": "CYBER26",
+"disc": "30% off"
+}
+]
+},
+"cowboycolostrum.com": {
+"host": "cowboycolostrum.com",
+"brand": "Cowboy Colostrum",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104582666",
+"sales": [
+{
+"sale": "45% OFF - SITEWIDE",
+"start": "2026-11-20",
+"end": "",
+"code": "",
+"disc": "45% off"
+}
+]
+},
+"440me.com": {
+"host": "440me.com",
+"brand": "440ME",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104582837",
+"sales": [
+{
+"sale": "Black Friday & Cyber Monday Sale",
+"start": "2026-11-20",
+"end": "2026-11-30",
+"code": "",
+"disc": "20\u201350% off"
+}
+]
+},
+"us.maje.com": {
+"host": "us.maje.com",
+"brand": "Maje",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104584683",
+"sales": [
+{
+"sale": "Maje Black Friday Event",
+"start": "2026-11-19",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"skinfix.com": {
+"host": "skinfix.com",
+"brand": "skinfix",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104585714",
+"sales": [
+{
+"sale": "Skinfix Cyber Week & Blue Friday Sale",
+"start": "2026-11-18",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"bryananthonys.com": {
+"host": "bryananthonys.com",
+"brand": "Bryan Anthonys",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104589249",
+"sales": [
+{
+"sale": "Black Friday - Cyber Monday: BOGO FREE + Gift with Purchase",
+"start": "2026-11-20",
+"end": "2026-12-04",
+"code": "",
+"disc": "Buy 1, get 1 free"
+},
+{
+"sale": "Holiday Sale: 30% Off Sitewide + Door Crashers",
+"start": "2026-12-04",
+"end": "2026-12-20",
+"code": "",
+"disc": "30% off"
+},
+{
+"sale": "End of Year Sale: 25% Off Sitewide",
+"start": "2026-12-26",
+"end": "2027-01-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"chantecaille.com": {
+"host": "chantecaille.com",
+"brand": "Chantecaille",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104591091",
+"sales": [
+{
+"sale": "Chantecaille Black Friday/Cyber Monday Sale",
+"start": "2026-11-20",
+"end": "2026-12-02",
+"code": "CYBER",
+"disc": "25% off"
+}
+]
+},
+"ooni.com": {
+"host": "ooni.com",
+"brand": "Ooni",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104592091",
+"sales": [
+{
+"sale": "Ooni BFCM Sale",
+"start": "2026-11-17",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"experimentbeauty.com": {
+"host": "experimentbeauty.com",
+"brand": "Experiment",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104592837",
+"sales": [
+{
+"sale": "Experiment BFCM",
+"start": "2026-11-20",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"promixnutrition.com": {
+"host": "promixnutrition.com",
+"brand": "PROMIX",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104594368",
+"sales": [
+{
+"sale": "Promix BFCM Sale",
+"start": "2026-11-20",
+"end": "2026-12-01",
+"code": "",
+"disc": "34% off"
+}
+]
+},
+"thesculptsociety.com": {
+"host": "thesculptsociety.com",
+"brand": "The Sculpt Society",
+"industry": "Sports & Fitness",
+"shopmy": "https://go.shopmy.us/p-104595846",
+"sales": [
+{
+"sale": "The Sculpt Society | BFCM Equipment Sale!",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+},
+{
+"sale": "The Sculpt Society | BFCM Membership Sale!",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "",
+"disc": "50% off"
+}
+]
+},
+"younggoose.com": {
+"host": "younggoose.com",
+"brand": "Young Goose",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104599146",
+"sales": [
+{
+"sale": "Young Goose | BFCM",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "",
+"disc": "Spend $300, get 1 free; Spend $500, get 2 free; Spend $750, get 3 free"
+}
+]
+},
+"rails.com": {
+"host": "rails.com",
+"brand": "Rails",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104599824",
+"sales": [
+{
+"sale": "Black Friday/Cyber Monday 2026 Sale",
+"start": "2026-11-16",
+"end": "2026-11-30",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"nelleatelier.com": {
+"host": "nelleatelier.com",
+"brand": "Nelle Atelier",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104600038",
+"sales": [
+{
+"sale": "Black Friday/Cyber Monday",
+"start": "2026-11-20",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"colleenrothschild.com": {
+"host": "colleenrothschild.com",
+"brand": "Colleen Rothschild",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104600772",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-18",
+"end": "2026-11-30",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"trysuri.com": {
+"host": "trysuri.com",
+"brand": "SURI",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104601179",
+"sales": [
+{
+"sale": "BFCM Sale",
+"start": "2026-11-19",
+"end": "2026-12-02",
+"code": "",
+"disc": "\u00a325 off"
+}
+]
+},
+"petitekeep.com": {
+"host": "petitekeep.com",
+"brand": "Petite Keep",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104601989",
+"sales": [
+{
+"sale": "15% off Black Friday Cyber Monday Sale",
+"start": "2026-11-18",
+"end": "2026-12-02",
+"code": "",
+"disc": "15% off"
+}
+]
+},
+"sweetchemistry.com": {
+"host": "sweetchemistry.com",
+"brand": "Sweet Chemistry Labs",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104598767",
+"sales": [
+{
+"sale": "The Black Friday Cyber Monday Event",
+"start": "2026-11-19",
+"end": "2026-11-30",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"cakesbody.com": {
+"host": "cakesbody.com",
+"brand": "CAKES Body",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104602585",
+"sales": [
+{
+"sale": "CAKES Black Friday for Boobs Event",
+"start": "2026-11-19",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"heavenmayhem.com": {
+"host": "heavenmayhem.com",
+"brand": "Heaven Mayhem",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-108213463",
+"sales": [
+{
+"sale": "Heaven Mayhem Black Friday Sale",
+"start": "2026-11-18",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201360% off"
+}
+]
+},
+"jenniferbehr.com": {
+"host": "jenniferbehr.com",
+"brand": "Jennifer Behr",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-108213543",
+"sales": [
+{
+"sale": "The Black Friday Sale - 25% Off",
+"start": "2026-11-20",
+"end": "2026-12-02",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"brooklinen.com": {
+"host": "brooklinen.com",
+"brand": "Brooklinen",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-108213639",
+"sales": [
+{
+"sale": "Black Friday + Cyber Monday Sale",
+"start": "2026-11-16",
+"end": "2026-12-03",
+"code": "",
+"disc": "25\u201350% off"
+}
+]
+},
+"shopbala.com": {
+"host": "shopbala.com",
+"brand": "Bala",
+"industry": "Sports & Fitness",
+"shopmy": "https://go.shopmy.us/p-108213717",
+"sales": [
+{
+"sale": "Bala BFCM Sale",
+"start": "2026-11-19",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"dissh.com": {
+"host": "dissh.com",
+"brand": "DISSH",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108213817",
+"sales": [
+{
+"sale": "DISSH Black Friday Promotion",
+"start": "2026-11-15",
+"end": "2026-12-02",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"vince.com": {
+"host": "vince.com",
+"brand": "Vince",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108213907",
+"sales": [
+{
+"sale": "Vince: The Black Friday Sale",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "BFCM",
+"disc": "25\u201330% off"
+}
+]
+},
+"oseamalibu.com": {
+"host": "oseamalibu.com",
+"brand": "OSEA",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108214084",
+"sales": [
+{
+"sale": "BFCM Offer \u2014 Give gifts that glow",
+"start": "2026-11-20",
+"end": "2026-12-01",
+"code": "",
+"disc": "Spend $125, get 3 free; Spend $125, get 2 free"
+},
+{
+"sale": "From Malibu to You | Give the gift of glowing skin",
+"start": "2026-11-15",
+"end": "2026-12-26",
+"code": "",
+"disc": "34% off; 32% off"
+}
+]
+},
+"withconsideration.com.au": {
+"host": "withconsideration.com.au",
+"brand": "With Consideration",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108214255",
+"sales": [
+{
+"sale": "Black Friday Sale \u2013 Up to 50% Off",
+"start": "2026-11-15",
+"end": "2026-12-01",
+"code": "",
+"disc": "15\u201350% off"
+}
+]
+},
+"bagatiba.com": {
+"host": "bagatiba.com",
+"brand": "BAGATIBA",
+"industry": "Handbags & Accessories",
+"shopmy": "https://go.shopmy.us/p-108214447",
+"sales": [
+{
+"sale": "BFCM",
+"start": "2026-11-20",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"algenist.com": {
+"host": "algenist.com",
+"brand": "Algenist",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108214629",
+"sales": [
+{
+"sale": "Black Friday - 35% Off Sitewide",
+"start": "2026-11-17",
+"end": "2026-12-01",
+"code": "blackfriday35",
+"disc": "35% off"
+}
+]
+},
+"shopnoble.com": {
+"host": "shopnoble.com",
+"brand": "Noble",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108214994",
+"sales": [
+{
+"sale": "Noble Annual Holiday Sale!",
+"start": "2026-11-15",
+"end": "2026-12-01",
+"code": "",
+"disc": "15\u201350% off"
+}
+]
+},
+"monrow.com": {
+"host": "monrow.com",
+"brand": "MONROW",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108216302",
+"sales": [
+{
+"sale": "The MONROW Black Friday Event",
+"start": "2026-11-20",
+"end": "2026-11-29",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"pointestudio.com": {
+"host": "pointestudio.com",
+"brand": "Pointe Studio",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108216376",
+"sales": [
+{
+"sale": "BLACK FRIDAY",
+"start": "2026-11-16",
+"end": "2026-11-30",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"theovernightblowout.com": {
+"host": "theovernightblowout.com",
+"brand": "Overnight Blowout",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108216840",
+"sales": [
+{
+"sale": "Free Navy Tote $125+",
+"start": "2026-11-10",
+"end": "2026-12-01",
+"code": "",
+"disc": "Spend $125, get 1 free; 20% off"
+}
+]
+},
+"augustnoa.com": {
+"host": "augustnoa.com",
+"brand": "augustnoa",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108216918",
+"sales": [
+{
+"sale": "25% OFF Site Wide",
+"start": "2026-11-13",
+"end": "2026-12-02",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"drinkvelvethammer.com": {
+"host": "drinkvelvethammer.com",
+"brand": "Velvet Hammer",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108217003",
+"sales": [
+{
+"sale": "Velvet Hammer Black Friday Cyber Monday SALE\u2728 Up to 30% off!",
+"start": "2026-11-19",
+"end": "2026-12-02",
+"code": "",
+"disc": "20\u201330% off"
+}
+]
+},
+"shopsocietysocial.com": {
+"host": "shopsocietysocial.com",
+"brand": "Society Social",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-108217066",
+"sales": [
+{
+"sale": "BLACK FRIDAY, CYBER MONDAY SALE",
+"start": "2026-11-17",
+"end": "2026-12-01",
+"code": "EVERYTHING20",
+"disc": "20% off"
+}
+]
+},
+"harperwilde.com": {
+"host": "harperwilde.com",
+"brand": "Harper Wilde",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108217226",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday Sale",
+"start": "2026-11-20",
+"end": "2026-11-30",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"lambsivy.com": {
+"host": "lambsivy.com",
+"brand": "Lambs & Ivy",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-108217283",
+"sales": [
+{
+"sale": "shopmy1026",
+"start": "2026-11-13",
+"end": "2027-01-01",
+"code": "shopmy1026",
+"disc": "$10 off"
+}
+]
+},
+"eachandevery.com": {
+"host": "eachandevery.com",
+"brand": "Each & Every",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108217352",
+"sales": [
+{
+"sale": "BFCM 2026",
+"start": "2026-11-19",
+"end": "2026-12-01",
+"code": "HOLIDAY26",
+"disc": "30% off"
+}
+]
+},
+"curiebod.com": {
+"host": "curiebod.com",
+"brand": "CURIE",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108217425",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-13",
+"end": "2026-12-02",
+"code": "",
+"disc": "10% off; 20% off; 30% off"
+}
+]
+},
+"farmacybeauty.com": {
+"host": "farmacybeauty.com",
+"brand": "Farmacy Beauty",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108217871",
+"sales": [
+{
+"sale": "Farmacy T12 Sale at Amazon (11/19 - 11/30)",
+"start": "2026-11-13",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201340% off"
+}
+]
+},
+"melalight.com": {
+"host": "melalight.com",
+"brand": "MELALIGHT",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-108217993",
+"sales": [
+{
+"sale": "MELALIGHT: Better Nights, 20% Off",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+},
+{
+"sale": "Black Friday/Cyber Monday Sale 20% Off",
+"start": "2026-11-16",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"sisterlytribe.com": {
+"host": "sisterlytribe.com",
+"brand": "Sisterly Tribe",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108218079",
+"sales": [
+{
+"sale": "Black Friday | Cyber Monday",
+"start": "2026-11-20",
+"end": "2026-11-30",
+"code": "",
+"disc": "15\u201350% off"
+}
+]
+},
+"nettenyc.com": {
+"host": "nettenyc.com",
+"brand": "Nette",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108218218",
+"sales": [
+{
+"sale": "THENETTEEVENT",
+"start": "2026-11-13",
+"end": "2026-12-01",
+"code": "THENETTEEVENT",
+"disc": "25% off"
+}
+]
+},
+"goop.com": {
+"host": "goop.com",
+"brand": "goop",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108218283",
+"sales": [
+{
+"sale": "Seasonal Markdowns",
+"start": "2026-11-13",
+"end": "",
+"code": "",
+"disc": "80% off"
+}
+]
+},
+"niraskin.com": {
+"host": "niraskin.com",
+"brand": "NIRA",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104597545",
+"sales": [
+{
+"sale": "Black Friday",
+"start": "2026-11-19",
+"end": "2026-12-03",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"jetsetcandy.com": {
+"host": "jetsetcandy.com",
+"brand": "Jet Set Candy",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-108218645",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-13",
+"end": "2026-12-01",
+"code": "",
+"disc": "40% off"
+}
+]
+},
+"wildroseandsparrow.com": {
+"host": "wildroseandsparrow.com",
+"brand": "Wild Rose & Sparrow",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-108218704",
+"sales": [
+{
+"sale": "Wild Rose & Sparrow | Black Friday Sale",
+"start": "2026-11-18",
+"end": "2026-12-01",
+"code": "",
+"disc": "10\u201335% off"
+}
+]
+},
+"macduggal.com": {
+"host": "macduggal.com",
+"brand": "Mac Duggal",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108219124",
+"sales": [
+{
+"sale": "BFCM25",
+"start": "2026-11-17",
+"end": "2026-12-03",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"parachutehome.com": {
+"host": "parachutehome.com",
+"brand": "Parachute Home",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-108219683",
+"sales": [
+{
+"sale": "2026BFCM - 20% Off",
+"start": "2026-11-15",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"typebea.com": {
+"host": "typebea.com",
+"brand": "TYPEBEA",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108219869",
+"sales": [
+{
+"sale": "The Mane Event",
+"start": "2026-11-19",
+"end": "2026-12-02",
+"code": "",
+"disc": "20% off; 25% off; 30% off"
+}
+]
+},
+"mademoisellejules.com": {
+"host": "mademoisellejules.com",
+"brand": "Mademoiselle Jules",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108220058",
+"sales": [
+{
+"sale": "BLACKFRIDAY26",
+"start": "2026-11-10",
+"end": "2026-12-01",
+"code": "BLACKFRIDAY26",
+"disc": "30% off"
+}
+]
+},
+"cocoandeve.com": {
+"host": "cocoandeve.com",
+"brand": "Coco & Eve",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108220122",
+"sales": [
+{
+"sale": "Black Friday Sale 2026",
+"start": "2026-11-17",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off; 40% off"
+}
+]
+},
+"cocolab.com": {
+"host": "cocolab.com",
+"brand": "Cocolab",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108220568",
+"sales": [
+{
+"sale": "Black Friday",
+"start": "2026-11-12",
+"end": "",
+"code": "",
+"disc": "25\u201335% off"
+}
+]
+},
+"happiestbaby.com": {
+"host": "happiestbaby.com",
+"brand": "Happiest Baby",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-108220928",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-12",
+"end": "2026-12-07",
+"code": "",
+"disc": "20\u201340% off"
+}
+]
+},
+"rothys.com": {
+"host": "rothys.com",
+"brand": "Rothy's",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-108221028",
+"sales": [
+{
+"sale": "The Holiday Event",
+"start": "2026-11-18",
+"end": "2026-12-01",
+"code": "",
+"disc": "40% off"
+},
+{
+"sale": "Black Friday Clog Exclusive - $99 Casual Clog",
+"start": "2026-11-26",
+"end": "2026-11-28",
+"code": "",
+"disc": "$61 off"
+}
+]
+},
+"thefete.com": {
+"host": "thefete.com",
+"brand": "The F\u00eate",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-108221102",
+"sales": [
+{
+"sale": "THANKFUL25",
+"start": "2026-11-19",
+"end": "2026-12-02",
+"code": "THANKFUL25",
+"disc": "25% off"
+}
+]
+},
+"appaman.com": {
+"host": "appaman.com",
+"brand": "Appaman",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-104595370",
+"sales": [
+{
+"sale": "PUFFER99",
+"start": "2026-11-15",
+"end": "2026-12-03",
+"code": "PUFFER99",
+"disc": "$66 off"
+}
+]
+},
+"ritual.com": {
+"host": "ritual.com",
+"brand": "Ritual",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-108221232",
+"sales": [
+{
+"sale": "Black Friday Sale | 40% Off",
+"start": "2026-11-11",
+"end": "2026-12-02",
+"code": "",
+"disc": "40% off"
+}
+]
+},
+"lacoquetakids.com": {
+"host": "lacoquetakids.com",
+"brand": "La Coqueta",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-108221310",
+"sales": [
+{
+"sale": "Black Friday Sale | 25% Off",
+"start": "2026-11-13",
+"end": "2026-11-30",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"getquip.com": {
+"host": "getquip.com",
+"brand": "Quip",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-108221512",
+"sales": [
+{
+"sale": "Black Friday Starts Now - 20% off sitewide",
+"start": "2026-11-13",
+"end": "2026-11-28",
+"code": "BFD20",
+"disc": "20% off"
+}
+]
+},
+"supergoop.com": {
+"host": "supergoop.com",
+"brand": "Supergoop!",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108221638",
+"sales": [
+{
+"sale": "40% OFF SUPERSTEALS",
+"start": "2026-11-02",
+"end": "2027-01-04",
+"code": "",
+"disc": "40% off"
+}
+]
+},
+"baublebar.com": {
+"host": "baublebar.com",
+"brand": "BaubleBar",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104533248",
+"sales": [
+{
+"sale": "Black Friday & Cyber Monday Event",
+"start": "2026-11-23",
+"end": "2026-12-02",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"aliceandolivia.com": {
+"host": "aliceandolivia.com",
+"brand": "alice + olivia",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104553600",
+"sales": [
+{
+"sale": "Cyber Monday Sale - Additional 10% Off",
+"start": "2026-11-30",
+"end": "2026-12-02",
+"code": "",
+"disc": "25% off"
+},
+{
+"sale": "Black Friday - Extra 30% Off",
+"start": "2026-11-27",
+"end": "2026-11-28",
+"code": "",
+"disc": "30% off"
+},
+{
+"sale": "Biggest Sale of the Year: Black Friday",
+"start": "2026-11-23",
+"end": "2026-11-27",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"drinkcann.com": {
+"host": "drinkcann.com",
+"brand": "Cann",
+"industry": "Cannabis",
+"shopmy": "https://go.shopmy.us/p-104554090",
+"sales": [
+{
+"sale": "40% off everything - Happy Black Friday!",
+"start": "2026-11-25",
+"end": "2026-12-01",
+"code": "",
+"disc": "40% off"
+}
+]
+},
+"meritbeauty.com": {
+"host": "meritbeauty.com",
+"brand": "MERIT Beauty",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104554895",
+"sales": [
+{
+"sale": "MERIT's ONLY Sale of the Year! Black Friday / Cyber Monday",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201325% off"
+}
+]
+},
+"littlespoonshop.myshopify.com": {
+"host": "littlespoonshop.myshopify.com",
+"brand": "Little Spoon",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-104555968",
+"sales": [
+{
+"sale": "Black Friday / Cyber Monday Sale",
+"start": "2026-11-23",
+"end": "2026-12-02",
+"code": "EARLYBIRD60; SAVEBIG65",
+"disc": "60% off; 65% off"
+}
+]
+},
+"partlowofficial.com": {
+"host": "partlowofficial.com",
+"brand": "Partlow",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104560109",
+"sales": [
+{
+"sale": "PARTLOW Black Friday Sale",
+"start": "2026-11-27",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"bario-neal.com": {
+"host": "bario-neal.com",
+"brand": "Bario Neal",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104562921",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "15% off"
+}
+]
+},
+"bewellbykelly.com": {
+"host": "bewellbykelly.com",
+"brand": "Be Well by Kelly LeVeque",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104563268",
+"sales": [
+{
+"sale": "Be Well Black Friday Cyber Monday Sale",
+"start": "2026-11-27",
+"end": "2026-12-03",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"byalona.com": {
+"host": "byalona.com",
+"brand": "By Alona",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104564580",
+"sales": [
+{
+"sale": "BFCM Sale",
+"start": "2026-11-26",
+"end": "2026-12-01",
+"code": "BLACKFRIDAY",
+"disc": "30% off"
+}
+]
+},
+"danarebeccadesigns.com": {
+"host": "danarebeccadesigns.com",
+"brand": "Dana Rebecca Designs",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104566956",
+"sales": [
+{
+"sale": "DRD Cyber Week: Nov 23 to 30",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "",
+"disc": "10% off; 12% off; 15% off"
+}
+]
+},
+"thefoggydog.com": {
+"host": "thefoggydog.com",
+"brand": "The Foggy Dog",
+"industry": "Pets",
+"shopmy": "https://go.shopmy.us/p-104567165",
+"sales": [
+{
+"sale": "BARK FRIDAY SALE - 20% off SITEWIDE at The Foggy Dog",
+"start": "2026-11-25",
+"end": "2026-12-01",
+"code": "BARKFRIDAY",
+"disc": "20% off"
+}
+]
+},
+"teacollection.com": {
+"host": "teacollection.com",
+"brand": "Tea Collection",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-104567820",
+"sales": [
+{
+"sale": "50% Off Cyber Monday",
+"start": "2026-11-28",
+"end": "2026-12-02",
+"code": "",
+"disc": "50% off"
+}
+]
+},
+"recesspickleball.com": {
+"host": "recesspickleball.com",
+"brand": "Club Recess",
+"industry": "Sports & Fitness",
+"shopmy": "https://go.shopmy.us/p-104568548",
+"sales": [
+{
+"sale": "12 Days of Gifting",
+"start": "2026-12-01",
+"end": "2026-12-13",
+"code": "",
+"disc": "20\u201350% off"
+},
+{
+"sale": "Club Recess Cyber Monday: last day to save",
+"start": "2026-11-30",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201345% off"
+},
+{
+"sale": "Club Recess Black Friday: up to 40% off",
+"start": "2026-11-24",
+"end": "2026-11-30",
+"code": "",
+"disc": "20\u201340% off"
+}
+]
+},
+"malinandgoetz.com": {
+"host": "malinandgoetz.com",
+"brand": "MALIN+GOETZ",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104569009",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-26",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off; 25% off; Spend $150, get 1 free"
+}
+]
+},
+"shopsocialthreads.com": {
+"host": "shopsocialthreads.com",
+"brand": "Social Threads",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104569217",
+"sales": [
+{
+"sale": "BLACKFRIDAY30",
+"start": "2026-11-27",
+"end": "2026-11-29",
+"code": "BLACKFRIDAY30",
+"disc": "30% off"
+},
+{
+"sale": "CYBER25",
+"start": "2026-11-25",
+"end": "2026-12-05",
+"code": "CYBER25",
+"disc": "25% off"
+}
+]
+},
+"shopmarea.com": {
+"host": "shopmarea.com",
+"brand": "Marea",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104570104",
+"sales": [
+{
+"sale": "Marea BFCM Sale",
+"start": "2026-11-24",
+"end": "2026-11-30",
+"code": "",
+"disc": "25% off"
+},
+{
+"sale": "JOY20",
+"start": "2026-11-27",
+"end": "2026-12-02",
+"code": "JOY20",
+"disc": "20% off"
+}
+]
+},
+"dl1961.com": {
+"host": "dl1961.com",
+"brand": "DL1961",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104570459",
+"sales": [
+{
+"sale": "DL1961 Black Friday & Cyber Monday Sale",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "THANKFUL30",
+"disc": "30% off"
+}
+]
+},
+"intentionallyblank.us": {
+"host": "intentionallyblank.us",
+"brand": "Intentionally Blank",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104573083",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201375% off"
+}
+]
+},
+"beistravel.com": {
+"host": "beistravel.com",
+"brand": "B\u00c9IS",
+"industry": "Travel & Luggage",
+"shopmy": "https://go.shopmy.us/p-104573435",
+"sales": [
+{
+"sale": "B\u00c9IS Black Friday & Cyber Monday",
+"start": "2026-11-22",
+"end": "",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"getcanopy.co": {
+"host": "getcanopy.co",
+"brand": "Canopy",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104575358",
+"sales": [
+{
+"sale": "Black Friday & Cyber Monday - Public Sale",
+"start": "2026-11-25",
+"end": "2026-12-01",
+"code": "",
+"disc": "50% off"
+}
+]
+},
+"elselingerie.com": {
+"host": "elselingerie.com",
+"brand": "Else",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104575729",
+"sales": [
+{
+"sale": "A First Look at ELSE\u2019s Biggest Sale | BFCM",
+"start": "2026-11-25",
+"end": "2026-12-01",
+"code": "",
+"disc": "15\u201340% off"
+}
+]
+},
+"apieceapart.com": {
+"host": "apieceapart.com",
+"brand": "APIECE APART",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104576715",
+"sales": [
+{
+"sale": "Black Friday / Cyber Monday Event",
+"start": "2026-11-22",
+"end": "2026-12-01",
+"code": "THANKS30",
+"disc": "30% off"
+}
+]
+},
+"hankypanky.com": {
+"host": "hankypanky.com",
+"brand": "Hanky Panky",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104577382",
+"sales": [
+{
+"sale": "The Hanky Panky Black Friday & Cyber Monday Sale",
+"start": "2026-11-24",
+"end": "2026-12-02",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"emmeparsons.com": {
+"host": "emmeparsons.com",
+"brand": "Emme Parsons",
+"industry": "Footwear",
+"shopmy": "https://go.shopmy.us/p-104577944",
+"sales": [
+{
+"sale": "Emme Parsons Private Sale",
+"start": "2026-11-24",
+"end": "2026-12-02",
+"code": "",
+"disc": "80% off"
+}
+]
+},
+"lizziefortunato.com": {
+"host": "lizziefortunato.com",
+"brand": "Lizzie Fortunato",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104578248",
+"sales": [
+{
+"sale": "The Lizzie Fortunato Holiday Sale (& Exclusive ShopMy Early Sale Access)",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "LFHOLIDAY",
+"disc": "10\u201320% off"
+}
+]
+},
+"getintothelimelight.com": {
+"host": "getintothelimelight.com",
+"brand": "Get Into The Limelight",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104580346",
+"sales": [
+{
+"sale": "THANKFUL35",
+"start": "2026-11-26",
+"end": "2026-11-27",
+"code": "",
+"disc": "35% off"
+},
+{
+"sale": "MONDAY35",
+"start": "2026-11-30",
+"end": "2026-12-01",
+"code": "",
+"disc": "35% off"
+}
+]
+},
+"makebeauty.com": {
+"host": "makebeauty.com",
+"brand": "MAKE",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104582059",
+"sales": [
+{
+"sale": "Black Friday/Cyber Monday Sale",
+"start": "2026-11-22",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201350% off"
+}
+]
+},
+"clearstem.com": {
+"host": "clearstem.com",
+"brand": "CLEARSTEM",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104582251",
+"sales": [
+{
+"sale": "CYBER CLEAR: CYBER MONDAY SALE \ud83c\udf1f",
+"start": "2026-11-30",
+"end": "2026-12-03",
+"code": "",
+"disc": "35% off"
+},
+{
+"sale": "CLEAR THE CART: BLACK FRIDAY SALE \ud83e\udd73",
+"start": "2026-11-26",
+"end": "2026-11-30",
+"code": "",
+"disc": "28% off; 30% off"
+},
+{
+"sale": "FIRST DIBS \ud83d\udc40",
+"start": "2026-11-23",
+"end": "2026-11-26",
+"code": "",
+"disc": "26% off"
+}
+]
+},
+"kerativ.com": {
+"host": "kerativ.com",
+"brand": "Kerativ",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104583824",
+"sales": [
+{
+"sale": "KERATIV Black Friday & Cyber Monday Promotion",
+"start": "2026-11-27",
+"end": "2026-12-01",
+"code": "",
+"disc": "Buy 1, get 1 30% off"
+}
+]
+},
+"shopthatch.com": {
+"host": "shopthatch.com",
+"brand": "THATCH",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104585034",
+"sales": [
+{
+"sale": "Black Friday / Cyber Monday Sale",
+"start": "2026-11-27",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"omika.com": {
+"host": "omika.com",
+"brand": "Omika",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104585209",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-24",
+"end": "2026-11-30",
+"code": "",
+"disc": "25% off"
+},
+{
+"sale": "The Daily Find",
+"start": "2026-11-30",
+"end": "2026-12-05",
+"code": "",
+"disc": "50% off"
+}
+]
+},
+"clnwash.com": {
+"host": "clnwash.com",
+"brand": "CLn Skin Care",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104585387",
+"sales": [
+{
+"sale": "Black Friday and Cyber Monday",
+"start": "2026-11-25",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"mirandafrye.com": {
+"host": "mirandafrye.com",
+"brand": "Miranda Frye",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104586037",
+"sales": [
+{
+"sale": "BFCM SALE",
+"start": "2026-11-26",
+"end": "2026-12-01",
+"code": "",
+"disc": "20\u201325% off"
+}
+]
+},
+"lakepajamas.com": {
+"host": "lakepajamas.com",
+"brand": "LAKE",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104586403",
+"sales": [
+{
+"sale": "LAKE Pajamas BFCM Sale",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"kenzkustomz.com": {
+"host": "kenzkustomz.com",
+"brand": "KenzKustomz",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104586558",
+"sales": [
+{
+"sale": "SURPRISE!! \ud83d\udcbb Cyber Monday Flash Sale",
+"start": "2026-11-30",
+"end": "2026-12-01",
+"code": "",
+"disc": "50% off; 40% off; 30% off"
+},
+{
+"sale": "KENZKUSTOMZ BLACK FRIDAY SALE!",
+"start": "2026-11-26",
+"end": "2026-11-30",
+"code": "",
+"disc": "50% off; 40% off; 30% off"
+}
+]
+},
+"anemoslosangeles.com": {
+"host": "anemoslosangeles.com",
+"brand": "ANEMOS",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104587094",
+"sales": [
+{
+"sale": "BFCM26",
+"start": "2026-11-22",
+"end": "2026-12-01",
+"code": "BFCM26",
+"disc": "20% off"
+}
+]
+},
+"dermalogica.com": {
+"host": "dermalogica.com",
+"brand": "Dermalogica",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104589640",
+"sales": [
+{
+"sale": "BF & CM | Dermalogica",
+"start": "2026-11-22",
+"end": "2026-12-03",
+"code": "BONUSGIFT",
+"disc": "Spend $50, get 1 free"
+}
+]
+},
+"pastmidnight.com": {
+"host": "pastmidnight.com",
+"brand": "Past Midnight",
+"industry": "Eyewear",
+"shopmy": "https://go.shopmy.us/p-104589989",
+"sales": [
+{
+"sale": "One Annual Sale: Past Midnight Holiday",
+"start": "2026-11-24",
+"end": "2026-12-05",
+"code": "THESEASON",
+"disc": "25% off"
+}
+]
+},
+"marinelayer.com": {
+"host": "marinelayer.com",
+"brand": "Marine Layer",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104590122",
+"sales": [
+{
+"sale": "The Retail Therapy Sale 2026",
+"start": "2026-12-23",
+"end": "2027-01-04",
+"code": "",
+"disc": "25% off"
+},
+{
+"sale": "BFCM 2026",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"winkylux.com": {
+"host": "winkylux.com",
+"brand": "Winky Lux",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104590571",
+"sales": [
+{
+"sale": "Black Friday at Ulta",
+"start": "2026-11-22",
+"end": "2026-11-29",
+"code": "",
+"disc": "30% off"
+},
+{
+"sale": "Black Friday!",
+"start": "2026-11-25",
+"end": "2026-11-30",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"lensdirect.com": {
+"host": "lensdirect.com",
+"brand": "LensDirect",
+"industry": "Eyewear",
+"shopmy": "https://go.shopmy.us/p-104591453",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday 2026",
+"start": "2026-11-23",
+"end": "2026-12-03",
+"code": "BVIP26; BLACK26; CYBER26",
+"disc": "20\u201340% off; 20\u201340% off; 20\u201340% off"
+}
+]
+},
+"daughterlessonsnyc.com": {
+"host": "daughterlessonsnyc.com",
+"brand": "Daughter Lessons NYC",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104591619",
+"sales": [
+{
+"sale": "DL's ONLY SALE OF THE YEAR - Black Friday Promotion",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "40\u201375% off"
+},
+{
+"sale": "CYBER MONDAY - Code SPORT 11/30 ONLY",
+"start": "2026-11-30",
+"end": "2026-12-01",
+"code": "SPORT",
+"disc": "20% off"
+}
+]
+},
+"atpresent.com": {
+"host": "atpresent.com",
+"brand": "At Present",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-104591917",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday",
+"start": "2026-11-22",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"josiemaran.com": {
+"host": "josiemaran.com",
+"brand": "Josie Maran",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104593042",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-24",
+"end": "2026-11-30",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"properhealth.com": {
+"host": "properhealth.com",
+"brand": "Proper",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-104593573",
+"sales": [
+{
+"sale": "30% Off Sitewide: Proper's BIGGEST Sale of the Year",
+"start": "2026-11-22",
+"end": "2026-12-01",
+"code": "THANKS30",
+"disc": "30% off"
+}
+]
+},
+"loccitane.com": {
+"host": "loccitane.com",
+"brand": "L'OCCITANE",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104594518",
+"sales": [
+{
+"sale": "L'OCCITANE Black Friday Sale",
+"start": "2026-11-29",
+"end": "2026-12-02",
+"code": "FRIDAY; CYBER",
+"disc": "20% off; 20% off"
+}
+]
+},
+"byrdiegolfsocial.com": {
+"host": "byrdiegolfsocial.com",
+"brand": "Byrdie Golf Social Wear",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104595038",
+"sales": [
+{
+"sale": "20% OFF HOLIDAY '26",
+"start": "2026-11-30",
+"end": "2026-12-01",
+"code": "CYBERMONDAY",
+"disc": "20% off"
+},
+{
+"sale": "40% OFF BYRDIE BLACK FRIDAY",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "40% off"
+}
+]
+},
+"paige.com": {
+"host": "paige.com",
+"brand": "Paige",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104595189",
+"sales": [
+{
+"sale": "Cyber Week Sale",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"callitbyyourname.fr": {
+"host": "callitbyyourname.fr",
+"brand": "Call It By Your Name",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104596009",
+"sales": [
+{
+"sale": "CALL IT FRIDAY !",
+"start": "2026-11-27",
+"end": "2026-12-01",
+"code": "CIBYNFRIDAY",
+"disc": "20% off"
+}
+]
+},
+"mersea.com": {
+"host": "mersea.com",
+"brand": "MERSEA",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104598059",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "67% off"
+}
+]
+},
+"dearannabelle.com": {
+"host": "dearannabelle.com",
+"brand": "Dear Annabelle",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104601349",
+"sales": [
+{
+"sale": "VERY MERRY",
+"start": "2026-11-22",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"complexionnashville.com": {
+"host": "complexionnashville.com",
+"brand": "Complexion",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-104601679",
+"sales": [
+{
+"sale": "The Holiday Set: $275 (a $413 value)",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "",
+"disc": "$138 off"
+}
+]
+},
+"linneaandco.com": {
+"host": "linneaandco.com",
+"brand": "LINNEA",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104602409",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday Promotion",
+"start": "2026-11-25",
+"end": "2026-12-01",
+"code": "",
+"disc": "15% off"
+}
+]
+},
+"lazyjamie.com": {
+"host": "lazyjamie.com",
+"brand": "lazy jamie",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104602759",
+"sales": [
+{
+"sale": "black friday: 20% off everything",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"elwoodclothing.com": {
+"host": "elwoodclothing.com",
+"brand": "Elwood Clothing",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-104602935",
+"sales": [
+{
+"sale": "BFCM - 30% OFF SITEWIDE",
+"start": "2026-11-21",
+"end": "2026-12-01",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"oddmuse.co.uk": {
+"host": "oddmuse.co.uk",
+"brand": "Odd Muse",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108214168",
+"sales": [
+{
+"sale": "Muse Friday: Up to 60% Off",
+"start": "2026-11-25",
+"end": "2026-12-31",
+"code": "",
+"disc": "1\u201360% off"
+}
+]
+},
+"waawees.com": {
+"host": "waawees.com",
+"brand": "WAAWEES",
+"industry": "Baby & Kids",
+"shopmy": "https://go.shopmy.us/p-108214518",
+"sales": [
+{
+"sale": "BLACK FRIDAY SALE",
+"start": "2026-11-24",
+"end": "2026-11-30",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"porteandhall.com": {
+"host": "porteandhall.com",
+"brand": "Porte + Hall",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-104591275",
+"sales": [
+{
+"sale": "Black Friday/Cyber Monday",
+"start": "2026-11-26",
+"end": "2026-12-01",
+"code": "everything",
+"disc": "20% off"
+},
+{
+"sale": "Black Friday Preview",
+"start": "2026-11-23",
+"end": "2026-11-26",
+"code": "everything",
+"disc": "15% off"
+}
+]
+},
+"hellomolly.com": {
+"host": "hellomolly.com",
+"brand": "Hello Molly",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108216556",
+"sales": [
+{
+"sale": "Black Friday: Up to 70% Off Sitewide",
+"start": "2026-11-23",
+"end": "2026-12-02",
+"code": "",
+"disc": "10\u201370% off"
+}
+]
+},
+"namesforgood.com": {
+"host": "namesforgood.com",
+"brand": "Names For Good",
+"industry": "Jewelry & Accessories",
+"shopmy": "https://go.shopmy.us/p-108216711",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-23",
+"end": "2026-12-02",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"bollandbranch.com": {
+"host": "bollandbranch.com",
+"brand": "Boll & Branch",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-108217568",
+"sales": [
+{
+"sale": "The Black Friday & Cyber Monday Event",
+"start": "2026-11-21",
+"end": "2026-12-03",
+"code": "SHOPMY25",
+"disc": "25% off"
+}
+]
+},
+"londontownusa.com": {
+"host": "londontownusa.com",
+"brand": "Londontown",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108217695",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday",
+"start": "2026-11-24",
+"end": "2026-12-02",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"retrouve.com": {
+"host": "retrouve.com",
+"brand": "Retrouv\u00e9",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108217759",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-23",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"petalandpup.com": {
+"host": "petalandpup.com",
+"brand": "Petal & Pup",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108218416",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-25",
+"end": "2026-11-29",
+"code": "BF30",
+"disc": "30% off"
+}
+]
+},
+"baggu.com": {
+"host": "baggu.com",
+"brand": "BAGGU",
+"industry": "Handbags & Accessories",
+"shopmy": "https://go.shopmy.us/p-108218778",
+"sales": [
+{
+"sale": "Black Friday Sale",
+"start": "2026-11-24",
+"end": "2026-12-01",
+"code": "",
+"disc": "25\u201365% off"
+}
+]
+},
+"elmbiosciences.com": {
+"host": "elmbiosciences.com",
+"brand": "Elm Biosciences",
+"industry": "Health & Wellness",
+"shopmy": "https://go.shopmy.us/p-108218989",
+"sales": [
+{
+"sale": "Elm Biosciences BFCM Sale",
+"start": "2026-11-27",
+"end": "2026-12-04",
+"code": "",
+"disc": "20% off"
+}
+]
+},
+"coyuchi.com": {
+"host": "coyuchi.com",
+"brand": "Coyuchi",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-108219055",
+"sales": [
+{
+"sale": "Black Friday Cyber Monday",
+"start": "2026-11-21",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"shopfavoritedaughter.com": {
+"host": "shopfavoritedaughter.com",
+"brand": "Favorite Daughter",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108219591",
+"sales": [
+{
+"sale": "BLACK FRIDAY / CYBER MONDAY",
+"start": "2026-11-26",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"dazedenim.com": {
+"host": "dazedenim.com",
+"brand": "Daze Denim",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108220213",
+"sales": [
+{
+"sale": "DAZE Black Friday | Cyber Monday Sale",
+"start": "2026-11-22",
+"end": "2026-12-01",
+"code": "",
+"disc": "25% off"
+}
+]
+},
+"pistoladenim.com": {
+"host": "pistoladenim.com",
+"brand": "Pistola Denim",
+"industry": "Fashion & Apparel",
+"shopmy": "https://go.shopmy.us/p-108220479",
+"sales": [
+{
+"sale": "Black Friday | Cyber Monday Promo",
+"start": "2026-11-22",
+"end": "2026-11-30",
+"code": "",
+"disc": "30% off"
+}
+]
+},
+"orenafragrances.com": {
+"host": "orenafragrances.com",
+"brand": "Orena Fragrances",
+"industry": "Beauty & Personal Care",
+"shopmy": "https://go.shopmy.us/p-108220653",
+"sales": [
+{
+"sale": "CYBER",
+"start": "2026-11-30",
+"end": "2026-12-01",
+"code": "CYBER",
+"disc": "35% off"
+},
+{
+"sale": "BLACKFRIDAY",
+"start": "2026-11-25",
+"end": "2026-11-30",
+"code": "BLACKFRIDAY",
+"disc": "30% off"
+}
+]
+},
+"wearecozyland.com": {
+"host": "wearecozyland.com",
+"brand": "Cozyland",
+"industry": "Home & Living",
+"shopmy": "https://go.shopmy.us/p-108220842",
+"sales": [
+{
+"sale": "Cozyland Black Friday Yearly Sale!",
+"start": "2026-11-23",
+"end": "2026-12-02",
+"code": "",
+"disc": "30% off"
+}
+]
+}
+}

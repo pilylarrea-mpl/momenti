@@ -1,0 +1,11 @@
+{"slug":"shoes-film","tag":"Black Friday","per":4.0,
+ "hook":{"caps":"Six pairs.","per":9,"fact":"Four stores · every price checked","dry":"Named, with prices.","dur":2.6,
+         "clips":[{"f":"pv/margauxny_0.mp4","ss":2.6}]},
+ "brands":[
+  {"brand":"Emme Parsons","piece":"The <i>Isabel</i> Mule.","facts":["Was $665 · now $399","40% off · private sale","Ends Dec 2"],"dry":"Kitten heel. Calfskin. No drama.","clips":[{"f":"pv/emmeparsons_0.mp4","ss":0.3},{"f":"pv/emmeparsons_0.mp4","ss":3.7}]},
+  {"brand":"Emme Parsons","piece":"The <i>Delicat</i> Sandal.","facts":["Was $645 · now $387","40% off · 55 mm heel","Ends Dec 2"],"dry":"Barely there. Their words.","dur":3.6,"clips":[{"f":"pv/emmeparsons_1.mp4","ss":0.2}]},
+  {"brand":"Margaux","piece":"The <i>Clara</i> Flat.","facts":["$345 · wine calf","20% off everything at checkout","Ends Dec 1"],"dry":"One sitewide sale a year.","dur":3.6,"clips":[{"f":"shoesclips/mx_clara-wine-calf.mp4","ss":2.9},{"f":"shoesclips/mx_clara-wine-calf.mp4","ss":5.3}]},
+  {"brand":"Rothy’s","piece":"The Penny <i>Loafer</i>.","facts":["Was $185 · now $109","41% off · ReVelvet navy","Ends Dec 1"],"dry":"Every size still in.","clips":[{"f":"shoesclips/ro_y-loafer-revelvet-navy.mp4","ss":3.6,"x":0.8},{"f":"shoesclips/ro_y-loafer-revelvet-navy.mp4","ss":12.8,"x":0.55}]},
+  {"brand":"FRĒDA SALVADOR","piece":"The <i>Nina</i> Boot.","facts":["Was $650 · now $487","25% off · Italian calf","Ends Dec 2"],"dry":"Strap comes off. Two boots.","clips":[{"f":"shoesclips/fs_nina-black-calf.mp4","ss":3.3},{"f":"shoesclips/fs_nina-black-calf.mp4","ss":8.0}]},
+  {"brand":"FRĒDA SALVADOR","piece":"The <i>Eda</i> Sneaker.","facts":["Was $298 · now $223","25% off · made in Spain","Ends Dec 2"],"dry":"Their bestseller, minus the sides.","clips":[{"f":"shoesclips/fs_eda-white-calf.mp4","ss":6.0,"x":0.62},{"f":"shoesclips/fs_eda-white-calf.mp4","ss":8.3,"x":0.73}]}],
+ "end":{"caps":"Which pair?","dry":"I’ll check the next six.","dur":2.6,"clips":[{"f":"pv/margauxny_0.mp4","ss":6.6}]}}

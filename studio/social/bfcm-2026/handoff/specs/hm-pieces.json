@@ -1,0 +1,12 @@
+{"slug":"hm-pieces","tag":"Black Friday","per":4.0,
+ "hook":{"caps":"Heaven Mayhem.","per":9,"fact":"Says up to 60% off · I counted","dry":"Most pieces sit at 30.","dur":2.6,
+   "clips":[{"f":"hmp-src/gaze-choker_0.mp4","ss":4.5},{"f":"hmp-src/double-knot-earrings_0.mp4","ss":6}]},
+ "brands":[
+  {"brand":"Heaven Mayhem","piece":"The Double Knot Earrings.","facts":["Was $110 · now $77","30% off · plated brass","Final sale · ends Dec 1"],"dry":"Two inches. Hollow.","clips":[{"f":"hmp-src/double-knot-earrings_0.mp4","ss":1},{"f":"hmp-src/double-knot-earrings_0.mp4","ss":10.5}]},
+  {"brand":"Heaven Mayhem","piece":"The Bruma Choker.","facts":["Was $140 · now $98","30% off · plated stainless steel","Final sale · ends Dec 1"],"dry":"Open at the front.","clips":[{"f":"hmp-src/bruma-choker_1.mp4","ss":1},{"f":"hmp-src/bruma-choker_0.mp4","ss":5}]},
+  {"brand":"Heaven Mayhem","piece":"The Matilde Cuff.","facts":["Was $100 · now $70","30% off · plated steel, enamel","Final sale · ends Dec 1"],"dry":"One size. It bends.","clips":[{"f":"hmp-src/matilde-cuff_0.mp4","ss":1,"x":0.95},{"f":"hmp-src/matilde-cuff_1.mp4","ss":6,"x":0.95}]},
+  {"brand":"Heaven Mayhem","piece":"The Tove Ring.","facts":["Was $180 · now $126","30% off · sizes 4 to 7 in stock","Final sale · ends Dec 1"],"dry":"Moissanite, halfway.","clips":[{"f":"hmp-src/tove-ring_0.mp4","ss":4.5},{"f":"hmp-src/tove-ring_0.mp4","ss":8.5}]},
+  {"brand":"Heaven Mayhem","piece":"The Carino Watch.","facts":["Was $250 · now $175","30% off · two leather straps","Final sale · ends Dec 1"],"dry":"Black strap. Or brown.","clips":[{"f":"hmp-src/carino-watch_0.mp4","ss":1,"x":0.8},{"f":"hmp-src/carino-watch_1.mp4","ss":5,"x":0.85}]},
+  {"brand":"Heaven Mayhem","piece":"The Gaze Choker.","facts":["Was $480 · now $384","20% off · gold-plated brass","Final sale · ends Dec 1"],"dry":"Twenty off. I checked.","clips":[{"f":"hmp-src/gaze-choker_0.mp4","ss":0.5},{"f":"hmp-src/gaze-choker_0.mp4","ss":7}]}
+ ],
+ "end":{"caps":"Which store next?","dry":"I’ll count it.","dur":2.6,"clips":[{"f":"hmp-src/mini-knot-earrings_0.mp4","ss":4}]}}

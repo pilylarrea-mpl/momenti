@@ -1,0 +1,299 @@
+{
+ "slug": "home-sales",
+ "hook": [
+  "home + bedding sales",
+  "worth your attention"
+ ],
+ "hook_say": "home and bedding sales worth your attention this black friday. i counted how much of each store is really marked down.",
+ "sub": "i counted what's really marked down at every store",
+ "brands": [
+  {
+   "brand": "Brooklinen",
+   "host": "brooklinen.com",
+   "claim": "25% off sitewide, up to 50% off bundles",
+   "stat": "22% of the store is 40% off or more",
+   "say": "brooklinen. twenty five percent off sitewide with a code, but twenty two percent of the store is already forty off or more, and it's almost all in last call. the luxe sateen sheet set is in there, one sixty nine down to one oh one. go there first.",
+   "bg": {
+    "handle": "bigtime-robe-last-call",
+    "img": 3
+   },
+   "tiles": [
+    {
+     "handle": "luxe-core-sheet-set-last-call",
+     "img": 0
+    },
+    {
+     "handle": "super-plush-robe-last-call",
+     "img": 0
+    },
+    {
+     "handle": "super-plush-bath-towels-last-call",
+     "img": 0
+    }
+   ],
+   "code": "BFCM26",
+   "ends": "2026-12-03",
+   "numbers": {
+    "instock": 298,
+    "ge40": 66,
+    "ge50": 16
+   }
+  },
+  {
+   "brand": "Parachute Home",
+   "host": "parachutehome.com",
+   "claim": "up to 40% off select styles",
+   "stat": "only 4% of the store is 40% off or more",
+   "say": "parachute says up to forty off select styles. select is the word, only four percent of the store is forty or more, and all of it is final sale. if you're sure, the organic cloud cotton duvet cover set is two ninety nine down to one twenty.",
+   "bg": {
+    "handle": "organic-cloud-cotton-duvet-cover-set-white",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "organic-cloud-cotton-duvet-cover-set-moss",
+     "img": 0
+    },
+    {
+     "handle": "linen-stripe-robe-natural-with-yellow",
+     "img": 0
+    },
+    {
+     "handle": "classic-turkish-cotton-slippers-white-new",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 1325,
+    "ge40": 57,
+    "ge50": 42
+   }
+  },
+  {
+   "brand": "Boll & Branch",
+   "host": "bollandbranch.com",
+   "claim": "25% off orders $200+",
+   "stat": "16% marked down, nothing at 40% or more",
+   "say": "boll and branch is twenty five off with a code, but only over two hundred dollars. so this is a sheet set sale, not a one towel sale. the flannel sheet set in the cream tartan is the one i'd get, and the plum signature set if you want color.",
+   "bg": {
+    "handle": "signature-hemmed-duvet-set-camel_",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "flannel-sheet-set-cream-sand-shore-tartan_",
+     "img": 0
+    },
+    {
+     "handle": "signature-hemmed-sheet-set-plum_",
+     "img": 0
+    },
+    {
+     "handle": "modern-crochet-bed-blanket-white_",
+     "img": 0
+    }
+   ],
+   "code": "SHOPMY25",
+   "ends": "2026-12-03",
+   "numbers": {
+    "instock": 1431,
+    "ge40": 0,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "Hommey",
+   "host": "gethommey.com",
+   "claim": "25% off sitewide, 35% off bundles",
+   "stat": "6% of the store is 40% off or more",
+   "say": "hommey, twenty five off sitewide, thirty five off bundles. only six percent of the store goes past forty, so skip the hunt and get the robe. maple and lotus are one twenty nine down to eighty four.",
+   "bg": {
+    "handle": "robe-maple",
+    "img": 2
+   },
+   "tiles": [
+    {
+     "handle": "robe-lotus",
+     "img": 0
+    },
+    {
+     "handle": "quilt-cover-rocky-road-stripes",
+     "img": 0
+    },
+    {
+     "handle": "bath-sheet-lotus",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 681,
+    "ge40": 42,
+    "ge50": 24
+   }
+  },
+  {
+   "brand": "Canopy",
+   "host": "getcanopy.co",
+   "claim": "up to 50% off sitewide",
+   "stat": "12% is 40% off or more, only 3% hits 50",
+   "say": "canopy says up to fifty off sitewide. twelve percent of the store is forty or more, and what actually hits fifty is mostly replacement filters. the bedside humidifier bundle is the buy, two sixty two down to one fifty nine.",
+   "bg": {
+    "handle": "nursery-humidifier-bundle-1",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "bedside-humidifier-bundle-1",
+     "img": 2
+    },
+    {
+     "handle": "shower-system",
+     "img": 0
+    },
+    {
+     "handle": "the-wellness-tower",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 198,
+    "ge40": 24,
+    "ge50": 6
+   }
+  },
+  {
+   "brand": "House of Noa",
+   "host": "thehouseofnoa.com",
+   "claim": "25% off, our biggest sale of the year",
+   "stat": "99% marked, but none of it hits 40%",
+   "say": "house of noa. ninety nine percent of the store is marked down, which sounds huge, but it's twenty to thirty percent, nothing at forty. fine if you wanted the padded bath mat anyway. the devon one is eighty nine down to sixty six.",
+   "bg": {
+    "handle": "bath-mat-checks-sedona",
+    "img": 2
+   },
+   "tiles": [
+    {
+     "handle": "comfy-bath-mat-devon-daffodil",
+     "img": 0
+    },
+    {
+     "handle": "play-couch-gingham-coffee-2-seats",
+     "img": 0
+    },
+    {
+     "handle": "tumbling-mat-checker-fern",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "",
+   "numbers": {
+    "instock": 560,
+    "ge40": 0,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "Cozyland",
+   "host": "wearecozyland.com",
+   "claim": "30% off sitewide",
+   "stat": "22% of the store is 40% off or more",
+   "say": "cozyland, the pajama brand, says thirty off sitewide, and they're underselling it. twenty two percent of the store is forty or more. the ellie lounge set in coffee velvet is half off, one seventy down to eighty five.",
+   "bg": {
+    "handle": "ellie-pj-set-in-coffee-velour",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "ellie-pj-set-in-foxlet",
+     "img": 0
+    },
+    {
+     "handle": "suzie-pj-set-in-skate-dreams",
+     "img": 0
+    },
+    {
+     "handle": "glinda-striped-pj-set-x-wicked",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 239,
+    "ge40": 53,
+    "ge50": 44
+   }
+  },
+  {
+   "brand": "Coyuchi",
+   "host": "coyuchi.com",
+   "claim": "25% off sitewide",
+   "stat": "88% of the store is marked down",
+   "say": "and coyuchi says twenty five off sitewide and it checks out, eighty eight percent of the store is marked down. ten percent is forty or more. get the cloud loom towels, set of four, two fifty eight down to one fifty. and look at renewed, their secondhand section, the robes there are sixty five dollars.",
+   "bg": {
+    "handle": "heritage-organic-percale-duvet-cover-alpine-white-stone-jacquard",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "cloud-loom-organic-towels-set-of-4-praline",
+     "img": 0
+    },
+    {
+     "handle": "organic-relaxed-linen-sheet-set-juniper",
+     "img": 0
+    },
+    {
+     "handle": "unisex-cloud-loom-organic-robe-w9xqqrsdef-renewed",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 1499,
+    "ge40": 143,
+    "ge50": 56
+   }
+  }
+ ],
+ "close_say": "that's the home list. which one are you buying from, and do you want me to count a store i skipped?",
+ "end_text": [
+  "which store should i count next?",
+  "links in bio"
+ ],
+ "caption": "Home and bedding Black Friday sales, with how much of each store is really marked down. Brooklinen and Coyuchi are the ones I'd open first. Which store do you want counted next? Commissionable links in bio.",
+ "pinned_comment": "Counts are from each store's full catalog, read Nov 26-27. Brooklinen 22% at 40%+ off, Cozyland 22%, Canopy 12%, Coyuchi 10%, Hommey 6%, Parachute 4%, Boll & Branch and House of Noa 0%. Prices can change.",
+ "recheck": [
+  "Brooklinen: confirm code BFCM26 (25% sitewide) is still live, and whether it stacks on Last Call items (I did not claim it does).",
+  "Boll & Branch: our sheet has code SHOPMY25; their homepage shows CYBER25 with '25% off orders $200+'. Confirm SHOPMY25 works and has the same $200 minimum. Catalog shows the flannel tartan set at $263 from $329 and the plum set at $183 from $229 before any code.",
+  "Parachute: every marked-down item in our data is FINAL SALE (92 of 92). The linen stripe robe tile had only 2 of 5 sizes in stock; swap if sold out.",
+  "Canopy: no clean lifestyle photo in the catalog; bg is a close-up of the humidifier. Replace with your own shot if you have one.",
+  "House of Noa: sheet says 20% off, homepage says 25% off; I used the homepage. No end date in the sheet. Bg photo's check bath mat had 1 of 3 sizes left. Most catalog photos include children, so I picked product-only shots.",
+  "Cozyland: homepage says the 30% is 'applied at checkout', so catalog prices may drop further in cart; confirm the Ellie Lounge Set in Coffee Velvet shows $85.",
+  "Coyuchi: the $65 robes are 'Renewed' (their secondhand line); 31 of the 143 items at 40%+ off are Renewed. Say so on camera, as scripted.",
+  "Hommey: catalog shows 6 robe colors at $84 from $129 (35% off); other robe colors show no markdown and may take the 25% at checkout.",
+  "All prices and stock were read Nov 26-27; recheck the 8 named products before posting Nov 28."
+ ],
+ "dropped": [
+  "Piglet in Bed: priced in pounds in our data",
+  "Hudson Grace: 93% marked but only 2% at 40%+, sheet row is a one-day table sale from Nov 10 with no end date",
+  "Society Social: furniture from $1,795, 20% with code, 2% at 40%+",
+  "TWOPAGES Curtains: custom curtains, 1% at 40%+, less known",
+  "Dear Annabelle: stationery, 20% off, nothing at 40%",
+  "Material: kitchen, only 50 items in stock, 2% at 40%+",
+  "Ooni: pizza ovens, off topic for bedding",
+  "Petite Keep: 15% off, 1 item marked",
+  "LINNEA: candles, 15% with code, nothing marked in catalog",
+  "Porte + Hall: 20% with code 'everything', nothing marked in catalog; good rug option if a 9th brand is wanted",
+  "The Fête: charms, not home"
+ ],
+ "end_q": "which store should i count next?"
+}

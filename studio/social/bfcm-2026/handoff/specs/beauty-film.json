@@ -1,0 +1,153 @@
+{
+ "slug": "beauty-film",
+ "tag": "Black Friday",
+ "per": 4.0,
+ "hook": {
+  "caps": "Beauty sales.",
+  "per": 9,
+  "fact": "Six stores · one thing named at each",
+  "dry": "Six worth opening.",
+  "dur": 2.6,
+  "clips": [
+   {
+    "f": "raw/meritbeauty_0.mp4",
+    "ss": 3.4
+   }
+  ]
+ },
+ "brands": [
+  {
+   "brand": "MERIT",
+   "piece": "Solo Shadow.",
+   "facts": [
+    "Was $26 · now $18.20 in two shades",
+    "Rest of the store 20% off",
+    "Ends Dec 1"
+   ],
+   "dry": "Their only sale all year.",
+   "clips": [
+    {
+     "f": "beautyclips/merit_1.mp4",
+     "ss": 8.3,
+     "x": 0.6
+    },
+    {
+     "f": "beautyclips/merit_1.mp4",
+     "ss": 15.5,
+     "x": 0.6
+    }
+   ]
+  },
+  {
+   "brand": "Chantecaille",
+   "piece": "Flamingo Lip Chic.",
+   "facts": [
+    "$55 before the code",
+    "25% off with code CYBER",
+    "Ends Dec 2"
+   ],
+   "dry": "Bring the code.",
+   "clips": [
+    {
+     "f": "beautyclips/chante_2.mp4",
+     "ss": 4.8
+    },
+    {
+     "f": "beautyclips/chante_3.mp4",
+     "ss": 0.3
+    }
+   ]
+  },
+  {
+   "brand": "Josie Maran",
+   "piece": "Whipped Argan Oil Body Butter.",
+   "facts": [
+    "$62 before the sale",
+    "Says 20% off",
+    "Ends Nov 30"
+   ],
+   "dry": "The scent is called In Bed.",
+   "clips": [
+    {
+     "f": "beautyclips/josie_3.mp4",
+     "ss": 0.3,
+     "x": 0.25
+    },
+    {
+     "f": "beautyclips/josie_3.mp4",
+     "ss": 3.6
+    }
+   ]
+  },
+  {
+   "brand": "Londontown",
+   "piece": "Just Add Color.",
+   "facts": [
+    "The set is $54 before the code",
+    "30% off with code BF30",
+    "Ends Dec 2"
+   ],
+   "dry": "A paint job, their words.",
+   "clips": [
+    {
+     "f": "beautyclips/london_0.mp4",
+     "ss": 1.5
+    },
+    {
+     "f": "beautyclips/london_2.mp4",
+     "ss": 12.5
+    }
+   ]
+  },
+  {
+   "brand": "Supergoop!",
+   "piece": "Best of Supergoop! SPF Set.",
+   "facts": [
+    "$134 before the sale",
+    "Says 20% off sitewide"
+   ],
+   "dry": "Sunscreen, in November.",
+   "clips": [
+    {
+     "f": "pv2/supergoop_3.mp4",
+     "ss": 2.4
+    },
+    {
+     "f": "pv2/supergoop_0.mp4",
+     "ss": 3.3
+    }
+   ]
+  },
+  {
+   "brand": "Arey",
+   "piece": "The Restorative Kit.",
+   "facts": [
+    "$185 before the sale",
+    "Says up to 50% off sitewide",
+    "Ends Dec 2"
+   ],
+   "dry": "Not today, grey.",
+   "clips": [
+    {
+     "f": "beautyclips/arey_1.mp4",
+     "ss": 0.4
+    },
+    {
+     "f": "beautyclips/arey_2.mp4",
+     "ss": 12.5
+    }
+   ]
+  }
+ ],
+ "end": {
+  "caps": "Which store next?",
+  "dry": "I’ll read the fine print.",
+  "dur": 2.6,
+  "clips": [
+   {
+    "f": "raw/meritbeauty_0.mp4",
+    "ss": 9.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,418 @@
+[
+ {
+  "brand": "alice + olivia",
+  "host": "aliceandolivia.com",
+  "handle": "azriella-embroidered-maxi-gown-cape",
+  "name": "AZRIELLA EMBROIDERED MAXI GOWN CAPE",
+  "was": 2995.0,
+  "now": 1198.0,
+  "off": 60,
+  "av": 2,
+  "n": 2,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0599/0773/5681/files/CG604E06206H686_06.webp?v=1785339991",
+   "https://cdn.shopify.com/s/files/1/0599/0773/5681/files/CG604E06206H686_02.jpg?v=1778660833"
+  ],
+  "no": 1
+ },
+ {
+  "brand": "alice + olivia",
+  "host": "aliceandolivia.com",
+  "handle": "julia-embell-scoop-nk-midi-gown-desert-sprigs-black",
+  "name": "JULIA EMBELLISHED GOWN - DESERT SPRIGS BLACK",
+  "was": 3995.0,
+  "now": 2397.0,
+  "off": 40,
+  "av": 4,
+  "n": 8,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0599/0773/5681/files/31_CG607E30502D155_01.jpg?v=1786460139",
+   "https://cdn.shopify.com/s/files/1/0599/0773/5681/files/31_CG607E30502D155_02.jpg?v=1786460139"
+  ],
+  "no": 2
+ },
+ {
+  "brand": "alice + olivia",
+  "host": "aliceandolivia.com",
+  "handle": "kidman-embellished-jacket-oatmeal-multi",
+  "name": "KIDMAN EMBELLISHED JACKET - OATMEAL/MULTI",
+  "was": 2495.0,
+  "now": 998.0,
+  "off": 60,
+  "av": 5,
+  "n": 5,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0599/0773/5681/files/CG606E22202K971_01.jpg?v=1785358551",
+   "https://cdn.shopify.com/s/files/1/0599/0773/5681/files/CG606E22202K971_02.jpg?v=1785358551"
+  ],
+  "no": 3
+ },
+ {
+  "brand": "Marcella",
+  "host": "marcellanyc.com",
+  "handle": "maru-purse",
+  "name": "Maru Purse",
+  "was": 358.0,
+  "now": 143.0,
+  "off": 60,
+  "av": 2,
+  "n": 2,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0930/7312/files/MA2278-BLACK_PDP_1934_fbc8827d-25d7-4af6-9d77-45b18c2f817d.jpg?v=1763758802",
+   "https://cdn.shopify.com/s/files/1/0930/7312/files/MA2278-BLACK_PDP_1912.jpg?v=1763758802"
+  ],
+  "no": 4
+ },
+ {
+  "brand": "Marcella",
+  "host": "marcellanyc.com",
+  "handle": "gemma-boots-red",
+  "name": "Gemma Boots",
+  "was": 348.0,
+  "now": 139.0,
+  "off": 60,
+  "av": 3,
+  "n": 6,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0930/7312/files/MS2431-RED_STILL_3804_14668c84-aac8-4029-a8e1-5ba8dd31ebdd.jpg?v=1741352389",
+   "https://cdn.shopify.com/s/files/1/0930/7312/files/IMG_5240.jpg?v=1741352389"
+  ],
+  "no": 5
+ },
+ {
+  "brand": "Marcella",
+  "host": "marcellanyc.com",
+  "handle": "marceline-boots-black",
+  "name": "Marceline Boots",
+  "was": 335.0,
+  "now": 134.0,
+  "off": 60,
+  "av": 4,
+  "n": 6,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0930/7312/files/MS2434-BLACK_STILL_3853.jpg?v=1762837017",
+   "https://cdn.shopify.com/s/files/1/0930/7312/files/MS2434-BLACK_STILL_3856.jpg?v=1762837017"
+  ],
+  "no": 6
+ },
+ {
+  "brand": "Mac Duggal",
+  "host": "macduggal.com",
+  "handle": "20528-black",
+  "name": "Black One Shoulder Cape Sleeve Embellished Gown",
+  "was": 898.0,
+  "now": 398.0,
+  "off": 56,
+  "av": 6,
+  "n": 8,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0511/3783/9283/files/20528-Black-AB.jpg?v=1753902245",
+   "https://cdn.shopify.com/s/files/1/0511/3783/9283/files/20528-Black-CL.jpg?v=1753902177"
+  ],
+  "no": 7
+ },
+ {
+  "brand": "Mac Duggal",
+  "host": "macduggal.com",
+  "handle": "11187",
+  "name": "Gold Long Sleeve Embroidered Applique Trumpet Gown - FINAL SALE",
+  "was": 698.0,
+  "now": 279.0,
+  "off": 60,
+  "av": 4,
+  "n": 8,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0511/3783/9283/files/11187-LightGold-AB.jpg?v=1752004416",
+   "https://cdn.shopify.com/s/files/1/0511/3783/9283/files/11187-LightGold-CL.jpg?v=1748531662"
+  ],
+  "no": 8
+ },
+ {
+  "brand": "FR\u0112DA SALVADOR",
+  "host": "fredasalvador.com",
+  "handle": "ria-mustard-and-white-canvas",
+  "name": "RIA SOFT BOAT SHOE",
+  "was": 398.0,
+  "now": 119.0,
+  "off": 70,
+  "av": 11,
+  "n": 13,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0226/2693/files/ria_mustard_white_canvas_front.jpg?v=1776805051",
+   "https://cdn.shopify.com/s/files/1/0226/2693/files/ria_mustard_white_canvas-alt2.jpg?v=1776814635"
+  ],
+  "no": 9
+ },
+ {
+  "brand": "FR\u0112DA SALVADOR",
+  "host": "fredasalvador.com",
+  "handle": "laurel-vanilla-jacquard-mesh",
+  "name": "LAUREL MARY JANE",
+  "was": 398.0,
+  "now": 119.0,
+  "off": 70,
+  "av": 10,
+  "n": 13,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0226/2693/files/laurel_vanilla_jaquard_mesh_front.jpg?v=1771995036",
+   "https://cdn.shopify.com/s/files/1/0226/2693/files/laurel_vanilla_jaquard_mesh-alt1.jpg?v=1771995036"
+  ],
+  "no": 10
+ },
+ {
+  "brand": "Emme Parsons",
+  "host": "emmeparsons.com",
+  "handle": "chelsea-v-shaped-t-strap-block-heel-archive-sale-washed-gold",
+  "name": "Chelsea in Washed Gold \u2014 ARCHIVE SAMPLE; FINAL SALE",
+  "was": 675.0,
+  "now": 200.0,
+  "off": 70,
+  "av": 1,
+  "n": 1,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/2246/7919/files/CHELSEA_WASHED_GOLD_SIDE_1e205e89-b4b2-44cf-8ece-8a66822ffaf2.jpg?v=1794620786",
+   "https://cdn.shopify.com/s/files/1/2246/7919/files/CHELSEA_WASHED_GOLD_A_35448e83-abe5-4431-bf21-75f1663e4fbe.jpg?v=1794752338"
+  ],
+  "no": 11
+ },
+ {
+  "brand": "Emme Parsons",
+  "host": "emmeparsons.com",
+  "handle": "delicat-archive-sale-white-nappa",
+  "name": "Delicat in Optic White Nappa \u2014 ARCHIVE SAMPLE; FINAL SALE",
+  "was": 645.0,
+  "now": 200.0,
+  "off": 69,
+  "av": 1,
+  "n": 1,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/2246/7919/files/DELICAT_OPTIC_WHITE_SIDE.jpg?v=1794621842",
+   "https://cdn.shopify.com/s/files/1/2246/7919/files/DELICAT_OPTIC_WHITE_A_0c40a388-9dd5-4f32-b765-ea3bd16a0d89.jpg?v=1794753350"
+  ],
+  "no": 12
+ },
+ {
+  "brand": "Intentionally Blank",
+  "host": "intentionallyblank.us",
+  "handle": "hiperson-leather-knee-high-boot",
+  "name": "HIPERSON LEATHER KNEE HIGH BOOT",
+  "was": 324.0,
+  "now": 162.0,
+  "off": 50,
+  "av": 15,
+  "n": 16,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/1420/0110/files/HIPERSON-ILF3-1185-BLK02.jpg?v=1784058017",
+   "https://cdn.shopify.com/s/files/1/1420/0110/files/OTF-HIPERSON-ILF3-1185-BLK_02.jpg?v=1790962737"
+  ],
+  "no": 13
+ },
+ {
+  "brand": "Intentionally Blank",
+  "host": "intentionallyblank.us",
+  "handle": "taffy-patent-leather-heeled-boot",
+  "name": "TAFFY PATENT LEATHER HEELED BOOT",
+  "was": 268.0,
+  "now": 107.0,
+  "off": 60,
+  "av": 17,
+  "n": 24,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/1420/0110/files/TAFFY-ISD3-1204-OLV02.jpg?v=1758747658",
+   "https://cdn.shopify.com/s/files/1/1420/0110/files/TAFFY-ISD3-1204-OLV01OTF.jpg?v=1758747658"
+  ],
+  "no": 14
+ },
+ {
+  "brand": "Heaven Mayhem",
+  "host": "heavenmayhem.com",
+  "handle": "honeymoon-avenue-bundle",
+  "name": "HONEYMOON AVENUE BUNDLE",
+  "was": 770.0,
+  "now": 462.0,
+  "off": 40,
+  "av": 4,
+  "n": 4,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0574/0989/6626/files/WeddingBundle7.jpg?v=1794597914",
+   "https://cdn.shopify.com/s/files/1/0574/0989/6626/files/WeddingBundle11.jpg?v=1794597915"
+  ],
+  "no": 15
+ },
+ {
+  "brand": "Heaven Mayhem",
+  "host": "heavenmayhem.com",
+  "handle": "fashion-sunglasses-vittoria",
+  "name": "VITTORIA GLASSES",
+  "was": 200.0,
+  "now": 80.0,
+  "off": 60,
+  "av": 1,
+  "n": 1,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0574/0989/6626/files/Vittoria-Eyewear-Product-1.jpg?v=1794595478",
+   "https://cdn.shopify.com/s/files/1/0574/0989/6626/files/vittoria_5_d768f4f0-bcfb-4cf2-932b-4e1de040515c.jpg?v=1794595478"
+  ],
+  "no": 16
+ },
+ {
+  "brand": "M.M.LaFleur",
+  "host": "mmlafleur.com",
+  "handle": "theodora-white",
+  "name": "Theodora Aperitivo Dress - Circular Eyelet :: White",
+  "was": 529.0,
+  "now": 111.0,
+  "off": 79,
+  "av": 6,
+  "n": 6,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0558/0449/4019/files/Theodora-Dress_White_Eyelet_5686_2500x2500_1.jpg?v=1773158104",
+   "https://cdn.shopify.com/s/files/1/0558/0449/4019/files/Theodora-Dress_White_Eyelet_5720_2500x2500_1.jpg?v=1773158104"
+  ],
+  "no": 17
+ },
+ {
+  "brand": "M.M.LaFleur",
+  "host": "mmlafleur.com",
+  "handle": "ohara-slate-blue",
+  "name": "O'Hara \"The Editor\" Blazer - Velveteen :: Slate Blue",
+  "was": 529.0,
+  "now": 143.0,
+  "off": 73,
+  "av": 7,
+  "n": 12,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0558/0449/4019/files/O_Hara_Jacket_Velveteen_Slate_Blue_S_or_4_OF_Front_1.jpg?v=1762222019",
+   "https://cdn.shopify.com/s/files/1/0558/0449/4019/files/O_Hara_Jacket_Velveteen_Slate_Blue_S_or_4_OF_Detail_1.jpg?v=1762222019"
+  ],
+  "no": 18
+ },
+ {
+  "brand": "Freja",
+  "host": "frejanyc.com",
+  "handle": "bleecker-tote-oat",
+  "name": "Bleecker Tote Oat",
+  "was": 398.0,
+  "now": 198.0,
+  "off": 50,
+  "av": 1,
+  "n": 1,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0245/9844/6140/files/bleecker-oat-front.png?v=1762198431",
+   "https://cdn.shopify.com/s/files/1/0245/9844/6140/files/Bleecker_Tote_OatBleecker_Tote_Oat_1517.jpg?v=1764562304"
+  ],
+  "no": 19
+ },
+ {
+  "brand": "Freja",
+  "host": "frejanyc.com",
+  "handle": "alma-bag-black-gloss",
+  "name": "Alma Bag Black Gloss",
+  "was": 358.0,
+  "now": 168.0,
+  "off": 53,
+  "av": 1,
+  "n": 1,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0245/9844/6140/files/alma-black-front_a1fb61ee-4257-4871-b501-317c66d3813f.png?v=1763982000",
+   "https://cdn.shopify.com/s/files/1/0245/9844/6140/files/alma_black_gloss1.png?v=1782858161"
+  ],
+  "no": 20
+ },
+ {
+  "brand": "ANEMOS",
+  "host": "anemoslosangeles.com",
+  "handle": "bond-midi-dress-in-stretch-twill",
+  "name": "Bond Midi Dress in Stretch Twill",
+  "was": 495.0,
+  "now": 150.0,
+  "off": 70,
+  "av": 5,
+  "n": 10,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0013/4640/4401/files/Bond_Midi_Dress_Marine_in_Stretch_Twill.jpg?v=1760628102",
+   "https://cdn.shopify.com/s/files/1/0013/4640/4401/files/Bond_Midi_Dress_Black_in_Stretch_Twill_on_model.jpg?v=1760628021"
+  ],
+  "no": 21
+ },
+ {
+  "brand": "ANEMOS",
+  "host": "anemoslosangeles.com",
+  "handle": "gisele-bias-cut-dress-in-stretch-suiting",
+  "name": "Gisele Bias-Cut Midi Dress in Stretch Suiting",
+  "was": 545.0,
+  "now": 240.0,
+  "off": 56,
+  "av": 3,
+  "n": 5,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0013/4640/4401/files/Gisele_Bias-Cut_Dress_in_Stretch_Suiting_Off-White.jpg?v=1761064577",
+   "https://cdn.shopify.com/s/files/1/0013/4640/4401/files/Gisele_Bias-Cut_Dress_in_Stretch_Suiting_on_Model.jpg?v=1761064650"
+  ],
+  "no": 22
+ },
+ {
+  "brand": "b\u00fcbish",
+  "host": "bubishluxe.us",
+  "handle": "franca-wool-blazer-dress-ivory",
+  "name": "Franca Wool Blazer Dress - Ivory",
+  "was": 489.0,
+  "now": 99.0,
+  "off": 80,
+  "av": 4,
+  "n": 5,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/2706/6302/files/bubishFrancaWoolBlazerIvoryWOOLBLAZER_1.jpg?v=1757655138",
+   "https://cdn.shopify.com/s/files/1/2706/6302/files/bubishFrancaWoolBlazerDressIvory_2_dfd819a1-448c-44d1-b768-6a662216a3e3.jpg?v=1759211886"
+  ],
+  "no": 23
+ },
+ {
+  "brand": "b\u00fcbish",
+  "host": "bubishluxe.us",
+  "handle": "charlee-blazer-coat-taupe-grey",
+  "name": "Charlee Blazer Coat - Taupe Grey",
+  "was": 399.0,
+  "now": 99.0,
+  "off": 75,
+  "av": 4,
+  "n": 5,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/2706/6302/files/bubishCharleeBlazerCoatTaupeGreyCOAT_1.jpg?v=1757633130",
+   "https://cdn.shopify.com/s/files/1/2706/6302/files/bubishCharleeBlazerCoatTaupeGreyCOAT_2.jpg?v=1757633130"
+  ],
+  "no": 24
+ },
+ {
+  "brand": "Daze Denim",
+  "host": "dazedenim.com",
+  "handle": "cabana-wide-leg-pull-on-pant-charmed",
+  "name": "Cabana Drawstring Wide Leg in Charmed",
+  "was": 118.0,
+  "now": 41.3,
+  "off": 65,
+  "av": 10,
+  "n": 11,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/0442/2300/4821/files/DAZED_Denim_PDP_Shoot_MSmith_031226_D00017111NG-CHRMD_8427.jpg?v=1777330862",
+   "https://cdn.shopify.com/s/files/1/0442/2300/4821/files/DAZED_Denim_PDP_Shoot_MSmith_031226_D00017111NG-CHRMD_8431.jpg?v=1777330868"
+  ],
+  "no": 25
+ },
+ {
+  "brand": "Pistola Denim",
+  "host": "pistoladenim.com",
+  "handle": "karlee-chore-jacket",
+  "name": "Karlee Chore Jacket - Postcards",
+  "was": 258.0,
+  "now": 90.3,
+  "off": 65,
+  "av": 5,
+  "n": 5,
+  "img": [
+   "https://cdn.shopify.com/s/files/1/1616/7625/files/2025_MSmith_Pistola_Ecomm_P00080030RL_PSTCD_3261.jpg?v=1770317671",
+   "https://cdn.shopify.com/s/files/1/1616/7625/files/2025_MSmith_Pistola_Ecomm_P00080030RL_PSTCD_3247.jpg?v=1770317671"
+  ],
+  "no": 26
+ }
+]

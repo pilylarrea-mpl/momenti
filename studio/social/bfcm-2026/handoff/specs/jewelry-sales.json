@@ -1,0 +1,296 @@
+{
+ "slug": "jewelry-sales",
+ "hook": [
+  "jewelry sales, ranked by",
+  "what's really marked down"
+ ],
+ "hook_say": "I counted every piece at eight jewelry stores to see how much is really on sale. Two of them you can mostly skip.",
+ "sub": "i counted 14,170 in-stock pieces at 8 stores",
+ "brands": [
+  {
+   "brand": "Heaven Mayhem",
+   "host": "heavenmayhem.com",
+   "claim": "up to 60% off sitewide",
+   "stat": "98% marked down. 17% is half off or more",
+   "say": "heaven mayhem, up to 60% off, and 98% of the store really is marked down. the knot earrings everyone wants are 30% off, gold-plated brass, but it's all final sale so know your pick.",
+   "bg": {
+    "handle": "double-knot-earrings",
+    "img": 3
+   },
+   "tiles": [
+    {
+     "handle": "alma-clip-on-earrings",
+     "img": 1
+    },
+    {
+     "handle": "the-icon-watch",
+     "img": 0
+    },
+    {
+     "handle": "julia-net-necklace",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 184,
+    "ge40": 47,
+    "ge50": 32
+   }
+  },
+  {
+   "brand": "Sterling Forever",
+   "host": "sterlingforever.com",
+   "claim": "20% off sitewide",
+   "stat": "28% of the store is half off or more",
+   "say": "sterling forever only says 20% off sitewide, but 28% of the store is half off or more. the sterling silver rings are where it's good, the cecilia ring is $84 from $208.",
+   "bg": {
+    "handle": "amelia-paperclip-cz-tennis-necklace",
+    "img": 2
+   },
+   "tiles": [
+    {
+     "handle": "sterling-silver-cecilia-cz-open-ring",
+     "img": 0
+    },
+    {
+     "handle": "janice-twisted-hoop-earrings",
+     "img": 0
+    },
+    {
+     "handle": "robyn-ribbed-ring",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 1197,
+    "ge40": 350,
+    "ge50": 330
+   }
+  },
+  {
+   "brand": "BaubleBar",
+   "host": "baublebar.com",
+   "claim": "30% off sitewide",
+   "stat": "only 12% of the store is half off or more",
+   "say": "baublebar says 30% off sitewide. the deep markdowns are 12% of the store and about two thirds of those are disney, sports and holiday pieces. skip that section unless that's your thing, and look at the gold plated sterling birthstone necklaces, $46 from $138.",
+   "bg": {
+    "handle": "eliana-necklace-clear-gold",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "amren-birthstone-necklace-sapphire",
+     "img": 0
+    },
+    {
+     "handle": "heart-bangle-clear-gold",
+     "img": 0
+    },
+    {
+     "handle": "18k-gold-zodiac-pendant-necklace-leo",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 4771,
+    "ge40": 625,
+    "ge50": 578
+   }
+  },
+  {
+   "brand": "Loren Hope",
+   "host": "lorenhope.com",
+   "claim": "30% off sitewide + free gift",
+   "stat": "94% marked down. 20% is half off or more",
+   "say": "loren hope, 30% off sitewide and that one's true, 94% of the store is marked. the big statement earrings are half off, gold finish over brass with glass stones, and most are down to the last one.",
+   "bg": {
+    "handle": "chase-statement-necklace",
+    "img": 3
+   },
+   "tiles": [
+    {
+     "handle": "athens-earrings",
+     "img": 0
+    },
+    {
+     "handle": "avril-statement-earrings",
+     "img": 0
+    },
+    {
+     "handle": "marcella-pendant-necklace",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-07",
+   "numbers": {
+    "instock": 417,
+    "ge40": 88,
+    "ge50": 85
+   }
+  },
+  {
+   "brand": "Jet Set Candy",
+   "host": "jetsetcandy.com",
+   "claim": "up to 50% off",
+   "stat": "31% is 40% off or more. only 4% hits 50",
+   "say": "jet set candy says up to 50, but only 4% of the store gets there. 31% is 40 off though, and the half-off ones are the fun charms, like the gold vermeil passport that opens, $99 from $198.",
+   "bg": {
+    "handle": "silver-daily-charm-necklace",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "gold-passport-stamp-book-charm",
+     "img": 0
+    },
+    {
+     "handle": "sterling-silver-new-york-city-coffee-cup-charm",
+     "img": 0
+    },
+    {
+     "handle": "gold-sriracha-hot-sauce-charm",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 1920,
+    "ge40": 587,
+    "ge50": 74
+   }
+  },
+  {
+   "brand": "Ring Concierge",
+   "host": "ringconcierge.com",
+   "claim": "30% off best sellers",
+   "stat": "only 7% of the store is marked down",
+   "say": "ring concierge, 30% off best sellers and tennis, but that's 7% of the store. skip it unless you want 14k solid gold or lab diamonds. the easy way in is the sterling silver mini hoops, about $69.",
+   "bg": {
+    "handle": "bezel-lab-diamond-tennis-necklace",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "mini-classic-hoops",
+     "img": 0
+    },
+    {
+     "handle": "triple-round-lab-diamond-huggies",
+     "img": 0
+    },
+    {
+     "handle": "classic-twisted-ring",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 4818,
+    "ge40": 11,
+    "ge50": 4
+   }
+  },
+  {
+   "brand": "Miranda Frye",
+   "host": "mirandafrye.com",
+   "claim": "up to 25% off sitewide",
+   "stat": "17% marked down. 5% is half off or more",
+   "say": "miranda frye is up to 25% off sitewide, and only 5% of the store is half off or more. so go to the cuffs: the gia cuff, 18k gold plated, is $40 from $150.",
+   "bg": {
+    "handle": "amour-earrings-gold",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "gia-cuff-gold",
+     "img": 0
+    },
+    {
+     "handle": "lana-cuff-gold",
+     "img": 0
+    },
+    {
+     "handle": "estelle-necklace-gold",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 424,
+    "ge40": 32,
+    "ge50": 23
+   }
+  },
+  {
+   "brand": "Bryan Anthonys",
+   "host": "bryananthonys.com",
+   "claim": "BOGO free sitewide",
+   "stat": "34% of the store is half off or more",
+   "say": "and bryan anthonys, buy one get one free sitewide, plus 34% of the store is already half off or more. it's brass based, and the freshwater pearl necklace is $29 from $86. good for gifts.",
+   "bg": {
+    "handle": "one-by-one-pearl-earrings",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "grit-pendant-necklace",
+     "img": 3
+    },
+    {
+     "handle": "layers-of-you-bracelet-stack",
+     "img": 3
+    },
+    {
+     "handle": "healing-stone-necklace-moonstone",
+     "img": 3
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-04",
+   "numbers": {
+    "instock": 439,
+    "ge40": 151,
+    "ge50": 151
+   }
+  }
+ ],
+ "close_say": "So the banner and the store don't always match. Which jewelry brand should I count next?",
+ "end_text": [
+  "8 jewelry sales, counted",
+  "which brand next?"
+ ],
+ "caption": "I counted how much of each jewelry store is really marked down this Black Friday, so the banner isn't the only number you get. Heaven Mayhem and Loren Hope mean it, BaubleBar and Ring Concierge are more of a maybe. Which brand should I count next? Commissionable links in bio.",
+ "pinned_comment": "Counts are in-stock products on each site, read Nov 26-27. Heaven Mayhem is final sale. Most end Dec 1; Bryan Anthonys Dec 4, Loren Hope Dec 7.",
+ "recheck": [
+  "Homepages could not be re-read today (fetch blocked): confirm each banner still says what 'claim' says on Nov 28.",
+  "Bryan Anthonys: homepage text said BOGO 'ends tonight' while the sheet says Dec 4. Confirm BOGO is still live, and whether BOGO stacks with already marked-down pieces (the script does not claim it does).",
+  "Heaven Mayhem: knot earrings shown as 30% off and 'all items are final sale' per their banner; confirm.",
+  "Sterling Forever: banner says 20% sitewide; our half-off count includes advent calendars and mystery bundles.",
+  "BaubleBar: 'about two thirds novelty' is a keyword count of mine (396 of 578 half-off items match Disney/sports/holiday/kids words). The 30% sitewide is not in catalog prices; confirm how it applies at cart.",
+  "Loren Hope tiles and bg are each 1 left in stock; swap if sold out. Catalog also has shoes in the half-off group.",
+  "Jet Set Candy half-off charms are 1 in stock each; confirm before posting.",
+  "Ring Concierge: $69 is the sterling silver mini hoop ($68.60 from $98); the 14k gold version is $173.60.",
+  "Miranda Frye: 18k gold plated comes from the product tag, not the description. $40 is size XS of the Gia cuff (L is $46)."
+ ],
+ "dropped": [
+  "AUREUM: catalog is belts and handbags, not jewelry",
+  "Jennifer Behr: 25% off orders $150+ at checkout, nothing marked in catalog; mostly hair accessories",
+  "By Alona: 30% with code BLACKFRIDAY, nothing marked in catalog so no count to give",
+  "EP Jewels: sheet says 45% with BF2026 but homepage still shows 30% NOV30; conflicting",
+  "Lizzie Fortunato: up to 20% with code, 4% marked",
+  "At Present: 20% with code, 5% marked",
+  "THATCH: 5% of store at 40%+, no homepage claim text",
+  "Dana Rebecca, Ariel Gordon, BONHEUR: not found in pick.host"
+ ],
+ "end_q": "which brand should i count next?"
+}

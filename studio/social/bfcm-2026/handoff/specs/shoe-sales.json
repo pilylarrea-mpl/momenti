@@ -1,0 +1,303 @@
+{
+ "slug": "shoe-sales",
+ "hook": [
+  "every shoe sale worth opening",
+  "ranked by how real it is"
+ ],
+ "hook_say": "Eight shoe brands are on sale right now and I counted how many pairs are really marked down at each one. Here's the order I'd open them in.",
+ "sub": "i counted every in-stock shoe at each store",
+ "brands": [
+  {
+   "brand": "Intentionally Blank",
+   "host": "intentionallyblank.us",
+   "claim": "up to 75% off sitewide",
+   "stat": "163 of 233 shoes are 40% off or more",
+   "say": "intentionally blank says up to 75 off sitewide, and it holds up: 163 of their 233 shoes are 40 off or more. The knee high boots are half price, around 150. Start here.",
+   "bg": {
+    "handle": "tame",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "taffy-patent-leather-heeled-boot",
+     "img": 0
+    },
+    {
+     "handle": "filmore-suede-knee-boot",
+     "img": 0
+    },
+    {
+     "handle": "tamlin-faux-fur-lined-suede-ankle-boot",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 233,
+    "marked": 233,
+    "ge40": 163,
+    "ge50": 142
+   }
+  },
+  {
+   "brand": "Emme Parsons",
+   "host": "emmeparsons.com",
+   "claim": "private sale",
+   "stat": "53 of 122 shoes are 40% off or more",
+   "say": "emme parsons just calls it a private sale, no number. I counted: 53 of 122 shoes are 40 off or more. Still around 350 for a flat, so this is for the one pair you've wanted all year.",
+   "bg": {
+    "handle": "isabel-ivory-calf",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "delicat-bordeaux-kidskin",
+     "img": 0
+    },
+    {
+     "handle": "salome-mary-jane-cerulean-blue-suede",
+     "img": 0
+    },
+    {
+     "handle": "high-throat-ballerina-black-woven",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 122,
+    "marked": 53,
+    "ge40": 53,
+    "ge50": 7
+   }
+  },
+  {
+   "brand": "Marcella",
+   "host": "marcellanyc.com",
+   "claim": "10–50% off",
+   "stat": "63 of 148 shoes are 40% off or more",
+   "say": "marcella says 10 to 50 off, and 63 of their 148 shoes are 40 off or more. Honest note: marcella is on sale most of the year, so no rush on this one.",
+   "bg": {
+    "handle": "gemma-boots-red",
+    "img": 2
+   },
+   "tiles": [
+    {
+     "handle": "marceline-boots-black",
+     "img": 0
+    },
+    {
+     "handle": "camille-boots-lilac-purple",
+     "img": 0
+    },
+    {
+     "handle": "kimbra-leather-boots",
+     "img": 2
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-03",
+   "numbers": {
+    "instock": 148,
+    "marked": 148,
+    "ge40": 63,
+    "ge50": 57
+   }
+  },
+  {
+   "brand": "Rothy's",
+   "host": "rothys.com",
+   "claim": "up to 40% off everything",
+   "stat": "37 of 334 women's shoes hit 40% off",
+   "say": "rothy's says up to 40 off everything. Almost every shoe is marked down, but only 37 of 334 women's pairs actually hit 40. The clogs and the bow flats are the ones at 99.",
+   "bg": {
+    "handle": "womens-bow-pointed-toe-flat-conch",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "womens-penny-loafer-revelvet-woodland",
+     "img": 0
+    },
+    {
+     "handle": "womens-apres-clog-revelvet-dove",
+     "img": 0
+    },
+    {
+     "handle": "womens-max-buckle-mary-jane-ruby-mesh",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 334,
+    "marked": 291,
+    "ge40": 37,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "Nisolo",
+   "host": "nisolo.com",
+   "claim": "extra 40% off sitewide, up to 60% off",
+   "stat": "14 of 85 women's shoes listed at 40%+ off",
+   "say": "nisolo says an extra 40 off sitewide, up to 60. On the listed prices I only found 14 of 85 women's shoes at 40 or more, so check your cart before you pay. The lug boot at 99 is the one.",
+   "bg": {
+    "handle": "go-to-lace-lug-boot-black",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "lola-mary-jane-black-suede",
+     "img": 0
+    },
+    {
+     "handle": "lucy-loafer-black",
+     "img": 0
+    },
+    {
+     "handle": "lidia-whipstitch-loafer-pearl",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "",
+   "numbers": {
+    "instock": 85,
+    "marked": 57,
+    "ge40": 14,
+    "ge50": 10
+   }
+  },
+  {
+   "brand": "Partlow",
+   "host": "partlowofficial.com",
+   "claim": "30% off select styles, up to 50%",
+   "stat": "28 of 80 boots on sale, 15 at 40%+",
+   "say": "partlow says 30 off select styles, up to 50, and select is the right word: 28 of 80 boots are on sale. These are western boots and most are still over 600 after the discount. Only if you were already saving for them.",
+   "bg": {
+    "handle": "hallee-brown",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "julien",
+     "img": 0
+    },
+    {
+     "handle": "woodley",
+     "img": 0
+    },
+    {
+     "handle": "brigitte-black",
+     "img": 0
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 80,
+    "marked": 28,
+    "ge40": 15,
+    "ge50": 8
+   }
+  },
+  {
+   "brand": "Margaux",
+   "host": "margauxny.com",
+   "claim": "20% off everything",
+   "stat": "their only sitewide sale of the year",
+   "say": "margaux is 20 off everything, taken off at checkout, so the prices on the page won't look reduced. It's a small number, but they say it's their only sitewide sale of the year. If you want the suede boots, this is the week.",
+   "bg": {
+    "handle": "the-phoebe-boot-ganache-suede",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "the-wells-boot-cedar-suede",
+     "img": 1
+    },
+    {
+     "handle": "the-sigrid-black-calf",
+     "img": 1
+    },
+    {
+     "handle": "the-studio-loafer-espresso-nappa",
+     "img": 1
+    }
+   ],
+   "code": "",
+   "ends": "2026-12-01",
+   "numbers": {
+    "instock": 292,
+    "marked": 0,
+    "ge40": 0,
+    "ge50": 0
+   }
+  },
+  {
+   "brand": "FRĒDA SALVADOR",
+   "host": "fredasalvador.com",
+   "claim": "25% off, our best sale of the year",
+   "stat": "88 of 244 shoes are half off or more",
+   "say": "freda salvador says 25 off, and they're underselling it. 88 of their 244 shoes are half off or more. The new boots are the 25, the loafers and flats are where the 50s and 70s are.",
+   "bg": {
+    "handle": "quinn-black-calf-wr",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "shaina-black-embossed-croc",
+     "img": 0
+    },
+    {
+     "handle": "elba-leopard-haircalf",
+     "img": 3
+    },
+    {
+     "handle": "sally-chocolate-knotted-calf",
+     "img": 0
+    }
+   ],
+   "code": "VIPFRIDAY26",
+   "ends": "2026-12-02",
+   "numbers": {
+    "instock": 244,
+    "marked": 208,
+    "ge40": 92,
+    "ge50": 88
+   }
+  }
+ ],
+ "close_say": "So intentionally blank and freda for real markdowns, margaux if you've been waiting all year. Which one are you opening first?",
+ "end_text": [
+  "8 shoe sales, counted pair by pair",
+  "which one are you opening?"
+ ],
+ "caption": "Every shoe sale worth opening this Black Friday, ranked by how many pairs are really marked down, not by the banner. I counted every in-stock shoe at each store on Nov 26-27. Which brand should I count next? Commissionable links in bio.",
+ "pinned_comment": "Counts are in-stock shoes only, read Nov 26-27. \"40% off\" means off that pair's own original price. Margaux and Nisolo take some or all of the discount at checkout, so their page prices look higher than what you pay.",
+ "recheck": [
+  "FRĒDA SALVADOR: sheet lists code VIPFRIDAY26, but the catalog already shows 25% marked on 95 shoes. Confirm whether the code is needed or stacks.",
+  "Nisolo: confirm how the 'extra 40% off sitewide' is applied (cart vs listed price); our count uses listed prices only. Sheet has no end date.",
+  "Marcella: site refuses live checks; numbers are from the Nov 26-27 catalog read only. On sale most of the year (said in the script).",
+  "Margaux: catalog shows 0 marked; 20% is taken at checkout per their homepage. Confirm it still says 'only sitewide sale of the year'.",
+  "Emme Parsons: sheet says '80% off' but the deepest in-stock markdown we found is 70%, so the script uses only 'private sale'. Count includes 14 untyped archive-sample shoes.",
+  "Partlow: sale started Nov 27 per sheet; catalog read may predate full markdowns. Recheck the 28 of 80.",
+  "Rothy's: women's count excludes men's, kids, bags; Daily Collection is excluded from the sale by their own terms.",
+  "Intentionally Blank: count includes the 'SALE SHOES' type (70 items, includes roller skates)."
+ ],
+ "dropped": [
+  "Kyrgies: sheet sale ended Nov 26 (homepage now shows one-time code BISHKEK25); nothing marked in catalog",
+  "alice + olivia: catalog has no product types and a title search found no shoes to count; Black Friday extra 30% ends Nov 28",
+  "M.M.LaFleur: 41 shoes, 20 at 40%+; small shoe section, cut for length",
+  "Petal & Pup: 52 shoes, 16 at 40%+; sale ends Nov 29, cut for length",
+  "Jenni Kayne: 37 shoes, none marked down in catalog",
+  "Favorite Daughter: 70 shoes, 1 marked down in catalog (25% claim likely at checkout)",
+  "La Coqueta, Ten Little: kids",
+  "Piglet in Bed, DISSH: not priced in $"
+ ],
+ "end_q": "which one are you opening?"
+}

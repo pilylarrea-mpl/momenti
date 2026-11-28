@@ -1,0 +1,22 @@
+{
+ "say": [
+  "Beauty sales. Six stores, and one thing I'd actually open at each.",
+  "MERIT. This is their only sale of the year. Solo Shadow, the cream eyeshadow, is 18.20 from 26 in two shades, Viper and Midnight, and the rest of the store is 20 percent off. Good for a five-minute face. Ends December 1.",
+  "Chantecaille. The Flamingo Lip Chic is 55 dollars, and code CYBER takes 25 percent off. Good for the friend who has everything. Ends December 2.",
+  "Josie Maran. The Whipped Argan Oil Body Butter is 62 dollars and the site says 20 percent off. Good for dry winter skin. Ends November 30.",
+  "Londontown. Just Add Color is a nail set, 54 dollars, 30 percent off with code BF30. Good for doing your own nails at home. Ends December 2.",
+  "Supergoop. 20 percent off sitewide. The Best of Supergoop SPF Set is 134 before the discount and has three sunscreens in it. Good for stocking up before summer.",
+  "Arey. They say up to 50 percent off sitewide. The Restorative Kit is 185 before the sale. Good for anyone starting to see greys. Ends December 2.",
+  "Which store should I read next?"
+ ],
+ "caption": "Beauty sales, one thing named at each. MERIT: their only sale of the year, Solo Shadow $18.20 from $26 in Viper and Midnight, rest of the store 20% off (25% over $150), ends Dec 1. Chantecaille: Flamingo Lip Chic $55, 25% off with code CYBER, ends Dec 2. Josie Maran: Whipped Argan Oil Body Butter $62, site says 20% off, ends Nov 30. Londontown: Just Add Color set $54, 30% off with code BF30, ends Dec 2. Supergoop!: 20% off sitewide, Best of Supergoop! SPF Set $134 before the discount. Arey: up to 50% off sitewide, The Restorative Kit $185 before the sale, ends Dec 2. Commissionable links in bio.",
+ "recheck": [
+  "Catalog was read Nov 26-27: reopen each product page and confirm price and stock before posting.",
+  "MERIT: Solo Shadow at $18.20 is only the shades Viper and Midnight (other shades list at $26 and get the 20%). Confirm both are still in stock.",
+  "Josie Maran: the sheet says 25% off, the homepage says 20% off. The video says 20%. The Nov 30 end date comes from the sheet only.",
+  "Supergoop!: no end date found for the 20% off sitewide, so none is shown. Confirm it applies to the Best of Supergoop! SPF Set (sets are sometimes excluded).",
+  "Arey: 'up to 50% off sitewide' is the store's claim; the catalog still showed The Restorative Kit at $185, so the kit's own discount is not verified. Check the cart price.",
+  "Chantecaille and Londontown: codes CYBER and BF30 come from the homepages; test each at checkout. Catalog shows full price, so no now-price is given.",
+  "The script's 'good for' lines and 'three sunscreens' come from product descriptions; change any that do not sound like you."
+ ]
+}

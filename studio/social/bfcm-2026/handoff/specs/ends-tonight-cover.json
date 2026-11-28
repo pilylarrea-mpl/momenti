@@ -1,0 +1,145 @@
+{
+ "slug": "ends-tonight-cover",
+ "tag": "Black Friday",
+ "per": 3.8,
+ "hook": {
+  "caps": "Ends tonight.",
+  "per": 9,
+  "fact": "I opened each site today, Nov 27",
+  "dry": "Three close at midnight.",
+  "dur": 2.4,
+  "clips": [
+   {
+    "f": "et/ao0.mp4",
+    "ss": 0
+   },
+   {
+    "f": "et/ro0.mp4",
+    "ss": 0
+   }
+  ]
+ },
+ "brands": [
+  {
+   "brand": "alice + olivia",
+   "big": [
+    "30",
+    "% off"
+   ],
+   "what": "Almost everything",
+   "deadline": "Today only",
+   "facts": [
+    "x"
+   ],
+   "clips": [
+    {
+     "f": "et/ao0.mp4",
+     "ss": 0
+    },
+    {
+     "f": "et/ao1.mp4",
+     "ss": 0
+    }
+   ]
+  },
+  {
+   "brand": "Rothy's",
+   "big": [
+    "$99",
+    ""
+   ],
+   "what": "The Casual Clog, was $160",
+   "deadline": "Ends tonight",
+   "facts": [
+    "x"
+   ],
+   "clips": [
+    {
+     "f": "et/ro0.mp4",
+     "ss": 0
+    },
+    {
+     "f": "et/ro1.mp4",
+     "ss": 0
+    }
+   ]
+  },
+  {
+   "brand": "Knix",
+   "big": [
+    "30",
+    "% off"
+   ],
+   "what": "Sitewide",
+   "deadline": "Boxers deal ends tonight",
+   "facts": [
+    "x"
+   ],
+   "clips": [
+    {
+     "f": "et/kn0.mp4",
+     "ss": 0
+    },
+    {
+     "f": "et/kn1.mp4",
+     "ss": 0
+    }
+   ]
+  },
+  {
+   "brand": "MONROW",
+   "big": [
+    "30",
+    "% off"
+   ],
+   "what": "In cart · 30% more off sale styles",
+   "deadline": "Still on",
+   "facts": [
+    "x"
+   ],
+   "clips": [
+    {
+     "f": "et/mo0.mp4",
+     "ss": 0
+    },
+    {
+     "f": "et/mo1.mp4",
+     "ss": 0
+    }
+   ]
+  },
+  {
+   "brand": "Petal & Pup",
+   "big": [
+    "30",
+    "% off"
+   ],
+   "what": "On every price",
+   "deadline": "Code BF30",
+   "facts": [
+    "x"
+   ],
+   "clips": [
+    {
+     "f": "et/pp0.mp4",
+     "ss": 0
+    },
+    {
+     "f": "et/pp1.mp4",
+     "ss": 0
+    }
+   ]
+  }
+ ],
+ "end": {
+  "caps": "Which one are you opening?",
+  "dry": "",
+  "dur": 2.4,
+  "clips": [
+   {
+    "f": "et/ao1.mp4",
+    "ss": 0
+   }
+  ]
+ }
+}

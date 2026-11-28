@@ -1,0 +1,165 @@
+{
+ "slug": "ends-soon",
+ "tag": "Black Friday",
+ "hook": [
+  "x"
+ ],
+ "hook_caps": "Ending this weekend.",
+ "hook_per": 9,
+ "hook_fact": "Six sales, in the order they close",
+ "hook_dry": "Tonight comes first.",
+ "end_caps": "Which one are you opening?",
+ "end_dry": "",
+ "brands": [
+  {
+   "brand": "alice + olivia",
+   "host": "aliceandolivia.com",
+   "claim": "25% off",
+   "stat": "Ends tonight",
+   "dry": "Tonight, then it’s gone.",
+   "bg": {
+    "handle": "patrica-embell-tiered-ruffle-maxi-dress-orange-peel",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "nina-embell-scallop-mini-dress-pale-gold",
+     "img": 0
+    },
+    {
+     "handle": "sion-sunburst-plt-cape-slv-open-bk-maxi-dress-boundless-paisley",
+     "img": 0
+    },
+    {
+     "handle": "esma-sq-nk-flared-midi-dress-w-belt-natural",
+     "img": 0
+    }
+   ]
+  },
+  {
+   "brand": "Knix",
+   "host": "knix.com",
+   "claim": "30% off apparel and sleep",
+   "stat": "Ends tonight",
+   "dry": "Pajamas, until midnight.",
+   "bg": {
+    "handle": "modal-long-sleeve-sleep-set-last-call",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "the-quintessential-sleep-set-reward-1",
+     "img": 0
+    },
+    {
+     "handle": "modal-long-sleeve-sleep-set-last-call",
+     "img": 0
+    },
+    {
+     "handle": "modal-long-sleeve-sleep-set",
+     "img": 0
+    }
+   ]
+  },
+  {
+   "brand": "Rothy's",
+   "host": "rothys.com",
+   "claim": "the Casual Clog at $99",
+   "stat": "Ends Saturday",
+   "dry": "One clog. One price.",
+   "bg": {
+    "handle": "womens-cozy-clog-revelvet-cream-herringbone",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "womens-cozy-clog-revelvet-slate-herringbone",
+     "img": 0
+    },
+    {
+     "handle": "womens-teddy-buckle-clog-revelvet-russet",
+     "img": 0
+    },
+    {
+     "handle": "womens-teddy-buckle-clog-revelvet-olive",
+     "img": 0
+    }
+   ]
+  },
+  {
+   "brand": "MONROW",
+   "host": "monrow.com",
+   "claim": "30% off",
+   "stat": "Ends Sunday",
+   "dry": "Sweats, mostly.",
+   "bg": {
+    "handle": "cashmere-zip-up-hoody-moss",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "mens-plaid-flannel-shacket-black-natural",
+     "img": 0
+    },
+    {
+     "handle": "cashmere-cardigan-1",
+     "img": 0
+    },
+    {
+     "handle": "cashmere-cardigan",
+     "img": 0
+    }
+   ]
+  },
+  {
+   "brand": "Petal & Pup",
+   "host": "petalandpup.com",
+   "claim": "30% off with code BF30",
+   "stat": "Ends Sunday",
+   "dry": "Bring the code.",
+   "bg": {
+    "handle": "rhea-strapless-midi-dress-sage-floral",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "zaria-midi-dress-pink-floral",
+     "img": 0
+    },
+    {
+     "handle": "margot-maxi-dress-lemon",
+     "img": 0
+    },
+    {
+     "handle": "margot-maxi-dress-black",
+     "img": 0
+    }
+   ]
+  },
+  {
+   "brand": "Social Threads",
+   "host": "shopsocialthreads.com",
+   "claim": "30% off, code BLACKFRIDAY30",
+   "stat": "Ends Sunday",
+   "dry": "The code is the sale.",
+   "bg": {
+    "handle": "capital-z-the-wren-tote",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "sam-edelman-sylvia-knee-high-boot",
+     "img": 0
+    },
+    {
+     "handle": "sam-edelman-milla-knee-high-boot",
+     "img": 0
+    },
+    {
+     "handle": "sam-edelman-porter-knee-high-boot",
+     "img": 0
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "slug": "ends-tonight-pop",
+ "tag": "Black Friday",
+ "hook": [
+  "x"
+ ],
+ "hook_caps": "Ends tonight.",
+ "hook_per": 9,
+ "hook_fact": "I opened each site today, Nov 27",
+ "hook_dry": "Three close. Two stay.",
+ "end_caps": "Which one are you opening?",
+ "end_dry": "",
+ "brands": [
+  {
+   "brand": "alice + olivia",
+   "host": "aliceandolivia.com",
+   "claim": "30% off almost everything",
+   "stat": "Today only",
+   "dry": "Today only, they say.",
+   "bg": {
+    "handle": "patrica-embell-tiered-ruffle-maxi-dress-orange-peel",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "nina-embell-scallop-mini-dress-pale-gold",
+     "img": 0
+    },
+    {
+     "handle": "sion-sunburst-plt-cape-slv-open-bk-maxi-dress-boundless-paisley",
+     "img": 0
+    },
+    {
+     "handle": "esma-sq-nk-flared-midi-dress-w-belt-natural",
+     "img": 0
+    }
+   ],
+   "key": "30% off",
+   "flag": "Today only",
+   "small": "Almost everything"
+  },
+  {
+   "brand": "Rothy's",
+   "host": "rothys.com",
+   "claim": "the Casual Clog at $99",
+   "stat": "Ends tonight, Nov 27",
+   "dry": "Day two of two.",
+   "bg": {
+    "handle": "womens-cozy-clog-revelvet-cream-herringbone",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "womens-cozy-clog-revelvet-slate-herringbone",
+     "img": 0
+    },
+    {
+     "handle": "womens-teddy-buckle-clog-revelvet-russet",
+     "img": 0
+    },
+    {
+     "handle": "womens-teddy-buckle-clog-revelvet-olive",
+     "img": 0
+    }
+   ],
+   "key": "$99 clog",
+   "flag": "Ends tonight",
+   "small": "The Casual Clog, was $160"
+  },
+  {
+   "brand": "Knix",
+   "host": "knix.com",
+   "claim": "30% off sitewide",
+   "stat": "Mini Dream Boxers 25% off ends tonight",
+   "dry": "Boxers until midnight.",
+   "bg": {
+    "handle": "modal-long-sleeve-sleep-set-last-call",
+    "img": 0
+   },
+   "tiles": [
+    {
+     "handle": "the-quintessential-sleep-set-reward-1",
+     "img": 0
+    },
+    {
+     "handle": "modal-long-sleeve-sleep-set-last-call",
+     "img": 0
+    },
+    {
+     "handle": "modal-long-sleeve-sleep-set",
+     "img": 0
+    }
+   ],
+   "key": "30% off",
+   "flag": "Sitewide",
+   "small": "Mini Dream Boxers deal ends tonight"
+  },
+  {
+   "brand": "MONROW",
+   "host": "monrow.com",
+   "claim": "30% off sitewide, in cart",
+   "stat": "Plus 30% more off sale styles",
+   "dry": "Thirty, then thirty.",
+   "bg": {
+    "handle": "cashmere-zip-up-hoody-moss",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "mens-plaid-flannel-shacket-black-natural",
+     "img": 0
+    },
+    {
+     "handle": "cashmere-cardigan-1",
+     "img": 0
+    },
+    {
+     "handle": "cashmere-cardigan",
+     "img": 0
+    }
+   ],
+   "key": "30% off",
+   "flag": "In cart",
+   "small": "Plus 30% more off sale styles"
+  },
+  {
+   "brand": "Petal & Pup",
+   "host": "petalandpup.com",
+   "claim": "30% off with code BF30",
+   "stat": "The code is on every price tag",
+   "dry": "Bring the code.",
+   "bg": {
+    "handle": "rhea-strapless-midi-dress-sage-floral",
+    "img": 1
+   },
+   "tiles": [
+    {
+     "handle": "zaria-midi-dress-pink-floral",
+     "img": 0
+    },
+    {
+     "handle": "margot-maxi-dress-lemon",
+     "img": 0
+    },
+    {
+     "handle": "margot-maxi-dress-black",
+     "img": 0
+    }
+   ],
+   "key": "30% off",
+   "flag": "Code BF30",
+   "small": "Shown on every price"
+  }
+ ]
+}

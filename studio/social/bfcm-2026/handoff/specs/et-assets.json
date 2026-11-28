@@ -1,0 +1,71 @@
+{
+ "Rothy's": {
+  "host": "rothys.com",
+  "vids": [],
+  "hand": [
+   "womens-casual-clog-cinnamon",
+   "womens-casual-clog-taupe",
+   "womens-casual-clog-revelvet-syrah",
+   "womens-casual-clog-revelvet-black",
+   "womens-casual-clog-revelvet-khaki-cat",
+   "womens-casual-clog-revelvet-pine"
+  ]
+ },
+ "Knix": {
+  "host": "knix.com",
+  "vids": [
+   {
+    "rel": "et/knix_0.mp4",
+    "handle": "the-big-deal-gift-box"
+   },
+   {
+    "rel": "et/knix_1.mp4",
+    "handle": "mntd-best-damn-t-5-pack"
+   }
+  ],
+  "hand": [
+   "the-big-deal-gift-box",
+   "leakproof-mystery-7-pack",
+   "mens-best-damn-gift-bundle",
+   "mntd-best-damn-t-5-pack",
+   "teen-complete-cycle-kit-boyshort",
+   "teen-complete-cycle-kit-bikini"
+  ]
+ },
+ "alice + olivia": {
+  "host": "aliceandolivia.com",
+  "vids": [],
+  "hand": [
+   "calissa-embellished-ballgown-sea-breeze-lavender",
+   "calissa-embellished-ballgown",
+   "maxine-embell-drop-waist-gown-floral-radiance",
+   "maxine-embellished-gown-magic-garden-black",
+   "julia-embell-scoop-nk-midi-gown-desert-sprigs-black",
+   "julia-embell-scoop-nk-midi-gown"
+  ]
+ },
+ "MONROW": {
+  "host": "monrow.com",
+  "vids": [],
+  "hand": [
+   "cashmere-zip-up-hoody-moss",
+   "mens-plaid-flannel-shacket-black-natural",
+   "cashmere-cardigan-1",
+   "cashmere-cardigan",
+   "supersoft-vintage-sweats-set-assorted",
+   "wool-cashmere-wide-leg-sweat-2"
+  ]
+ },
+ "Petal & Pup": {
+  "host": "petalandpup.com",
+  "vids": [],
+  "hand": [
+   "rhea-strapless-midi-dress-sage-floral",
+   "zaria-midi-dress-pink-floral",
+   "margot-maxi-dress-lemon",
+   "margot-maxi-dress-black",
+   "fiora-maxi-dress-white",
+   "posedly-midi-dress-cream"
+  ]
+ }
+}
